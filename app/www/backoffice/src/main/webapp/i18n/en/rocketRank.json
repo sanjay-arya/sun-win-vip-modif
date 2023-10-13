@@ -1,0 +1,27 @@
+{
+  "txcbApp": {
+    "rocketRank": {
+      "home": {
+        "title": "Rocket Ranks",
+        "createLabel": "Create a new Rocket Rank",
+        "createOrEditLabel": "Create or edit a Rocket Rank",
+        "notFound": "No Rocket Ranks found",
+        "editAll": "Edit all",
+        "msgSuccess": "Updated successful",
+        "msgUnsuccessAll": "Successfully updated {{ param1 }} records. {{ param2 }} records have not been updated.",
+        "validationAmountMinMax": "Amount should be at least 1000000 and cannot be more than 99999999999999999."
+      },
+      "created": "A new Rocket Rank is created with identifier {{ param }}",
+      "updated": "A Rocket Rank is updated with identifier {{ param }}",
+      "deleted": "A Rocket Rank is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Rocket Rank {{ id }}?"
+      },
+      "detail": {
+        "title": "Rocket Rank"
+      },
+      "loginname": "Loginname",
+      "amount": "Amount"
+    }
+  }
+}

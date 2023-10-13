@@ -1,0 +1,25 @@
+{
+  "txcbApp": {
+    "xocdia": {
+      "home": {
+        "title": "Xocdias",
+        "createLabel": "Add new một Xocdia",
+        "createOrEditLabel": "Add new hoặc cập nhật Xocdia",
+        "notFound": "No Xocdias found"
+      },
+      "created": "Một Xocdia mới được tạo với định danh {{ param }}",
+      "updated": "Một Xocdia cập nhật với định danh {{ param }}",
+      "deleted": "Một Xocdia đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Xocdia {{ id }}?"
+      },
+      "detail": {
+        "title": "Xocdia"
+      },
+      "opentime": "Opentime",
+      "endtime": "Endtime",
+      "status": "Status",
+      "result": "Result"
+    }
+  }
+}

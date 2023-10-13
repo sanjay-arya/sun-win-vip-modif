@@ -1,0 +1,4 @@
+2023-01-20 01:00:00,397 | INFO  | Timer-0 | report Save report 19-01-2023 start at Fri Jan 20 01:00:00 ICT 2023
+2023-01-20 01:00:00,433 | INFO  | Timer-0 | report Save report Fri Jan 20 01:00:00 ICT 2023 success at Fri Jan 20 01:00:00 ICT 2023
+2023-01-20 03:00:00,376 | INFO  | Timer-0 | report fixYesterdayData start at: Fri Jan 20 03:00:00 ICT 2023
+2023-01-20 03:00:01,391 | INFO  | Timer-0 | report fixYesterdayData success at: Fri Jan 20 03:00:01 ICT 2023

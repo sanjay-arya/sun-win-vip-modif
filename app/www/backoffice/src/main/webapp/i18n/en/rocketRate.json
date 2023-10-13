@@ -1,0 +1,33 @@
+{
+  "txcbApp": {
+    "rocketRate": {
+      "home": {
+        "title": "Rocket Rates",
+        "createLabel": "Create a new Rocket Rate",
+        "createOrEditLabel": "Create or edit a Rocket Rate",
+        "notFound": "No Rocket Rates found",
+        "editAll": "Edit all",
+        "msgSuccess": "Updated successful",
+        "msgUnsuccessAll": "Successfully updated {{ param1 }} records. {{ param2 }} records have not been updated."
+      },
+      "created": "A new Rocket Rate is created with identifier {{ param }}",
+      "updated": "A Rocket Rate is updated with identifier {{ param }}",
+      "deleted": "A Rocket Rate is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Rocket Rate {{ id }}?"
+      },
+      "detail": {
+        "title": "Rocket Rate"
+      },
+      "label": {
+        "type": "Type",
+        "pick": "Pick number",
+        "rate": "Rate"
+      },
+      "types": {
+        "over": "Over",
+        "under": "Under"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+15 Feb 2023 11:18:18,902 ERROR [main] debug - start jetty
+15 Feb 2023 11:18:18,907 ERROR [main] debug - start TLMN
+15 Feb 2023 22:26:15,475 ERROR [New I/O worker #1] debug - Test ip 1: 117.5.153.47
+15 Feb 2023 22:26:15,477 ERROR [New I/O worker #1] debug - Inet4Address: 117.5.153.47
+15 Feb 2023 22:26:15,477 ERROR [New I/O worker #1] debug - Check request 1
+15 Feb 2023 22:26:15,477 ERROR [New I/O worker #1] debug - Check request 2
+15 Feb 2023 22:26:15,482 ERROR [New I/O worker #1] debug - Websocket Handshake
+15 Feb 2023 22:26:15,639 ERROR [bitzero.server.controllers.ExtensionController-1] debug - 
+15 Feb 2023 22:26:19,446 ERROR [bitzero.server.controllers.ExtensionController-2] debug - 

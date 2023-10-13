@@ -1,0 +1,38 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="rocketChatbox">
+            <h2><span jhiTranslate="txcbApp.rocketChatbox.detail.title">Rocket Chatbox</span> {{ rocketChatbox.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="txcbApp.rocketChatbox.label.loginname">Loginname</span></dt>
+                <dd>
+                    <span>{{ rocketChatbox.loginname }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.rocketChatbox.label.message">Message</span></dt>
+                <dd>
+                    <span>{{ rocketChatbox.message }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.rocketChatbox.label.created">Created</span></dt>
+                <dd>
+                    <span>{{ rocketChatbox.created }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/rocket-chatbox', rocketChatbox.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

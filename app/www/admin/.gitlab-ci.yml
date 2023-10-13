@@ -1,0 +1,21 @@
+#variables:
+#  TOKEN: wvDrfAa2azX7mCQCtfzQ
+#  URL_REP: git@gitlab.com:kingclub/adminphp.git
+#  GIT_STRATEGY: clone
+#  GIT_DEPTH: 1
+
+stages:
+  - deploy
+
+stage-deploy:
+  stage: deploy
+  only:
+    refs:
+      - develop
+  script:
+    - whoami
+    - pwd
+    - rsync -r . /var/www/card-game/admin/
+#    - sudo git pull https://gitlab-ci-token:$TOKEN@$URL_REP develop
+    - cp config.php /var/www/card-game/admin/application/config/
+    - cp database.php /var/www/card-game/admin/application/config/

@@ -1,0 +1,96 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+            <h2 id="jhi-report-game-heading" jhiTranslate="taixiucbApp.reportGame.home.createOrEditLabel">Create or edit a Report Game</h2>
+
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+
+                <div class="form-group" [hidden]="!editForm.get('id')!.value">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id" formControlName="id" readonly />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="taixiucbApp.reportGame.rdate" for="field_rdate">Rdate</label>
+                    <div class="input-group">
+                        <input id="field_rdate" type="text" class="form-control" name="rdate" ngbDatepicker #rdateDp="ngbDatepicker" formControlName="rdate"/>
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="rdateDp.toggle()"><fa-icon icon="calendar-alt"></fa-icon></button>
+                        </span>
+                    </div>
+                    <div *ngIf="editForm.get('rdate')!.invalid && (editForm.get('rdate')!.dirty || editForm.get('rdate')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('rdate')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="taixiucbApp.reportGame.sicboBet" for="field_sicboBet">Sicbo Bet</label>
+                    <input type="number" class="form-control" name="sicboBet" id="field_sicboBet"
+                           formControlName="sicboBet"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="taixiucbApp.reportGame.sicboWin" for="field_sicboWin">Sicbo Win</label>
+                    <input type="number" class="form-control" name="sicboWin" id="field_sicboWin"
+                           formControlName="sicboWin"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="taixiucbApp.reportGame.sedieBet" for="field_sedieBet">Sedie Bet</label>
+                    <input type="number" class="form-control" name="sedieBet" id="field_sedieBet"
+                           formControlName="sedieBet"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="taixiucbApp.reportGame.sedieWin" for="field_sedieWin">Sedie Win</label>
+                    <input type="number" class="form-control" name="sedieWin" id="field_sedieWin"
+                           formControlName="sedieWin"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="taixiucbApp.reportGame.rocketBet" for="field_rocketBet">Rocket Bet</label>
+                    <input type="number" class="form-control" name="rocketBet" id="field_rocketBet"
+                           formControlName="rocketBet"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="taixiucbApp.reportGame.rocketWin" for="field_rocketWin">Rocket Win</label>
+                    <input type="number" class="form-control" name="rocketWin" id="field_rocketWin"
+                           formControlName="rocketWin"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="taixiucbApp.reportGame.sicboFee" for="field_sicboFee">Sicbo Fee</label>
+                    <input type="number" class="form-control" name="sicboFee" id="field_sicboFee"
+                           formControlName="sicboFee"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="taixiucbApp.reportGame.sedieFee" for="field_sedieFee">Sedie Fee</label>
+                    <input type="number" class="form-control" name="sedieFee" id="field_sedieFee"
+                           formControlName="sedieFee"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="taixiucbApp.reportGame.rocketFee" for="field_rocketFee">Rocket Fee</label>
+                    <input type="number" class="form-control" name="rocketFee" id="field_rocketFee"
+                           formControlName="rocketFee"/>
+                </div>
+            </div>
+
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary" (click)="previousState()">
+                    <fa-icon icon="ban"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+
+                <button type="submit" id="save-entity" [disabled]="editForm.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon icon="save"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

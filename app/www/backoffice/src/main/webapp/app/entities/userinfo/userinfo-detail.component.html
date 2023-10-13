@@ -1,0 +1,36 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="userinfo">
+            <h2><span jhiTranslate="txcbApp.userinfo.detail.title">Userinfo</span> {{ userinfo.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="txcbApp.userinfo.loginname">Loginname</span></dt>
+                <dd>
+                    <span>{{ userinfo.loginname }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.userinfo.pwd">Pwd</span></dt>
+                <dd>
+                    <span>{{ userinfo.pwd }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.userinfo.usertype">Usertype</span></dt>
+                <dd>
+                    <span>{{ userinfo.usertype }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.userinfo.status">Status</span></dt>
+                <dd>
+                    <span>{{ userinfo.status }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+        </div>
+    </div>
+</div>

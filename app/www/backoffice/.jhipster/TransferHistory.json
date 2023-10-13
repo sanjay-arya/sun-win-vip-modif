@@ -1,0 +1,44 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "amount",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "created",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "action",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "current_balance",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "username",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "orderId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "transId",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20211102202202",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "no",
+  "entityTableName": "transfer_history",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "pagination"
+}

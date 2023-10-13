@@ -1,0 +1,24 @@
+{
+  "txcbApp": {
+    "jackpotSettingRecord": {
+      "home": {
+        "title": "Jackpot Setting Records",
+        "createLabel": "Add new một Jackpot Setting Record",
+        "createOrEditLabel": "Add new hoặc cập nhật Jackpot Setting Record",
+        "notFound": "No Jackpot Setting Records found"
+      },
+      "created": "Một Jackpot Setting Record mới được tạo với định danh {{ param }}",
+      "updated": "Một Jackpot Setting Record cập nhật với định danh {{ param }}",
+      "deleted": "Một Jackpot Setting Record đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Jackpot Setting Record {{ id }}?"
+      },
+      "detail": {
+        "title": "Jackpot Setting Record"
+      },
+      "createdBy": "Người tạo",
+      "createdDate": "Time",
+      "value": "Giá trị"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "txcbApp": {
+    "rocketChatbox": {
+      "home": {
+        "title": "Rocket Chatboxes",
+        "createLabel": "Create a new Rocket Chatbox",
+        "createOrEditLabel": "Create or edit a Rocket Chatbox",
+        "notFound": "No Rocket Chatboxes found"
+      },
+      "created": "A new Rocket Chatbox is created with identifier {{ param }}",
+      "updated": "A Rocket Chatbox is updated with identifier {{ param }}",
+      "deleted": "A Rocket Chatbox is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Rocket Chatbox {{ id }}?"
+      },
+      "detail": {
+        "title": "Rocket Chatbox"
+      },
+      "label": {
+        "loginname": "Loginname",
+        "message": "Message",
+        "created": "Created"
+      }
+    }
+  }
+}

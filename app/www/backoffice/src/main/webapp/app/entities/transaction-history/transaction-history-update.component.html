@@ -1,0 +1,57 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+            <h2 id="jhi-transaction-history-heading" jhiTranslate="taixiucbApp.transactionHistory.home.createOrEditLabel">Create or edit a Transaction History</h2>
+
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+
+                <div class="form-group" [hidden]="!editForm.get('id')!.value">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id" formControlName="id" readonly />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="taixiucbApp.transactionHistory.amount" for="field_amount">Amount</label>
+                    <input type="number" class="form-control" name="amount" id="field_amount"
+                           formControlName="amount"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="taixiucbApp.transactionHistory.created" for="field_created">Created</label>
+                    <div class="d-flex">
+                        <input id="field_created" type="datetime-local" class="form-control" name="created" formControlName="created" placeholder="YYYY-MM-DD HH:mm"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="taixiucbApp.transactionHistory.action" for="field_action">Action</label>
+                    <input type="number" class="form-control" name="action" id="field_action"
+                           formControlName="action"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="taixiucbApp.transactionHistory.current_balance" for="field_current_balance">Current Balance</label>
+                    <input type="number" class="form-control" name="current_balance" id="field_current_balance"
+                           formControlName="current_balance"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="taixiucbApp.transactionHistory.username" for="field_username">Username</label>
+                    <input type="text" class="form-control" name="username" id="field_username"
+                           formControlName="username"/>
+                </div>
+            </div>
+
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary" (click)="previousState()">
+                    <fa-icon icon="ban"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+
+                <button type="submit" id="save-entity" [disabled]="editForm.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon icon="save"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

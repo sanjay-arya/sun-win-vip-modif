@@ -1,0 +1,33 @@
+{
+  "txcbApp": {
+    "rocketRate": {
+      "home": {
+        "title": "Rocket Rates",
+        "createLabel": "Add new một Rocket Rate",
+        "createOrEditLabel": "Add new hoặc cập nhật Rocket Rate",
+        "notFound": "No Rocket Rates found",
+        "editAll": "Sửa All",
+        "msgSuccess": "Update thành công",
+        "msgUnsuccessAll": "Update thành công {{ param1 }} bản ghi. {{ param2 }} bản ghi chưa được cập nhật."
+      },
+      "created": "Một Rocket Rate mới được tạo với định danh {{ param }}",
+      "updated": "Một Rocket Rate cập nhật với định danh {{ param }}",
+      "deleted": "Một Rocket Rate đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Rocket Rate {{ id }}?"
+      },
+      "detail": {
+        "title": "Rocket Rate"
+      },
+      "label": {
+        "type": "Kiểu",
+        "pick": "Số",
+        "rate": "Tỉ lệ"
+      },
+      "types": {
+        "over": "Trên",
+        "under": "Dưới"
+      }
+    }
+  }
+}

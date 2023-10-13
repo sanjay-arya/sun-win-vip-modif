@@ -1,0 +1,13 @@
+java.nio.file.NoSuchFileException: /var/app/config/rmq.properties
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at java.nio.file.Files.newBufferedReader(Files.java:2784)
+	at java.nio.file.Files.newBufferedReader(Files.java:2816)
+	at com.vinplay.vbee.common.rmq.RMQApi.start(RMQApi.java:62)
+	at com.vinplay.pay.server.JettyServer.main(JettyServer.java:568)

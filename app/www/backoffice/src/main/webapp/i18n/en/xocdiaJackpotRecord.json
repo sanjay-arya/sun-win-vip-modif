@@ -1,0 +1,23 @@
+{
+  "txcbApp": {
+    "xocdiaJackpotRecord": {
+      "home": {
+        "title": "Xocdia Jackpot Records",
+        "createLabel": "Create a new Xocdia Jackpot Record",
+        "createOrEditLabel": "Create or edit a Xocdia Jackpot Record",
+        "notFound": "No Xocdia Jackpot Records found"
+      },
+      "created": "A new Xocdia Jackpot Record is created with identifier {{ param }}",
+      "updated": "A Xocdia Jackpot Record is updated with identifier {{ param }}",
+      "deleted": "A Xocdia Jackpot Record is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Xocdia Jackpot Record {{ id }}?"
+      },
+      "detail": {
+        "title": "Xocdia Jackpot Record"
+      },
+      "create": "Created",
+      "amount": "Amount"
+    }
+  }
+}

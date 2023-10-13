@@ -1,0 +1,26 @@
+{
+  "txcbApp": {
+    "xocdiaChatbox": {
+      "home": {
+        "title": "Xocdia Chatboxes",
+        "createLabel": "Add new một Xocdia Chatbox",
+        "createOrEditLabel": "Add new hoặc cập nhật Xocdia Chatbox",
+        "notFound": "No Xocdia Chatboxes found"
+      },
+      "created": "Một Xocdia Chatbox mới được tạo với định danh {{ param }}",
+      "updated": "Một Xocdia Chatbox cập nhật với định danh {{ param }}",
+      "deleted": "Một Xocdia Chatbox đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Xocdia Chatbox {{ id }}?"
+      },
+      "detail": {
+        "title": "Xocdia Chatbox"
+      },
+      "label": {
+        "loginname": "Name đăng nhập",
+        "message": "Tin nhắn",
+        "created": "Time"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.user-form {
+  display: flex;
+  flex-wrap: wrap;
+  .form-group,
+  .form-check {
+    display: block;
+    min-width: 30%;
+    margin-bottom: 25px;
+    padding: 10px;
+    min-width: 225px;
+  }
+  .form-check {
+    .form-check-label {
+      margin-left: 20px;
+    }
+  }
+}

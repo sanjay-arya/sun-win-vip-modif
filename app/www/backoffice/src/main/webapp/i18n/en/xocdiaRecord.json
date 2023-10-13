@@ -1,0 +1,33 @@
+{
+  "txcbApp": {
+    "xocdiaRecord": {
+      "home": {
+        "title": "Xocdia Records",
+        "createLabel": "Create a new Xocdia Record",
+        "createOrEditLabel": "Create or edit a Xocdia Record",
+        "notFound": "No Xocdia Records found"
+      },
+      "created": "A new Xocdia Record is created with identifier {{ param }}",
+      "updated": "A Xocdia Record is updated with identifier {{ param }}",
+      "deleted": "A Xocdia Record is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Xocdia Record {{ id }}?"
+      },
+      "detail": {
+        "title": "Xocdia Record"
+      },
+      "xocdiaId": "Xocdia Id",
+      "userId": "User Id",
+      "loginname": "Loginname",
+      "betamount": "Betamount",
+      "winamount": "Winamount",
+      "typed": "Typed",
+      "status": "Status",
+      "bettime": "Bettime",
+      "result": "Result",
+      "description": "Description",
+      "refundamount": "Refundamount",
+      "ip": "Ip"
+    }
+  }
+}

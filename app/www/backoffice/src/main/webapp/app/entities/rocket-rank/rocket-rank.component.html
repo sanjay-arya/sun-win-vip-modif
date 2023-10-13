@@ -1,0 +1,103 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="txcbApp.rocketRank.home.title">Rocket Ranks</span>
+
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-rocket-rank" [routerLink]="['/rocket-rank/new']" *ngIf="!isEditing">
+            <fa-icon icon="plus"></fa-icon>
+            <span  jhiTranslate="txcbApp.rocketRank.home.createLabel">
+            Create a new Rocket Rank
+            </span>
+        </button>
+
+        <button class="btn btn-primary float-right edit-all" (click)="editAll()" *ngIf="!isEditing && rocketRanks && rocketRanks.length > 0">
+            <fa-icon icon="pencil-alt"></fa-icon>
+            <span  jhiTranslate="txcbApp.rocketRank.home.editAll">
+            Edit all
+            </span>
+        </button>
+
+        <button class="btn btn-primary float-right save-all" (click)="saveAllConfirm()" [disabled]="isSavingAll" *ngIf="isEditing">
+            <fa-icon icon="save"></fa-icon>
+            <span  jhiTranslate="entity.action.save">
+            Save
+            </span>
+        </button>
+
+        <button class="btn btn-secondary float-right cancel-edit-all" (click)="cancalEditAll()" [disabled]="isSavingAll" *ngIf="isEditing">
+            <fa-icon icon="save"></fa-icon>
+            <span jhiTranslate="entity.action.cancel">
+            Cancel
+            </span>
+        </button>
+    </h2>
+
+    <jhi-alert-error></jhi-alert-error>
+
+    <jhi-alert></jhi-alert>
+
+    <div class="alert alert-warning" id="no-result" *ngIf="rocketRanks?.length === 0">
+        <span jhiTranslate="txcbApp.rocketRank.home.notFound">No rocketRanks found</span>
+    </div>
+
+    <div class="table-responsive" id="entities" *ngIf="rocketRanks && rocketRanks.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+                <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="loadPage.bind(this)">
+                    <th scope="col"  jhiSortBy="id" ><span jhiTranslate="global.field.id">ID</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="loginname"><span jhiTranslate="txcbApp.rocketRank.loginname">Loginname</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="amount"><span jhiTranslate="txcbApp.rocketRank.amount">Amount</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let rocketRank of rocketRanks ;trackBy: trackId">
+                    <td><a [routerLink]="['/rocket-rank', rocketRank.id, 'view']">{{ rocketRank.id }}</a></td>
+                    <td>
+                        <input type="text" value={{rocketRank.loginname}} [disabled]="!isEditing" (change)="updateLoginname($event, rocketRank.id)">
+                    </td>
+                    <td>
+                        <input type="text" value={{rocketRank.amount}} [disabled]="!isEditing" (change)="updateAmount($event, rocketRank.id)">
+                    </td>
+                    <!-- <td>{{ rocketRank.loginname }}</td>
+                    <td>{{ rocketRank.amount }}</td> -->
+                    <td class="text-right">
+                        <div class="btn-group">
+                            <button type="submit"
+                                    [routerLink]="['/rocket-rank', rocketRank.id, 'view']"
+                                    class="btn btn-info btn-sm"
+                                    [disabled]="isEditing">
+                                <fa-icon icon="eye"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                            </button>
+
+                            <button type="submit"
+                                    [routerLink]="['/rocket-rank', rocketRank.id, 'edit']"
+                                    class="btn btn-primary btn-sm"
+                                    [disabled]="isEditing">
+                                <fa-icon icon="pencil-alt"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                            </button>
+
+                            <button type="submit" (click)="delete(rocketRank)"
+                                    class="btn btn-danger btn-sm"
+                                    [disabled]="isEditing">
+                                <fa-icon icon="times"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div *ngIf="rocketRanks && rocketRanks.length > 0">
+        <div class="row justify-content-center">
+            <jhi-item-count [page]="page" [total]="totalItems" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+        </div>
+
+        <div class="row justify-content-center">
+            <ngb-pagination [collectionSize]="totalItems" [(page)]="ngbPaginationPage" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage($event)"></ngb-pagination>
+        </div>
+    </div>
+</div>

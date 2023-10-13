@@ -1,0 +1,23 @@
+.filter {
+  &-group {
+    padding: 10px 5px;
+  }
+
+  &-form {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  &-item {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-right: 50px;
+    margin-bottom: 5px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

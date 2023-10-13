@@ -1,0 +1,66 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="reportGame">
+            <h2><span jhiTranslate="taixiucbApp.reportGame.detail.title">Report Game</span> {{ reportGame.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="taixiucbApp.reportGame.rdate">Rdate</span></dt>
+                <dd>
+                    <span>{{ reportGame.rdate }}</span>
+                </dd>
+                <dt><span jhiTranslate="taixiucbApp.reportGame.sicboBet">Sicbo Bet</span></dt>
+                <dd>
+                    <span>{{ reportGame.sicboBet }}</span>
+                </dd>
+                <dt><span jhiTranslate="taixiucbApp.reportGame.sicboWin">Sicbo Win</span></dt>
+                <dd>
+                    <span>{{ reportGame.sicboWin }}</span>
+                </dd>
+                <dt><span jhiTranslate="taixiucbApp.reportGame.sedieBet">Sedie Bet</span></dt>
+                <dd>
+                    <span>{{ reportGame.sedieBet }}</span>
+                </dd>
+                <dt><span jhiTranslate="taixiucbApp.reportGame.sedieWin">Sedie Win</span></dt>
+                <dd>
+                    <span>{{ reportGame.sedieWin }}</span>
+                </dd>
+                <dt><span jhiTranslate="taixiucbApp.reportGame.rocketBet">Rocket Bet</span></dt>
+                <dd>
+                    <span>{{ reportGame.rocketBet }}</span>
+                </dd>
+                <dt><span jhiTranslate="taixiucbApp.reportGame.rocketWin">Rocket Win</span></dt>
+                <dd>
+                    <span>{{ reportGame.rocketWin }}</span>
+                </dd>
+                <dt><span jhiTranslate="taixiucbApp.reportGame.sicboFee">Sicbo Fee</span></dt>
+                <dd>
+                    <span>{{ reportGame.sicboFee }}</span>
+                </dd>
+                <dt><span jhiTranslate="taixiucbApp.reportGame.sedieFee">Sedie Fee</span></dt>
+                <dd>
+                    <span>{{ reportGame.sedieFee }}</span>
+                </dd>
+                <dt><span jhiTranslate="taixiucbApp.reportGame.rocketFee">Rocket Fee</span></dt>
+                <dd>
+                    <span>{{ reportGame.rocketFee }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/report-game', reportGame.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

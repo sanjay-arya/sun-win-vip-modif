@@ -1,0 +1,103 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="txcbApp.txRank.home.title">Tx Ranks</span>
+
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-tx-rank" [routerLink]="['/tx-rank/new']" *ngIf="!isEditing">
+            <fa-icon icon="plus"></fa-icon>
+            <span  jhiTranslate="txcbApp.txRank.home.createLabel">
+            Create a new Tx Rank
+            </span>
+        </button>
+
+        <button class="btn btn-primary float-right edit-all" (click)="editAll()" *ngIf="!isEditing && txRanks && txRanks.length > 0">
+            <fa-icon icon="pencil-alt"></fa-icon>
+            <span  jhiTranslate="txcbApp.txRank.home.editAll">
+            Edit all
+            </span>
+        </button>
+
+        <button class="btn btn-primary float-right save-all" (click)="saveAllConfirm()" [disabled]="isSavingAll" *ngIf="isEditing">
+            <fa-icon icon="save"></fa-icon>
+            <span  jhiTranslate="entity.action.save">
+            Save
+            </span>
+        </button>
+
+        <button class="btn btn-secondary float-right cancel-edit-all" (click)="cancalEditAll()" [disabled]="isSavingAll" *ngIf="isEditing">
+            <fa-icon icon="save"></fa-icon>
+            <span jhiTranslate="entity.action.cancel">
+            Cancel
+            </span>
+        </button>
+    </h2>
+
+    <jhi-alert-error></jhi-alert-error>
+
+    <jhi-alert></jhi-alert>
+
+    <div class="alert alert-warning" id="no-result" *ngIf="txRanks?.length === 0">
+        <span jhiTranslate="txcbApp.txRank.home.notFound">No txRanks found</span>
+    </div>
+
+    <div class="table-responsive" id="entities" *ngIf="txRanks && txRanks.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+                <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="loadPage.bind(this)">
+                    <th scope="col"  jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="loginname"><span jhiTranslate="txcbApp.txRank.loginname">Loginname</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="amount"><span jhiTranslate="txcbApp.txRank.amount">Amount</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let txRank of txRanks ;trackBy: trackId">
+                    <td><a [routerLink]="['/tx-rank', txRank.id, 'view']">{{ txRank.id }}</a></td>
+                    <td>
+                        <input type="text" value={{txRank.loginname}} [disabled]="!isEditing" (change)="updateLoginname($event, txRank.id)">
+                    </td>
+                    <td>
+                        <input type="text" value={{txRank.amount}} [disabled]="!isEditing" (change)="updateAmount($event, txRank.id)">
+                    </td>
+                    <!-- <td>{{ txRank.loginname }}</td>
+                    <td>{{ txRank.amount }}</td> -->
+                    <td class="text-right">
+                        <div class="btn-group">
+                            <button type="submit"
+                                    [routerLink]="['/tx-rank', txRank.id, 'view']"
+                                    class="btn btn-info btn-sm"
+                                    [disabled]="isEditing">
+                                <fa-icon icon="eye"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                            </button>
+
+                            <button type="submit"
+                                    [routerLink]="['/tx-rank', txRank.id, 'edit']"
+                                    class="btn btn-primary btn-sm"
+                                    [disabled]="isEditing">
+                                <fa-icon icon="pencil-alt"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                            </button>
+
+                            <button type="submit" (click)="delete(txRank)"
+                                    class="btn btn-danger btn-sm"
+                                    [disabled]="isEditing">
+                                <fa-icon icon="times"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div *ngIf="txRanks && txRanks.length > 0">
+        <div class="row justify-content-center">
+            <jhi-item-count [page]="page" [total]="totalItems" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+        </div>
+
+        <div class="row justify-content-center">
+            <ngb-pagination [collectionSize]="totalItems" [(page)]="ngbPaginationPage" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage($event)"></ngb-pagination>
+        </div>
+    </div>
+</div>

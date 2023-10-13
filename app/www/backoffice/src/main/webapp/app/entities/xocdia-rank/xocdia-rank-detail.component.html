@@ -1,0 +1,34 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="xocdiaRank">
+            <h2><span jhiTranslate="txcbApp.xocdiaRank.detail.title">Xocdia Rank</span> {{ xocdiaRank.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="txcbApp.xocdiaRank.loginname">Loginname</span></dt>
+                <dd>
+                    <span>{{ xocdiaRank.loginname }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.xocdiaRank.amount">Amount</span></dt>
+                <dd>
+                    <span>{{ xocdiaRank.amount }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/xocdia-rank', xocdiaRank.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

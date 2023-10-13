@@ -1,0 +1,478 @@
+2023-01-25 00:13:59,217 | WARN  | qtp1301987508-43 | jetty.http.HttpParser Illegal character 0x16 in state=START for buffer HeapByteBuffer@741944c4[p=1,l=270,c=16384,r=269]={\x16<<<\x03\x01\x01\t\x01\x00\x01\x05\x03\x03\xA1\x10\xC6\n?\xA5\xB5...\x8c1\x8c\xDb\xCa\xD2o\xCd\xC9\xD8\x8c\x90V\xF5v>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2023-01-25 00:13:59,225 | WARN  | qtp1301987508-43 | jetty.http.HttpParser badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@3be3ae0c{r=0,c=false,a=IDLE,uri=-}
+2023-01-25 04:04:48,831 | INFO  | cluster-ClusterId{value='63cfb638b44f3a12146009d0', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:5, serverValue:369}] to 127.0.0.1:27017
+2023-01-25 04:04:49,113 | INFO  | cluster-ClusterId{value='63cfb638b44f3a12146009d2', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:6, serverValue:370}] to 127.0.0.1:27017
+2023-01-25 04:04:49,263 | INFO  | cluster-ClusterId{value='63cfb638b44f3a12146009d1', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:4, serverValue:367}] to 127.0.0.1:27017
+2023-01-25 06:45:26,131 | WARN  | qtp1301987508-43 | jetty.http.HttpParser Illegal character 0x1 in state=METHOD for buffer HeapByteBuffer@741944c4[p=5,l=35,c=16384,r=30]={GIOP\x01<<<\x02\x00\x03\x00\x00\x00\x17\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x0bNameService>>>2:8085\r\nUser-Agen...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2023-01-25 06:45:26,132 | WARN  | qtp1301987508-43 | jetty.http.HttpParser badMessage: 400 Illegal character 0x1 for HttpChannelOverHttp@5e2f2d0{r=0,c=false,a=IDLE,uri=-}
+2023-01-25 07:38:24,780 | INFO  | main | api Logging initialized.
+2023-01-25 07:38:24,781 | DEBUG | main | api STARTING PORTAL API SERVER .... !!!!
+2023-01-25 07:38:24,825 | DEBUG | main | api 1 <-> com.vinplay.api.processors.QuickRegisterProcessor
+2023-01-25 07:38:24,825 | DEBUG | main | api 2 <-> com.vinplay.api.processors.LoginTokenProcessor
+2023-01-25 07:38:24,825 | DEBUG | main | api 3 <-> com.vinplay.api.processors.LoginProcessor
+2023-01-25 07:38:24,826 | DEBUG | main | api 4 <-> com.vinplay.api.processors.LoginWithOTPProcessor
+2023-01-25 07:38:24,826 | DEBUG | main | api 5 <-> com.vinplay.api.processors.UpdateNicknameProcesscor
+2023-01-25 07:38:24,826 | DEBUG | main | api 6 <-> com.vinplay.api.processors.GetAppConfigProcesscor
+2023-01-25 07:38:24,827 | DEBUG | main | api 8 <-> com.vinplay.api.processors.LoginAppOtpProcessor
+2023-01-25 07:38:24,827 | DEBUG | main | api 9 <-> com.vinplay.api.processors.GetTimeServerProccessor
+2023-01-25 07:38:24,827 | DEBUG | main | api 10 <-> com.vinplay.api.processors.GetConfigAdminProcessor
+2023-01-25 07:38:24,827 | DEBUG | main | api 13 <-> com.vinplay.api.processors.gamebai.GetListPokerTourProcessor
+2023-01-25 07:38:24,827 | DEBUG | main | api 14 <-> com.vinplay.api.processors.gamebai.GetPokerTourDetailProcessor
+2023-01-25 07:38:24,828 | DEBUG | main | api 15 <-> com.vinplay.api.processors.gamebai.GetPokerTicketProcessor
+2023-01-25 07:38:24,828 | DEBUG | main | api 16 <-> com.vinplay.api.processors.otp.GetOtpProcessor
+2023-01-25 07:38:24,828 | DEBUG | main | api 17 <-> com.vinplay.api.processors.LoginByTokenProcessor
+2023-01-25 07:38:24,828 | DEBUG | main | api 18 <-> com.vinplay.api.processors.CheckAgencyCodeProcessor
+2023-01-25 07:38:24,828 | DEBUG | main | api 19 <-> com.vinplay.api.processors.giftCode.GiftCodeProcessor
+2023-01-25 07:38:24,828 | DEBUG | main | api 20 <-> com.vinplay.api.processors.events.GetEventProcessor
+2023-01-25 07:38:24,829 | DEBUG | main | api 21 <-> com.vinplay.api.processors.events.BuyEventMoonProcessor
+2023-01-25 07:38:24,829 | DEBUG | main | api 100 <-> com.vinplay.api.processors.minigame.LichSuGiaoDichTXProcessor
+2023-01-25 07:38:24,829 | DEBUG | main | api 101 <-> com.vinplay.api.processors.minigame.TopWinTXProcessor
+2023-01-25 07:38:24,829 | DEBUG | main | api 102 <-> com.vinplay.api.processors.minigame.ChiTietPhienTXProcessor
+2023-01-25 07:38:24,829 | DEBUG | main | api 105 <-> com.vinplay.api.processors.minigame.LSGDMiniPokerProcessor
+2023-01-25 07:38:24,829 | DEBUG | main | api 106 <-> com.vinplay.api.processors.minigame.VinhDanhMiniPokerProcessor
+2023-01-25 07:38:24,829 | DEBUG | main | api 107 <-> com.vinplay.api.processors.minigame.LSGDCaoThapProcessor
+2023-01-25 07:38:24,830 | DEBUG | main | api 108 <-> com.vinplay.api.processors.minigame.VinhDanhCaoThapProcessor
+2023-01-25 07:38:24,830 | DEBUG | main | api 109 <-> com.vinplay.api.processors.minigame.TopCaoThapProcessor
+2023-01-25 07:38:24,830 | DEBUG | main | api 110 <-> com.vinplay.api.processors.gamebai.GetLogNoHuGameBaiProcessor
+2023-01-25 07:38:24,830 | DEBUG | main | api 111 <-> com.vinplay.api.processors.gamebai.GetConfigHuGameBaiProcessor
+2023-01-25 07:38:24,833 | DEBUG | main | api 120 <-> com.vinplay.api.processors.minigame.TopBauCuaProcessor
+2023-01-25 07:38:24,833 | DEBUG | main | api 121 <-> com.vinplay.api.processors.minigame.LSGDBauCuaProcessor
+2023-01-25 07:38:24,833 | DEBUG | main | api 122 <-> com.vinplay.api.processors.minigame.TopToiChonCaProcessor
+2023-01-25 07:38:24,833 | DEBUG | main | api 123 <-> com.vinplay.api.processors.gamebai.TopCaoThuProcessor
+2023-01-25 07:38:24,833 | DEBUG | main | api 124 <-> com.vinplay.api.processors.security.CaptchaProcessor
+2023-01-25 07:38:24,834 | DEBUG | main | api 125 <-> com.vinplay.api.processors.security.UpdateAvatarProcessor
+2023-01-25 07:38:24,834 | DEBUG | main | api 126 <-> com.vinplay.api.processors.vippoint.GetVippointProcessor
+2023-01-25 07:38:24,834 | DEBUG | main | api 127 <-> com.vinplay.api.processors.security.ForgetPasswordProcessor
+2023-01-25 07:38:24,834 | DEBUG | main | api 128 <-> com.vinplay.api.processors.security.ForgetPasswordOtpProcessor
+2023-01-25 07:38:24,834 | DEBUG | main | api 129 <-> com.vinplay.api.processors.GetGameCommonProcessor
+2023-01-25 07:38:24,834 | DEBUG | main | api 133 <-> com.vinplay.api.processors.security.ForgetPasswordEmailProcessor
+2023-01-25 07:38:24,834 | DEBUG | main | api 134 <-> com.vinplay.api.processors.minigame.LSGDPokeGoProcessor
+2023-01-25 07:38:24,834 | DEBUG | main | api 135 <-> com.vinplay.api.processors.minigame.TopPokeGoProcessor
+2023-01-25 07:38:24,834 | DEBUG | main | api 136 <-> com.vinplay.api.processors.slot.TopKhoBauProcessor
+2023-01-25 07:38:24,835 | DEBUG | main | api 137 <-> com.vinplay.api.processors.slot.LSGDSlotProcessor
+2023-01-25 07:38:24,835 | DEBUG | main | api 138 <-> com.vinplay.api.processors.slot.LSNoHuProcessor
+2023-01-25 07:38:24,835 | DEBUG | main | api 139 <-> com.vinplay.api.processors.gamebai.LSTLMNProcessor
+2023-01-25 07:38:24,835 | DEBUG | main | api 140 <-> com.vinplay.api.processors.minigame.LSXDProcessor
+2023-01-25 07:38:24,835 | DEBUG | main | api 141 <-> com.vinplay.api.processors.minigame.LSGDGalaxyProcessor
+2023-01-25 07:38:24,835 | DEBUG | main | api 142 <-> com.vinplay.api.processors.minigame.TopGalaxyProcessor
+2023-01-25 07:38:24,836 | DEBUG | main | api 201 <-> com.vinplay.api.processors.minigame.LuckyHistoryProcesscor
+2023-01-25 07:38:24,836 | DEBUG | main | api 301 <-> com.vinplay.api.processors.HistoryTransactionLogProcessor
+2023-01-25 07:38:24,836 | DEBUG | main | api 302 <-> com.vinplay.api.processors.GetLogMoneyUserProcessor
+2023-01-25 07:38:24,836 | DEBUG | main | api 401 <-> com.vinplay.api.processors.GetListAgentProcessor
+2023-01-25 07:38:24,836 | DEBUG | main | api 402 <-> com.vinplay.api.processors.ListMailBoxProcessor
+2023-01-25 07:38:24,836 | DEBUG | main | api 403 <-> com.vinplay.api.processors.DeleteMailBoxProcessor
+2023-01-25 07:38:24,836 | DEBUG | main | api 404 <-> com.vinplay.api.processors.UpdateStatusMailProcessor
+2023-01-25 07:38:24,836 | DEBUG | main | api 405 <-> com.vinplay.api.processors.ListMailBoxNewProcessor
+2023-01-25 07:38:24,836 | DEBUG | main | api 406 <-> com.vinplay.api.processors.CountMailStatusProcessor
+2023-01-25 07:38:24,837 | DEBUG | main | api 501 <-> com.vinplay.api.processors.vippoint.GetEventVPMapProcessor
+2023-01-25 07:38:24,837 | DEBUG | main | api 502 <-> com.vinplay.api.processors.vippoint.GetEventVPTopIntelProcessor
+2023-01-25 07:38:24,837 | DEBUG | main | api 503 <-> com.vinplay.api.processors.vippoint.GetEventVPTopStrongProcessor
+2023-01-25 07:38:24,837 | DEBUG | main | api 601 <-> com.vinplay.api.processors.gamebai.TopGameTourProcessor
+2023-01-25 07:38:24,837 | DEBUG | main | api 602 <-> com.vinplay.api.processors.gamebai.LogGameTourProcessor
+2023-01-25 07:38:24,837 | DEBUG | main | api 2000 <-> com.vinplay.api.processors.Set2AFProcessor
+2023-01-25 07:38:24,837 | DEBUG | main | api 2002 <-> com.vinplay.api.processors.GetPaymentConfigProcessor
+2023-01-25 07:38:24,837 | DEBUG | main | api 2003 <-> com.vinplay.api.processors.payment.CreateDepositProcessor
+2023-01-25 07:38:24,837 | DEBUG | main | api 2006 <-> com.vinplay.api.processors.DepositHistoryProcessor
+2023-01-25 07:38:24,838 | DEBUG | main | api 2007 <-> com.vinplay.api.processors.payment.InsertOrUpdateBankProcessor
+2023-01-25 07:38:24,838 | DEBUG | main | api 2008 <-> com.vinplay.api.processors.payment.BankSearchProcessor
+2023-01-25 07:38:24,838 | DEBUG | main | api 2009 <-> com.vinplay.api.processors.payment.PaymentStatusProcessor
+2023-01-25 07:38:24,838 | DEBUG | main | api 2010 <-> com.vinplay.api.processors.payment.CreateWithdrawProcessor
+2023-01-25 07:38:24,838 | DEBUG | main | api 2011 <-> com.vinplay.api.processors.payment.GetListBankProcessor
+2023-01-25 07:38:24,838 | DEBUG | main | api 2013 <-> com.vinplay.api.processors.VerifyPhoneNumberProcessor
+2023-01-25 07:38:24,839 | DEBUG | main | api 2014 <-> com.vinplay.api.processors.payment.GetBanksOneClickPayProcessor
+2023-01-25 07:38:24,839 | DEBUG | main | api 2015 <-> com.vinplay.api.processors.ReceiveBonusProcessor
+2023-01-25 07:38:24,839 | DEBUG | main | api 2016 <-> com.vinplay.api.processors.DepositHistory4UserplayProcessor
+2023-01-25 07:38:24,839 | DEBUG | main | api 2020 <-> com.vinplay.api.processors.banner.ShowListBannerProcessor
+2023-01-25 07:38:24,839 | DEBUG | main | api 2021 <-> com.vinplay.api.processors.shotfish.Login
+2023-01-25 07:38:24,840 | DEBUG | main | api 2022 <-> com.vinplay.api.processors.shotfish.Deposit
+2023-01-25 07:38:24,840 | DEBUG | main | api 2023 <-> com.vinplay.api.processors.shotfish.Withdraw
+2023-01-25 07:38:24,840 | DEBUG | main | api 2024 <-> com.vinplay.api.processors.shotfish.CheckOrderStatus
+2023-01-25 07:38:24,840 | DEBUG | main | api 2025 <-> com.vinplay.api.processors.shotfish.CheckUserBalance
+2023-01-25 07:38:24,840 | DEBUG | main | api 2026 <-> com.vinplay.api.processors.shotfish.CheckUserInGame
+2023-01-25 07:38:24,840 | DEBUG | main | api 2027 <-> com.vinplay.api.processors.shotfish.History
+2023-01-25 07:38:24,840 | DEBUG | main | api 2028 <-> com.vinplay.api.processors.UpdatePhoneNumberProcessor
+2023-01-25 07:38:24,840 | DEBUG | main | api 2029 <-> com.vinplay.api.processors.hoantra.CalculateDataHoanTraProcessor
+2023-01-25 07:38:24,841 | DEBUG | main | api 2030 <-> com.vinplay.api.processors.hoantra.SendDataHoanTraProcessor
+2023-01-25 07:38:24,841 | DEBUG | main | api 2031 <-> com.vinplay.api.processors.attendance.AttendanceProcessor
+2023-01-25 07:38:24,841 | DEBUG | main | api 2032 <-> com.vinplay.api.processors.attendance.HistoryProcessor
+2023-01-25 07:38:24,842 | DEBUG | main | api 2033 <-> com.vinplay.api.processors.SearchAgentBankProcessor
+2023-01-25 07:38:24,842 | DEBUG | main | api 2034 <-> com.vinplay.api.processors.SearchAgentProcessor
+2023-01-25 07:38:24,842 | DEBUG | main | api 2035 <-> com.vinplay.api.processors.DestroyHazelcastProcessor
+2023-01-25 07:38:24,842 | DEBUG | main | api 2038 <-> com.vinplay.api.processors.GetCurrentTimeServer
+2023-01-25 07:38:24,853 | INFO  | main | api BaseController:com.vinplay.api.processors.LoginWithOTPProcessor
+2023-01-25 07:38:25,406 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-01-25 07:38:25,506 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-01-25 07:38:25,507 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-01-25 07:38:25,548 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_gamebai (minpool=0,maxpool=10,maxsize=10,idleTimeout=900)
+2023-01-25 07:38:25,556 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_minigame (minpool=5,maxpool=20,maxsize=30,idleTimeout=900)
+2023-01-25 07:38:25,557 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 07:38:25,560 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_admin (minpool=0,maxpool=10,maxsize=10,idleTimeout=900)
+2023-01-25 07:38:25,564 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpoolname (minpool=5,maxpool=30,maxsize=40,idleTimeout=900)
+2023-01-25 07:38:25,568 | INFO  | main | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 07:38:25,680 | INFO  | cluster-ClusterId{value='63d07a01b44f3a7cf18850c1', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:3, serverValue:467}] to 127.0.0.1:27017
+2023-01-25 07:38:25,686 | INFO  | cluster-ClusterId{value='63d07a01b44f3a7cf18850c1', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=1687389}
+2023-01-25 07:38:25,760 | INFO  | cluster-ClusterId{value='63d07a01b44f3a7cf18850bf', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:1, serverValue:468}] to 127.0.0.1:27017
+2023-01-25 07:38:25,761 | INFO  | cluster-ClusterId{value='63d07a01b44f3a7cf18850bf', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=970239}
+2023-01-25 07:38:25,808 | INFO  | cluster-ClusterId{value='63d07a01b44f3a7cf18850c0', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:2, serverValue:466}] to 127.0.0.1:27017
+2023-01-25 07:38:25,810 | INFO  | cluster-ClusterId{value='63d07a01b44f3a7cf18850c0', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=543356}
+2023-01-25 07:38:25,872 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-25 07:38:25,873 | INFO  | main | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-25 07:38:25,873 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 07:38:25,877 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-25 07:38:25,877 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 07:38:25,885 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-25 07:38:25,886 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 07:38:25,888 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 07:38:25,891 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-25 07:38:25,891 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 07:38:25,897 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-25 07:38:25,897 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 07:38:25,900 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-25 07:38:25,900 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 07:38:25,903 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-25 07:38:25,914 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-25 07:38:25,915 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 07:38:25,921 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-25 07:38:25,921 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 07:38:25,924 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-25 07:38:26,314 | INFO  | main | usercore.utils.GameThirdPartyInit Init Data successfull
+2023-01-25 07:38:26,379 | INFO  | main | jetty.util.log Logging initialized @1826ms
+2023-01-25 07:38:26,454 | INFO  | main | jetty.server.Server jetty-9.2.10.v20150310
+2023-01-25 07:38:26,489 | INFO  | main | jetty.server.ServerConnector Started ServerConnector@23fb172e{HTTP/1.1}{0.0.0.0:8085}
+2023-01-25 07:38:26,489 | INFO  | main | jetty.server.Server Started @1939ms
+2023-01-25 07:38:26,489 | INFO  | main | api PORTAL API SERVER Started ...!!!
+2023-01-25 07:53:25,904 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-25 07:53:25,904 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-25 07:53:25,904 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-25 07:53:25,904 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-25 07:53:25,917 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-25 07:53:25,917 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-25 07:53:25,917 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-25 07:53:30,905 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-25 07:53:30,918 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-25 07:53:30,918 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-25 16:20:25,449 | WARN  | qtp1346799731-44 | jetty.http.HttpParser Illegal character 0x16 in state=START for buffer HeapByteBuffer@6e2bd8db[p=1,l=243,c=16384,r=242]={\x16<<<\x03\x01\x00\xEe\x01\x00\x00\xEa\x03\x03Tf@\xE8?\xC8o...r\xAc\xF8\xE9\xE8FJ\xEdhcVP\x9a\x14a>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2023-01-25 16:20:25,450 | WARN  | qtp1346799731-44 | jetty.http.HttpParser badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@10bab6a0{r=0,c=false,a=IDLE,uri=-}
+2023-01-25 19:44:07,659 | INFO  | cluster-ClusterId{value='63d07a01b44f3a7cf18850bf', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:475)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:226)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:83)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:43)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:130)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:85)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:492)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:222)
+	... 8 more
+2023-01-25 19:44:13,077 | INFO  | cluster-ClusterId{value='63d07a01b44f3a7cf18850c0', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:475)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:226)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:83)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:43)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:130)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:85)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:492)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:222)
+	... 8 more
+2023-01-25 19:44:13,078 | INFO  | cluster-ClusterId{value='63d07a01b44f3a7cf18850c1', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:475)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:226)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:83)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:43)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:130)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:85)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:492)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:222)
+	... 8 more
+2023-01-25 19:46:58,720 | INFO  | cluster-ClusterId{value='63d07a01b44f3a7cf18850c0', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:16, serverValue:674}] to 127.0.0.1:27017
+2023-01-25 19:46:58,742 | INFO  | cluster-ClusterId{value='63d07a01b44f3a7cf18850c0', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=3134614}
+2023-01-25 19:47:08,011 | INFO  | cluster-ClusterId{value='63d07a01b44f3a7cf18850bf', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:17, serverValue:699}] to 127.0.0.1:27017
+2023-01-25 19:47:08,034 | INFO  | cluster-ClusterId{value='63d07a01b44f3a7cf18850bf', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=21513317}
+2023-01-25 19:47:08,353 | INFO  | cluster-ClusterId{value='63d07a01b44f3a7cf18850c1', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:18, serverValue:714}] to 127.0.0.1:27017
+2023-01-25 19:47:08,357 | INFO  | cluster-ClusterId{value='63d07a01b44f3a7cf18850c1', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=2979449}
+2023-01-25 21:13:27,493 | INFO  | main | api Logging initialized.
+2023-01-25 21:13:27,494 | DEBUG | main | api STARTING PORTAL API SERVER .... !!!!
+2023-01-25 21:13:27,560 | DEBUG | main | api 1 <-> com.vinplay.api.processors.QuickRegisterProcessor
+2023-01-25 21:13:27,560 | DEBUG | main | api 2 <-> com.vinplay.api.processors.LoginTokenProcessor
+2023-01-25 21:13:27,560 | DEBUG | main | api 3 <-> com.vinplay.api.processors.LoginProcessor
+2023-01-25 21:13:27,560 | DEBUG | main | api 4 <-> com.vinplay.api.processors.LoginWithOTPProcessor
+2023-01-25 21:13:27,561 | DEBUG | main | api 5 <-> com.vinplay.api.processors.UpdateNicknameProcesscor
+2023-01-25 21:13:27,561 | DEBUG | main | api 6 <-> com.vinplay.api.processors.GetAppConfigProcesscor
+2023-01-25 21:13:27,561 | DEBUG | main | api 8 <-> com.vinplay.api.processors.LoginAppOtpProcessor
+2023-01-25 21:13:27,561 | DEBUG | main | api 9 <-> com.vinplay.api.processors.GetTimeServerProccessor
+2023-01-25 21:13:27,561 | DEBUG | main | api 10 <-> com.vinplay.api.processors.GetConfigAdminProcessor
+2023-01-25 21:13:27,561 | DEBUG | main | api 13 <-> com.vinplay.api.processors.gamebai.GetListPokerTourProcessor
+2023-01-25 21:13:27,562 | DEBUG | main | api 14 <-> com.vinplay.api.processors.gamebai.GetPokerTourDetailProcessor
+2023-01-25 21:13:27,562 | DEBUG | main | api 15 <-> com.vinplay.api.processors.gamebai.GetPokerTicketProcessor
+2023-01-25 21:13:27,562 | DEBUG | main | api 16 <-> com.vinplay.api.processors.otp.GetOtpProcessor
+2023-01-25 21:13:27,562 | DEBUG | main | api 17 <-> com.vinplay.api.processors.LoginByTokenProcessor
+2023-01-25 21:13:27,562 | DEBUG | main | api 18 <-> com.vinplay.api.processors.CheckAgencyCodeProcessor
+2023-01-25 21:13:27,562 | DEBUG | main | api 19 <-> com.vinplay.api.processors.giftCode.GiftCodeProcessor
+2023-01-25 21:13:27,563 | DEBUG | main | api 20 <-> com.vinplay.api.processors.events.GetEventProcessor
+2023-01-25 21:13:27,563 | DEBUG | main | api 21 <-> com.vinplay.api.processors.events.BuyEventMoonProcessor
+2023-01-25 21:13:27,563 | DEBUG | main | api 100 <-> com.vinplay.api.processors.minigame.LichSuGiaoDichTXProcessor
+2023-01-25 21:13:27,563 | DEBUG | main | api 101 <-> com.vinplay.api.processors.minigame.TopWinTXProcessor
+2023-01-25 21:13:27,563 | DEBUG | main | api 102 <-> com.vinplay.api.processors.minigame.ChiTietPhienTXProcessor
+2023-01-25 21:13:27,563 | DEBUG | main | api 105 <-> com.vinplay.api.processors.minigame.LSGDMiniPokerProcessor
+2023-01-25 21:13:27,564 | DEBUG | main | api 106 <-> com.vinplay.api.processors.minigame.VinhDanhMiniPokerProcessor
+2023-01-25 21:13:27,564 | DEBUG | main | api 107 <-> com.vinplay.api.processors.minigame.LSGDCaoThapProcessor
+2023-01-25 21:13:27,564 | DEBUG | main | api 108 <-> com.vinplay.api.processors.minigame.VinhDanhCaoThapProcessor
+2023-01-25 21:13:27,564 | DEBUG | main | api 109 <-> com.vinplay.api.processors.minigame.TopCaoThapProcessor
+2023-01-25 21:13:27,564 | DEBUG | main | api 110 <-> com.vinplay.api.processors.gamebai.GetLogNoHuGameBaiProcessor
+2023-01-25 21:13:27,565 | DEBUG | main | api 111 <-> com.vinplay.api.processors.gamebai.GetConfigHuGameBaiProcessor
+2023-01-25 21:13:27,565 | DEBUG | main | api 120 <-> com.vinplay.api.processors.minigame.TopBauCuaProcessor
+2023-01-25 21:13:27,565 | DEBUG | main | api 121 <-> com.vinplay.api.processors.minigame.LSGDBauCuaProcessor
+2023-01-25 21:13:27,566 | DEBUG | main | api 122 <-> com.vinplay.api.processors.minigame.TopToiChonCaProcessor
+2023-01-25 21:13:27,570 | DEBUG | main | api 123 <-> com.vinplay.api.processors.gamebai.TopCaoThuProcessor
+2023-01-25 21:13:27,570 | DEBUG | main | api 124 <-> com.vinplay.api.processors.security.CaptchaProcessor
+2023-01-25 21:13:27,570 | DEBUG | main | api 125 <-> com.vinplay.api.processors.security.UpdateAvatarProcessor
+2023-01-25 21:13:27,571 | DEBUG | main | api 126 <-> com.vinplay.api.processors.vippoint.GetVippointProcessor
+2023-01-25 21:13:27,571 | DEBUG | main | api 127 <-> com.vinplay.api.processors.security.ForgetPasswordProcessor
+2023-01-25 21:13:27,571 | DEBUG | main | api 128 <-> com.vinplay.api.processors.security.ForgetPasswordOtpProcessor
+2023-01-25 21:13:27,571 | DEBUG | main | api 129 <-> com.vinplay.api.processors.GetGameCommonProcessor
+2023-01-25 21:13:27,571 | DEBUG | main | api 133 <-> com.vinplay.api.processors.security.ForgetPasswordEmailProcessor
+2023-01-25 21:13:27,571 | DEBUG | main | api 134 <-> com.vinplay.api.processors.minigame.LSGDPokeGoProcessor
+2023-01-25 21:13:27,572 | DEBUG | main | api 135 <-> com.vinplay.api.processors.minigame.TopPokeGoProcessor
+2023-01-25 21:13:27,572 | DEBUG | main | api 136 <-> com.vinplay.api.processors.slot.TopKhoBauProcessor
+2023-01-25 21:13:27,573 | DEBUG | main | api 137 <-> com.vinplay.api.processors.slot.LSGDSlotProcessor
+2023-01-25 21:13:27,573 | DEBUG | main | api 138 <-> com.vinplay.api.processors.slot.LSNoHuProcessor
+2023-01-25 21:13:27,573 | DEBUG | main | api 139 <-> com.vinplay.api.processors.gamebai.LSTLMNProcessor
+2023-01-25 21:13:27,573 | DEBUG | main | api 140 <-> com.vinplay.api.processors.minigame.LSXDProcessor
+2023-01-25 21:13:27,573 | DEBUG | main | api 141 <-> com.vinplay.api.processors.minigame.LSGDGalaxyProcessor
+2023-01-25 21:13:27,573 | DEBUG | main | api 142 <-> com.vinplay.api.processors.minigame.TopGalaxyProcessor
+2023-01-25 21:13:27,574 | DEBUG | main | api 201 <-> com.vinplay.api.processors.minigame.LuckyHistoryProcesscor
+2023-01-25 21:13:27,574 | DEBUG | main | api 301 <-> com.vinplay.api.processors.HistoryTransactionLogProcessor
+2023-01-25 21:13:27,575 | DEBUG | main | api 302 <-> com.vinplay.api.processors.GetLogMoneyUserProcessor
+2023-01-25 21:13:27,575 | DEBUG | main | api 401 <-> com.vinplay.api.processors.GetListAgentProcessor
+2023-01-25 21:13:27,575 | DEBUG | main | api 402 <-> com.vinplay.api.processors.ListMailBoxProcessor
+2023-01-25 21:13:27,576 | DEBUG | main | api 403 <-> com.vinplay.api.processors.DeleteMailBoxProcessor
+2023-01-25 21:13:27,577 | DEBUG | main | api 404 <-> com.vinplay.api.processors.UpdateStatusMailProcessor
+2023-01-25 21:13:27,577 | DEBUG | main | api 405 <-> com.vinplay.api.processors.ListMailBoxNewProcessor
+2023-01-25 21:13:27,578 | DEBUG | main | api 406 <-> com.vinplay.api.processors.CountMailStatusProcessor
+2023-01-25 21:13:27,578 | DEBUG | main | api 501 <-> com.vinplay.api.processors.vippoint.GetEventVPMapProcessor
+2023-01-25 21:13:27,579 | DEBUG | main | api 502 <-> com.vinplay.api.processors.vippoint.GetEventVPTopIntelProcessor
+2023-01-25 21:13:27,579 | DEBUG | main | api 503 <-> com.vinplay.api.processors.vippoint.GetEventVPTopStrongProcessor
+2023-01-25 21:13:27,580 | DEBUG | main | api 601 <-> com.vinplay.api.processors.gamebai.TopGameTourProcessor
+2023-01-25 21:13:27,580 | DEBUG | main | api 602 <-> com.vinplay.api.processors.gamebai.LogGameTourProcessor
+2023-01-25 21:13:27,581 | DEBUG | main | api 2000 <-> com.vinplay.api.processors.Set2AFProcessor
+2023-01-25 21:13:27,581 | DEBUG | main | api 2002 <-> com.vinplay.api.processors.GetPaymentConfigProcessor
+2023-01-25 21:13:27,581 | DEBUG | main | api 2003 <-> com.vinplay.api.processors.payment.CreateDepositProcessor
+2023-01-25 21:13:27,582 | DEBUG | main | api 2006 <-> com.vinplay.api.processors.DepositHistoryProcessor
+2023-01-25 21:13:27,582 | DEBUG | main | api 2007 <-> com.vinplay.api.processors.payment.InsertOrUpdateBankProcessor
+2023-01-25 21:13:27,582 | DEBUG | main | api 2008 <-> com.vinplay.api.processors.payment.BankSearchProcessor
+2023-01-25 21:13:27,582 | DEBUG | main | api 2009 <-> com.vinplay.api.processors.payment.PaymentStatusProcessor
+2023-01-25 21:13:27,582 | DEBUG | main | api 2010 <-> com.vinplay.api.processors.payment.CreateWithdrawProcessor
+2023-01-25 21:13:27,582 | DEBUG | main | api 2011 <-> com.vinplay.api.processors.payment.GetListBankProcessor
+2023-01-25 21:13:27,582 | DEBUG | main | api 2013 <-> com.vinplay.api.processors.VerifyPhoneNumberProcessor
+2023-01-25 21:13:27,582 | DEBUG | main | api 2014 <-> com.vinplay.api.processors.payment.GetBanksOneClickPayProcessor
+2023-01-25 21:13:27,583 | DEBUG | main | api 2015 <-> com.vinplay.api.processors.ReceiveBonusProcessor
+2023-01-25 21:13:27,583 | DEBUG | main | api 2016 <-> com.vinplay.api.processors.DepositHistory4UserplayProcessor
+2023-01-25 21:13:27,583 | DEBUG | main | api 2020 <-> com.vinplay.api.processors.banner.ShowListBannerProcessor
+2023-01-25 21:13:27,583 | DEBUG | main | api 2021 <-> com.vinplay.api.processors.shotfish.Login
+2023-01-25 21:13:27,583 | DEBUG | main | api 2022 <-> com.vinplay.api.processors.shotfish.Deposit
+2023-01-25 21:13:27,583 | DEBUG | main | api 2023 <-> com.vinplay.api.processors.shotfish.Withdraw
+2023-01-25 21:13:27,583 | DEBUG | main | api 2024 <-> com.vinplay.api.processors.shotfish.CheckOrderStatus
+2023-01-25 21:13:27,583 | DEBUG | main | api 2025 <-> com.vinplay.api.processors.shotfish.CheckUserBalance
+2023-01-25 21:13:27,584 | DEBUG | main | api 2026 <-> com.vinplay.api.processors.shotfish.CheckUserInGame
+2023-01-25 21:13:27,584 | DEBUG | main | api 2027 <-> com.vinplay.api.processors.shotfish.History
+2023-01-25 21:13:27,584 | DEBUG | main | api 2028 <-> com.vinplay.api.processors.UpdatePhoneNumberProcessor
+2023-01-25 21:13:27,584 | DEBUG | main | api 2029 <-> com.vinplay.api.processors.hoantra.CalculateDataHoanTraProcessor
+2023-01-25 21:13:27,584 | DEBUG | main | api 2030 <-> com.vinplay.api.processors.hoantra.SendDataHoanTraProcessor
+2023-01-25 21:13:27,584 | DEBUG | main | api 2031 <-> com.vinplay.api.processors.attendance.AttendanceProcessor
+2023-01-25 21:13:27,589 | DEBUG | main | api 2032 <-> com.vinplay.api.processors.attendance.HistoryProcessor
+2023-01-25 21:13:27,589 | DEBUG | main | api 2033 <-> com.vinplay.api.processors.SearchAgentBankProcessor
+2023-01-25 21:13:27,589 | DEBUG | main | api 2034 <-> com.vinplay.api.processors.SearchAgentProcessor
+2023-01-25 21:13:27,589 | DEBUG | main | api 2035 <-> com.vinplay.api.processors.DestroyHazelcastProcessor
+2023-01-25 21:13:27,589 | DEBUG | main | api 2038 <-> com.vinplay.api.processors.GetCurrentTimeServer
+2023-01-25 21:13:27,618 | INFO  | main | api BaseController:com.vinplay.api.processors.LoginWithOTPProcessor
+2023-01-25 21:13:28,313 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-01-25 21:13:28,421 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-01-25 21:13:28,423 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-01-25 21:13:28,456 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_gamebai (minpool=0,maxpool=10,maxsize=10,idleTimeout=900)
+2023-01-25 21:13:28,458 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_minigame (minpool=5,maxpool=20,maxsize=30,idleTimeout=900)
+2023-01-25 21:13:28,460 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 21:13:28,463 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_admin (minpool=0,maxpool=10,maxsize=10,idleTimeout=900)
+2023-01-25 21:13:28,468 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpoolname (minpool=5,maxpool=30,maxsize=40,idleTimeout=900)
+2023-01-25 21:13:28,470 | INFO  | main | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 21:13:28,680 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e82', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:3, serverValue:779}] to 127.0.0.1:27017
+2023-01-25 21:13:28,681 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e81', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:1, serverValue:777}] to 127.0.0.1:27017
+2023-01-25 21:13:28,683 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e82', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=954597}
+2023-01-25 21:13:28,697 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e81', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=15262869}
+2023-01-25 21:13:28,698 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e80', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:2, serverValue:778}] to 127.0.0.1:27017
+2023-01-25 21:13:28,703 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e80', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=4287250}
+2023-01-25 21:13:28,871 | INFO  | main | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-25 21:13:28,877 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-25 21:13:28,879 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 21:13:28,889 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 21:13:28,894 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-25 21:13:28,894 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 21:13:28,895 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-25 21:13:28,895 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 21:13:28,902 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-25 21:13:28,902 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 21:13:28,906 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-25 21:13:28,906 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 21:13:28,919 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-25 21:13:28,919 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 21:13:28,935 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-25 21:13:28,935 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 21:13:28,938 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-25 21:13:28,939 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-25 21:13:28,944 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-25 21:13:28,966 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-25 21:13:29,425 | INFO  | main | usercore.utils.GameThirdPartyInit Init Data successfull
+2023-01-25 21:13:29,487 | INFO  | main | jetty.util.log Logging initialized @2264ms
+2023-01-25 21:13:29,529 | INFO  | main | jetty.server.Server jetty-9.2.10.v20150310
+2023-01-25 21:13:29,586 | INFO  | main | jetty.server.ServerConnector Started ServerConnector@71cf1b07{HTTP/1.1}{0.0.0.0:8085}
+2023-01-25 21:13:29,586 | INFO  | main | jetty.server.Server Started @2364ms
+2023-01-25 21:13:29,586 | INFO  | main | api PORTAL API SERVER Started ...!!!
+2023-01-25 21:28:28,954 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-25 21:28:28,955 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-25 21:28:28,955 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-25 21:28:28,955 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-25 21:28:28,956 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-25 21:28:28,986 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-25 21:28:28,987 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-25 21:28:28,987 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-25 21:28:28,987 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-25 21:28:33,988 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-25 23:22:10,754 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e80', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:88)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:492)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:222)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:83)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:43)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:130)
+	at java.lang.Thread.run(Thread.java:750)
+2023-01-25 23:22:10,829 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e81', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:88)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:492)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:222)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:83)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:43)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:130)
+	at java.lang.Thread.run(Thread.java:750)
+2023-01-25 23:22:10,761 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e82', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:88)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:492)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:222)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:83)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:43)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:130)
+	at java.lang.Thread.run(Thread.java:750)
+2023-01-25 23:22:21,406 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e82', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:9, serverValue:42}] to 127.0.0.1:27017
+2023-01-25 23:22:21,422 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e82', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=4612279}
+2023-01-25 23:22:21,671 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e81', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:8, serverValue:41}] to 127.0.0.1:27017
+2023-01-25 23:22:21,677 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e81', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=613501}
+2023-01-25 23:22:21,762 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e80', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:7, serverValue:37}] to 127.0.0.1:27017
+2023-01-25 23:22:21,770 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e80', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=4917231}
+2023-01-25 23:28:22,689 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e82', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:481)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:226)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:83)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:43)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:130)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:85)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:492)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:222)
+	... 8 more
+2023-01-25 23:28:22,756 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e81', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:481)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:226)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:83)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:43)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:130)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:85)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:492)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:222)
+	... 8 more
+2023-01-25 23:28:22,880 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e80', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:481)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:226)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:83)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:43)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:130)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:85)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:492)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:222)
+	... 8 more
+2023-01-25 23:28:33,020 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e81', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:14, serverValue:36}] to 127.0.0.1:27017
+2023-01-25 23:28:33,029 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e81', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=3915934}
+2023-01-25 23:28:33,078 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e80', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:15, serverValue:44}] to 127.0.0.1:27017
+2023-01-25 23:28:33,087 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e82', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:13, serverValue:25}] to 127.0.0.1:27017
+2023-01-25 23:28:33,087 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e80', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=1870325}
+2023-01-25 23:28:33,098 | INFO  | cluster-ClusterId{value='63d13908b44f3a28332e1e82', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=9556858}

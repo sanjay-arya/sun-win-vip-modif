@@ -1,0 +1,33 @@
+{
+  "txcbApp": {
+    "xocdiaRecord": {
+      "home": {
+        "title": "Xocdia Records",
+        "createLabel": "Add new một Xocdia Record",
+        "createOrEditLabel": "Add new hoặc cập nhật Xocdia Record",
+        "notFound": "No Xocdia Records found"
+      },
+      "created": "Một Xocdia Record mới được tạo với định danh {{ param }}",
+      "updated": "Một Xocdia Record cập nhật với định danh {{ param }}",
+      "deleted": "Một Xocdia Record đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Xocdia Record {{ id }}?"
+      },
+      "detail": {
+        "title": "Xocdia Record"
+      },
+      "xocdiaId": "Xocdia Id",
+      "userId": "User Id",
+      "loginname": "Loginname",
+      "betamount": "Betamount",
+      "winamount": "Winamount",
+      "typed": "Typed",
+      "status": "Status",
+      "bettime": "Bettime",
+      "result": "Result",
+      "description": "Description",
+      "refundamount": "Refundamount",
+      "ip": "Ip"
+    }
+  }
+}

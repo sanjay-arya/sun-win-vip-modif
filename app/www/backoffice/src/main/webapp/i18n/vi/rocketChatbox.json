@@ -1,0 +1,26 @@
+{
+  "txcbApp": {
+    "rocketChatbox": {
+      "home": {
+        "title": "Rocket Chatboxes",
+        "createLabel": "Add new một Rocket Chatbox",
+        "createOrEditLabel": "Add new hoặc cập nhật Rocket Chatbox",
+        "notFound": "No Rocket Chatboxes found"
+      },
+      "created": "Một Rocket Chatbox mới được tạo với định danh {{ param }}",
+      "updated": "Một Rocket Chatbox cập nhật với định danh {{ param }}",
+      "deleted": "Một Rocket Chatbox đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Rocket Chatbox {{ id }}?"
+      },
+      "detail": {
+        "title": "Rocket Chatbox"
+      },
+      "label": {
+        "loginname": "Loginname",
+        "message": "Message",
+        "created": "Created"
+      }
+    }
+  }
+}

@@ -1,0 +1,301 @@
+2023-01-18 03:31:48,255 | INFO  | main | api Logging initialized.
+2023-01-18 03:31:48,256 | DEBUG | main | api STARTING PORTAL API SERVER .... !!!!
+2023-01-18 03:31:48,404 | DEBUG | main | api 1 <-> com.vinplay.api.processors.QuickRegisterProcessor
+2023-01-18 03:31:48,405 | DEBUG | main | api 2 <-> com.vinplay.api.processors.LoginTokenProcessor
+2023-01-18 03:31:48,406 | DEBUG | main | api 3 <-> com.vinplay.api.processors.LoginProcessor
+2023-01-18 03:31:48,406 | DEBUG | main | api 4 <-> com.vinplay.api.processors.LoginWithOTPProcessor
+2023-01-18 03:31:48,407 | DEBUG | main | api 5 <-> com.vinplay.api.processors.UpdateNicknameProcesscor
+2023-01-18 03:31:48,407 | DEBUG | main | api 6 <-> com.vinplay.api.processors.GetAppConfigProcesscor
+2023-01-18 03:31:48,407 | DEBUG | main | api 8 <-> com.vinplay.api.processors.LoginAppOtpProcessor
+2023-01-18 03:31:48,407 | DEBUG | main | api 9 <-> com.vinplay.api.processors.GetTimeServerProccessor
+2023-01-18 03:31:48,408 | DEBUG | main | api 10 <-> com.vinplay.api.processors.GetConfigAdminProcessor
+2023-01-18 03:31:48,408 | DEBUG | main | api 13 <-> com.vinplay.api.processors.gamebai.GetListPokerTourProcessor
+2023-01-18 03:31:48,411 | DEBUG | main | api 14 <-> com.vinplay.api.processors.gamebai.GetPokerTourDetailProcessor
+2023-01-18 03:31:48,411 | DEBUG | main | api 15 <-> com.vinplay.api.processors.gamebai.GetPokerTicketProcessor
+2023-01-18 03:31:48,412 | DEBUG | main | api 16 <-> com.vinplay.api.processors.otp.GetOtpProcessor
+2023-01-18 03:31:48,413 | DEBUG | main | api 17 <-> com.vinplay.api.processors.LoginByTokenProcessor
+2023-01-18 03:31:48,413 | DEBUG | main | api 18 <-> com.vinplay.api.processors.CheckAgencyCodeProcessor
+2023-01-18 03:31:48,413 | DEBUG | main | api 19 <-> com.vinplay.api.processors.giftCode.GiftCodeProcessor
+2023-01-18 03:31:48,413 | DEBUG | main | api 20 <-> com.vinplay.api.processors.events.GetEventProcessor
+2023-01-18 03:31:48,413 | DEBUG | main | api 21 <-> com.vinplay.api.processors.events.BuyEventMoonProcessor
+2023-01-18 03:31:48,413 | DEBUG | main | api 100 <-> com.vinplay.api.processors.minigame.LichSuGiaoDichTXProcessor
+2023-01-18 03:31:48,413 | DEBUG | main | api 101 <-> com.vinplay.api.processors.minigame.TopWinTXProcessor
+2023-01-18 03:31:48,414 | DEBUG | main | api 102 <-> com.vinplay.api.processors.minigame.ChiTietPhienTXProcessor
+2023-01-18 03:31:48,414 | DEBUG | main | api 105 <-> com.vinplay.api.processors.minigame.LSGDMiniPokerProcessor
+2023-01-18 03:31:48,416 | DEBUG | main | api 106 <-> com.vinplay.api.processors.minigame.VinhDanhMiniPokerProcessor
+2023-01-18 03:31:48,416 | DEBUG | main | api 107 <-> com.vinplay.api.processors.minigame.LSGDCaoThapProcessor
+2023-01-18 03:31:48,416 | DEBUG | main | api 108 <-> com.vinplay.api.processors.minigame.VinhDanhCaoThapProcessor
+2023-01-18 03:31:48,416 | DEBUG | main | api 109 <-> com.vinplay.api.processors.minigame.TopCaoThapProcessor
+2023-01-18 03:31:48,416 | DEBUG | main | api 110 <-> com.vinplay.api.processors.gamebai.GetLogNoHuGameBaiProcessor
+2023-01-18 03:31:48,420 | DEBUG | main | api 111 <-> com.vinplay.api.processors.gamebai.GetConfigHuGameBaiProcessor
+2023-01-18 03:31:48,420 | DEBUG | main | api 120 <-> com.vinplay.api.processors.minigame.TopBauCuaProcessor
+2023-01-18 03:31:48,420 | DEBUG | main | api 121 <-> com.vinplay.api.processors.minigame.LSGDBauCuaProcessor
+2023-01-18 03:31:48,420 | DEBUG | main | api 122 <-> com.vinplay.api.processors.minigame.TopToiChonCaProcessor
+2023-01-18 03:31:48,424 | DEBUG | main | api 123 <-> com.vinplay.api.processors.gamebai.TopCaoThuProcessor
+2023-01-18 03:31:48,424 | DEBUG | main | api 124 <-> com.vinplay.api.processors.security.CaptchaProcessor
+2023-01-18 03:31:48,424 | DEBUG | main | api 125 <-> com.vinplay.api.processors.security.UpdateAvatarProcessor
+2023-01-18 03:31:48,425 | DEBUG | main | api 126 <-> com.vinplay.api.processors.vippoint.GetVippointProcessor
+2023-01-18 03:31:48,425 | DEBUG | main | api 127 <-> com.vinplay.api.processors.security.ForgetPasswordProcessor
+2023-01-18 03:31:48,425 | DEBUG | main | api 128 <-> com.vinplay.api.processors.security.ForgetPasswordOtpProcessor
+2023-01-18 03:31:48,425 | DEBUG | main | api 129 <-> com.vinplay.api.processors.GetGameCommonProcessor
+2023-01-18 03:31:48,425 | DEBUG | main | api 133 <-> com.vinplay.api.processors.security.ForgetPasswordEmailProcessor
+2023-01-18 03:31:48,425 | DEBUG | main | api 134 <-> com.vinplay.api.processors.minigame.LSGDPokeGoProcessor
+2023-01-18 03:31:48,425 | DEBUG | main | api 135 <-> com.vinplay.api.processors.minigame.TopPokeGoProcessor
+2023-01-18 03:31:48,427 | DEBUG | main | api 136 <-> com.vinplay.api.processors.slot.TopKhoBauProcessor
+2023-01-18 03:31:48,427 | DEBUG | main | api 137 <-> com.vinplay.api.processors.slot.LSGDSlotProcessor
+2023-01-18 03:31:48,427 | DEBUG | main | api 138 <-> com.vinplay.api.processors.slot.LSNoHuProcessor
+2023-01-18 03:31:48,428 | DEBUG | main | api 139 <-> com.vinplay.api.processors.gamebai.LSTLMNProcessor
+2023-01-18 03:31:48,428 | DEBUG | main | api 140 <-> com.vinplay.api.processors.minigame.LSXDProcessor
+2023-01-18 03:31:48,428 | DEBUG | main | api 141 <-> com.vinplay.api.processors.minigame.LSGDGalaxyProcessor
+2023-01-18 03:31:48,428 | DEBUG | main | api 142 <-> com.vinplay.api.processors.minigame.TopGalaxyProcessor
+2023-01-18 03:31:48,428 | DEBUG | main | api 201 <-> com.vinplay.api.processors.minigame.LuckyHistoryProcesscor
+2023-01-18 03:31:48,428 | DEBUG | main | api 301 <-> com.vinplay.api.processors.HistoryTransactionLogProcessor
+2023-01-18 03:31:48,428 | DEBUG | main | api 302 <-> com.vinplay.api.processors.GetLogMoneyUserProcessor
+2023-01-18 03:31:48,428 | DEBUG | main | api 401 <-> com.vinplay.api.processors.GetListAgentProcessor
+2023-01-18 03:31:48,429 | DEBUG | main | api 402 <-> com.vinplay.api.processors.ListMailBoxProcessor
+2023-01-18 03:31:48,430 | DEBUG | main | api 403 <-> com.vinplay.api.processors.DeleteMailBoxProcessor
+2023-01-18 03:31:48,430 | DEBUG | main | api 404 <-> com.vinplay.api.processors.UpdateStatusMailProcessor
+2023-01-18 03:31:48,430 | DEBUG | main | api 405 <-> com.vinplay.api.processors.ListMailBoxNewProcessor
+2023-01-18 03:31:48,430 | DEBUG | main | api 406 <-> com.vinplay.api.processors.CountMailStatusProcessor
+2023-01-18 03:31:48,430 | DEBUG | main | api 501 <-> com.vinplay.api.processors.vippoint.GetEventVPMapProcessor
+2023-01-18 03:31:48,430 | DEBUG | main | api 502 <-> com.vinplay.api.processors.vippoint.GetEventVPTopIntelProcessor
+2023-01-18 03:31:48,430 | DEBUG | main | api 503 <-> com.vinplay.api.processors.vippoint.GetEventVPTopStrongProcessor
+2023-01-18 03:31:48,431 | DEBUG | main | api 601 <-> com.vinplay.api.processors.gamebai.TopGameTourProcessor
+2023-01-18 03:31:48,431 | DEBUG | main | api 602 <-> com.vinplay.api.processors.gamebai.LogGameTourProcessor
+2023-01-18 03:31:48,431 | DEBUG | main | api 2000 <-> com.vinplay.api.processors.Set2AFProcessor
+2023-01-18 03:31:48,431 | DEBUG | main | api 2002 <-> com.vinplay.api.processors.GetPaymentConfigProcessor
+2023-01-18 03:31:48,434 | DEBUG | main | api 2003 <-> com.vinplay.api.processors.payment.CreateDepositProcessor
+2023-01-18 03:31:48,434 | DEBUG | main | api 2006 <-> com.vinplay.api.processors.DepositHistoryProcessor
+2023-01-18 03:31:48,434 | DEBUG | main | api 2007 <-> com.vinplay.api.processors.payment.InsertOrUpdateBankProcessor
+2023-01-18 03:31:48,434 | DEBUG | main | api 2008 <-> com.vinplay.api.processors.payment.BankSearchProcessor
+2023-01-18 03:31:48,435 | DEBUG | main | api 2009 <-> com.vinplay.api.processors.payment.PaymentStatusProcessor
+2023-01-18 03:31:48,435 | DEBUG | main | api 2010 <-> com.vinplay.api.processors.payment.CreateWithdrawProcessor
+2023-01-18 03:31:48,436 | DEBUG | main | api 2011 <-> com.vinplay.api.processors.payment.GetListBankProcessor
+2023-01-18 03:31:48,436 | DEBUG | main | api 2013 <-> com.vinplay.api.processors.VerifyPhoneNumberProcessor
+2023-01-18 03:31:48,436 | DEBUG | main | api 2014 <-> com.vinplay.api.processors.payment.GetBanksOneClickPayProcessor
+2023-01-18 03:31:48,437 | DEBUG | main | api 2015 <-> com.vinplay.api.processors.ReceiveBonusProcessor
+2023-01-18 03:31:48,437 | DEBUG | main | api 2016 <-> com.vinplay.api.processors.DepositHistory4UserplayProcessor
+2023-01-18 03:31:48,437 | DEBUG | main | api 2020 <-> com.vinplay.api.processors.banner.ShowListBannerProcessor
+2023-01-18 03:31:48,437 | DEBUG | main | api 2021 <-> com.vinplay.api.processors.shotfish.Login
+2023-01-18 03:31:48,437 | DEBUG | main | api 2022 <-> com.vinplay.api.processors.shotfish.Deposit
+2023-01-18 03:31:48,437 | DEBUG | main | api 2023 <-> com.vinplay.api.processors.shotfish.Withdraw
+2023-01-18 03:31:48,437 | DEBUG | main | api 2024 <-> com.vinplay.api.processors.shotfish.CheckOrderStatus
+2023-01-18 03:31:48,437 | DEBUG | main | api 2025 <-> com.vinplay.api.processors.shotfish.CheckUserBalance
+2023-01-18 03:31:48,437 | DEBUG | main | api 2026 <-> com.vinplay.api.processors.shotfish.CheckUserInGame
+2023-01-18 03:31:48,438 | DEBUG | main | api 2027 <-> com.vinplay.api.processors.shotfish.History
+2023-01-18 03:31:48,439 | DEBUG | main | api 2028 <-> com.vinplay.api.processors.UpdatePhoneNumberProcessor
+2023-01-18 03:31:48,439 | DEBUG | main | api 2029 <-> com.vinplay.api.processors.hoantra.CalculateDataHoanTraProcessor
+2023-01-18 03:31:48,439 | DEBUG | main | api 2030 <-> com.vinplay.api.processors.hoantra.SendDataHoanTraProcessor
+2023-01-18 03:31:48,439 | DEBUG | main | api 2031 <-> com.vinplay.api.processors.attendance.AttendanceProcessor
+2023-01-18 03:31:48,439 | DEBUG | main | api 2032 <-> com.vinplay.api.processors.attendance.HistoryProcessor
+2023-01-18 03:31:48,440 | DEBUG | main | api 2033 <-> com.vinplay.api.processors.SearchAgentBankProcessor
+2023-01-18 03:31:48,440 | DEBUG | main | api 2034 <-> com.vinplay.api.processors.SearchAgentProcessor
+2023-01-18 03:31:48,440 | DEBUG | main | api 2035 <-> com.vinplay.api.processors.DestroyHazelcastProcessor
+2023-01-18 03:31:48,441 | DEBUG | main | api 2038 <-> com.vinplay.api.processors.GetCurrentTimeServer
+2023-01-18 03:31:48,463 | INFO  | main | api BaseController:com.vinplay.api.processors.LoginWithOTPProcessor
+2023-01-18 03:31:49,180 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-01-18 03:31:49,336 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-01-18 03:31:49,338 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-01-18 03:31:49,382 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_gamebai (minpool=0,maxpool=10,maxsize=10,idleTimeout=900)
+2023-01-18 03:31:49,385 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_minigame (minpool=5,maxpool=20,maxsize=30,idleTimeout=900)
+2023-01-18 03:31:49,388 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 03:31:49,399 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_admin (minpool=0,maxpool=10,maxsize=10,idleTimeout=900)
+2023-01-18 03:31:49,400 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpoolname (minpool=5,maxpool=30,maxsize=40,idleTimeout=900)
+2023-01-18 03:31:49,400 | INFO  | main | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 03:31:49,585 | INFO  | cluster-ClusterId{value='63c705b545cb575d1970f7b0', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:3, serverValue:96}] to 127.0.0.1:27017
+2023-01-18 03:31:49,592 | INFO  | cluster-ClusterId{value='63c705b545cb575d1970f7ae', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:1, serverValue:95}] to 127.0.0.1:27017
+2023-01-18 03:31:49,592 | INFO  | cluster-ClusterId{value='63c705b545cb575d1970f7b0', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=3499168}
+2023-01-18 03:31:49,593 | INFO  | cluster-ClusterId{value='63c705b545cb575d1970f7ae', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=631478}
+2023-01-18 03:31:49,626 | INFO  | cluster-ClusterId{value='63c705b545cb575d1970f7af', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:2, serverValue:94}] to 127.0.0.1:27017
+2023-01-18 03:31:49,636 | INFO  | cluster-ClusterId{value='63c705b545cb575d1970f7af', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=5176424}
+2023-01-18 03:31:49,882 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-18 03:31:49,882 | INFO  | main | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-18 03:31:49,884 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 03:31:49,884 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 03:31:49,893 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-18 03:31:49,893 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 03:31:49,903 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-18 03:31:49,903 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-18 03:31:49,904 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 03:31:49,905 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 03:31:49,938 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-18 03:31:49,941 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 03:31:49,943 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-18 03:31:49,943 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 03:31:49,983 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-18 03:31:49,984 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 03:31:49,988 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-18 03:31:49,988 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 03:31:50,014 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-18 03:31:50,019 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-18 03:31:50,514 | INFO  | main | usercore.utils.GameThirdPartyInit Init Data successfull
+2023-01-18 03:31:50,739 | INFO  | main | jetty.util.log Logging initialized @2859ms
+2023-01-18 03:31:50,819 | INFO  | main | jetty.server.Server jetty-9.2.10.v20150310
+2023-01-18 03:31:50,875 | INFO  | main | jetty.server.ServerConnector Started ServerConnector@648dd302{HTTP/1.1}{0.0.0.0:8085}
+2023-01-18 03:31:50,876 | INFO  | main | jetty.server.Server Started @2997ms
+2023-01-18 03:31:50,876 | INFO  | main | api PORTAL API SERVER Started ...!!!
+2023-01-18 03:46:49,919 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-18 03:46:49,920 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-18 03:46:49,929 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-18 03:46:49,929 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-18 03:46:54,920 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-18 03:46:54,921 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-18 03:46:54,921 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-18 03:46:54,929 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-18 03:46:54,929 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-18 03:46:54,930 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-18 10:00:58,681 | WARN  | qtp1175631958-44 | jetty.http.HttpParser Illegal character 0x16 in state=START for buffer HeapByteBuffer@5ef87ec8[p=1,l=270,c=16384,r=269]={\x16<<<\x03\x01\x01\t\x01\x00\x01\x05\x03\x03\xB0\x077#1\x19\xDf...\xE7\xA4\x8b\x84\xF0\x0c\x00;\xC9\xA1\xFem\x1ek>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2023-01-18 10:00:58,681 | WARN  | qtp1175631958-44 | jetty.http.HttpParser badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@7bd5143c{r=0,c=false,a=IDLE,uri=-}
+2023-01-18 10:30:43,652 | INFO  | cluster-ClusterId{value='63c705b545cb575d1970f7af', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:4, serverValue:131}] to 127.0.0.1:27017
+2023-01-18 10:30:44,014 | INFO  | cluster-ClusterId{value='63c705b545cb575d1970f7ae', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:6, serverValue:132}] to 127.0.0.1:27017
+2023-01-18 10:30:44,634 | INFO  | cluster-ClusterId{value='63c705b545cb575d1970f7b0', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:5, serverValue:138}] to 127.0.0.1:27017
+2023-01-18 14:14:29,558 | INFO  | main | api Logging initialized.
+2023-01-18 14:14:29,560 | DEBUG | main | api STARTING PORTAL API SERVER .... !!!!
+2023-01-18 14:14:29,623 | DEBUG | main | api 1 <-> com.vinplay.api.processors.QuickRegisterProcessor
+2023-01-18 14:14:29,624 | DEBUG | main | api 2 <-> com.vinplay.api.processors.LoginTokenProcessor
+2023-01-18 14:14:29,624 | DEBUG | main | api 3 <-> com.vinplay.api.processors.LoginProcessor
+2023-01-18 14:14:29,624 | DEBUG | main | api 4 <-> com.vinplay.api.processors.LoginWithOTPProcessor
+2023-01-18 14:14:29,624 | DEBUG | main | api 5 <-> com.vinplay.api.processors.UpdateNicknameProcesscor
+2023-01-18 14:14:29,624 | DEBUG | main | api 6 <-> com.vinplay.api.processors.GetAppConfigProcesscor
+2023-01-18 14:14:29,624 | DEBUG | main | api 8 <-> com.vinplay.api.processors.LoginAppOtpProcessor
+2023-01-18 14:14:29,625 | DEBUG | main | api 9 <-> com.vinplay.api.processors.GetTimeServerProccessor
+2023-01-18 14:14:29,625 | DEBUG | main | api 10 <-> com.vinplay.api.processors.GetConfigAdminProcessor
+2023-01-18 14:14:29,625 | DEBUG | main | api 13 <-> com.vinplay.api.processors.gamebai.GetListPokerTourProcessor
+2023-01-18 14:14:29,625 | DEBUG | main | api 14 <-> com.vinplay.api.processors.gamebai.GetPokerTourDetailProcessor
+2023-01-18 14:14:29,625 | DEBUG | main | api 15 <-> com.vinplay.api.processors.gamebai.GetPokerTicketProcessor
+2023-01-18 14:14:29,625 | DEBUG | main | api 16 <-> com.vinplay.api.processors.otp.GetOtpProcessor
+2023-01-18 14:14:29,625 | DEBUG | main | api 17 <-> com.vinplay.api.processors.LoginByTokenProcessor
+2023-01-18 14:14:29,625 | DEBUG | main | api 18 <-> com.vinplay.api.processors.CheckAgencyCodeProcessor
+2023-01-18 14:14:29,625 | DEBUG | main | api 19 <-> com.vinplay.api.processors.giftCode.GiftCodeProcessor
+2023-01-18 14:14:29,625 | DEBUG | main | api 20 <-> com.vinplay.api.processors.events.GetEventProcessor
+2023-01-18 14:14:29,626 | DEBUG | main | api 21 <-> com.vinplay.api.processors.events.BuyEventMoonProcessor
+2023-01-18 14:14:29,626 | DEBUG | main | api 100 <-> com.vinplay.api.processors.minigame.LichSuGiaoDichTXProcessor
+2023-01-18 14:14:29,626 | DEBUG | main | api 101 <-> com.vinplay.api.processors.minigame.TopWinTXProcessor
+2023-01-18 14:14:29,626 | DEBUG | main | api 102 <-> com.vinplay.api.processors.minigame.ChiTietPhienTXProcessor
+2023-01-18 14:14:29,626 | DEBUG | main | api 105 <-> com.vinplay.api.processors.minigame.LSGDMiniPokerProcessor
+2023-01-18 14:14:29,626 | DEBUG | main | api 106 <-> com.vinplay.api.processors.minigame.VinhDanhMiniPokerProcessor
+2023-01-18 14:14:29,627 | DEBUG | main | api 107 <-> com.vinplay.api.processors.minigame.LSGDCaoThapProcessor
+2023-01-18 14:14:29,627 | DEBUG | main | api 108 <-> com.vinplay.api.processors.minigame.VinhDanhCaoThapProcessor
+2023-01-18 14:14:29,627 | DEBUG | main | api 109 <-> com.vinplay.api.processors.minigame.TopCaoThapProcessor
+2023-01-18 14:14:29,627 | DEBUG | main | api 110 <-> com.vinplay.api.processors.gamebai.GetLogNoHuGameBaiProcessor
+2023-01-18 14:14:29,627 | DEBUG | main | api 111 <-> com.vinplay.api.processors.gamebai.GetConfigHuGameBaiProcessor
+2023-01-18 14:14:29,627 | DEBUG | main | api 120 <-> com.vinplay.api.processors.minigame.TopBauCuaProcessor
+2023-01-18 14:14:29,628 | DEBUG | main | api 121 <-> com.vinplay.api.processors.minigame.LSGDBauCuaProcessor
+2023-01-18 14:14:29,628 | DEBUG | main | api 122 <-> com.vinplay.api.processors.minigame.TopToiChonCaProcessor
+2023-01-18 14:14:29,628 | DEBUG | main | api 123 <-> com.vinplay.api.processors.gamebai.TopCaoThuProcessor
+2023-01-18 14:14:29,628 | DEBUG | main | api 124 <-> com.vinplay.api.processors.security.CaptchaProcessor
+2023-01-18 14:14:29,628 | DEBUG | main | api 125 <-> com.vinplay.api.processors.security.UpdateAvatarProcessor
+2023-01-18 14:14:29,628 | DEBUG | main | api 126 <-> com.vinplay.api.processors.vippoint.GetVippointProcessor
+2023-01-18 14:14:29,628 | DEBUG | main | api 127 <-> com.vinplay.api.processors.security.ForgetPasswordProcessor
+2023-01-18 14:14:29,628 | DEBUG | main | api 128 <-> com.vinplay.api.processors.security.ForgetPasswordOtpProcessor
+2023-01-18 14:14:29,628 | DEBUG | main | api 129 <-> com.vinplay.api.processors.GetGameCommonProcessor
+2023-01-18 14:14:29,629 | DEBUG | main | api 133 <-> com.vinplay.api.processors.security.ForgetPasswordEmailProcessor
+2023-01-18 14:14:29,629 | DEBUG | main | api 134 <-> com.vinplay.api.processors.minigame.LSGDPokeGoProcessor
+2023-01-18 14:14:29,629 | DEBUG | main | api 135 <-> com.vinplay.api.processors.minigame.TopPokeGoProcessor
+2023-01-18 14:14:29,629 | DEBUG | main | api 136 <-> com.vinplay.api.processors.slot.TopKhoBauProcessor
+2023-01-18 14:14:29,629 | DEBUG | main | api 137 <-> com.vinplay.api.processors.slot.LSGDSlotProcessor
+2023-01-18 14:14:29,630 | DEBUG | main | api 138 <-> com.vinplay.api.processors.slot.LSNoHuProcessor
+2023-01-18 14:14:29,630 | DEBUG | main | api 139 <-> com.vinplay.api.processors.gamebai.LSTLMNProcessor
+2023-01-18 14:14:29,630 | DEBUG | main | api 140 <-> com.vinplay.api.processors.minigame.LSXDProcessor
+2023-01-18 14:14:29,630 | DEBUG | main | api 141 <-> com.vinplay.api.processors.minigame.LSGDGalaxyProcessor
+2023-01-18 14:14:29,631 | DEBUG | main | api 142 <-> com.vinplay.api.processors.minigame.TopGalaxyProcessor
+2023-01-18 14:14:29,631 | DEBUG | main | api 201 <-> com.vinplay.api.processors.minigame.LuckyHistoryProcesscor
+2023-01-18 14:14:29,631 | DEBUG | main | api 301 <-> com.vinplay.api.processors.HistoryTransactionLogProcessor
+2023-01-18 14:14:29,631 | DEBUG | main | api 302 <-> com.vinplay.api.processors.GetLogMoneyUserProcessor
+2023-01-18 14:14:29,631 | DEBUG | main | api 401 <-> com.vinplay.api.processors.GetListAgentProcessor
+2023-01-18 14:14:29,632 | DEBUG | main | api 402 <-> com.vinplay.api.processors.ListMailBoxProcessor
+2023-01-18 14:14:29,632 | DEBUG | main | api 403 <-> com.vinplay.api.processors.DeleteMailBoxProcessor
+2023-01-18 14:14:29,632 | DEBUG | main | api 404 <-> com.vinplay.api.processors.UpdateStatusMailProcessor
+2023-01-18 14:14:29,632 | DEBUG | main | api 405 <-> com.vinplay.api.processors.ListMailBoxNewProcessor
+2023-01-18 14:14:29,632 | DEBUG | main | api 406 <-> com.vinplay.api.processors.CountMailStatusProcessor
+2023-01-18 14:14:29,632 | DEBUG | main | api 501 <-> com.vinplay.api.processors.vippoint.GetEventVPMapProcessor
+2023-01-18 14:14:29,632 | DEBUG | main | api 502 <-> com.vinplay.api.processors.vippoint.GetEventVPTopIntelProcessor
+2023-01-18 14:14:29,633 | DEBUG | main | api 503 <-> com.vinplay.api.processors.vippoint.GetEventVPTopStrongProcessor
+2023-01-18 14:14:29,633 | DEBUG | main | api 601 <-> com.vinplay.api.processors.gamebai.TopGameTourProcessor
+2023-01-18 14:14:29,633 | DEBUG | main | api 602 <-> com.vinplay.api.processors.gamebai.LogGameTourProcessor
+2023-01-18 14:14:29,633 | DEBUG | main | api 2000 <-> com.vinplay.api.processors.Set2AFProcessor
+2023-01-18 14:14:29,633 | DEBUG | main | api 2002 <-> com.vinplay.api.processors.GetPaymentConfigProcessor
+2023-01-18 14:14:29,633 | DEBUG | main | api 2003 <-> com.vinplay.api.processors.payment.CreateDepositProcessor
+2023-01-18 14:14:29,633 | DEBUG | main | api 2006 <-> com.vinplay.api.processors.DepositHistoryProcessor
+2023-01-18 14:14:29,633 | DEBUG | main | api 2007 <-> com.vinplay.api.processors.payment.InsertOrUpdateBankProcessor
+2023-01-18 14:14:29,633 | DEBUG | main | api 2008 <-> com.vinplay.api.processors.payment.BankSearchProcessor
+2023-01-18 14:14:29,634 | DEBUG | main | api 2009 <-> com.vinplay.api.processors.payment.PaymentStatusProcessor
+2023-01-18 14:14:29,634 | DEBUG | main | api 2010 <-> com.vinplay.api.processors.payment.CreateWithdrawProcessor
+2023-01-18 14:14:29,634 | DEBUG | main | api 2011 <-> com.vinplay.api.processors.payment.GetListBankProcessor
+2023-01-18 14:14:29,634 | DEBUG | main | api 2013 <-> com.vinplay.api.processors.VerifyPhoneNumberProcessor
+2023-01-18 14:14:29,634 | DEBUG | main | api 2014 <-> com.vinplay.api.processors.payment.GetBanksOneClickPayProcessor
+2023-01-18 14:14:29,634 | DEBUG | main | api 2015 <-> com.vinplay.api.processors.ReceiveBonusProcessor
+2023-01-18 14:14:29,634 | DEBUG | main | api 2016 <-> com.vinplay.api.processors.DepositHistory4UserplayProcessor
+2023-01-18 14:14:29,634 | DEBUG | main | api 2020 <-> com.vinplay.api.processors.banner.ShowListBannerProcessor
+2023-01-18 14:14:29,635 | DEBUG | main | api 2021 <-> com.vinplay.api.processors.shotfish.Login
+2023-01-18 14:14:29,635 | DEBUG | main | api 2022 <-> com.vinplay.api.processors.shotfish.Deposit
+2023-01-18 14:14:29,635 | DEBUG | main | api 2023 <-> com.vinplay.api.processors.shotfish.Withdraw
+2023-01-18 14:14:29,635 | DEBUG | main | api 2024 <-> com.vinplay.api.processors.shotfish.CheckOrderStatus
+2023-01-18 14:14:29,635 | DEBUG | main | api 2025 <-> com.vinplay.api.processors.shotfish.CheckUserBalance
+2023-01-18 14:14:29,635 | DEBUG | main | api 2026 <-> com.vinplay.api.processors.shotfish.CheckUserInGame
+2023-01-18 14:14:29,635 | DEBUG | main | api 2027 <-> com.vinplay.api.processors.shotfish.History
+2023-01-18 14:14:29,635 | DEBUG | main | api 2028 <-> com.vinplay.api.processors.UpdatePhoneNumberProcessor
+2023-01-18 14:14:29,636 | DEBUG | main | api 2029 <-> com.vinplay.api.processors.hoantra.CalculateDataHoanTraProcessor
+2023-01-18 14:14:29,636 | DEBUG | main | api 2030 <-> com.vinplay.api.processors.hoantra.SendDataHoanTraProcessor
+2023-01-18 14:14:29,636 | DEBUG | main | api 2031 <-> com.vinplay.api.processors.attendance.AttendanceProcessor
+2023-01-18 14:14:29,636 | DEBUG | main | api 2032 <-> com.vinplay.api.processors.attendance.HistoryProcessor
+2023-01-18 14:14:29,636 | DEBUG | main | api 2033 <-> com.vinplay.api.processors.SearchAgentBankProcessor
+2023-01-18 14:14:29,636 | DEBUG | main | api 2034 <-> com.vinplay.api.processors.SearchAgentProcessor
+2023-01-18 14:14:29,636 | DEBUG | main | api 2035 <-> com.vinplay.api.processors.DestroyHazelcastProcessor
+2023-01-18 14:14:29,637 | DEBUG | main | api 2038 <-> com.vinplay.api.processors.GetCurrentTimeServer
+2023-01-18 14:14:29,647 | INFO  | main | api BaseController:com.vinplay.api.processors.LoginWithOTPProcessor
+2023-01-18 14:14:30,268 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-01-18 14:14:30,359 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-01-18 14:14:30,361 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-01-18 14:14:30,395 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_gamebai (minpool=0,maxpool=10,maxsize=10,idleTimeout=900)
+2023-01-18 14:14:30,396 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_minigame (minpool=5,maxpool=20,maxsize=30,idleTimeout=900)
+2023-01-18 14:14:30,397 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_admin (minpool=0,maxpool=10,maxsize=10,idleTimeout=900)
+2023-01-18 14:14:30,398 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpoolname (minpool=5,maxpool=30,maxsize=40,idleTimeout=900)
+2023-01-18 14:14:30,398 | INFO  | main | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 14:14:30,399 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 14:14:30,633 | INFO  | cluster-ClusterId{value='63c79c5645cb57157dd4c5e1', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:3, serverValue:224}] to 127.0.0.1:27017
+2023-01-18 14:14:30,639 | INFO  | cluster-ClusterId{value='63c79c5645cb57157dd4c5e1', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=2826455}
+2023-01-18 14:14:30,648 | INFO  | cluster-ClusterId{value='63c79c5645cb57157dd4c5df', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:1, serverValue:222}] to 127.0.0.1:27017
+2023-01-18 14:14:30,652 | INFO  | cluster-ClusterId{value='63c79c5645cb57157dd4c5df', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=3453642}
+2023-01-18 14:14:30,660 | INFO  | cluster-ClusterId{value='63c79c5645cb57157dd4c5e0', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:2, serverValue:223}] to 127.0.0.1:27017
+2023-01-18 14:14:30,662 | INFO  | cluster-ClusterId{value='63c79c5645cb57157dd4c5e0', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=958628}
+2023-01-18 14:14:30,845 | INFO  | main | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-18 14:14:30,847 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-18 14:14:30,848 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 14:14:30,867 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 14:14:30,868 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-18 14:14:30,868 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 14:14:30,880 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-18 14:14:30,882 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 14:14:30,882 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-18 14:14:30,882 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 14:14:30,902 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-18 14:14:30,903 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 14:14:30,904 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-18 14:14:30,905 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 14:14:30,919 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-01-18 14:14:30,930 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-18 14:14:30,931 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 14:14:30,963 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-18 14:14:30,963 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-01-18 14:14:30,985 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-01-18 14:14:31,437 | INFO  | main | usercore.utils.GameThirdPartyInit Init Data successfull
+2023-01-18 14:14:31,555 | INFO  | main | jetty.util.log Logging initialized @2330ms
+2023-01-18 14:14:31,635 | INFO  | main | jetty.server.Server jetty-9.2.10.v20150310
+2023-01-18 14:14:31,686 | INFO  | main | jetty.server.ServerConnector Started ServerConnector@615091b8{HTTP/1.1}{0.0.0.0:8085}
+2023-01-18 14:14:31,687 | INFO  | main | jetty.server.Server Started @2465ms
+2023-01-18 14:14:31,687 | INFO  | main | api PORTAL API SERVER Started ...!!!
+2023-01-18 14:29:30,886 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-18 14:29:30,887 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-18 14:29:30,887 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-18 14:29:30,904 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-18 14:29:35,888 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-18 14:29:35,889 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-01-18 14:29:35,905 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-18 14:29:35,905 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-18 14:29:35,906 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-18 14:29:35,906 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-01-18 15:55:12,240 | WARN  | qtp1770437551-46 | jetty.http.HttpParser Illegal character 0x1 in state=METHOD for buffer HeapByteBuffer@502fae68[p=5,l=35,c=16384,r=30]={GIOP\x01<<<\x02\x00\x03\x00\x00\x00\x17\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x0bNameService>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2023-01-18 15:55:12,242 | WARN  | qtp1770437551-46 | jetty.http.HttpParser badMessage: 400 Illegal character 0x1 for HttpChannelOverHttp@1fd55026{r=0,c=false,a=IDLE,uri=-}
+2023-01-18 22:57:54,383 | WARN  | qtp1770437551-43 | jetty.http.HttpParser Illegal character 0xE in state=START for buffer HeapByteBuffer@502fae68[p=1,l=30,c=16384,r=29]={\x0e<<<\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001>>>\nHost: 139-162-62...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2023-01-18 22:57:54,384 | WARN  | qtp1770437551-43 | jetty.http.HttpParser badMessage: 400 Illegal character 0xE for HttpChannelOverHttp@49c37f29{r=0,c=false,a=IDLE,uri=-}

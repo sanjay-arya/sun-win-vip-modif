@@ -1,0 +1,27 @@
+{
+  "txcbApp": {
+    "xocdiaRank": {
+      "home": {
+        "title": "Xocdia Ranks",
+        "createLabel": "Add new một Xocdia Rank",
+        "createOrEditLabel": "Add new hoặc cập nhật Xocdia Rank",
+        "notFound": "No Xocdia Ranks found",
+        "editAll": "Sửa All",
+        "msgSuccess": "Update thành công",
+        "msgUnsuccessAll": "Update thành công {{ param1 }} bản ghi. {{ param2 }} bản ghi chưa được cập nhật.",
+        "validationAmountMinMax": "Amount of money phải lớn hơn 1000000 và nhỏ hơn 99999999999999999."
+      },
+      "created": "Một Xocdia Rank mới được tạo với định danh {{ param }}",
+      "updated": "Một Xocdia Rank cập nhật với định danh {{ param }}",
+      "deleted": "Một Xocdia Rank đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Xocdia Rank {{ id }}?"
+      },
+      "detail": {
+        "title": "Xocdia Rank"
+      },
+      "loginname": "Loginname",
+      "amount": "Amount"
+    }
+  }
+}

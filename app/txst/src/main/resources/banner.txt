@@ -1,0 +1,4 @@
+
+${AnsiColor.BRIGHT_BLUE}:: VFAST 🤓  :: Running Spring Boot ${spring-boot.version} ::
+:: https://lot79.com ::${AnsiColor.DEFAULT}
+:: Build the client with the command npm run webpack:build or npm start

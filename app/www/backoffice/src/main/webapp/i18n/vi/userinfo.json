@@ -1,0 +1,25 @@
+{
+  "txcbApp": {
+    "userinfo": {
+      "home": {
+        "title": "Userinfos",
+        "createLabel": "Add new một Userinfo",
+        "createOrEditLabel": "Add new hoặc cập nhật Userinfo",
+        "notFound": "No Userinfos found"
+      },
+      "created": "Một Userinfo mới được tạo với định danh {{ param }}",
+      "updated": "Một Userinfo cập nhật với định danh {{ param }}",
+      "deleted": "Một Userinfo đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Userinfo {{ id }}?"
+      },
+      "detail": {
+        "title": "Userinfo"
+      },
+      "loginname": "Loginname",
+      "pwd": "Pwd",
+      "usertype": "Usertype",
+      "status": "Status"
+    }
+  }
+}

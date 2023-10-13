@@ -1,0 +1,28 @@
+{
+  "taixiucbApp": {
+    "transferHistory": {
+      "home": {
+        "title": "Transfer Histories",
+        "createLabel": "Create a new Transfer History",
+        "createOrEditLabel": "Create or edit a Transfer History",
+        "notFound": "No Transfer Histories found"
+      },
+      "created": "A new Transfer History is created with identifier {{ param }}",
+      "updated": "A Transfer History is updated with identifier {{ param }}",
+      "deleted": "A Transfer History is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Transfer History {{ id }}?"
+      },
+      "detail": {
+        "title": "Transfer History"
+      },
+      "amount": "Amount",
+      "created": "Created",
+      "action": "Action",
+      "current_balance": "Current Balance",
+      "username": "Username",
+      "orderId": "Order Id",
+      "transId": "Trans Id"
+    }
+  }
+}

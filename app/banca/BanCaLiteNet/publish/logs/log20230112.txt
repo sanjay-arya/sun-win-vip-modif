@@ -1,0 +1,3043 @@
+19:18:02.741 [INF] Current version 1.0.0
+19:18:03.818 [INF] Starting server
+19:18:03.832 [INF] Allow solo on server 8888
+19:18:03.832 [INF] Start bot on server 8888
+19:18:03.832 [INF] Server started
+19:18:03.947 [INF] Litenet server started at 8888
+19:18:03.952 [INF] Server started at ws://0.0.0.0:2083 (actual port 2083)
+no ex
+19:18:03.953 [INF] Websocket server started at 2083
+19:18:03.958 [INF] 8888 bot: 0, peer: 0, ccu: 0
+19:19:02.670 [INF] RunScan: 0
+19:19:03.166 [INF] ScanXskt result: 18452-99849-27621-91955-09319-34625-29740-28430-97779-44856-2502-3884-3118-5818-5434-7882-4474-0383-7694-3970-122-547-305-47-29-85-00
+19:19:03.267 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng 5.","Data":null,"DataObj":null}
+19:20:02.670 [INF] RunHandleWinLoss: 0
+19:20:02.672 [INF] CalculateResult: 20230112
+19:20:02.675 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+19:24:03.267 [INF] RunScan: 0
+19:24:03.280 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:25:02.690 [INF] RunHandleWinLoss: 0
+19:25:02.690 [INF] CalculateResult: 20230112
+19:25:02.690 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+19:29:03.281 [INF] RunScan: 0
+19:29:03.286 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:30:02.694 [INF] RunHandleWinLoss: 0
+19:30:02.694 [INF] CalculateResult: 20230112
+19:30:02.694 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+19:34:03.287 [INF] RunScan: 0
+19:34:03.288 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:35:02.698 [INF] RunHandleWinLoss: 0
+19:35:02.698 [INF] CalculateResult: 20230112
+19:35:02.698 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+19:39:03.289 [INF] RunScan: 0
+19:39:03.289 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:40:02.700 [INF] RunHandleWinLoss: 0
+19:40:02.700 [INF] CalculateResult: 20230112
+19:40:02.700 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+19:44:03.290 [INF] RunScan: 0
+19:44:03.290 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:45:02.703 [INF] RunHandleWinLoss: 0
+19:45:02.703 [INF] CalculateResult: 20230112
+19:45:02.704 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+19:49:03.291 [INF] RunScan: 0
+19:49:03.291 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:50:02.706 [INF] RunHandleWinLoss: 0
+19:50:02.706 [INF] CalculateResult: 20230112
+19:50:02.706 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+19:54:03.292 [INF] RunScan: 0
+19:54:03.292 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:55:02.708 [INF] RunHandleWinLoss: 0
+19:55:02.709 [INF] CalculateResult: 20230112
+19:55:02.709 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+19:59:03.292 [INF] RunScan: 0
+19:59:03.294 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+20:00:02.711 [INF] RunHandleWinLoss: 0
+20:00:02.711 [INF] CalculateResult: 20230112
+20:00:02.711 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+20:04:03.294 [INF] RunScan: 0
+20:04:03.295 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:4)","Data":null,"DataObj":null}
+20:05:02.713 [INF] RunHandleWinLoss: 0
+20:05:02.713 [INF] CalculateResult: 20230112
+20:05:02.713 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+20:09:03.295 [INF] RunScan: 0
+20:09:03.295 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:9)","Data":null,"DataObj":null}
+20:10:02.716 [INF] RunHandleWinLoss: 0
+20:10:02.716 [INF] CalculateResult: 20230112
+20:10:02.716 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+20:14:03.296 [INF] RunScan: 0
+20:14:03.296 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:14)","Data":null,"DataObj":null}
+20:15:02.718 [INF] RunHandleWinLoss: 0
+20:15:02.718 [INF] CalculateResult: 20230112
+20:15:02.718 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+20:19:03.296 [INF] RunScan: 0
+20:19:03.297 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:19)","Data":null,"DataObj":null}
+20:20:02.722 [INF] RunHandleWinLoss: 0
+20:20:02.722 [INF] CalculateResult: 20230112
+20:20:02.722 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+20:24:03.297 [INF] RunScan: 0
+20:24:03.297 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:24)","Data":null,"DataObj":null}
+20:25:02.725 [INF] RunHandleWinLoss: 0
+20:25:02.725 [INF] CalculateResult: 20230112
+20:25:02.725 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+20:29:03.297 [INF] RunScan: 0
+20:29:03.298 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:29)","Data":null,"DataObj":null}
+20:30:02.727 [INF] RunHandleWinLoss: 0
+20:30:02.727 [INF] CalculateResult: 20230112
+20:30:02.727 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+20:34:03.298 [INF] RunScan: 0
+20:34:03.298 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:34)","Data":null,"DataObj":null}
+20:35:02.729 [INF] RunHandleWinLoss: 0
+20:35:02.729 [INF] CalculateResult: 20230112
+20:35:02.729 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+20:39:03.298 [INF] RunScan: 0
+20:39:03.299 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:39)","Data":null,"DataObj":null}
+20:40:02.732 [INF] RunHandleWinLoss: 0
+20:40:02.732 [INF] CalculateResult: 20230112
+20:40:02.732 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+20:44:03.299 [INF] RunScan: 0
+20:44:03.300 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:44)","Data":null,"DataObj":null}
+20:45:02.734 [INF] RunHandleWinLoss: 0
+20:45:02.735 [INF] CalculateResult: 20230112
+20:45:02.735 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+20:49:03.300 [INF] RunScan: 0
+20:49:03.300 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:49)","Data":null,"DataObj":null}
+20:50:02.737 [INF] RunHandleWinLoss: 0
+20:50:02.738 [INF] CalculateResult: 20230112
+20:50:02.738 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+20:54:03.301 [INF] RunScan: 0
+20:54:03.301 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:54)","Data":null,"DataObj":null}
+20:55:02.740 [INF] RunHandleWinLoss: 0
+20:55:02.740 [INF] CalculateResult: 20230112
+20:55:02.740 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+20:59:03.301 [INF] RunScan: 0
+20:59:03.301 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:59)","Data":null,"DataObj":null}
+21:00:02.742 [INF] RunHandleWinLoss: 0
+21:00:02.742 [INF] CalculateResult: 20230112
+21:00:02.742 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+21:04:03.302 [INF] RunScan: 0
+21:04:03.302 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(21:4)","Data":null,"DataObj":null}
+21:05:02.745 [INF] RunHandleWinLoss: 0
+21:05:02.745 [INF] CalculateResult: 20230112
+21:05:02.745 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+21:09:03.302 [INF] RunScan: 0
+21:09:03.302 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(21:9)","Data":null,"DataObj":null}
+21:10:02.747 [INF] RunHandleWinLoss: 0
+21:10:02.748 [INF] CalculateResult: 20230112
+21:10:02.748 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+21:14:03.303 [INF] RunScan: 0
+21:14:03.303 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(21:14)","Data":null,"DataObj":null}
+21:15:02.749 [INF] RunHandleWinLoss: 0
+21:15:02.750 [INF] CalculateResult: 20230112
+21:15:02.750 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+21:19:03.304 [INF] RunScan: 0
+21:19:03.305 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(21:19)","Data":null,"DataObj":null}
+21:20:02.752 [INF] RunHandleWinLoss: 0
+21:20:02.752 [INF] CalculateResult: 20230112
+21:20:02.752 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+21:24:03.305 [INF] RunScan: 0
+21:24:03.305 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(21:24)","Data":null,"DataObj":null}
+21:25:02.754 [INF] RunHandleWinLoss: 0
+21:25:02.754 [INF] CalculateResult: 20230112
+21:25:02.754 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+21:29:03.305 [INF] RunScan: 0
+21:29:03.305 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(21:29)","Data":null,"DataObj":null}
+21:30:02.756 [INF] RunHandleWinLoss: 0
+21:30:02.756 [INF] CalculateResult: 20230112
+21:30:02.756 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+21:34:03.306 [INF] RunScan: 0
+21:34:03.306 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(21:34)","Data":null,"DataObj":null}
+21:35:02.759 [INF] RunHandleWinLoss: 0
+21:35:02.759 [INF] CalculateResult: 20230112
+21:35:02.759 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+21:35:34.321 [DBG] Client connected from 127.0.0.1:33702
+no ex
+21:35:34.324 [DBG] 920 bytes read
+no ex
+21:35:34.375 [DBG] Building Hybi-14 Response
+no ex
+21:35:34.377 [DBG] Sent 129 bytes
+no ex
+21:35:34.449 [DBG] 31 bytes read
+no ex
+21:35:34.516 [DBG] Sent 30 bytes
+no ex
+21:35:34.517 [INF] Server full speed, frame 482258, total 52, task 0, engine 0, bot 0, network 52, push 0, avg fps 48.780487
+21:35:34.517 [DBG] 110 bytes read
+no ex
+21:35:34.535 [INF] GET: http://127.0.0.1:8081/api?c=3&un=huy1411&pw=cc0d45bc2f499fc4666d09691485a0f9&pf=web&at=
+21:35:34.603 [INF] GET response: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Imh1eTE0MTExIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjoxMDE5MDcwMDAsInh1VG90YWwiOjUwMDAwMCwidmlwcG9pbnQiOjAsInZpcHBvaW50U2F2ZSI6MCwiY3JlYXRlVGltZSI6IjEyLTAxLTIwMjMiLCJpcEFkZHJlc3MiOiIxMjcuMC4wLjEiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJodXkxNDExIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"544667bf53fa888c7b413e66dfe5850e"}
+
+21:35:34.766 [DBG] Sent 5726 bytes
+no ex
+21:35:35.923 [DBG] Sent 184 bytes
+no ex
+21:35:37.450 [DBG] 31 bytes read
+no ex
+21:35:37.451 [DBG] Sent 30 bytes
+no ex
+21:35:40.934 [DBG] Sent 184 bytes
+no ex
+21:35:42.474 [DBG] Sent 4 bytes
+no ex
+21:35:42.522 [DBG] Swallowing ObjectDisposedException
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+21:35:49.055 [DBG] Client connected from 127.0.0.1:35276
+no ex
+21:35:49.056 [DBG] 920 bytes read
+no ex
+21:35:49.056 [DBG] Building Hybi-14 Response
+no ex
+21:35:49.056 [DBG] Sent 129 bytes
+no ex
+21:35:49.137 [DBG] 141 bytes read
+no ex
+21:35:49.138 [DBG] Sent 30 bytes
+no ex
+21:35:49.138 [INF] GET: http://127.0.0.1:8081/api?c=3&un=huy1411&pw=cc0d45bc2f499fc4666d09691485a0f9&pf=web&at=
+21:35:49.175 [INF] GET response: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Imh1eTE0MTExIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjoxMDE5MDcwMDAsInh1VG90YWwiOjUwMDAwMCwidmlwcG9pbnQiOjAsInZpcHBvaW50U2F2ZSI6MCwiY3JlYXRlVGltZSI6IjEyLTAxLTIwMjMiLCJpcEFkZHJlc3MiOiIxMjcuMC4wLjEiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJodXkxNDExIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"d7071c2f17f112b8b35915ddf9e1f5ae"}
+
+21:35:49.189 [DBG] Sent 5728 bytes
+no ex
+21:35:50.935 [DBG] Sent 184 bytes
+no ex
+21:35:52.133 [DBG] 31 bytes read
+no ex
+21:35:52.134 [DBG] Sent 30 bytes
+no ex
+21:35:55.133 [DBG] 31 bytes read
+no ex
+21:35:55.134 [DBG] Sent 30 bytes
+no ex
+21:35:55.929 [DBG] Sent 184 bytes
+no ex
+21:35:58.146 [DBG] 31 bytes read
+no ex
+21:35:58.147 [DBG] Sent 30 bytes
+no ex
+21:35:58.971 [DBG] 49 bytes read
+no ex
+21:35:58.975 [INF] GET: http://127.0.0.1:19082/api_backend?c=8797&nn=huy14111&mn=-20000000&h=680ef7ef23d5e67ad5e3159c2e6149a4
+21:35:59.765 [INF] GET response: {"success":true,"message":null,"errorCode":"0","data":"Không có nickname: huy14111 hoặc tiền hoàn trả bằng 0: -20000000"}
+
+21:35:59.772 [DBG] Sent 33 bytes
+no ex
+21:36:00.923 [DBG] Sent 184 bytes
+no ex
+21:36:01.138 [DBG] 31 bytes read
+no ex
+21:36:01.138 [DBG] Sent 30 bytes
+no ex
+21:36:04.137 [DBG] 31 bytes read
+no ex
+21:36:04.138 [DBG] Sent 30 bytes
+no ex
+21:36:05.932 [DBG] Sent 184 bytes
+no ex
+21:36:07.138 [DBG] 31 bytes read
+no ex
+21:36:07.139 [DBG] Sent 30 bytes
+no ex
+21:36:10.137 [DBG] 31 bytes read
+no ex
+21:36:10.138 [DBG] Sent 30 bytes
+no ex
+21:36:10.927 [DBG] Sent 184 bytes
+no ex
+21:36:11.241 [DBG] 31 bytes read
+no ex
+21:36:11.242 [DBG] Sent 30 bytes
+no ex
+21:36:11.311 [DBG] 31 bytes read
+no ex
+21:36:11.311 [DBG] Sent 30 bytes
+no ex
+21:36:11.391 [DBG] 31 bytes read
+no ex
+21:36:11.391 [DBG] Sent 30 bytes
+no ex
+21:36:11.464 [DBG] 124 bytes read
+no ex
+21:36:11.524 [DBG] Sent 236 bytes
+no ex
+21:36:11.526 [DBG] Sent 4808 bytes
+no ex
+21:36:11.526 [INF] Time queue (2) 36 > frame time 16, processed 1, remain 0
+21:36:11.526 [INF] Server full speed, frame 484421, total 36, task 36, engine 0, bot 0, network 0, push 0, avg fps 52.910053
+21:36:11.599 [DBG] 32 bytes read
+no ex
+21:36:11.604 [DBG] Sent 11040 bytes
+no ex
+21:36:11.695 [DBG] 37 bytes read
+no ex
+21:36:11.696 [DBG] Sent 172 bytes
+no ex
+21:36:12.082 [DBG] Sent 70 bytes
+no ex
+21:36:12.535 [DBG] 76 bytes read
+no ex
+21:36:12.542 [DBG] Sent 120 bytes
+no ex
+21:36:12.764 [DBG] Sent 69 bytes
+no ex
+21:36:13.136 [DBG] 31 bytes read
+no ex
+21:36:13.137 [DBG] Sent 30 bytes
+no ex
+21:36:13.484 [DBG] Sent 1681 bytes
+no ex
+21:36:14.476 [DBG] Sent 70 bytes
+no ex
+21:36:14.476 [DBG] Sent 1213 bytes
+no ex
+21:36:15.362 [DBG] Sent 275 bytes
+no ex
+21:36:15.396 [DBG] Sent 70 bytes
+no ex
+21:36:15.396 [DBG] Sent 70 bytes
+no ex
+21:36:15.940 [DBG] Sent 184 bytes
+no ex
+21:36:16.112 [DBG] Sent 275 bytes
+no ex
+21:36:16.134 [DBG] 31 bytes read
+no ex
+21:36:16.135 [DBG] Sent 30 bytes
+no ex
+21:36:16.145 [DBG] Sent 69 bytes
+no ex
+21:36:16.248 [DBG] Sent 70 bytes
+no ex
+21:36:16.832 [DBG] Sent 70 bytes
+no ex
+21:36:16.934 [DBG] Sent 483 bytes
+no ex
+21:36:17.038 [DBG] Sent 70 bytes
+no ex
+21:36:17.106 [DBG] Sent 70 bytes
+no ex
+21:36:17.479 [DBG] Sent 69 bytes
+no ex
+21:36:17.704 [DBG] 76 bytes read
+no ex
+21:36:17.705 [DBG] Sent 120 bytes
+no ex
+21:36:17.754 [DBG] Sent 1447 bytes
+no ex
+21:36:17.889 [DBG] Sent 69 bytes
+no ex
+21:36:17.957 [DBG] Sent 70 bytes
+no ex
+21:36:18.016 [DBG] 76 bytes read
+no ex
+21:36:18.016 [DBG] Sent 120 bytes
+no ex
+21:36:18.276 [DBG] 76 bytes read
+no ex
+21:36:18.277 [DBG] Sent 120 bytes
+no ex
+21:36:18.503 [DBG] Sent 70 bytes
+no ex
+21:36:18.557 [DBG] 76 bytes read
+no ex
+21:36:18.557 [DBG] Sent 120 bytes
+no ex
+21:36:18.708 [DBG] Sent 1863 bytes
+no ex
+21:36:18.839 [DBG] 76 bytes read
+no ex
+21:36:18.839 [DBG] Sent 120 bytes
+no ex
+21:36:19.115 [DBG] 76 bytes read
+no ex
+21:36:19.115 [DBG] Sent 120 bytes
+no ex
+21:36:19.365 [DBG] 31 bytes read
+no ex
+21:36:19.365 [DBG] Sent 30 bytes
+no ex
+21:36:19.406 [DBG] 76 bytes read
+no ex
+21:36:19.407 [DBG] Sent 120 bytes
+no ex
+21:36:19.534 [DBG] Sent 70 bytes
+no ex
+21:36:19.564 [DBG] Sent 69 bytes
+no ex
+21:36:19.690 [DBG] 76 bytes read
+no ex
+21:36:19.691 [DBG] Sent 120 bytes
+no ex
+21:36:19.971 [DBG] 76 bytes read
+no ex
+21:36:19.972 [DBG] Sent 120 bytes
+no ex
+21:36:20.254 [DBG] 76 bytes read
+no ex
+21:36:20.254 [DBG] Sent 120 bytes
+no ex
+21:36:20.318 [DBG] Sent 979 bytes
+no ex
+21:36:20.320 [DBG] Sent 719 bytes
+no ex
+21:36:20.320 [DBG] Sent 1031 bytes
+no ex
+21:36:20.320 [DBG] Sent 301 bytes
+no ex
+21:36:20.352 [DBG] Sent 69 bytes
+no ex
+21:36:20.352 [DBG] Sent 69 bytes
+no ex
+21:36:20.406 [DBG] Sent 204 bytes
+no ex
+21:36:20.539 [DBG] 76 bytes read
+no ex
+21:36:20.539 [DBG] Sent 120 bytes
+no ex
+21:36:20.764 [DBG] Sent 70 bytes
+no ex
+21:36:20.819 [DBG] 76 bytes read
+no ex
+21:36:20.820 [DBG] Sent 120 bytes
+no ex
+21:36:20.934 [DBG] Sent 184 bytes
+no ex
+21:36:21.037 [DBG] Sent 772 bytes
+no ex
+21:36:21.037 [DBG] Sent 1734 bytes
+no ex
+21:36:21.102 [DBG] 76 bytes read
+no ex
+21:36:21.103 [DBG] Sent 120 bytes
+no ex
+21:36:21.241 [DBG] Sent 70 bytes
+no ex
+21:36:21.388 [DBG] 76 bytes read
+no ex
+21:36:21.389 [DBG] Sent 120 bytes
+no ex
+21:36:21.681 [DBG] 76 bytes read
+no ex
+21:36:21.681 [DBG] Sent 120 bytes
+no ex
+21:36:21.686 [DBG] Sent 1214 bytes
+no ex
+21:36:21.687 [DBG] Sent 1838 bytes
+no ex
+21:36:21.688 [DBG] Sent 1318 bytes
+no ex
+21:36:21.688 [DBG] Sent 1500 bytes
+no ex
+21:36:21.721 [DBG] Sent 70 bytes
+no ex
+21:36:21.951 [DBG] 76 bytes read
+no ex
+21:36:21.952 [DBG] Sent 120 bytes
+no ex
+21:36:21.959 [DBG] Sent 70 bytes
+no ex
+21:36:22.095 [DBG] Sent 69 bytes
+no ex
+21:36:22.148 [DBG] 31 bytes read
+no ex
+21:36:22.148 [DBG] Sent 30 bytes
+no ex
+21:36:22.238 [DBG] 76 bytes read
+no ex
+21:36:22.239 [DBG] Sent 120 bytes
+no ex
+21:36:22.300 [DBG] Sent 70 bytes
+no ex
+21:36:22.300 [DBG] Sent 276 bytes
+no ex
+21:36:22.300 [DBG] Sent 772 bytes
+no ex
+21:36:22.301 [DBG] Sent 1630 bytes
+no ex
+21:36:22.301 [DBG] Sent 1292 bytes
+no ex
+21:36:22.333 [DBG] Sent 70 bytes
+no ex
+21:36:22.519 [DBG] 76 bytes read
+no ex
+21:36:22.520 [DBG] Sent 120 bytes
+no ex
+21:36:22.801 [DBG] 76 bytes read
+no ex
+21:36:22.801 [DBG] Sent 120 bytes
+no ex
+21:36:22.901 [DBG] Sent 102 bytes
+no ex
+21:36:22.952 [DBG] Sent 824 bytes
+no ex
+21:36:22.953 [DBG] Sent 1422 bytes
+no ex
+21:36:22.953 [DBG] Sent 954 bytes
+no ex
+21:36:22.953 [DBG] Sent 538 bytes
+no ex
+21:36:22.953 [DBG] Sent 1084 bytes
+no ex
+21:36:22.986 [DBG] Sent 70 bytes
+no ex
+21:36:23.099 [DBG] 76 bytes read
+no ex
+21:36:23.099 [DBG] Sent 120 bytes
+no ex
+21:36:23.260 [DBG] Sent 69 bytes
+no ex
+21:36:23.368 [DBG] 76 bytes read
+no ex
+21:36:23.368 [DBG] Sent 120 bytes
+no ex
+21:36:23.817 [DBG] 76 bytes read
+no ex
+21:36:23.817 [DBG] Sent 120 bytes
+no ex
+21:36:23.949 [DBG] Sent 641 bytes
+no ex
+21:36:23.949 [DBG] Sent 1525 bytes
+no ex
+21:36:24.212 [DBG] 76 bytes read
+no ex
+21:36:24.212 [DBG] Sent 120 bytes
+no ex
+21:36:24.566 [DBG] 76 bytes read
+no ex
+21:36:24.566 [DBG] Sent 120 bytes
+no ex
+21:36:24.594 [DBG] Sent 250 bytes
+no ex
+21:36:24.594 [DBG] Sent 902 bytes
+no ex
+21:36:24.847 [DBG] 76 bytes read
+no ex
+21:36:24.847 [DBG] Sent 120 bytes
+no ex
+21:36:25.038 [DBG] Sent 1448 bytes
+no ex
+21:36:25.134 [DBG] 31 bytes read
+no ex
+21:36:25.135 [DBG] Sent 30 bytes
+no ex
+21:36:25.189 [DBG] 76 bytes read
+no ex
+21:36:25.190 [DBG] Sent 120 bytes
+no ex
+21:36:25.413 [DBG] Sent 953 bytes
+no ex
+21:36:25.549 [DBG] Sent 70 bytes
+no ex
+21:36:25.608 [DBG] 76 bytes read
+no ex
+21:36:25.608 [DBG] Sent 120 bytes
+no ex
+21:36:25.788 [DBG] Sent 70 bytes
+no ex
+21:36:25.883 [DBG] 76 bytes read
+no ex
+21:36:25.884 [DBG] Sent 120 bytes
+no ex
+21:36:25.942 [DBG] Sent 184 bytes
+no ex
+21:36:26.169 [DBG] 76 bytes read
+no ex
+21:36:26.169 [DBG] Sent 120 bytes
+no ex
+21:36:26.583 [DBG] 76 bytes read
+no ex
+21:36:26.583 [DBG] Sent 120 bytes
+no ex
+21:36:26.865 [DBG] 76 bytes read
+no ex
+21:36:26.866 [DBG] Sent 120 bytes
+no ex
+21:36:26.882 [DBG] Sent 745 bytes
+no ex
+21:36:26.882 [DBG] Sent 2149 bytes
+no ex
+21:36:27.134 [DBG] 76 bytes read
+no ex
+21:36:27.134 [DBG] Sent 120 bytes
+no ex
+21:36:27.397 [DBG] 76 bytes read
+no ex
+21:36:27.398 [DBG] Sent 120 bytes
+no ex
+21:36:27.463 [DBG] Sent 694 bytes
+no ex
+21:36:27.682 [DBG] 76 bytes read
+no ex
+21:36:27.682 [DBG] Sent 120 bytes
+no ex
+21:36:27.966 [DBG] 76 bytes read
+no ex
+21:36:27.966 [DBG] Sent 120 bytes
+no ex
+21:36:27.976 [DBG] Sent 69 bytes
+no ex
+21:36:28.136 [DBG] 31 bytes read
+no ex
+21:36:28.136 [DBG] Sent 30 bytes
+no ex
+21:36:28.256 [DBG] 76 bytes read
+no ex
+21:36:28.256 [DBG] Sent 120 bytes
+no ex
+21:36:28.352 [DBG] Sent 70 bytes
+no ex
+21:36:28.455 [DBG] Sent 824 bytes
+no ex
+21:36:28.455 [DBG] Sent 538 bytes
+no ex
+21:36:28.517 [DBG] 76 bytes read
+no ex
+21:36:28.517 [DBG] Sent 120 bytes
+no ex
+21:36:28.522 [DBG] Sent 69 bytes
+no ex
+21:36:28.795 [DBG] 76 bytes read
+no ex
+21:36:28.796 [DBG] Sent 120 bytes
+no ex
+21:36:29.084 [DBG] 76 bytes read
+no ex
+21:36:29.085 [DBG] Sent 120 bytes
+no ex
+21:36:29.172 [DBG] Sent 1188 bytes
+no ex
+21:36:29.172 [DBG] Sent 746 bytes
+no ex
+21:36:29.362 [DBG] 76 bytes read
+no ex
+21:36:29.363 [DBG] Sent 120 bytes
+no ex
+21:36:29.516 [DBG] Sent 70 bytes
+no ex
+21:36:29.647 [DBG] 76 bytes read
+no ex
+21:36:29.648 [DBG] Sent 120 bytes
+no ex
+21:36:29.857 [DBG] Sent 1421 bytes
+no ex
+21:36:29.857 [DBG] Sent 405 bytes
+no ex
+21:36:29.892 [DBG] Sent 69 bytes
+no ex
+21:36:29.914 [DBG] 76 bytes read
+no ex
+21:36:29.914 [DBG] Sent 120 bytes
+no ex
+21:36:30.196 [DBG] 76 bytes read
+no ex
+21:36:30.196 [DBG] Sent 120 bytes
+no ex
+21:36:30.405 [DBG] Sent 980 bytes
+no ex
+21:36:30.406 [DBG] Sent 1812 bytes
+no ex
+21:36:30.406 [DBG] Sent 2072 bytes
+no ex
+21:36:30.463 [DBG] 76 bytes read
+no ex
+21:36:30.463 [DBG] Sent 120 bytes
+no ex
+21:36:30.743 [DBG] 76 bytes read
+no ex
+21:36:30.744 [DBG] Sent 120 bytes
+no ex
+21:36:30.932 [DBG] Sent 184 bytes
+no ex
+21:36:30.984 [DBG] Sent 667 bytes
+no ex
+21:36:31.019 [DBG] 76 bytes read
+no ex
+21:36:31.020 [DBG] Sent 120 bytes
+no ex
+21:36:31.134 [DBG] 31 bytes read
+no ex
+21:36:31.134 [DBG] Sent 30 bytes
+no ex
+21:36:31.303 [DBG] 76 bytes read
+no ex
+21:36:31.303 [DBG] Sent 120 bytes
+no ex
+21:36:31.329 [DBG] Sent 86 bytes
+no ex
+21:36:31.331 [DBG] Sent 145 bytes
+no ex
+21:36:31.331 [DBG] Sent 106 bytes
+no ex
+21:36:31.580 [DBG] 76 bytes read
+no ex
+21:36:31.581 [DBG] Sent 120 bytes
+no ex
+21:36:31.636 [DBG] Sent 70 bytes
+no ex
+21:36:31.841 [DBG] Sent 1500 bytes
+no ex
+21:36:31.871 [DBG] 76 bytes read
+no ex
+21:36:31.871 [DBG] Sent 120 bytes
+no ex
+21:36:32.457 [DBG] Sent 69 bytes
+no ex
+21:36:32.678 [DBG] Sent 205 bytes
+no ex
+21:36:33.039 [DBG] Sent 69 bytes
+no ex
+21:36:34.033 [DBG] Sent 1239 bytes
+no ex
+21:36:34.033 [DBG] Sent 1213 bytes
+no ex
+21:36:34.138 [DBG] 31 bytes read
+no ex
+21:36:34.138 [DBG] Sent 30 bytes
+no ex
+21:36:34.632 [DBG] Sent 102 bytes
+no ex
+21:36:34.752 [DBG] Sent 1292 bytes
+no ex
+21:36:35.505 [DBG] Sent 431 bytes
+no ex
+21:36:35.812 [DBG] 76 bytes read
+no ex
+21:36:35.812 [DBG] Sent 120 bytes
+no ex
+21:36:35.932 [DBG] Sent 184 bytes
+no ex
+21:36:36.076 [DBG] 76 bytes read
+no ex
+21:36:36.077 [DBG] Sent 120 bytes
+no ex
+21:36:36.344 [DBG] 76 bytes read
+no ex
+21:36:36.344 [DBG] Sent 120 bytes
+no ex
+21:36:36.466 [DBG] Sent 850 bytes
+no ex
+21:36:36.466 [DBG] Sent 1187 bytes
+no ex
+21:36:36.466 [DBG] Sent 667 bytes
+no ex
+21:36:36.638 [DBG] 76 bytes read
+no ex
+21:36:36.638 [DBG] Sent 120 bytes
+no ex
+21:36:36.910 [DBG] 76 bytes read
+no ex
+21:36:36.910 [DBG] Sent 120 bytes
+no ex
+21:36:37.132 [DBG] 31 bytes read
+no ex
+21:36:37.133 [DBG] Sent 30 bytes
+no ex
+21:36:37.196 [DBG] 76 bytes read
+no ex
+21:36:37.197 [DBG] Sent 120 bytes
+no ex
+21:36:37.477 [DBG] 76 bytes read
+no ex
+21:36:37.477 [DBG] Sent 120 bytes
+no ex
+21:36:37.765 [DBG] 76 bytes read
+no ex
+21:36:37.766 [DBG] Sent 120 bytes
+no ex
+21:36:37.896 [DBG] Sent 69 bytes
+no ex
+21:36:37.896 [DBG] Sent 69 bytes
+no ex
+21:36:38.044 [DBG] 76 bytes read
+no ex
+21:36:38.045 [DBG] Sent 120 bytes
+no ex
+21:36:38.335 [DBG] 76 bytes read
+no ex
+21:36:38.335 [DBG] Sent 120 bytes
+no ex
+21:36:38.613 [DBG] 76 bytes read
+no ex
+21:36:38.613 [DBG] Sent 120 bytes
+no ex
+21:36:38.867 [DBG] Sent 70 bytes
+no ex
+21:36:38.896 [DBG] 76 bytes read
+no ex
+21:36:38.897 [DBG] Sent 120 bytes
+no ex
+21:36:39.180 [DBG] 76 bytes read
+no ex
+21:36:39.180 [DBG] Sent 120 bytes
+no ex
+21:36:39.459 [DBG] 76 bytes read
+no ex
+21:36:39.459 [DBG] Sent 120 bytes
+no ex
+21:36:39.746 [DBG] 76 bytes read
+no ex
+21:36:39.746 [DBG] Sent 120 bytes
+no ex
+21:36:40.027 [DBG] 76 bytes read
+no ex
+21:36:40.027 [DBG] Sent 120 bytes
+no ex
+21:36:40.134 [DBG] 31 bytes read
+no ex
+21:36:40.134 [DBG] Sent 30 bytes
+no ex
+21:36:40.313 [DBG] 76 bytes read
+no ex
+21:36:40.313 [DBG] Sent 120 bytes
+no ex
+21:36:40.599 [DBG] 76 bytes read
+no ex
+21:36:40.599 [DBG] Sent 120 bytes
+no ex
+21:36:40.643 [DBG] Sent 70 bytes
+no ex
+21:36:40.878 [DBG] 76 bytes read
+no ex
+21:36:40.878 [DBG] Sent 120 bytes
+no ex
+21:36:40.933 [DBG] Sent 184 bytes
+no ex
+21:36:41.172 [DBG] Sent 69 bytes
+no ex
+21:36:41.172 [DBG] Sent 69 bytes
+no ex
+21:36:41.173 [DBG] 76 bytes read
+no ex
+21:36:41.173 [DBG] Sent 120 bytes
+no ex
+21:36:41.223 [DBG] Sent 69 bytes
+no ex
+21:36:41.430 [DBG] 76 bytes read
+no ex
+21:36:41.430 [DBG] Sent 120 bytes
+no ex
+21:36:41.565 [DBG] Sent 1006 bytes
+no ex
+21:36:41.697 [DBG] 76 bytes read
+no ex
+21:36:41.698 [DBG] Sent 120 bytes
+no ex
+21:36:41.976 [DBG] 76 bytes read
+no ex
+21:36:41.976 [DBG] Sent 120 bytes
+no ex
+21:36:42.009 [DBG] Sent 69 bytes
+no ex
+21:36:42.145 [DBG] Sent 69 bytes
+no ex
+21:36:42.269 [DBG] 76 bytes read
+no ex
+21:36:42.269 [DBG] Sent 120 bytes
+no ex
+21:36:42.550 [DBG] 76 bytes read
+no ex
+21:36:42.551 [DBG] Sent 120 bytes
+no ex
+21:36:42.555 [DBG] Sent 2487 bytes
+no ex
+21:36:42.726 [DBG] Sent 69 bytes
+no ex
+21:36:42.824 [DBG] 76 bytes read
+no ex
+21:36:42.824 [DBG] Sent 120 bytes
+no ex
+21:36:43.032 [DBG] Sent 69 bytes
+no ex
+21:36:43.097 [DBG] 76 bytes read
+no ex
+21:36:43.097 [DBG] Sent 120 bytes
+no ex
+21:36:43.138 [DBG] 31 bytes read
+no ex
+21:36:43.138 [DBG] Sent 30 bytes
+no ex
+21:36:43.362 [DBG] 76 bytes read
+no ex
+21:36:43.362 [DBG] Sent 120 bytes
+no ex
+21:36:43.631 [DBG] 76 bytes read
+no ex
+21:36:43.632 [DBG] Sent 120 bytes
+no ex
+21:36:43.856 [DBG] Sent 1656 bytes
+no ex
+21:36:43.910 [DBG] 76 bytes read
+no ex
+21:36:43.911 [DBG] Sent 120 bytes
+no ex
+21:36:44.166 [DBG] Sent 70 bytes
+no ex
+21:36:44.177 [DBG] 76 bytes read
+no ex
+21:36:44.178 [DBG] Sent 120 bytes
+no ex
+21:36:44.200 [DBG] Sent 145 bytes
+no ex
+21:36:44.200 [DBG] Sent 86 bytes
+no ex
+21:36:44.201 [DBG] Sent 107 bytes
+no ex
+21:36:44.466 [DBG] 76 bytes read
+no ex
+21:36:44.467 [DBG] Sent 120 bytes
+no ex
+21:36:44.543 [DBG] Sent 483 bytes
+no ex
+21:36:44.727 [DBG] 76 bytes read
+no ex
+21:36:44.727 [DBG] Sent 120 bytes
+no ex
+21:36:45.396 [DBG] Sent 1135 bytes
+no ex
+21:36:45.807 [DBG] Sent 69 bytes
+no ex
+21:36:45.927 [DBG] Sent 203 bytes
+no ex
+21:36:45.927 [DBG] Sent 184 bytes
+no ex
+21:36:46.140 [DBG] 31 bytes read
+no ex
+21:36:46.141 [DBG] Sent 30 bytes
+no ex
+21:36:46.177 [DBG] 76 bytes read
+no ex
+21:36:46.177 [DBG] Sent 120 bytes
+no ex
+21:36:46.182 [DBG] Sent 797 bytes
+no ex
+21:36:46.441 [DBG] 76 bytes read
+no ex
+21:36:46.441 [DBG] Sent 120 bytes
+no ex
+21:36:46.726 [DBG] 76 bytes read
+no ex
+21:36:46.726 [DBG] Sent 120 bytes
+no ex
+21:36:46.968 [DBG] Sent 745 bytes
+no ex
+21:36:47.014 [DBG] 76 bytes read
+no ex
+21:36:47.014 [DBG] Sent 120 bytes
+no ex
+21:36:47.036 [DBG] Sent 70 bytes
+no ex
+21:36:47.295 [DBG] 76 bytes read
+no ex
+21:36:47.295 [DBG] Sent 120 bytes
+no ex
+21:36:47.327 [DBG] Sent 102 bytes
+no ex
+21:36:47.550 [DBG] Sent 70 bytes
+no ex
+21:36:47.563 [DBG] 76 bytes read
+no ex
+21:36:47.563 [DBG] Sent 120 bytes
+no ex
+21:36:47.845 [DBG] 76 bytes read
+no ex
+21:36:47.846 [DBG] Sent 120 bytes
+no ex
+21:36:47.960 [DBG] Sent 70 bytes
+no ex
+21:36:48.097 [DBG] Sent 70 bytes
+no ex
+21:36:48.125 [DBG] 76 bytes read
+no ex
+21:36:48.126 [DBG] Sent 120 bytes
+no ex
+21:36:48.715 [DBG] Sent 70 bytes
+no ex
+21:36:48.955 [DBG] Sent 1058 bytes
+no ex
+21:36:48.955 [DBG] Sent 1214 bytes
+no ex
+21:36:48.955 [DBG] Sent 1422 bytes
+no ex
+21:36:49.090 [DBG] Sent 69 bytes
+no ex
+21:36:49.136 [DBG] 31 bytes read
+no ex
+21:36:49.136 [DBG] Sent 30 bytes
+no ex
+21:36:49.159 [DBG] Sent 70 bytes
+no ex
+21:36:49.570 [DBG] Sent 1577 bytes
+no ex
+21:36:49.742 [DBG] Sent 141 bytes
+no ex
+21:36:49.774 [DBG] Sent 69 bytes
+no ex
+21:36:49.808 [DBG] Sent 70 bytes
+no ex
+21:36:50.079 [DBG] Sent 70 bytes
+no ex
+21:36:50.421 [DBG] Sent 1863 bytes
+no ex
+21:36:50.835 [DBG] Sent 70 bytes
+no ex
+21:36:50.939 [DBG] Sent 184 bytes
+no ex
+21:36:51.385 [DBG] Sent 1318 bytes
+no ex
+21:36:51.385 [DBG] Sent 224 bytes
+no ex
+21:36:51.589 [DBG] Sent 70 bytes
+no ex
+21:36:51.898 [DBG] Sent 70 bytes
+no ex
+21:36:52.035 [DBG] Sent 432 bytes
+no ex
+21:36:52.035 [DBG] Sent 1786 bytes
+no ex
+21:36:52.035 [DBG] Sent 2488 bytes
+no ex
+21:36:52.035 [DBG] Sent 954 bytes
+no ex
+21:36:52.069 [DBG] Sent 70 bytes
+no ex
+21:36:52.138 [DBG] 31 bytes read
+no ex
+21:36:52.138 [DBG] Sent 30 bytes
+no ex
+21:36:52.239 [DBG] Sent 70 bytes
+no ex
+21:36:52.308 [DBG] Sent 69 bytes
+no ex
+21:36:52.889 [DBG] Sent 69 bytes
+no ex
+21:36:52.993 [DBG] Sent 1188 bytes
+no ex
+21:36:53.342 [DBG] 76 bytes read
+no ex
+21:36:53.343 [DBG] Sent 120 bytes
+no ex
+21:36:53.437 [DBG] Sent 70 bytes
+no ex
+21:36:53.678 [DBG] Sent 69 bytes
+no ex
+21:36:53.725 [DBG] 76 bytes read
+no ex
+21:36:53.725 [DBG] Sent 120 bytes
+no ex
+21:36:53.953 [DBG] Sent 1188 bytes
+no ex
+21:36:53.953 [DBG] Sent 1578 bytes
+no ex
+21:36:54.011 [DBG] 76 bytes read
+no ex
+21:36:54.012 [DBG] Sent 120 bytes
+no ex
+21:36:54.288 [DBG] 76 bytes read
+no ex
+21:36:54.288 [DBG] Sent 120 bytes
+no ex
+21:36:54.296 [DBG] Sent 70 bytes
+no ex
+21:36:54.687 [DBG] 76 bytes read
+no ex
+21:36:54.688 [DBG] Sent 120 bytes
+no ex
+21:36:55.139 [DBG] 31 bytes read
+no ex
+21:36:55.139 [DBG] Sent 30 bytes
+no ex
+21:36:55.152 [DBG] Sent 2071 bytes
+no ex
+21:36:55.845 [DBG] 76 bytes read
+no ex
+21:36:55.845 [DBG] Sent 120 bytes
+no ex
+21:36:55.873 [DBG] Sent 432 bytes
+no ex
+21:36:55.873 [DBG] Sent 1422 bytes
+no ex
+21:36:55.941 [DBG] Sent 184 bytes
+no ex
+21:36:55.941 [DBG] Sent 70 bytes
+no ex
+21:36:56.127 [DBG] 76 bytes read
+no ex
+21:36:56.128 [DBG] Sent 120 bytes
+no ex
+21:36:56.251 [DBG] Sent 69 bytes
+no ex
+21:36:56.407 [DBG] 76 bytes read
+no ex
+21:36:56.407 [DBG] Sent 120 bytes
+no ex
+21:36:56.524 [DBG] Sent 2150 bytes
+no ex
+21:36:56.524 [DBG] Sent 1838 bytes
+no ex
+21:36:56.524 [DBG] Sent 1188 bytes
+no ex
+21:36:56.685 [DBG] 76 bytes read
+no ex
+21:36:56.685 [DBG] Sent 120 bytes
+no ex
+21:36:56.968 [DBG] 76 bytes read
+no ex
+21:36:56.968 [DBG] Sent 120 bytes
+no ex
+21:36:57.239 [DBG] 76 bytes read
+no ex
+21:36:57.240 [DBG] Sent 120 bytes
+no ex
+21:36:57.311 [DBG] Sent 70 bytes
+no ex
+21:36:57.413 [DBG] Sent 70 bytes
+no ex
+21:36:57.413 [DBG] Sent 2332 bytes
+no ex
+21:36:57.518 [DBG] 76 bytes read
+no ex
+21:36:57.519 [DBG] Sent 120 bytes
+no ex
+21:36:57.808 [DBG] 76 bytes read
+no ex
+21:36:57.809 [DBG] Sent 120 bytes
+no ex
+21:36:58.089 [DBG] 76 bytes read
+no ex
+21:36:58.090 [DBG] Sent 120 bytes
+no ex
+21:36:58.132 [DBG] 31 bytes read
+no ex
+21:36:58.133 [DBG] Sent 30 bytes
+no ex
+21:36:58.164 [DBG] Sent 1421 bytes
+no ex
+21:36:58.575 [DBG] Sent 69 bytes
+no ex
+21:36:58.814 [DBG] Sent 1344 bytes
+no ex
+21:36:58.917 [DBG] Sent 69 bytes
+no ex
+21:36:59.052 [DBG] Sent 69 bytes
+no ex
+21:36:59.053 [DBG] Sent 953 bytes
+no ex
+21:36:59.053 [DBG] Sent 875 bytes
+no ex
+21:36:59.617 [DBG] Sent 69 bytes
+no ex
+21:36:59.617 [DBG] Sent 69 bytes
+no ex
+21:36:59.668 [DBG] Sent 70 bytes
+no ex
+21:36:59.708 [DBG] 76 bytes read
+no ex
+21:36:59.708 [DBG] Sent 120 bytes
+no ex
+21:36:59.803 [DBG] Sent 86 bytes
+no ex
+21:36:59.804 [DBG] Sent 145 bytes
+no ex
+21:36:59.804 [DBG] Sent 106 bytes
+no ex
+21:36:59.975 [DBG] Sent 70 bytes
+no ex
+21:37:00.215 [DBG] Sent 69 bytes
+no ex
+21:37:00.318 [DBG] Sent 70 bytes
+no ex
+21:37:00.454 [DBG] Sent 69 bytes
+no ex
+21:37:00.557 [DBG] Sent 69 bytes
+no ex
+21:37:00.795 [DBG] Sent 954 bytes
+no ex
+21:37:00.795 [DBG] Sent 668 bytes
+no ex
+21:37:00.830 [DBG] Sent 70 bytes
+no ex
+21:37:00.931 [DBG] Sent 184 bytes
+no ex
+21:37:01.144 [DBG] 31 bytes read
+no ex
+21:37:01.145 [DBG] Sent 30 bytes
+no ex
+21:37:01.308 [DBG] Sent 1526 bytes
+no ex
+21:37:01.308 [DBG] Sent 1656 bytes
+no ex
+21:37:01.513 [DBG] Sent 70 bytes
+no ex
+21:37:01.856 [DBG] Sent 1317 bytes
+no ex
+21:37:02.676 [DBG] Sent 2149 bytes
+no ex
+21:37:03.188 [DBG] Sent 70 bytes
+no ex
+21:37:03.494 [DBG] Sent 667 bytes
+no ex
+21:37:04.009 [DBG] Sent 69 bytes
+no ex
+21:37:04.153 [DBG] 31 bytes read
+no ex
+21:37:04.154 [DBG] Sent 30 bytes
+no ex
+21:37:04.318 [DBG] Sent 1214 bytes
+no ex
+21:37:04.865 [DBG] Sent 1057 bytes
+no ex
+21:37:05.823 [DBG] Sent 70 bytes
+no ex
+21:37:05.941 [DBG] Sent 184 bytes
+no ex
+21:37:06.233 [DBG] Sent 1681 bytes
+no ex
+21:37:06.233 [DBG] Sent 1603 bytes
+no ex
+21:37:07.140 [DBG] 31 bytes read
+no ex
+21:37:07.141 [DBG] Sent 30 bytes
+no ex
+21:37:07.227 [DBG] Sent 1422 bytes
+no ex
+21:37:07.227 [DBG] Sent 616 bytes
+no ex
+21:37:07.724 [DBG] Sent 206 bytes
+no ex
+21:37:07.947 [DBG] Sent 823 bytes
+no ex
+21:37:08.769 [DBG] Sent 1526 bytes
+no ex
+21:37:09.059 [DBG] Sent 102 bytes
+no ex
+21:37:09.126 [DBG] 76 bytes read
+no ex
+21:37:09.127 [DBG] Sent 120 bytes
+no ex
+21:37:09.624 [DBG] Sent 850 bytes
+no ex
+21:37:09.691 [DBG] Sent 69 bytes
+no ex
+21:37:09.933 [DBG] 76 bytes read
+no ex
+21:37:09.933 [DBG] Sent 120 bytes
+no ex
+21:37:10.103 [DBG] Sent 69 bytes
+no ex
+21:37:10.138 [DBG] 31 bytes read
+no ex
+21:37:10.139 [DBG] Sent 30 bytes
+no ex
+21:37:10.273 [DBG] Sent 70 bytes
+no ex
+21:37:10.341 [DBG] Sent 1837 bytes
+no ex
+21:37:10.470 [DBG] 76 bytes read
+no ex
+21:37:10.471 [DBG] Sent 120 bytes
+no ex
+21:37:10.773 [DBG] 76 bytes read
+no ex
+21:37:10.773 [DBG] Sent 120 bytes
+no ex
+21:37:10.942 [DBG] Sent 184 bytes
+no ex
+21:37:10.979 [DBG] 76 bytes read
+no ex
+21:37:10.979 [DBG] Sent 120 bytes
+no ex
+21:37:11.160 [DBG] 76 bytes read
+no ex
+21:37:11.160 [DBG] Sent 120 bytes
+no ex
+21:37:11.322 [DBG] 76 bytes read
+no ex
+21:37:11.323 [DBG] Sent 120 bytes
+no ex
+21:37:11.503 [DBG] 76 bytes read
+no ex
+21:37:11.503 [DBG] Sent 120 bytes
+no ex
+21:37:11.710 [DBG] 76 bytes read
+no ex
+21:37:11.710 [DBG] Sent 120 bytes
+no ex
+21:37:12.054 [DBG] 76 bytes read
+no ex
+21:37:12.054 [DBG] Sent 120 bytes
+no ex
+21:37:12.127 [DBG] Sent 120 bytes
+no ex
+21:37:12.127 [DBG] Sent 1526 bytes
+no ex
+21:37:12.200 [DBG] 76 bytes read
+no ex
+21:37:12.200 [DBG] Sent 120 bytes
+no ex
+21:37:12.348 [DBG] 76 bytes read
+no ex
+21:37:12.348 [DBG] Sent 120 bytes
+no ex
+21:37:12.508 [DBG] 76 bytes read
+no ex
+21:37:12.508 [DBG] Sent 120 bytes
+no ex
+21:37:12.658 [DBG] 76 bytes read
+no ex
+21:37:12.658 [DBG] Sent 120 bytes
+no ex
+21:37:12.801 [DBG] 76 bytes read
+no ex
+21:37:12.801 [DBG] Sent 120 bytes
+no ex
+21:37:12.949 [DBG] 76 bytes read
+no ex
+21:37:12.949 [DBG] Sent 120 bytes
+no ex
+21:37:13.099 [DBG] 76 bytes read
+no ex
+21:37:13.099 [DBG] Sent 120 bytes
+no ex
+21:37:13.137 [DBG] 31 bytes read
+no ex
+21:37:13.137 [DBG] Sent 30 bytes
+no ex
+21:37:13.250 [DBG] 76 bytes read
+no ex
+21:37:13.250 [DBG] Sent 120 bytes
+no ex
+21:37:13.400 [DBG] 76 bytes read
+no ex
+21:37:13.401 [DBG] Sent 120 bytes
+no ex
+21:37:13.556 [DBG] 76 bytes read
+no ex
+21:37:13.556 [DBG] Sent 120 bytes
+no ex
+21:37:13.639 [DBG] Sent 537 bytes
+no ex
+21:37:13.700 [DBG] 76 bytes read
+no ex
+21:37:13.700 [DBG] Sent 120 bytes
+no ex
+21:37:13.856 [DBG] 76 bytes read
+no ex
+21:37:13.856 [DBG] Sent 120 bytes
+no ex
+21:37:13.878 [DBG] Sent 69 bytes
+no ex
+21:37:14.009 [DBG] 76 bytes read
+no ex
+21:37:14.009 [DBG] Sent 120 bytes
+no ex
+21:37:14.118 [DBG] Sent 70 bytes
+no ex
+21:37:14.152 [DBG] 76 bytes read
+no ex
+21:37:14.152 [DBG] Sent 120 bytes
+no ex
+21:37:14.254 [DBG] Sent 145 bytes
+no ex
+21:37:14.306 [DBG] 76 bytes read
+no ex
+21:37:14.306 [DBG] Sent 120 bytes
+no ex
+21:37:14.323 [DBG] Sent 1759 bytes
+no ex
+21:37:14.391 [DBG] Sent 69 bytes
+no ex
+21:37:14.459 [DBG] 76 bytes read
+no ex
+21:37:14.459 [DBG] Sent 120 bytes
+no ex
+21:37:14.608 [DBG] 76 bytes read
+no ex
+21:37:14.609 [DBG] Sent 120 bytes
+no ex
+21:37:14.758 [DBG] 76 bytes read
+no ex
+21:37:14.759 [DBG] Sent 120 bytes
+no ex
+21:37:14.905 [DBG] 76 bytes read
+no ex
+21:37:14.905 [DBG] Sent 120 bytes
+no ex
+21:37:15.051 [DBG] 76 bytes read
+no ex
+21:37:15.051 [DBG] Sent 120 bytes
+no ex
+21:37:15.143 [DBG] Sent 772 bytes
+no ex
+21:37:15.207 [DBG] 76 bytes read
+no ex
+21:37:15.208 [DBG] Sent 120 bytes
+no ex
+21:37:15.352 [DBG] 76 bytes read
+no ex
+21:37:15.352 [DBG] Sent 120 bytes
+no ex
+21:37:15.384 [DBG] Sent 69 bytes
+no ex
+21:37:15.861 [DBG] Sent 1656 bytes
+no ex
+21:37:15.946 [DBG] Sent 184 bytes
+no ex
+21:37:16.137 [DBG] 31 bytes read
+no ex
+21:37:16.137 [DBG] Sent 30 bytes
+no ex
+21:37:16.408 [DBG] Sent 70 bytes
+no ex
+21:37:16.408 [DBG] Sent 70 bytes
+no ex
+21:37:16.543 [DBG] Sent 70 bytes
+no ex
+21:37:16.663 [DBG] Sent 207 bytes
+no ex
+21:37:16.713 [DBG] Sent 69 bytes
+no ex
+21:37:16.714 [DBG] Sent 1578 bytes
+no ex
+21:37:17.397 [DBG] Sent 145 bytes
+no ex
+21:37:17.499 [DBG] Sent 564 bytes
+no ex
+21:37:17.637 [DBG] Sent 70 bytes
+no ex
+21:37:17.688 [DBG] Sent 102 bytes
+no ex
+21:37:18.251 [DBG] Sent 69 bytes
+no ex
+21:37:18.661 [DBG] Sent 70 bytes
+no ex
+21:37:19.139 [DBG] 31 bytes read
+no ex
+21:37:19.139 [DBG] Sent 30 bytes
+no ex
+21:37:19.209 [DBG] Sent 641 bytes
+no ex
+21:37:19.209 [DBG] Sent 1370 bytes
+no ex
+21:37:19.653 [DBG] Sent 70 bytes
+no ex
+21:37:20.136 [DBG] Sent 1889 bytes
+no ex
+21:37:20.753 [DBG] Sent 1370 bytes
+no ex
+21:37:20.941 [DBG] Sent 184 bytes
+no ex
+21:37:20.976 [DBG] Sent 69 bytes
+no ex
+21:37:20.976 [DBG] Sent 69 bytes
+no ex
+21:37:21.027 [DBG] Sent 70 bytes
+no ex
+21:37:21.266 [DBG] Sent 69 bytes
+no ex
+21:37:21.301 [DBG] Sent 1188 bytes
+no ex
+21:37:21.301 [DBG] Sent 850 bytes
+no ex
+21:37:21.301 [DBG] Sent 1812 bytes
+no ex
+21:37:21.405 [DBG] Sent 70 bytes
+no ex
+21:37:21.473 [DBG] Sent 70 bytes
+no ex
+21:37:21.575 [DBG] Sent 70 bytes
+no ex
+21:37:21.610 [DBG] Sent 70 bytes
+no ex
+21:37:22.138 [DBG] 31 bytes read
+no ex
+21:37:22.138 [DBG] Sent 30 bytes
+no ex
+21:37:22.260 [DBG] Sent 902 bytes
+no ex
+21:37:22.260 [DBG] Sent 590 bytes
+no ex
+21:37:22.260 [DBG] Sent 564 bytes
+no ex
+21:37:22.773 [DBG] Sent 70 bytes
+no ex
+21:37:22.943 [DBG] Sent 69 bytes
+no ex
+21:37:22.977 [DBG] Sent 1863 bytes
+no ex
+21:37:23.388 [DBG] Sent 69 bytes
+no ex
+21:37:24.208 [DBG] Sent 954 bytes
+no ex
+21:37:24.925 [DBG] 77 bytes read
+no ex
+21:37:24.926 [DBG] Sent 121 bytes
+no ex
+21:37:24.926 [DBG] Sent 1213 bytes
+no ex
+21:37:24.927 [DBG] Sent 1265 bytes
+no ex
+21:37:24.927 [DBG] Sent 2695 bytes
+no ex
+21:37:25.131 [DBG] 31 bytes read
+no ex
+21:37:25.131 [DBG] Sent 30 bytes
+no ex
+21:37:25.195 [DBG] 77 bytes read
+no ex
+21:37:25.195 [DBG] Sent 121 bytes
+no ex
+21:37:25.300 [DBG] Sent 70 bytes
+no ex
+21:37:25.466 [DBG] 77 bytes read
+no ex
+21:37:25.466 [DBG] Sent 121 bytes
+no ex
+21:37:25.677 [DBG] Sent 642 bytes
+no ex
+21:37:25.743 [DBG] 77 bytes read
+no ex
+21:37:25.743 [DBG] Sent 121 bytes
+no ex
+21:37:25.935 [DBG] Sent 184 bytes
+no ex
+21:37:26.231 [DBG] 76 bytes read
+no ex
+21:37:26.231 [DBG] Sent 120 bytes
+no ex
+21:37:26.464 [DBG] Sent 1812 bytes
+no ex
+21:37:26.634 [DBG] Sent 70 bytes
+no ex
+21:37:26.736 [DBG] Sent 70 bytes
+no ex
+21:37:26.833 [DBG] 76 bytes read
+no ex
+21:37:26.833 [DBG] Sent 120 bytes
+no ex
+21:37:27.181 [DBG] Sent 538 bytes
+no ex
+21:37:27.181 [DBG] Sent 1318 bytes
+no ex
+21:37:27.693 [DBG] Sent 70 bytes
+no ex
+21:37:28.138 [DBG] 31 bytes read
+no ex
+21:37:28.138 [DBG] Sent 30 bytes
+no ex
+21:37:28.345 [DBG] Sent 69 bytes
+no ex
+21:37:28.345 [DBG] Sent 70 bytes
+no ex
+21:37:28.550 [DBG] Sent 69 bytes
+no ex
+21:37:28.824 [DBG] Sent 1162 bytes
+no ex
+21:37:29.121 [DBG] 76 bytes read
+no ex
+21:37:29.121 [DBG] Sent 120 bytes
+no ex
+21:37:29.372 [DBG] Sent 484 bytes
+no ex
+21:37:29.398 [DBG] 76 bytes read
+no ex
+21:37:29.399 [DBG] Sent 120 bytes
+no ex
+21:37:29.702 [DBG] 76 bytes read
+no ex
+21:37:29.702 [DBG] Sent 120 bytes
+no ex
+21:37:29.748 [DBG] Sent 70 bytes
+no ex
+21:37:29.918 [DBG] Sent 70 bytes
+no ex
+21:37:29.949 [DBG] 76 bytes read
+no ex
+21:37:29.949 [DBG] Sent 120 bytes
+no ex
+21:37:30.211 [DBG] 76 bytes read
+no ex
+21:37:30.212 [DBG] Sent 120 bytes
+no ex
+21:37:30.261 [DBG] Sent 2046 bytes
+no ex
+21:37:30.502 [DBG] Sent 69 bytes
+no ex
+21:37:30.503 [DBG] 76 bytes read
+no ex
+21:37:30.503 [DBG] Sent 120 bytes
+no ex
+21:37:30.788 [DBG] 76 bytes read
+no ex
+21:37:30.788 [DBG] Sent 120 bytes
+no ex
+21:37:30.946 [DBG] Sent 184 bytes
+no ex
+21:37:31.051 [DBG] 76 bytes read
+no ex
+21:37:31.051 [DBG] Sent 120 bytes
+no ex
+21:37:31.118 [DBG] Sent 70 bytes
+no ex
+21:37:31.136 [DBG] 31 bytes read
+no ex
+21:37:31.137 [DBG] Sent 30 bytes
+no ex
+21:37:31.329 [DBG] 76 bytes read
+no ex
+21:37:31.330 [DBG] Sent 120 bytes
+no ex
+21:37:31.512 [DBG] Sent 69 bytes
+no ex
+21:37:31.512 [DBG] Sent 69 bytes
+no ex
+21:37:31.617 [DBG] 76 bytes read
+no ex
+21:37:31.618 [DBG] Sent 120 bytes
+no ex
+21:37:31.668 [DBG] Sent 70 bytes
+no ex
+21:37:31.736 [DBG] Sent 1135 bytes
+no ex
+21:37:31.736 [DBG] Sent 1317 bytes
+no ex
+21:37:32.349 [DBG] Sent 69 bytes
+no ex
+21:37:32.382 [DBG] Sent 69 bytes
+no ex
+21:37:32.519 [DBG] Sent 746 bytes
+no ex
+21:37:33.273 [DBG] Sent 1161 bytes
+no ex
+21:37:33.341 [DBG] Sent 980 bytes
+no ex
+21:37:33.443 [DBG] Sent 69 bytes
+no ex
+21:37:34.025 [DBG] Sent 902 bytes
+no ex
+21:37:34.137 [DBG] 31 bytes read
+no ex
+21:37:34.137 [DBG] Sent 30 bytes
+no ex
+21:37:34.777 [DBG] Sent 980 bytes
+no ex
+21:37:34.879 [DBG] Sent 69 bytes
+no ex
+21:37:35.391 [DBG] Sent 1812 bytes
+no ex
+21:37:35.391 [DBG] Sent 1058 bytes
+no ex
+21:37:35.529 [DBG] 76 bytes read
+no ex
+21:37:35.530 [DBG] Sent 120 bytes
+no ex
+21:37:35.679 [DBG] 76 bytes read
+no ex
+21:37:35.679 [DBG] Sent 120 bytes
+no ex
+21:37:35.833 [DBG] 76 bytes read
+no ex
+21:37:35.834 [DBG] Sent 120 bytes
+no ex
+21:37:35.944 [DBG] Sent 184 bytes
+no ex
+21:37:35.980 [DBG] 76 bytes read
+no ex
+21:37:35.981 [DBG] Sent 120 bytes
+no ex
+21:37:36.046 [DBG] Sent 69 bytes
+no ex
+21:37:36.130 [DBG] 76 bytes read
+no ex
+21:37:36.130 [DBG] Sent 120 bytes
+no ex
+21:37:36.282 [DBG] 76 bytes read
+no ex
+21:37:36.283 [DBG] Sent 120 bytes
+no ex
+21:37:36.424 [DBG] Sent 69 bytes
+no ex
+21:37:36.428 [DBG] 76 bytes read
+no ex
+21:37:36.428 [DBG] Sent 120 bytes
+no ex
+21:37:36.561 [DBG] Sent 69 bytes
+no ex
+21:37:36.576 [DBG] 76 bytes read
+no ex
+21:37:36.576 [DBG] Sent 120 bytes
+no ex
+21:37:36.698 [DBG] Sent 70 bytes
+no ex
+21:37:36.737 [DBG] 76 bytes read
+no ex
+21:37:36.737 [DBG] Sent 120 bytes
+no ex
+21:37:36.765 [DBG] Sent 70 bytes
+no ex
+21:37:36.882 [DBG] 76 bytes read
+no ex
+21:37:36.882 [DBG] Sent 120 bytes
+no ex
+21:37:37.031 [DBG] 76 bytes read
+no ex
+21:37:37.031 [DBG] Sent 120 bytes
+no ex
+21:37:37.144 [DBG] 31 bytes read
+no ex
+21:37:37.144 [DBG] Sent 30 bytes
+no ex
+21:37:37.175 [DBG] Sent 1785 bytes
+no ex
+21:37:37.176 [DBG] 76 bytes read
+no ex
+21:37:37.176 [DBG] Sent 120 bytes
+no ex
+21:37:37.338 [DBG] 76 bytes read
+no ex
+21:37:37.339 [DBG] Sent 120 bytes
+no ex
+21:37:37.415 [DBG] Sent 86 bytes
+no ex
+21:37:37.416 [DBG] Sent 145 bytes
+no ex
+21:37:37.416 [DBG] Sent 106 bytes
+no ex
+21:37:37.480 [DBG] 76 bytes read
+no ex
+21:37:37.480 [DBG] Sent 120 bytes
+no ex
+21:37:37.892 [DBG] Sent 70 bytes
+no ex
+21:37:37.892 [DBG] Sent 70 bytes
+no ex
+21:37:37.960 [DBG] Sent 1421 bytes
+no ex
+21:37:37.960 [DBG] Sent 1421 bytes
+no ex
+21:37:37.994 [DBG] Sent 69 bytes
+no ex
+21:37:37.994 [DBG] Sent 70 bytes
+no ex
+21:37:38.097 [DBG] Sent 70 bytes
+no ex
+21:37:38.679 [DBG] Sent 1031 bytes
+no ex
+21:37:39.051 [DBG] 76 bytes read
+no ex
+21:37:39.051 [DBG] Sent 120 bytes
+no ex
+21:37:39.433 [DBG] Sent 70 bytes
+no ex
+21:37:39.536 [DBG] Sent 1889 bytes
+no ex
+21:37:39.643 [DBG] 76 bytes read
+no ex
+21:37:39.644 [DBG] Sent 120 bytes
+no ex
+21:37:39.840 [DBG] 76 bytes read
+no ex
+21:37:39.840 [DBG] Sent 120 bytes
+no ex
+21:37:40.031 [DBG] 76 bytes read
+no ex
+21:37:40.031 [DBG] Sent 120 bytes
+no ex
+21:37:40.138 [DBG] 31 bytes read
+no ex
+21:37:40.138 [DBG] Sent 30 bytes
+no ex
+21:37:40.202 [DBG] 76 bytes read
+no ex
+21:37:40.203 [DBG] Sent 120 bytes
+no ex
+21:37:40.219 [DBG] Sent 70 bytes
+no ex
+21:37:40.252 [DBG] Sent 1681 bytes
+no ex
+21:37:40.252 [DBG] Sent 876 bytes
+no ex
+21:37:40.359 [DBG] 76 bytes read
+no ex
+21:37:40.359 [DBG] Sent 120 bytes
+no ex
+21:37:40.561 [DBG] 76 bytes read
+no ex
+21:37:40.561 [DBG] Sent 120 bytes
+no ex
+21:37:40.735 [DBG] 76 bytes read
+no ex
+21:37:40.735 [DBG] Sent 120 bytes
+no ex
+21:37:40.764 [DBG] Sent 70 bytes
+no ex
+21:37:40.798 [DBG] Sent 86 bytes
+no ex
+21:37:40.798 [DBG] Sent 145 bytes
+no ex
+21:37:40.798 [DBG] Sent 107 bytes
+no ex
+21:37:40.897 [DBG] 76 bytes read
+no ex
+21:37:40.897 [DBG] Sent 120 bytes
+no ex
+21:37:40.935 [DBG] Sent 184 bytes
+no ex
+21:37:41.082 [DBG] 76 bytes read
+no ex
+21:37:41.082 [DBG] Sent 120 bytes
+no ex
+21:37:41.104 [DBG] Sent 70 bytes
+no ex
+21:37:41.139 [DBG] Sent 1344 bytes
+no ex
+21:37:41.207 [DBG] Sent 70 bytes
+no ex
+21:37:41.223 [DBG] Sent 207 bytes
+no ex
+21:37:41.285 [DBG] 76 bytes read
+no ex
+21:37:41.286 [DBG] Sent 120 bytes
+no ex
+21:37:41.480 [DBG] Sent 70 bytes
+no ex
+21:37:41.794 [DBG] 76 bytes read
+no ex
+21:37:41.794 [DBG] Sent 120 bytes
+no ex
+21:37:41.921 [DBG] Sent 1473 bytes
+no ex
+21:37:41.994 [DBG] 76 bytes read
+no ex
+21:37:41.994 [DBG] Sent 120 bytes
+no ex
+21:37:42.161 [DBG] 76 bytes read
+no ex
+21:37:42.162 [DBG] Sent 120 bytes
+no ex
+21:37:42.334 [DBG] 76 bytes read
+no ex
+21:37:42.335 [DBG] Sent 120 bytes
+no ex
+21:37:42.485 [DBG] 76 bytes read
+no ex
+21:37:42.485 [DBG] Sent 120 bytes
+no ex
+21:37:42.571 [DBG] Sent 928 bytes
+no ex
+21:37:42.637 [DBG] 76 bytes read
+no ex
+21:37:42.637 [DBG] Sent 120 bytes
+no ex
+21:37:42.789 [DBG] 76 bytes read
+no ex
+21:37:42.789 [DBG] Sent 120 bytes
+no ex
+21:37:42.938 [DBG] 76 bytes read
+no ex
+21:37:42.938 [DBG] Sent 120 bytes
+no ex
+21:37:43.076 [DBG] 76 bytes read
+no ex
+21:37:43.077 [DBG] Sent 120 bytes
+no ex
+21:37:43.134 [DBG] Sent 102 bytes
+no ex
+21:37:43.149 [DBG] 31 bytes read
+no ex
+21:37:43.149 [DBG] Sent 30 bytes
+no ex
+21:37:43.220 [DBG] Sent 693 bytes
+no ex
+21:37:43.235 [DBG] 76 bytes read
+no ex
+21:37:43.236 [DBG] Sent 120 bytes
+no ex
+21:37:43.377 [DBG] 76 bytes read
+no ex
+21:37:43.378 [DBG] Sent 120 bytes
+no ex
+21:37:43.528 [DBG] 76 bytes read
+no ex
+21:37:43.528 [DBG] Sent 120 bytes
+no ex
+21:37:43.733 [DBG] Sent 69 bytes
+no ex
+21:37:43.810 [DBG] 76 bytes read
+no ex
+21:37:43.810 [DBG] Sent 120 bytes
+no ex
+21:37:44.010 [DBG] Sent 1084 bytes
+no ex
+21:37:44.010 [DBG] Sent 1318 bytes
+no ex
+21:37:44.093 [DBG] 76 bytes read
+no ex
+21:37:44.093 [DBG] Sent 120 bytes
+no ex
+21:37:44.371 [DBG] 76 bytes read
+no ex
+21:37:44.372 [DBG] Sent 120 bytes
+no ex
+21:37:44.386 [DBG] Sent 69 bytes
+no ex
+21:37:44.645 [DBG] 76 bytes read
+no ex
+21:37:44.645 [DBG] Sent 120 bytes
+no ex
+21:37:44.830 [DBG] Sent 69 bytes
+no ex
+21:37:44.864 [DBG] Sent 1942 bytes
+no ex
+21:37:44.866 [DBG] Sent 694 bytes
+no ex
+21:37:44.866 [DBG] Sent 642 bytes
+no ex
+21:37:44.867 [DBG] Sent 902 bytes
+no ex
+21:37:44.897 [DBG] Sent 70 bytes
+no ex
+21:37:44.923 [DBG] 76 bytes read
+no ex
+21:37:44.924 [DBG] Sent 120 bytes
+no ex
+21:37:45.209 [DBG] 76 bytes read
+no ex
+21:37:45.209 [DBG] Sent 120 bytes
+no ex
+21:37:45.379 [DBG] Sent 145 bytes
+no ex
+21:37:45.414 [DBG] Sent 70 bytes
+no ex
+21:37:45.482 [DBG] Sent 1993 bytes
+no ex
+21:37:45.492 [DBG] 76 bytes read
+no ex
+21:37:45.492 [DBG] Sent 120 bytes
+no ex
+21:37:45.772 [DBG] 68 bytes read
+no ex
+21:37:45.773 [DBG] Sent 120 bytes
+no ex
+21:37:45.945 [DBG] Sent 184 bytes
+no ex
+21:37:46.057 [DBG] 68 bytes read
+no ex
+21:37:46.058 [DBG] Sent 120 bytes
+no ex
+21:37:46.137 [DBG] 31 bytes read
+no ex
+21:37:46.137 [DBG] Sent 30 bytes
+no ex
+21:37:46.236 [DBG] Sent 2176 bytes
+no ex
+21:37:46.236 [DBG] Sent 928 bytes
+no ex
+21:37:46.236 [DBG] Sent 928 bytes
+no ex
+21:37:46.340 [DBG] 68 bytes read
+no ex
+21:37:46.340 [DBG] Sent 120 bytes
+no ex
+21:37:46.621 [DBG] 68 bytes read
+no ex
+21:37:46.621 [DBG] Sent 120 bytes
+no ex
+21:37:46.815 [DBG] Sent 69 bytes
+no ex
+21:37:47.497 [DBG] Sent 1656 bytes
+no ex
+21:37:48.047 [DBG] Sent 1577 bytes
+no ex
+21:37:48.288 [DBG] Sent 70 bytes
+no ex
+21:37:48.665 [DBG] Sent 69 bytes
+no ex
+21:37:48.699 [DBG] Sent 1109 bytes
+no ex
+21:37:49.107 [DBG] Sent 70 bytes
+no ex
+21:37:49.140 [DBG] 31 bytes read
+no ex
+21:37:49.140 [DBG] Sent 30 bytes
+no ex
+21:37:49.243 [DBG] Sent 1603 bytes
+no ex
+21:37:49.312 [DBG] Sent 70 bytes
+no ex
+21:37:49.485 [DBG] Sent 143 bytes
+no ex
+21:37:49.930 [DBG] Sent 1864 bytes
+no ex
+21:37:50.273 [DBG] Sent 70 bytes
+no ex
+21:37:50.307 [DBG] Sent 70 bytes
+no ex
+21:37:50.479 [DBG] Sent 1630 bytes
+no ex
+21:37:50.941 [DBG] Sent 184 bytes
+no ex
+21:37:51.404 [DBG] Sent 509 bytes
+no ex
+21:37:51.404 [DBG] Sent 2644 bytes
+no ex
+21:37:52.057 [DBG] Sent 1551 bytes
+no ex
+21:37:52.191 [DBG] 31 bytes read
+no ex
+21:37:52.191 [DBG] Sent 30 bytes
+no ex
+21:37:52.297 [DBG] Sent 70 bytes
+no ex
+21:37:52.725 [DBG] Sent 209 bytes
+no ex
+21:37:52.946 [DBG] Sent 875 bytes
+no ex
+21:37:53.561 [DBG] Sent 70 bytes
+no ex
+21:37:53.869 [DBG] Sent 1318 bytes
+no ex
+21:37:54.177 [DBG] Sent 1629 bytes
+no ex
+21:37:54.723 [DBG] Sent 70 bytes
+no ex
+21:37:54.860 [DBG] Sent 69 bytes
+no ex
+21:37:54.895 [DBG] Sent 70 bytes
+no ex
+21:37:54.929 [DBG] Sent 69 bytes
+no ex
+21:37:55.067 [DBG] Sent 1032 bytes
+no ex
+21:37:55.067 [DBG] Sent 876 bytes
+no ex
+21:37:55.136 [DBG] 31 bytes read
+no ex
+21:37:55.136 [DBG] Sent 30 bytes
+no ex
+21:37:55.647 [DBG] Sent 1916 bytes
+no ex
+21:37:55.681 [DBG] Sent 70 bytes
+no ex
+21:37:55.732 [DBG] Sent 102 bytes
+no ex
+21:37:55.836 [DBG] Sent 69 bytes
+no ex
+21:37:55.836 [DBG] Sent 69 bytes
+no ex
+21:37:55.938 [DBG] Sent 184 bytes
+no ex
+21:37:56.008 [DBG] 76 bytes read
+no ex
+21:37:56.008 [DBG] Sent 120 bytes
+no ex
+21:37:56.229 [DBG] Sent 484 bytes
+no ex
+21:37:56.229 [DBG] Sent 1656 bytes
+no ex
+21:37:56.505 [DBG] 76 bytes read
+no ex
+21:37:56.505 [DBG] Sent 120 bytes
+no ex
+21:37:57.224 [DBG] Sent 70 bytes
+no ex
+21:37:57.838 [DBG] Sent 1032 bytes
+no ex
+21:37:57.838 [DBG] Sent 458 bytes
+no ex
+21:37:57.839 [DBG] Sent 1188 bytes
+no ex
+21:37:57.907 [DBG] Sent 70 bytes
+no ex
+21:37:58.135 [DBG] 31 bytes read
+no ex
+21:37:58.135 [DBG] Sent 30 bytes
+no ex
+21:37:58.557 [DBG] Sent 70 bytes
+no ex
+21:37:58.831 [DBG] Sent 2305 bytes
+no ex
+21:37:59.651 [DBG] Sent 70 bytes
+no ex
+21:37:59.824 [DBG] Sent 875 bytes
+no ex
+21:38:00.952 [DBG] Sent 184 bytes
+no ex
+21:38:01.089 [DBG] Sent 69 bytes
+no ex
+21:38:01.137 [DBG] 31 bytes read
+no ex
+21:38:01.137 [DBG] Sent 30 bytes
+no ex
+21:38:01.471 [DBG] 77 bytes read
+no ex
+21:38:01.472 [DBG] Sent 121 bytes
+no ex
+21:38:01.617 [DBG] 77 bytes read
+no ex
+21:38:01.618 [DBG] Sent 121 bytes
+no ex
+21:38:01.768 [DBG] 77 bytes read
+no ex
+21:38:01.768 [DBG] Sent 121 bytes
+no ex
+21:38:01.845 [DBG] Sent 1526 bytes
+no ex
+21:38:01.917 [DBG] 77 bytes read
+no ex
+21:38:01.917 [DBG] Sent 121 bytes
+no ex
+21:38:02.066 [DBG] 77 bytes read
+no ex
+21:38:02.067 [DBG] Sent 121 bytes
+no ex
+21:38:02.226 [DBG] 77 bytes read
+no ex
+21:38:02.227 [DBG] Sent 121 bytes
+no ex
+21:38:02.360 [DBG] Sent 69 bytes
+no ex
+21:38:02.371 [DBG] 77 bytes read
+no ex
+21:38:02.371 [DBG] Sent 121 bytes
+no ex
+21:38:02.394 [DBG] Sent 1838 bytes
+no ex
+21:38:02.519 [DBG] 77 bytes read
+no ex
+21:38:02.520 [DBG] Sent 121 bytes
+no ex
+21:38:02.673 [DBG] 77 bytes read
+no ex
+21:38:02.674 [DBG] Sent 121 bytes
+no ex
+21:38:02.822 [DBG] 77 bytes read
+no ex
+21:38:02.822 [DBG] Sent 121 bytes
+no ex
+21:38:02.968 [DBG] 77 bytes read
+no ex
+21:38:02.969 [DBG] Sent 121 bytes
+no ex
+21:38:03.044 [DBG] Sent 406 bytes
+no ex
+21:38:03.123 [DBG] 77 bytes read
+no ex
+21:38:03.123 [DBG] Sent 121 bytes
+no ex
+21:38:03.217 [DBG] Sent 70 bytes
+no ex
+21:38:03.281 [DBG] 77 bytes read
+no ex
+21:38:03.282 [DBG] Sent 121 bytes
+no ex
+21:38:03.392 [DBG] Sent 70 bytes
+no ex
+21:38:03.428 [DBG] 77 bytes read
+no ex
+21:38:03.429 [DBG] Sent 121 bytes
+no ex
+21:38:03.563 [DBG] Sent 69 bytes
+no ex
+21:38:03.578 [DBG] 77 bytes read
+no ex
+21:38:03.578 [DBG] Sent 121 bytes
+no ex
+21:38:03.724 [DBG] 77 bytes read
+no ex
+21:38:03.725 [DBG] Sent 121 bytes
+no ex
+21:38:03.874 [DBG] 77 bytes read
+no ex
+21:38:03.874 [DBG] Sent 121 bytes
+no ex
+21:38:04.021 [DBG] 77 bytes read
+no ex
+21:38:04.022 [DBG] Sent 121 bytes
+no ex
+21:38:04.146 [DBG] 31 bytes read
+no ex
+21:38:04.146 [DBG] Sent 30 bytes
+no ex
+21:38:04.186 [DBG] 77 bytes read
+no ex
+21:38:04.186 [DBG] Sent 121 bytes
+no ex
+21:38:04.245 [DBG] Sent 2487 bytes
+no ex
+21:38:04.318 [DBG] 77 bytes read
+no ex
+21:38:04.318 [DBG] Sent 121 bytes
+no ex
+21:38:04.329 [DBG] Sent 69 bytes
+no ex
+21:38:04.329 [DBG] Sent 69 bytes
+no ex
+21:38:04.474 [DBG] 77 bytes read
+no ex
+21:38:04.474 [DBG] Sent 121 bytes
+no ex
+21:38:04.552 [DBG] Sent 69 bytes
+no ex
+21:38:04.632 [DBG] 77 bytes read
+no ex
+21:38:04.633 [DBG] Sent 121 bytes
+no ex
+21:38:04.654 [DBG] Sent 70 bytes
+no ex
+21:38:04.689 [DBG] Sent 147 bytes
+no ex
+21:38:04.770 [DBG] 77 bytes read
+no ex
+21:38:04.770 [DBG] Sent 121 bytes
+no ex
+21:38:04.932 [DBG] 77 bytes read
+no ex
+21:38:04.933 [DBG] Sent 121 bytes
+no ex
+21:38:05.079 [DBG] 77 bytes read
+no ex
+21:38:05.079 [DBG] Sent 121 bytes
+no ex
+21:38:05.219 [DBG] 77 bytes read
+no ex
+21:38:05.220 [DBG] Sent 121 bytes
+no ex
+21:38:05.373 [DBG] 77 bytes read
+no ex
+21:38:05.373 [DBG] Sent 121 bytes
+no ex
+21:38:05.374 [DBG] Sent 1343 bytes
+no ex
+21:38:05.525 [DBG] 77 bytes read
+no ex
+21:38:05.525 [DBG] Sent 121 bytes
+no ex
+21:38:05.546 [DBG] Sent 69 bytes
+no ex
+21:38:05.712 [DBG] 77 bytes read
+no ex
+21:38:05.712 [DBG] Sent 121 bytes
+no ex
+21:38:05.718 [DBG] Sent 70 bytes
+no ex
+21:38:05.830 [DBG] 77 bytes read
+no ex
+21:38:05.887 [DBG] Sent 224 bytes
+no ex
+21:38:05.887 [DBG] Sent 1786 bytes
+no ex
+21:38:05.938 [DBG] Sent 184 bytes
+no ex
+21:38:05.974 [DBG] 77 bytes read
+no ex
+21:38:05.974 [DBG] Sent 121 bytes
+no ex
+21:38:06.121 [DBG] 77 bytes read
+no ex
+21:38:06.121 [DBG] Sent 121 bytes
+no ex
+21:38:06.286 [DBG] 77 bytes read
+no ex
+21:38:06.286 [DBG] Sent 121 bytes
+no ex
+21:38:06.423 [DBG] 77 bytes read
+no ex
+21:38:06.423 [DBG] Sent 121 bytes
+no ex
+21:38:06.575 [DBG] 77 bytes read
+no ex
+21:38:06.575 [DBG] Sent 121 bytes
+no ex
+21:38:06.639 [DBG] Sent 746 bytes
+no ex
+21:38:06.722 [DBG] 77 bytes read
+no ex
+21:38:06.722 [DBG] Sent 121 bytes
+no ex
+21:38:06.863 [DBG] 77 bytes read
+no ex
+21:38:06.864 [DBG] Sent 121 bytes
+no ex
+21:38:07.022 [DBG] 77 bytes read
+no ex
+21:38:07.023 [DBG] Sent 121 bytes
+no ex
+21:38:07.140 [DBG] 31 bytes read
+no ex
+21:38:07.140 [DBG] Sent 30 bytes
+no ex
+21:38:07.634 [DBG] Sent 641 bytes
+no ex
+21:38:07.907 [DBG] Sent 147 bytes
+no ex
+21:38:08.250 [DBG] Sent 70 bytes
+no ex
+21:38:08.387 [DBG] Sent 69 bytes
+no ex
+21:38:09.345 [DBG] Sent 1733 bytes
+no ex
+21:38:09.925 [DBG] Sent 69 bytes
+no ex
+21:38:09.925 [DBG] Sent 70 bytes
+no ex
+21:38:10.141 [DBG] 31 bytes read
+no ex
+21:38:10.141 [DBG] Sent 30 bytes
+no ex
+21:38:10.334 [DBG] Sent 69 bytes
+no ex
+21:38:10.541 [DBG] Sent 70 bytes
+no ex
+21:38:10.846 [DBG] Sent 69 bytes
+no ex
+21:38:10.881 [DBG] Sent 875 bytes
+no ex
+21:38:10.915 [DBG] Sent 70 bytes
+no ex
+21:38:10.949 [DBG] Sent 184 bytes
+no ex
+21:38:11.296 [DBG] 31 bytes read
+no ex
+21:38:11.297 [DBG] Sent 87 bytes
+no ex
+21:38:11.297 [DBG] Sent 87 bytes
+no ex
+21:38:11.307 [DBG] Sent 207 bytes
+no ex
+21:38:13.176 [DBG] 31 bytes read
+no ex
+21:38:13.177 [DBG] Sent 30 bytes
+no ex
+21:38:15.952 [DBG] Sent 184 bytes
+no ex
+21:38:16.143 [DBG] 31 bytes read
+no ex
+21:38:16.143 [DBG] Sent 30 bytes
+no ex
+21:38:19.175 [DBG] 31 bytes read
+no ex
+21:38:19.175 [DBG] Sent 30 bytes
+no ex
+21:38:20.956 [DBG] Sent 184 bytes
+no ex
+21:38:22.134 [DBG] 31 bytes read
+no ex
+21:38:22.134 [DBG] Sent 30 bytes
+no ex
+21:38:25.136 [DBG] 31 bytes read
+no ex
+21:38:25.137 [DBG] Sent 30 bytes
+no ex
+21:38:25.949 [DBG] Sent 184 bytes
+no ex
+21:38:28.135 [DBG] 31 bytes read
+no ex
+21:38:28.135 [DBG] Sent 30 bytes
+no ex
+21:38:30.943 [DBG] Sent 184 bytes
+no ex
+21:38:31.156 [DBG] 31 bytes read
+no ex
+21:38:31.157 [DBG] Sent 30 bytes
+no ex
+21:38:34.168 [DBG] 31 bytes read
+no ex
+21:38:34.168 [DBG] Sent 30 bytes
+no ex
+21:38:35.952 [DBG] Sent 184 bytes
+no ex
+21:38:37.151 [DBG] 31 bytes read
+no ex
+21:38:37.152 [DBG] Sent 30 bytes
+no ex
+21:38:40.138 [DBG] 31 bytes read
+no ex
+21:38:40.138 [DBG] Sent 30 bytes
+no ex
+21:38:40.949 [DBG] Sent 184 bytes
+no ex
+21:38:43.138 [DBG] 31 bytes read
+no ex
+21:38:43.139 [DBG] Sent 30 bytes
+no ex
+21:38:45.956 [DBG] Sent 184 bytes
+no ex
+21:38:46.137 [DBG] 31 bytes read
+no ex
+21:38:46.137 [DBG] Sent 30 bytes
+no ex
+21:38:49.140 [DBG] 31 bytes read
+no ex
+21:38:49.140 [DBG] Sent 30 bytes
+no ex
+21:38:50.952 [DBG] Sent 184 bytes
+no ex
+21:38:52.135 [DBG] 31 bytes read
+no ex
+21:38:52.136 [DBG] Sent 30 bytes
+no ex
+21:38:55.136 [DBG] 31 bytes read
+no ex
+21:38:55.136 [DBG] Sent 30 bytes
+no ex
+21:38:55.947 [DBG] Sent 184 bytes
+no ex
+21:38:58.136 [DBG] 31 bytes read
+no ex
+21:38:58.137 [DBG] Sent 30 bytes
+no ex
+21:39:00.957 [DBG] Sent 184 bytes
+no ex
+21:39:01.727 [DBG] 31 bytes read
+no ex
+21:39:01.728 [DBG] Sent 30 bytes
+no ex
+21:39:03.306 [INF] RunScan: 0
+21:39:03.307 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(21:39)","Data":null,"DataObj":null}
+21:39:04.712 [DBG] 31 bytes read
+no ex
+21:39:04.712 [DBG] Sent 30 bytes
+no ex
+21:39:05.957 [DBG] Sent 184 bytes
+no ex
+21:39:07.720 [DBG] 31 bytes read
+no ex
+21:39:07.720 [DBG] Sent 30 bytes
+no ex
+21:39:10.719 [DBG] 31 bytes read
+no ex
+21:39:10.719 [DBG] Sent 30 bytes
+no ex
+21:39:10.961 [DBG] Sent 184 bytes
+no ex
+21:39:13.715 [DBG] 31 bytes read
+no ex
+21:39:13.715 [DBG] Sent 30 bytes
+no ex
+21:39:15.963 [DBG] Sent 184 bytes
+no ex
+21:39:16.712 [DBG] 31 bytes read
+no ex
+21:39:16.712 [DBG] Sent 30 bytes
+no ex
+21:39:19.711 [DBG] 31 bytes read
+no ex
+21:39:19.711 [DBG] Sent 30 bytes
+no ex
+21:39:20.963 [DBG] Sent 184 bytes
+no ex
+21:39:22.718 [DBG] 31 bytes read
+no ex
+21:39:22.718 [DBG] Sent 30 bytes
+no ex
+21:39:25.716 [DBG] 31 bytes read
+no ex
+21:39:25.716 [DBG] Sent 30 bytes
+no ex
+21:39:25.958 [DBG] Sent 184 bytes
+no ex
+21:39:28.718 [DBG] 31 bytes read
+no ex
+21:39:28.719 [DBG] Sent 30 bytes
+no ex
+21:39:30.953 [DBG] Sent 184 bytes
+no ex
+21:39:31.720 [DBG] 31 bytes read
+no ex
+21:39:31.722 [DBG] Sent 30 bytes
+no ex
+21:39:34.717 [DBG] 31 bytes read
+no ex
+21:39:34.718 [DBG] Sent 30 bytes
+no ex
+21:39:35.961 [DBG] Sent 184 bytes
+no ex
+21:39:37.712 [DBG] 31 bytes read
+no ex
+21:39:37.712 [DBG] Sent 30 bytes
+no ex
+21:39:40.716 [DBG] 31 bytes read
+no ex
+21:39:40.716 [DBG] Sent 30 bytes
+no ex
+21:39:40.954 [DBG] Sent 184 bytes
+no ex
+21:39:43.716 [DBG] 31 bytes read
+no ex
+21:39:43.717 [DBG] Sent 30 bytes
+no ex
+21:39:45.963 [DBG] Sent 184 bytes
+no ex
+21:39:46.729 [DBG] 31 bytes read
+no ex
+21:39:46.730 [DBG] Sent 30 bytes
+no ex
+21:39:49.717 [DBG] 31 bytes read
+no ex
+21:39:49.718 [DBG] Sent 30 bytes
+no ex
+21:39:50.952 [DBG] Sent 184 bytes
+no ex
+21:39:52.726 [DBG] 31 bytes read
+no ex
+21:39:52.726 [DBG] Sent 30 bytes
+no ex
+21:39:54.968 [DBG] Sent 74 bytes
+no ex
+21:39:55.721 [DBG] 31 bytes read
+no ex
+21:39:55.722 [DBG] Sent 30 bytes
+no ex
+21:39:55.959 [DBG] Sent 184 bytes
+no ex
+21:39:58.717 [DBG] 31 bytes read
+no ex
+21:39:58.717 [DBG] Sent 30 bytes
+no ex
+21:40:00.959 [DBG] Sent 184 bytes
+no ex
+21:40:01.720 [DBG] 31 bytes read
+no ex
+21:40:01.720 [DBG] Sent 30 bytes
+no ex
+21:40:02.763 [INF] RunHandleWinLoss: 0
+21:40:02.763 [INF] CalculateResult: 20230112
+21:40:02.763 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+21:40:04.724 [DBG] 31 bytes read
+no ex
+21:40:04.724 [DBG] Sent 30 bytes
+no ex
+21:40:05.970 [DBG] Sent 184 bytes
+no ex
+21:40:07.718 [DBG] 31 bytes read
+no ex
+21:40:07.718 [DBG] Sent 30 bytes
+no ex
+21:40:10.718 [DBG] 31 bytes read
+no ex
+21:40:10.718 [DBG] Sent 30 bytes
+no ex
+21:40:10.963 [DBG] Sent 184 bytes
+no ex
+21:40:13.723 [DBG] 31 bytes read
+no ex
+21:40:13.724 [DBG] Sent 30 bytes
+no ex
+21:40:15.961 [DBG] Sent 184 bytes
+no ex
+21:40:16.717 [DBG] 31 bytes read
+no ex
+21:40:16.717 [DBG] Sent 30 bytes
+no ex
+21:40:19.722 [DBG] 31 bytes read
+no ex
+21:40:19.722 [DBG] Sent 30 bytes
+no ex
+21:40:20.962 [DBG] Sent 184 bytes
+no ex
+21:40:22.717 [DBG] 31 bytes read
+no ex
+21:40:22.717 [DBG] Sent 30 bytes
+no ex
+21:40:25.725 [DBG] 31 bytes read
+no ex
+21:40:25.726 [DBG] Sent 30 bytes
+no ex
+21:40:25.963 [DBG] Sent 184 bytes
+no ex
+21:40:28.718 [DBG] 31 bytes read
+no ex
+21:40:28.718 [DBG] Sent 30 bytes
+no ex
+21:40:30.959 [DBG] Sent 184 bytes
+no ex
+21:40:31.727 [DBG] 31 bytes read
+no ex
+21:40:31.727 [DBG] Sent 30 bytes
+no ex
+21:40:34.733 [DBG] 31 bytes read
+no ex
+21:40:34.734 [DBG] Sent 30 bytes
+no ex
+21:40:35.969 [DBG] Sent 184 bytes
+no ex
+21:40:37.719 [DBG] 31 bytes read
+no ex
+21:40:37.720 [DBG] Sent 30 bytes
+no ex
+21:40:40.720 [DBG] 31 bytes read
+no ex
+21:40:40.720 [DBG] Sent 30 bytes
+no ex
+21:40:40.962 [DBG] Sent 184 bytes
+no ex
+21:40:43.717 [DBG] 31 bytes read
+no ex
+21:40:43.718 [DBG] Sent 30 bytes
+no ex
+21:40:45.960 [DBG] Sent 184 bytes
+no ex
+21:40:46.717 [DBG] 31 bytes read
+no ex
+21:40:46.717 [DBG] Sent 30 bytes
+no ex
+21:40:49.733 [DBG] 31 bytes read
+no ex
+21:40:49.733 [DBG] Sent 30 bytes
+no ex
+21:40:50.968 [DBG] Sent 184 bytes
+no ex
+21:40:52.752 [DBG] 31 bytes read
+no ex
+21:40:52.753 [DBG] Sent 30 bytes
+no ex
+21:40:55.721 [DBG] 31 bytes read
+no ex
+21:40:55.724 [DBG] Sent 30 bytes
+no ex
+21:40:55.976 [DBG] Sent 184 bytes
+no ex
+21:40:58.164 [DBG] 31 bytes read
+no ex
+21:40:58.164 [DBG] Sent 30 bytes
+no ex
+21:40:58.848 [DBG] 8 bytes read
+no ex
+21:40:58.850 [DBG] Sent 4 bytes
+no ex
+21:44:03.307 [INF] RunScan: 0
+21:44:03.308 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(21:44)","Data":null,"DataObj":null}
+21:45:02.765 [INF] RunHandleWinLoss: 0
+21:45:02.765 [INF] CalculateResult: 20230112
+21:45:02.765 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+21:49:03.308 [INF] RunScan: 0
+21:49:03.308 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(21:49)","Data":null,"DataObj":null}
+21:50:02.768 [INF] RunHandleWinLoss: 0
+21:50:02.768 [INF] CalculateResult: 20230112
+21:50:02.768 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+21:54:03.308 [INF] RunScan: 0
+21:54:03.308 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(21:54)","Data":null,"DataObj":null}
+21:55:02.770 [INF] RunHandleWinLoss: 0
+21:55:02.770 [INF] CalculateResult: 20230112
+21:55:02.770 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+21:59:03.308 [INF] RunScan: 0
+21:59:03.308 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(21:59)","Data":null,"DataObj":null}
+22:00:02.772 [INF] RunHandleWinLoss: 0
+22:00:02.772 [INF] CalculateResult: 20230112
+22:00:02.772 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+22:04:03.309 [INF] RunScan: 0
+22:04:03.309 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(22:4)","Data":null,"DataObj":null}
+22:05:02.775 [INF] RunHandleWinLoss: 0
+22:05:02.775 [INF] CalculateResult: 20230112
+22:05:02.775 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+22:09:03.309 [INF] RunScan: 0
+22:09:03.310 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(22:9)","Data":null,"DataObj":null}
+22:10:02.777 [INF] RunHandleWinLoss: 0
+22:10:02.777 [INF] CalculateResult: 20230112
+22:10:02.777 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+22:14:03.310 [INF] RunScan: 0
+22:14:03.310 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(22:14)","Data":null,"DataObj":null}
+22:15:02.779 [INF] RunHandleWinLoss: 0
+22:15:02.779 [INF] CalculateResult: 20230112
+22:15:02.779 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+22:19:03.310 [INF] RunScan: 0
+22:19:03.310 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(22:19)","Data":null,"DataObj":null}
+22:20:02.781 [INF] RunHandleWinLoss: 0
+22:20:02.781 [INF] CalculateResult: 20230112
+22:20:02.781 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+22:24:03.310 [INF] RunScan: 0
+22:24:03.310 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(22:24)","Data":null,"DataObj":null}
+22:25:02.782 [INF] RunHandleWinLoss: 0
+22:25:02.783 [INF] CalculateResult: 20230112
+22:25:02.783 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+22:29:03.311 [INF] RunScan: 0
+22:29:03.311 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(22:29)","Data":null,"DataObj":null}
+22:30:02.785 [INF] RunHandleWinLoss: 0
+22:30:02.785 [INF] CalculateResult: 20230112
+22:30:02.785 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+22:34:03.311 [INF] RunScan: 0
+22:34:03.311 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(22:34)","Data":null,"DataObj":null}
+22:35:02.787 [INF] RunHandleWinLoss: 0
+22:35:02.787 [INF] CalculateResult: 20230112
+22:35:02.787 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+22:39:03.311 [INF] RunScan: 0
+22:39:03.311 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(22:39)","Data":null,"DataObj":null}
+22:40:02.789 [INF] RunHandleWinLoss: 0
+22:40:02.790 [INF] CalculateResult: 20230112
+22:40:02.790 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+22:44:03.312 [INF] RunScan: 0
+22:44:03.312 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(22:44)","Data":null,"DataObj":null}
+22:45:02.793 [INF] RunHandleWinLoss: 0
+22:45:02.793 [INF] CalculateResult: 20230112
+22:45:02.793 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+22:49:03.312 [INF] RunScan: 0
+22:49:03.312 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(22:49)","Data":null,"DataObj":null}
+22:50:02.795 [INF] RunHandleWinLoss: 0
+22:50:02.795 [INF] CalculateResult: 20230112
+22:50:02.795 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+22:54:03.312 [INF] RunScan: 0
+22:54:03.312 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(22:54)","Data":null,"DataObj":null}
+22:55:02.797 [INF] RunHandleWinLoss: 0
+22:55:02.797 [INF] CalculateResult: 20230112
+22:55:02.797 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+22:59:03.313 [INF] RunScan: 0
+22:59:03.313 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(22:59)","Data":null,"DataObj":null}
+23:00:02.799 [INF] RunHandleWinLoss: 0
+23:00:02.800 [INF] CalculateResult: 20230112
+23:00:02.800 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+23:04:03.313 [INF] RunScan: 0
+23:04:03.313 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(23:4)","Data":null,"DataObj":null}
+23:05:02.802 [INF] RunHandleWinLoss: 0
+23:05:02.802 [INF] CalculateResult: 20230112
+23:05:02.802 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+23:09:03.313 [INF] RunScan: 0
+23:09:03.314 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(23:9)","Data":null,"DataObj":null}
+23:10:02.804 [INF] RunHandleWinLoss: 0
+23:10:02.804 [INF] CalculateResult: 20230112
+23:10:02.804 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+23:14:03.314 [INF] RunScan: 0
+23:14:03.314 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(23:14)","Data":null,"DataObj":null}
+23:15:02.806 [INF] RunHandleWinLoss: 0
+23:15:02.806 [INF] CalculateResult: 20230112
+23:15:02.806 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+23:19:03.314 [INF] RunScan: 0
+23:19:03.314 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(23:19)","Data":null,"DataObj":null}
+23:20:02.808 [INF] RunHandleWinLoss: 0
+23:20:02.808 [INF] CalculateResult: 20230112
+23:20:02.808 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+23:24:03.314 [INF] RunScan: 0
+23:24:03.314 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(23:24)","Data":null,"DataObj":null}
+23:25:02.815 [INF] RunHandleWinLoss: 0
+23:25:02.815 [INF] CalculateResult: 20230112
+23:25:02.815 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+23:29:03.315 [INF] RunScan: 0
+23:29:03.315 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(23:29)","Data":null,"DataObj":null}
+23:30:02.818 [INF] RunHandleWinLoss: 0
+23:30:02.818 [INF] CalculateResult: 20230112
+23:30:02.818 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+23:31:44.432 [DBG] Client connected from 127.0.0.1:41906
+no ex
+23:31:44.432 [DBG] 692 bytes read
+no ex
+23:31:44.432 [DBG] Building Hybi-14 Response
+no ex
+23:31:44.433 [DBG] Sent 129 bytes
+no ex
+23:31:46.779 [DBG] Sent 184 bytes
+no ex
+23:31:47.788 [DBG] Sent 74 bytes
+no ex
+23:31:48.369 [DBG] 31 bytes read
+no ex
+23:31:48.370 [DBG] Sent 30 bytes
+no ex
+23:31:48.396 [DBG] 111 bytes read
+no ex
+23:31:48.396 [INF] GET: http://127.0.0.1:8081/api?c=3&un=gggggggg&pw=e10adc3949ba59abbe56e057f20f883e&pf=web&at=
+23:31:48.430 [INF] GET response: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6ImdnZ2dnaiIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6MCwieHVUb3RhbCI6NTAwMDAwLCJ2aXBwb2ludCI6MCwidmlwcG9pbnRTYXZlIjowLCJjcmVhdGVUaW1lIjoiMTItMDEtMjAyMyIsImlwQWRkcmVzcyI6IjEyNy4wLjAuMSIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6ImdnZ2dnZ2dnIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"2471e89c4e06659da7bb05e7ee8e3207"}
+
+23:31:48.456 [DBG] Sent 5724 bytes
+no ex
+23:31:51.378 [DBG] 31 bytes read
+no ex
+23:31:51.378 [DBG] Sent 30 bytes
+no ex
+23:31:51.784 [DBG] Sent 184 bytes
+no ex
+23:31:54.368 [DBG] 31 bytes read
+no ex
+23:31:54.368 [DBG] Sent 30 bytes
+no ex
+23:31:56.792 [DBG] Sent 184 bytes
+no ex
+23:31:57.382 [DBG] 31 bytes read
+no ex
+23:31:57.382 [DBG] Sent 30 bytes
+no ex
+23:31:59.587 [DBG] 47 bytes read
+no ex
+23:31:59.612 [DBG] Sent 61 bytes
+no ex
+23:32:00.369 [DBG] 31 bytes read
+no ex
+23:32:00.369 [DBG] Sent 30 bytes
+no ex
+23:32:01.790 [DBG] Sent 184 bytes
+no ex
+23:32:03.371 [DBG] 31 bytes read
+no ex
+23:32:03.371 [DBG] Sent 30 bytes
+no ex
+23:32:06.387 [DBG] 31 bytes read
+no ex
+23:32:06.387 [DBG] Sent 30 bytes
+no ex
+23:32:06.783 [DBG] Sent 184 bytes
+no ex
+23:32:09.369 [DBG] 31 bytes read
+no ex
+23:32:09.370 [DBG] Sent 30 bytes
+no ex
+23:32:11.779 [DBG] Sent 184 bytes
+no ex
+23:32:12.369 [DBG] 31 bytes read
+no ex
+23:32:12.369 [DBG] Sent 30 bytes
+no ex
+23:32:15.377 [DBG] 31 bytes read
+no ex
+23:32:15.377 [DBG] Sent 30 bytes
+no ex
+23:32:16.785 [DBG] Sent 184 bytes
+no ex
+23:32:18.372 [DBG] 31 bytes read
+no ex
+23:32:18.372 [DBG] Sent 30 bytes
+no ex
+23:32:21.376 [DBG] 31 bytes read
+no ex
+23:32:21.377 [DBG] Sent 30 bytes
+no ex
+23:32:21.782 [DBG] Sent 184 bytes
+no ex
+23:32:24.369 [DBG] 31 bytes read
+no ex
+23:32:24.370 [DBG] Sent 30 bytes
+no ex
+23:32:26.790 [DBG] Sent 184 bytes
+no ex
+23:32:27.371 [DBG] 31 bytes read
+no ex
+23:32:27.371 [DBG] Sent 30 bytes
+no ex
+23:32:30.366 [DBG] 31 bytes read
+no ex
+23:32:30.366 [DBG] Sent 30 bytes
+no ex
+23:32:31.782 [DBG] Sent 184 bytes
+no ex
+23:32:33.388 [DBG] 31 bytes read
+no ex
+23:32:33.388 [DBG] Sent 30 bytes
+no ex
+23:32:36.671 [DBG] 31 bytes read
+no ex
+23:32:36.671 [DBG] Sent 30 bytes
+no ex
+23:32:36.783 [DBG] Sent 184 bytes
+no ex
+23:32:39.369 [DBG] 31 bytes read
+no ex
+23:32:39.369 [DBG] Sent 30 bytes
+no ex
+23:32:41.783 [DBG] Sent 184 bytes
+no ex
+23:32:42.432 [DBG] 31 bytes read
+no ex
+23:32:42.432 [DBG] Sent 30 bytes
+no ex
+23:32:45.404 [DBG] 31 bytes read
+no ex
+23:32:45.404 [DBG] Sent 30 bytes
+no ex
+23:32:46.792 [DBG] Sent 184 bytes
+no ex
+23:32:48.407 [DBG] 31 bytes read
+no ex
+23:32:48.408 [DBG] Sent 30 bytes
+no ex
+23:32:51.436 [DBG] 31 bytes read
+no ex
+23:32:51.436 [DBG] Sent 30 bytes
+no ex
+23:32:51.793 [DBG] Sent 184 bytes
+no ex
+23:32:54.798 [DBG] 31 bytes read
+no ex
+23:32:54.798 [DBG] Sent 30 bytes
+no ex
+23:32:56.792 [DBG] Sent 184 bytes
+no ex
+23:32:57.434 [DBG] 31 bytes read
+no ex
+23:32:57.434 [DBG] Sent 30 bytes
+no ex
+23:33:00.396 [DBG] 31 bytes read
+no ex
+23:33:00.396 [DBG] Sent 30 bytes
+no ex
+23:33:01.798 [DBG] Sent 184 bytes
+no ex
+23:33:03.391 [DBG] 31 bytes read
+no ex
+23:33:03.391 [DBG] Sent 30 bytes
+no ex
+23:33:06.634 [DBG] 31 bytes read
+no ex
+23:33:06.635 [DBG] Sent 30 bytes
+no ex
+23:33:06.791 [DBG] Sent 184 bytes
+no ex
+23:33:09.636 [DBG] 31 bytes read
+no ex
+23:33:09.636 [DBG] Sent 30 bytes
+no ex
+23:33:11.785 [DBG] Sent 184 bytes
+no ex
+23:33:12.456 [DBG] 31 bytes read
+no ex
+23:33:12.457 [DBG] Sent 30 bytes
+no ex
+23:33:15.444 [DBG] 31 bytes read
+no ex
+23:33:15.445 [DBG] Sent 30 bytes
+no ex
+23:33:16.793 [DBG] Sent 184 bytes
+no ex
+23:33:18.394 [DBG] 31 bytes read
+no ex
+23:33:18.394 [DBG] Sent 30 bytes
+no ex
+23:33:21.420 [DBG] 31 bytes read
+no ex
+23:33:21.420 [DBG] Sent 30 bytes
+no ex
+23:33:21.791 [DBG] Sent 184 bytes
+no ex
+23:33:24.396 [DBG] 31 bytes read
+no ex
+23:33:24.396 [DBG] Sent 30 bytes
+no ex
+23:33:26.788 [DBG] Sent 184 bytes
+no ex
+23:33:27.413 [DBG] 31 bytes read
+no ex
+23:33:27.414 [DBG] Sent 30 bytes
+no ex
+23:33:30.420 [DBG] 31 bytes read
+no ex
+23:33:30.421 [DBG] Sent 30 bytes
+no ex
+23:33:31.797 [DBG] Sent 184 bytes
+no ex
+23:33:33.394 [DBG] 31 bytes read
+no ex
+23:33:33.394 [DBG] Sent 30 bytes
+no ex
+23:33:36.391 [DBG] 31 bytes read
+no ex
+23:33:36.391 [DBG] Sent 30 bytes
+no ex
+23:33:36.790 [DBG] Sent 184 bytes
+no ex
+23:33:40.077 [DBG] 31 bytes read
+no ex
+23:33:40.077 [DBG] Sent 30 bytes
+no ex
+23:33:41.788 [DBG] Sent 184 bytes
+no ex
+23:33:42.398 [DBG] 31 bytes read
+no ex
+23:33:42.398 [DBG] Sent 30 bytes
+no ex
+23:33:45.414 [DBG] 31 bytes read
+no ex
+23:33:45.415 [DBG] Sent 30 bytes
+no ex
+23:33:46.803 [DBG] Sent 184 bytes
+no ex
+23:33:48.569 [DBG] 31 bytes read
+no ex
+23:33:48.569 [DBG] Sent 30 bytes
+no ex
+23:33:51.410 [DBG] 31 bytes read
+no ex
+23:33:51.410 [DBG] Sent 30 bytes
+no ex
+23:33:51.794 [DBG] Sent 184 bytes
+no ex
+23:33:54.413 [DBG] 31 bytes read
+no ex
+23:33:54.413 [DBG] Sent 30 bytes
+no ex
+23:33:56.804 [DBG] Sent 184 bytes
+no ex
+23:33:57.429 [DBG] 31 bytes read
+no ex
+23:33:57.429 [DBG] Sent 30 bytes
+no ex
+23:34:00.362 [DBG] 31 bytes read
+no ex
+23:34:00.362 [DBG] Sent 30 bytes
+no ex
+23:34:01.794 [DBG] Sent 184 bytes
+no ex
+23:34:03.315 [INF] RunScan: 0
+23:34:03.315 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(23:34)","Data":null,"DataObj":null}
+23:34:03.365 [DBG] 31 bytes read
+no ex
+23:34:03.365 [DBG] Sent 30 bytes
+no ex
+23:34:06.418 [DBG] 31 bytes read
+no ex
+23:34:06.418 [DBG] Sent 30 bytes
+no ex
+23:34:06.790 [DBG] Sent 184 bytes
+no ex
+23:34:09.366 [DBG] 31 bytes read
+no ex
+23:34:09.366 [DBG] Sent 30 bytes
+no ex
+23:34:11.802 [DBG] Sent 184 bytes
+no ex
+23:34:12.363 [DBG] 31 bytes read
+no ex
+23:34:12.364 [DBG] Sent 30 bytes
+no ex
+23:34:15.365 [DBG] 31 bytes read
+no ex
+23:34:15.365 [DBG] Sent 30 bytes
+no ex
+23:34:16.799 [DBG] Sent 184 bytes
+no ex
+23:34:18.364 [DBG] 31 bytes read
+no ex
+23:34:18.364 [DBG] Sent 30 bytes
+no ex
+23:34:21.408 [DBG] 31 bytes read
+no ex
+23:34:21.409 [DBG] Sent 30 bytes
+no ex
+23:34:21.792 [DBG] Sent 184 bytes
+no ex
+23:34:23.746 [DBG] 8 bytes read
+no ex
+23:34:23.747 [DBG] Sent 4 bytes
+no ex
+23:35:02.820 [INF] RunHandleWinLoss: 0
+23:35:02.820 [INF] CalculateResult: 20230112
+23:35:02.820 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+23:39:03.315 [INF] RunScan: 0
+23:39:03.315 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(23:39)","Data":null,"DataObj":null}
+23:40:02.822 [INF] RunHandleWinLoss: 0
+23:40:02.822 [INF] CalculateResult: 20230112
+23:40:02.822 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+23:44:03.316 [INF] RunScan: 0
+23:44:03.316 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(23:44)","Data":null,"DataObj":null}
+23:45:02.825 [INF] RunHandleWinLoss: 0
+23:45:02.825 [INF] CalculateResult: 20230112
+23:45:02.825 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+23:49:03.316 [INF] RunScan: 0
+23:49:03.316 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(23:49)","Data":null,"DataObj":null}
+23:50:02.828 [INF] RunHandleWinLoss: 0
+23:50:02.828 [INF] CalculateResult: 20230112
+23:50:02.828 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+23:54:03.316 [INF] RunScan: 0
+23:54:03.316 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(23:54)","Data":null,"DataObj":null}
+23:55:02.830 [INF] RunHandleWinLoss: 0
+23:55:02.830 [INF] CalculateResult: 20230112
+23:55:02.831 [INF] CalculateResult 2: select * from loto_request where Session=20230112 AND NOT Status='1'
+23:59:03.317 [INF] RunScan: 0
+23:59:03.317 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(23:59)","Data":null,"DataObj":null}

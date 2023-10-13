@@ -1,0 +1,178 @@
+{
+  "global": {
+    "title": "Mini games",
+    "browsehappy": "Báº¡n Ä‘ang sá»­ dá»¥ng má»™t trÃ¬nh duyá»‡t <strong>quÃ¡ cÅ©</strong>. Vui lÃ²ng <a href=\"http://browsehappy.com/?locale=en\">nÃ¢ng cáº¥p trÃ¬nh duyá»‡t</a> cá»§a báº¡n Ä‘á»ƒ cÃ³ tráº£i nghiá»‡m tá»‘t nháº¥t.",
+    "menu": {
+      "home": "Trang chủ",
+      "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
+      "entities": {
+        "main": "List menu",
+        "taixiu": "Over/under",
+        "taixiuHistory": "Lịch Sử TX",
+        "taixiuRecord": "Taixiu Record",
+        "taixiuUser": "Taixiu User",
+        "userinfo": "Userinfo",
+        "chatbox": "Chatbox Over/under",
+        "txRank": "BXH Over/under",
+        "admin-user-management": "Quản lý user quản trị",
+        "rocketRank": "BXH Trên Dưới",
+        "rocket": "Trên Dưới",
+        "rocketHistory": "Lịch Sử Trên Dưới",
+        "rocketChatbox": "Chatbox Trên Dưới",
+        "rocketRate": "Tỉ lệ Trên Dưới",
+        "xocdiaRank": "BXH Xóc Đĩa",
+        "xocdia": "Xóc Đĩa",
+        "xocdiaHistory": "Lịch Sử Xóc Đĩa",
+        "xocdiaChatbox": "Chatbox Xóc Đĩa",
+        "xocdiaRecord": "Xóc Đĩa Record",
+        "xocdiaUser": "Xóc Đĩa User",
+        "xocdiaJackpotRecord": "Xóc Đĩa Jackpot Record",
+        "jackpotSettingRecord": "Jackpot Setting Record",
+        "transferHistory": "Transfer History",
+        "transactionHistory": "Transaction History",
+        "reportGame": "Report Game",
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+      },
+      "account": {
+        "main": "Account",
+        "settings": "Cài đặt",
+        "password": "Mật khẩu",
+        "sessions": "Phiên đăng nhập",
+        "login": "Đăng nhập",
+        "logout": "Đăng xuất",
+        "register": "Đăng ki"
+      },
+      "admin": {
+        "main": "Quản lý",
+        "userManagement": "Quản lý tài khoản minigames",
+        "tracker": "Theo dõi lượt xổ",
+        "metrics": "Số liệu hệ thống",
+        "health": "Tình trạng",
+        "configuration": "Cấu hình",
+        "system-config": "Cấu hình hệ thống",
+        "logs": "Ghi logs",
+        "audits": "Kiểm duyệt",
+        "apidocs": "API",
+        "database": "Cài đặt dữ liệu",
+        "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
+      },
+      "language": "Ngôn ngữ"
+    },
+    "form": {
+      "currentpassword.label": "Old password",
+      "currentpassword.placeholder": "Nhập mật khẩu cũ",
+      "username.label": "Name tài khoản",
+      "username.placeholder": "Nhập tên tài khoản",
+      "newpassword.label": "A new password",
+      "newpassword.placeholder": "Nhập mật khẩu mới",
+      "confirmpassword.label": "Xác nhận mật khẩu mới",
+      "confirmpassword.placeholder": "Nhập lại mật khẩu mới",
+      "email.label": "Email",
+      "email.placeholder": "Nháº­p email cá»§a báº¡n"
+    },
+    "messages": {
+      "info": {
+        "authenticated": {
+          "prefix": "Để đăng nhập  ",
+          "link": "Đăng nhập",
+          "suffix": ", bạn phải đăng nhâp với tài khoản :<br/>- Quản trị viên   <br/>- Customer support   <br/>- Maketing <br/>- Người dùng "
+        },
+        "register": {
+          "noaccount": "Bạn vẫn chưa có tài khoản?",
+          "link": "Đăng ký tài khoản mới"
+        }
+      },
+      "error": {
+        "dontmatch": "Mật khẩu không đúng!"
+      },
+      "validate": {
+        "newpassword": {
+          "required": "Bạn phải nhập mật khẩu.",
+          "minlength": "Mật khẩu phải có ít nhất 4 kí tự.",
+          "maxlength": "Mật khẩu không vượt quá 200 kí tự.",
+          "strength": "Độ an toàn của mật khẩu:"
+        },
+        "confirmpassword": {
+          "required": "Bạn phải nhập lại mật khẩu để xác nhận.",
+          "minlength": "Mật khẩu phải có ít nhất 4 kí tự.",
+          "maxlength": "Mật khẩu không vượt quá 200 kí tự."
+        },
+        "email": {
+          "required": "Báº¡n pháº£i nháº­p email.",
+          "invalid": "Email báº¡n nháº­p khÃ´ng há»£p lá»‡.",
+          "minlength": "Email pháº£i cÃ³ Ã­t nháº¥t 5 kÃ½ tá»±.",
+          "maxlength": "Email khÃ´ng Ä‘Æ°á»£c vÆ°á»£t quÃ¡ 50 kÃ½ tá»±."
+        }
+      }
+    },
+    "field": {
+      "id": "ID",
+      "login-name": "Name đăng nhập",
+      "issue": "Lượt xổ",
+      "type": "Type",
+      "status": "Status",
+      "user-type": "Type người dùng",
+      "start-date": "Ngày bắt đầu",
+      "end-date": "Ngày kết thúc",
+      "start-time": "Time bắt đầu",
+      "end-time": "Time kết thúc"
+    },
+    "ribbon": {
+      "dev": "Phát triển"
+    },
+    "item-count": "Showing {{first}} - {{second}} of {{total}} items."
+  },
+  "entity": {
+    "action": {
+      "addblob": "Thêm nội dung",
+      "addimage": "Thêm ảnh",
+      "back": "Come back",
+      "cancel": "Cancel",
+      "delete": "Erase",
+      "edit": "Sửa",
+      "open": "Mở",
+      "save": "Lưu",
+      "view": "Xem",
+      "search": "Search"
+    },
+    "detail": {
+      "field": "Trường",
+      "value": "Giá trị"
+    },
+    "delete": {
+      "title": "Xác nhận xóa"
+    },
+    "validation": {
+      "required": "Trường này băt buộc phải nhập.",
+      "minlength": "Trường này băt buộc phải có ít nhất {{ min }} kí tự.",
+      "maxlength": "Trường này băt buộc phải ko vượt quá {{ max }}  kí tự.",
+      "min": "Trường này phải lớn hơn {{ min }}.",
+      "max": "Trường này phải nhỏ hơn {{ max }}.",
+      "minbytes": "Dung lÆ°á»£ng trÆ°á»�ng nÃ y pháº£i lá»›n hÆ¡n {{ min }} bytes.",
+      "maxbytes": "Dung lÆ°á»£ng trÆ°á»�ng nÃ y pháº£i nhá»� hÆ¡n {{ max }} bytes.",
+      "pattern": "Trường này phải theo định dạng {{ pattern }}.",
+      "number": "Trường này phải là số‘.",
+      "datetimelocal": "Trường này phải theo định dạng tgian.",
+      "userPwd": "Mật khẩu phải để trống hoặc ít nhất {{ characters }} ký tự."
+    }
+  },
+  "error": {
+    "internalServerError": "Lỗi máy chủ ná»™i bá»™",
+    "server.not.reachable": "Không tìm thấy máy chủ",
+    "url.not.found": "Không tìm thấy",
+    "NotNull": "Trường {{ fieldName }} không thể để khoản trắng!",
+    "Size": "Trường {{ fieldName }} không nằm trong giới hạn cho phép !",
+    "userexists": "Name đăng nhập không tồn tại!",
+    "emailexists": "Email Ä‘Ã£ Ä‘Æ°á»£c sá»­ dá»¥ng!",
+    "idexists": "Add new {{ entityName }} không thành công , đã tồn tại",
+    "idnull": "Invalid ID",
+    "file": {
+      "could.not.extract": "Could not extract file",
+      "not.image": "File was expected to be an image but was found to be \"{{ fileType }}\""
+    }
+  },
+  "footer": "Đây là fooder",
+  "sharedDialog": {
+    "confirm-save-all": "Bạn có chắc muốn lưu All không?"
+  }
+}

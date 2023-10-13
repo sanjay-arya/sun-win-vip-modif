@@ -1,0 +1,65 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="txcbApp.rocketChatbox.home.title">Rocket Chatboxes</span>
+
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-rocket-chatbox" [routerLink]="['/rocket-chatbox/new']">
+            <fa-icon icon="plus"></fa-icon>
+            <span  jhiTranslate="txcbApp.rocketChatbox.home.createLabel">
+            Create a new Rocket Chatbox
+            </span>
+        </button>
+    </h2>
+
+    <jhi-alert-error></jhi-alert-error>
+
+    <jhi-alert></jhi-alert>
+
+    <div class="alert alert-warning" id="no-result" *ngIf="rocketChatboxes?.length === 0">
+        <span jhiTranslate="txcbApp.rocketChatbox.home.notFound">No rocketChatboxes found</span>
+    </div>
+
+    <div class="table-responsive" id="entities" *ngIf="rocketChatboxes && rocketChatboxes.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+                <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="reset.bind(this)">
+                    <th scope="col"  jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="loginname"><span jhiTranslate="txcbApp.rocketChatbox.label.loginname">Loginname</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="message"><span jhiTranslate="txcbApp.rocketChatbox.label.message">Message</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="created"><span jhiTranslate="txcbApp.rocketChatbox.label.created">Created</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody infinite-scroll (scrolled)="loadPage(page + 1)" [infiniteScrollDisabled]="page >= links['last']" [infiniteScrollDistance]="0">
+                <tr *ngFor="let rocketChatbox of rocketChatboxes ;trackBy: trackId">
+                    <td><a [routerLink]="['/chatbox', rocketChatbox.id, 'view']">{{ rocketChatbox.id }}</a></td>
+                    <td>{{ rocketChatbox.loginname }}</td>
+                    <td>{{ rocketChatbox.message }}</td>
+                    <td>{{ rocketChatbox.created }}</td>
+                    <td class="text-right">
+                        <div class="btn-group">
+                            <button type="submit"
+                                    [routerLink]="['/rocket-chatbox', rocketChatbox.id, 'view']"
+                                    class="btn btn-info btn-sm">
+                                <fa-icon icon="eye"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                            </button>
+
+                            <button type="submit"
+                                    [routerLink]="['/rocket-chatbox', rocketChatbox.id, 'edit']"
+                                    class="btn btn-primary btn-sm">
+                                <fa-icon icon="pencil-alt"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                            </button>
+
+                            <button type="submit" (click)="delete(rocketChatbox)"
+                                    class="btn btn-danger btn-sm">
+                                <fa-icon icon="times"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

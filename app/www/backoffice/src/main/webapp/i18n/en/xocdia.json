@@ -1,0 +1,25 @@
+{
+  "txcbApp": {
+    "xocdia": {
+      "home": {
+        "title": "Xocdias",
+        "createLabel": "Create a new Xocdia",
+        "createOrEditLabel": "Create or edit a Xocdia",
+        "notFound": "No Xocdias found"
+      },
+      "created": "A new Xocdia is created with identifier {{ param }}",
+      "updated": "A Xocdia is updated with identifier {{ param }}",
+      "deleted": "A Xocdia is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Xocdia {{ id }}?"
+      },
+      "detail": {
+        "title": "Xocdia"
+      },
+      "opentime": "Opentime",
+      "endtime": "Endtime",
+      "status": "Status",
+      "result": "Result"
+    }
+  }
+}

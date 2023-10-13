@@ -1,0 +1,214 @@
+<div class="system-config">
+    <h2 jhiTranslate="system-config.title"></h2>
+    <hr>
+    <!-- <div class="game-title">Over/under Cân Bảng</div>
+    <div class="game-item">
+        <div class="system-config-item" *ngIf="showStatus">
+            <button *ngIf="isMaintenance" class="btn btn-danger float-right" [ngClass]="{'disabled': btnMaintenanceDisabled}"
+                    jhiTranslate="system-config.maintenance.inactive" (click)="changeMaintenanceStatus(0, false)"></button>
+            <button *ngIf="!isMaintenance" class="btn btn-success float-right" [ngClass]="{'disabled': btnMaintenanceDisabled}"
+                    jhiTranslate="system-config.maintenance.active" (click)="changeMaintenanceStatus(0, true)"></button>
+            <p jhiTranslate="system-config.maintenance.title"></p>
+            <ngb-alert *ngIf="successMaintenanceMessage" type="success"
+                       (close)="successMaintenanceMessage = ''">{{ successMaintenanceMessage }}</ngb-alert>
+            <ngb-alert *ngIf="failedMaintenanceMessage" type="danger"
+                       (close)="failedMaintenanceMessage = ''">{{ failedMaintenanceMessage }}</ngb-alert>
+        </div>
+    
+        <div class="system-config-item" *ngIf="showStatus">
+            <button *ngIf="!chatBotStatus" class="btn btn-danger float-right" [ngClass]="{'disabled': btnChatBotDisabled}"
+                    jhiTranslate="system-config.chat-bot.inactive" (click)="changeChatBotStatus(0)"></button>
+            <button *ngIf="chatBotStatus" class="btn btn-success float-right" [ngClass]="{'disabled': btnChatBotDisabled}"
+                    jhiTranslate="system-config.chat-bot.active" (click)="changeChatBotStatus(0)"></button>
+            <p jhiTranslate="system-config.chat-bot.title"></p>
+            <ngb-alert *ngIf="successChatBotMessage" type="success"
+                       (close)="successChatBotMessage = ''">{{ successChatBotMessage }}</ngb-alert>
+            <ngb-alert *ngIf="failedChatBotMessage" type="danger"
+                       (close)="failedChatBotMessage = ''">{{ failedChatBotMessage }}</ngb-alert>
+        </div>
+    
+        <div class="system-config-item" *ngIf="showStatus">
+            <button *ngIf="!gameBotStatus" class="btn btn-danger float-right" [ngClass]="{'disabled': btnGameBotDisabled}"
+                    jhiTranslate="system-config.game-bot.inactive" (click)="changeGameBotStatus(0)"></button>
+            <button *ngIf="gameBotStatus" class="btn btn-success float-right" [ngClass]="{'disabled': btnGameBotDisabled}"
+                    jhiTranslate="system-config.game-bot.active" (click)="changeGameBotStatus(0)"></button>
+            <p jhiTranslate="system-config.game-bot.title"></p>
+            <ngb-alert *ngIf="successGameBotMessage" type="success"
+                       (close)="successGameBotMessage = ''">{{ successGameBotMessage }}</ngb-alert>
+            <ngb-alert *ngIf="failedGameBotMessage" type="danger"
+                       (close)="failedGameBotMessage = ''">{{ failedGameBotMessage }}</ngb-alert>
+        </div>
+    
+        <div class="system-config-item upload-file">
+            <p jhiTranslate="system-config.upload-chat.title"></p>
+            <div class="btn-group">
+                <div class="btn-upload">
+                    <label jhiTranslate="system-config.upload-chat.choose-file" for="chat-file"></label>
+                    <input type="file" accept=".txt, .csv" id="chat-file" (change)="handleChatFile(0, $event.target)">
+                </div>
+                <button class="btn btn-primary" [ngClass]="{'disabled': btnUploadChatDisabled}" [disabled]="btnUploadChatDisabled"
+                        jhiTranslate="system-config.upload-chat.submit" (click)="submitChatFile(0)"></button>
+            </div>
+            <ngb-alert *ngIf="successUploadChatMessage" type="success"
+                       (close)="successUploadChatMessage = ''">{{ successUploadChatMessage }}</ngb-alert>
+            <ngb-alert *ngIf="failedUploadChatMessage" type="danger"
+                       (close)="failedUploadChatMessage = ''">{{ failedUploadChatMessage }}</ngb-alert>
+        </div>
+    
+        <div class="system-config-item upload-file">
+            <p jhiTranslate="system-config.upload-bot.title"></p>
+            <div class="btn-group">
+                <div class="btn-upload">
+                    <label jhiTranslate="system-config.upload-bot.choose-file" for="bot-file"></label>
+                    <input type="file" accept=".txt, .csv" id="bot-file" (change)="handleBotFile(0, $event.target)">
+                </div>
+                <button class="btn btn-primary" [ngClass]="{'disabled': btnUploadBotDisabled}" [disabled]="btnUploadBotDisabled"
+                        jhiTranslate="system-config.upload-bot.submit" (click)="submitBotFile(0)"></button>
+            </div>
+            <ngb-alert *ngIf="successUploadBotMessage" type="success"
+                       (close)="successUploadBotMessage = ''">{{ successUploadBotMessage }}</ngb-alert>
+            <ngb-alert *ngIf="failedUploadBotMessage" type="danger"
+                       (close)="failedUploadBotMessage = ''">{{ failedUploadBotMessage }}</ngb-alert>
+        </div>
+    </div> -->
+    <div *ngFor="let game of listGame; let idx = index;">
+        <div class="game-title">{{ game.title }}</div>
+        <div class="game-item">
+            <div class="system-config-item" *ngIf="showStatus">
+                <button *ngIf="isMaintenance[idx]" class="btn btn-danger float-right" [ngClass]="{'disabled': btnMaintenanceDisabled[idx]}"
+                        jhiTranslate="system-config.maintenance.inactive" (click)="changeMaintenanceStatus(idx, false)"></button>
+                <button *ngIf="!isMaintenance[idx]" class="btn btn-success float-right" [ngClass]="{'disabled': btnMaintenanceDisabled[idx]}"
+                        jhiTranslate="system-config.maintenance.active" (click)="changeMaintenanceStatus(idx, true)"></button>
+                <p jhiTranslate="system-config.maintenance.title"></p>
+                <ngb-alert *ngIf="successMaintenanceMessage[idx]" type="success"
+                           (close)="successMaintenanceMessage[idx] = ''">{{ successMaintenanceMessage[idx] }}</ngb-alert>
+                <ngb-alert *ngIf="failedMaintenanceMessage[idx]" type="danger"
+                           (close)="failedMaintenanceMessage[idx] = ''">{{ failedMaintenanceMessage[idx] }}</ngb-alert>
+            </div>
+        
+            <div class="system-config-item">
+                <button *ngIf="!chatBotStatus[idx]" class="btn btn-danger float-right" [ngClass]="{'disabled': btnChatBotDisabled[idx]}"
+                        jhiTranslate="system-config.chat-bot.inactive" (click)="changeChatBotStatus(idx)"></button>
+                <button *ngIf="chatBotStatus[idx]" class="btn btn-success float-right" [ngClass]="{'disabled': btnChatBotDisabled[idx]}"
+                        jhiTranslate="system-config.chat-bot.active" (click)="changeChatBotStatus(idx)"></button>
+                <p jhiTranslate="system-config.chat-bot.title"></p>
+                <ngb-alert *ngIf="successChatBotMessage[idx]" type="success"
+                           (close)="successChatBotMessage[idx] = ''">{{ successChatBotMessage[idx] }}</ngb-alert>
+                <ngb-alert *ngIf="failedChatBotMessage[idx]" type="danger"
+                           (close)="failedChatBotMessage[idx] = ''">{{ failedChatBotMessage[idx] }}</ngb-alert>
+            </div>
+        
+            <div class="system-config-item" *ngIf="showStatus && (idx === 0 || idx === 2)">
+                <button *ngIf="!gameBotStatus[idx]" class="btn btn-danger float-right" [ngClass]="{'disabled': btnGameBotDisabled[idx]}"
+                        jhiTranslate="system-config.game-bot.inactive" (click)="changeGameBotStatus(idx)"></button>
+                <button *ngIf="gameBotStatus[idx]" class="btn btn-success float-right" [ngClass]="{'disabled': btnGameBotDisabled[idx]}"
+                        jhiTranslate="system-config.game-bot.active" (click)="changeGameBotStatus(idx)"></button>
+                <p jhiTranslate="system-config.game-bot.title"></p>
+                <ngb-alert *ngIf="successGameBotMessage[idx]" type="success"
+                           (close)="successGameBotMessage[idx] = ''">{{ successGameBotMessage[idx] }}</ngb-alert>
+                <ngb-alert *ngIf="failedGameBotMessage[idx]" type="danger"
+                           (close)="failedGameBotMessage[idx] = ''">{{ failedGameBotMessage[idx] }}</ngb-alert>
+            </div>
+
+            <div class="system-config-item jackpot-setting" *ngIf="idx === 2">
+                <p jhiTranslate="system-config.jackpot-setting.title"></p>
+                <div class="btn-group">
+                    <div class="btn-upload">
+                        <label>(x1000)</label>
+                        <input type="text" [(ngModel)]="jackpotRandomSetting" (ngModelChange)="updateMoneyKeyUp($event)">
+                    </div>
+                    <button class="btn btn-primary" [ngClass]="{'disabled': !jackpotRandomSetting}" [disabled]="!jackpotRandomSetting"
+                            jhiTranslate="system-config.jackpot-setting.submit" (click)="submitJackpotSetting()"></button>
+                </div>
+                <ngb-alert *ngIf="successJackpotSettingMessage" type="success"
+                           (close)="successJackpotSettingMessage = ''">{{ successJackpotSettingMessage }}</ngb-alert>
+                <ngb-alert *ngIf="failedJackpotSettingMessage" type="danger"
+                           (close)="failedJackpotSettingMessage = ''">{{ failedJackpotSettingMessage }}</ngb-alert>
+            </div>
+
+            <div class="system-config-item" *ngIf="idx === 2">
+                <button *ngIf="!jackpotStatusXD" class="btn btn-danger float-right" [ngClass]="{'disabled': btnJackpotStatusXDDisabled}"
+                        jhiTranslate="system-config.jackpot-status.inactive" (click)="changeJackpotStatus(true)"></button>
+                <button *ngIf="jackpotStatusXD" class="btn btn-success float-right" [ngClass]="{'disabled': btnJackpotStatusXDDisabled}"
+                        jhiTranslate="system-config.jackpot-status.active" (click)="changeJackpotStatus(false)"></button>
+                <p jhiTranslate="system-config.jackpot-status.title"></p>
+                <ngb-alert *ngIf="successJackpotStatusXDMessage" type="success"
+                           (close)="successJackpotStatusXDMessage = ''">{{ successJackpotStatusXDMessage }}</ngb-alert>
+                <ngb-alert *ngIf="failedJackpotStatusXDMessage" type="danger"
+                           (close)="failedJackpotStatusXDMessage = ''">{{ failedJackpotStatusXDMessage }}</ngb-alert>
+            </div>
+
+            <div class="system-config-item bonus-setting" *ngIf="idx === 2">
+                <div class="bonus-content">
+                    <p jhiTranslate="system-config.jackpot-bonus.title"></p>
+                    <div class="btn-group">
+                        <div class="bonus-input">
+                            <input type="text" [(ngModel)]="jackpotBonusXD" (ngModelChange)="updateMoneyKeyUpBonus($event)">
+                        </div>
+                        <form class="filter-group" [formGroup]="filterForm" (ngSubmit)="onSubmitBonus(filterForm.value)">
+                            <div class="filter-form">
+                                <div class="filter-item">
+                                    <div class="form-group d-flex align-items-center">
+                                        <div class="input-group mr-2">
+                                            <input class="form-control" placeholder="yyyy-mm-dd" id="start-time" formControlName="startDate"
+                                                   ngbDatepicker #s="ngbDatepicker">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-outline-secondary" (click)="s.toggle()" type="button">
+                                                    <fa-icon [icon]="faCalendar"></fa-icon>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <ngb-timepicker [seconds]="true" formControlName="startTime"></ngb-timepicker>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <span jhiTranslate="system-config.jackpot-bonus.submit"></span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <ngb-alert *ngIf="successJackpotBonusXDMessage" type="success"
+                           (close)="successJackpotBonusXDMessage = ''">{{ successJackpotBonusXDMessage }}</ngb-alert>
+                <ngb-alert *ngIf="failedJackpotBonusXDMessage" type="danger"
+                           (close)="failedJackpotBonusXDMessage = ''">{{ failedJackpotBonusXDMessage }}</ngb-alert>
+            </div>
+        
+            <div class="system-config-item upload-file">
+                <p jhiTranslate="system-config.upload-chat.title"></p>
+                <div class="btn-group">
+                    <div class="btn-upload">
+                        <label jhiTranslate="system-config.upload-chat.choose-file" for="{{ 'chat-file' + idx }}"></label>
+                        <input type="file" accept=".txt, .csv" id="{{ 'chat-file' + idx }}" (change)="handleChatFile(idx, $event.target)">
+                    </div>
+                    <button class="btn btn-primary" [ngClass]="{'disabled': btnUploadChatDisabled[idx]}" [disabled]="btnUploadChatDisabled[idx]"
+                            jhiTranslate="system-config.upload-chat.submit" (click)="submitChatFile(idx)"></button>
+                    <button class="btn btn-primary"
+                            jhiTranslate="system-config.download-chat.download" (click)="downloadFile(idx, 0)"></button>
+                </div>
+                <ngb-alert *ngIf="successUploadChatMessage[idx]" type="success"
+                           (close)="successUploadChatMessage[idx] = ''">{{ successUploadChatMessage[idx] }}</ngb-alert>
+                <ngb-alert *ngIf="failedUploadChatMessage[idx]" type="danger"
+                           (close)="failedUploadChatMessage[idx] = ''">{{ failedUploadChatMessage[idx] }}</ngb-alert>
+            </div>
+        
+            <div class="system-config-item upload-file">
+                <p jhiTranslate="system-config.upload-bot.title"></p>
+                <div class="btn-group">
+                    <div class="btn-upload">
+                        <label jhiTranslate="system-config.upload-bot.choose-file" for="{{ 'bot-file' + idx }}"></label>
+                        <input type="file" accept=".txt, .csv" id="{{ 'bot-file' + idx }}" (change)="handleBotFile(idx, $event.target)">
+                    </div>
+                    <button class="btn btn-primary" [ngClass]="{'disabled': btnUploadBotDisabled[idx]}" [disabled]="btnUploadBotDisabled[idx]"
+                            jhiTranslate="system-config.upload-bot.submit" (click)="submitBotFile(idx)"></button>
+                    <button class="btn btn-primary"
+                            jhiTranslate="system-config.download-bot.download" (click)="downloadFile(idx, 1)"></button>
+                </div>
+                <ngb-alert *ngIf="successUploadBotMessage[idx]" type="success"
+                           (close)="successUploadBotMessage[idx] = ''">{{ successUploadBotMessage[idx] }}</ngb-alert>
+                <ngb-alert *ngIf="failedUploadBotMessage[idx]" type="danger"
+                           (close)="failedUploadBotMessage[idx] = ''">{{ failedUploadBotMessage[idx] }}</ngb-alert>
+            </div>
+        </div>
+    </div>
+</div>

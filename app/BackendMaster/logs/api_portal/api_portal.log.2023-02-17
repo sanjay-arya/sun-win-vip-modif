@@ -1,0 +1,1673 @@
+2023-02-17 02:35:03,862 | INFO  | qtp709133385-44 | api IP:127.0.0.1
+2023-02-17 02:35:03,865 | DEBUG | qtp709133385-44 | api command: 3
+2023-02-17 02:35:03,865 | DEBUG | qtp709133385-44 | api Request login: username: okvip1, social: null, accessToken: 
+2023-02-17 02:35:03,867 | DEBUG | qtp709133385-44 | api Request login: 1
+2023-02-17 02:35:03,867 | DEBUG | qtp709133385-44 | api Request login: 2
+2023-02-17 02:35:03,867 | INFO  | qtp709133385-44 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 02:35:03,875 | INFO  | qtp709133385-44 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 02:35:03,877 | DEBUG | qtp709133385-44 | api Request login: 3
+2023-02-17 02:35:03,877 | DEBUG | qtp709133385-44 | api Request login: 4
+2023-02-17 02:35:03,877 | DEBUG | qtp709133385-44 | api Request login: 5
+2023-02-17 02:35:03,887 | DEBUG | qtp709133385-44 | api User Okvip123 login success in platform: web
+2023-02-17 02:35:03,888 | DEBUG | qtp709133385-44 | api login thanh cong: []
+2023-02-17 02:35:03,888 | DEBUG | qtp709133385-44 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmJjNjU6YTQwOTo0ODcwOjllZWYiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJPa3ZpcDEiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"79322286b6aa2c735d43d2a7990e9e5c"}
+2023-02-17 02:35:03,984 | INFO  | qtp709133385-43 | api IP:127.0.0.1
+2023-02-17 02:35:03,985 | DEBUG | qtp709133385-43 | api command: 17
+2023-02-17 02:35:03,999 | DEBUG | qtp709133385-43 | api User Okvip123 login success in platform: web
+2023-02-17 02:35:04,001 | INFO  | qtp709133385-42 | api IP:127.0.0.1
+2023-02-17 02:35:04,002 | DEBUG | qtp709133385-42 | api command: 2020
+2023-02-17 02:35:04,100 | INFO  | qtp709133385-44 | api IP:127.0.0.1
+2023-02-17 02:35:04,101 | DEBUG | qtp709133385-44 | api command: 2031
+2023-02-17 02:35:04,101 | INFO  | qtp709133385-45 | api IP:127.0.0.1
+2023-02-17 02:35:04,101 | DEBUG | qtp709133385-45 | api command: 20
+2023-02-17 02:35:04,101 | INFO  | qtp709133385-43 | api IP:127.0.0.1
+2023-02-17 02:35:04,101 | DEBUG | qtp709133385-43 | api command: 2008
+2023-02-17 02:35:04,102 | INFO  | qtp709133385-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= Okvip123, bankName: null, bankNumber: null
+2023-02-17 02:35:04,104 | INFO  | qtp709133385-46 | api IP:127.0.0.1
+2023-02-17 02:35:04,105 | DEBUG | qtp709133385-46 | api command: 406
+2023-02-17 02:35:04,105 | INFO  | qtp709133385-44 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 02:35:04,110 | INFO  | qtp709133385-44 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 02:35:13,201 | INFO  | qtp709133385-45 | api IP:127.0.0.1
+2023-02-17 02:35:13,201 | DEBUG | qtp709133385-45 | api command: 406
+2023-02-17 02:35:13,233 | INFO  | qtp709133385-42 | api IP:127.0.0.1
+2023-02-17 02:35:13,233 | DEBUG | qtp709133385-42 | api command: 130
+2023-02-17 02:35:13,348 | INFO  | qtp709133385-46 | api IP:127.0.0.1
+2023-02-17 02:35:13,348 | DEBUG | qtp709133385-46 | api command: 2002
+2023-02-17 02:35:13,348 | INFO  | qtp709133385-46 | api Request GetPaymentConfig: nickName: Okvip123, accessToken: 303a8530109e75713514d1668fdd8e48, paymentType: 1
+2023-02-17 02:36:43,823 | INFO  | qtp709133385-44 | api IP:127.0.0.1
+2023-02-17 02:36:43,824 | DEBUG | qtp709133385-44 | api command: 3
+2023-02-17 02:36:43,824 | DEBUG | qtp709133385-44 | api Request login: username: okvip1, social: null, accessToken: 
+2023-02-17 02:36:43,825 | DEBUG | qtp709133385-44 | api Request login: 1
+2023-02-17 02:36:43,825 | DEBUG | qtp709133385-44 | api Request login: 2
+2023-02-17 02:36:43,828 | DEBUG | qtp709133385-44 | api Request login: 3
+2023-02-17 02:36:43,828 | DEBUG | qtp709133385-44 | api Request login: 4
+2023-02-17 02:36:43,828 | DEBUG | qtp709133385-44 | api Request login: 5
+2023-02-17 02:36:43,844 | DEBUG | qtp709133385-44 | api User Okvip123 login success in platform: web
+2023-02-17 02:36:43,844 | DEBUG | qtp709133385-44 | api login thanh cong: []
+2023-02-17 02:36:43,845 | DEBUG | qtp709133385-44 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmJjNjU6YTQwOTo0ODcwOjllZWYiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJPa3ZpcDEiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"1d220a5bd5dc37dd6200655f177dfc98"}
+2023-02-17 02:36:44,009 | INFO  | qtp709133385-43 | api IP:127.0.0.1
+2023-02-17 02:36:44,009 | DEBUG | qtp709133385-43 | api command: 17
+2023-02-17 02:36:44,024 | DEBUG | qtp709133385-43 | api User Okvip123 login success in platform: web
+2023-02-17 02:36:44,080 | INFO  | qtp709133385-45 | api IP:127.0.0.1
+2023-02-17 02:36:44,080 | DEBUG | qtp709133385-45 | api command: 2020
+2023-02-17 02:36:44,151 | INFO  | qtp709133385-44 | api IP:127.0.0.1
+2023-02-17 02:36:44,151 | DEBUG | qtp709133385-44 | api command: 2031
+2023-02-17 02:36:44,153 | INFO  | qtp709133385-42 | api IP:127.0.0.1
+2023-02-17 02:36:44,153 | DEBUG | qtp709133385-42 | api command: 2008
+2023-02-17 02:36:44,153 | INFO  | qtp709133385-42 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= Okvip123, bankName: null, bankNumber: null
+2023-02-17 02:36:44,161 | INFO  | qtp709133385-45 | api IP:127.0.0.1
+2023-02-17 02:36:44,161 | DEBUG | qtp709133385-45 | api command: 20
+2023-02-17 02:36:44,165 | INFO  | qtp709133385-43 | api IP:127.0.0.1
+2023-02-17 02:36:44,165 | DEBUG | qtp709133385-43 | api command: 406
+2023-02-17 02:42:01,797 | INFO  | qtp709133385-46 | api IP:127.0.0.1
+2023-02-17 02:42:01,797 | DEBUG | qtp709133385-46 | api command: 3
+2023-02-17 02:42:01,797 | DEBUG | qtp709133385-46 | api Request login: username: okvip1, social: null, accessToken: 
+2023-02-17 02:42:01,798 | DEBUG | qtp709133385-46 | api Request login: 1
+2023-02-17 02:42:01,798 | DEBUG | qtp709133385-46 | api Request login: 2
+2023-02-17 02:42:01,801 | DEBUG | qtp709133385-46 | api Request login: 3
+2023-02-17 02:42:01,801 | DEBUG | qtp709133385-46 | api Request login: 4
+2023-02-17 02:42:01,801 | DEBUG | qtp709133385-46 | api Request login: 5
+2023-02-17 02:42:01,812 | DEBUG | qtp709133385-46 | api User Okvip123 login success in platform: web
+2023-02-17 02:42:01,813 | DEBUG | qtp709133385-46 | api login thanh cong: []
+2023-02-17 02:42:01,813 | DEBUG | qtp709133385-46 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmJjNjU6YTQwOTo0ODcwOjllZWYiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJPa3ZpcDEiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"20077099a168fc22698be76a87c5af61"}
+2023-02-17 02:42:01,844 | INFO  | qtp709133385-44 | api IP:127.0.0.1
+2023-02-17 02:42:01,844 | DEBUG | qtp709133385-44 | api command: 2020
+2023-02-17 02:42:01,981 | INFO  | qtp709133385-42 | api IP:127.0.0.1
+2023-02-17 02:42:01,982 | DEBUG | qtp709133385-42 | api command: 17
+2023-02-17 02:42:01,991 | DEBUG | qtp709133385-42 | api User Okvip123 login success in platform: web
+2023-02-17 02:42:02,297 | INFO  | qtp709133385-45 | api IP:127.0.0.1
+2023-02-17 02:42:02,297 | DEBUG | qtp709133385-45 | api command: 406
+2023-02-17 02:42:02,299 | INFO  | qtp709133385-44 | api IP:127.0.0.1
+2023-02-17 02:42:02,299 | DEBUG | qtp709133385-44 | api command: 20
+2023-02-17 02:42:02,300 | INFO  | qtp709133385-43 | api IP:127.0.0.1
+2023-02-17 02:42:02,300 | DEBUG | qtp709133385-43 | api command: 2008
+2023-02-17 02:42:02,300 | INFO  | qtp709133385-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= Okvip123, bankName: null, bankNumber: null
+2023-02-17 02:42:02,301 | INFO  | qtp709133385-42 | api IP:127.0.0.1
+2023-02-17 02:42:02,301 | DEBUG | qtp709133385-42 | api command: 2031
+2023-02-17 02:43:55,430 | INFO  | qtp709133385-45 | api IP:127.0.0.1
+2023-02-17 02:43:55,430 | DEBUG | qtp709133385-45 | api command: 3
+2023-02-17 02:43:55,430 | DEBUG | qtp709133385-45 | api Request login: username: okvip1, social: null, accessToken: 
+2023-02-17 02:43:55,432 | DEBUG | qtp709133385-45 | api Request login: 1
+2023-02-17 02:43:55,432 | DEBUG | qtp709133385-45 | api Request login: 2
+2023-02-17 02:43:55,435 | DEBUG | qtp709133385-45 | api Request login: 3
+2023-02-17 02:43:55,435 | DEBUG | qtp709133385-45 | api Request login: 4
+2023-02-17 02:43:55,435 | DEBUG | qtp709133385-45 | api Request login: 5
+2023-02-17 02:43:55,450 | DEBUG | qtp709133385-45 | api User Okvip123 login success in platform: web
+2023-02-17 02:43:55,451 | DEBUG | qtp709133385-45 | api login thanh cong: []
+2023-02-17 02:43:55,451 | DEBUG | qtp709133385-45 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmJjNjU6YTQwOTo0ODcwOjllZWYiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJPa3ZpcDEiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"b7ffd25483407a1e0898af849ba28094"}
+2023-02-17 02:43:55,631 | INFO  | qtp709133385-46 | api IP:127.0.0.1
+2023-02-17 02:43:55,632 | DEBUG | qtp709133385-46 | api command: 2020
+2023-02-17 02:43:55,704 | INFO  | qtp709133385-44 | api IP:127.0.0.1
+2023-02-17 02:43:55,704 | DEBUG | qtp709133385-44 | api command: 17
+2023-02-17 02:43:55,717 | DEBUG | qtp709133385-44 | api User Okvip123 login success in platform: web
+2023-02-17 02:43:55,811 | INFO  | qtp709133385-42 | api IP:127.0.0.1
+2023-02-17 02:43:55,811 | DEBUG | qtp709133385-42 | api command: 2031
+2023-02-17 02:43:55,812 | INFO  | qtp709133385-46 | api IP:127.0.0.1
+2023-02-17 02:43:55,812 | DEBUG | qtp709133385-46 | api command: 2008
+2023-02-17 02:43:55,813 | INFO  | qtp709133385-46 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= Okvip123, bankName: null, bankNumber: null
+2023-02-17 02:43:55,813 | INFO  | qtp709133385-43 | api IP:127.0.0.1
+2023-02-17 02:43:55,813 | DEBUG | qtp709133385-43 | api command: 406
+2023-02-17 02:43:55,815 | INFO  | qtp709133385-44 | api IP:127.0.0.1
+2023-02-17 02:43:55,815 | DEBUG | qtp709133385-44 | api command: 20
+2023-02-17 02:43:55,815 | INFO  | qtp709133385-44 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 02:43:55,820 | INFO  | qtp709133385-44 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 02:45:42,584 | INFO  | qtp709133385-45 | api IP:127.0.0.1
+2023-02-17 02:45:42,584 | DEBUG | qtp709133385-45 | api command: 3
+2023-02-17 02:45:42,584 | DEBUG | qtp709133385-45 | api Request login: username: okvip1, social: null, accessToken: 
+2023-02-17 02:45:42,585 | DEBUG | qtp709133385-45 | api Request login: 1
+2023-02-17 02:45:42,585 | DEBUG | qtp709133385-45 | api Request login: 2
+2023-02-17 02:45:42,589 | DEBUG | qtp709133385-45 | api Request login: 3
+2023-02-17 02:45:42,589 | DEBUG | qtp709133385-45 | api Request login: 4
+2023-02-17 02:45:42,589 | DEBUG | qtp709133385-45 | api Request login: 5
+2023-02-17 02:45:42,606 | DEBUG | qtp709133385-45 | api User Okvip123 login success in platform: web
+2023-02-17 02:45:42,607 | DEBUG | qtp709133385-45 | api login thanh cong: []
+2023-02-17 02:45:42,607 | DEBUG | qtp709133385-45 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmJjNjU6YTQwOTo0ODcwOjllZWYiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJPa3ZpcDEiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"e7ce78e172afa785abc1b83e36d61cc5"}
+2023-02-17 02:45:42,702 | INFO  | qtp709133385-42 | api IP:127.0.0.1
+2023-02-17 02:45:42,702 | DEBUG | qtp709133385-42 | api command: 2020
+2023-02-17 02:45:42,799 | INFO  | qtp709133385-44 | api IP:127.0.0.1
+2023-02-17 02:45:42,801 | DEBUG | qtp709133385-44 | api command: 17
+2023-02-17 02:45:42,818 | DEBUG | qtp709133385-44 | api User Okvip123 login success in platform: web
+2023-02-17 02:45:42,917 | INFO  | qtp709133385-43 | api IP:127.0.0.1
+2023-02-17 02:45:42,917 | DEBUG | qtp709133385-43 | api command: 2031
+2023-02-17 02:45:42,918 | INFO  | qtp709133385-42 | api IP:127.0.0.1
+2023-02-17 02:45:42,918 | DEBUG | qtp709133385-42 | api command: 20
+2023-02-17 02:45:43,023 | INFO  | qtp709133385-45 | api IP:127.0.0.1
+2023-02-17 02:45:43,023 | DEBUG | qtp709133385-45 | api command: 406
+2023-02-17 02:45:43,023 | INFO  | qtp709133385-44 | api IP:127.0.0.1
+2023-02-17 02:45:43,024 | DEBUG | qtp709133385-44 | api command: 2008
+2023-02-17 02:45:43,024 | INFO  | qtp709133385-44 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= Okvip123, bankName: null, bankNumber: null
+2023-02-17 02:51:50,699 | INFO  | qtp709133385-46 | api IP:127.0.0.1
+2023-02-17 02:51:50,700 | DEBUG | qtp709133385-46 | api command: 3
+2023-02-17 02:51:50,700 | DEBUG | qtp709133385-46 | api Request login: username: okvip1, social: null, accessToken: 
+2023-02-17 02:51:50,701 | DEBUG | qtp709133385-46 | api Request login: 1
+2023-02-17 02:51:50,701 | DEBUG | qtp709133385-46 | api Request login: 2
+2023-02-17 02:51:50,704 | DEBUG | qtp709133385-46 | api Request login: 3
+2023-02-17 02:51:50,704 | DEBUG | qtp709133385-46 | api Request login: 4
+2023-02-17 02:51:50,704 | DEBUG | qtp709133385-46 | api Request login: 5
+2023-02-17 02:51:50,724 | DEBUG | qtp709133385-46 | api User Okvip123 login success in platform: web
+2023-02-17 02:51:50,725 | DEBUG | qtp709133385-46 | api login thanh cong: []
+2023-02-17 02:51:50,726 | DEBUG | qtp709133385-46 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmJjNjU6YTQwOTo0ODcwOjllZWYiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJPa3ZpcDEiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"fe952c0c4aff639b9f1bd71f1a888fe7"}
+2023-02-17 02:51:50,844 | INFO  | qtp709133385-43 | api IP:127.0.0.1
+2023-02-17 02:51:50,844 | DEBUG | qtp709133385-43 | api command: 17
+2023-02-17 02:51:50,854 | DEBUG | qtp709133385-43 | api User Okvip123 login success in platform: web
+2023-02-17 02:51:50,881 | INFO  | qtp709133385-44 | api IP:127.0.0.1
+2023-02-17 02:51:50,881 | DEBUG | qtp709133385-44 | api command: 2020
+2023-02-17 02:51:51,196 | INFO  | qtp709133385-42 | api IP:127.0.0.1
+2023-02-17 02:51:51,196 | DEBUG | qtp709133385-42 | api command: 2031
+2023-02-17 02:51:51,199 | INFO  | qtp709133385-43 | api IP:127.0.0.1
+2023-02-17 02:51:51,199 | DEBUG | qtp709133385-43 | api command: 2008
+2023-02-17 02:51:51,199 | INFO  | qtp709133385-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= Okvip123, bankName: null, bankNumber: null
+2023-02-17 02:51:51,200 | INFO  | qtp709133385-45 | api IP:127.0.0.1
+2023-02-17 02:51:51,200 | DEBUG | qtp709133385-45 | api command: 20
+2023-02-17 02:51:51,213 | INFO  | qtp709133385-44 | api IP:127.0.0.1
+2023-02-17 02:51:51,213 | DEBUG | qtp709133385-44 | api command: 406
+2023-02-17 02:52:38,980 | INFO  | qtp709133385-46 | api IP:127.0.0.1
+2023-02-17 02:52:38,980 | DEBUG | qtp709133385-46 | api command: 3
+2023-02-17 02:52:38,980 | DEBUG | qtp709133385-46 | api Request login: username: okvip1, social: null, accessToken: 
+2023-02-17 02:52:38,981 | DEBUG | qtp709133385-46 | api Request login: 1
+2023-02-17 02:52:38,981 | DEBUG | qtp709133385-46 | api Request login: 2
+2023-02-17 02:52:38,984 | DEBUG | qtp709133385-46 | api Request login: 3
+2023-02-17 02:52:38,984 | DEBUG | qtp709133385-46 | api Request login: 4
+2023-02-17 02:52:38,984 | DEBUG | qtp709133385-46 | api Request login: 5
+2023-02-17 02:52:38,994 | DEBUG | qtp709133385-46 | api User Okvip123 login success in platform: web
+2023-02-17 02:52:38,995 | DEBUG | qtp709133385-46 | api login thanh cong: []
+2023-02-17 02:52:38,995 | DEBUG | qtp709133385-46 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmJjNjU6YTQwOTo0ODcwOjllZWYiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJPa3ZpcDEiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"eb1d76c05f6b8268c5a09bc1a79c35d5"}
+2023-02-17 02:52:39,099 | INFO  | qtp709133385-42 | api IP:127.0.0.1
+2023-02-17 02:52:39,099 | DEBUG | qtp709133385-42 | api command: 17
+2023-02-17 02:52:39,108 | DEBUG | qtp709133385-42 | api User Okvip123 login success in platform: web
+2023-02-17 02:52:39,195 | INFO  | qtp709133385-45 | api IP:127.0.0.1
+2023-02-17 02:52:39,195 | DEBUG | qtp709133385-45 | api command: 2020
+2023-02-17 02:52:39,248 | INFO  | qtp709133385-43 | api IP:127.0.0.1
+2023-02-17 02:52:39,248 | DEBUG | qtp709133385-43 | api command: 2008
+2023-02-17 02:52:39,248 | INFO  | qtp709133385-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= Okvip123, bankName: null, bankNumber: null
+2023-02-17 02:52:39,250 | INFO  | qtp709133385-42 | api IP:127.0.0.1
+2023-02-17 02:52:39,250 | DEBUG | qtp709133385-42 | api command: 406
+2023-02-17 02:52:39,250 | INFO  | qtp709133385-44 | api IP:127.0.0.1
+2023-02-17 02:52:39,250 | DEBUG | qtp709133385-44 | api command: 20
+2023-02-17 02:52:39,268 | INFO  | qtp709133385-44 | api IP:127.0.0.1
+2023-02-17 02:52:39,268 | DEBUG | qtp709133385-44 | api command: 2031
+2023-02-17 02:52:53,203 | INFO  | qtp709133385-43 | api IP:127.0.0.1
+2023-02-17 02:52:53,203 | DEBUG | qtp709133385-43 | api command: 406
+2023-02-17 02:58:43,329 | INFO  | main | api Logging initialized.
+2023-02-17 02:58:43,330 | DEBUG | main | api STARTING PORTAL API SERVER .... !!!!
+2023-02-17 02:58:43,375 | DEBUG | main | api 1 <-> com.vinplay.api.processors.QuickRegisterProcessor
+2023-02-17 02:58:43,376 | DEBUG | main | api 2 <-> com.vinplay.api.processors.LoginTokenProcessor
+2023-02-17 02:58:43,376 | DEBUG | main | api 3 <-> com.vinplay.api.processors.LoginProcessor
+2023-02-17 02:58:43,376 | DEBUG | main | api 4 <-> com.vinplay.api.processors.LoginWithOTPProcessor
+2023-02-17 02:58:43,376 | DEBUG | main | api 5 <-> com.vinplay.api.processors.UpdateNicknameProcesscor
+2023-02-17 02:58:43,376 | DEBUG | main | api 6 <-> com.vinplay.api.processors.GetAppConfigProcesscor
+2023-02-17 02:58:43,376 | DEBUG | main | api 8 <-> com.vinplay.api.processors.LoginAppOtpProcessor
+2023-02-17 02:58:43,376 | DEBUG | main | api 9 <-> com.vinplay.api.processors.GetTimeServerProccessor
+2023-02-17 02:58:43,377 | DEBUG | main | api 10 <-> com.vinplay.api.processors.GetConfigAdminProcessor
+2023-02-17 02:58:43,377 | DEBUG | main | api 13 <-> com.vinplay.api.processors.gamebai.GetListPokerTourProcessor
+2023-02-17 02:58:43,377 | DEBUG | main | api 14 <-> com.vinplay.api.processors.gamebai.GetPokerTourDetailProcessor
+2023-02-17 02:58:43,377 | DEBUG | main | api 15 <-> com.vinplay.api.processors.gamebai.GetPokerTicketProcessor
+2023-02-17 02:58:43,377 | DEBUG | main | api 16 <-> com.vinplay.api.processors.otp.GetOtpProcessor
+2023-02-17 02:58:43,377 | DEBUG | main | api 17 <-> com.vinplay.api.processors.LoginByTokenProcessor
+2023-02-17 02:58:43,377 | DEBUG | main | api 18 <-> com.vinplay.api.processors.CheckAgencyCodeProcessor
+2023-02-17 02:58:43,377 | DEBUG | main | api 19 <-> com.vinplay.api.processors.giftCode.GiftCodeProcessor
+2023-02-17 02:58:43,377 | DEBUG | main | api 20 <-> com.vinplay.api.processors.events.GetEventProcessor
+2023-02-17 02:58:43,378 | DEBUG | main | api 21 <-> com.vinplay.api.processors.events.BuyEventMoonProcessor
+2023-02-17 02:58:43,378 | DEBUG | main | api 100 <-> com.vinplay.api.processors.minigame.LichSuGiaoDichTXProcessor
+2023-02-17 02:58:43,378 | DEBUG | main | api 101 <-> com.vinplay.api.processors.minigame.TopWinTXProcessor
+2023-02-17 02:58:43,378 | DEBUG | main | api 102 <-> com.vinplay.api.processors.minigame.ChiTietPhienTXProcessor
+2023-02-17 02:58:43,378 | DEBUG | main | api 103 <-> com.vinplay.api.processors.minigame.TopThanhDuProcessor
+2023-02-17 02:58:43,378 | DEBUG | main | api 105 <-> com.vinplay.api.processors.minigame.LSGDMiniPokerProcessor
+2023-02-17 02:58:43,378 | DEBUG | main | api 106 <-> com.vinplay.api.processors.minigame.VinhDanhMiniPokerProcessor
+2023-02-17 02:58:43,378 | DEBUG | main | api 107 <-> com.vinplay.api.processors.minigame.LSGDCaoThapProcessor
+2023-02-17 02:58:43,379 | DEBUG | main | api 108 <-> com.vinplay.api.processors.minigame.VinhDanhCaoThapProcessor
+2023-02-17 02:58:43,379 | DEBUG | main | api 109 <-> com.vinplay.api.processors.minigame.TopCaoThapProcessor
+2023-02-17 02:58:43,379 | DEBUG | main | api 110 <-> com.vinplay.api.processors.gamebai.GetLogNoHuGameBaiProcessor
+2023-02-17 02:58:43,379 | DEBUG | main | api 111 <-> com.vinplay.api.processors.gamebai.GetConfigHuGameBaiProcessor
+2023-02-17 02:58:43,379 | DEBUG | main | api 120 <-> com.vinplay.api.processors.minigame.TopBauCuaProcessor
+2023-02-17 02:58:43,379 | DEBUG | main | api 121 <-> com.vinplay.api.processors.minigame.LSGDBauCuaProcessor
+2023-02-17 02:58:43,380 | DEBUG | main | api 122 <-> com.vinplay.api.processors.minigame.TopToiChonCaProcessor
+2023-02-17 02:58:43,381 | DEBUG | main | api 123 <-> com.vinplay.api.processors.gamebai.TopCaoThuProcessor
+2023-02-17 02:58:43,381 | DEBUG | main | api 124 <-> com.vinplay.api.processors.security.CaptchaProcessor
+2023-02-17 02:58:43,381 | DEBUG | main | api 125 <-> com.vinplay.api.processors.security.UpdateAvatarProcessor
+2023-02-17 02:58:43,381 | DEBUG | main | api 126 <-> com.vinplay.api.processors.vippoint.GetVippointProcessor
+2023-02-17 02:58:43,381 | DEBUG | main | api 127 <-> com.vinplay.api.processors.security.ForgetPasswordProcessor
+2023-02-17 02:58:43,381 | DEBUG | main | api 128 <-> com.vinplay.api.processors.security.ForgetPasswordOtpProcessor
+2023-02-17 02:58:43,381 | DEBUG | main | api 129 <-> com.vinplay.api.processors.GetGameCommonProcessor
+2023-02-17 02:58:43,382 | DEBUG | main | api 130 <-> com.vinplay.api.processors.GetBillingProcessor
+2023-02-17 02:58:43,382 | DEBUG | main | api 133 <-> com.vinplay.api.processors.security.ForgetPasswordEmailProcessor
+2023-02-17 02:58:43,382 | DEBUG | main | api 134 <-> com.vinplay.api.processors.minigame.LSGDPokeGoProcessor
+2023-02-17 02:58:43,382 | DEBUG | main | api 135 <-> com.vinplay.api.processors.minigame.TopPokeGoProcessor
+2023-02-17 02:58:43,382 | DEBUG | main | api 136 <-> com.vinplay.api.processors.slot.TopKhoBauProcessor
+2023-02-17 02:58:43,382 | DEBUG | main | api 137 <-> com.vinplay.api.processors.slot.LSGDSlotProcessor
+2023-02-17 02:58:43,382 | DEBUG | main | api 138 <-> com.vinplay.api.processors.slot.LSNoHuProcessor
+2023-02-17 02:58:43,382 | DEBUG | main | api 139 <-> com.vinplay.api.processors.gamebai.LSTLMNProcessor
+2023-02-17 02:58:43,383 | DEBUG | main | api 140 <-> com.vinplay.api.processors.minigame.LSXDProcessor
+2023-02-17 02:58:43,383 | DEBUG | main | api 141 <-> com.vinplay.api.processors.minigame.LSGDGalaxyProcessor
+2023-02-17 02:58:43,383 | DEBUG | main | api 142 <-> com.vinplay.api.processors.minigame.TopGalaxyProcessor
+2023-02-17 02:58:43,383 | DEBUG | main | api 201 <-> com.vinplay.api.processors.minigame.LuckyHistoryProcesscor
+2023-02-17 02:58:43,383 | DEBUG | main | api 301 <-> com.vinplay.api.processors.HistoryTransactionLogProcessor
+2023-02-17 02:58:43,383 | DEBUG | main | api 302 <-> com.vinplay.api.processors.GetLogMoneyUserProcessor
+2023-02-17 02:58:43,383 | DEBUG | main | api 401 <-> com.vinplay.api.processors.GetListAgentProcessor
+2023-02-17 02:58:43,383 | DEBUG | main | api 402 <-> com.vinplay.api.processors.ListMailBoxProcessor
+2023-02-17 02:58:43,383 | DEBUG | main | api 403 <-> com.vinplay.api.processors.DeleteMailBoxProcessor
+2023-02-17 02:58:43,384 | DEBUG | main | api 404 <-> com.vinplay.api.processors.UpdateStatusMailProcessor
+2023-02-17 02:58:43,384 | DEBUG | main | api 405 <-> com.vinplay.api.processors.ListMailBoxNewProcessor
+2023-02-17 02:58:43,384 | DEBUG | main | api 406 <-> com.vinplay.api.processors.CountMailStatusProcessor
+2023-02-17 02:58:43,384 | DEBUG | main | api 501 <-> com.vinplay.api.processors.vippoint.GetEventVPMapProcessor
+2023-02-17 02:58:43,384 | DEBUG | main | api 502 <-> com.vinplay.api.processors.vippoint.GetEventVPTopIntelProcessor
+2023-02-17 02:58:43,384 | DEBUG | main | api 503 <-> com.vinplay.api.processors.vippoint.GetEventVPTopStrongProcessor
+2023-02-17 02:58:43,384 | DEBUG | main | api 601 <-> com.vinplay.api.processors.gamebai.TopGameTourProcessor
+2023-02-17 02:58:43,384 | DEBUG | main | api 602 <-> com.vinplay.api.processors.gamebai.LogGameTourProcessor
+2023-02-17 02:58:43,384 | DEBUG | main | api 2000 <-> com.vinplay.api.processors.Set2AFProcessor
+2023-02-17 02:58:43,384 | DEBUG | main | api 2002 <-> com.vinplay.api.processors.GetPaymentConfigProcessor
+2023-02-17 02:58:43,385 | DEBUG | main | api 2003 <-> com.vinplay.api.processors.payment.DepositRequestUIProcessor
+2023-02-17 02:58:43,385 | DEBUG | main | api 2004 <-> com.vinplay.api.processors.payment.CreateDepositProcessor
+2023-02-17 02:58:43,385 | DEBUG | main | api 2006 <-> com.vinplay.api.processors.DepositHistoryProcessor
+2023-02-17 02:58:43,385 | DEBUG | main | api 2007 <-> com.vinplay.api.processors.payment.InsertOrUpdateBankProcessor
+2023-02-17 02:58:43,385 | DEBUG | main | api 2008 <-> com.vinplay.api.processors.payment.BankSearchProcessor
+2023-02-17 02:58:43,385 | DEBUG | main | api 2009 <-> com.vinplay.api.processors.payment.PaymentStatusProcessor
+2023-02-17 02:58:43,385 | DEBUG | main | api 2010 <-> com.vinplay.api.processors.payment.WithdrawRequestUIProcessor
+2023-02-17 02:58:43,386 | DEBUG | main | api 20101 <-> com.vinplay.api.processors.payment.CreateWithdrawProcessor
+2023-02-17 02:58:43,386 | DEBUG | main | api 2011 <-> com.vinplay.api.processors.payment.GetListBankProcessor
+2023-02-17 02:58:43,386 | DEBUG | main | api 2013 <-> com.vinplay.api.processors.VerifyPhoneNumberProcessor
+2023-02-17 02:58:43,386 | DEBUG | main | api 2014 <-> com.vinplay.api.processors.payment.GetBanksOneClickPayProcessor
+2023-02-17 02:58:43,386 | DEBUG | main | api 2015 <-> com.vinplay.api.processors.ReceiveBonusProcessor
+2023-02-17 02:58:43,386 | DEBUG | main | api 2016 <-> com.vinplay.api.processors.DepositHistory4UserplayProcessor
+2023-02-17 02:58:43,386 | DEBUG | main | api 2020 <-> com.vinplay.api.processors.banner.ShowListBannerProcessor
+2023-02-17 02:58:43,386 | DEBUG | main | api 2021 <-> com.vinplay.api.processors.shotfish.Login
+2023-02-17 02:58:43,386 | DEBUG | main | api 2022 <-> com.vinplay.api.processors.shotfish.Deposit
+2023-02-17 02:58:43,386 | DEBUG | main | api 2023 <-> com.vinplay.api.processors.shotfish.Withdraw
+2023-02-17 02:58:43,387 | DEBUG | main | api 2024 <-> com.vinplay.api.processors.shotfish.CheckOrderStatus
+2023-02-17 02:58:43,387 | DEBUG | main | api 2025 <-> com.vinplay.api.processors.shotfish.CheckUserBalance
+2023-02-17 02:58:43,387 | DEBUG | main | api 2026 <-> com.vinplay.api.processors.shotfish.CheckUserInGame
+2023-02-17 02:58:43,387 | DEBUG | main | api 2027 <-> com.vinplay.api.processors.shotfish.History
+2023-02-17 02:58:43,387 | DEBUG | main | api 2028 <-> com.vinplay.api.processors.UpdatePhoneNumberProcessor
+2023-02-17 02:58:43,387 | DEBUG | main | api 2029 <-> com.vinplay.api.processors.hoantra.CalculateDataHoanTraProcessor
+2023-02-17 02:58:43,387 | DEBUG | main | api 2030 <-> com.vinplay.api.processors.hoantra.SendDataHoanTraProcessor
+2023-02-17 02:58:43,387 | DEBUG | main | api 2031 <-> com.vinplay.api.processors.attendance.AttendanceProcessor
+2023-02-17 02:58:43,387 | DEBUG | main | api 2032 <-> com.vinplay.api.processors.attendance.HistoryProcessor
+2023-02-17 02:58:43,387 | DEBUG | main | api 2033 <-> com.vinplay.api.processors.payment.DepositBySCRequestUIProcessor
+2023-02-17 02:58:43,388 | DEBUG | main | api 20331 <-> com.vinplay.api.processors.SearchAgentBankProcessor
+2023-02-17 02:58:43,388 | DEBUG | main | api 2034 <-> com.vinplay.api.processors.SearchAgentProcessor
+2023-02-17 02:58:43,388 | DEBUG | main | api 2036 <-> com.vinplay.api.processors.events.LuckyMoneyEventProcessor
+2023-02-17 02:58:43,388 | DEBUG | main | api 2037 <-> com.vinplay.api.processors.ConfigGameStatusProcessor
+2023-02-17 02:58:43,388 | DEBUG | main | api 2037 <-> com.vinplay.api.processors.wages.ReceivedMoneyProcessor
+2023-02-17 02:58:43,388 | DEBUG | main | api 2038 <-> com.vinplay.api.processors.wages.HistoryUserWagesProcessor
+2023-02-17 02:58:43,388 | DEBUG | main | api 2039 <-> com.vinplay.api.processors.wages.SearchMemberProcessor
+2023-02-17 02:58:43,388 | DEBUG | main | api 2040 <-> com.vinplay.api.processors.wages.UpdateNicknameInviteProcessor
+2023-02-17 02:58:43,394 | INFO  | main | api BaseController:com.vinplay.api.processors.LoginWithOTPProcessor
+2023-02-17 02:58:43,422 | INFO  | main | api BaseController:com.vinplay.api.processors.payment.CreateWithdrawProcessor
+2023-02-17 02:58:43,989 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-02-17 02:58:44,121 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-02-17 02:58:44,128 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-02-17 02:58:44,181 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_gamebai (minpool=0,maxpool=10,maxsize=10,idleTimeout=900)
+2023-02-17 02:58:44,188 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_minigame (minpool=5,maxpool=20,maxsize=30,idleTimeout=900)
+2023-02-17 02:58:44,193 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 02:58:44,195 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_admin (minpool=0,maxpool=10,maxsize=10,idleTimeout=900)
+2023-02-17 02:58:44,197 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpoolname (minpool=5,maxpool=30,maxsize=40,idleTimeout=900)
+2023-02-17 02:58:44,198 | INFO  | main | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 02:58:44,271 | INFO  | cluster-ClusterId{value='63ee8af3d88b955fb976a404', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:1, serverValue:156}] to 127.0.0.1:27017
+2023-02-17 02:58:44,284 | INFO  | cluster-ClusterId{value='63ee8af3d88b955fb976a404', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 28]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=1725986}
+2023-02-17 02:58:44,301 | INFO  | cluster-ClusterId{value='63ee8af4d88b955fb976a405', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:2, serverValue:157}] to 127.0.0.1:27017
+2023-02-17 02:58:44,306 | INFO  | cluster-ClusterId{value='63ee8af4d88b955fb976a405', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 28]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=3765069}
+2023-02-17 02:58:44,306 | INFO  | cluster-ClusterId{value='63ee8af4d88b955fb976a406', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:3, serverValue:158}] to 127.0.0.1:27017
+2023-02-17 02:58:44,307 | INFO  | cluster-ClusterId{value='63ee8af4d88b955fb976a406', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 28]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=410911}
+2023-02-17 02:58:44,478 | INFO  | main | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 02:58:44,478 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-02-17 02:58:44,479 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 02:58:44,479 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 02:58:44,484 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-02-17 02:58:44,484 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 02:58:44,487 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 02:58:44,487 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 02:58:44,492 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 02:58:44,492 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 02:58:44,496 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-02-17 02:58:44,496 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 02:58:44,497 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 02:58:44,497 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 02:58:44,500 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-02-17 02:58:44,501 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 02:58:44,501 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 02:58:44,501 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 02:58:44,505 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-02-17 02:58:44,506 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 02:58:44,827 | INFO  | main | usercore.utils.GameThirdPartyInit Init Data successfull
+2023-02-17 02:58:44,862 | INFO  | main | jetty.util.log Logging initialized @1771ms
+2023-02-17 02:58:44,903 | INFO  | main | jetty.server.Server jetty-9.2.10.v20150310
+2023-02-17 02:58:44,945 | INFO  | main | jetty.server.ServerConnector Started ServerConnector@7103cb56{HTTP/1.1}{0.0.0.0:8081}
+2023-02-17 02:58:44,945 | INFO  | main | jetty.server.Server Started @1855ms
+2023-02-17 02:58:44,945 | INFO  | main | api PORTAL API SERVER Started ...!!!
+2023-02-17 02:59:00,122 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 02:59:00,122 | DEBUG | qtp1998949977-42 | api command: 124
+2023-02-17 02:59:03,035 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 02:59:03,035 | DEBUG | qtp1998949977-43 | api command: 3
+2023-02-17 02:59:03,035 | DEBUG | qtp1998949977-43 | api Request login: username: okvip1, social: null, accessToken: 
+2023-02-17 02:59:03,039 | DEBUG | qtp1998949977-43 | api Request login: 1
+2023-02-17 02:59:03,055 | DEBUG | qtp1998949977-43 | api Request login: 2
+2023-02-17 02:59:03,060 | DEBUG | qtp1998949977-43 | api Request login: 3
+2023-02-17 02:59:03,060 | DEBUG | qtp1998949977-43 | api Request login: 4
+2023-02-17 02:59:03,060 | DEBUG | qtp1998949977-43 | api Request login: 5
+2023-02-17 02:59:03,283 | DEBUG | qtp1998949977-43 | api User Okvip123 login success in platform: web
+2023-02-17 02:59:03,321 | DEBUG | qtp1998949977-43 | api login thanh cong: []
+2023-02-17 02:59:03,324 | DEBUG | qtp1998949977-43 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmJjNjU6YTQwOTo0ODcwOjllZWYiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJPa3ZpcDEiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"3cb342aeb3bf0944a0a80e60607dec62"}
+2023-02-17 02:59:03,420 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 02:59:03,421 | DEBUG | qtp1998949977-44 | api command: 17
+2023-02-17 02:59:03,470 | DEBUG | qtp1998949977-44 | api User Okvip123 login success in platform: web
+2023-02-17 02:59:03,575 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 02:59:03,576 | DEBUG | qtp1998949977-46 | api command: 2031
+2023-02-17 02:59:03,578 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 02:59:03,578 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 02:59:03,578 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 02:59:03,578 | DEBUG | qtp1998949977-45 | api command: 2008
+2023-02-17 02:59:03,580 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 02:59:03,580 | DEBUG | qtp1998949977-43 | api command: 20
+2023-02-17 02:59:03,613 | INFO  | qtp1998949977-45 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= Okvip123, bankName: null, bankNumber: null
+2023-02-17 02:59:03,747 | INFO  | qtp1998949977-42 | mongodb.driver.connection Opened connection [connectionId{localValue:4, serverValue:176}] to 127.0.0.1:27017
+2023-02-17 03:01:13,048 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 03:01:13,049 | DEBUG | qtp1998949977-44 | api command: 2020
+2023-02-17 03:01:46,840 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 03:01:46,840 | DEBUG | qtp1998949977-46 | api command: 2020
+2023-02-17 03:01:58,168 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 03:01:58,168 | DEBUG | qtp1998949977-42 | api command: 2020
+2023-02-17 03:02:03,973 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 03:02:03,974 | DEBUG | qtp1998949977-43 | api command: 124
+2023-02-17 03:13:44,511 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 03:13:44,511 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-02-17 03:13:44,512 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 03:13:44,512 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-02-17 03:13:44,512 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 03:13:44,512 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 03:13:44,512 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-02-17 03:13:44,512 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 03:13:44,512 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-02-17 03:13:49,513 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-02-17 03:16:59,519 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 10:25:25,489 | WARN  | qtp1998949977-46 | jetty.http.HttpParser Illegal character 0x16 in state=START for buffer HeapByteBuffer@4bef359e[p=1,l=128,c=16384,r=127]={\x16<<<\x03\x01\x00{\x01\x00\x00w\x03\x03\xC2\x1b5\x10\xF7q\xC6...\x02\x01\x02\x03\x04\x01\x05\x01\x06\x01\xFf\x01\x00\x01\x00>>>ccept: */*\r\nAccep...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2023-02-17 10:25:25,491 | WARN  | qtp1998949977-46 | jetty.http.HttpParser badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@7da2570b{r=0,c=false,a=IDLE,uri=-}
+2023-02-17 10:36:28,351 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 10:36:28,351 | DEBUG | qtp1998949977-45 | api command: 2020
+2023-02-17 10:36:28,352 | INFO  | qtp1998949977-45 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 10:36:28,361 | INFO  | qtp1998949977-45 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 10:36:46,600 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 10:36:46,601 | DEBUG | qtp1998949977-44 | api command: 3
+2023-02-17 10:36:46,601 | DEBUG | qtp1998949977-44 | api Request login: username: OKVIP1, social: null, accessToken: 
+2023-02-17 10:36:46,602 | DEBUG | qtp1998949977-44 | api Request login: 1
+2023-02-17 10:36:46,602 | DEBUG | qtp1998949977-44 | api Request login: 2
+2023-02-17 10:36:46,610 | DEBUG | qtp1998949977-44 | api Request login: 3
+2023-02-17 10:36:46,610 | DEBUG | qtp1998949977-44 | api Request login: 4
+2023-02-17 10:36:46,610 | DEBUG | qtp1998949977-44 | api Request login: 5
+2023-02-17 10:36:46,626 | DEBUG | qtp1998949977-44 | api User Okvip123 login success in platform: web
+2023-02-17 10:36:46,628 | DEBUG | qtp1998949977-44 | api login thanh cong: []
+2023-02-17 10:36:46,629 | DEBUG | qtp1998949977-44 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmVkNTU6ODQ4YTo0ZTEyOmEyNDIiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJPa3ZpcDEiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"13a7a88ee8e331eda6c99c050e380bab"}
+2023-02-17 10:36:46,726 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 10:36:46,726 | DEBUG | qtp1998949977-43 | api command: 17
+2023-02-17 10:36:46,754 | DEBUG | qtp1998949977-43 | api User Okvip123 login success in platform: web
+2023-02-17 10:36:46,852 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 10:36:46,852 | DEBUG | qtp1998949977-42 | api command: 2031
+2023-02-17 10:36:46,858 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 10:36:46,858 | DEBUG | qtp1998949977-44 | api command: 406
+2023-02-17 10:36:46,862 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 10:36:46,862 | DEBUG | qtp1998949977-46 | api command: 20
+2023-02-17 10:36:46,863 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 10:36:46,863 | DEBUG | qtp1998949977-45 | api command: 2008
+2023-02-17 10:36:46,863 | INFO  | qtp1998949977-45 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= Okvip123, bankName: null, bankNumber: null
+2023-02-17 10:36:46,887 | INFO  | qtp1998949977-44 | mongodb.driver.connection Opened connection [connectionId{localValue:5, serverValue:223}] to 127.0.0.1:27017
+2023-02-17 10:42:25,491 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 10:42:25,492 | DEBUG | qtp1998949977-42 | api command: 3
+2023-02-17 10:42:25,492 | DEBUG | qtp1998949977-42 | api Request login: username: OKVIP1, social: null, accessToken: 
+2023-02-17 10:42:25,493 | DEBUG | qtp1998949977-42 | api Request login: 1
+2023-02-17 10:42:25,493 | DEBUG | qtp1998949977-42 | api Request login: 2
+2023-02-17 10:42:25,497 | DEBUG | qtp1998949977-42 | api Request login: 3
+2023-02-17 10:42:25,497 | DEBUG | qtp1998949977-42 | api Request login: 4
+2023-02-17 10:42:25,497 | DEBUG | qtp1998949977-42 | api Request login: 5
+2023-02-17 10:42:25,516 | DEBUG | qtp1998949977-42 | api User Okvip123 login success in platform: web
+2023-02-17 10:42:25,517 | DEBUG | qtp1998949977-42 | api login thanh cong: []
+2023-02-17 10:42:25,519 | DEBUG | qtp1998949977-42 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmVkNTU6ODQ4YTo0ZTEyOmEyNDIiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJPa3ZpcDEiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"20fb6d94d9c3830f519fc354dde28514"}
+2023-02-17 10:42:25,642 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 10:42:25,643 | DEBUG | qtp1998949977-44 | api command: 17
+2023-02-17 10:42:25,668 | DEBUG | qtp1998949977-44 | api User Okvip123 login success in platform: web
+2023-02-17 10:42:25,757 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 10:42:25,758 | DEBUG | qtp1998949977-43 | api command: 2020
+2023-02-17 10:42:25,805 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 10:42:25,806 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 10:42:25,808 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 10:42:25,809 | DEBUG | qtp1998949977-44 | api command: 2031
+2023-02-17 10:42:25,809 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 10:42:25,809 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 10:42:25,809 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= Okvip123, bankName: null, bankNumber: null
+2023-02-17 10:42:25,810 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 10:42:25,810 | DEBUG | qtp1998949977-46 | api command: 20
+2023-02-17 10:42:25,811 | INFO  | qtp1998949977-43 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 10:42:25,816 | INFO  | qtp1998949977-43 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 10:42:25,817 | INFO  | qtp1998949977-44 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 10:42:25,821 | INFO  | qtp1998949977-44 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 10:45:32,565 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 10:45:32,566 | DEBUG | qtp1998949977-45 | api command: 3
+2023-02-17 10:45:32,566 | DEBUG | qtp1998949977-45 | api Request login: username: OKVIP1, social: null, accessToken: 
+2023-02-17 10:45:32,568 | DEBUG | qtp1998949977-45 | api Request login: 1
+2023-02-17 10:45:32,568 | DEBUG | qtp1998949977-45 | api Request login: 2
+2023-02-17 10:45:32,574 | DEBUG | qtp1998949977-45 | api Request login: 3
+2023-02-17 10:45:32,574 | DEBUG | qtp1998949977-45 | api Request login: 4
+2023-02-17 10:45:32,574 | DEBUG | qtp1998949977-45 | api Request login: 5
+2023-02-17 10:45:32,593 | DEBUG | qtp1998949977-45 | api User Okvip123 login success in platform: web
+2023-02-17 10:45:32,594 | DEBUG | qtp1998949977-45 | api login thanh cong: []
+2023-02-17 10:45:32,597 | DEBUG | qtp1998949977-45 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmVkNTU6ODQ4YTo0ZTEyOmEyNDIiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJPa3ZpcDEiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"f78f4cd913862429eede67f91a9e14e7"}
+2023-02-17 10:57:28,403 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 10:57:28,404 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 11:00:33,412 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 14:05:41,821 | WARN  | qtp1998949977-43 | jetty.http.HttpParser badMessage: 400 No URI for HttpChannelOverHttp@7abe31a9{r=0,c=false,a=IDLE,uri=-}
+2023-02-17 14:07:54,770 | WARN  | qtp1998949977-42 | jetty.http.HttpParser Illegal character 0x16 in state=START for buffer HeapByteBuffer@6e66b713[p=1,l=239,c=16384,r=238]={\x16<<<\x03\x01\x00\xEa\x01\x00\x00\xE6\x03\x03\xB0\xF1\xA9r\x0btU...\xD1\x0f\xBc\x07\x808\x91[\xC4\x98\x00\x8dz]\r>>>ept-Encoding: gzi...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2023-02-17 14:07:54,772 | WARN  | qtp1998949977-42 | jetty.http.HttpParser badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@418ba3e0{r=0,c=false,a=IDLE,uri=-}
+2023-02-17 14:07:54,776 | WARN  | qtp1998949977-44 | jetty.http.HttpParser Illegal character 0x16 in state=START for buffer HeapByteBuffer@6e66b713[p=1,l=239,c=16384,r=238]={\x16<<<\x03\x01\x00\xEa\x01\x00\x00\xE6\x03\x03\xA0_\xDel\xD4\xE5A...\xF4\x06\xE9`3\x92\xD4\x8d)\xC5\x83g$\xC2m>>>ept-Encoding: gzi...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2023-02-17 14:07:54,776 | WARN  | qtp1998949977-44 | jetty.http.HttpParser badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@225c92cc{r=0,c=false,a=IDLE,uri=-}
+2023-02-17 17:08:15,933 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 17:08:15,934 | DEBUG | qtp1998949977-45 | api command: 2020
+2023-02-17 17:08:15,935 | INFO  | qtp1998949977-45 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 17:08:15,942 | INFO  | qtp1998949977-45 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 17:08:17,587 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 17:08:17,587 | DEBUG | qtp1998949977-44 | api command: 124
+2023-02-17 17:23:15,976 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 18:17:37,860 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:17:37,861 | DEBUG | qtp1998949977-46 | api command: 3
+2023-02-17 18:17:37,861 | DEBUG | qtp1998949977-46 | api Request login: username: OKVIP1, social: null, accessToken: 
+2023-02-17 18:17:37,863 | DEBUG | qtp1998949977-46 | api Request login: 1
+2023-02-17 18:17:37,863 | DEBUG | qtp1998949977-46 | api Request login: 2
+2023-02-17 18:17:37,863 | INFO  | qtp1998949977-46 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 18:17:37,871 | INFO  | qtp1998949977-46 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 18:17:37,875 | DEBUG | qtp1998949977-46 | api Request login: 3
+2023-02-17 18:17:37,875 | DEBUG | qtp1998949977-46 | api Request login: 4
+2023-02-17 18:17:37,875 | DEBUG | qtp1998949977-46 | api Request login: 5
+2023-02-17 18:17:37,889 | DEBUG | qtp1998949977-46 | api User Okvip123 login success in platform: web
+2023-02-17 18:17:37,889 | DEBUG | qtp1998949977-46 | api login thanh cong: []
+2023-02-17 18:17:37,891 | DEBUG | qtp1998949977-46 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmY1OWM6MTk5NDozZjM6ZjRhNCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6Ik9rdmlwMSIsImVtYWlsIjowLCJhZGRyZXNzIjpudWxsLCJ2ZXJpZnlNb2JpbGUiOmZhbHNlfQ==","accessToken":"14474e18ab4b19cc7f797c083658b29c"}
+2023-02-17 18:17:38,003 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:17:38,003 | DEBUG | qtp1998949977-44 | api command: 2020
+2023-02-17 18:17:38,160 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:17:38,161 | DEBUG | qtp1998949977-45 | api command: 17
+2023-02-17 18:17:38,182 | DEBUG | qtp1998949977-45 | api User Okvip123 login success in platform: web
+2023-02-17 18:17:38,363 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:17:38,363 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 18:17:38,363 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= Okvip123, bankName: null, bankNumber: null
+2023-02-17 18:17:38,370 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:17:38,370 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:17:38,370 | DEBUG | qtp1998949977-44 | api command: 2031
+2023-02-17 18:17:38,370 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 18:17:38,381 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:17:38,381 | DEBUG | qtp1998949977-46 | api command: 20
+2023-02-17 18:17:38,381 | INFO  | qtp1998949977-46 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 18:17:38,395 | INFO  | qtp1998949977-46 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 18:17:38,395 | INFO  | qtp1998949977-43 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 18:17:38,404 | INFO  | qtp1998949977-43 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 18:29:14,727 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:29:14,727 | DEBUG | qtp1998949977-45 | api command: 2020
+2023-02-17 18:32:42,906 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 18:32:42,907 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 18:33:10,908 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:33:10,908 | DEBUG | qtp1998949977-45 | api command: 3
+2023-02-17 18:33:10,908 | DEBUG | qtp1998949977-45 | api Request login: username: OKVIP1, social: null, accessToken: 
+2023-02-17 18:33:10,910 | DEBUG | qtp1998949977-45 | api Request login: 1
+2023-02-17 18:33:10,910 | DEBUG | qtp1998949977-45 | api Request login: 2
+2023-02-17 18:33:10,914 | DEBUG | qtp1998949977-45 | api Request login: 3
+2023-02-17 18:33:10,914 | DEBUG | qtp1998949977-45 | api Request login: 4
+2023-02-17 18:33:10,914 | DEBUG | qtp1998949977-45 | api Request login: 5
+2023-02-17 18:33:10,941 | DEBUG | qtp1998949977-45 | api User Okvip123 login success in platform: web
+2023-02-17 18:33:10,941 | DEBUG | qtp1998949977-45 | api login thanh cong: []
+2023-02-17 18:33:10,943 | DEBUG | qtp1998949977-45 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmY1OWM6MTk5NDozZjM6ZjRhNCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6Ik9rdmlwMSIsImVtYWlsIjowLCJhZGRyZXNzIjpudWxsLCJ2ZXJpZnlNb2JpbGUiOmZhbHNlfQ==","accessToken":"c71f64c3d697ad998dff6be3a5e9d685"}
+2023-02-17 18:33:11,120 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:33:11,120 | DEBUG | qtp1998949977-46 | api command: 17
+2023-02-17 18:33:11,137 | DEBUG | qtp1998949977-46 | api User Okvip123 login success in platform: web
+2023-02-17 18:33:11,148 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:33:11,148 | DEBUG | qtp1998949977-44 | api command: 2020
+2023-02-17 18:33:11,354 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:33:11,354 | DEBUG | qtp1998949977-45 | api command: 2031
+2023-02-17 18:33:11,355 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:33:11,355 | DEBUG | qtp1998949977-46 | api command: 2008
+2023-02-17 18:33:11,355 | INFO  | qtp1998949977-46 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= Okvip123, bankName: null, bankNumber: null
+2023-02-17 18:33:11,359 | INFO  | qtp1998949977-45 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 18:33:11,363 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:33:11,363 | DEBUG | qtp1998949977-42 | api command: 20
+2023-02-17 18:33:11,365 | INFO  | qtp1998949977-45 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 18:33:11,365 | INFO  | qtp1998949977-42 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 18:33:11,369 | INFO  | qtp1998949977-42 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 18:33:11,407 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:33:11,407 | DEBUG | qtp1998949977-45 | api command: 406
+2023-02-17 18:33:12,427 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:33:12,427 | DEBUG | qtp1998949977-43 | api command: 406
+2023-02-17 18:33:12,492 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:33:12,492 | DEBUG | qtp1998949977-42 | api command: 130
+2023-02-17 18:33:12,493 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:33:12,493 | DEBUG | qtp1998949977-46 | api command: 2002
+2023-02-17 18:33:12,493 | INFO  | qtp1998949977-46 | api Request GetPaymentConfig: nickName: Okvip123, accessToken: 217f4cd47360ad28c05003edb49a8f41, paymentType: 1
+2023-02-17 18:33:32,558 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:33:32,558 | DEBUG | qtp1998949977-44 | api command: 2020
+2023-02-17 18:33:34,925 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:33:34,925 | DEBUG | qtp1998949977-45 | api command: 124
+2023-02-17 18:33:55,655 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:33:55,655 | DEBUG | qtp1998949977-46 | api command: 1
+2023-02-17 18:33:55,656 | DEBUG | qtp1998949977-46 | api Request quickRegister: username: truccutikkkkk
+2023-02-17 18:33:55,694 | INFO  | qtp1998949977-46 | db.ConnectionPool.mysqlpool_admin mysqlpool_admin: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_admin?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 18:33:55,700 | INFO  | qtp1998949977-46 | db.ConnectionPool.mysqlpool_admin mysqlpool_admin: Created a new connection
+2023-02-17 18:33:55,706 | DEBUG | qtp1998949977-46 | api Response quickRegister: {"success":true,"message":null,"errorCode":"0","data":null}
+2023-02-17 18:34:02,323 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:34:02,323 | DEBUG | qtp1998949977-43 | api command: 5
+2023-02-17 18:34:02,323 | DEBUG | qtp1998949977-43 | api Request updateNickname: username: truccutikkkkk,  social: null, accessToken: , nickname: trucxgkkk
+2023-02-17 18:34:02,396 | DEBUG | qtp1998949977-43 | api User trucxgkkk login success in platform: web
+2023-02-17 18:34:02,443 | INFO  | qtp1998949977-43 | mongodb.driver.connection Opened connection [connectionId{localValue:6, serverValue:234}] to 127.0.0.1:27017
+2023-02-17 18:34:02,500 | DEBUG | qtp1998949977-43 | api Response updateNickname: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6MCwieHVUb3RhbCI6NTAwMDAwLCJ2aXBwb2ludCI6MCwidmlwcG9pbnRTYXZlIjowLCJjcmVhdGVUaW1lIjoiMTctMDItMjAyMyIsImlwQWRkcmVzcyI6IjE3MS4yMzcuODUuNzAiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJ0cnVjY3V0aWtra2trIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"1af7e102d943e9e3f73bfb2ace109049"}
+2023-02-17 18:34:02,669 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:34:02,669 | DEBUG | qtp1998949977-45 | api command: 2008
+2023-02-17 18:34:02,669 | INFO  | qtp1998949977-45 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 18:34:02,673 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:34:02,673 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 18:34:06,105 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:34:06,105 | DEBUG | qtp1998949977-43 | api command: 406
+2023-02-17 18:34:20,799 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:34:20,800 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 18:34:25,909 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:34:25,909 | DEBUG | qtp1998949977-45 | api command: 406
+2023-02-17 18:34:31,337 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:34:31,338 | DEBUG | qtp1998949977-43 | api command: 124
+2023-02-17 18:34:39,041 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:34:39,042 | DEBUG | qtp1998949977-42 | api command: 1
+2023-02-17 18:34:39,042 | DEBUG | qtp1998949977-42 | api Request quickRegister: username: okvip2
+2023-02-17 18:34:39,047 | DEBUG | qtp1998949977-42 | api Response quickRegister: {"success":false,"message":null,"errorCode":"1006","data":null}
+2023-02-17 18:34:39,194 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:34:39,195 | DEBUG | qtp1998949977-45 | api command: 124
+2023-02-17 18:34:42,469 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:34:42,469 | DEBUG | qtp1998949977-44 | api command: 1
+2023-02-17 18:34:42,469 | DEBUG | qtp1998949977-44 | api Request quickRegister: username: okvip3
+2023-02-17 18:34:42,483 | DEBUG | qtp1998949977-44 | api Response quickRegister: {"success":true,"message":null,"errorCode":"0","data":null}
+2023-02-17 18:35:21,116 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:35:21,116 | DEBUG | qtp1998949977-46 | api command: 5
+2023-02-17 18:35:21,116 | DEBUG | qtp1998949977-46 | api Request updateNickname: username: okvip3,  social: null, accessToken: , nickname: binne12
+2023-02-17 18:35:21,143 | DEBUG | qtp1998949977-46 | api User binne12 login success in platform: web
+2023-02-17 18:35:21,148 | DEBUG | qtp1998949977-46 | api Response updateNickname: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6ImJpbm5lMTIiLCJhdmF0YXIiOiIwIiwidmluVG90YWwiOjAsInh1VG90YWwiOjUwMDAwMCwidmlwcG9pbnQiOjAsInZpcHBvaW50U2F2ZSI6MCwiY3JlYXRlVGltZSI6IjE3LTAyLTIwMjMiLCJpcEFkZHJlc3MiOiIyMDAxOmVlMDo3OTk1OjU1NTA6ZjU5YzoxOTk0OjNmMzpmNGE0IiwiY2VydGlmaWNhdGUiOmZhbHNlLCJsdWNreVJvdGF0ZSI6MCwiZGFpTHkiOjAsIm1vYmlsZVNlY3VyZSI6MCwiYmlydGhkYXkiOiIiLCJhcHBTZWN1cmUiOjAsInVzZXJuYW1lIjoib2t2aXAzIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"4e2c41941274d2519489a8764a66cd3e"}
+2023-02-17 18:35:21,272 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:35:21,272 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 18:35:21,272 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 18:35:21,300 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:35:21,301 | DEBUG | qtp1998949977-44 | api command: 406
+2023-02-17 18:35:43,393 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:35:43,393 | DEBUG | qtp1998949977-46 | api command: 2020
+2023-02-17 18:35:45,530 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:35:45,530 | DEBUG | qtp1998949977-43 | api command: 3
+2023-02-17 18:35:45,530 | DEBUG | qtp1998949977-43 | api Request login: username: okvip3, social: null, accessToken: 
+2023-02-17 18:35:45,531 | DEBUG | qtp1998949977-43 | api Request login: 1
+2023-02-17 18:35:45,531 | DEBUG | qtp1998949977-43 | api Request login: 2
+2023-02-17 18:35:45,534 | DEBUG | qtp1998949977-43 | api Request login: 3
+2023-02-17 18:35:45,534 | DEBUG | qtp1998949977-43 | api Request login: 4
+2023-02-17 18:35:45,534 | DEBUG | qtp1998949977-43 | api Request login: 5
+2023-02-17 18:35:45,556 | DEBUG | qtp1998949977-43 | api User binne12 login success in platform: web
+2023-02-17 18:35:45,556 | DEBUG | qtp1998949977-43 | api login thanh cong: []
+2023-02-17 18:35:45,557 | DEBUG | qtp1998949977-43 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6ImJpbm5lMTIiLCJhdmF0YXIiOiIwIiwidmluVG90YWwiOjYwMDAwMCwieHVUb3RhbCI6NTAwMDAwLCJ2aXBwb2ludCI6MCwidmlwcG9pbnRTYXZlIjowLCJjcmVhdGVUaW1lIjoiMTctMDItMjAyMyIsImlwQWRkcmVzcyI6IjIwMDE6ZWUwOjc5OTU6NTU1MDpmNTljOjE5OTQ6M2YzOmY0YTQiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJva3ZpcDMiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"9bffa734f4b6a5910fb90fb6649d3f20"}
+2023-02-17 18:35:45,678 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:35:45,678 | DEBUG | qtp1998949977-44 | api command: 17
+2023-02-17 18:35:45,690 | DEBUG | qtp1998949977-44 | api User binne12 login success in platform: web
+2023-02-17 18:35:45,812 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:35:45,813 | DEBUG | qtp1998949977-46 | api command: 2031
+2023-02-17 18:35:45,815 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:35:45,815 | DEBUG | qtp1998949977-45 | api command: 2008
+2023-02-17 18:35:45,815 | INFO  | qtp1998949977-45 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 18:35:45,816 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:35:45,816 | DEBUG | qtp1998949977-43 | api command: 20
+2023-02-17 18:35:45,816 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:35:45,816 | DEBUG | qtp1998949977-44 | api command: 406
+2023-02-17 18:35:49,074 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:35:49,074 | DEBUG | qtp1998949977-44 | api command: 405
+2023-02-17 18:35:49,187 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:35:49,187 | DEBUG | qtp1998949977-43 | api command: 406
+2023-02-17 18:37:14,451 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:37:14,452 | DEBUG | qtp1998949977-45 | api command: 2020
+2023-02-17 18:37:37,604 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:37:37,605 | DEBUG | qtp1998949977-46 | api command: 3
+2023-02-17 18:37:37,605 | DEBUG | qtp1998949977-46 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 18:37:37,606 | DEBUG | qtp1998949977-46 | api Request login: 1
+2023-02-17 18:37:37,606 | DEBUG | qtp1998949977-46 | api Request login: 2
+2023-02-17 18:37:37,612 | DEBUG | qtp1998949977-46 | api Request login: 3
+2023-02-17 18:37:37,612 | DEBUG | qtp1998949977-46 | api Request login: 4
+2023-02-17 18:37:37,612 | DEBUG | qtp1998949977-46 | api Request login: 5
+2023-02-17 18:37:37,634 | DEBUG | qtp1998949977-46 | api User trucxgkkk login success in platform: web
+2023-02-17 18:37:37,635 | DEBUG | qtp1998949977-46 | api login thanh cong: []
+2023-02-17 18:37:37,635 | DEBUG | qtp1998949977-46 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6MCwieHVUb3RhbCI6NTAwMDAwLCJ2aXBwb2ludCI6MCwidmlwcG9pbnRTYXZlIjowLCJjcmVhdGVUaW1lIjoiMTctMDItMjAyMyIsImlwQWRkcmVzcyI6IjE3MS4yMzcuODUuNzAiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJ0cnVjY3V0aWtra2trIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"247f10d5e46aa69120b752b897706130"}
+2023-02-17 18:37:37,804 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:37:37,804 | DEBUG | qtp1998949977-42 | api command: 17
+2023-02-17 18:37:37,817 | DEBUG | qtp1998949977-42 | api User trucxgkkk login success in platform: web
+2023-02-17 18:37:37,912 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:37:37,913 | DEBUG | qtp1998949977-44 | api command: 2008
+2023-02-17 18:37:37,913 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:37:37,913 | INFO  | qtp1998949977-44 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 18:37:37,913 | DEBUG | qtp1998949977-46 | api command: 20
+2023-02-17 18:37:37,914 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:37:37,914 | DEBUG | qtp1998949977-43 | api command: 2031
+2023-02-17 18:37:37,921 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:37:37,921 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 18:38:05,276 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:38:05,277 | DEBUG | qtp1998949977-46 | api command: 406
+2023-02-17 18:38:05,281 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:38:05,281 | DEBUG | qtp1998949977-45 | api command: 130
+2023-02-17 18:38:05,284 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:38:05,284 | DEBUG | qtp1998949977-43 | api command: 2002
+2023-02-17 18:38:05,284 | INFO  | qtp1998949977-43 | api Request GetPaymentConfig: nickName: binne12, accessToken: 1040e090bed7a28ecd16e47ed14301d3, paymentType: 1
+2023-02-17 18:38:24,321 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:38:24,321 | DEBUG | qtp1998949977-46 | api command: 2031
+2023-02-17 18:38:53,786 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:38:53,787 | DEBUG | qtp1998949977-45 | api command: 3
+2023-02-17 18:38:53,787 | DEBUG | qtp1998949977-45 | api Request login: username: okvip3, social: null, accessToken: 
+2023-02-17 18:38:53,788 | DEBUG | qtp1998949977-45 | api Request login: 1
+2023-02-17 18:38:53,788 | DEBUG | qtp1998949977-45 | api Request login: 2
+2023-02-17 18:38:53,791 | DEBUG | qtp1998949977-45 | api Request login: 3
+2023-02-17 18:38:53,791 | DEBUG | qtp1998949977-45 | api Request login: 4
+2023-02-17 18:38:53,791 | DEBUG | qtp1998949977-45 | api Request login: 5
+2023-02-17 18:38:53,811 | DEBUG | qtp1998949977-45 | api User binne12 login success in platform: web
+2023-02-17 18:38:53,811 | DEBUG | qtp1998949977-45 | api login thanh cong: []
+2023-02-17 18:38:53,812 | DEBUG | qtp1998949977-45 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6ImJpbm5lMTIiLCJhdmF0YXIiOiIwIiwidmluVG90YWwiOjg5MDAwLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmY1OWM6MTk5NDozZjM6ZjRhNCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6Im9rdmlwMyIsImVtYWlsIjowLCJhZGRyZXNzIjpudWxsLCJ2ZXJpZnlNb2JpbGUiOmZhbHNlfQ==","accessToken":"f05c48619c78faf02600fe84c4700931"}
+2023-02-17 18:38:53,934 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:38:53,934 | DEBUG | qtp1998949977-43 | api command: 17
+2023-02-17 18:38:53,945 | DEBUG | qtp1998949977-43 | api User binne12 login success in platform: web
+2023-02-17 18:38:54,051 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:38:54,051 | DEBUG | qtp1998949977-46 | api command: 2020
+2023-02-17 18:38:54,191 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:38:54,192 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:38:54,192 | DEBUG | qtp1998949977-45 | api command: 2008
+2023-02-17 18:38:54,192 | INFO  | qtp1998949977-45 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 18:38:54,192 | DEBUG | qtp1998949977-42 | api command: 2031
+2023-02-17 18:38:54,192 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:38:54,192 | DEBUG | qtp1998949977-44 | api command: 20
+2023-02-17 18:38:54,198 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:38:54,199 | DEBUG | qtp1998949977-43 | api command: 406
+2023-02-17 18:40:10,393 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:40:10,393 | DEBUG | qtp1998949977-44 | api command: 2020
+2023-02-17 18:40:21,991 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:40:21,991 | DEBUG | qtp1998949977-43 | api command: 3
+2023-02-17 18:40:21,991 | DEBUG | qtp1998949977-43 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 18:40:21,992 | DEBUG | qtp1998949977-43 | api Request login: 1
+2023-02-17 18:40:21,992 | DEBUG | qtp1998949977-43 | api Request login: 2
+2023-02-17 18:40:21,996 | DEBUG | qtp1998949977-43 | api Request login: 3
+2023-02-17 18:40:21,996 | DEBUG | qtp1998949977-43 | api Request login: 4
+2023-02-17 18:40:21,996 | DEBUG | qtp1998949977-43 | api Request login: 5
+2023-02-17 18:40:22,016 | DEBUG | qtp1998949977-43 | api User trucxgkkk login success in platform: web
+2023-02-17 18:40:22,016 | DEBUG | qtp1998949977-43 | api login thanh cong: []
+2023-02-17 18:40:22,017 | DEBUG | qtp1998949977-43 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6NTAwNzgwLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjIzNy44NS43MCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6InRydWNjdXRpa2tra2siLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"c8eedd2e50fbaad16de4173cb7bdabde"}
+2023-02-17 18:40:22,170 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:40:22,170 | DEBUG | qtp1998949977-45 | api command: 17
+2023-02-17 18:40:22,184 | DEBUG | qtp1998949977-45 | api User trucxgkkk login success in platform: web
+2023-02-17 18:40:22,284 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:40:22,284 | DEBUG | qtp1998949977-46 | api command: 2031
+2023-02-17 18:40:22,285 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:40:22,285 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 18:40:22,295 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:40:22,295 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 18:40:22,302 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 18:40:22,390 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:40:22,391 | DEBUG | qtp1998949977-44 | api command: 20
+2023-02-17 18:41:31,866 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:41:31,866 | DEBUG | qtp1998949977-42 | api command: 2020
+2023-02-17 18:41:41,366 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:41:41,367 | DEBUG | qtp1998949977-45 | api command: 3
+2023-02-17 18:41:41,367 | DEBUG | qtp1998949977-45 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 18:41:41,368 | DEBUG | qtp1998949977-45 | api Request login: 1
+2023-02-17 18:41:41,368 | DEBUG | qtp1998949977-45 | api Request login: 2
+2023-02-17 18:41:41,371 | DEBUG | qtp1998949977-45 | api Request login: 3
+2023-02-17 18:41:41,371 | DEBUG | qtp1998949977-45 | api Request login: 4
+2023-02-17 18:41:41,371 | DEBUG | qtp1998949977-45 | api Request login: 5
+2023-02-17 18:41:41,385 | DEBUG | qtp1998949977-45 | api User trucxgkkk login success in platform: web
+2023-02-17 18:41:41,386 | DEBUG | qtp1998949977-45 | api login thanh cong: []
+2023-02-17 18:41:41,387 | DEBUG | qtp1998949977-45 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6NTAwNzgwLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjIzNy44NS43MCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6InRydWNjdXRpa2tra2siLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"e44d61c270dc68936076997264ac937d"}
+2023-02-17 18:41:41,549 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:41:41,549 | DEBUG | qtp1998949977-44 | api command: 17
+2023-02-17 18:41:41,562 | DEBUG | qtp1998949977-44 | api User trucxgkkk login success in platform: web
+2023-02-17 18:41:41,725 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:41:41,725 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 18:41:41,726 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:41:41,727 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 18:41:41,727 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 18:41:41,732 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:41:41,733 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:41:41,733 | DEBUG | qtp1998949977-46 | api command: 20
+2023-02-17 18:41:41,733 | DEBUG | qtp1998949977-45 | api command: 2031
+2023-02-17 18:41:48,714 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:41:48,715 | DEBUG | qtp1998949977-42 | api command: 3
+2023-02-17 18:41:48,715 | DEBUG | qtp1998949977-42 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 18:41:48,716 | DEBUG | qtp1998949977-42 | api Request login: 1
+2023-02-17 18:41:48,716 | DEBUG | qtp1998949977-42 | api Request login: 2
+2023-02-17 18:41:48,718 | DEBUG | qtp1998949977-42 | api Request login: 3
+2023-02-17 18:41:48,719 | DEBUG | qtp1998949977-42 | api Request login: 4
+2023-02-17 18:41:48,719 | DEBUG | qtp1998949977-42 | api Request login: 5
+2023-02-17 18:41:48,736 | DEBUG | qtp1998949977-42 | api User trucxgkkk login success in platform: web
+2023-02-17 18:41:48,737 | DEBUG | qtp1998949977-42 | api login thanh cong: []
+2023-02-17 18:41:48,738 | DEBUG | qtp1998949977-42 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6NTAwNzgwLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjIzNy44NS43MCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6InRydWNjdXRpa2tra2siLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"695192be105fb36688b88271eda76242"}
+2023-02-17 18:41:48,829 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:41:48,829 | DEBUG | qtp1998949977-44 | api command: 17
+2023-02-17 18:41:48,843 | DEBUG | qtp1998949977-44 | api User trucxgkkk login success in platform: web
+2023-02-17 18:41:49,053 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:41:49,054 | DEBUG | qtp1998949977-46 | api command: 2031
+2023-02-17 18:41:49,055 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:41:49,055 | DEBUG | qtp1998949977-42 | api command: 20
+2023-02-17 18:41:49,055 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:41:49,055 | DEBUG | qtp1998949977-45 | api command: 2008
+2023-02-17 18:41:49,055 | INFO  | qtp1998949977-45 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 18:41:49,063 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:41:49,063 | DEBUG | qtp1998949977-43 | api command: 406
+2023-02-17 18:41:49,070 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:41:49,070 | DEBUG | qtp1998949977-44 | api command: 2020
+2023-02-17 18:44:05,242 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:44:05,243 | DEBUG | qtp1998949977-45 | api command: 3
+2023-02-17 18:44:05,243 | DEBUG | qtp1998949977-45 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 18:44:05,244 | DEBUG | qtp1998949977-45 | api Request login: 1
+2023-02-17 18:44:05,244 | DEBUG | qtp1998949977-45 | api Request login: 2
+2023-02-17 18:44:05,247 | DEBUG | qtp1998949977-45 | api Request login: 3
+2023-02-17 18:44:05,247 | DEBUG | qtp1998949977-45 | api Request login: 4
+2023-02-17 18:44:05,247 | DEBUG | qtp1998949977-45 | api Request login: 5
+2023-02-17 18:44:05,262 | DEBUG | qtp1998949977-45 | api User trucxgkkk login success in platform: web
+2023-02-17 18:44:05,263 | DEBUG | qtp1998949977-45 | api login thanh cong: []
+2023-02-17 18:44:05,264 | DEBUG | qtp1998949977-45 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6NTAwNzgwLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjIzNy44NS43MCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6InRydWNjdXRpa2tra2siLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"8e8d5293d6c864bbe4acb6a544597f1d"}
+2023-02-17 18:44:05,363 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:44:05,363 | DEBUG | qtp1998949977-43 | api command: 17
+2023-02-17 18:44:05,378 | DEBUG | qtp1998949977-43 | api User trucxgkkk login success in platform: web
+2023-02-17 18:44:05,431 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:44:05,431 | DEBUG | qtp1998949977-46 | api command: 2020
+2023-02-17 18:44:05,484 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:44:05,485 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 18:44:05,487 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:44:05,487 | DEBUG | qtp1998949977-43 | api command: 2031
+2023-02-17 18:44:05,488 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:44:05,487 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:44:05,488 | DEBUG | qtp1998949977-44 | api command: 20
+2023-02-17 18:44:05,488 | DEBUG | qtp1998949977-46 | api command: 2008
+2023-02-17 18:44:05,488 | INFO  | qtp1998949977-46 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 18:44:07,082 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:44:07,082 | DEBUG | qtp1998949977-44 | api command: 406
+2023-02-17 18:44:07,104 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:44:07,104 | DEBUG | qtp1998949977-46 | api command: 2011
+2023-02-17 18:44:07,104 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:44:07,104 | DEBUG | qtp1998949977-42 | api command: 2008
+2023-02-17 18:44:07,105 | INFO  | qtp1998949977-42 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 18:45:24,002 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:45:24,002 | DEBUG | qtp1998949977-44 | api command: 2007
+2023-02-17 18:45:24,003 | INFO  | qtp1998949977-44 | processors.payment.InsertOrUpdateBankProcessor Request InsertOrUpdateBankProcessor nickName= trucxgkkk, bankName: Mbbank, customerName: TRANTHI KIEU TRANG, bankNumber: 0589358560, branch: NINH BINH
+2023-02-17 18:45:24,246 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:45:24,246 | DEBUG | qtp1998949977-46 | api command: 2008
+2023-02-17 18:45:24,246 | INFO  | qtp1998949977-46 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 18:45:36,469 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:45:36,469 | DEBUG | qtp1998949977-42 | api command: 2007
+2023-02-17 18:45:36,469 | INFO  | qtp1998949977-42 | processors.payment.InsertOrUpdateBankProcessor Request InsertOrUpdateBankProcessor nickName= trucxgkkk, bankName: Mbbank, customerName: TRANTHI KIEU TRANG, bankNumber: 0589358560, branch: NINH BINH
+2023-02-17 18:45:45,847 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:45:45,847 | DEBUG | qtp1998949977-44 | api command: 2008
+2023-02-17 18:45:45,847 | INFO  | qtp1998949977-44 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 18:45:55,668 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:45:55,669 | DEBUG | qtp1998949977-46 | api command: 2008
+2023-02-17 18:45:55,669 | INFO  | qtp1998949977-46 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 18:46:01,671 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:46:01,671 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 18:46:01,671 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 18:46:07,219 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:46:07,219 | DEBUG | qtp1998949977-44 | api command: 2008
+2023-02-17 18:46:07,219 | INFO  | qtp1998949977-44 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 18:47:15,159 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:47:15,159 | DEBUG | qtp1998949977-46 | api command: 3
+2023-02-17 18:47:15,159 | DEBUG | qtp1998949977-46 | api Request login: username: okvip3, social: null, accessToken: 
+2023-02-17 18:47:15,161 | DEBUG | qtp1998949977-46 | api Request login: 1
+2023-02-17 18:47:15,161 | DEBUG | qtp1998949977-46 | api Request login: 2
+2023-02-17 18:47:15,164 | DEBUG | qtp1998949977-46 | api Request login: 3
+2023-02-17 18:47:15,164 | DEBUG | qtp1998949977-46 | api Request login: 4
+2023-02-17 18:47:15,164 | DEBUG | qtp1998949977-46 | api Request login: 5
+2023-02-17 18:47:15,184 | DEBUG | qtp1998949977-46 | api User binne12 login success in platform: web
+2023-02-17 18:47:15,185 | DEBUG | qtp1998949977-46 | api login thanh cong: []
+2023-02-17 18:47:15,186 | DEBUG | qtp1998949977-46 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6ImJpbm5lMTIiLCJhdmF0YXIiOiIwIiwidmluVG90YWwiOjEwODkwMDAsInh1VG90YWwiOjUwMDAwMCwidmlwcG9pbnQiOjAsInZpcHBvaW50U2F2ZSI6MCwiY3JlYXRlVGltZSI6IjE3LTAyLTIwMjMiLCJpcEFkZHJlc3MiOiIyMDAxOmVlMDo3OTk1OjU1NTA6ZjU5YzoxOTk0OjNmMzpmNGE0IiwiY2VydGlmaWNhdGUiOmZhbHNlLCJsdWNreVJvdGF0ZSI6MCwiZGFpTHkiOjAsIm1vYmlsZVNlY3VyZSI6MCwiYmlydGhkYXkiOiIiLCJhcHBTZWN1cmUiOjAsInVzZXJuYW1lIjoib2t2aXAzIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"cf089d5af3ebcb7b61847a54ecf00b53"}
+2023-02-17 18:47:15,356 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:47:15,356 | DEBUG | qtp1998949977-43 | api command: 17
+2023-02-17 18:47:15,375 | DEBUG | qtp1998949977-43 | api User binne12 login success in platform: web
+2023-02-17 18:47:15,497 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:47:15,497 | DEBUG | qtp1998949977-44 | api command: 20
+2023-02-17 18:47:15,498 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:47:15,498 | DEBUG | qtp1998949977-45 | api command: 2008
+2023-02-17 18:47:15,498 | INFO  | qtp1998949977-45 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 18:47:15,500 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:47:15,500 | DEBUG | qtp1998949977-46 | api command: 406
+2023-02-17 18:47:15,621 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:47:15,621 | DEBUG | qtp1998949977-44 | api command: 2031
+2023-02-17 18:47:15,719 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:47:15,719 | DEBUG | qtp1998949977-46 | api command: 2020
+2023-02-17 18:47:15,725 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:47:15,725 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 18:47:17,632 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:47:17,632 | DEBUG | qtp1998949977-44 | api command: 406
+2023-02-17 18:47:36,239 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:47:36,240 | DEBUG | qtp1998949977-43 | api command: 2020
+2023-02-17 18:47:47,769 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:47:47,770 | DEBUG | qtp1998949977-45 | api command: 3
+2023-02-17 18:47:47,770 | DEBUG | qtp1998949977-45 | api Request login: username: Okvip3, social: null, accessToken: 
+2023-02-17 18:47:47,770 | DEBUG | qtp1998949977-45 | api Request login: 1
+2023-02-17 18:47:47,771 | DEBUG | qtp1998949977-45 | api Request login: 2
+2023-02-17 18:47:47,774 | DEBUG | qtp1998949977-45 | api Request login: 3
+2023-02-17 18:47:47,774 | DEBUG | qtp1998949977-45 | api Request login: 4
+2023-02-17 18:47:47,774 | DEBUG | qtp1998949977-45 | api Request login: 5
+2023-02-17 18:47:47,791 | DEBUG | qtp1998949977-45 | api User binne12 login success in platform: web
+2023-02-17 18:47:47,792 | DEBUG | qtp1998949977-45 | api login thanh cong: []
+2023-02-17 18:47:47,793 | DEBUG | qtp1998949977-45 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6ImJpbm5lMTIiLCJhdmF0YXIiOiIwIiwidmluVG90YWwiOjEwODkwMDAsInh1VG90YWwiOjUwMDAwMCwidmlwcG9pbnQiOjAsInZpcHBvaW50U2F2ZSI6MCwiY3JlYXRlVGltZSI6IjE3LTAyLTIwMjMiLCJpcEFkZHJlc3MiOiIyMDAxOmVlMDo3OTk1OjU1NTA6YjVmODo1NDA4OjU1N2Y6ZWJlMyIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6Im9rdmlwMyIsImVtYWlsIjowLCJhZGRyZXNzIjpudWxsLCJ2ZXJpZnlNb2JpbGUiOmZhbHNlfQ==","accessToken":"cd195c99180f40f65e1a0520a24a0d8a"}
+2023-02-17 18:47:47,884 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:47:47,884 | DEBUG | qtp1998949977-44 | api command: 17
+2023-02-17 18:47:47,901 | DEBUG | qtp1998949977-44 | api User binne12 login success in platform: web
+2023-02-17 18:47:48,008 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:47:48,009 | DEBUG | qtp1998949977-43 | api command: 20
+2023-02-17 18:47:48,011 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:47:48,011 | DEBUG | qtp1998949977-45 | api command: 406
+2023-02-17 18:47:48,011 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:47:48,011 | DEBUG | qtp1998949977-46 | api command: 2031
+2023-02-17 18:47:48,111 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:47:48,112 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 18:47:48,112 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 18:48:48,669 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:48:48,669 | DEBUG | qtp1998949977-42 | api command: 3
+2023-02-17 18:48:48,669 | DEBUG | qtp1998949977-42 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 18:48:48,671 | DEBUG | qtp1998949977-42 | api Request login: 1
+2023-02-17 18:48:48,671 | DEBUG | qtp1998949977-42 | api Request login: 2
+2023-02-17 18:48:48,674 | DEBUG | qtp1998949977-42 | api Request login: 3
+2023-02-17 18:48:48,674 | DEBUG | qtp1998949977-42 | api Request login: 4
+2023-02-17 18:48:48,674 | DEBUG | qtp1998949977-42 | api Request login: 5
+2023-02-17 18:48:48,687 | DEBUG | qtp1998949977-42 | api User trucxgkkk login success in platform: web
+2023-02-17 18:48:48,688 | DEBUG | qtp1998949977-42 | api login thanh cong: []
+2023-02-17 18:48:48,688 | DEBUG | qtp1998949977-42 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6NTAwNzgwLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjIzNy44NS43MCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6InRydWNjdXRpa2tra2siLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"3c8cd105e3d5a05808b071a8e5911480"}
+2023-02-17 18:48:48,800 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:48:48,800 | DEBUG | qtp1998949977-46 | api command: 17
+2023-02-17 18:48:48,817 | DEBUG | qtp1998949977-46 | api User trucxgkkk login success in platform: web
+2023-02-17 18:48:48,914 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:48:48,915 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:48:48,915 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 18:48:48,915 | DEBUG | qtp1998949977-45 | api command: 2031
+2023-02-17 18:48:48,915 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 18:48:48,916 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:48:48,916 | DEBUG | qtp1998949977-42 | api command: 20
+2023-02-17 18:48:48,923 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:48:48,923 | DEBUG | qtp1998949977-46 | api command: 406
+2023-02-17 18:48:49,009 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:48:49,010 | DEBUG | qtp1998949977-45 | api command: 2020
+2023-02-17 18:49:24,841 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:49:24,842 | DEBUG | qtp1998949977-42 | api command: 2020
+2023-02-17 18:49:33,155 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:49:33,155 | DEBUG | qtp1998949977-46 | api command: 3
+2023-02-17 18:49:33,155 | DEBUG | qtp1998949977-46 | api Request login: username: okvip3, social: null, accessToken: 
+2023-02-17 18:49:33,156 | DEBUG | qtp1998949977-46 | api Request login: 1
+2023-02-17 18:49:33,156 | DEBUG | qtp1998949977-46 | api Request login: 2
+2023-02-17 18:49:33,158 | DEBUG | qtp1998949977-46 | api Request login: 3
+2023-02-17 18:49:33,158 | DEBUG | qtp1998949977-46 | api Request login: 4
+2023-02-17 18:49:33,158 | DEBUG | qtp1998949977-46 | api Request login: 5
+2023-02-17 18:49:33,177 | DEBUG | qtp1998949977-46 | api User binne12 login success in platform: web
+2023-02-17 18:49:33,179 | DEBUG | qtp1998949977-46 | api login thanh cong: []
+2023-02-17 18:49:33,180 | DEBUG | qtp1998949977-46 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6ImJpbm5lMTIiLCJhdmF0YXIiOiIwIiwidmluVG90YWwiOjEwODkwMDAsInh1VG90YWwiOjUwMDAwMCwidmlwcG9pbnQiOjAsInZpcHBvaW50U2F2ZSI6MCwiY3JlYXRlVGltZSI6IjE3LTAyLTIwMjMiLCJpcEFkZHJlc3MiOiIyMDAxOmVlMDo3OTk1OjU1NTA6ZjU5YzoxOTk0OjNmMzpmNGE0IiwiY2VydGlmaWNhdGUiOmZhbHNlLCJsdWNreVJvdGF0ZSI6MCwiZGFpTHkiOjAsIm1vYmlsZVNlY3VyZSI6MCwiYmlydGhkYXkiOiIiLCJhcHBTZWN1cmUiOjAsInVzZXJuYW1lIjoib2t2aXAzIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"de890755fd14b6290d56929640d6de29"}
+2023-02-17 18:49:33,329 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:49:33,329 | DEBUG | qtp1998949977-44 | api command: 17
+2023-02-17 18:49:33,340 | DEBUG | qtp1998949977-44 | api User binne12 login success in platform: web
+2023-02-17 18:49:33,465 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:49:33,465 | DEBUG | qtp1998949977-43 | api command: 2031
+2023-02-17 18:49:33,469 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:49:33,469 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 18:49:33,470 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:49:33,470 | DEBUG | qtp1998949977-46 | api command: 20
+2023-02-17 18:49:33,470 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:49:33,470 | DEBUG | qtp1998949977-44 | api command: 2008
+2023-02-17 18:49:33,470 | INFO  | qtp1998949977-44 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 18:49:45,729 | INFO  | Cleaner-thread-2 | db.ConnectionPool.mysqlpool_admin mysqlpool_admin: Destroyed connection
+2023-02-17 18:50:14,359 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:50:14,359 | DEBUG | qtp1998949977-45 | api command: 3
+2023-02-17 18:50:14,359 | DEBUG | qtp1998949977-45 | api Request login: username: Okvip3, social: null, accessToken: 
+2023-02-17 18:50:14,362 | DEBUG | qtp1998949977-45 | api Request login: 1
+2023-02-17 18:50:14,362 | DEBUG | qtp1998949977-45 | api Request login: 2
+2023-02-17 18:50:14,365 | DEBUG | qtp1998949977-45 | api Request login: 3
+2023-02-17 18:50:14,365 | DEBUG | qtp1998949977-45 | api Request login: 4
+2023-02-17 18:50:14,365 | DEBUG | qtp1998949977-45 | api Request login: 5
+2023-02-17 18:50:14,424 | DEBUG | qtp1998949977-45 | api User binne12 login success in platform: web
+2023-02-17 18:50:14,425 | DEBUG | qtp1998949977-45 | api login thanh cong: []
+2023-02-17 18:50:14,426 | DEBUG | qtp1998949977-45 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6ImJpbm5lMTIiLCJhdmF0YXIiOiIwIiwidmluVG90YWwiOjEwODkwMDAsInh1VG90YWwiOjUwMDAwMCwidmlwcG9pbnQiOjAsInZpcHBvaW50U2F2ZSI6MCwiY3JlYXRlVGltZSI6IjE3LTAyLTIwMjMiLCJpcEFkZHJlc3MiOiIyMDAxOmVlMDo3OTk1OjU1NTA6YjVmODo1NDA4OjU1N2Y6ZWJlMyIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6Im9rdmlwMyIsImVtYWlsIjowLCJhZGRyZXNzIjpudWxsLCJ2ZXJpZnlNb2JpbGUiOmZhbHNlfQ==","accessToken":"7b2119609151f7d783cd34e65f168d5c"}
+2023-02-17 18:50:14,547 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:50:14,548 | DEBUG | qtp1998949977-42 | api command: 17
+2023-02-17 18:50:14,570 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:50:14,571 | DEBUG | qtp1998949977-43 | api command: 2020
+2023-02-17 18:50:14,592 | DEBUG | qtp1998949977-42 | api User binne12 login success in platform: web
+2023-02-17 18:50:14,703 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:50:14,703 | DEBUG | qtp1998949977-44 | api command: 2031
+2023-02-17 18:50:14,704 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:50:14,704 | DEBUG | qtp1998949977-45 | api command: 406
+2023-02-17 18:50:14,707 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:50:14,707 | DEBUG | qtp1998949977-43 | api command: 20
+2023-02-17 18:50:14,710 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:50:14,710 | DEBUG | qtp1998949977-46 | api command: 2008
+2023-02-17 18:50:14,710 | INFO  | qtp1998949977-46 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 18:50:32,551 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:50:32,551 | DEBUG | qtp1998949977-45 | api command: 3
+2023-02-17 18:50:32,551 | DEBUG | qtp1998949977-45 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 18:50:32,552 | DEBUG | qtp1998949977-45 | api Request login: 1
+2023-02-17 18:50:32,552 | DEBUG | qtp1998949977-45 | api Request login: 2
+2023-02-17 18:50:32,554 | DEBUG | qtp1998949977-45 | api Request login: 3
+2023-02-17 18:50:32,554 | DEBUG | qtp1998949977-45 | api Request login: 4
+2023-02-17 18:50:32,554 | DEBUG | qtp1998949977-45 | api Request login: 5
+2023-02-17 18:50:32,565 | DEBUG | qtp1998949977-45 | api User trucxgkkk login success in platform: web
+2023-02-17 18:50:32,565 | DEBUG | qtp1998949977-45 | api login thanh cong: []
+2023-02-17 18:50:32,566 | DEBUG | qtp1998949977-45 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6NTAwNzgwLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjIzNy44NS43MCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6InRydWNjdXRpa2tra2siLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"48301533294344c3fa673082744a48b3"}
+2023-02-17 18:50:32,652 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:50:32,652 | DEBUG | qtp1998949977-43 | api command: 17
+2023-02-17 18:50:32,667 | DEBUG | qtp1998949977-43 | api User trucxgkkk login success in platform: web
+2023-02-17 18:50:32,768 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:50:32,768 | DEBUG | qtp1998949977-44 | api command: 2008
+2023-02-17 18:50:32,768 | INFO  | qtp1998949977-44 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 18:50:32,773 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:50:32,773 | DEBUG | qtp1998949977-46 | api command: 20
+2023-02-17 18:50:32,780 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:50:32,780 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 18:50:32,785 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:50:32,785 | DEBUG | qtp1998949977-43 | api command: 2031
+2023-02-17 18:50:32,941 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:50:32,941 | DEBUG | qtp1998949977-46 | api command: 2020
+2023-02-17 18:50:32,941 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:50:32,941 | DEBUG | qtp1998949977-45 | api command: 406
+2023-02-17 18:51:45,882 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:51:45,882 | DEBUG | qtp1998949977-43 | api command: 3
+2023-02-17 18:51:45,882 | DEBUG | qtp1998949977-43 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 18:51:45,884 | DEBUG | qtp1998949977-43 | api Request login: 1
+2023-02-17 18:51:45,884 | DEBUG | qtp1998949977-43 | api Request login: 2
+2023-02-17 18:51:45,887 | DEBUG | qtp1998949977-43 | api Request login: 3
+2023-02-17 18:51:45,888 | DEBUG | qtp1998949977-43 | api Request login: 4
+2023-02-17 18:51:45,888 | DEBUG | qtp1998949977-43 | api Request login: 5
+2023-02-17 18:51:45,907 | DEBUG | qtp1998949977-43 | api User trucxgkkk login success in platform: web
+2023-02-17 18:51:45,907 | DEBUG | qtp1998949977-43 | api login thanh cong: []
+2023-02-17 18:51:45,908 | DEBUG | qtp1998949977-43 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6NDUwNzgwLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjIzNy44NS43MCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6InRydWNjdXRpa2tra2siLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"a90857b3c51e28a2cc7da6556e8dc94a"}
+2023-02-17 18:51:46,043 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:51:46,043 | DEBUG | qtp1998949977-46 | api command: 17
+2023-02-17 18:51:46,056 | DEBUG | qtp1998949977-46 | api User trucxgkkk login success in platform: web
+2023-02-17 18:51:46,165 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:51:46,166 | DEBUG | qtp1998949977-45 | api command: 2031
+2023-02-17 18:51:46,167 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 18:51:46,167 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 18:51:46,167 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:51:46,167 | DEBUG | qtp1998949977-44 | api command: 20
+2023-02-17 18:51:46,167 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 18:51:46,175 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:51:46,175 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 18:51:46,191 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 18:51:46,191 | DEBUG | qtp1998949977-44 | api command: 2020
+2023-02-17 18:53:17,738 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:53:17,738 | DEBUG | qtp1998949977-45 | api command: 406
+2023-02-17 18:53:17,887 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:53:17,887 | DEBUG | qtp1998949977-42 | api command: 2020
+2023-02-17 18:56:52,957 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 18:58:47,522 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 18:58:47,522 | DEBUG | qtp1998949977-45 | api command: 406
+2023-02-17 18:58:47,747 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 18:58:47,747 | DEBUG | qtp1998949977-42 | api command: 2020
+2023-02-17 18:58:47,750 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 18:58:47,750 | DEBUG | qtp1998949977-46 | api command: 406
+2023-02-17 19:02:09,899 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:02:09,899 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:02:09,900 | DEBUG | qtp1998949977-43 | api command: 2020
+2023-02-17 19:02:09,900 | DEBUG | qtp1998949977-44 | api command: 406
+2023-02-17 19:02:25,379 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:02:25,379 | DEBUG | qtp1998949977-46 | api command: 406
+2023-02-17 19:02:25,663 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:02:25,663 | DEBUG | qtp1998949977-44 | api command: 2020
+2023-02-17 19:02:25,664 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:02:25,664 | DEBUG | qtp1998949977-43 | api command: 406
+2023-02-17 19:03:16,379 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:03:16,379 | DEBUG | qtp1998949977-46 | api command: 406
+2023-02-17 19:03:16,741 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:03:16,741 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:03:16,741 | DEBUG | qtp1998949977-43 | api command: 406
+2023-02-17 19:03:16,741 | DEBUG | qtp1998949977-42 | api command: 2020
+2023-02-17 19:03:34,912 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:03:34,912 | DEBUG | qtp1998949977-46 | api command: 406
+2023-02-17 19:03:35,293 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:03:35,293 | DEBUG | qtp1998949977-45 | api command: 2020
+2023-02-17 19:03:35,298 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:03:35,298 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 19:03:52,692 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:03:52,692 | DEBUG | qtp1998949977-43 | api command: 406
+2023-02-17 19:03:53,063 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:03:53,063 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 19:03:53,067 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:03:53,067 | DEBUG | qtp1998949977-45 | api command: 2020
+2023-02-17 19:05:33,934 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:05:33,935 | DEBUG | qtp1998949977-43 | api command: 3
+2023-02-17 19:05:33,935 | DEBUG | qtp1998949977-43 | api Request login: username: okvip3, social: null, accessToken: 
+2023-02-17 19:05:33,936 | DEBUG | qtp1998949977-43 | api Request login: 1
+2023-02-17 19:05:33,936 | DEBUG | qtp1998949977-43 | api Request login: 2
+2023-02-17 19:05:33,942 | DEBUG | qtp1998949977-43 | api Request login: 3
+2023-02-17 19:05:33,942 | DEBUG | qtp1998949977-43 | api Request login: 4
+2023-02-17 19:05:33,942 | DEBUG | qtp1998949977-43 | api Request login: 5
+2023-02-17 19:05:33,972 | DEBUG | qtp1998949977-43 | api User binne12 login success in platform: web
+2023-02-17 19:05:33,973 | DEBUG | qtp1998949977-43 | api login thanh cong: []
+2023-02-17 19:05:33,975 | DEBUG | qtp1998949977-43 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6ImJpbm5lMTIiLCJhdmF0YXIiOiIwIiwidmluVG90YWwiOjgyNzUwMCwieHVUb3RhbCI6NTAwMDAwLCJ2aXBwb2ludCI6MCwidmlwcG9pbnRTYXZlIjowLCJjcmVhdGVUaW1lIjoiMTctMDItMjAyMyIsImlwQWRkcmVzcyI6IjIwMDE6ZWUwOjc5OTU6NTU1MDpmNTljOjE5OTQ6M2YzOmY0YTQiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJva3ZpcDMiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"23d20ef3f85d658270bc5bdc0e33bd51"}
+2023-02-17 19:05:34,092 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:05:34,092 | DEBUG | qtp1998949977-42 | api command: 17
+2023-02-17 19:05:34,117 | DEBUG | qtp1998949977-42 | api User binne12 login success in platform: web
+2023-02-17 19:05:34,152 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:05:34,153 | DEBUG | qtp1998949977-45 | api command: 2020
+2023-02-17 19:05:34,232 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:05:34,233 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 19:05:34,233 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:05:34,233 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 19:05:34,233 | DEBUG | qtp1998949977-42 | api command: 2031
+2023-02-17 19:05:34,234 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:05:34,234 | DEBUG | qtp1998949977-44 | api command: 20
+2023-02-17 19:05:34,237 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:05:34,237 | DEBUG | qtp1998949977-45 | api command: 406
+2023-02-17 19:05:34,238 | INFO  | qtp1998949977-42 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 19:05:34,244 | INFO  | qtp1998949977-42 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 19:05:48,519 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:05:48,519 | DEBUG | qtp1998949977-45 | api command: 3
+2023-02-17 19:05:48,519 | DEBUG | qtp1998949977-45 | api Request login: username: okvip1, social: null, accessToken: 
+2023-02-17 19:05:48,520 | DEBUG | qtp1998949977-45 | api Request login: 1
+2023-02-17 19:05:48,520 | DEBUG | qtp1998949977-45 | api Request login: 2
+2023-02-17 19:05:48,523 | DEBUG | qtp1998949977-45 | api Request login: 3
+2023-02-17 19:05:48,524 | DEBUG | qtp1998949977-45 | api Request login: 4
+2023-02-17 19:05:48,524 | DEBUG | qtp1998949977-45 | api Request login: 5
+2023-02-17 19:05:48,538 | DEBUG | qtp1998949977-45 | api User Okvip123 login success in platform: web
+2023-02-17 19:05:48,538 | DEBUG | qtp1998949977-45 | api login thanh cong: []
+2023-02-17 19:05:48,539 | DEBUG | qtp1998949977-45 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmY1OWM6MTk5NDozZjM6ZjRhNCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6Ik9rdmlwMSIsImVtYWlsIjowLCJhZGRyZXNzIjpudWxsLCJ2ZXJpZnlNb2JpbGUiOmZhbHNlfQ==","accessToken":"15799934edc414934cbf02fecfe5325a"}
+2023-02-17 19:05:48,675 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:05:48,675 | DEBUG | qtp1998949977-43 | api command: 17
+2023-02-17 19:05:48,684 | DEBUG | qtp1998949977-43 | api User Okvip123 login success in platform: web
+2023-02-17 19:05:48,808 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:05:48,809 | DEBUG | qtp1998949977-42 | api command: 2031
+2023-02-17 19:05:48,811 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:05:48,811 | DEBUG | qtp1998949977-45 | api command: 20
+2023-02-17 19:05:48,812 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:05:48,812 | DEBUG | qtp1998949977-44 | api command: 406
+2023-02-17 19:06:05,235 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:06:05,236 | DEBUG | qtp1998949977-43 | api command: 3
+2023-02-17 19:06:05,236 | DEBUG | qtp1998949977-43 | api Request login: username: Okvip3, social: null, accessToken: 
+2023-02-17 19:06:05,243 | DEBUG | qtp1998949977-43 | api Request login: 1
+2023-02-17 19:06:05,243 | DEBUG | qtp1998949977-43 | api Request login: 2
+2023-02-17 19:06:05,251 | DEBUG | qtp1998949977-43 | api Request login: 3
+2023-02-17 19:06:05,251 | DEBUG | qtp1998949977-43 | api Request login: 4
+2023-02-17 19:06:05,251 | DEBUG | qtp1998949977-43 | api Request login: 5
+2023-02-17 19:06:05,275 | DEBUG | qtp1998949977-43 | api User binne12 login success in platform: web
+2023-02-17 19:06:05,278 | DEBUG | qtp1998949977-43 | api login thanh cong: []
+2023-02-17 19:06:05,280 | DEBUG | qtp1998949977-43 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6ImJpbm5lMTIiLCJhdmF0YXIiOiIwIiwidmluVG90YWwiOjgyNzUwMCwieHVUb3RhbCI6NTAwMDAwLCJ2aXBwb2ludCI6MCwidmlwcG9pbnRTYXZlIjowLCJjcmVhdGVUaW1lIjoiMTctMDItMjAyMyIsImlwQWRkcmVzcyI6IjIwMDE6ZWUwOjc5OTU6NTU1MDpiNWY4OjU0MDg6NTU3ZjplYmUzIiwiY2VydGlmaWNhdGUiOmZhbHNlLCJsdWNreVJvdGF0ZSI6MCwiZGFpTHkiOjAsIm1vYmlsZVNlY3VyZSI6MCwiYmlydGhkYXkiOiIiLCJhcHBTZWN1cmUiOjAsInVzZXJuYW1lIjoib2t2aXAzIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"8b0984f1c5fe27fd20da12a37e156e0b"}
+2023-02-17 19:06:05,403 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:06:05,404 | DEBUG | qtp1998949977-46 | api command: 17
+2023-02-17 19:06:05,421 | DEBUG | qtp1998949977-46 | api User binne12 login success in platform: web
+2023-02-17 19:06:05,526 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:06:05,526 | DEBUG | qtp1998949977-44 | api command: 20
+2023-02-17 19:06:05,530 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:06:05,530 | DEBUG | qtp1998949977-45 | api command: 2031
+2023-02-17 19:06:05,558 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:06:05,558 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 19:06:59,296 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:06:59,296 | DEBUG | qtp1998949977-43 | api command: 3
+2023-02-17 19:06:59,296 | DEBUG | qtp1998949977-43 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:06:59,297 | DEBUG | qtp1998949977-43 | api Request login: 1
+2023-02-17 19:06:59,297 | DEBUG | qtp1998949977-43 | api Request login: 2
+2023-02-17 19:06:59,301 | DEBUG | qtp1998949977-43 | api Request login: 3
+2023-02-17 19:06:59,301 | DEBUG | qtp1998949977-43 | api Request login: 4
+2023-02-17 19:06:59,301 | DEBUG | qtp1998949977-43 | api Request login: 5
+2023-02-17 19:06:59,315 | DEBUG | qtp1998949977-43 | api User trucxgkkk login success in platform: web
+2023-02-17 19:06:59,316 | DEBUG | qtp1998949977-43 | api login thanh cong: []
+2023-02-17 19:06:59,317 | DEBUG | qtp1998949977-43 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6MTUwNzgwLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjIzNy44NS43MCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6InRydWNjdXRpa2tra2siLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"cbe682d23eb73171d3d5f4c13f56498c"}
+2023-02-17 19:06:59,414 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:06:59,414 | DEBUG | qtp1998949977-45 | api command: 17
+2023-02-17 19:06:59,432 | DEBUG | qtp1998949977-45 | api User trucxgkkk login success in platform: web
+2023-02-17 19:06:59,453 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:06:59,454 | DEBUG | qtp1998949977-42 | api command: 2020
+2023-02-17 19:06:59,550 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:06:59,550 | DEBUG | qtp1998949977-43 | api command: 20
+2023-02-17 19:06:59,552 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:06:59,552 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:06:59,552 | DEBUG | qtp1998949977-46 | api command: 2008
+2023-02-17 19:06:59,552 | INFO  | qtp1998949977-46 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 19:06:59,552 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 19:06:59,554 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:06:59,554 | DEBUG | qtp1998949977-45 | api command: 2031
+2023-02-17 19:08:27,274 | WARN  | qtp1998949977-45 | jetty.http.HttpParser Illegal character 0x16 in state=START for buffer HeapByteBuffer@1fd9cc77[p=1,l=128,c=16384,r=127]={\x16<<<\x03\x01\x00{\x01\x00\x00w\x03\x03[\xCa\x8d\xF0\xC3\x9a\xDb...\x02\x01\x02\x03\x04\x01\x05\x01\x06\x01\xFf\x01\x00\x01\x00>>>suvip.pw\r\nX-Forwa...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2023-02-17 19:08:27,275 | WARN  | qtp1998949977-45 | jetty.http.HttpParser badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@29df11f3{r=0,c=false,a=IDLE,uri=-}
+2023-02-17 19:08:53,619 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:08:53,619 | DEBUG | qtp1998949977-46 | api command: 406
+2023-02-17 19:08:53,892 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:08:53,892 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 19:08:53,900 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:08:53,900 | DEBUG | qtp1998949977-43 | api command: 2020
+2023-02-17 19:12:33,269 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:12:33,271 | DEBUG | qtp1998949977-46 | api command: 3
+2023-02-17 19:12:33,271 | DEBUG | qtp1998949977-46 | api Request login: username: Okvip3, social: null, accessToken: 
+2023-02-17 19:12:33,272 | DEBUG | qtp1998949977-46 | api Request login: 1
+2023-02-17 19:12:33,272 | DEBUG | qtp1998949977-46 | api Request login: 2
+2023-02-17 19:12:33,292 | DEBUG | qtp1998949977-46 | api Request login: 3
+2023-02-17 19:12:33,292 | DEBUG | qtp1998949977-46 | api Request login: 4
+2023-02-17 19:12:33,292 | DEBUG | qtp1998949977-46 | api Request login: 5
+2023-02-17 19:12:33,307 | DEBUG | qtp1998949977-46 | api User binne12 login success in platform: web
+2023-02-17 19:12:33,308 | DEBUG | qtp1998949977-46 | api login thanh cong: []
+2023-02-17 19:12:33,313 | DEBUG | qtp1998949977-46 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6ImJpbm5lMTIiLCJhdmF0YXIiOiIwIiwidmluVG90YWwiOjIzOTgwOTUsInh1VG90YWwiOjUwMDAwMCwidmlwcG9pbnQiOjAsInZpcHBvaW50U2F2ZSI6MCwiY3JlYXRlVGltZSI6IjE3LTAyLTIwMjMiLCJpcEFkZHJlc3MiOiIyMDAxOmVlMDo3OTk1OjU1NTA6YjVmODo1NDA4OjU1N2Y6ZWJlMyIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6Im9rdmlwMyIsImVtYWlsIjowLCJhZGRyZXNzIjpudWxsLCJ2ZXJpZnlNb2JpbGUiOmZhbHNlfQ==","accessToken":"284375e2d14bfe17c1eef7641ce4f316"}
+2023-02-17 19:12:33,427 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:12:33,427 | DEBUG | qtp1998949977-43 | api command: 17
+2023-02-17 19:12:33,447 | DEBUG | qtp1998949977-43 | api User binne12 login success in platform: web
+2023-02-17 19:12:33,497 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:12:33,497 | DEBUG | qtp1998949977-44 | api command: 2020
+2023-02-17 19:12:33,618 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:12:33,618 | DEBUG | qtp1998949977-42 | api command: 2008
+2023-02-17 19:12:33,618 | INFO  | qtp1998949977-42 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 19:12:33,622 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:12:33,622 | DEBUG | qtp1998949977-43 | api command: 20
+2023-02-17 19:12:33,623 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:12:33,623 | DEBUG | qtp1998949977-45 | api command: 406
+2023-02-17 19:12:33,626 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:12:33,626 | DEBUG | qtp1998949977-44 | api command: 2031
+2023-02-17 19:12:59,665 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:12:59,665 | DEBUG | qtp1998949977-46 | api command: 3
+2023-02-17 19:12:59,665 | DEBUG | qtp1998949977-46 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:12:59,666 | DEBUG | qtp1998949977-46 | api Request login: 1
+2023-02-17 19:12:59,666 | DEBUG | qtp1998949977-46 | api Request login: 2
+2023-02-17 19:12:59,669 | DEBUG | qtp1998949977-46 | api Request login: 3
+2023-02-17 19:12:59,669 | DEBUG | qtp1998949977-46 | api Request login: 4
+2023-02-17 19:12:59,669 | DEBUG | qtp1998949977-46 | api Request login: 5
+2023-02-17 19:12:59,681 | DEBUG | qtp1998949977-46 | api User trucxgkkk login success in platform: web
+2023-02-17 19:12:59,682 | DEBUG | qtp1998949977-46 | api login thanh cong: []
+2023-02-17 19:12:59,682 | DEBUG | qtp1998949977-46 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6MjAwMzAwLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjIzNy44NS43MCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6InRydWNjdXRpa2tra2siLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"98fd1f8a0af56f7631065ff61229cc90"}
+2023-02-17 19:12:59,802 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:12:59,803 | DEBUG | qtp1998949977-42 | api command: 17
+2023-02-17 19:12:59,817 | DEBUG | qtp1998949977-42 | api User trucxgkkk login success in platform: web
+2023-02-17 19:12:59,847 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:12:59,848 | DEBUG | qtp1998949977-43 | api command: 2020
+2023-02-17 19:12:59,923 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:12:59,923 | DEBUG | qtp1998949977-46 | api command: 2031
+2023-02-17 19:12:59,924 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:12:59,924 | DEBUG | qtp1998949977-45 | api command: 406
+2023-02-17 19:12:59,926 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:12:59,926 | DEBUG | qtp1998949977-42 | api command: 2008
+2023-02-17 19:12:59,927 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:12:59,927 | DEBUG | qtp1998949977-44 | api command: 20
+2023-02-17 19:12:59,929 | INFO  | qtp1998949977-42 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 19:16:17,369 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:16:17,370 | DEBUG | qtp1998949977-44 | api command: 3
+2023-02-17 19:16:17,370 | DEBUG | qtp1998949977-44 | api Request login: username: okvip1, social: null, accessToken: 
+2023-02-17 19:16:17,371 | DEBUG | qtp1998949977-44 | api Request login: 1
+2023-02-17 19:16:17,371 | DEBUG | qtp1998949977-44 | api Request login: 2
+2023-02-17 19:16:17,375 | DEBUG | qtp1998949977-44 | api Request login: 3
+2023-02-17 19:16:17,375 | DEBUG | qtp1998949977-44 | api Request login: 4
+2023-02-17 19:16:17,375 | DEBUG | qtp1998949977-44 | api Request login: 5
+2023-02-17 19:16:17,394 | DEBUG | qtp1998949977-44 | api User Okvip123 login success in platform: web
+2023-02-17 19:16:17,395 | DEBUG | qtp1998949977-44 | api login thanh cong: []
+2023-02-17 19:16:17,396 | DEBUG | qtp1998949977-44 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmY1OWM6MTk5NDozZjM6ZjRhNCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6Ik9rdmlwMSIsImVtYWlsIjowLCJhZGRyZXNzIjpudWxsLCJ2ZXJpZnlNb2JpbGUiOmZhbHNlfQ==","accessToken":"16a826ff4e6d96451541b427ac2ca1d8"}
+2023-02-17 19:16:17,518 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:16:17,518 | DEBUG | qtp1998949977-46 | api command: 17
+2023-02-17 19:16:17,537 | DEBUG | qtp1998949977-46 | api User Okvip123 login success in platform: web
+2023-02-17 19:16:17,619 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:16:17,619 | DEBUG | qtp1998949977-45 | api command: 2020
+2023-02-17 19:16:17,717 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:16:17,717 | DEBUG | qtp1998949977-42 | api command: 20
+2023-02-17 19:16:17,722 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:16:17,722 | DEBUG | qtp1998949977-43 | api command: 2031
+2023-02-17 19:16:17,722 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:16:17,728 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:16:17,730 | DEBUG | qtp1998949977-46 | api command: 2008
+2023-02-17 19:16:17,730 | DEBUG | qtp1998949977-44 | api command: 406
+2023-02-17 19:16:17,730 | INFO  | qtp1998949977-46 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= Okvip123, bankName: null, bankNumber: null
+2023-02-17 19:17:19,199 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:17:19,200 | DEBUG | qtp1998949977-45 | api command: 101
+2023-02-17 19:17:19,206 | DEBUG | qtp1998949977-45 | vbee TopWinTXProcessor1 : md5: 1
+2023-02-17 19:17:19,219 | DEBUG | qtp1998949977-45 | vbee TopWinTXProcessor2 : md5: 1
+2023-02-17 19:17:19,228 | DEBUG | qtp1998949977-45 | vbee TopWinTXProcessor3 : md5: 1
+2023-02-17 19:18:47,740 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:18:47,740 | DEBUG | qtp1998949977-42 | api command: 3
+2023-02-17 19:18:47,741 | DEBUG | qtp1998949977-42 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:18:47,743 | DEBUG | qtp1998949977-42 | api Request login: 1
+2023-02-17 19:18:47,743 | DEBUG | qtp1998949977-42 | api Request login: 2
+2023-02-17 19:18:47,747 | DEBUG | qtp1998949977-42 | api Request login: 3
+2023-02-17 19:18:47,748 | DEBUG | qtp1998949977-42 | api Request login: 4
+2023-02-17 19:18:47,748 | DEBUG | qtp1998949977-42 | api Request login: 5
+2023-02-17 19:18:47,764 | DEBUG | qtp1998949977-42 | api User trucxgkkk login success in platform: web
+2023-02-17 19:18:47,765 | DEBUG | qtp1998949977-42 | api login thanh cong: []
+2023-02-17 19:18:47,766 | DEBUG | qtp1998949977-42 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6MTA5ODAwLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjIzNy44NS43MCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6InRydWNjdXRpa2tra2siLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"478a7ba4a9182de322af8d3ad1ef9138"}
+2023-02-17 19:18:47,853 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:18:47,853 | DEBUG | qtp1998949977-44 | api command: 2020
+2023-02-17 19:18:48,068 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:18:48,068 | DEBUG | qtp1998949977-45 | api command: 17
+2023-02-17 19:18:48,081 | DEBUG | qtp1998949977-45 | api User trucxgkkk login success in platform: web
+2023-02-17 19:18:48,294 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:18:48,294 | DEBUG | qtp1998949977-44 | api command: 406
+2023-02-17 19:18:48,294 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:18:48,294 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 19:18:48,294 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:18:48,295 | DEBUG | qtp1998949977-46 | api command: 2031
+2023-02-17 19:18:48,295 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 19:18:48,304 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:18:48,304 | DEBUG | qtp1998949977-45 | api command: 20
+2023-02-17 19:20:38,012 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 19:22:35,044 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:22:35,045 | DEBUG | qtp1998949977-44 | api command: 3
+2023-02-17 19:22:35,045 | DEBUG | qtp1998949977-44 | api Request login: username: okvip1, social: null, accessToken: 
+2023-02-17 19:22:35,047 | DEBUG | qtp1998949977-44 | api Request login: 1
+2023-02-17 19:22:35,047 | DEBUG | qtp1998949977-44 | api Request login: 2
+2023-02-17 19:22:35,052 | DEBUG | qtp1998949977-44 | api Request login: 3
+2023-02-17 19:22:35,052 | DEBUG | qtp1998949977-44 | api Request login: 4
+2023-02-17 19:22:35,052 | DEBUG | qtp1998949977-44 | api Request login: 5
+2023-02-17 19:22:35,069 | DEBUG | qtp1998949977-44 | api User Okvip123 login success in platform: web
+2023-02-17 19:22:35,071 | DEBUG | qtp1998949977-44 | api login thanh cong: []
+2023-02-17 19:22:35,072 | DEBUG | qtp1998949977-44 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Ik9rdmlwMTIzIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjowLCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxMy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMjAwMTplZTA6Nzk5NTo1NTUwOmY1OWM6MTk5NDozZjM6ZjRhNCIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6Ik9rdmlwMSIsImVtYWlsIjowLCJhZGRyZXNzIjpudWxsLCJ2ZXJpZnlNb2JpbGUiOmZhbHNlfQ==","accessToken":"0eba6b4b8da9616f430ddad67d9c1fde"}
+2023-02-17 19:22:35,165 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:22:35,165 | DEBUG | qtp1998949977-43 | api command: 17
+2023-02-17 19:22:35,177 | DEBUG | qtp1998949977-43 | api User Okvip123 login success in platform: web
+2023-02-17 19:22:35,244 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:22:35,245 | DEBUG | qtp1998949977-45 | api command: 2020
+2023-02-17 19:22:35,288 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:22:35,288 | DEBUG | qtp1998949977-46 | api command: 2031
+2023-02-17 19:22:35,290 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:22:35,290 | DEBUG | qtp1998949977-43 | api command: 406
+2023-02-17 19:22:35,291 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:22:35,291 | DEBUG | qtp1998949977-44 | api command: 20
+2023-02-17 19:22:35,296 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:22:35,296 | DEBUG | qtp1998949977-42 | api command: 2008
+2023-02-17 19:22:35,296 | INFO  | qtp1998949977-42 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= Okvip123, bankName: null, bankNumber: null
+2023-02-17 19:28:38,948 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:28:38,948 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:28:38,948 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:28:38,949 | DEBUG | qtp1998949977-45 | api command: 2002
+2023-02-17 19:28:38,949 | DEBUG | qtp1998949977-44 | api command: 406
+2023-02-17 19:28:38,949 | DEBUG | qtp1998949977-43 | api command: 130
+2023-02-17 19:28:38,949 | INFO  | qtp1998949977-45 | api Request GetPaymentConfig: nickName: binne12, accessToken: a57bd50f9cd3e083ed461e92df10016a, paymentType: 1
+2023-02-17 19:28:46,138 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:28:46,139 | DEBUG | qtp1998949977-45 | api command: 2020
+2023-02-17 19:28:46,138 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:28:46,139 | DEBUG | qtp1998949977-43 | api command: 3
+2023-02-17 19:28:46,139 | DEBUG | qtp1998949977-43 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:28:46,140 | DEBUG | qtp1998949977-43 | api Request login: 1
+2023-02-17 19:28:46,140 | DEBUG | qtp1998949977-43 | api Request login: 2
+2023-02-17 19:28:46,144 | DEBUG | qtp1998949977-43 | api Request login: 3
+2023-02-17 19:28:46,144 | DEBUG | qtp1998949977-43 | api Request login: 4
+2023-02-17 19:28:46,144 | DEBUG | qtp1998949977-43 | api Request login: 5
+2023-02-17 19:28:46,161 | DEBUG | qtp1998949977-43 | api User trucxgkkk login success in platform: web
+2023-02-17 19:28:46,162 | DEBUG | qtp1998949977-43 | api login thanh cong: []
+2023-02-17 19:28:46,162 | DEBUG | qtp1998949977-43 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6NTA4MDAsInh1VG90YWwiOjUwMDAwMCwidmlwcG9pbnQiOjAsInZpcHBvaW50U2F2ZSI6MCwiY3JlYXRlVGltZSI6IjE3LTAyLTIwMjMiLCJpcEFkZHJlc3MiOiIxNzEuMjM3Ljg1LjcwIiwiY2VydGlmaWNhdGUiOmZhbHNlLCJsdWNreVJvdGF0ZSI6MCwiZGFpTHkiOjAsIm1vYmlsZVNlY3VyZSI6MCwiYmlydGhkYXkiOiIiLCJhcHBTZWN1cmUiOjAsInVzZXJuYW1lIjoidHJ1Y2N1dGlra2trayIsImVtYWlsIjowLCJhZGRyZXNzIjpudWxsLCJ2ZXJpZnlNb2JpbGUiOmZhbHNlfQ==","accessToken":"00de509d3f9e3bdb0831ec6caa03a345"}
+2023-02-17 19:28:46,298 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:28:46,299 | DEBUG | qtp1998949977-46 | api command: 17
+2023-02-17 19:28:46,314 | DEBUG | qtp1998949977-46 | api User trucxgkkk login success in platform: web
+2023-02-17 19:28:46,435 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:28:46,436 | DEBUG | qtp1998949977-42 | api command: 2008
+2023-02-17 19:28:46,436 | INFO  | qtp1998949977-42 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 19:28:46,436 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:28:46,436 | DEBUG | qtp1998949977-43 | api command: 2031
+2023-02-17 19:28:46,438 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:28:46,438 | DEBUG | qtp1998949977-44 | api command: 20
+2023-02-17 19:28:46,445 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:28:46,445 | DEBUG | qtp1998949977-46 | api command: 406
+2023-02-17 19:32:42,426 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:32:42,431 | DEBUG | qtp1998949977-46 | api command: 2020
+2023-02-17 19:32:50,393 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:32:50,393 | DEBUG | qtp1998949977-46 | api command: 3
+2023-02-17 19:32:50,394 | DEBUG | qtp1998949977-46 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:32:50,395 | DEBUG | qtp1998949977-46 | api Request login: 1
+2023-02-17 19:32:50,395 | DEBUG | qtp1998949977-46 | api Request login: 2
+2023-02-17 19:32:50,399 | DEBUG | qtp1998949977-46 | api Request login: 3
+2023-02-17 19:32:50,399 | DEBUG | qtp1998949977-46 | api Request login: 4
+2023-02-17 19:32:50,399 | DEBUG | qtp1998949977-46 | api Request login: 5
+2023-02-17 19:32:50,421 | DEBUG | qtp1998949977-46 | api User trucxgkkk login success in platform: web
+2023-02-17 19:32:50,422 | DEBUG | qtp1998949977-46 | api login thanh cong: []
+2023-02-17 19:32:50,422 | DEBUG | qtp1998949977-46 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6MTEzOTY4OSwieHVUb3RhbCI6NTAwMDAwLCJ2aXBwb2ludCI6MCwidmlwcG9pbnRTYXZlIjowLCJjcmVhdGVUaW1lIjoiMTctMDItMjAyMyIsImlwQWRkcmVzcyI6IjE3MS4yMzcuODUuNzAiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJ0cnVjY3V0aWtra2trIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"feb200aea3e87173f9cc6cd113909a17"}
+2023-02-17 19:32:50,519 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:32:50,520 | DEBUG | qtp1998949977-42 | api command: 2020
+2023-02-17 19:32:50,588 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:32:50,588 | DEBUG | qtp1998949977-43 | api command: 17
+2023-02-17 19:32:50,600 | DEBUG | qtp1998949977-43 | api User trucxgkkk login success in platform: web
+2023-02-17 19:32:50,738 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:32:50,738 | DEBUG | qtp1998949977-44 | api command: 2008
+2023-02-17 19:32:50,738 | INFO  | qtp1998949977-44 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 19:32:50,739 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:32:50,739 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 19:32:50,739 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:32:50,740 | DEBUG | qtp1998949977-45 | api command: 20
+2023-02-17 19:32:50,740 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:32:50,740 | DEBUG | qtp1998949977-43 | api command: 2031
+2023-02-17 19:33:24,092 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:33:24,092 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:33:24,093 | DEBUG | qtp1998949977-42 | api command: 2008
+2023-02-17 19:33:24,092 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:33:24,093 | INFO  | qtp1998949977-42 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 19:33:24,093 | DEBUG | qtp1998949977-43 | api command: 2011
+2023-02-17 19:33:24,093 | DEBUG | qtp1998949977-46 | api command: 406
+2023-02-17 19:34:46,065 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:34:46,066 | DEBUG | qtp1998949977-42 | api command: 2007
+2023-02-17 19:34:46,066 | INFO  | qtp1998949977-42 | processors.payment.InsertOrUpdateBankProcessor Request InsertOrUpdateBankProcessor nickName= binne12, bankName: MariTimeBank, customerName: PHAM THANH BINH, bankNumber: 992202059999, branch: NB
+2023-02-17 19:34:46,413 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:34:46,413 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 19:34:46,413 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 19:34:57,831 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:34:57,831 | DEBUG | qtp1998949977-42 | api command: 2008
+2023-02-17 19:34:57,831 | INFO  | qtp1998949977-42 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 19:35:17,820 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:35:17,820 | DEBUG | qtp1998949977-43 | api command: 2010
+2023-02-17 19:35:17,822 | INFO  | qtp1998949977-43 | api Withdraw request nickName: binne12, accessToken: a57bd50f9cd3e083ed461e92df10016a,ipaddress=2001:ee0:7995:5550:b5f8:5408:557f:ebe3
+2023-02-17 19:35:31,842 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:35:31,844 | DEBUG | qtp1998949977-46 | api command: 302
+2023-02-17 19:35:38,067 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:35:38,067 | DEBUG | qtp1998949977-45 | api command: 2016
+2023-02-17 19:35:38,068 | INFO  | qtp1998949977-45 | api.processors.DepositHistory4UserplayProcessor Request payment history nickname= binne12, status: -1, page: 1, maxItem: 5, fromTime: null, endTime: null, accessToken: a57bd50f9cd3e083ed461e92df10016a, transactionType: 0
+2023-02-17 19:35:38,110 | ERROR | qtp1998949977-45 | dao.impl.RechargePaygateDaoImpl FindTransaction 1  0
+2023-02-17 19:35:38,112 | ERROR | qtp1998949977-45 | dao.impl.RechargePaygateDaoImpl FindTransaction the  Document{{$limit=5}} 5
+2023-02-17 19:35:38,115 | ERROR | qtp1998949977-45 | dao.impl.RechargePaygateDaoImpl FindTransaction 2  0
+2023-02-17 19:35:38,835 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:35:38,836 | DEBUG | qtp1998949977-44 | api command: 2016
+2023-02-17 19:35:38,836 | INFO  | qtp1998949977-44 | api.processors.DepositHistory4UserplayProcessor Request payment history nickname= binne12, status: -1, page: 1, maxItem: 5, fromTime: null, endTime: null, accessToken: a57bd50f9cd3e083ed461e92df10016a, transactionType: 1
+2023-02-17 19:38:03,763 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:38:03,764 | DEBUG | qtp1998949977-46 | api command: 3
+2023-02-17 19:38:03,764 | DEBUG | qtp1998949977-46 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:38:03,766 | DEBUG | qtp1998949977-46 | api Request login: 1
+2023-02-17 19:38:03,766 | DEBUG | qtp1998949977-46 | api Request login: 2
+2023-02-17 19:38:03,773 | DEBUG | qtp1998949977-46 | api Request login: 3
+2023-02-17 19:38:03,773 | DEBUG | qtp1998949977-46 | api Request login: 4
+2023-02-17 19:38:03,773 | DEBUG | qtp1998949977-46 | api Request login: 5
+2023-02-17 19:38:03,787 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:38:03,787 | DEBUG | qtp1998949977-42 | api command: 2020
+2023-02-17 19:38:03,807 | DEBUG | qtp1998949977-46 | api User trucxgkkk login success in platform: web
+2023-02-17 19:38:03,807 | DEBUG | qtp1998949977-46 | api login thanh cong: []
+2023-02-17 19:38:03,808 | DEBUG | qtp1998949977-46 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6MTEzOTY4OSwieHVUb3RhbCI6NTAwMDAwLCJ2aXBwb2ludCI6MCwidmlwcG9pbnRTYXZlIjowLCJjcmVhdGVUaW1lIjoiMTctMDItMjAyMyIsImlwQWRkcmVzcyI6IjE3MS4yMzcuODUuNzAiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJ0cnVjY3V0aWtra2trIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"2af1f3c6676d7a9879f66fff1ea5845c"}
+2023-02-17 19:38:04,046 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:38:04,046 | DEBUG | qtp1998949977-44 | api command: 17
+2023-02-17 19:38:04,058 | DEBUG | qtp1998949977-44 | api User trucxgkkk login success in platform: web
+2023-02-17 19:38:04,455 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:38:04,455 | DEBUG | qtp1998949977-45 | api command: 2031
+2023-02-17 19:38:04,456 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:38:04,456 | DEBUG | qtp1998949977-46 | api command: 406
+2023-02-17 19:38:04,457 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:38:04,457 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 19:38:04,457 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 19:38:04,465 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:38:04,465 | DEBUG | qtp1998949977-42 | api command: 20
+2023-02-17 19:38:47,174 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:38:47,175 | DEBUG | qtp1998949977-42 | api command: 3
+2023-02-17 19:38:47,175 | DEBUG | qtp1998949977-42 | api Request login: username: Okvip3, social: null, accessToken: 
+2023-02-17 19:38:47,177 | DEBUG | qtp1998949977-42 | api Request login: 1
+2023-02-17 19:38:47,177 | DEBUG | qtp1998949977-42 | api Request login: 2
+2023-02-17 19:38:47,179 | DEBUG | qtp1998949977-42 | api Request login: 3
+2023-02-17 19:38:47,179 | DEBUG | qtp1998949977-42 | api Request login: 4
+2023-02-17 19:38:47,179 | DEBUG | qtp1998949977-42 | api Request login: 5
+2023-02-17 19:38:47,195 | DEBUG | qtp1998949977-42 | api User binne12 login success in platform: web
+2023-02-17 19:38:47,196 | DEBUG | qtp1998949977-42 | api login thanh cong: []
+2023-02-17 19:38:47,197 | DEBUG | qtp1998949977-42 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6ImJpbm5lMTIiLCJhdmF0YXIiOiIwIiwidmluVG90YWwiOjI3NTc2NDIsInh1VG90YWwiOjUwMDAwMCwidmlwcG9pbnQiOjAsInZpcHBvaW50U2F2ZSI6MCwiY3JlYXRlVGltZSI6IjE3LTAyLTIwMjMiLCJpcEFkZHJlc3MiOiIyMDAxOmVlMDo3OTk1OjU1NTA6YjVmODo1NDA4OjU1N2Y6ZWJlMyIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6Im9rdmlwMyIsImVtYWlsIjowLCJhZGRyZXNzIjpudWxsLCJ2ZXJpZnlNb2JpbGUiOmZhbHNlfQ==","accessToken":"44c94aed2765c49869e05e7d5e282d08"}
+2023-02-17 19:38:47,273 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:38:47,273 | DEBUG | qtp1998949977-45 | api command: 2020
+2023-02-17 19:38:47,354 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:38:47,355 | DEBUG | qtp1998949977-43 | api command: 17
+2023-02-17 19:38:47,377 | DEBUG | qtp1998949977-43 | api User binne12 login success in platform: web
+2023-02-17 19:38:47,504 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:38:47,504 | DEBUG | qtp1998949977-46 | api command: 2008
+2023-02-17 19:38:47,504 | INFO  | qtp1998949977-46 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 19:38:47,508 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:38:47,508 | DEBUG | qtp1998949977-42 | api command: 20
+2023-02-17 19:38:47,511 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:38:47,511 | DEBUG | qtp1998949977-45 | api command: 2031
+2023-02-17 19:38:47,515 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:38:47,515 | DEBUG | qtp1998949977-43 | api command: 406
+2023-02-17 19:38:57,998 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:38:57,998 | DEBUG | qtp1998949977-46 | api command: 3
+2023-02-17 19:38:57,999 | DEBUG | qtp1998949977-46 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:38:58,003 | DEBUG | qtp1998949977-46 | api Request login: 1
+2023-02-17 19:38:58,003 | DEBUG | qtp1998949977-46 | api Request login: 2
+2023-02-17 19:38:58,009 | DEBUG | qtp1998949977-46 | api Request login: 3
+2023-02-17 19:38:58,010 | DEBUG | qtp1998949977-46 | api Request login: 4
+2023-02-17 19:38:58,010 | DEBUG | qtp1998949977-46 | api Request login: 5
+2023-02-17 19:38:58,022 | DEBUG | qtp1998949977-46 | api User trucxgkkk login success in platform: web
+2023-02-17 19:38:58,023 | DEBUG | qtp1998949977-46 | api login thanh cong: []
+2023-02-17 19:38:58,024 | DEBUG | qtp1998949977-46 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6MTEzOTY4OSwieHVUb3RhbCI6NTAwMDAwLCJ2aXBwb2ludCI6MCwidmlwcG9pbnRTYXZlIjowLCJjcmVhdGVUaW1lIjoiMTctMDItMjAyMyIsImlwQWRkcmVzcyI6IjE3MS4yMzcuODUuNzAiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJ0cnVjY3V0aWtra2trIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"6804b2f2cde4a5438886506faf2bb571"}
+2023-02-17 19:38:58,286 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:38:58,286 | DEBUG | qtp1998949977-42 | api command: 17
+2023-02-17 19:38:58,298 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:38:58,299 | DEBUG | qtp1998949977-43 | api command: 2020
+2023-02-17 19:38:58,308 | DEBUG | qtp1998949977-42 | api User trucxgkkk login success in platform: web
+2023-02-17 19:38:58,458 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:38:58,462 | DEBUG | qtp1998949977-46 | api command: 2031
+2023-02-17 19:38:58,462 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:38:58,462 | DEBUG | qtp1998949977-45 | api command: 406
+2023-02-17 19:38:58,465 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:38:58,465 | DEBUG | qtp1998949977-44 | api command: 2008
+2023-02-17 19:38:58,465 | INFO  | qtp1998949977-44 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 19:38:58,466 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:38:58,466 | DEBUG | qtp1998949977-43 | api command: 20
+2023-02-17 19:39:35,138 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:39:35,139 | DEBUG | qtp1998949977-45 | api command: 3
+2023-02-17 19:39:35,139 | DEBUG | qtp1998949977-45 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:39:35,140 | DEBUG | qtp1998949977-45 | api Request login: 1
+2023-02-17 19:39:35,140 | DEBUG | qtp1998949977-45 | api Request login: 2
+2023-02-17 19:39:35,143 | DEBUG | qtp1998949977-45 | api Request login: 3
+2023-02-17 19:39:35,143 | DEBUG | qtp1998949977-45 | api Request login: 4
+2023-02-17 19:39:35,143 | DEBUG | qtp1998949977-45 | api Request login: 5
+2023-02-17 19:39:35,160 | DEBUG | qtp1998949977-45 | api User trucxgkkk login success in platform: web
+2023-02-17 19:39:35,161 | DEBUG | qtp1998949977-45 | api login thanh cong: []
+2023-02-17 19:39:35,162 | DEBUG | qtp1998949977-45 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6MTEzOTY4OSwieHVUb3RhbCI6NTAwMDAwLCJ2aXBwb2ludCI6MCwidmlwcG9pbnRTYXZlIjowLCJjcmVhdGVUaW1lIjoiMTctMDItMjAyMyIsImlwQWRkcmVzcyI6IjE3MS4yMzcuODUuNzAiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJ0cnVjY3V0aWtra2trIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"045f8df46e2e8520ab2457239fbc181d"}
+2023-02-17 19:39:35,410 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:39:35,410 | DEBUG | qtp1998949977-46 | api command: 2020
+2023-02-17 19:39:35,562 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:39:35,562 | DEBUG | qtp1998949977-44 | api command: 17
+2023-02-17 19:39:35,572 | DEBUG | qtp1998949977-44 | api User trucxgkkk login success in platform: web
+2023-02-17 19:39:35,705 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:39:35,705 | DEBUG | qtp1998949977-42 | api command: 2031
+2023-02-17 19:39:35,705 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:39:35,705 | DEBUG | qtp1998949977-46 | api command: 406
+2023-02-17 19:39:35,706 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:39:35,706 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 19:39:35,706 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 19:39:35,714 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:39:35,715 | DEBUG | qtp1998949977-45 | api command: 20
+2023-02-17 19:47:56,096 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:47:56,097 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 19:47:56,097 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 19:48:01,859 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:48:01,859 | DEBUG | qtp1998949977-44 | api command: 2008
+2023-02-17 19:48:01,859 | INFO  | qtp1998949977-44 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 19:48:04,301 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:48:04,302 | DEBUG | qtp1998949977-45 | api command: 302
+2023-02-17 19:48:07,273 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:48:07,273 | DEBUG | qtp1998949977-42 | api command: 2016
+2023-02-17 19:48:07,273 | INFO  | qtp1998949977-42 | api.processors.DepositHistory4UserplayProcessor Request payment history nickname= binne12, status: -1, page: 1, maxItem: 5, fromTime: null, endTime: null, accessToken: 195e859684b05d67211504ebd723abc8, transactionType: 1
+2023-02-17 19:51:30,104 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:51:30,104 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:51:30,105 | DEBUG | qtp1998949977-46 | api command: 2020
+2023-02-17 19:51:30,105 | DEBUG | qtp1998949977-44 | api command: 3
+2023-02-17 19:51:30,105 | DEBUG | qtp1998949977-44 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:51:30,107 | DEBUG | qtp1998949977-44 | api Request login: 1
+2023-02-17 19:51:30,107 | DEBUG | qtp1998949977-44 | api Request login: 2
+2023-02-17 19:51:30,125 | DEBUG | qtp1998949977-44 | api com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 714,414 milliseconds ago.  The last packet sent successfully to the server was 15 milliseconds ago.
+2023-02-17 19:51:30,126 | DEBUG | qtp1998949977-44 | api login thanh cong: []
+2023-02-17 19:51:30,128 | DEBUG | qtp1998949977-44 | api Response login: {"success":false,"message":null,"errorCode":"1001","data":null,"sessionKey":null,"accessToken":null}
+2023-02-17 19:51:30,128 | INFO  | qtp1998949977-46 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 19:51:30,128 | INFO  | qtp1998949977-46 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Removed invalid item from pool
+2023-02-17 19:51:30,128 | INFO  | qtp1998949977-46 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 19:51:30,133 | INFO  | qtp1998949977-46 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 19:51:34,354 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:51:34,354 | DEBUG | qtp1998949977-42 | api command: 3
+2023-02-17 19:51:34,354 | DEBUG | qtp1998949977-42 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:51:34,356 | DEBUG | qtp1998949977-42 | api Request login: 1
+2023-02-17 19:51:34,356 | DEBUG | qtp1998949977-42 | api Request login: 2
+2023-02-17 19:51:34,361 | DEBUG | qtp1998949977-42 | api Request login: 3
+2023-02-17 19:51:34,361 | DEBUG | qtp1998949977-42 | api Request login: 4
+2023-02-17 19:51:34,361 | DEBUG | qtp1998949977-42 | api Request login: 5
+2023-02-17 19:51:34,393 | DEBUG | qtp1998949977-42 | api User trucxgkkk login success in platform: web
+2023-02-17 19:51:34,394 | DEBUG | qtp1998949977-42 | api login thanh cong: []
+2023-02-17 19:51:34,394 | DEBUG | qtp1998949977-42 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6MzMxMTY5LCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjI1NS42Ny4yMDMiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJ0cnVjY3V0aWtra2trIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"0427dca7f86d6723889e70723e5c5b94"}
+2023-02-17 19:51:34,532 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:51:34,532 | DEBUG | qtp1998949977-45 | api command: 17
+2023-02-17 19:51:34,556 | DEBUG | qtp1998949977-45 | api User trucxgkkk login success in platform: web
+2023-02-17 19:51:34,684 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:51:34,684 | DEBUG | qtp1998949977-43 | api command: 2031
+2023-02-17 19:51:34,694 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:51:34,694 | DEBUG | qtp1998949977-42 | api command: 20
+2023-02-17 19:51:34,696 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:51:34,696 | DEBUG | qtp1998949977-44 | api command: 406
+2023-02-17 19:51:34,697 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:51:34,697 | DEBUG | qtp1998949977-45 | api command: 2008
+2023-02-17 19:51:34,697 | INFO  | qtp1998949977-45 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 19:51:34,698 | INFO  | qtp1998949977-45 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-17 19:51:34,705 | INFO  | qtp1998949977-45 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-17 19:52:00,226 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:52:00,226 | DEBUG | qtp1998949977-46 | api command: 2008
+2023-02-17 19:52:00,227 | INFO  | qtp1998949977-46 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 19:52:00,326 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:52:00,326 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 19:52:00,326 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 19:52:04,799 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:52:04,799 | DEBUG | qtp1998949977-44 | api command: 2008
+2023-02-17 19:52:04,799 | INFO  | qtp1998949977-44 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= binne12, bankName: null, bankNumber: null
+2023-02-17 19:52:06,047 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:52:06,047 | DEBUG | qtp1998949977-46 | api command: 302
+2023-02-17 19:52:10,171 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:52:10,171 | DEBUG | qtp1998949977-42 | api command: 2016
+2023-02-17 19:52:10,171 | INFO  | qtp1998949977-42 | api.processors.DepositHistory4UserplayProcessor Request payment history nickname= binne12, status: -1, page: 1, maxItem: 5, fromTime: null, endTime: null, accessToken: 195e859684b05d67211504ebd723abc8, transactionType: 1
+2023-02-17 19:53:21,488 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:53:21,488 | DEBUG | qtp1998949977-44 | api command: 3
+2023-02-17 19:53:21,488 | DEBUG | qtp1998949977-44 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:53:21,490 | DEBUG | qtp1998949977-44 | api Request login: 1
+2023-02-17 19:53:21,490 | DEBUG | qtp1998949977-44 | api Request login: 2
+2023-02-17 19:53:21,495 | DEBUG | qtp1998949977-44 | api Request login: 3
+2023-02-17 19:53:21,495 | DEBUG | qtp1998949977-44 | api Request login: 4
+2023-02-17 19:53:21,495 | DEBUG | qtp1998949977-44 | api Request login: 5
+2023-02-17 19:53:21,510 | DEBUG | qtp1998949977-44 | api User trucxgkkk login success in platform: web
+2023-02-17 19:53:21,511 | DEBUG | qtp1998949977-44 | api login thanh cong: []
+2023-02-17 19:53:21,512 | DEBUG | qtp1998949977-44 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6NDcwNjY5LCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjI1NS42Ny4yMDMiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJ0cnVjY3V0aWtra2trIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"b2b847837ee974d71a582729bca8ed43"}
+2023-02-17 19:53:21,759 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:53:21,759 | DEBUG | qtp1998949977-45 | api command: 17
+2023-02-17 19:53:21,770 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:53:21,771 | DEBUG | qtp1998949977-46 | api command: 2020
+2023-02-17 19:53:21,772 | DEBUG | qtp1998949977-45 | api User trucxgkkk login success in platform: web
+2023-02-17 19:53:21,918 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:53:21,919 | DEBUG | qtp1998949977-44 | api command: 2031
+2023-02-17 19:53:21,919 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:53:21,919 | DEBUG | qtp1998949977-45 | api command: 20
+2023-02-17 19:53:21,927 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:53:21,927 | DEBUG | qtp1998949977-46 | api command: 2008
+2023-02-17 19:53:21,928 | INFO  | qtp1998949977-46 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 19:53:21,931 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:53:21,931 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 19:53:46,164 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:53:46,165 | DEBUG | qtp1998949977-43 | api command: 3
+2023-02-17 19:53:46,165 | DEBUG | qtp1998949977-43 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:53:46,166 | DEBUG | qtp1998949977-43 | api Request login: 1
+2023-02-17 19:53:46,166 | DEBUG | qtp1998949977-43 | api Request login: 2
+2023-02-17 19:53:46,169 | DEBUG | qtp1998949977-43 | api Request login: 3
+2023-02-17 19:53:46,169 | DEBUG | qtp1998949977-43 | api Request login: 4
+2023-02-17 19:53:46,169 | DEBUG | qtp1998949977-43 | api Request login: 5
+2023-02-17 19:53:46,182 | DEBUG | qtp1998949977-43 | api User trucxgkkk login success in platform: web
+2023-02-17 19:53:46,183 | DEBUG | qtp1998949977-43 | api login thanh cong: []
+2023-02-17 19:53:46,183 | DEBUG | qtp1998949977-43 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6NDcwNjY5LCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjI1NS42Ny4yMDMiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJ0cnVjY3V0aWtra2trIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"7eda46e42ee517a65fd5ec10ebdf6f16"}
+2023-02-17 19:53:46,317 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:53:46,317 | DEBUG | qtp1998949977-42 | api command: 17
+2023-02-17 19:53:46,330 | DEBUG | qtp1998949977-42 | api User trucxgkkk login success in platform: web
+2023-02-17 19:53:46,455 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:53:46,456 | DEBUG | qtp1998949977-46 | api command: 2020
+2023-02-17 19:53:46,514 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:53:46,514 | DEBUG | qtp1998949977-43 | api command: 2008
+2023-02-17 19:53:46,514 | INFO  | qtp1998949977-43 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 19:53:46,515 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:53:46,515 | DEBUG | qtp1998949977-45 | api command: 20
+2023-02-17 19:53:46,525 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:53:46,525 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:53:46,525 | DEBUG | qtp1998949977-42 | api command: 2031
+2023-02-17 19:53:46,525 | DEBUG | qtp1998949977-46 | api command: 406
+2023-02-17 19:54:25,978 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:54:25,978 | DEBUG | qtp1998949977-43 | api command: 3
+2023-02-17 19:54:25,978 | DEBUG | qtp1998949977-43 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:54:25,979 | DEBUG | qtp1998949977-43 | api Request login: 1
+2023-02-17 19:54:25,979 | DEBUG | qtp1998949977-43 | api Request login: 2
+2023-02-17 19:54:25,981 | DEBUG | qtp1998949977-43 | api Request login: 3
+2023-02-17 19:54:25,981 | DEBUG | qtp1998949977-43 | api Request login: 4
+2023-02-17 19:54:25,981 | DEBUG | qtp1998949977-43 | api Request login: 5
+2023-02-17 19:54:25,992 | DEBUG | qtp1998949977-43 | api User trucxgkkk login success in platform: web
+2023-02-17 19:54:25,993 | DEBUG | qtp1998949977-43 | api login thanh cong: []
+2023-02-17 19:54:25,993 | DEBUG | qtp1998949977-43 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6NDAwNjY5LCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjI1NS42Ny4yMDMiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJ0cnVjY3V0aWtra2trIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"7c62e0c7011affc865bc7e493f5746ee"}
+2023-02-17 19:54:26,120 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:54:26,120 | DEBUG | qtp1998949977-45 | api command: 17
+2023-02-17 19:54:26,139 | DEBUG | qtp1998949977-45 | api User trucxgkkk login success in platform: web
+2023-02-17 19:54:26,351 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:54:26,351 | DEBUG | qtp1998949977-42 | api command: 2008
+2023-02-17 19:54:26,351 | INFO  | qtp1998949977-42 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 19:54:26,352 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:54:26,352 | DEBUG | qtp1998949977-43 | api command: 406
+2023-02-17 19:54:26,354 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:54:26,354 | DEBUG | qtp1998949977-44 | api command: 2031
+2023-02-17 19:54:26,355 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:54:26,355 | DEBUG | qtp1998949977-46 | api command: 2020
+2023-02-17 19:54:26,475 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:54:26,475 | DEBUG | qtp1998949977-45 | api command: 20
+2023-02-17 19:54:46,334 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:54:46,334 | DEBUG | qtp1998949977-43 | api command: 3
+2023-02-17 19:54:46,334 | DEBUG | qtp1998949977-43 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:54:46,335 | DEBUG | qtp1998949977-43 | api Request login: 1
+2023-02-17 19:54:46,335 | DEBUG | qtp1998949977-43 | api Request login: 2
+2023-02-17 19:54:46,338 | DEBUG | qtp1998949977-43 | api Request login: 3
+2023-02-17 19:54:46,338 | DEBUG | qtp1998949977-43 | api Request login: 4
+2023-02-17 19:54:46,338 | DEBUG | qtp1998949977-43 | api Request login: 5
+2023-02-17 19:54:46,353 | DEBUG | qtp1998949977-43 | api User trucxgkkk login success in platform: web
+2023-02-17 19:54:46,353 | DEBUG | qtp1998949977-43 | api login thanh cong: []
+2023-02-17 19:54:46,354 | DEBUG | qtp1998949977-43 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6NDAwNjY5LCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjI1NS42Ny4yMDMiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJ0cnVjY3V0aWtra2trIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"d6d48648850c63f65e714e0998e2abfd"}
+2023-02-17 19:54:46,481 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:54:46,482 | DEBUG | qtp1998949977-44 | api command: 17
+2023-02-17 19:54:46,491 | DEBUG | qtp1998949977-44 | api User trucxgkkk login success in platform: web
+2023-02-17 19:54:46,645 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:54:46,646 | DEBUG | qtp1998949977-45 | api command: 2020
+2023-02-17 19:54:46,715 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:54:46,715 | DEBUG | qtp1998949977-43 | api command: 2031
+2023-02-17 19:54:46,723 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:54:46,723 | DEBUG | qtp1998949977-44 | api command: 2008
+2023-02-17 19:54:46,723 | INFO  | qtp1998949977-44 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 19:54:46,731 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:54:46,731 | DEBUG | qtp1998949977-46 | api command: 406
+2023-02-17 19:54:46,840 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:54:46,840 | DEBUG | qtp1998949977-45 | api command: 20
+2023-02-17 19:55:14,833 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:55:14,833 | DEBUG | qtp1998949977-46 | api command: 130
+2023-02-17 19:55:14,833 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:55:14,833 | DEBUG | qtp1998949977-43 | api command: 406
+2023-02-17 19:55:14,833 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:55:14,834 | DEBUG | qtp1998949977-44 | api command: 2002
+2023-02-17 19:55:14,834 | INFO  | qtp1998949977-44 | api Request GetPaymentConfig: nickName: binne12, accessToken: 195e859684b05d67211504ebd723abc8, paymentType: 1
+2023-02-17 19:55:27,762 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:55:27,762 | DEBUG | qtp1998949977-45 | api command: 2003
+2023-02-17 19:55:27,763 | INFO  | qtp1998949977-45 | api ipaddress1 :2001:ee0:7995:5550:b5f8:5408:557f:ebe3, 162.158.162.173
+2023-02-17 19:55:27,763 | INFO  | qtp1998949977-45 | api Deposit request nickName: binne12, accessToken: 195e859684b05d67211504ebd723abc8, providerName: manualbank,ipaddress=2001:ee0:7995:5550:b5f8:5408:557f:ebe3
+2023-02-17 19:55:28,586 | INFO  | qtp1998949977-45 | api Deposit response nickName: binne12, response : {"code":0,"currentMoney":0,"fail":0,"time":0,"tid":"1676638527807","message":null,"data":""}
+2023-02-17 19:57:18,454 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:57:18,455 | DEBUG | qtp1998949977-45 | api command: 3
+2023-02-17 19:57:18,455 | DEBUG | qtp1998949977-45 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:57:18,456 | DEBUG | qtp1998949977-45 | api Request login: 1
+2023-02-17 19:57:18,456 | DEBUG | qtp1998949977-45 | api Request login: 2
+2023-02-17 19:57:18,461 | DEBUG | qtp1998949977-45 | api Request login: 3
+2023-02-17 19:57:18,461 | DEBUG | qtp1998949977-45 | api Request login: 4
+2023-02-17 19:57:18,461 | DEBUG | qtp1998949977-45 | api Request login: 5
+2023-02-17 19:57:18,477 | DEBUG | qtp1998949977-45 | api User trucxgkkk login success in platform: web
+2023-02-17 19:57:18,478 | DEBUG | qtp1998949977-45 | api login thanh cong: []
+2023-02-17 19:57:18,478 | DEBUG | qtp1998949977-45 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6MjUwNjY5LCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjI1NS42Ny4yMDMiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJ0cnVjY3V0aWtra2trIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"51cc9b3ad71fdd8770f94d7a09edba54"}
+2023-02-17 19:57:18,644 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:57:18,644 | DEBUG | qtp1998949977-46 | api command: 17
+2023-02-17 19:57:18,648 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:57:18,648 | DEBUG | qtp1998949977-42 | api command: 2020
+2023-02-17 19:57:18,655 | DEBUG | qtp1998949977-46 | api User trucxgkkk login success in platform: web
+2023-02-17 19:57:18,784 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:57:18,784 | DEBUG | qtp1998949977-43 | api command: 2031
+2023-02-17 19:57:18,797 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:57:18,797 | DEBUG | qtp1998949977-42 | api command: 406
+2023-02-17 19:57:18,798 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:57:18,798 | DEBUG | qtp1998949977-44 | api command: 2008
+2023-02-17 19:57:18,798 | INFO  | qtp1998949977-44 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 19:57:18,810 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:57:18,810 | DEBUG | qtp1998949977-43 | api command: 20
+2023-02-17 19:58:44,536 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:58:44,536 | DEBUG | qtp1998949977-42 | api command: 3
+2023-02-17 19:58:44,536 | DEBUG | qtp1998949977-42 | api Request login: username: truccutikkkkk, social: null, accessToken: 
+2023-02-17 19:58:44,538 | DEBUG | qtp1998949977-42 | api Request login: 1
+2023-02-17 19:58:44,538 | DEBUG | qtp1998949977-42 | api Request login: 2
+2023-02-17 19:58:44,541 | DEBUG | qtp1998949977-42 | api Request login: 3
+2023-02-17 19:58:44,541 | DEBUG | qtp1998949977-42 | api Request login: 4
+2023-02-17 19:58:44,541 | DEBUG | qtp1998949977-42 | api Request login: 5
+2023-02-17 19:58:44,559 | DEBUG | qtp1998949977-42 | api User trucxgkkk login success in platform: web
+2023-02-17 19:58:44,560 | DEBUG | qtp1998949977-42 | api login thanh cong: []
+2023-02-17 19:58:44,561 | DEBUG | qtp1998949977-42 | api Response login: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6InRydWN4Z2trayIsImF2YXRhciI6IjAiLCJ2aW5Ub3RhbCI6MTAwNjY5LCJ4dVRvdGFsIjo1MDAwMDAsInZpcHBvaW50IjowLCJ2aXBwb2ludFNhdmUiOjAsImNyZWF0ZVRpbWUiOiIxNy0wMi0yMDIzIiwiaXBBZGRyZXNzIjoiMTcxLjI1NS42Ny4yMDMiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJ0cnVjY3V0aWtra2trIiwiZW1haWwiOjAsImFkZHJlc3MiOm51bGwsInZlcmlmeU1vYmlsZSI6ZmFsc2V9","accessToken":"1be862c6d966a72fc9c50e2b342034b1"}
+2023-02-17 19:58:44,684 | INFO  | qtp1998949977-46 | api IP:127.0.0.1
+2023-02-17 19:58:44,684 | DEBUG | qtp1998949977-46 | api command: 17
+2023-02-17 19:58:44,697 | DEBUG | qtp1998949977-46 | api User trucxgkkk login success in platform: web
+2023-02-17 19:58:44,842 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:58:44,842 | DEBUG | qtp1998949977-45 | api command: 2020
+2023-02-17 19:58:44,912 | INFO  | qtp1998949977-42 | api IP:127.0.0.1
+2023-02-17 19:58:44,912 | DEBUG | qtp1998949977-42 | api command: 2031
+2023-02-17 19:58:44,918 | INFO  | qtp1998949977-44 | api IP:127.0.0.1
+2023-02-17 19:58:44,918 | DEBUG | qtp1998949977-44 | api command: 20
+2023-02-17 19:58:44,919 | INFO  | qtp1998949977-45 | api IP:127.0.0.1
+2023-02-17 19:58:44,919 | DEBUG | qtp1998949977-45 | api command: 2008
+2023-02-17 19:58:44,919 | INFO  | qtp1998949977-45 | processors.payment.InsertOrUpdateBankProcessor Request BankSearchProcessor nickName= trucxgkkk, bankName: null, bankNumber: null
+2023-02-17 19:58:44,919 | INFO  | qtp1998949977-43 | api IP:127.0.0.1
+2023-02-17 19:58:44,919 | DEBUG | qtp1998949977-43 | api command: 406
+2023-02-17 20:12:23,111 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-17 20:13:48,116 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection

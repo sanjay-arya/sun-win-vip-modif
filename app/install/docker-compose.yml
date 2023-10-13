@@ -1,0 +1,91 @@
+version: '3.3'
+services:
+  mysql:
+    image: mysql:5.7
+    restart: always
+    container_name: game-db
+    environment:
+      MYSQL_USER: 'demo'
+      MYSQL_PASSWORD: 'kohtut.dev'
+      MYSQL_ROOT_PASSWORD: 'kohtut.dev'
+    ports:
+      - '3306:3306'
+    volumes:
+      - game-db:/var/lib/mysql
+      - ./config/mysql/conf.d:/etc/mysql/conf.d
+      - ./config/mysql/db:/docker-entrypoint-initdb.d/
+      - /etc/timezone:/etc/timezone
+      - /etc/localtime:/etc/localtime
+
+  mongo:
+    image: mongo:5.0.11
+    restart: always
+    container_name: game-mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: kohtut.dev
+      MONGO_INITDB_DATABASE: win123club
+    ports:
+      - '27017-27019:27017-27019'
+    command:
+      - '--auth'
+      - '-f'
+      - '/configFolder/mongod.conf'
+    volumes:
+      - ./config/mongod:/configFolder
+      - game-mongo:/data/db
+      - /etc/timezone:/etc/timezone
+      - /etc/localtime:/etc/localtime
+
+    # hazelcast imdg
+  hazelcast:
+    image: hazelcast/hazelcast:3.12.5
+    restart: always
+    container_name: game-hazelcast
+    volumes:
+      - ./config/hazelcast:/configFolder
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    environment:
+      - JAVA_OPTS=-Dhazelcast.config=/configFolder/hazelcast.xml -Dgroup.name=dev -Dgroup.password=kohtut.dev
+    ports:
+      - "127.0.0.1:5701:5701"
+  ## manage center
+  
+
+    # rabbitmq
+  rabbitmq:
+    image: 'rabbitmq:3.8.3-management'
+    restart: always
+    container_name: game-rabbitmq
+    environment:
+      - "RABBITMQ_DEFAULT_USER=demo"
+      - "RABBITMQ_DEFAULT_PASS=kohtut.dev"
+    ports:
+        - "127.0.0.1:5672:5672"
+        - "127.0.0.1:15672:15672"
+    volumes:
+      - /etc/timezone:/etc/timezone
+      - /etc/localtime:/etc/localtime    
+  redis:
+    image: bitnami/redis:latest
+    ports:
+      - "127.0.0.1:6379:6379"
+    expose:
+      - 6379
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    restart: always
+    volumes:
+      - /etc/timezone:/etc/timezone
+      - /etc/localtime:/etc/localtime
+
+# Names our volume
+volumes:
+  game-db:
+    external:
+      name: game-db
+  game-mongo:
+    external:
+      name: mongo-db
+  hazelcast-vl:

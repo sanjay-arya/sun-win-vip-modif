@@ -1,0 +1,42 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="rocket">
+            <h2><span jhiTranslate="txcbApp.rocket.detail.title">Rocket</span> {{ rocket.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="txcbApp.taixiu.opentime">Opentime</span></dt>
+                <dd>
+                    <input *ngIf="rocket.opentime" type="datetime-local" readonly [(ngModel)]="rocket.opentime" disabled>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.rocket.endtime">Endtime</span></dt>
+                <dd>
+                    <input *ngIf="rocket.endtime" type="datetime-local" readonly [(ngModel)]="rocket.endtime" disabled>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.rocket.status">Status</span></dt>
+                <dd>
+                    <span>{{ rocket.status }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.rocket.result">Result</span></dt>
+                <dd>
+                    <span>{{ rocket.result }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/rocket', rocket.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

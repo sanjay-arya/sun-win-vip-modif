@@ -1,0 +1,17 @@
+.config-loto_custom-header{
+    text-align: center;
+    background-color: #0c70b4;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ms-container{
+    width: 477px;
+}
+
+.header-lotoconfig{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}

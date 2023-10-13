@@ -1,0 +1,42 @@
+<nav class="navbar" [ngClass]="{'navbar-collapsed': collapsed}">
+    <button class="btn btn-primary" (click)="toggleSideBar()">
+        <fa-icon *ngIf="!collapsed" icon="arrow-left" [fixedWidth]="true"></fa-icon>
+        <span class="ml-2" [ngClass]="collapsed ? 'fade-out' : 'fade-in'">Collapse</span>
+        <fa-icon *ngIf="collapsed" icon="bars" [fixedWidth]="true"></fa-icon>
+    </button>
+    <ul class="navbar-nav w-100">
+        <li *ngFor="let item of sideBarActive; let i = index;" class="nav-item pointer">
+            <a class="nav-link" [ngClass]="{'nav-link-collapsed': collapsed}" (click)="toggleMenu(i)"
+               [attr.aria-expanded]="!item.collapsed"
+               [attr.aria-controls]="item.id">
+                <fa-icon [icon]="item.icon" [fixedWidth]="true"></fa-icon>
+                <span class="ml-2" [ngClass]="collapsed ? 'fade-out' : 'fade-in'"
+                      [jhiTranslate]="item.translate">{{item.title}}</span>
+            </a>
+            
+            <ul *ngIf="item.subMenuActive.length !== 0" class="collapsed-sub" [attr.id]="item.id"
+                [ngbCollapse]="item.collapsed">
+                <li *ngFor="let subItem of item.subMenuActive; let idx = index;">
+                    <a class="sub-menu dropdown-item"
+                        [ngClass]="{'nav-link-collapsed': collapsed, 'active': subItem.active}"
+                        (click)="toggleSubMenu(i, idx)"
+                        [attr.aria-expanded]="!subItem.collapsed"
+                        [attr.aria-controls]="subItem.id">
+                        <fa-icon [icon]="subItem.icon" [fixedWidth]="true"></fa-icon>
+                        <span [jhiTranslate]="subItem.translate">{{subItem.title}}</span>
+                    </a>
+                    <ul *ngIf="subItem.subMenu2Active && subItem.subMenu2Active.length !== 0" class="collapsed-sub2" [ngbCollapse]="subItem.collapsed">
+                        <li *ngFor="let sub2 of subItem.subMenu2Active">
+                            <a class="dropdown-item" [routerLink]="sub2.routerLink" routerLinkActive="active"
+                               [routerLinkActiveOptions]="{ exact: false }"
+                               (click)="toggleMenuSection(i, idx)">
+                                <fa-icon [icon]="sub2.icon" [fixedWidth]="true"></fa-icon>
+                                <span [jhiTranslate]="sub2.translate">{{sub2.title}}</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>

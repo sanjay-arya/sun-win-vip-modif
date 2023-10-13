@@ -1,0 +1,19 @@
+{
+  "home": {
+    "title": "Welcome to Administrator ",
+    "subtitle": "",
+    "logged": {
+      "message": "Bạn đang đăng nhập bằng tài khoản \"{{username}}\"."
+    },
+    "question": "Trang web chi danh cho user administrator",
+    "link": {
+      "homepage": "Trang chủ ",
+      "stackoverflow": "",
+      "bugtracker": "",
+      "chat": "",
+      "follow": ""
+    },
+    "like": "",
+    "github": ""
+  }
+}

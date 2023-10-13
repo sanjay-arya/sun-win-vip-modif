@@ -1,0 +1,74 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="taixiuRecord">
+            <h2><span jhiTranslate="txcbApp.taixiuRecord.detail.title">Taixiu Record</span> {{ taixiuRecord.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="txcbApp.taixiuRecord.taixiuId">Taixiu Id</span></dt>
+                <dd>
+                    <span>{{ taixiuRecord.taixiuId }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.taixiuRecord.userId">User Id</span></dt>
+                <dd>
+                    <span>{{ taixiuRecord.userId }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.taixiuRecord.loginname">Loginname</span></dt>
+                <dd>
+                    <span>{{ taixiuRecord.loginname }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.taixiuRecord.betamount">Betamount</span></dt>
+                <dd>
+                    <span>{{ taixiuRecord.betamount }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.taixiuRecord.winamount">Winamount</span></dt>
+                <dd>
+                    <span>{{ taixiuRecord.winamount }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.taixiuRecord.typed">Typed</span></dt>
+                <dd>
+                    <span>{{ taixiuRecord.typed }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.taixiuRecord.status">Status</span></dt>
+                <dd>
+                    <span>{{ taixiuRecord.status }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.taixiuRecord.bettime">Bettime</span></dt>
+                <dd>
+                    <span>{{ taixiuRecord.bettime }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.taixiuRecord.result">Result</span></dt>
+                <dd>
+                    <span>{{ taixiuRecord.result }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.taixiuRecord.description">Description</span></dt>
+                <dd>
+                    <span>{{ taixiuRecord.description }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.taixiuRecord.refundamount">Refundamount</span></dt>
+                <dd>
+                    <span>{{ taixiuRecord.refundamount }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.taixiuRecord.ip">Ip</span></dt>
+                <dd>
+                    <span>{{ taixiuRecord.ip }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/taixiu-record', taixiuRecord.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

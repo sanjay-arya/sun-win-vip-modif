@@ -1,0 +1,40 @@
+18 Feb 2023 03:02:10,117 ERROR [pool-2-thread-5] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.hazelcast.spi.exception.TargetDisconnectedException
+Message: Target[Address[127.0.0.1]:5701] disconnected.
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.hazelcast.client.spi.impl.ClientInvocationServiceSupport$CleanResourcesTask.run(ClientInvocationServiceSupport.java:211)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+com.hazelcast.util.executor.HazelcastManagedThread.executeRun(HazelcastManagedThread.java:76)
+com.hazelcast.util.executor.HazelcastManagedThread.run(HazelcastManagedThread.java:92)
+------ End remote and begin local stack-trace ------.(Unknown Source)
+com.hazelcast.client.spi.impl.ClientInvocationFuture.resolveResponse(ClientInvocationFuture.java:128)
+com.hazelcast.client.spi.impl.ClientInvocationFuture.get(ClientInvocationFuture.java:95)
+com.hazelcast.client.spi.impl.ClientInvocationFuture.get(ClientInvocationFuture.java:74)
+com.hazelcast.client.spi.impl.ClientInvocationFuture.get(ClientInvocationFuture.java:37)
+com.hazelcast.client.spi.ClientProxy.invoke(ClientProxy.java:144)
+com.hazelcast.client.proxy.ClientMapProxy.entrySet(ClientMapProxy.java:1048)
+com.vinplay.dal.service.impl.GameBaiServiceImpl.getReportGameToday(GameBaiServiceImpl.java:38)
+game.modules.bot.BotManager.checkMoneyBalance(BotManager.java:382)
+game.modules.bot.BotManager.botLoop(BotManager.java:373)
+game.modules.bot.BotManager$BotLoopTask.run(BotManager.java:428)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 Feb 2023 13:01:08,276 ERROR [main] debug - start jetty
+18 Feb 2023 13:01:08,281 ERROR [main] debug - start TLMN

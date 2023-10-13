@@ -1,0 +1,26 @@
+{
+  "txcbApp": {
+    "xocdiaChatbox": {
+      "home": {
+        "title": "Xocdia Chatboxes",
+        "createLabel": "Create a new Xocdia Chatbox",
+        "createOrEditLabel": "Create or edit a Xocdia Chatbox",
+        "notFound": "No Xocdia Chatboxes found"
+      },
+      "created": "A new Xocdia Chatbox is created with identifier {{ param }}",
+      "updated": "A Xocdia Chatbox is updated with identifier {{ param }}",
+      "deleted": "A Xocdia Chatbox is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Xocdia Chatbox {{ id }}?"
+      },
+      "detail": {
+        "title": "Xocdia Chatbox"
+      },
+      "label": {
+        "loginname": "Loginname",
+        "message": "Message",
+        "created": "Created"
+      }
+    }
+  }
+}

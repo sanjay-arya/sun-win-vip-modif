@@ -1,0 +1,33 @@
+{
+  "txcbApp": {
+    "taixiuRecord": {
+      "home": {
+        "title": "Taixiu Records",
+        "createLabel": "Create a new Taixiu Record",
+        "createOrEditLabel": "Create or edit a Taixiu Record",
+        "notFound": "No Taixiu Records found"
+      },
+      "created": "A new Taixiu Record is created with identifier {{ param }}",
+      "updated": "A Taixiu Record is updated with identifier {{ param }}",
+      "deleted": "A Taixiu Record is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Taixiu Record {{ id }}?"
+      },
+      "detail": {
+        "title": "Taixiu Record"
+      },
+      "taixiuId": "Taixiu Id",
+      "userId": "User Id",
+      "loginname": "Loginname",
+      "betamount": "Betamount",
+      "winamount": "Winamount",
+      "typed": "Typed",
+      "status": "Status",
+      "bettime": "Bettime",
+      "result": "Result",
+      "description": "Description",
+      "refundamount": "Refundamount",
+      "ip": "Ip"
+    }
+  }
+}

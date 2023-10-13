@@ -1,0 +1,179 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="txcbApp.taixiuRecord.home.title">Taixiu Records</span>
+
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-taixiu-record"
+                [routerLink]="['/taixiu-record/new']">
+            <fa-icon icon="plus"></fa-icon>
+            <span jhiTranslate="txcbApp.taixiuRecord.home.createLabel">
+            Create a new Taixiu Record
+            </span>
+        </button>
+    </h2>
+
+    <form class="filter-group" [formGroup]="filterForm" (ngSubmit)="onSubmit(filterForm.value)">
+        <div class="filter-form">
+            <div class="filter-item">
+                <label for="login-name" jhiTranslate="global.field.login-name"></label>
+                <input class="form-control" type="text" id="login-name" formControlName="loginName">
+            </div>
+            <div class="filter-item">
+                <label for="issue" jhiTranslate="global.field.issue"></label>
+                <input class="form-control" type="text" id="issue" formControlName="issue">
+            </div>
+            <div class="filter-item">
+                <label for="type" jhiTranslate="global.field.type"></label>
+                <input class="form-control" type="text" id="type" formControlName="type">
+            </div>
+            <div class="filter-item">
+                <label for="status" jhiTranslate="global.field.status"></label>
+                <input class="form-control" type="text" id="status" formControlName="status">
+            </div>
+            <div class="filter-item">
+                <label for="user-type" jhiTranslate="global.field.user-type"></label>
+                <input class="form-control" type="text" id="user-type" formControlName="userType">
+            </div>
+        </div>
+        <div class="filter-form">
+            <div class="filter-item">
+                <label for="start-time" jhiTranslate="global.field.start-time"></label>
+                <div class="form-group d-flex align-items-center">
+                    <div class="input-group mr-2">
+                        <input class="form-control" placeholder="yyyy-mm-dd" id="start-time" formControlName="startDate"
+                               ngbDatepicker #s="ngbDatepicker">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" (click)="s.toggle()" type="button">
+                                <fa-icon [icon]="faCalendar"></fa-icon>
+                            </button>
+                        </div>
+                    </div>
+                    <ngb-timepicker [seconds]="true" formControlName="startTime"></ngb-timepicker>
+                </div>
+            </div>
+            <div class="filter-item">
+                <label for="end-time" jhiTranslate="global.field.end-time"></label>
+                <div class="form-group d-flex align-items-center">
+                    <div class="input-group mr-2">
+                        <input class="form-control" placeholder="yyyy-mm-dd" id="end-time" formControlName="endDate"
+                               ngbDatepicker #e="ngbDatepicker">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" (click)="e.toggle()" type="button">
+                                <fa-icon [icon]="faCalendar"></fa-icon>
+                            </button>
+                        </div>
+                    </div>
+                    <ngb-timepicker [seconds]="true" formControlName="endTime"></ngb-timepicker>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-outline-dark">
+            <fa-icon icon="search"></fa-icon>
+            <span jhiTranslate="entity.action.search"></span>
+        </button>
+    </form>
+
+    <jhi-alert-error></jhi-alert-error>
+
+    <jhi-alert></jhi-alert>
+
+    <div class="alert alert-warning" id="no-result" *ngIf="taixiuRecords?.length === 0">
+        <span jhiTranslate="txcbApp.taixiuRecord.home.notFound">No taixiuRecords found</span>
+    </div>
+
+    <div class="table-responsive" id="entities" *ngIf="taixiuRecords && taixiuRecords.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+            <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="loadPage.bind(this)">
+                <th scope="col" jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span>
+                    <fa-icon icon="sort"></fa-icon>
+                </th>
+                <th scope="col" jhiSortBy="taixiuId"><span>Lượt xổ</span>
+                    <fa-icon icon="sort"></fa-icon>
+                </th>
+                
+                <th scope="col" jhiSortBy="loginname"><span
+                    jhiTranslate="txcbApp.taixiuRecord.loginname">Loginname</span>
+                    <fa-icon icon="sort"></fa-icon>
+                </th>
+                <th scope="col" jhiSortBy="betamount"><span
+                    jhiTranslate="txcbApp.taixiuRecord.betamount">Betamount</span>
+                    <fa-icon icon="sort"></fa-icon>
+                </th>
+                <th scope="col" jhiSortBy="winamount"><span
+                    jhiTranslate="txcbApp.taixiuRecord.winamount">Winamount</span>
+                    <fa-icon icon="sort"></fa-icon>
+                </th>
+                <th scope="col" jhiSortBy="typed"><span jhiTranslate="txcbApp.taixiuRecord.typed">Typed</span>
+                    <fa-icon icon="sort"></fa-icon>
+                </th>
+                <th scope="col" jhiSortBy="status"><span jhiTranslate="txcbApp.taixiuRecord.status">Status</span>
+                    <fa-icon icon="sort"></fa-icon>
+                </th>
+                <th scope="col" jhiSortBy="bettime"><span jhiTranslate="txcbApp.taixiuRecord.bettime">Bettime</span>
+                    <fa-icon icon="sort"></fa-icon>
+                </th>
+                <th scope="col" jhiSortBy="result"><span jhiTranslate="txcbApp.taixiuRecord.result">Result</span>
+                    <fa-icon icon="sort"></fa-icon>
+                </th>
+               
+                <th scope="col" jhiSortBy="refundamount"><span jhiTranslate="txcbApp.taixiuRecord.refundamount">Refundamount</span>
+                    <fa-icon icon="sort"></fa-icon>
+                </th>
+                
+                <th scope="col"></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let taixiuRecord of taixiuRecords ;trackBy: trackId">
+                <td><a [routerLink]="['/taixiu-record', taixiuRecord.id, 'view']">{{ taixiuRecord.id }}</a></td>
+                <td>{{ taixiuRecord.taixiuId }}</td>
+                <td>{{ taixiuRecord.loginname }}</td>
+                <td>{{ taixiuRecord.betamount }}</td>
+                <td>{{ taixiuRecord.winamount }}</td>
+                <td>{{ (taixiuRecord.typed ===1 ? 'Tài' : 'Xỉu') }}</td>
+                <td>{{ taixiuRecord.status ===0 ?'Pending':'Finished' }}</td>
+                <td>{{ taixiuRecord.bettime | date:'yyyy-MM-dd HH:mm:ss' }}</td>
+                <td>{{ taixiuRecord.result }}</td>
+                
+                <td>{{ taixiuRecord.refundamount }}</td>
+                
+                <td class="text-right">
+                    <div class="btn-group">
+                        <button type="submit"
+                                [routerLink]="['/taixiu-record', taixiuRecord.id, 'view']"
+                                class="btn btn-info btn-sm">
+                            <fa-icon icon="eye"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                        </button>
+
+                        <button type="submit"
+                                [routerLink]="['/taixiu-record', taixiuRecord.id, 'edit']"
+                                class="btn btn-primary btn-sm">
+                            <fa-icon icon="pencil-alt"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+
+                        <button type="submit" (click)="delete(taixiuRecord)"
+                                class="btn btn-danger btn-sm">
+                            <fa-icon icon="times"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div *ngIf="taixiuRecords && taixiuRecords.length > 0">
+        <div class="row justify-content-center">
+            <jhi-item-count [page]="page" [total]="totalItems" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+        </div>
+
+        <div class="row justify-content-center">
+            <ngb-pagination [collectionSize]="totalItems" [(page)]="ngbPaginationPage" [pageSize]="itemsPerPage"
+                            [maxSize]="5" [rotate]="true" [boundaryLinks]="true"
+                            (pageChange)="loadPage($event)"></ngb-pagination>
+        </div>
+    </div>
+</div>

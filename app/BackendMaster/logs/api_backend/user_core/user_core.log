@@ -1,0 +1,6 @@
+18 Feb 2023, 13:02:12,827 Request updateMoneyUser:  nickname: binebine, money: 2005430, moneyType: vin, actionName: Admin, serviceName: Admin, description: h, fee: 0
+18 Feb 2023, 13:02:14,438 Response updateMoneyUser:{"success":true,"message":null,"errorCode":"0","data":null,"currentMoney":2005430,"currentMoneyXu":0,"subtractMoney":0,"safeMoney":0,"freezeMoney":0,"moneyUse":0,"moneyInGame":0}
+18 Feb 2023, 19:52:56,390 Request updateMoneyUser:  nickname: Amoi22, money: 1000000, moneyType: vin, actionName: Admin, serviceName: Admin, description: K, fee: 0
+18 Feb 2023, 19:52:58,471 Response updateMoneyUser:{"success":true,"message":null,"errorCode":"0","data":null,"currentMoney":1000000,"currentMoneyXu":0,"subtractMoney":0,"safeMoney":0,"freezeMoney":0,"moneyUse":0,"moneyInGame":0}
+18 Feb 2023, 21:41:07,091 Request updateMoneyUser:  nickname: Okvip123, money: 2000000, moneyType: vin, actionName: Admin, serviceName: Admin, description: s, fee: 0
+18 Feb 2023, 21:41:07,881 Response updateMoneyUser:{"success":true,"message":null,"errorCode":"0","data":null,"currentMoney":2000000,"currentMoneyXu":0,"subtractMoney":0,"safeMoney":0,"freezeMoney":0,"moneyUse":0,"moneyInGame":0}

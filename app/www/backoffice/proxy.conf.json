@@ -1,0 +1,7 @@
+{
+  "*": {
+    "target": "https://st.suvip.bet",
+    "secure": false,
+    "loglevel": "debug"
+  }
+}

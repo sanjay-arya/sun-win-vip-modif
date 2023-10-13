@@ -1,0 +1,2 @@
+13 Feb 2023, 17:53:51,035 Request addMoneyPot: Tlmn
+13 Feb 2023, 17:53:51,609 Response addMoneyPot: {"success":true,"message":null,"errorCode":"0","data":null,"value":184290000,"moneyExchange":0,"currentMoneyUser":0,"freezeMoneyUser":0}

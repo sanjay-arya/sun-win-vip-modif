@@ -1,0 +1,106 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="txcbApp.xocdiaJackpotRecord.home.title">Xocdia Jackpot Records</span>
+
+        <!-- <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-xocdia-jackpot-record" [routerLink]="['/xocdia-jackpot-record/new']">
+            <fa-icon icon="plus"></fa-icon>
+            <span  jhiTranslate="txcbApp.xocdiaJackpotRecord.home.createLabel">
+            Create a new Xocdia Jackpot Record
+            </span>
+        </button> -->
+    </h2>
+
+    <form class="filter-group" [formGroup]="filterForm" (ngSubmit)="onSubmit(filterForm.value)">
+        <div class="filter-form">
+            <!-- <div class="filter-item">
+                <label for="login-name" jhiTranslate="global.field.login-name"></label>
+                <input class="form-control" type="text" id="login-name" formControlName="loginName">
+            </div> -->
+            <div class="filter-item">
+                <label for="issue" jhiTranslate="global.field.issue"></label>
+                <input class="form-control" type="text" id="issue" formControlName="gameid">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-outline-dark">
+            <fa-icon icon="search"></fa-icon>
+            <span jhiTranslate="entity.action.search"></span>
+        </button>
+    </form>
+
+
+    <jhi-alert-error></jhi-alert-error>
+
+    <jhi-alert></jhi-alert>
+
+    <div class="alert alert-warning" id="no-result" *ngIf="xocdiaJackpotRecords?.length === 0">
+        <span jhiTranslate="txcbApp.xocdiaJackpotRecord.home.notFound">No xocdiaJackpotRecords found</span>
+    </div>
+
+    <div class="table-responsive" id="entities" *ngIf="xocdiaJackpotRecords && xocdiaJackpotRecords.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+                <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="loadPage.bind(this)">
+                    <th scope="col" jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span>
+                        <fa-icon icon="sort"></fa-icon>
+                    </th>
+                    <th scope="col" jhiSortBy="gameId"><span>Lượt xổ</span>
+                        <fa-icon icon="sort"></fa-icon>
+                    </th>
+                    <!-- <th scope="col" jhiSortBy="loginname"><span
+                        jhiTranslate="txcbApp.xocdiaJackpotRecord.loginname">Loginname</span>
+                        <fa-icon icon="sort"></fa-icon>
+                    </th> -->
+                    <th scope="col" jhiSortBy="created"><span jhiTranslate="txcbApp.xocdiaJackpotRecord.create">Created</span>
+                        <fa-icon icon="sort"></fa-icon>
+                    </th>
+                    <th scope="col" jhiSortBy="amount"><span jhiTranslate="txcbApp.xocdiaJackpotRecord.amount">Amount</span>
+                        <fa-icon icon="sort"></fa-icon>
+                    </th>
+                    <!-- <th scope="col"></th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let xocdiaJackpotRecord of xocdiaJackpotRecords ;trackBy: trackId">
+                    <td><a [routerLink]="['/xocdia-jackpot-record', xocdiaJackpotRecord.id, 'view']">{{ xocdiaJackpotRecord.id }}</a></td>
+                    <td>{{ xocdiaJackpotRecord.gameId }}</td>
+                    <!-- <td>{{ xocdiaJackpotRecord.loginname }}</td> -->
+                    <td>{{ xocdiaJackpotRecord.created | date: 'dd/MM/yyyy HH:mm:ss'}}</td>
+                    <td>{{ xocdiaJackpotRecord.amount | number }}</td>
+                    <!-- <td class="text-right">
+                        <div class="btn-group">
+                            <button type="submit"
+                                    [routerLink]="['/xocdia-jackpot-record', xocdiaJackpotRecord.id, 'view']"
+                                    class="btn btn-info btn-sm">
+                                <fa-icon icon="eye"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                            </button>
+
+                            <button type="submit"
+                                    [routerLink]="['/xocdia-jackpot-record', xocdiaJackpotRecord.id, 'edit']"
+                                    class="btn btn-primary btn-sm">
+                                <fa-icon icon="pencil-alt"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                            </button>
+
+                            <button type="submit" (click)="delete(xocdiaJackpotRecord)"
+                                    class="btn btn-danger btn-sm">
+                                <fa-icon icon="times"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                            </button>
+                        </div>
+                    </td> -->
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div *ngIf="xocdiaJackpotRecords && xocdiaJackpotRecords.length > 0">
+        <div class="row justify-content-center">
+            <jhi-item-count [page]="page" [total]="totalItems" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+        </div>
+
+        <div class="row justify-content-center">
+            <ngb-pagination [collectionSize]="totalItems" [(page)]="ngbPaginationPage" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage($event)"></ngb-pagination>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,170 @@
+2023-02-16 13:00:56,916 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c6379', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:5, serverValue:327}] to 127.0.0.1:27017
+2023-02-16 13:04:24,110 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c6379', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:475)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:226)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:83)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:43)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:130)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:85)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:492)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:222)
+	... 8 more
+2023-02-16 13:04:25,285 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c6378', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:475)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:226)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:83)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:43)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:130)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:85)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:492)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:222)
+	... 8 more
+2023-02-16 13:04:24,115 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c637a', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:475)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:226)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:83)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:43)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:130)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:85)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:492)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:222)
+	... 8 more
+2023-02-16 13:05:40,273 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c6378', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:14, serverValue:454}] to 127.0.0.1:27017
+2023-02-16 13:05:40,282 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c6378', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 28]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=7672235}
+2023-02-16 13:05:40,511 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c6379', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:12, serverValue:448}] to 127.0.0.1:27017
+2023-02-16 13:05:40,539 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c6379', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 28]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=16175221}
+2023-02-16 13:05:40,611 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c637a', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:13, serverValue:449}] to 127.0.0.1:27017
+2023-02-16 13:05:40,713 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c637a', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 28]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=31229824}
+2023-02-16 13:07:32,132 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c637a', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:115)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:130)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketTimeoutException
+	at java.net.SocksSocketImpl.remainingMillis(SocksSocketImpl.java:111)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+2023-02-16 13:07:33,672 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c6378', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:88)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:492)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:222)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:83)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:43)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:130)
+	at java.lang.Thread.run(Thread.java:750)
+2023-02-16 13:07:33,672 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c6379', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Exception in monitor thread while connecting to server 127.0.0.1:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:88)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:492)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:222)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:83)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:43)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:130)
+	at java.lang.Thread.run(Thread.java:750)
+2023-02-16 13:07:42,273 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c637a', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:18, serverValue:15}] to 127.0.0.1:27017
+2023-02-16 13:07:42,282 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c637a', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 28]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=4158514}
+2023-02-16 13:07:43,854 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c6379', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:20, serverValue:35}] to 127.0.0.1:27017
+2023-02-16 13:07:43,857 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c6379', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 28]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=1733112}
+2023-02-16 13:07:43,895 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c6378', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:19, serverValue:32}] to 127.0.0.1:27017
+2023-02-16 13:07:43,923 | INFO  | cluster-ClusterId{value='63ec5cf5447eea6a311c6378', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 28]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=1724100}
+2023-02-16 13:11:45,134 | INFO  | main | pay.server.JettyServer Logging initialized.
+2023-02-16 13:11:45,135 | INFO  | main | pay.server.JettyServer STARTING WEBSERVICE PAY API .... !!!!
+2023-02-16 13:11:45,616 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_gamebai (minpool=0,maxpool=10,maxsize=10,idleTimeout=900)
+2023-02-16 13:11:45,618 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_minigame (minpool=5,maxpool=20,maxsize=30,idleTimeout=900)
+2023-02-16 13:11:45,618 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-16 13:11:45,621 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_admin (minpool=0,maxpool=10,maxsize=10,idleTimeout=900)
+2023-02-16 13:11:45,621 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpoolname (minpool=5,maxpool=30,maxsize=40,idleTimeout=900)
+2023-02-16 13:11:45,622 | INFO  | main | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-16 13:11:45,847 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-02-16 13:11:45,847 | INFO  | main | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-16 13:11:45,847 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-16 13:11:45,848 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-16 13:11:45,853 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-02-16 13:11:45,853 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-16 13:11:45,853 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-16 13:11:45,853 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-16 13:11:45,858 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-02-16 13:11:45,858 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-16 13:11:45,861 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-16 13:11:45,861 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-16 13:11:45,862 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-02-16 13:11:45,862 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-16 13:11:45,866 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-16 13:11:45,866 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-16 13:11:45,870 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-02-16 13:11:45,870 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-16 13:11:45,870 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-02-16 13:11:45,874 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-02-16 13:11:45,874 | DEBUG | main | recharge PartnerConfig:{"cong_gach_the":"GACHTHE","gachthe_api_key":"uDBA7HetkDNFIohQpkXeuOMeh6BRTkFJR2Mi5qmY","gachthe_callback_url":"https://iwspay.fanvin.live/api/gachthe/callback","gachthe_email":"chan@gmail.com","gachthe_client_id":"42","naptienga_api_key":"974ec1a4-d291-46a2-bf1a-885e8f0f05ef","naptienga_secret_key":"a763535e-6d79-41f8-a580-330cbcc47a94","esm_api_key":"CB991EC380FA2608B12FBB04A901FD","esm_secret_key":"00A58E01101465763DC821682DB392","mua_card_secret_key":"543f51e72b0c0979ca18736b19042633","mua_card_callback":"http://wspay.xxeng.vip/naptienga/callback","mua_card_24h_partner_id":"543f51e72b0c0979ca18736b19042633","mua_card_24h_partner_key":"http://wspay.xxeng.vip/naptienga/callback","client":"HT68","ecard_partner_id":"99225","ecard_username":"jantwo7","rut_cuoc_api_key":"","host_bot":"http://bot-web-service.default:6868/botteleapi","sms_partner":"SMS_BRANDNAME","airpay24h_username":"user","airpay24h_password":"123","naptienga_api_key_vip52":"d44987ce-78d1-424c-843e-ce51d5543ed5","naptienga_secret_key_vip52":"95b01544-a588-4f58-a51e-623aefe169e0","khothe_endpoint":"","khothe_partner_id":"","khothe_username":"","khothe_password":"","khothe_private_key":"","khothe_public_key":"","momo_zoan_partner_key":"","momo_zoan_partner_name":"","momo_zoan_endpoint":"","zoan_card_endpoint":"","zoan_card_username":"","zoan_card_password":"","zoan_card_callback_url":"","sms_brandname_password":"123456","sms_brandname_username":"TRONGHUNG","sms_brandname_name":"VTDD","sms_brandname_url":"http://210.211.109.117/apibrandname/send?wsdl"}
+2023-02-16 13:11:45,931 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-02-16 13:11:46,009 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-02-16 13:11:46,011 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-02-16 13:11:46,307 | INFO  | cluster-ClusterId{value='63edc922d88b9524beafbfeb', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:2, serverValue:68}] to 127.0.0.1:27017
+2023-02-16 13:11:46,308 | INFO  | cluster-ClusterId{value='63edc921d88b9524beafbfea', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:1, serverValue:69}] to 127.0.0.1:27017
+2023-02-16 13:11:46,309 | INFO  | cluster-ClusterId{value='63edc922d88b9524beafbfec', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:3, serverValue:70}] to 127.0.0.1:27017
+2023-02-16 13:11:46,315 | INFO  | cluster-ClusterId{value='63edc922d88b9524beafbfeb', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 28]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=1478922}
+2023-02-16 13:11:46,315 | INFO  | cluster-ClusterId{value='63edc922d88b9524beafbfec', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 28]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=979137}
+2023-02-16 13:11:46,315 | INFO  | cluster-ClusterId{value='63edc921d88b9524beafbfea', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 28]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=970288}
+2023-02-16 13:11:46,546 | INFO  | main | mongodb.driver.connection Opened connection [connectionId{localValue:4, serverValue:71}] to 127.0.0.1:27017
+2023-02-16 13:11:46,609 | INFO  | main | jetty.util.log Logging initialized @1743ms
+2023-02-16 13:11:46,662 | INFO  | main | jetty.server.Server jetty-9.2.10.v20150310
+2023-02-16 13:11:46,692 | INFO  | main | jetty.server.ServerConnector Started ServerConnector@5fb5a64b{HTTP/1.1}{0.0.0.0:18081}
+2023-02-16 13:11:46,692 | INFO  | main | jetty.server.Server Started @1828ms
+2023-02-16 13:11:46,692 | INFO  | main | pay.server.JettyServer WEBSERVICE PAY API Started ...!!!
+2023-02-16 13:26:45,883 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-16 13:26:45,883 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-02-16 13:26:45,884 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-02-16 13:26:45,884 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-02-16 13:26:45,885 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-16 13:26:45,885 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-02-16 13:26:45,885 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-16 13:26:45,885 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-16 13:26:45,885 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-02-16 13:26:45,885 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-02-16 13:26:50,886 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection

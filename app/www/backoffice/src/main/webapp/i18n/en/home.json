@@ -1,0 +1,19 @@
+{
+  "home": {
+    "title": "Welcome, Administrator!",
+    "subtitle": "The homepage",
+    "logged": {
+      "message": "You are logged in as user \"{{username}}\"."
+    },
+    "question": "This website is used for Administrator:",
+    "link": {
+      "homepage": "Homepage",
+      "stackoverflow": "Games online1",
+      "bugtracker": "Games online2",
+      "chat": "Games online3",
+      "follow": "follow Games online"
+    },
+    "like": "",
+    "github": ""
+  }
+}

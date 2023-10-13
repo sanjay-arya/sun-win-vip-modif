@@ -1,0 +1,25 @@
+{
+  "txcbApp": {
+    "rocket": {
+      "home": {
+        "title": "Rockets",
+        "createLabel": "Create a new Rocket",
+        "createOrEditLabel": "Create or edit a Rocket",
+        "notFound": "No Rockets found"
+      },
+      "created": "A new Rocket is created with identifier {{ param }}",
+      "updated": "A Rocket is updated with identifier {{ param }}",
+      "deleted": "A Rocket is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Rocket {{ id }}?"
+      },
+      "detail": {
+        "title": "Rocket"
+      },
+      "opentime": "Opentime",
+      "endtime": "Endtime",
+      "status": "Status",
+      "result": "Result"
+    }
+  }
+}

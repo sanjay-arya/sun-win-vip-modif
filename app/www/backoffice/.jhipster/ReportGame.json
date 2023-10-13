@@ -1,0 +1,57 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "rdate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "sicboBet",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "sicboWin",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "sedieBet",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "sedieWin",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "rocketBet",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "rocketWin",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "sicboFee",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "sedieFee",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "rocketFee",
+      "fieldType": "Long"
+    }
+  ],
+  "changelogDate": "20211103194037",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "no",
+  "entityTableName": "report_game",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "pagination"
+}

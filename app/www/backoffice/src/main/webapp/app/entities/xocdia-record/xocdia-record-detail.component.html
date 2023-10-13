@@ -1,0 +1,74 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="xocdiaRecord">
+            <h2><span jhiTranslate="txcbApp.xocdiaRecord.detail.title">Taixiu Record</span> {{ xocdiaRecord.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="txcbApp.xocdiaRecord.xocdiaId">Xocdia Id</span></dt>
+                <dd>
+                    <span>{{ xocdiaRecord.xocdiaId }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.xocdiaRecord.userId">User Id</span></dt>
+                <dd>
+                    <span>{{ xocdiaRecord.userId }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.xocdiaRecord.loginname">Loginname</span></dt>
+                <dd>
+                    <span>{{ xocdiaRecord.loginname }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.xocdiaRecord.betamount">Betamount</span></dt>
+                <dd>
+                    <span>{{ xocdiaRecord.betamount }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.xocdiaRecord.winamount">Winamount</span></dt>
+                <dd>
+                    <span>{{ xocdiaRecord.winamount }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.xocdiaRecord.typed">Typed</span></dt>
+                <dd>
+                    <span>{{ xocdiaRecord.typed }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.xocdiaRecord.status">Status</span></dt>
+                <dd>
+                    <span>{{ xocdiaRecord.status }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.xocdiaRecord.bettime">Bettime</span></dt>
+                <dd>
+                    <span>{{ xocdiaRecord.bettime }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.xocdiaRecord.result">Result</span></dt>
+                <dd>
+                    <span>{{ xocdiaRecord.result }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.xocdiaRecord.description">Description</span></dt>
+                <dd>
+                    <span>{{ xocdiaRecord.description }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.xocdiaRecord.refundamount">Refundamount</span></dt>
+                <dd>
+                    <span>{{ xocdiaRecord.refundamount }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.xocdiaRecord.ip">Ip</span></dt>
+                <dd>
+                    <span>{{ xocdiaRecord.ip }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/xocdia-record', xocdiaRecord.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

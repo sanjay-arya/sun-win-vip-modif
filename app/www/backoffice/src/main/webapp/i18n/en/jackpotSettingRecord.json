@@ -1,0 +1,24 @@
+{
+  "txcbApp": {
+    "jackpotSettingRecord": {
+      "home": {
+        "title": "Jackpot Setting Records",
+        "createLabel": "Create a new Jackpot Setting Record",
+        "createOrEditLabel": "Create or edit a Jackpot Setting Record",
+        "notFound": "No Jackpot Setting Records found"
+      },
+      "created": "A new Jackpot Setting Record is created with identifier {{ param }}",
+      "updated": "A Jackpot Setting Record is updated with identifier {{ param }}",
+      "deleted": "A Jackpot Setting Record is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Jackpot Setting Record {{ id }}?"
+      },
+      "detail": {
+        "title": "Jackpot Setting Record"
+      },
+      "createdBy": "Created By",
+      "createdDate": "Created Date",
+      "value": "Value"
+    }
+  }
+}

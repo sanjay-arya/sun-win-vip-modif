@@ -1,0 +1,6 @@
+2023-01-25 07:38:28,189 | INFO  | main | backend Logging initialized.
+2023-01-25 07:38:28,190 | DEBUG | main | backend STARTING BACKEND API SERVER .... !!!!
+2023-01-25 07:38:29,538 | INFO  | main | backend BACKEND API SERVER Started ...!!!
+2023-01-25 21:13:31,724 | INFO  | main | backend Logging initialized.
+2023-01-25 21:13:31,725 | DEBUG | main | backend STARTING BACKEND API SERVER .... !!!!
+2023-01-25 21:13:33,278 | INFO  | main | backend BACKEND API SERVER Started ...!!!

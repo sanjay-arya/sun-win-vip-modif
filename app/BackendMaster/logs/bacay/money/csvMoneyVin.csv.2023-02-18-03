@@ -1,0 +1,9 @@
+18 Feb 2023, 03:02:09,498 ,      mamanhqua,   BaCay,       -700,    0,            Tru tien, 1030,error hazelcast: Target[Address[127.0.0.1]:5701] disconnected.,03:02:09 18-02-2023
+18 Feb 2023, 03:02:09,628 ,  nuoceptraicay,   BaCay,       -200,    0,            Tru tien, 1031,error rmq: Transaction is timed-out!,03:02:09 18-02-2023
+18 Feb 2023, 03:02:10,071 ,       Jamespex,   BaCay,      -8000,    0,            Tru tien, 1031,error rmq: Transaction is timed-out!,03:02:10 18-02-2023
+18 Feb 2023, 03:02:10,074 ,        ketsing,   BaCay,      40000,    0, Dong bang them tien, 1031,error rmq: Transaction is timed-out!,03:02:10 18-02-2023
+18 Feb 2023, 03:02:10,075 ,       lizzieng,   BaCay,     107800, 2200,           Cong tien, 1031,error rmq: Transaction is timed-out!,03:02:10 18-02-2023
+18 Feb 2023, 03:02:10,078 ,   haiduongh192,   BaCay,      10000,    0,      Dong bang tien, 1031,error rmq: Transaction is timed-out!,03:02:10 18-02-2023
+18 Feb 2023, 03:02:10,078 ,      susangsua,   BaCay,     -36000,    0,            Tru tien, 1031,error rmq: Transaction is timed-out!,03:02:10 18-02-2023
+18 Feb 2023, 03:02:10,078 ,         asusk9,   BaCay,       2000,    0, Dong bang them tien, 1031,error rmq: Transaction is timed-out!,03:02:10 18-02-2023
+18 Feb 2023, 03:02:10,078 ,        imeldda,   BaCay,          0,    0,   Mo dong bang tien, 1031,error rmq: Transaction is timed-out!,03:02:10 18-02-2023

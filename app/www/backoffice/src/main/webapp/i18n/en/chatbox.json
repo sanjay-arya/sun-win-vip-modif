@@ -1,0 +1,26 @@
+{
+  "txcbApp": {
+    "chatbox": {
+      "home": {
+        "title": "Chatboxes",
+        "createLabel": "Create a new Chatbox",
+        "createOrEditLabel": "Create or edit a Chatbox",
+        "notFound": "No Chatboxes found"
+      },
+      "created": "A new Chatbox is created with identifier {{ param }}",
+      "updated": "A Chatbox is updated with identifier {{ param }}",
+      "deleted": "A Chatbox is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Chatbox {{ id }}?"
+      },
+      "detail": {
+        "title": "Chatbox"
+      },
+      "label": {
+        "loginname": "Loginname",
+        "message": "Message",
+        "created": "Created"
+      }
+    }
+  }
+}

@@ -1,0 +1,330 @@
+2023-01-23 15:14:53,909 | INFO  | main | vbee Logging initialized.
+2023-01-23 15:14:53,912 | INFO  | main | vbee VBEE INIT
+2023-01-23 15:14:55,225 | INFO  | main | vbee luckyReferenceId: 0
+2023-01-23 15:14:55,225 | INFO  | main | vbee moneyVinReferenceId: 1405063
+2023-01-23 15:14:55,225 | INFO  | main | vbee moneyXuReferenceId: 0
+2023-01-23 15:14:55,227 | INFO  | main | vbee STARTING RABBITMQ ...!!!
+2023-01-23 15:14:55,322 | INFO  | main | vbee queueName:queue_server_info id:1 path:com.vinplay.vbee.rmq.serverinfo.processor.LogCCUProcessor
+2023-01-23 15:14:55,448 | INFO  | main | vbee Start 1 queue_server_info, num commands= 1 success
+2023-01-23 15:14:55,448 | INFO  | main | vbee queueName:queue_payment id:10 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyInGameProcessor
+2023-01-23 15:14:55,448 | INFO  | main | vbee queueName:queue_payment id:12 path:com.vinplay.vbee.rmq.payment.processor.FreezeMoneyInGameProcessor
+2023-01-23 15:14:55,449 | INFO  | main | vbee queueName:queue_payment id:13 path:com.vinplay.vbee.rmq.payment.processor.RestoreMoneyInGameProcessor
+2023-01-23 15:14:55,449 | INFO  | main | vbee queueName:queue_payment id:14 path:com.vinplay.vbee.rmq.payment.processor.SafeMoneyProcessor
+2023-01-23 15:14:55,449 | INFO  | main | vbee queueName:queue_payment id:16 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyProcessor
+2023-01-23 15:14:55,449 | INFO  | main | vbee queueName:queue_payment id:18 path:com.vinplay.vbee.rmq.payment.processor.UpdateVippointProcessor
+2023-01-23 15:14:55,449 | INFO  | main | vbee queueName:queue_payment id:19 path:com.vinplay.vbee.rmq.payment.processor.NoHuGameBaiProcessor
+2023-01-23 15:14:55,548 | INFO  | main | vbee Start 50 queue_payment, num commands= 7 success
+2023-01-23 15:14:55,548 | INFO  | main | vbee queueName:queue_payment_minigame id:30 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyProcessor
+2023-01-23 15:14:55,617 | INFO  | main | vbee Start 50 queue_payment_minigame, num commands= 1 success
+2023-01-23 15:14:55,617 | INFO  | main | vbee queueName:queue_payment_gamebai id:40 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyInGameProcessor
+2023-01-23 15:14:55,617 | INFO  | main | vbee queueName:queue_payment_gamebai id:41 path:com.vinplay.vbee.rmq.payment.processor.FreezeMoneyInGameProcessor
+2023-01-23 15:14:55,617 | INFO  | main | vbee queueName:queue_payment_gamebai id:42 path:com.vinplay.vbee.rmq.payment.processor.RestoreMoneyInGameProcessor
+2023-01-23 15:14:55,632 | INFO  | main | vbee Start 1 queue_payment_gamebai, num commands= 3 success
+2023-01-23 15:14:55,632 | INFO  | main | vbee queueName:queue_pot id:106 path:com.vinplay.vbee.rmq.minigame.processor.UpdatePotProcessor
+2023-01-23 15:14:55,672 | INFO  | main | vbee Start 10 queue_pot, num commands= 1 success
+2023-01-23 15:14:55,672 | INFO  | main | vbee queueName:queue_fund id:110 path:com.vinplay.vbee.rmq.minigame.processor.UpdateFundProcessor
+2023-01-23 15:14:55,706 | INFO  | main | vbee Start 10 queue_fund, num commands= 1 success
+2023-01-23 15:14:55,707 | INFO  | main | vbee queueName:queue_vqmm id:105 path:com.vinplay.vbee.rmq.minigame.processor.SaveResultLuckyProcessor
+2023-01-23 15:14:55,714 | INFO  | main | vbee Start 1 queue_vqmm, num commands= 1 success
+2023-01-23 15:14:55,714 | INFO  | main | vbee queueName:queue_taixiu id:100 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionTaiXiuProcessor
+2023-01-23 15:14:55,714 | INFO  | main | vbee queueName:queue_taixiu id:101 path:com.vinplay.vbee.rmq.minigame.processor.SaveResultTaiXiuProcessor
+2023-01-23 15:14:55,714 | INFO  | main | vbee queueName:queue_taixiu id:102 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionDetailTaiXiuProcessor
+2023-01-23 15:14:55,714 | INFO  | main | vbee queueName:queue_taixiu id:103 path:com.vinplay.vbee.rmq.minigame.processor.UpdateTransactionDetailTaiXiuProcessor
+2023-01-23 15:14:55,741 | INFO  | main | vbee Start 10 queue_taixiu, num commands= 4 success
+2023-01-23 15:14:55,742 | INFO  | main | vbee queueName:queue_minipoker id:111 path:com.vinplay.vbee.rmq.minigame.processor.LogMiniPokerProcessor
+2023-01-23 15:14:55,771 | INFO  | main | vbee Start 10 queue_minipoker, num commands= 1 success
+2023-01-23 15:14:55,771 | INFO  | main | vbee queueName:queue_pokego id:134 path:com.vinplay.vbee.rmq.minigame.processor.LogPokeGoProcessor
+2023-01-23 15:14:55,797 | INFO  | main | vbee Start 10 queue_pokego, num commands= 1 success
+2023-01-23 15:14:55,797 | INFO  | main | vbee queueName:queue_galaxy id:141 path:com.vinplay.vbee.rmq.minigame.processor.LogGalaxyProcessor
+2023-01-23 15:14:55,828 | INFO  | main | vbee Start 10 queue_galaxy, num commands= 1 success
+2023-01-23 15:14:55,828 | INFO  | main | vbee queueName:queue_caothap id:112 path:com.vinplay.vbee.rmq.minigame.processor.LogCaoThapProcessor
+2023-01-23 15:14:55,828 | INFO  | main | vbee queueName:queue_caothap id:113 path:com.vinplay.vbee.rmq.minigame.processor.LogCaoThapWinProcessor
+2023-01-23 15:14:55,878 | INFO  | main | vbee Start 10 queue_caothap, num commands= 2 success
+2023-01-23 15:14:55,878 | INFO  | main | vbee queueName:queue_baucua id:130 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionDetailBauCuaProcessor
+2023-01-23 15:14:55,878 | INFO  | main | vbee queueName:queue_baucua id:131 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionBauCuaProcessor
+2023-01-23 15:14:55,878 | INFO  | main | vbee queueName:queue_baucua id:132 path:com.vinplay.vbee.rmq.minigame.processor.SaveResultBauCuaProcessor
+2023-01-23 15:14:55,879 | INFO  | main | vbee queueName:queue_baucua id:133 path:com.vinplay.vbee.rmq.minigame.processor.UpdateToiChonCaProcessor
+2023-01-23 15:14:55,932 | INFO  | main | vbee Start 10 queue_baucua, num commands= 4 success
+2023-01-23 15:14:55,932 | INFO  | main | vbee queueName:queue_hu_gamebai id:401 path:com.vinplay.vbee.rmq.gamebai.processor.CongTienHuGameBaiProcessor
+2023-01-23 15:14:55,932 | INFO  | main | vbee queueName:queue_hu_gamebai id:402 path:com.vinplay.vbee.rmq.gamebai.processor.SaveLogNoHuGameBaiProcessor
+2023-01-23 15:14:55,976 | INFO  | main | vbee Start 1 queue_hu_gamebai, num commands= 2 success
+2023-01-23 15:14:55,977 | INFO  | main | vbee queueName:queue_log_gamebai id:501 path:com.vinplay.vbee.rmq.gamebai.processor.SaveLogGameByNickNameProcessor
+2023-01-23 15:14:55,977 | INFO  | main | vbee queueName:queue_log_gamebai id:502 path:com.vinplay.vbee.rmq.gamebai.processor.SaveLogGameDetailProcessor
+2023-01-23 15:14:56,043 | INFO  | main | vbee Start 10 queue_log_gamebai, num commands= 2 success
+2023-01-23 15:14:56,043 | INFO  | main | vbee queueName:queue_log_money id:601 path:com.vinplay.vbee.rmq.log.processor.LogMoneyUserProcessor
+2023-01-23 15:14:56,098 | INFO  | main | vbee Start 50 queue_log_money, num commands= 1 success
+2023-01-23 15:14:56,099 | INFO  | main | vbee queueName:queue_log_report_user_balance id:602 path:com.vinplay.vbee.rmq.loguserinday.LogSumReportUserSQLProcessor
+2023-01-23 15:14:56,207 | INFO  | main | vbee Start 50 queue_log_report_user_balance, num commands= 1 success
+2023-01-23 15:14:56,207 | INFO  | main | vbee queueName:queue_log_chuyen_tien_dai_ly id:602 path:com.vinplay.vbee.rmq.log.processor.LogChuyenTienDaiLyProcessor
+2023-01-23 15:14:56,207 | INFO  | main | vbee queueName:queue_log_chuyen_tien_dai_ly id:11 path:com.vinplay.vbee.rmq.payment.processor.FreezeMoneyTranferAgentProcessor
+2023-01-23 15:14:56,207 | INFO  | main | vbee queueName:queue_log_chuyen_tien_dai_ly id:15 path:com.vinplay.vbee.rmq.payment.processor.RestoreMoneyTranferAgentProcessor
+2023-01-23 15:14:56,236 | INFO  | main | vbee Start 10 queue_log_chuyen_tien_dai_ly, num commands= 3 success
+2023-01-23 15:14:56,236 | INFO  | main | vbee queueName:queue_kho_bau id:135 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 15:14:56,327 | INFO  | main | vbee Start 10 queue_kho_bau, num commands= 1 success
+2023-01-23 15:14:56,327 | INFO  | main | vbee queueName:queue_audition id:8001 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 15:14:56,360 | INFO  | main | vbee Start 10 queue_audition, num commands= 1 success
+2023-01-23 15:14:56,360 | INFO  | main | vbee queueName:queue_chiemtinh id:8010 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 15:14:56,389 | INFO  | main | vbee Start 10 queue_chiemtinh, num commands= 1 success
+2023-01-23 15:14:56,389 | INFO  | main | vbee queueName:queue_bikini id:8011 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 15:14:56,443 | INFO  | main | vbee Start 10 queue_bikini, num commands= 1 success
+2023-01-23 15:14:56,443 | INFO  | main | vbee queueName:queue_range_rover id:8002 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 15:14:56,486 | INFO  | main | vbee Start 10 queue_range_rover, num commands= 1 success
+2023-01-23 15:14:56,487 | INFO  | main | vbee queueName:queue_maybach id:8003 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 15:14:56,499 | INFO  | main | vbee Start 10 queue_maybach, num commands= 1 success
+2023-01-23 15:14:56,500 | INFO  | main | vbee queueName:queue_tamhung id:8004 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 15:14:56,509 | INFO  | main | vbee Start 10 queue_tamhung, num commands= 1 success
+2023-01-23 15:14:56,509 | INFO  | main | vbee queueName:queue_roll_roye id:8005 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 15:14:56,527 | INFO  | main | vbee Start 10 queue_roll_roye, num commands= 1 success
+2023-01-23 15:14:56,528 | INFO  | main | vbee queueName:queue_benley id:8006 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 15:14:56,544 | INFO  | main | vbee Start 10 queue_benley, num commands= 1 success
+2023-01-23 15:14:56,545 | INFO  | main | vbee queueName:queue_avengers id:136 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 15:14:56,569 | INFO  | main | vbee Start 10 queue_avengers, num commands= 1 success
+2023-01-23 15:14:56,569 | INFO  | main | vbee queueName:queue_spartan id:10136 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 15:14:56,629 | INFO  | main | vbee Start 10 queue_spartan, num commands= 1 success
+2023-01-23 15:14:56,629 | INFO  | main | vbee queueName:queue_my_nhan_ngu id:137 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 15:14:56,656 | INFO  | main | vbee Start 10 queue_my_nhan_ngu, num commands= 1 success
+2023-01-23 15:14:56,657 | INFO  | main | vbee queueName:queue_nu_diep_vien id:138 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 15:14:56,697 | INFO  | main | vbee Start 10 queue_nu_diep_vien, num commands= 1 success
+2023-01-23 15:14:56,697 | INFO  | main | vbee queueName:queue_vqv id:139 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 15:14:56,757 | INFO  | main | vbee Start 10 queue_vqv, num commands= 1 success
+2023-01-23 15:14:56,757 | INFO  | main | vbee queueName:queue_log_nohu id:140 path:com.vinplay.vbee.rmq.slot.processor.LogNoHuSlotProcessor
+2023-01-23 15:14:56,813 | INFO  | main | vbee Start 10 queue_log_nohu, num commands= 1 success
+2023-01-23 15:14:56,813 | INFO  | main | vbee queueName:queue_report id:701 path:com.vinplay.vbee.rmq.report.processor.ReportMoneyProcessor
+2023-01-23 15:14:56,857 | INFO  | main | vbee Start 10 queue_report, num commands= 1 success
+2023-01-23 15:14:56,858 | INFO  | main | vbee queueName:queue_vippoint_event id:801 path:com.vinplay.vbee.rmq.vippoint.processor.UpdateVippointEventProcessor
+2023-01-23 15:14:56,905 | INFO  | main | vbee Start 10 queue_vippoint_event, num commands= 1 success
+2023-01-23 15:14:56,906 | INFO  | main | vbee queueName:queue_login_info id:50 path:com.vinplay.vbee.rmq.statistic.processor.LoginPortalInfoProcessor
+2023-01-23 15:14:56,941 | INFO  | main | vbee Start 5 queue_login_info, num commands= 1 success
+2023-01-23 15:14:56,942 | INFO  | main | vbee queueName:queue_user_mission id:901 path:com.vinplay.vbee.rmq.userMission.processor.UpdateUserMissionProcessor
+2023-01-23 15:14:56,942 | INFO  | main | vbee queueName:queue_user_mission id:902 path:com.vinplay.vbee.rmq.userMission.processor.LogReceivedRewardMissionProcessor
+2023-01-23 15:14:56,969 | INFO  | main | vbee Start 1 queue_user_mission, num commands= 2 success
+2023-01-23 15:14:56,969 | INFO  | main | vbee queueName:queue_log_mission id:902 path:com.vinplay.vbee.rmq.userMission.processor.LogReceivedRewardMissionProcessor
+2023-01-23 15:14:57,008 | INFO  | main | vbee Start 1 queue_log_mission, num commands= 1 success
+2023-01-23 15:14:57,009 | INFO  | main | vbee queueName:queue_log_money_extra id:1001 path:com.vinplay.vbee.rmq.log.processor.LogMoneyUserExtraProcessor
+2023-01-23 15:14:57,086 | INFO  | main | vbee Start 50 queue_log_money_extra, num commands= 1 success
+2023-01-23 15:14:57,086 | INFO  | main | vbee queueName:queue_gift_code id:1200 path:com.vinplay.vbee.rmq.giftcode.processor.UpdateGiftCodeStoreProcessor
+2023-01-23 15:14:57,087 | INFO  | main | vbee queueName:queue_gift_code id:1201 path:com.vinplay.vbee.rmq.giftcode.processor.LockGiftCodeProcessor
+2023-01-23 15:14:57,117 | INFO  | main | vbee Start 1 queue_gift_code, num commands= 2 success
+2023-01-23 15:14:57,117 | INFO  | main | vbee queueName:queue_log_sent_sms id:1310 path:com.vinplay.vbee.rmq.processor.sentsms.LogSentSmsProcessor
+2023-01-23 15:14:57,149 | INFO  | main | vbee Start 1 queue_log_sent_sms, num commands= 1 success
+2023-01-23 15:14:57,149 | INFO  | main | vbee RABBITMQ Started ...!!!
+2023-01-23 18:53:46,384 | INFO  | main | vbee Logging initialized.
+2023-01-23 18:53:46,385 | INFO  | main | vbee VBEE INIT
+2023-01-23 18:53:47,635 | INFO  | main | vbee luckyReferenceId: 0
+2023-01-23 18:53:47,635 | INFO  | main | vbee moneyVinReferenceId: 1435869
+2023-01-23 18:53:47,635 | INFO  | main | vbee moneyXuReferenceId: 0
+2023-01-23 18:53:47,636 | INFO  | main | vbee STARTING RABBITMQ ...!!!
+2023-01-23 18:53:47,720 | INFO  | main | vbee queueName:queue_server_info id:1 path:com.vinplay.vbee.rmq.serverinfo.processor.LogCCUProcessor
+2023-01-23 18:53:47,810 | INFO  | main | vbee Start 1 queue_server_info, num commands= 1 success
+2023-01-23 18:53:47,811 | INFO  | main | vbee queueName:queue_payment id:10 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyInGameProcessor
+2023-01-23 18:53:47,811 | INFO  | main | vbee queueName:queue_payment id:12 path:com.vinplay.vbee.rmq.payment.processor.FreezeMoneyInGameProcessor
+2023-01-23 18:53:47,811 | INFO  | main | vbee queueName:queue_payment id:13 path:com.vinplay.vbee.rmq.payment.processor.RestoreMoneyInGameProcessor
+2023-01-23 18:53:47,811 | INFO  | main | vbee queueName:queue_payment id:14 path:com.vinplay.vbee.rmq.payment.processor.SafeMoneyProcessor
+2023-01-23 18:53:47,811 | INFO  | main | vbee queueName:queue_payment id:16 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyProcessor
+2023-01-23 18:53:47,811 | INFO  | main | vbee queueName:queue_payment id:18 path:com.vinplay.vbee.rmq.payment.processor.UpdateVippointProcessor
+2023-01-23 18:53:47,811 | INFO  | main | vbee queueName:queue_payment id:19 path:com.vinplay.vbee.rmq.payment.processor.NoHuGameBaiProcessor
+2023-01-23 18:53:47,863 | INFO  | main | vbee Start 50 queue_payment, num commands= 7 success
+2023-01-23 18:53:47,863 | INFO  | main | vbee queueName:queue_payment_minigame id:30 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyProcessor
+2023-01-23 18:53:47,915 | INFO  | main | vbee Start 50 queue_payment_minigame, num commands= 1 success
+2023-01-23 18:53:47,916 | INFO  | main | vbee queueName:queue_payment_gamebai id:40 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyInGameProcessor
+2023-01-23 18:53:47,917 | INFO  | main | vbee queueName:queue_payment_gamebai id:41 path:com.vinplay.vbee.rmq.payment.processor.FreezeMoneyInGameProcessor
+2023-01-23 18:53:47,917 | INFO  | main | vbee queueName:queue_payment_gamebai id:42 path:com.vinplay.vbee.rmq.payment.processor.RestoreMoneyInGameProcessor
+2023-01-23 18:53:47,935 | INFO  | main | vbee Start 1 queue_payment_gamebai, num commands= 3 success
+2023-01-23 18:53:47,935 | INFO  | main | vbee queueName:queue_pot id:106 path:com.vinplay.vbee.rmq.minigame.processor.UpdatePotProcessor
+2023-01-23 18:53:47,959 | INFO  | main | vbee Start 10 queue_pot, num commands= 1 success
+2023-01-23 18:53:47,960 | INFO  | main | vbee queueName:queue_fund id:110 path:com.vinplay.vbee.rmq.minigame.processor.UpdateFundProcessor
+2023-01-23 18:53:48,011 | INFO  | main | vbee Start 10 queue_fund, num commands= 1 success
+2023-01-23 18:53:48,011 | INFO  | main | vbee queueName:queue_vqmm id:105 path:com.vinplay.vbee.rmq.minigame.processor.SaveResultLuckyProcessor
+2023-01-23 18:53:48,025 | INFO  | main | vbee Start 1 queue_vqmm, num commands= 1 success
+2023-01-23 18:53:48,025 | INFO  | main | vbee queueName:queue_taixiu id:100 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionTaiXiuProcessor
+2023-01-23 18:53:48,025 | INFO  | main | vbee queueName:queue_taixiu id:101 path:com.vinplay.vbee.rmq.minigame.processor.SaveResultTaiXiuProcessor
+2023-01-23 18:53:48,025 | INFO  | main | vbee queueName:queue_taixiu id:102 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionDetailTaiXiuProcessor
+2023-01-23 18:53:48,025 | INFO  | main | vbee queueName:queue_taixiu id:103 path:com.vinplay.vbee.rmq.minigame.processor.UpdateTransactionDetailTaiXiuProcessor
+2023-01-23 18:53:48,063 | INFO  | main | vbee Start 10 queue_taixiu, num commands= 4 success
+2023-01-23 18:53:48,063 | INFO  | main | vbee queueName:queue_minipoker id:111 path:com.vinplay.vbee.rmq.minigame.processor.LogMiniPokerProcessor
+2023-01-23 18:53:48,086 | INFO  | main | vbee Start 10 queue_minipoker, num commands= 1 success
+2023-01-23 18:53:48,086 | INFO  | main | vbee queueName:queue_pokego id:134 path:com.vinplay.vbee.rmq.minigame.processor.LogPokeGoProcessor
+2023-01-23 18:53:48,160 | INFO  | main | vbee Start 10 queue_pokego, num commands= 1 success
+2023-01-23 18:53:48,160 | INFO  | main | vbee queueName:queue_galaxy id:141 path:com.vinplay.vbee.rmq.minigame.processor.LogGalaxyProcessor
+2023-01-23 18:53:48,198 | INFO  | main | vbee Start 10 queue_galaxy, num commands= 1 success
+2023-01-23 18:53:48,198 | INFO  | main | vbee queueName:queue_caothap id:112 path:com.vinplay.vbee.rmq.minigame.processor.LogCaoThapProcessor
+2023-01-23 18:53:48,198 | INFO  | main | vbee queueName:queue_caothap id:113 path:com.vinplay.vbee.rmq.minigame.processor.LogCaoThapWinProcessor
+2023-01-23 18:53:48,263 | INFO  | main | vbee Start 10 queue_caothap, num commands= 2 success
+2023-01-23 18:53:48,264 | INFO  | main | vbee queueName:queue_baucua id:130 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionDetailBauCuaProcessor
+2023-01-23 18:53:48,264 | INFO  | main | vbee queueName:queue_baucua id:131 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionBauCuaProcessor
+2023-01-23 18:53:48,264 | INFO  | main | vbee queueName:queue_baucua id:132 path:com.vinplay.vbee.rmq.minigame.processor.SaveResultBauCuaProcessor
+2023-01-23 18:53:48,264 | INFO  | main | vbee queueName:queue_baucua id:133 path:com.vinplay.vbee.rmq.minigame.processor.UpdateToiChonCaProcessor
+2023-01-23 18:53:48,305 | INFO  | main | vbee Start 10 queue_baucua, num commands= 4 success
+2023-01-23 18:53:48,306 | INFO  | main | vbee queueName:queue_hu_gamebai id:401 path:com.vinplay.vbee.rmq.gamebai.processor.CongTienHuGameBaiProcessor
+2023-01-23 18:53:48,306 | INFO  | main | vbee queueName:queue_hu_gamebai id:402 path:com.vinplay.vbee.rmq.gamebai.processor.SaveLogNoHuGameBaiProcessor
+2023-01-23 18:53:48,323 | INFO  | main | vbee Start 1 queue_hu_gamebai, num commands= 2 success
+2023-01-23 18:53:48,324 | INFO  | main | vbee queueName:queue_log_gamebai id:501 path:com.vinplay.vbee.rmq.gamebai.processor.SaveLogGameByNickNameProcessor
+2023-01-23 18:53:48,324 | INFO  | main | vbee queueName:queue_log_gamebai id:502 path:com.vinplay.vbee.rmq.gamebai.processor.SaveLogGameDetailProcessor
+2023-01-23 18:53:48,397 | INFO  | main | vbee Start 10 queue_log_gamebai, num commands= 2 success
+2023-01-23 18:53:48,398 | INFO  | main | vbee queueName:queue_log_money id:601 path:com.vinplay.vbee.rmq.log.processor.LogMoneyUserProcessor
+2023-01-23 18:53:48,505 | INFO  | main | vbee Start 50 queue_log_money, num commands= 1 success
+2023-01-23 18:53:48,505 | INFO  | main | vbee queueName:queue_log_report_user_balance id:602 path:com.vinplay.vbee.rmq.loguserinday.LogSumReportUserSQLProcessor
+2023-01-23 18:53:48,631 | INFO  | main | vbee Start 50 queue_log_report_user_balance, num commands= 1 success
+2023-01-23 18:53:48,632 | INFO  | main | vbee queueName:queue_log_chuyen_tien_dai_ly id:602 path:com.vinplay.vbee.rmq.log.processor.LogChuyenTienDaiLyProcessor
+2023-01-23 18:53:48,632 | INFO  | main | vbee queueName:queue_log_chuyen_tien_dai_ly id:11 path:com.vinplay.vbee.rmq.payment.processor.FreezeMoneyTranferAgentProcessor
+2023-01-23 18:53:48,632 | INFO  | main | vbee queueName:queue_log_chuyen_tien_dai_ly id:15 path:com.vinplay.vbee.rmq.payment.processor.RestoreMoneyTranferAgentProcessor
+2023-01-23 18:53:48,693 | INFO  | main | vbee Start 10 queue_log_chuyen_tien_dai_ly, num commands= 3 success
+2023-01-23 18:53:48,694 | INFO  | main | vbee queueName:queue_kho_bau id:135 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 18:53:48,772 | INFO  | main | vbee Start 10 queue_kho_bau, num commands= 1 success
+2023-01-23 18:53:48,772 | INFO  | main | vbee queueName:queue_audition id:8001 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 18:53:48,812 | INFO  | main | vbee Start 10 queue_audition, num commands= 1 success
+2023-01-23 18:53:48,812 | INFO  | main | vbee queueName:queue_chiemtinh id:8010 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 18:53:48,846 | INFO  | main | vbee Start 10 queue_chiemtinh, num commands= 1 success
+2023-01-23 18:53:48,846 | INFO  | main | vbee queueName:queue_bikini id:8011 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 18:53:48,872 | INFO  | main | vbee Start 10 queue_bikini, num commands= 1 success
+2023-01-23 18:53:48,872 | INFO  | main | vbee queueName:queue_range_rover id:8002 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 18:53:48,887 | INFO  | main | vbee Start 10 queue_range_rover, num commands= 1 success
+2023-01-23 18:53:48,887 | INFO  | main | vbee queueName:queue_maybach id:8003 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 18:53:48,901 | INFO  | main | vbee Start 10 queue_maybach, num commands= 1 success
+2023-01-23 18:53:48,901 | INFO  | main | vbee queueName:queue_tamhung id:8004 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 18:53:48,913 | INFO  | main | vbee Start 10 queue_tamhung, num commands= 1 success
+2023-01-23 18:53:48,913 | INFO  | main | vbee queueName:queue_roll_roye id:8005 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 18:53:48,926 | INFO  | main | vbee Start 10 queue_roll_roye, num commands= 1 success
+2023-01-23 18:53:48,926 | INFO  | main | vbee queueName:queue_benley id:8006 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 18:53:48,961 | INFO  | main | vbee Start 10 queue_benley, num commands= 1 success
+2023-01-23 18:53:48,961 | INFO  | main | vbee queueName:queue_avengers id:136 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 18:53:49,010 | INFO  | main | vbee Start 10 queue_avengers, num commands= 1 success
+2023-01-23 18:53:49,011 | INFO  | main | vbee queueName:queue_spartan id:10136 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 18:53:49,035 | INFO  | main | vbee Start 10 queue_spartan, num commands= 1 success
+2023-01-23 18:53:49,035 | INFO  | main | vbee queueName:queue_my_nhan_ngu id:137 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 18:53:49,079 | INFO  | main | vbee Start 10 queue_my_nhan_ngu, num commands= 1 success
+2023-01-23 18:53:49,080 | INFO  | main | vbee queueName:queue_nu_diep_vien id:138 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 18:53:49,146 | INFO  | main | vbee Start 10 queue_nu_diep_vien, num commands= 1 success
+2023-01-23 18:53:49,146 | INFO  | main | vbee queueName:queue_vqv id:139 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 18:53:49,240 | INFO  | main | vbee Start 10 queue_vqv, num commands= 1 success
+2023-01-23 18:53:49,240 | INFO  | main | vbee queueName:queue_log_nohu id:140 path:com.vinplay.vbee.rmq.slot.processor.LogNoHuSlotProcessor
+2023-01-23 18:53:49,277 | INFO  | main | vbee Start 10 queue_log_nohu, num commands= 1 success
+2023-01-23 18:53:49,277 | INFO  | main | vbee queueName:queue_report id:701 path:com.vinplay.vbee.rmq.report.processor.ReportMoneyProcessor
+2023-01-23 18:53:49,322 | INFO  | main | vbee Start 10 queue_report, num commands= 1 success
+2023-01-23 18:53:49,322 | INFO  | main | vbee queueName:queue_vippoint_event id:801 path:com.vinplay.vbee.rmq.vippoint.processor.UpdateVippointEventProcessor
+2023-01-23 18:53:49,332 | INFO  | main | vbee Start 10 queue_vippoint_event, num commands= 1 success
+2023-01-23 18:53:49,332 | INFO  | main | vbee queueName:queue_login_info id:50 path:com.vinplay.vbee.rmq.statistic.processor.LoginPortalInfoProcessor
+2023-01-23 18:53:49,352 | INFO  | main | vbee Start 5 queue_login_info, num commands= 1 success
+2023-01-23 18:53:49,353 | INFO  | main | vbee queueName:queue_user_mission id:901 path:com.vinplay.vbee.rmq.userMission.processor.UpdateUserMissionProcessor
+2023-01-23 18:53:49,353 | INFO  | main | vbee queueName:queue_user_mission id:902 path:com.vinplay.vbee.rmq.userMission.processor.LogReceivedRewardMissionProcessor
+2023-01-23 18:53:49,375 | INFO  | main | vbee Start 1 queue_user_mission, num commands= 2 success
+2023-01-23 18:53:49,375 | INFO  | main | vbee queueName:queue_log_mission id:902 path:com.vinplay.vbee.rmq.userMission.processor.LogReceivedRewardMissionProcessor
+2023-01-23 18:53:49,387 | INFO  | main | vbee Start 1 queue_log_mission, num commands= 1 success
+2023-01-23 18:53:49,387 | INFO  | main | vbee queueName:queue_log_money_extra id:1001 path:com.vinplay.vbee.rmq.log.processor.LogMoneyUserExtraProcessor
+2023-01-23 18:53:49,503 | INFO  | main | vbee Start 50 queue_log_money_extra, num commands= 1 success
+2023-01-23 18:53:49,503 | INFO  | main | vbee queueName:queue_gift_code id:1200 path:com.vinplay.vbee.rmq.giftcode.processor.UpdateGiftCodeStoreProcessor
+2023-01-23 18:53:49,504 | INFO  | main | vbee queueName:queue_gift_code id:1201 path:com.vinplay.vbee.rmq.giftcode.processor.LockGiftCodeProcessor
+2023-01-23 18:53:49,539 | INFO  | main | vbee Start 1 queue_gift_code, num commands= 2 success
+2023-01-23 18:53:49,539 | INFO  | main | vbee queueName:queue_log_sent_sms id:1310 path:com.vinplay.vbee.rmq.processor.sentsms.LogSentSmsProcessor
+2023-01-23 18:53:49,567 | INFO  | main | vbee Start 1 queue_log_sent_sms, num commands= 1 success
+2023-01-23 18:53:49,568 | INFO  | main | vbee RABBITMQ Started ...!!!
+2023-01-23 23:23:50,173 | INFO  | main | vbee Logging initialized.
+2023-01-23 23:23:50,174 | INFO  | main | vbee VBEE INIT
+2023-01-23 23:23:51,520 | INFO  | main | vbee luckyReferenceId: 0
+2023-01-23 23:23:51,521 | INFO  | main | vbee moneyVinReferenceId: 1464167
+2023-01-23 23:23:51,521 | INFO  | main | vbee moneyXuReferenceId: 0
+2023-01-23 23:23:51,522 | INFO  | main | vbee STARTING RABBITMQ ...!!!
+2023-01-23 23:23:51,607 | INFO  | main | vbee queueName:queue_server_info id:1 path:com.vinplay.vbee.rmq.serverinfo.processor.LogCCUProcessor
+2023-01-23 23:23:51,716 | INFO  | main | vbee Start 1 queue_server_info, num commands= 1 success
+2023-01-23 23:23:51,717 | INFO  | main | vbee queueName:queue_payment id:10 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyInGameProcessor
+2023-01-23 23:23:51,717 | INFO  | main | vbee queueName:queue_payment id:12 path:com.vinplay.vbee.rmq.payment.processor.FreezeMoneyInGameProcessor
+2023-01-23 23:23:51,717 | INFO  | main | vbee queueName:queue_payment id:13 path:com.vinplay.vbee.rmq.payment.processor.RestoreMoneyInGameProcessor
+2023-01-23 23:23:51,717 | INFO  | main | vbee queueName:queue_payment id:14 path:com.vinplay.vbee.rmq.payment.processor.SafeMoneyProcessor
+2023-01-23 23:23:51,717 | INFO  | main | vbee queueName:queue_payment id:16 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyProcessor
+2023-01-23 23:23:51,717 | INFO  | main | vbee queueName:queue_payment id:18 path:com.vinplay.vbee.rmq.payment.processor.UpdateVippointProcessor
+2023-01-23 23:23:51,717 | INFO  | main | vbee queueName:queue_payment id:19 path:com.vinplay.vbee.rmq.payment.processor.NoHuGameBaiProcessor
+2023-01-23 23:23:51,766 | INFO  | main | vbee Start 50 queue_payment, num commands= 7 success
+2023-01-23 23:23:51,766 | INFO  | main | vbee queueName:queue_payment_minigame id:30 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyProcessor
+2023-01-23 23:23:51,818 | INFO  | main | vbee Start 50 queue_payment_minigame, num commands= 1 success
+2023-01-23 23:23:51,818 | INFO  | main | vbee queueName:queue_payment_gamebai id:40 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyInGameProcessor
+2023-01-23 23:23:51,818 | INFO  | main | vbee queueName:queue_payment_gamebai id:41 path:com.vinplay.vbee.rmq.payment.processor.FreezeMoneyInGameProcessor
+2023-01-23 23:23:51,818 | INFO  | main | vbee queueName:queue_payment_gamebai id:42 path:com.vinplay.vbee.rmq.payment.processor.RestoreMoneyInGameProcessor
+2023-01-23 23:23:51,825 | INFO  | main | vbee Start 1 queue_payment_gamebai, num commands= 3 success
+2023-01-23 23:23:51,825 | INFO  | main | vbee queueName:queue_pot id:106 path:com.vinplay.vbee.rmq.minigame.processor.UpdatePotProcessor
+2023-01-23 23:23:51,860 | INFO  | main | vbee Start 10 queue_pot, num commands= 1 success
+2023-01-23 23:23:51,861 | INFO  | main | vbee queueName:queue_fund id:110 path:com.vinplay.vbee.rmq.minigame.processor.UpdateFundProcessor
+2023-01-23 23:23:51,903 | INFO  | main | vbee Start 10 queue_fund, num commands= 1 success
+2023-01-23 23:23:51,904 | INFO  | main | vbee queueName:queue_vqmm id:105 path:com.vinplay.vbee.rmq.minigame.processor.SaveResultLuckyProcessor
+2023-01-23 23:23:51,911 | INFO  | main | vbee Start 1 queue_vqmm, num commands= 1 success
+2023-01-23 23:23:51,911 | INFO  | main | vbee queueName:queue_taixiu id:100 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionTaiXiuProcessor
+2023-01-23 23:23:51,911 | INFO  | main | vbee queueName:queue_taixiu id:101 path:com.vinplay.vbee.rmq.minigame.processor.SaveResultTaiXiuProcessor
+2023-01-23 23:23:51,911 | INFO  | main | vbee queueName:queue_taixiu id:102 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionDetailTaiXiuProcessor
+2023-01-23 23:23:51,911 | INFO  | main | vbee queueName:queue_taixiu id:103 path:com.vinplay.vbee.rmq.minigame.processor.UpdateTransactionDetailTaiXiuProcessor
+2023-01-23 23:23:51,934 | INFO  | main | vbee Start 10 queue_taixiu, num commands= 4 success
+2023-01-23 23:23:51,935 | INFO  | main | vbee queueName:queue_minipoker id:111 path:com.vinplay.vbee.rmq.minigame.processor.LogMiniPokerProcessor
+2023-01-23 23:23:51,968 | INFO  | main | vbee Start 10 queue_minipoker, num commands= 1 success
+2023-01-23 23:23:51,968 | INFO  | main | vbee queueName:queue_pokego id:134 path:com.vinplay.vbee.rmq.minigame.processor.LogPokeGoProcessor
+2023-01-23 23:23:52,024 | INFO  | main | vbee Start 10 queue_pokego, num commands= 1 success
+2023-01-23 23:23:52,024 | INFO  | main | vbee queueName:queue_galaxy id:141 path:com.vinplay.vbee.rmq.minigame.processor.LogGalaxyProcessor
+2023-01-23 23:23:52,068 | INFO  | main | vbee Start 10 queue_galaxy, num commands= 1 success
+2023-01-23 23:23:52,068 | INFO  | main | vbee queueName:queue_caothap id:112 path:com.vinplay.vbee.rmq.minigame.processor.LogCaoThapProcessor
+2023-01-23 23:23:52,068 | INFO  | main | vbee queueName:queue_caothap id:113 path:com.vinplay.vbee.rmq.minigame.processor.LogCaoThapWinProcessor
+2023-01-23 23:23:52,086 | INFO  | main | vbee Start 10 queue_caothap, num commands= 2 success
+2023-01-23 23:23:52,087 | INFO  | main | vbee queueName:queue_baucua id:130 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionDetailBauCuaProcessor
+2023-01-23 23:23:52,087 | INFO  | main | vbee queueName:queue_baucua id:131 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionBauCuaProcessor
+2023-01-23 23:23:52,087 | INFO  | main | vbee queueName:queue_baucua id:132 path:com.vinplay.vbee.rmq.minigame.processor.SaveResultBauCuaProcessor
+2023-01-23 23:23:52,087 | INFO  | main | vbee queueName:queue_baucua id:133 path:com.vinplay.vbee.rmq.minigame.processor.UpdateToiChonCaProcessor
+2023-01-23 23:23:52,141 | INFO  | main | vbee Start 10 queue_baucua, num commands= 4 success
+2023-01-23 23:23:52,141 | INFO  | main | vbee queueName:queue_hu_gamebai id:401 path:com.vinplay.vbee.rmq.gamebai.processor.CongTienHuGameBaiProcessor
+2023-01-23 23:23:52,141 | INFO  | main | vbee queueName:queue_hu_gamebai id:402 path:com.vinplay.vbee.rmq.gamebai.processor.SaveLogNoHuGameBaiProcessor
+2023-01-23 23:23:52,182 | INFO  | main | vbee Start 1 queue_hu_gamebai, num commands= 2 success
+2023-01-23 23:23:52,182 | INFO  | main | vbee queueName:queue_log_gamebai id:501 path:com.vinplay.vbee.rmq.gamebai.processor.SaveLogGameByNickNameProcessor
+2023-01-23 23:23:52,182 | INFO  | main | vbee queueName:queue_log_gamebai id:502 path:com.vinplay.vbee.rmq.gamebai.processor.SaveLogGameDetailProcessor
+2023-01-23 23:23:52,223 | INFO  | main | vbee Start 10 queue_log_gamebai, num commands= 2 success
+2023-01-23 23:23:52,224 | INFO  | main | vbee queueName:queue_log_money id:601 path:com.vinplay.vbee.rmq.log.processor.LogMoneyUserProcessor
+2023-01-23 23:23:52,307 | INFO  | main | vbee Start 50 queue_log_money, num commands= 1 success
+2023-01-23 23:23:52,307 | INFO  | main | vbee queueName:queue_log_report_user_balance id:602 path:com.vinplay.vbee.rmq.loguserinday.LogSumReportUserSQLProcessor
+2023-01-23 23:23:52,348 | INFO  | main | vbee Start 50 queue_log_report_user_balance, num commands= 1 success
+2023-01-23 23:23:52,348 | INFO  | main | vbee queueName:queue_log_chuyen_tien_dai_ly id:602 path:com.vinplay.vbee.rmq.log.processor.LogChuyenTienDaiLyProcessor
+2023-01-23 23:23:52,348 | INFO  | main | vbee queueName:queue_log_chuyen_tien_dai_ly id:11 path:com.vinplay.vbee.rmq.payment.processor.FreezeMoneyTranferAgentProcessor
+2023-01-23 23:23:52,348 | INFO  | main | vbee queueName:queue_log_chuyen_tien_dai_ly id:15 path:com.vinplay.vbee.rmq.payment.processor.RestoreMoneyTranferAgentProcessor
+2023-01-23 23:23:52,411 | INFO  | main | vbee Start 10 queue_log_chuyen_tien_dai_ly, num commands= 3 success
+2023-01-23 23:23:52,411 | INFO  | main | vbee queueName:queue_kho_bau id:135 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 23:23:52,458 | INFO  | main | vbee Start 10 queue_kho_bau, num commands= 1 success
+2023-01-23 23:23:52,458 | INFO  | main | vbee queueName:queue_audition id:8001 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 23:23:52,486 | INFO  | main | vbee Start 10 queue_audition, num commands= 1 success
+2023-01-23 23:23:52,487 | INFO  | main | vbee queueName:queue_chiemtinh id:8010 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 23:23:52,501 | INFO  | main | vbee Start 10 queue_chiemtinh, num commands= 1 success
+2023-01-23 23:23:52,501 | INFO  | main | vbee queueName:queue_bikini id:8011 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 23:23:52,529 | INFO  | main | vbee Start 10 queue_bikini, num commands= 1 success
+2023-01-23 23:23:52,529 | INFO  | main | vbee queueName:queue_range_rover id:8002 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 23:23:52,548 | INFO  | main | vbee Start 10 queue_range_rover, num commands= 1 success
+2023-01-23 23:23:52,548 | INFO  | main | vbee queueName:queue_maybach id:8003 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 23:23:52,558 | INFO  | main | vbee Start 10 queue_maybach, num commands= 1 success
+2023-01-23 23:23:52,558 | INFO  | main | vbee queueName:queue_tamhung id:8004 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 23:23:52,587 | INFO  | main | vbee Start 10 queue_tamhung, num commands= 1 success
+2023-01-23 23:23:52,587 | INFO  | main | vbee queueName:queue_roll_roye id:8005 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 23:23:52,602 | INFO  | main | vbee Start 10 queue_roll_roye, num commands= 1 success
+2023-01-23 23:23:52,602 | INFO  | main | vbee queueName:queue_benley id:8006 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 23:23:52,617 | INFO  | main | vbee Start 10 queue_benley, num commands= 1 success
+2023-01-23 23:23:52,617 | INFO  | main | vbee queueName:queue_avengers id:136 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 23:23:52,635 | INFO  | main | vbee Start 10 queue_avengers, num commands= 1 success
+2023-01-23 23:23:52,636 | INFO  | main | vbee queueName:queue_spartan id:10136 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 23:23:52,648 | INFO  | main | vbee Start 10 queue_spartan, num commands= 1 success
+2023-01-23 23:23:52,649 | INFO  | main | vbee queueName:queue_my_nhan_ngu id:137 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 23:23:52,664 | INFO  | main | vbee Start 10 queue_my_nhan_ngu, num commands= 1 success
+2023-01-23 23:23:52,664 | INFO  | main | vbee queueName:queue_nu_diep_vien id:138 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 23:23:52,674 | INFO  | main | vbee Start 10 queue_nu_diep_vien, num commands= 1 success
+2023-01-23 23:23:52,674 | INFO  | main | vbee queueName:queue_vqv id:139 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-01-23 23:23:52,695 | INFO  | main | vbee Start 10 queue_vqv, num commands= 1 success
+2023-01-23 23:23:52,696 | INFO  | main | vbee queueName:queue_log_nohu id:140 path:com.vinplay.vbee.rmq.slot.processor.LogNoHuSlotProcessor
+2023-01-23 23:23:52,754 | INFO  | main | vbee Start 10 queue_log_nohu, num commands= 1 success
+2023-01-23 23:23:52,754 | INFO  | main | vbee queueName:queue_report id:701 path:com.vinplay.vbee.rmq.report.processor.ReportMoneyProcessor
+2023-01-23 23:23:52,792 | INFO  | main | vbee Start 10 queue_report, num commands= 1 success
+2023-01-23 23:23:52,792 | INFO  | main | vbee queueName:queue_vippoint_event id:801 path:com.vinplay.vbee.rmq.vippoint.processor.UpdateVippointEventProcessor
+2023-01-23 23:23:52,843 | INFO  | main | vbee Start 10 queue_vippoint_event, num commands= 1 success
+2023-01-23 23:23:52,843 | INFO  | main | vbee queueName:queue_login_info id:50 path:com.vinplay.vbee.rmq.statistic.processor.LoginPortalInfoProcessor
+2023-01-23 23:23:52,887 | INFO  | main | vbee Start 5 queue_login_info, num commands= 1 success
+2023-01-23 23:23:52,888 | INFO  | main | vbee queueName:queue_user_mission id:901 path:com.vinplay.vbee.rmq.userMission.processor.UpdateUserMissionProcessor
+2023-01-23 23:23:52,888 | INFO  | main | vbee queueName:queue_user_mission id:902 path:com.vinplay.vbee.rmq.userMission.processor.LogReceivedRewardMissionProcessor
+2023-01-23 23:23:52,911 | INFO  | main | vbee Start 1 queue_user_mission, num commands= 2 success
+2023-01-23 23:23:52,912 | INFO  | main | vbee queueName:queue_log_mission id:902 path:com.vinplay.vbee.rmq.userMission.processor.LogReceivedRewardMissionProcessor
+2023-01-23 23:23:52,923 | INFO  | main | vbee Start 1 queue_log_mission, num commands= 1 success
+2023-01-23 23:23:52,923 | INFO  | main | vbee queueName:queue_log_money_extra id:1001 path:com.vinplay.vbee.rmq.log.processor.LogMoneyUserExtraProcessor
+2023-01-23 23:23:52,966 | INFO  | main | vbee Start 50 queue_log_money_extra, num commands= 1 success
+2023-01-23 23:23:52,966 | INFO  | main | vbee queueName:queue_gift_code id:1200 path:com.vinplay.vbee.rmq.giftcode.processor.UpdateGiftCodeStoreProcessor
+2023-01-23 23:23:52,966 | INFO  | main | vbee queueName:queue_gift_code id:1201 path:com.vinplay.vbee.rmq.giftcode.processor.LockGiftCodeProcessor
+2023-01-23 23:23:52,999 | INFO  | main | vbee Start 1 queue_gift_code, num commands= 2 success
+2023-01-23 23:23:53,002 | INFO  | main | vbee queueName:queue_log_sent_sms id:1310 path:com.vinplay.vbee.rmq.processor.sentsms.LogSentSmsProcessor
+2023-01-23 23:23:53,023 | INFO  | main | vbee Start 1 queue_log_sent_sms, num commands= 1 success
+2023-01-23 23:23:53,024 | INFO  | main | vbee RABBITMQ Started ...!!!

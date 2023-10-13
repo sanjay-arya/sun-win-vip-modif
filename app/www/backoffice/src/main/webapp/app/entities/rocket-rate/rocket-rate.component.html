@@ -1,0 +1,96 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="txcbApp.rocketRate.home.title">Rocket Rates</span>
+
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-rocket-rate" [routerLink]="['/rocket-rate/new']" *ngIf="!isEditing && hasPermission">
+            <fa-icon icon="plus"></fa-icon>
+            <span  jhiTranslate="txcbApp.rocketRate.home.createLabel">
+            Create a new Rocket Rate
+            </span>
+        </button>
+
+        <button class="btn btn-primary float-right edit-all" (click)="editAll()" *ngIf="!isEditing && rocketRates && rocketRates.length > 0 && hasPermission">
+            <fa-icon icon="pencil-alt"></fa-icon>
+            <span  jhiTranslate="txcbApp.rocketRate.home.editAll">
+            Edit all
+            </span>
+        </button>
+
+        <button class="btn btn-primary float-right save-all" (click)="saveAllConfirm()" [disabled]="isSavingAll" *ngIf="isEditing && hasPermission">
+            <fa-icon icon="save"></fa-icon>
+            <span  jhiTranslate="entity.action.save">
+            Save
+            </span>
+        </button>
+
+        <button class="btn btn-secondary float-right cancel-edit-all" (click)="cancalEditAll()" [disabled]="isSavingAll" *ngIf="isEditing && hasPermission">
+            <fa-icon icon="save"></fa-icon>
+            <span jhiTranslate="entity.action.cancel">
+            Cancel
+            </span>
+        </button>
+    </h2>
+
+    <jhi-alert-error></jhi-alert-error>
+
+    <jhi-alert></jhi-alert>
+
+    <div class="alert alert-warning" id="no-result" *ngIf="rocketRates?.length === 0">
+        <span jhiTranslate="txcbApp.rocketRate.home.notFound">No rocketRates found</span>
+    </div>
+
+    <div class="table-responsive" id="entities" *ngIf="rocketRates && rocketRates.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+                <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="reset.bind(this)">
+                    <th scope="col" jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col" jhiSortBy="typed"><span jhiTranslate="txcbApp.rocketRate.label.type">Type</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col" jhiSortBy="pick"><span jhiTranslate="txcbApp.rocketRate.label.pick">Pick Number</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col" jhiSortBy="rate"><span jhiTranslate="txcbApp.rocketRate.label.rate">Rate</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody infinite-scroll (scrolled)="loadPage(page + 1)" [infiniteScrollDisabled]="page >= links['last']" [infiniteScrollDistance]="0">
+                <tr *ngFor="let rocketRate of rocketRates ;trackBy: trackId">
+                    <td><a [routerLink]="['/rocket-rate', rocketRate.id, 'view']">{{ rocketRate.id }}</a></td>
+                    <td>
+                        <!-- <input type="text" value="Trên" [disabled]="true" *ngIf="rocketRate.typed === 1">
+                        <input type="text" value="Dưới" [disabled]="true" *ngIf="rocketRate.typed === 2"> -->
+                        <span jhiTranslate="txcbApp.rocketRate.types.over" *ngIf="rocketRate.typed === 1">Over</span>
+                        <span jhiTranslate="txcbApp.rocketRate.types.under" *ngIf="rocketRate.typed === 2">Under</span>
+                    </td>
+                    <td>
+                        <!-- <input type="text" value={{rocketRate.pick}} [disabled]="true"> -->
+                        <span>{{rocketRate.pick}}</span>
+                    </td>
+                    <td>
+                        <input type="number" value={{rocketRate.rate}} [disabled]="!isEditing" (change)="updateRate($event, rocketRate.id)">
+                    </td>
+                    <td class="text-right">
+                        <div class="btn-group" *ngIf="hasPermission">
+                            <!-- <button type="submit"
+                                    [routerLink]="['/rocket-rate', rocketRate.id, 'view']"
+                                    class="btn btn-info btn-sm">
+                                <fa-icon icon="eye"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                            </button> -->
+
+                            <button type="submit"
+                                    [routerLink]="['/rocket-rate', rocketRate.id, 'edit']"
+                                    class="btn btn-primary btn-sm">
+                                <fa-icon icon="pencil-alt"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                            </button>
+
+                            <button type="submit" (click)="delete(rocketRate)"
+                                    class="btn btn-danger btn-sm">
+                                <fa-icon icon="times"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

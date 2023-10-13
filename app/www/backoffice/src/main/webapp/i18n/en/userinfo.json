@@ -1,0 +1,25 @@
+{
+  "txcbApp": {
+    "userinfo": {
+      "home": {
+        "title": "Userinfos",
+        "createLabel": "Create a new Userinfo",
+        "createOrEditLabel": "Create or edit a Userinfo",
+        "notFound": "No Userinfos found"
+      },
+      "created": "A new Taixiu Record is created with identifier {{ param }}",
+      "updated": "A Taixiu Record is updated with identifier {{ param }}",
+      "deleted": "A Taixiu Record is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Userinfo {{ id }}?"
+      },
+      "detail": {
+        "title": "Userinfo"
+      },
+      "loginname": "Loginname",
+      "pwd": "Pwd",
+      "usertype": "Usertype",
+      "status": "Status"
+    }
+  }
+}

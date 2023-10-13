@@ -1,0 +1,4 @@
+2023-01-25 01:00:00,980 | INFO  | Timer-0 | report Save report 24-01-2023 start at Wed Jan 25 01:00:00 ICT 2023
+2023-01-25 01:00:00,982 | INFO  | Timer-0 | report Save report Wed Jan 25 01:00:00 ICT 2023 success at Wed Jan 25 01:00:00 ICT 2023
+2023-01-25 03:00:00,978 | INFO  | Timer-0 | report fixYesterdayData start at: Wed Jan 25 03:00:00 ICT 2023
+2023-01-25 03:00:02,255 | INFO  | Timer-0 | report fixYesterdayData success at: Wed Jan 25 03:00:02 ICT 2023

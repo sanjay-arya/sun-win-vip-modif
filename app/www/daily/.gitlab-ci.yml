@@ -1,0 +1,76 @@
+stages:
+    - deploy
+deploy_dev:
+    environment: development
+    stage: deploy
+    only:
+        - develop
+    tags:
+        - runnershell
+    before_script:
+        - echo "running develop deploy  ..."
+        - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+        - eval $(ssh-agent -s)
+        - ssh-add <(echo "$SSH_PRIVATE_KEY")
+        - scp -P22 -r * $SSH_USER@$SSH_HOST:/var/www/html/agent-lot79
+    script:
+        - echo "deploying develop..."
+        - pwd
+deploy_pro:
+    environment: production
+    stage: deploy
+    only:
+        - master
+    tags:
+        - runnershell
+    before_script:
+        - echo "running production deploy  ..."
+        - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+        - eval $(ssh-agent -s)
+        - ssh-add <(echo "$SSH_PRIVATE_KEY")
+        - scp -P22 -r * $SSH_USER@$SSH_HOST:/var/www/html/agent-lot79-production
+    script:
+        - echo "deploying production..."
+        - pwd
+
+deploy_proroy:
+    environment: prodution2
+    stage: deploy
+    only:
+        - masterroy
+    tags:
+        - webshell
+    before_script:
+        - echo "running develop deploy  ..."
+        - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+        - eval $(ssh-agent -s)
+        - ssh-add <(echo "$SSH_PRIVATE_KEY_A")
+        - mkdir -p ~/.ssh
+        - git branch
+        - ssh -o "StrictHostKeyChecking=no" $SSH_USER@$SSH_HOST_A
+        - scp -P22 -r * $SSH_USER@$SSH_HOST_A:/var/www/html/daily-roy247-com
+        - whoami
+    script:
+        - echo "deploying masterroy..."
+        - pwd
+
+deploy_developroy:
+    environment: developroy
+    stage: deploy
+    only:
+        - developroy
+    tags:
+        - webshell
+    before_script:
+        - echo "running develop deploy  ..."
+        - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+        - eval $(ssh-agent -s)
+        - ssh-add <(echo "$SSH_PRIVATE_KEY_A")
+        - mkdir -p ~/.ssh
+        - git branch
+        - ssh -o "StrictHostKeyChecking=no" $SSH_USER@$SSH_HOST_A
+        - scp -P22 -r * $SSH_USER@$SSH_HOST_A:/var/www/html/dev-daily-roy247-com
+        - whoami
+    script:
+        - echo "deploying developroy.."
+        - pwd

@@ -1,0 +1,38 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="chatbox">
+            <h2><span jhiTranslate="txcbApp.chatbox.detail.title">Chatbox</span> {{ chatbox.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="txcbApp.chatbox.label.loginname">Loginname</span></dt>
+                <dd>
+                    <span>{{ chatbox.loginname }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.chatbox.label.message">Message</span></dt>
+                <dd>
+                    <span>{{ chatbox.message }}</span>
+                </dd>
+                <dt><span jhiTranslate="txcbApp.chatbox.label.created">Created</span></dt>
+                <dd>
+                    <span>{{ chatbox.created }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/chatbox', chatbox.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

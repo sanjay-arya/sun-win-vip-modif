@@ -1,0 +1,12 @@
+{
+  "tracker": {
+    "title": "Theo dõi lượt xổ và số lượng người chơi , số tiền đặt mỗi cửa Over/under cân bảng",
+    "table": {
+      "userlogin": "NgÆ°á»�i dÃ¹ng",
+      "ipaddress": "Ä�á»‹a chá»‰ IP",
+      "userAgent": "TrÃ¬nh duyá»‡t",
+      "page": "Trang hiá»‡n táº¡i",
+      "time": "Thá»�i gian"
+    }
+  }
+}

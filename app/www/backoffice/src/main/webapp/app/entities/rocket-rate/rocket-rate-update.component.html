@@ -1,0 +1,79 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+            <h2 id="jhi-rocket-rate-heading" jhiTranslate="txcbApp.rocketRate.home.createOrEditLabel">Create or edit a Rocket Rate</h2>
+
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+
+                <div class="form-group" [hidden]="!editForm.get('id')!.value">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id" formControlName="id" readonly />
+                </div>
+
+                <!-- <div class="form-group" [hidden]="!editForm.get('pick')!.value">
+                    <label class="form-control-label" jhiTranslate="txcbApp.rocketRate.label.type" for="field_typed">Type</label>
+                    <input type="text" class="form-control" name="typed" id="field_typed" readonly value={{editForm.get('pick')!.value ? '' : ''}}>
+                    <div>{{editForm.get('pick')!.value === 1 ? 'Trên' : 'Dưới'}}</div>
+                </div> -->
+
+                <div class="form-group" *ngIf="typed && typed.length > 0">
+                    <label jhiTranslate="txcbApp.rocketRate.label.type">Pick</label>
+                    <select class="form-control" id="typed" name="typed" formControlName="typed">
+                        <option *ngFor="let type of typed" [value]="type.id">{{ type.name }}</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="txcbApp.rocketRate.label.pick" for="field_pick">Pick</label>
+                    <input type="number" class="form-control" name="pick" id="field_pick"
+                           formControlName="pick"/>
+                    <div *ngIf="editForm.get('pick')!.invalid && (editForm.get('pick')!.dirty || editForm.get('pick')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('pick')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('pick')?.errors?.min" jhiTranslate="entity.validation.min" [translateValues]="{ min: 2 }">
+                            This field should be at least 2.
+                        </small>
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('pick')?.errors?.max" jhiTranslate="entity.validation.max" [translateValues]="{ max: 12 }">
+                            This field cannot be more than 12.
+                        </small>
+                        <small class="form-text text-danger"
+                            [hidden]="!editForm.get('pick')?.errors?.number" jhiTranslate="entity.validation.number">
+                            This field should be a number.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="txcbApp.rocketRate.label.rate" for="field_rate">Rate</label>
+                    <input type="number" class="form-control" name="rate" id="field_rate"
+                           formControlName="rate"/>
+                    <div *ngIf="editForm.get('rate')!.invalid && (editForm.get('rate')!.dirty || editForm.get('rate')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('rate')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                        <small class="form-text text-danger"
+                            [hidden]="!editForm.get('rate')?.errors?.number" jhiTranslate="entity.validation.number">
+                            This field should be a number.
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary" (click)="previousState()">
+                    <fa-icon icon="ban"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+
+                <button type="submit" id="save-entity" [disabled]="editForm.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon icon="save"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

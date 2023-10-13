@@ -1,0 +1,27 @@
+{
+  "txcbApp": {
+    "txRank": {
+      "home": {
+        "title": "Tx Ranks",
+        "createLabel": "Create a new Tx Rank",
+        "createOrEditLabel": "Create or edit a Tx Rank",
+        "notFound": "No Tx Ranks found",
+        "editAll": "Edit all",
+        "msgSuccess": "Updated successful",
+        "msgUnsuccessAll": "Successfully updated {{ param1 }} records. {{ param2 }} records have not been updated.",
+        "validationAmountMinMax": "Amount should be at least 1000000 and cannot be more than 99999999999999999."
+      },
+      "created": "A new Tx Rank is created with identifier {{ param }}",
+      "updated": "A Tx Rank is updated with identifier {{ param }}",
+      "deleted": "A Tx Rank is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tx Rank {{ id }}?"
+      },
+      "detail": {
+        "title": "Tx Rank"
+      },
+      "loginname": "Loginname",
+      "amount": "Amount"
+    }
+  }
+}

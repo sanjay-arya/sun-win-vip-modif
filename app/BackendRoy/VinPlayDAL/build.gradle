@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'com.vingame'
+version ''
+buildDir = "../build"
+sourceCompatibility = 1.8
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+javadoc.options.encoding = 'UTF-8'
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile project(':VbeeCommon')
+    compile fileTree(include: ['*.jar'], dir: '../libs')
+}

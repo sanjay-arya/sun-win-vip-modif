@@ -1,0 +1,28 @@
+{
+  "taixiucbApp": {
+    "transferHistory": {
+      "home": {
+        "title": "Transfer Histories",
+        "createLabel": "Add new một Transfer History",
+        "createOrEditLabel": "Add new hoặc cập nhật Transfer History",
+        "notFound": "No Transfer Histories found"
+      },
+      "created": "Một Transfer History mới được tạo với định danh {{ param }}",
+      "updated": "Một Transfer History cập nhật với định danh {{ param }}",
+      "deleted": "Một Transfer History đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Transfer History {{ id }}?"
+      },
+      "detail": {
+        "title": "Transfer History"
+      },
+      "amount": "Amount",
+      "created": "Created",
+      "action": "Action",
+      "current_balance": "Current Balance",
+      "username": "Username",
+      "orderId": "Order Id",
+      "transId": "Trans Id"
+    }
+  }
+}

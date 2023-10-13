@@ -1,0 +1,129 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="txcbApp.jackpotSettingRecord.home.title">Jackpot Setting Records</span>
+
+        <!-- <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-jackpot-setting-record" [routerLink]="['/jackpot-setting-record/new']">
+            <fa-icon icon="plus"></fa-icon>
+            <span  jhiTranslate="txcbApp.jackpotSettingRecord.home.createLabel">
+            Create a new Jackpot Setting Record
+            </span>
+        </button> -->
+    </h2>
+
+    <form class="filter-group" [formGroup]="filterForm" (ngSubmit)="onSubmit(filterForm.value)">
+        <div class="filter-form">
+            <div class="filter-item">
+                <label for="login-name" jhiTranslate="global.field.login-name"></label>
+                <input class="form-control" type="text" id="login-name" formControlName="createdBy">
+            </div>
+        </div>
+        <div class="filter-form">
+            <div class="filter-item">
+                <label for="start-time" jhiTranslate="global.field.start-time"></label>
+                <div class="form-group d-flex align-items-center">
+                    <div class="input-group mr-2">
+                        <input class="form-control" placeholder="yyyy-mm-dd" id="start-time" formControlName="startDate"
+                               ngbDatepicker #s="ngbDatepicker">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" (click)="s.toggle()" type="button">
+                                <fa-icon [icon]="faCalendar"></fa-icon>
+                            </button>
+                        </div>
+                    </div>
+                    <ngb-timepicker [seconds]="true" formControlName="startTime"></ngb-timepicker>
+                </div>
+            </div>
+            <div class="filter-item">
+                <label for="end-time" jhiTranslate="global.field.end-time"></label>
+                <div class="form-group d-flex align-items-center">
+                    <div class="input-group mr-2">
+                        <input class="form-control" placeholder="yyyy-mm-dd" id="end-time" formControlName="endDate"
+                               ngbDatepicker #e="ngbDatepicker">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" (click)="e.toggle()" type="button">
+                                <fa-icon [icon]="faCalendar"></fa-icon>
+                            </button>
+                        </div>
+                    </div>
+                    <ngb-timepicker [seconds]="true" formControlName="endTime"></ngb-timepicker>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-outline-dark">
+            <fa-icon icon="search"></fa-icon>
+            <span jhiTranslate="entity.action.search"></span>
+        </button>
+    </form>
+
+    <jhi-alert-error></jhi-alert-error>
+
+    <jhi-alert></jhi-alert>
+
+    <div class="alert alert-warning" id="no-result" *ngIf="jackpotSettingRecords?.length === 0">
+        <span jhiTranslate="txcbApp.jackpotSettingRecord.home.notFound">No jackpotSettingRecords found</span>
+    </div>
+
+    <div class="table-responsive" id="entities" *ngIf="jackpotSettingRecords && jackpotSettingRecords.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+                <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="loadPage.bind(this)">
+                    <th scope="col" jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span>
+                        <fa-icon icon="sort"></fa-icon>
+                    </th>
+                    <th scope="col" jhiSortBy="createdBy"><span
+                        jhiTranslate="txcbApp.jackpotSettingRecord.createdBy">Created By</span>
+                        <fa-icon icon="sort"></fa-icon>
+                    </th>
+                    <th scope="col" jhiSortBy="createdDate"><span jhiTranslate="txcbApp.jackpotSettingRecord.createdDate">Created Date</span>
+                        <fa-icon icon="sort"></fa-icon>
+                    </th>
+                    <th scope="col" jhiSortBy="value"><span jhiTranslate="txcbApp.jackpotSettingRecord.value">Value</span>
+                        <fa-icon icon="sort"></fa-icon>
+                    </th>
+                    <!-- <th scope="col"></th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let jackpotSettingRecord of jackpotSettingRecords ;trackBy: trackId">
+                    <td><a [routerLink]="['/jackpot-setting-record', jackpotSettingRecord.id, 'view']">{{ jackpotSettingRecord.id }}</a></td>
+                    <td>{{ jackpotSettingRecord.createdBy }}</td>
+                    <td>{{ jackpotSettingRecord.createdDate | date: 'HH:mm:ss dd/MM/yyyy' }}</td>
+                    <td>{{ jackpotSettingRecord.value}}</td>
+                    <!-- <td class="text-right">
+                        <div class="btn-group">
+                            <button type="submit"
+                                    [routerLink]="['/jackpot-setting-record', jackpotSettingRecord.id, 'view']"
+                                    class="btn btn-info btn-sm">
+                                <fa-icon icon="eye"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                            </button>
+
+                            <button type="submit"
+                                    [routerLink]="['/jackpot-setting-record', jackpotSettingRecord.id, 'edit']"
+                                    class="btn btn-primary btn-sm">
+                                <fa-icon icon="pencil-alt"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                            </button>
+
+                            <button type="submit" (click)="delete(jackpotSettingRecord)"
+                                    class="btn btn-danger btn-sm">
+                                <fa-icon icon="times"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                            </button>
+                        </div>
+                    </td> -->
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div *ngIf="jackpotSettingRecords && jackpotSettingRecords.length > 0">
+        <div class="row justify-content-center">
+            <jhi-item-count [page]="page" [total]="totalItems" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+        </div>
+
+        <div class="row justify-content-center">
+            <ngb-pagination [collectionSize]="totalItems" [(page)]="ngbPaginationPage" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage($event)"></ngb-pagination>
+        </div>
+    </div>
+</div>

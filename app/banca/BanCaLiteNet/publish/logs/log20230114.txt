@@ -1,0 +1,4272 @@
+00:00:03.564 [INF] RunHandleWinLoss: 0
+00:00:03.595 [INF] CalculateResult: 20230114
+00:00:03.595 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+00:04:04.167 [INF] RunScan: 0
+00:04:04.167 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:4)","Data":null,"DataObj":null}
+00:05:03.598 [INF] RunHandleWinLoss: 0
+00:05:03.598 [INF] CalculateResult: 20230114
+00:05:03.598 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+00:09:04.167 [INF] RunScan: 0
+00:09:04.168 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:9)","Data":null,"DataObj":null}
+00:10:03.600 [INF] RunHandleWinLoss: 0
+00:10:03.600 [INF] CalculateResult: 20230114
+00:10:03.600 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+00:14:04.168 [INF] RunScan: 0
+00:14:04.168 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:14)","Data":null,"DataObj":null}
+00:15:03.602 [INF] RunHandleWinLoss: 0
+00:15:03.602 [INF] CalculateResult: 20230114
+00:15:03.602 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+00:19:04.168 [INF] RunScan: 0
+00:19:04.168 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:19)","Data":null,"DataObj":null}
+00:20:03.604 [INF] RunHandleWinLoss: 0
+00:20:03.604 [INF] CalculateResult: 20230114
+00:20:03.604 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+00:24:04.168 [INF] RunScan: 0
+00:24:04.169 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:24)","Data":null,"DataObj":null}
+00:25:03.606 [INF] RunHandleWinLoss: 0
+00:25:03.606 [INF] CalculateResult: 20230114
+00:25:03.606 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+00:29:04.169 [INF] RunScan: 0
+00:29:04.169 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:29)","Data":null,"DataObj":null}
+00:30:03.608 [INF] RunHandleWinLoss: 0
+00:30:03.608 [INF] CalculateResult: 20230114
+00:30:03.608 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+00:34:04.169 [INF] RunScan: 0
+00:34:04.169 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:34)","Data":null,"DataObj":null}
+00:35:03.610 [INF] RunHandleWinLoss: 0
+00:35:03.610 [INF] CalculateResult: 20230114
+00:35:03.610 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+00:39:04.170 [INF] RunScan: 0
+00:39:04.170 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:39)","Data":null,"DataObj":null}
+00:40:03.612 [INF] RunHandleWinLoss: 0
+00:40:03.612 [INF] CalculateResult: 20230114
+00:40:03.612 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+00:44:04.170 [INF] RunScan: 0
+00:44:04.170 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:44)","Data":null,"DataObj":null}
+00:45:03.615 [INF] RunHandleWinLoss: 0
+00:45:03.615 [INF] CalculateResult: 20230114
+00:45:03.615 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+00:49:04.170 [INF] RunScan: 0
+00:49:04.171 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:49)","Data":null,"DataObj":null}
+00:50:03.617 [INF] RunHandleWinLoss: 0
+00:50:03.617 [INF] CalculateResult: 20230114
+00:50:03.617 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+00:54:04.171 [INF] RunScan: 0
+00:54:04.171 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:54)","Data":null,"DataObj":null}
+00:55:03.619 [INF] RunHandleWinLoss: 0
+00:55:03.619 [INF] CalculateResult: 20230114
+00:55:03.619 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+00:59:04.171 [INF] RunScan: 0
+00:59:04.171 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:59)","Data":null,"DataObj":null}
+01:00:03.621 [INF] RunHandleWinLoss: 0
+01:00:03.621 [INF] CalculateResult: 20230114
+01:00:03.621 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+01:04:04.171 [INF] RunScan: 0
+01:04:04.171 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(1:4)","Data":null,"DataObj":null}
+01:05:03.624 [INF] RunHandleWinLoss: 0
+01:05:03.624 [INF] CalculateResult: 20230114
+01:05:03.624 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+01:09:04.172 [INF] RunScan: 0
+01:09:04.172 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(1:9)","Data":null,"DataObj":null}
+01:10:03.626 [INF] RunHandleWinLoss: 0
+01:10:03.626 [INF] CalculateResult: 20230114
+01:10:03.626 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+01:14:04.172 [INF] RunScan: 0
+01:14:04.172 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(1:14)","Data":null,"DataObj":null}
+01:15:03.628 [INF] RunHandleWinLoss: 0
+01:15:03.628 [INF] CalculateResult: 20230114
+01:15:03.628 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+01:19:04.172 [INF] RunScan: 0
+01:19:04.172 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(1:19)","Data":null,"DataObj":null}
+01:20:03.630 [INF] RunHandleWinLoss: 0
+01:20:03.630 [INF] CalculateResult: 20230114
+01:20:03.630 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+01:24:04.172 [INF] RunScan: 0
+01:24:04.174 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(1:24)","Data":null,"DataObj":null}
+01:25:03.632 [INF] RunHandleWinLoss: 0
+01:25:03.632 [INF] CalculateResult: 20230114
+01:25:03.632 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+01:29:04.174 [INF] RunScan: 0
+01:29:04.174 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(1:29)","Data":null,"DataObj":null}
+01:30:03.634 [INF] RunHandleWinLoss: 0
+01:30:03.634 [INF] CalculateResult: 20230114
+01:30:03.634 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+01:34:04.174 [INF] RunScan: 0
+01:34:04.174 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(1:34)","Data":null,"DataObj":null}
+01:35:03.636 [INF] RunHandleWinLoss: 0
+01:35:03.636 [INF] CalculateResult: 20230114
+01:35:03.636 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+01:39:04.175 [INF] RunScan: 0
+01:39:04.175 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(1:39)","Data":null,"DataObj":null}
+01:40:03.638 [INF] RunHandleWinLoss: 0
+01:40:03.638 [INF] CalculateResult: 20230114
+01:40:03.638 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+01:44:04.175 [INF] RunScan: 0
+01:44:04.175 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(1:44)","Data":null,"DataObj":null}
+01:45:03.640 [INF] RunHandleWinLoss: 0
+01:45:03.640 [INF] CalculateResult: 20230114
+01:45:03.640 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+01:49:04.175 [INF] RunScan: 0
+01:49:04.176 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(1:49)","Data":null,"DataObj":null}
+01:50:03.643 [INF] RunHandleWinLoss: 0
+01:50:03.643 [INF] CalculateResult: 20230114
+01:50:03.643 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+01:54:04.176 [INF] RunScan: 0
+01:54:04.176 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(1:54)","Data":null,"DataObj":null}
+01:55:03.645 [INF] RunHandleWinLoss: 0
+01:55:03.645 [INF] CalculateResult: 20230114
+01:55:03.645 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+01:59:04.176 [INF] RunScan: 0
+01:59:04.176 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(1:59)","Data":null,"DataObj":null}
+02:00:03.647 [INF] RunHandleWinLoss: 0
+02:00:03.647 [INF] CalculateResult: 20230114
+02:00:03.647 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+02:04:04.176 [INF] RunScan: 0
+02:04:04.176 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(2:4)","Data":null,"DataObj":null}
+02:05:03.650 [INF] RunHandleWinLoss: 0
+02:05:03.650 [INF] CalculateResult: 20230114
+02:05:03.650 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+02:09:04.177 [INF] RunScan: 0
+02:09:04.177 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(2:9)","Data":null,"DataObj":null}
+02:10:03.652 [INF] RunHandleWinLoss: 0
+02:10:03.652 [INF] CalculateResult: 20230114
+02:10:03.652 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+02:14:04.177 [INF] RunScan: 0
+02:14:04.177 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(2:14)","Data":null,"DataObj":null}
+02:15:03.654 [INF] RunHandleWinLoss: 0
+02:15:03.654 [INF] CalculateResult: 20230114
+02:15:03.654 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+02:19:04.177 [INF] RunScan: 0
+02:19:04.178 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(2:19)","Data":null,"DataObj":null}
+02:20:03.656 [INF] RunHandleWinLoss: 0
+02:20:03.657 [INF] CalculateResult: 20230114
+02:20:03.657 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+02:24:04.178 [INF] RunScan: 0
+02:24:04.178 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(2:24)","Data":null,"DataObj":null}
+02:25:03.658 [INF] RunHandleWinLoss: 0
+02:25:03.659 [INF] CalculateResult: 20230114
+02:25:03.659 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+02:29:04.178 [INF] RunScan: 0
+02:29:04.178 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(2:29)","Data":null,"DataObj":null}
+02:30:03.661 [INF] RunHandleWinLoss: 0
+02:30:03.661 [INF] CalculateResult: 20230114
+02:30:03.661 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+02:34:04.179 [INF] RunScan: 0
+02:34:04.179 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(2:34)","Data":null,"DataObj":null}
+02:35:03.664 [INF] RunHandleWinLoss: 0
+02:35:03.664 [INF] CalculateResult: 20230114
+02:35:03.664 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+02:39:04.179 [INF] RunScan: 0
+02:39:04.180 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(2:39)","Data":null,"DataObj":null}
+02:40:03.666 [INF] RunHandleWinLoss: 0
+02:40:03.666 [INF] CalculateResult: 20230114
+02:40:03.666 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+02:44:04.180 [INF] RunScan: 0
+02:44:04.180 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(2:44)","Data":null,"DataObj":null}
+02:45:03.668 [INF] RunHandleWinLoss: 0
+02:45:03.671 [INF] CalculateResult: 20230114
+02:45:03.671 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+02:49:04.180 [INF] RunScan: 0
+02:49:04.180 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(2:49)","Data":null,"DataObj":null}
+02:50:03.674 [INF] RunHandleWinLoss: 0
+02:50:03.674 [INF] CalculateResult: 20230114
+02:50:03.674 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+02:54:04.181 [INF] RunScan: 0
+02:54:04.181 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(2:54)","Data":null,"DataObj":null}
+02:55:03.676 [INF] RunHandleWinLoss: 0
+02:55:03.676 [INF] CalculateResult: 20230114
+02:55:03.676 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+02:59:04.181 [INF] RunScan: 0
+02:59:04.181 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(2:59)","Data":null,"DataObj":null}
+03:00:03.678 [INF] RunHandleWinLoss: 0
+03:00:03.678 [INF] CalculateResult: 20230114
+03:00:03.678 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+03:04:04.181 [INF] RunScan: 0
+03:04:04.181 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(3:4)","Data":null,"DataObj":null}
+03:05:03.680 [INF] RunHandleWinLoss: 0
+03:05:03.680 [INF] CalculateResult: 20230114
+03:05:03.680 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+03:09:04.182 [INF] RunScan: 0
+03:09:04.182 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(3:9)","Data":null,"DataObj":null}
+03:10:03.682 [INF] RunHandleWinLoss: 0
+03:10:03.682 [INF] CalculateResult: 20230114
+03:10:03.682 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+03:14:04.182 [INF] RunScan: 0
+03:14:04.182 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(3:14)","Data":null,"DataObj":null}
+03:15:03.684 [INF] RunHandleWinLoss: 0
+03:15:03.684 [INF] CalculateResult: 20230114
+03:15:03.684 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+03:19:04.183 [INF] RunScan: 0
+03:19:04.183 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(3:19)","Data":null,"DataObj":null}
+03:20:03.686 [INF] RunHandleWinLoss: 0
+03:20:03.686 [INF] CalculateResult: 20230114
+03:20:03.686 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+03:24:04.183 [INF] RunScan: 0
+03:24:04.183 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(3:24)","Data":null,"DataObj":null}
+03:25:03.688 [INF] RunHandleWinLoss: 0
+03:25:03.688 [INF] CalculateResult: 20230114
+03:25:03.688 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+03:29:04.183 [INF] RunScan: 0
+03:29:04.184 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(3:29)","Data":null,"DataObj":null}
+03:30:03.690 [INF] RunHandleWinLoss: 0
+03:30:03.690 [INF] CalculateResult: 20230114
+03:30:03.690 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+03:34:04.184 [INF] RunScan: 0
+03:34:04.184 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(3:34)","Data":null,"DataObj":null}
+03:35:03.691 [INF] RunHandleWinLoss: 0
+03:35:03.692 [INF] CalculateResult: 20230114
+03:35:03.692 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+03:39:04.184 [INF] RunScan: 0
+03:39:04.185 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(3:39)","Data":null,"DataObj":null}
+03:40:03.693 [INF] RunHandleWinLoss: 0
+03:40:03.693 [INF] CalculateResult: 20230114
+03:40:03.694 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+03:44:04.185 [INF] RunScan: 0
+03:44:04.185 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(3:44)","Data":null,"DataObj":null}
+03:45:03.695 [INF] RunHandleWinLoss: 0
+03:45:03.695 [INF] CalculateResult: 20230114
+03:45:03.695 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+03:49:04.185 [INF] RunScan: 0
+03:49:04.186 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(3:49)","Data":null,"DataObj":null}
+03:50:03.697 [INF] RunHandleWinLoss: 0
+03:50:03.697 [INF] CalculateResult: 20230114
+03:50:03.697 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+03:54:04.186 [INF] RunScan: 0
+03:54:04.186 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(3:54)","Data":null,"DataObj":null}
+03:55:03.699 [INF] RunHandleWinLoss: 0
+03:55:03.699 [INF] CalculateResult: 20230114
+03:55:03.699 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+03:59:04.186 [INF] RunScan: 0
+03:59:04.186 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(3:59)","Data":null,"DataObj":null}
+03:59:10.886 [DBG] Client connected from 127.0.0.1:46138
+no ex
+03:59:10.895 [DBG] 744 bytes read
+no ex
+03:59:10.903 [DBG] Building Hybi-14 Response
+no ex
+03:59:10.912 [DBG] Sent 129 bytes
+no ex
+03:59:11.733 [DBG] 141 bytes read
+no ex
+03:59:11.735 [DBG] Sent 30 bytes
+no ex
+03:59:11.735 [INF] GET: http://127.0.0.1:8081/api?c=3&un=huy1412&pw=cc0d45bc2f499fc4666d09691485a0f9&pf=web&at=
+03:59:11.775 [INF] GET response: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Imh1eTE0MTIyIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjoyMDQzNzI1MDAsInh1VG90YWwiOjUwMDAwMCwidmlwcG9pbnQiOjAsInZpcHBvaW50U2F2ZSI6MCwiY3JlYXRlVGltZSI6IjEyLTAxLTIwMjMiLCJpcEFkZHJlc3MiOiIxMjcuMC4wLjEiLCJjZXJ0aWZpY2F0ZSI6ZmFsc2UsImx1Y2t5Um90YXRlIjowLCJkYWlMeSI6MCwibW9iaWxlU2VjdXJlIjowLCJiaXJ0aGRheSI6IiIsImFwcFNlY3VyZSI6MCwidXNlcm5hbWUiOiJodXkxNDEyIiwiZW1haWwiOjAsImFkZHJlc3MiOiIiLCJ2ZXJpZnlNb2JpbGUiOmZhbHNlfQ==","accessToken":"22c5aea5b2e53e3b4ea67ee976480198"}
+
+03:59:11.816 [DBG] Sent 5726 bytes
+no ex
+03:59:13.715 [DBG] Sent 184 bytes
+no ex
+03:59:14.736 [DBG] 31 bytes read
+no ex
+03:59:14.737 [DBG] Sent 30 bytes
+no ex
+03:59:17.612 [DBG] 32 bytes read
+no ex
+03:59:17.625 [DBG] Sent 41 bytes
+no ex
+03:59:17.736 [DBG] 31 bytes read
+no ex
+03:59:17.737 [DBG] Sent 30 bytes
+no ex
+03:59:18.709 [DBG] Sent 184 bytes
+no ex
+03:59:19.479 [DBG] 58 bytes read
+no ex
+03:59:19.500 [DBG] Sent 71 bytes
+no ex
+03:59:20.736 [DBG] 31 bytes read
+no ex
+03:59:20.737 [DBG] Sent 30 bytes
+no ex
+03:59:22.554 [DBG] 58 bytes read
+no ex
+03:59:22.554 [DBG] Sent 330 bytes
+no ex
+03:59:23.718 [DBG] Sent 184 bytes
+no ex
+03:59:23.732 [DBG] 31 bytes read
+no ex
+03:59:23.733 [DBG] Sent 30 bytes
+no ex
+03:59:26.739 [DBG] 31 bytes read
+no ex
+03:59:26.739 [DBG] Sent 30 bytes
+no ex
+03:59:28.723 [DBG] Sent 184 bytes
+no ex
+03:59:29.737 [DBG] 31 bytes read
+no ex
+03:59:29.737 [DBG] Sent 30 bytes
+no ex
+03:59:32.737 [DBG] 31 bytes read
+no ex
+03:59:32.737 [DBG] Sent 30 bytes
+no ex
+03:59:33.714 [DBG] Sent 184 bytes
+no ex
+03:59:35.737 [DBG] 31 bytes read
+no ex
+03:59:35.737 [DBG] Sent 30 bytes
+no ex
+03:59:36.157 [DBG] 47 bytes read
+no ex
+03:59:36.160 [DBG] Sent 61 bytes
+no ex
+03:59:36.907 [DBG] 47 bytes read
+no ex
+03:59:36.914 [DBG] Sent 61 bytes
+no ex
+03:59:38.722 [DBG] Sent 184 bytes
+no ex
+03:59:38.738 [DBG] 31 bytes read
+no ex
+03:59:38.738 [DBG] Sent 30 bytes
+no ex
+03:59:41.733 [DBG] 31 bytes read
+no ex
+03:59:41.734 [DBG] Sent 30 bytes
+no ex
+03:59:43.727 [DBG] Sent 184 bytes
+no ex
+03:59:44.736 [DBG] 31 bytes read
+no ex
+03:59:44.737 [DBG] Sent 30 bytes
+no ex
+03:59:47.737 [DBG] 31 bytes read
+no ex
+03:59:47.737 [DBG] Sent 30 bytes
+no ex
+03:59:48.717 [DBG] Sent 184 bytes
+no ex
+03:59:50.733 [DBG] 31 bytes read
+no ex
+03:59:50.733 [DBG] Sent 30 bytes
+no ex
+03:59:53.721 [DBG] Sent 184 bytes
+no ex
+03:59:53.741 [DBG] 31 bytes read
+no ex
+03:59:53.742 [DBG] Sent 30 bytes
+no ex
+03:59:54.713 [DBG] Sent 74 bytes
+no ex
+03:59:56.738 [DBG] 31 bytes read
+no ex
+03:59:56.738 [DBG] Sent 30 bytes
+no ex
+03:59:58.557 [DBG] 49 bytes read
+no ex
+03:59:58.557 [INF] GET: http://127.0.0.1:19082/api_backend?c=8797&nn=huy14122&mn=-1000000&h=6036253d1d80a9c9b19bc60e6254bf50
+03:59:58.728 [DBG] Sent 184 bytes
+no ex
+03:59:59.732 [DBG] 31 bytes read
+no ex
+03:59:59.733 [DBG] Sent 30 bytes
+no ex
+04:00:00.693 [INF] GET response: {"success":true,"message":null,"errorCode":"0","data":"Không có nickname: huy14122 hoặc tiền hoàn trả bằng 0: -1000000"}
+
+04:00:00.695 [DBG] Sent 33 bytes
+no ex
+04:00:02.739 [DBG] 31 bytes read
+no ex
+04:00:02.739 [DBG] Sent 30 bytes
+no ex
+04:00:03.701 [INF] RunHandleWinLoss: 0
+04:00:03.701 [INF] CalculateResult: 20230114
+04:00:03.701 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+04:00:03.717 [DBG] Sent 184 bytes
+no ex
+04:00:04.135 [DBG] 204 bytes read
+no ex
+04:00:04.136 [INF] onClientRequest Play request 4
+04:00:04.139 [INF] onClientRequest Play request 4
+04:00:04.148 [DBG] Sent 93 bytes
+no ex
+04:00:04.148 [DBG] Sent 93 bytes
+no ex
+04:00:04.148 [DBG] Sent 53 bytes
+no ex
+04:00:04.148 [DBG] Sent 53 bytes
+no ex
+04:00:04.214 [DBG] 47 bytes read
+no ex
+04:00:04.231 [DBG] Sent 61 bytes
+no ex
+04:00:05.736 [DBG] 31 bytes read
+no ex
+04:00:05.737 [DBG] Sent 30 bytes
+no ex
+04:00:08.725 [DBG] Sent 184 bytes
+no ex
+04:00:08.737 [DBG] 31 bytes read
+no ex
+04:00:08.737 [DBG] Sent 30 bytes
+no ex
+04:00:10.280 [DBG] 58 bytes read
+no ex
+04:00:10.298 [DBG] Sent 71 bytes
+no ex
+04:00:11.737 [DBG] 31 bytes read
+no ex
+04:00:11.737 [DBG] Sent 30 bytes
+no ex
+04:00:12.004 [DBG] 32 bytes read
+no ex
+04:00:12.013 [DBG] Sent 399 bytes
+no ex
+04:00:13.715 [DBG] Sent 184 bytes
+no ex
+04:00:14.737 [DBG] 31 bytes read
+no ex
+04:00:14.737 [DBG] Sent 30 bytes
+no ex
+04:00:17.756 [DBG] 31 bytes read
+no ex
+04:00:17.756 [DBG] Sent 30 bytes
+no ex
+04:00:18.725 [DBG] Sent 184 bytes
+no ex
+04:00:19.524 [DBG] 58 bytes read
+no ex
+04:00:19.530 [DBG] Sent 71 bytes
+no ex
+04:00:20.736 [DBG] 31 bytes read
+no ex
+04:00:20.737 [DBG] Sent 30 bytes
+no ex
+04:00:22.186 [DBG] 58 bytes read
+no ex
+04:00:22.202 [DBG] Sent 330 bytes
+no ex
+04:00:23.724 [DBG] Sent 184 bytes
+no ex
+04:00:23.740 [DBG] 31 bytes read
+no ex
+04:00:23.741 [DBG] Sent 30 bytes
+no ex
+04:00:26.736 [DBG] 31 bytes read
+no ex
+04:00:26.737 [DBG] Sent 30 bytes
+no ex
+04:00:28.717 [DBG] Sent 184 bytes
+no ex
+04:00:29.737 [DBG] 31 bytes read
+no ex
+04:00:29.737 [DBG] Sent 30 bytes
+no ex
+04:00:32.736 [DBG] 31 bytes read
+no ex
+04:00:32.737 [DBG] Sent 30 bytes
+no ex
+04:00:33.719 [DBG] Sent 184 bytes
+no ex
+04:00:35.737 [DBG] 31 bytes read
+no ex
+04:00:35.737 [DBG] Sent 30 bytes
+no ex
+04:00:38.725 [DBG] Sent 184 bytes
+no ex
+04:00:38.739 [DBG] 31 bytes read
+no ex
+04:00:38.740 [DBG] Sent 30 bytes
+no ex
+04:00:41.824 [DBG] 31 bytes read
+no ex
+04:00:41.825 [DBG] Sent 30 bytes
+no ex
+04:00:43.729 [DBG] Sent 184 bytes
+no ex
+04:00:44.757 [DBG] 31 bytes read
+no ex
+04:00:44.757 [DBG] Sent 30 bytes
+no ex
+04:00:47.737 [DBG] 31 bytes read
+no ex
+04:00:47.737 [DBG] Sent 30 bytes
+no ex
+04:00:48.720 [DBG] Sent 184 bytes
+no ex
+04:00:50.750 [DBG] 31 bytes read
+no ex
+04:00:50.750 [DBG] Sent 30 bytes
+no ex
+04:00:53.726 [DBG] Sent 184 bytes
+no ex
+04:00:53.737 [DBG] 31 bytes read
+no ex
+04:00:53.737 [DBG] Sent 30 bytes
+no ex
+04:00:56.749 [DBG] 31 bytes read
+no ex
+04:00:56.749 [DBG] Sent 30 bytes
+no ex
+04:00:58.734 [DBG] Sent 184 bytes
+no ex
+04:00:59.748 [DBG] 31 bytes read
+no ex
+04:00:59.749 [DBG] Sent 30 bytes
+no ex
+04:01:02.745 [DBG] 31 bytes read
+no ex
+04:01:02.745 [DBG] Sent 30 bytes
+no ex
+04:01:03.726 [DBG] Sent 184 bytes
+no ex
+04:01:05.741 [DBG] 31 bytes read
+no ex
+04:01:05.741 [DBG] Sent 30 bytes
+no ex
+04:01:08.732 [DBG] Sent 184 bytes
+no ex
+04:01:08.826 [DBG] 31 bytes read
+no ex
+04:01:08.826 [DBG] Sent 30 bytes
+no ex
+04:01:11.737 [DBG] 31 bytes read
+no ex
+04:01:11.737 [DBG] Sent 30 bytes
+no ex
+04:01:13.721 [DBG] Sent 184 bytes
+no ex
+04:01:14.736 [DBG] 31 bytes read
+no ex
+04:01:14.737 [DBG] Sent 30 bytes
+no ex
+04:01:17.736 [DBG] 31 bytes read
+no ex
+04:01:17.736 [DBG] Sent 30 bytes
+no ex
+04:01:18.725 [DBG] Sent 184 bytes
+no ex
+04:01:20.746 [DBG] 31 bytes read
+no ex
+04:01:20.746 [DBG] Sent 30 bytes
+no ex
+04:01:21.733 [DBG] Sent 74 bytes
+no ex
+04:01:23.729 [DBG] Sent 184 bytes
+no ex
+04:01:23.736 [DBG] 31 bytes read
+no ex
+04:01:23.737 [DBG] Sent 30 bytes
+no ex
+04:01:26.737 [DBG] 31 bytes read
+no ex
+04:01:26.737 [DBG] Sent 30 bytes
+no ex
+04:01:28.736 [DBG] Sent 184 bytes
+no ex
+04:01:29.737 [DBG] 31 bytes read
+no ex
+04:01:29.737 [DBG] Sent 30 bytes
+no ex
+04:01:32.736 [DBG] 31 bytes read
+no ex
+04:01:32.737 [DBG] Sent 30 bytes
+no ex
+04:01:33.730 [DBG] Sent 184 bytes
+no ex
+04:01:35.736 [DBG] 31 bytes read
+no ex
+04:01:35.737 [DBG] Sent 30 bytes
+no ex
+04:01:38.736 [DBG] 31 bytes read
+no ex
+04:01:38.737 [DBG] Sent 30 bytes
+no ex
+04:01:38.737 [DBG] Sent 184 bytes
+no ex
+04:01:41.737 [DBG] 31 bytes read
+no ex
+04:01:41.737 [DBG] Sent 30 bytes
+no ex
+04:01:43.724 [DBG] Sent 184 bytes
+no ex
+04:01:44.737 [DBG] 31 bytes read
+no ex
+04:01:44.737 [DBG] Sent 30 bytes
+no ex
+04:01:47.736 [DBG] 31 bytes read
+no ex
+04:01:47.737 [DBG] Sent 30 bytes
+no ex
+04:01:48.726 [DBG] Sent 184 bytes
+no ex
+04:01:50.737 [DBG] 31 bytes read
+no ex
+04:01:50.737 [DBG] Sent 30 bytes
+no ex
+04:01:53.736 [DBG] Sent 184 bytes
+no ex
+04:01:53.737 [DBG] 31 bytes read
+no ex
+04:01:53.737 [DBG] Sent 30 bytes
+no ex
+04:01:57.677 [DBG] 31 bytes read
+no ex
+04:01:57.677 [DBG] Sent 30 bytes
+no ex
+04:01:58.737 [DBG] Sent 184 bytes
+no ex
+04:02:00.676 [DBG] 31 bytes read
+no ex
+04:02:00.677 [DBG] Sent 30 bytes
+no ex
+04:02:03.677 [DBG] 31 bytes read
+no ex
+04:02:03.677 [DBG] Sent 30 bytes
+no ex
+04:02:03.725 [DBG] Sent 184 bytes
+no ex
+04:02:06.676 [DBG] 31 bytes read
+no ex
+04:02:06.677 [DBG] Sent 30 bytes
+no ex
+04:02:08.729 [DBG] Sent 184 bytes
+no ex
+04:02:09.673 [DBG] 31 bytes read
+no ex
+04:02:09.673 [DBG] Sent 30 bytes
+no ex
+04:02:12.676 [DBG] 31 bytes read
+no ex
+04:02:12.677 [DBG] Sent 30 bytes
+no ex
+04:02:13.738 [DBG] Sent 184 bytes
+no ex
+04:02:15.676 [DBG] 31 bytes read
+no ex
+04:02:15.677 [DBG] Sent 30 bytes
+no ex
+04:02:18.676 [DBG] 31 bytes read
+no ex
+04:02:18.678 [DBG] Sent 30 bytes
+no ex
+04:02:18.729 [DBG] Sent 184 bytes
+no ex
+04:02:21.677 [DBG] 31 bytes read
+no ex
+04:02:21.677 [DBG] Sent 30 bytes
+no ex
+04:02:23.733 [DBG] Sent 184 bytes
+no ex
+04:02:24.684 [DBG] 31 bytes read
+no ex
+04:02:24.684 [DBG] Sent 30 bytes
+no ex
+04:02:27.677 [DBG] 31 bytes read
+no ex
+04:02:27.677 [DBG] Sent 30 bytes
+no ex
+04:02:28.737 [DBG] Sent 184 bytes
+no ex
+04:02:30.677 [DBG] 31 bytes read
+no ex
+04:02:30.677 [DBG] Sent 30 bytes
+no ex
+04:02:33.676 [DBG] 31 bytes read
+no ex
+04:02:33.677 [DBG] Sent 30 bytes
+no ex
+04:02:33.729 [DBG] Sent 184 bytes
+no ex
+04:02:36.676 [DBG] 31 bytes read
+no ex
+04:02:36.677 [DBG] Sent 30 bytes
+no ex
+04:02:38.741 [DBG] Sent 184 bytes
+no ex
+04:02:39.677 [DBG] 31 bytes read
+no ex
+04:02:39.677 [DBG] Sent 30 bytes
+no ex
+04:02:42.676 [DBG] 31 bytes read
+no ex
+04:02:42.677 [DBG] Sent 30 bytes
+no ex
+04:02:43.737 [DBG] Sent 184 bytes
+no ex
+04:02:45.677 [DBG] 31 bytes read
+no ex
+04:02:45.677 [DBG] Sent 30 bytes
+no ex
+04:02:48.676 [DBG] 31 bytes read
+no ex
+04:02:48.676 [DBG] Sent 30 bytes
+no ex
+04:02:48.735 [DBG] Sent 184 bytes
+no ex
+04:02:51.676 [DBG] 31 bytes read
+no ex
+04:02:51.677 [DBG] Sent 30 bytes
+no ex
+04:02:53.734 [DBG] Sent 184 bytes
+no ex
+04:02:54.677 [DBG] 31 bytes read
+no ex
+04:02:54.677 [DBG] Sent 30 bytes
+no ex
+04:02:57.677 [DBG] 31 bytes read
+no ex
+04:02:57.677 [DBG] Sent 30 bytes
+no ex
+04:02:58.741 [DBG] Sent 184 bytes
+no ex
+04:03:00.676 [DBG] 31 bytes read
+no ex
+04:03:00.677 [DBG] Sent 30 bytes
+no ex
+04:03:03.677 [DBG] 31 bytes read
+no ex
+04:03:03.677 [DBG] Sent 30 bytes
+no ex
+04:03:03.743 [DBG] Sent 184 bytes
+no ex
+04:03:06.677 [DBG] 31 bytes read
+no ex
+04:03:06.677 [DBG] Sent 30 bytes
+no ex
+04:03:08.747 [DBG] Sent 184 bytes
+no ex
+04:03:09.676 [DBG] 31 bytes read
+no ex
+04:03:09.677 [DBG] Sent 30 bytes
+no ex
+04:03:12.677 [DBG] 31 bytes read
+no ex
+04:03:12.677 [DBG] Sent 30 bytes
+no ex
+04:03:13.732 [DBG] Sent 184 bytes
+no ex
+04:03:15.676 [DBG] 31 bytes read
+no ex
+04:03:15.677 [DBG] Sent 30 bytes
+no ex
+04:03:18.677 [DBG] 31 bytes read
+no ex
+04:03:18.677 [DBG] Sent 30 bytes
+no ex
+04:03:18.744 [DBG] Sent 184 bytes
+no ex
+04:03:21.677 [DBG] 31 bytes read
+no ex
+04:03:21.677 [DBG] Sent 30 bytes
+no ex
+04:03:23.750 [DBG] Sent 184 bytes
+no ex
+04:03:24.677 [DBG] 31 bytes read
+no ex
+04:03:24.677 [DBG] Sent 30 bytes
+no ex
+04:03:27.676 [DBG] 31 bytes read
+no ex
+04:03:27.677 [DBG] Sent 30 bytes
+no ex
+04:03:28.737 [DBG] Sent 184 bytes
+no ex
+04:03:30.677 [DBG] 31 bytes read
+no ex
+04:03:30.677 [DBG] Sent 30 bytes
+no ex
+04:03:33.676 [DBG] 31 bytes read
+no ex
+04:03:33.677 [DBG] Sent 30 bytes
+no ex
+04:03:33.741 [DBG] Sent 184 bytes
+no ex
+04:03:36.677 [DBG] 31 bytes read
+no ex
+04:03:36.677 [DBG] Sent 30 bytes
+no ex
+04:03:38.747 [DBG] Sent 184 bytes
+no ex
+04:03:39.677 [DBG] 31 bytes read
+no ex
+04:03:39.677 [DBG] Sent 30 bytes
+no ex
+04:03:42.677 [DBG] 31 bytes read
+no ex
+04:03:42.678 [DBG] Sent 30 bytes
+no ex
+04:03:43.737 [DBG] Sent 184 bytes
+no ex
+04:03:45.680 [DBG] 31 bytes read
+no ex
+04:03:45.680 [DBG] Sent 30 bytes
+no ex
+04:03:48.691 [DBG] 31 bytes read
+no ex
+04:03:48.692 [DBG] Sent 30 bytes
+no ex
+04:03:48.741 [DBG] Sent 184 bytes
+no ex
+04:03:51.676 [DBG] 31 bytes read
+no ex
+04:03:51.677 [DBG] Sent 30 bytes
+no ex
+04:03:53.748 [DBG] Sent 184 bytes
+no ex
+04:03:54.681 [DBG] 31 bytes read
+no ex
+04:03:54.681 [DBG] Sent 30 bytes
+no ex
+04:03:57.677 [DBG] 31 bytes read
+no ex
+04:03:57.677 [DBG] Sent 30 bytes
+no ex
+04:03:58.739 [DBG] Sent 184 bytes
+no ex
+04:04:00.677 [DBG] 31 bytes read
+no ex
+04:04:00.677 [DBG] Sent 30 bytes
+no ex
+04:04:03.676 [DBG] 31 bytes read
+no ex
+04:04:03.677 [DBG] Sent 30 bytes
+no ex
+04:04:03.750 [DBG] Sent 184 bytes
+no ex
+04:04:04.187 [INF] RunScan: 0
+04:04:04.187 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(4:4)","Data":null,"DataObj":null}
+04:04:06.677 [DBG] 31 bytes read
+no ex
+04:04:06.677 [DBG] Sent 30 bytes
+no ex
+04:04:08.744 [DBG] Sent 184 bytes
+no ex
+04:04:09.676 [DBG] 31 bytes read
+no ex
+04:04:09.677 [DBG] Sent 30 bytes
+no ex
+04:04:12.677 [DBG] 31 bytes read
+no ex
+04:04:12.677 [DBG] Sent 30 bytes
+no ex
+04:04:13.753 [DBG] Sent 184 bytes
+no ex
+04:04:15.680 [DBG] 31 bytes read
+no ex
+04:04:15.681 [DBG] Sent 30 bytes
+no ex
+04:04:18.678 [DBG] 31 bytes read
+no ex
+04:04:18.678 [DBG] Sent 30 bytes
+no ex
+04:04:18.745 [DBG] Sent 184 bytes
+no ex
+04:04:21.677 [DBG] 31 bytes read
+no ex
+04:04:21.677 [DBG] Sent 30 bytes
+no ex
+04:04:23.750 [DBG] Sent 184 bytes
+no ex
+04:04:24.676 [DBG] 31 bytes read
+no ex
+04:04:24.677 [DBG] Sent 30 bytes
+no ex
+04:04:27.676 [DBG] 31 bytes read
+no ex
+04:04:27.677 [DBG] Sent 30 bytes
+no ex
+04:04:28.740 [DBG] Sent 184 bytes
+no ex
+04:04:30.676 [DBG] 31 bytes read
+no ex
+04:04:30.677 [DBG] Sent 30 bytes
+no ex
+04:04:33.677 [DBG] 32 bytes read
+no ex
+04:04:33.677 [DBG] Sent 31 bytes
+no ex
+04:04:33.747 [DBG] Sent 184 bytes
+no ex
+04:04:36.676 [DBG] 32 bytes read
+no ex
+04:04:36.677 [DBG] Sent 31 bytes
+no ex
+04:04:38.750 [DBG] Sent 184 bytes
+no ex
+04:04:39.678 [DBG] 32 bytes read
+no ex
+04:04:39.679 [DBG] Sent 31 bytes
+no ex
+04:04:42.677 [DBG] 32 bytes read
+no ex
+04:04:42.677 [DBG] Sent 31 bytes
+no ex
+04:04:43.744 [DBG] Sent 184 bytes
+no ex
+04:04:45.677 [DBG] 32 bytes read
+no ex
+04:04:45.677 [DBG] Sent 31 bytes
+no ex
+04:04:48.677 [DBG] 32 bytes read
+no ex
+04:04:48.677 [DBG] Sent 31 bytes
+no ex
+04:04:48.751 [DBG] Sent 184 bytes
+no ex
+04:04:51.677 [DBG] 32 bytes read
+no ex
+04:04:51.677 [DBG] Sent 31 bytes
+no ex
+04:04:53.743 [DBG] Sent 184 bytes
+no ex
+04:04:54.679 [DBG] 32 bytes read
+no ex
+04:04:54.679 [DBG] Sent 31 bytes
+no ex
+04:04:57.117 [DBG] 32 bytes read
+no ex
+04:04:57.117 [DBG] Sent 31 bytes
+no ex
+04:04:58.754 [DBG] Sent 184 bytes
+no ex
+04:04:59.748 [DBG] 32 bytes read
+no ex
+04:04:59.749 [DBG] Sent 31 bytes
+no ex
+04:05:02.745 [DBG] 32 bytes read
+no ex
+04:05:02.745 [DBG] Sent 31 bytes
+no ex
+04:05:03.703 [INF] RunHandleWinLoss: 0
+04:05:03.703 [INF] CalculateResult: 20230114
+04:05:03.703 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+04:05:03.707 [INF] CalculateResult 3: 0
+04:05:03.708 [INF] CalculateResult 3: 0
+04:05:03.745 [DBG] Sent 184 bytes
+no ex
+04:05:05.737 [DBG] 32 bytes read
+no ex
+04:05:05.737 [DBG] Sent 31 bytes
+no ex
+04:05:08.741 [DBG] 32 bytes read
+no ex
+04:05:08.741 [DBG] Sent 31 bytes
+no ex
+04:05:08.753 [DBG] Sent 184 bytes
+no ex
+04:05:11.745 [DBG] 32 bytes read
+no ex
+04:05:11.745 [DBG] Sent 31 bytes
+no ex
+04:05:13.758 [DBG] Sent 184 bytes
+no ex
+04:05:14.745 [DBG] 32 bytes read
+no ex
+04:05:14.745 [DBG] Sent 31 bytes
+no ex
+04:05:17.740 [DBG] 32 bytes read
+no ex
+04:05:17.741 [DBG] Sent 31 bytes
+no ex
+04:05:18.749 [DBG] Sent 184 bytes
+no ex
+04:05:20.745 [DBG] 32 bytes read
+no ex
+04:05:20.745 [DBG] Sent 31 bytes
+no ex
+04:05:23.740 [DBG] 32 bytes read
+no ex
+04:05:23.741 [DBG] Sent 31 bytes
+no ex
+04:05:23.749 [DBG] Sent 184 bytes
+no ex
+04:05:26.742 [DBG] 32 bytes read
+no ex
+04:05:26.742 [DBG] Sent 31 bytes
+no ex
+04:05:28.755 [DBG] Sent 184 bytes
+no ex
+04:05:29.737 [DBG] 32 bytes read
+no ex
+04:05:29.737 [DBG] Sent 31 bytes
+no ex
+04:05:32.741 [DBG] 32 bytes read
+no ex
+04:05:32.741 [DBG] Sent 31 bytes
+no ex
+04:05:33.757 [DBG] Sent 184 bytes
+no ex
+04:05:35.737 [DBG] 32 bytes read
+no ex
+04:05:35.737 [DBG] Sent 31 bytes
+no ex
+04:05:38.741 [DBG] 32 bytes read
+no ex
+04:05:38.741 [DBG] Sent 31 bytes
+no ex
+04:05:38.749 [DBG] Sent 184 bytes
+no ex
+04:05:41.741 [DBG] 32 bytes read
+no ex
+04:05:41.741 [DBG] Sent 31 bytes
+no ex
+04:05:43.756 [DBG] Sent 184 bytes
+no ex
+04:05:44.740 [DBG] 32 bytes read
+no ex
+04:05:44.741 [DBG] Sent 31 bytes
+no ex
+04:05:47.741 [DBG] 32 bytes read
+no ex
+04:05:47.741 [DBG] Sent 31 bytes
+no ex
+04:05:48.763 [DBG] Sent 184 bytes
+no ex
+04:05:50.761 [DBG] 32 bytes read
+no ex
+04:05:50.761 [DBG] Sent 31 bytes
+no ex
+04:05:53.741 [DBG] 32 bytes read
+no ex
+04:05:53.741 [DBG] Sent 31 bytes
+no ex
+04:05:53.757 [DBG] Sent 184 bytes
+no ex
+04:05:56.741 [DBG] 32 bytes read
+no ex
+04:05:56.741 [DBG] Sent 31 bytes
+no ex
+04:05:58.752 [DBG] Sent 184 bytes
+no ex
+04:05:59.740 [DBG] 32 bytes read
+no ex
+04:05:59.741 [DBG] Sent 31 bytes
+no ex
+04:06:02.741 [DBG] 32 bytes read
+no ex
+04:06:02.741 [DBG] Sent 31 bytes
+no ex
+04:06:03.761 [DBG] Sent 184 bytes
+no ex
+04:06:05.741 [DBG] 32 bytes read
+no ex
+04:06:05.741 [DBG] Sent 31 bytes
+no ex
+04:06:08.741 [DBG] 32 bytes read
+no ex
+04:06:08.741 [DBG] Sent 31 bytes
+no ex
+04:06:08.755 [DBG] Sent 184 bytes
+no ex
+04:06:11.745 [DBG] 32 bytes read
+no ex
+04:06:11.745 [DBG] Sent 31 bytes
+no ex
+04:06:13.762 [DBG] Sent 184 bytes
+no ex
+04:06:14.741 [DBG] 32 bytes read
+no ex
+04:06:14.741 [DBG] Sent 31 bytes
+no ex
+04:06:17.741 [DBG] 32 bytes read
+no ex
+04:06:17.741 [DBG] Sent 31 bytes
+no ex
+04:06:18.768 [DBG] Sent 184 bytes
+no ex
+04:06:20.769 [DBG] 32 bytes read
+no ex
+04:06:20.769 [DBG] Sent 31 bytes
+no ex
+04:06:23.739 [DBG] 32 bytes read
+no ex
+04:06:23.739 [DBG] Sent 31 bytes
+no ex
+04:06:23.760 [DBG] Sent 184 bytes
+no ex
+04:06:26.744 [DBG] 32 bytes read
+no ex
+04:06:26.744 [DBG] Sent 31 bytes
+no ex
+04:06:28.768 [DBG] Sent 184 bytes
+no ex
+04:06:29.741 [DBG] 32 bytes read
+no ex
+04:06:29.741 [DBG] Sent 31 bytes
+no ex
+04:06:32.745 [DBG] 32 bytes read
+no ex
+04:06:32.746 [DBG] Sent 31 bytes
+no ex
+04:06:33.759 [DBG] Sent 184 bytes
+no ex
+04:06:35.743 [DBG] 32 bytes read
+no ex
+04:06:35.743 [DBG] Sent 31 bytes
+no ex
+04:06:38.749 [DBG] 32 bytes read
+no ex
+04:06:38.751 [DBG] Sent 31 bytes
+no ex
+04:06:38.752 [DBG] Sent 184 bytes
+no ex
+04:06:41.753 [DBG] 32 bytes read
+no ex
+04:06:41.753 [DBG] Sent 31 bytes
+no ex
+04:06:43.759 [DBG] Sent 184 bytes
+no ex
+04:06:44.749 [DBG] 32 bytes read
+no ex
+04:06:44.749 [DBG] Sent 31 bytes
+no ex
+04:06:47.749 [DBG] 32 bytes read
+no ex
+04:06:47.749 [DBG] Sent 31 bytes
+no ex
+04:06:48.764 [DBG] Sent 184 bytes
+no ex
+04:06:50.749 [DBG] 32 bytes read
+no ex
+04:06:50.749 [DBG] Sent 31 bytes
+no ex
+04:06:53.748 [DBG] 32 bytes read
+no ex
+04:06:53.749 [DBG] Sent 31 bytes
+no ex
+04:06:53.770 [DBG] Sent 184 bytes
+no ex
+04:06:56.748 [DBG] 32 bytes read
+no ex
+04:06:56.749 [DBG] Sent 31 bytes
+no ex
+04:06:58.764 [DBG] Sent 184 bytes
+no ex
+04:06:59.747 [DBG] 32 bytes read
+no ex
+04:06:59.747 [DBG] Sent 31 bytes
+no ex
+04:07:02.744 [DBG] 32 bytes read
+no ex
+04:07:02.745 [DBG] Sent 31 bytes
+no ex
+04:07:03.769 [DBG] Sent 184 bytes
+no ex
+04:07:05.776 [DBG] 32 bytes read
+no ex
+04:07:05.776 [DBG] Sent 31 bytes
+no ex
+04:07:08.764 [DBG] Sent 184 bytes
+no ex
+04:07:08.774 [DBG] 32 bytes read
+no ex
+04:07:08.775 [DBG] Sent 31 bytes
+no ex
+04:07:11.741 [DBG] 32 bytes read
+no ex
+04:07:11.741 [DBG] Sent 31 bytes
+no ex
+04:07:13.770 [DBG] Sent 184 bytes
+no ex
+04:07:14.765 [DBG] 32 bytes read
+no ex
+04:07:14.765 [DBG] Sent 31 bytes
+no ex
+04:07:17.740 [DBG] 32 bytes read
+no ex
+04:07:17.741 [DBG] Sent 31 bytes
+no ex
+04:07:18.758 [DBG] Sent 184 bytes
+no ex
+04:07:20.761 [DBG] 32 bytes read
+no ex
+04:07:20.761 [DBG] Sent 31 bytes
+no ex
+04:07:23.740 [DBG] 32 bytes read
+no ex
+04:07:23.741 [DBG] Sent 31 bytes
+no ex
+04:07:23.764 [DBG] Sent 184 bytes
+no ex
+04:07:26.761 [DBG] 32 bytes read
+no ex
+04:07:26.762 [DBG] Sent 31 bytes
+no ex
+04:07:28.768 [DBG] Sent 184 bytes
+no ex
+04:07:30.676 [DBG] 32 bytes read
+no ex
+04:07:30.677 [DBG] Sent 31 bytes
+no ex
+04:07:32.750 [DBG] 32 bytes read
+no ex
+04:07:32.750 [DBG] Sent 31 bytes
+no ex
+04:07:33.775 [DBG] Sent 184 bytes
+no ex
+04:07:36.680 [DBG] 32 bytes read
+no ex
+04:07:36.681 [DBG] Sent 31 bytes
+no ex
+04:07:38.749 [DBG] 32 bytes read
+no ex
+04:07:38.749 [DBG] Sent 31 bytes
+no ex
+04:07:38.765 [DBG] Sent 184 bytes
+no ex
+04:07:41.745 [DBG] 32 bytes read
+no ex
+04:07:41.745 [DBG] Sent 31 bytes
+no ex
+04:07:43.765 [DBG] Sent 184 bytes
+no ex
+04:07:44.769 [DBG] 32 bytes read
+no ex
+04:07:44.769 [DBG] Sent 31 bytes
+no ex
+04:07:47.747 [DBG] 32 bytes read
+no ex
+04:07:47.747 [DBG] Sent 31 bytes
+no ex
+04:07:48.768 [DBG] Sent 184 bytes
+no ex
+04:07:50.740 [DBG] 32 bytes read
+no ex
+04:07:50.741 [DBG] Sent 31 bytes
+no ex
+04:07:53.741 [DBG] 32 bytes read
+no ex
+04:07:53.741 [DBG] Sent 31 bytes
+no ex
+04:07:53.767 [DBG] Sent 184 bytes
+no ex
+04:07:56.741 [DBG] 32 bytes read
+no ex
+04:07:56.741 [DBG] Sent 31 bytes
+no ex
+04:07:58.761 [DBG] Sent 184 bytes
+no ex
+04:07:59.744 [DBG] 32 bytes read
+no ex
+04:07:59.745 [DBG] Sent 31 bytes
+no ex
+04:08:02.741 [DBG] 32 bytes read
+no ex
+04:08:02.741 [DBG] Sent 31 bytes
+no ex
+04:08:03.774 [DBG] Sent 184 bytes
+no ex
+04:08:05.741 [DBG] 32 bytes read
+no ex
+04:08:05.741 [DBG] Sent 31 bytes
+no ex
+04:08:08.741 [DBG] 32 bytes read
+no ex
+04:08:08.741 [DBG] Sent 31 bytes
+no ex
+04:08:08.764 [DBG] Sent 184 bytes
+no ex
+04:08:11.741 [DBG] 32 bytes read
+no ex
+04:08:11.741 [DBG] Sent 31 bytes
+no ex
+04:08:13.771 [DBG] Sent 184 bytes
+no ex
+04:08:14.742 [DBG] 32 bytes read
+no ex
+04:08:14.743 [DBG] Sent 31 bytes
+no ex
+04:08:17.749 [DBG] 32 bytes read
+no ex
+04:08:17.749 [DBG] Sent 31 bytes
+no ex
+04:08:18.775 [DBG] Sent 184 bytes
+no ex
+04:08:20.756 [DBG] 32 bytes read
+no ex
+04:08:20.757 [DBG] Sent 31 bytes
+no ex
+04:08:23.765 [DBG] 32 bytes read
+no ex
+04:08:23.765 [DBG] Sent 31 bytes
+no ex
+04:08:23.780 [DBG] Sent 184 bytes
+no ex
+04:08:26.756 [DBG] 32 bytes read
+no ex
+04:08:26.757 [DBG] Sent 31 bytes
+no ex
+04:08:28.774 [DBG] Sent 184 bytes
+no ex
+04:08:29.749 [DBG] 32 bytes read
+no ex
+04:08:29.749 [DBG] Sent 31 bytes
+no ex
+04:08:32.754 [DBG] 32 bytes read
+no ex
+04:08:32.754 [DBG] Sent 31 bytes
+no ex
+04:08:33.779 [DBG] Sent 184 bytes
+no ex
+04:08:35.746 [DBG] 32 bytes read
+no ex
+04:08:35.746 [DBG] Sent 31 bytes
+no ex
+04:08:38.745 [DBG] 32 bytes read
+no ex
+04:08:38.746 [DBG] Sent 31 bytes
+no ex
+04:08:38.771 [DBG] Sent 184 bytes
+no ex
+04:08:41.749 [DBG] 32 bytes read
+no ex
+04:08:41.750 [DBG] Sent 31 bytes
+no ex
+04:08:43.781 [DBG] Sent 184 bytes
+no ex
+04:08:44.741 [DBG] 32 bytes read
+no ex
+04:08:44.741 [DBG] Sent 31 bytes
+no ex
+04:08:47.741 [DBG] 32 bytes read
+no ex
+04:08:47.741 [DBG] Sent 31 bytes
+no ex
+04:08:48.776 [DBG] Sent 184 bytes
+no ex
+04:08:50.745 [DBG] 32 bytes read
+no ex
+04:08:50.745 [DBG] Sent 31 bytes
+no ex
+04:08:53.745 [DBG] 32 bytes read
+no ex
+04:08:53.745 [DBG] Sent 31 bytes
+no ex
+04:08:53.781 [DBG] Sent 184 bytes
+no ex
+04:08:56.741 [DBG] 32 bytes read
+no ex
+04:08:56.741 [DBG] Sent 31 bytes
+no ex
+04:08:58.773 [DBG] Sent 184 bytes
+no ex
+04:08:59.745 [DBG] 32 bytes read
+no ex
+04:08:59.745 [DBG] Sent 31 bytes
+no ex
+04:09:02.741 [DBG] 32 bytes read
+no ex
+04:09:02.741 [DBG] Sent 31 bytes
+no ex
+04:09:03.784 [DBG] Sent 184 bytes
+no ex
+04:09:04.187 [INF] RunScan: 0
+04:09:04.187 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(4:9)","Data":null,"DataObj":null}
+04:09:05.741 [DBG] 32 bytes read
+no ex
+04:09:05.741 [DBG] Sent 31 bytes
+no ex
+04:09:08.748 [DBG] 32 bytes read
+no ex
+04:09:08.749 [DBG] Sent 31 bytes
+no ex
+04:09:08.784 [DBG] Sent 184 bytes
+no ex
+04:09:11.749 [DBG] 32 bytes read
+no ex
+04:09:11.749 [DBG] Sent 31 bytes
+no ex
+04:09:13.779 [DBG] Sent 184 bytes
+no ex
+04:09:14.752 [DBG] 32 bytes read
+no ex
+04:09:14.753 [DBG] Sent 31 bytes
+no ex
+04:09:17.750 [DBG] 32 bytes read
+no ex
+04:09:17.750 [DBG] Sent 31 bytes
+no ex
+04:09:18.783 [DBG] Sent 184 bytes
+no ex
+04:09:20.749 [DBG] 32 bytes read
+no ex
+04:09:20.749 [DBG] Sent 31 bytes
+no ex
+04:09:23.745 [DBG] 32 bytes read
+no ex
+04:09:23.745 [DBG] Sent 31 bytes
+no ex
+04:09:23.772 [DBG] Sent 184 bytes
+no ex
+04:09:26.748 [DBG] 32 bytes read
+no ex
+04:09:26.749 [DBG] Sent 31 bytes
+no ex
+04:09:28.780 [DBG] Sent 184 bytes
+no ex
+04:09:29.745 [DBG] 32 bytes read
+no ex
+04:09:29.745 [DBG] Sent 31 bytes
+no ex
+04:09:32.741 [DBG] 32 bytes read
+no ex
+04:09:32.741 [DBG] Sent 31 bytes
+no ex
+04:09:33.770 [DBG] Sent 184 bytes
+no ex
+04:09:35.744 [DBG] 32 bytes read
+no ex
+04:09:35.745 [DBG] Sent 31 bytes
+no ex
+04:09:38.745 [DBG] 32 bytes read
+no ex
+04:09:38.745 [DBG] Sent 31 bytes
+no ex
+04:09:38.777 [DBG] Sent 184 bytes
+no ex
+04:09:41.741 [DBG] 32 bytes read
+no ex
+04:09:41.741 [DBG] Sent 31 bytes
+no ex
+04:09:43.787 [DBG] Sent 184 bytes
+no ex
+04:09:44.741 [DBG] 32 bytes read
+no ex
+04:09:44.741 [DBG] Sent 31 bytes
+no ex
+04:09:47.745 [DBG] 32 bytes read
+no ex
+04:09:47.745 [DBG] Sent 31 bytes
+no ex
+04:09:48.777 [DBG] Sent 184 bytes
+no ex
+04:09:50.745 [DBG] 32 bytes read
+no ex
+04:09:50.745 [DBG] Sent 31 bytes
+no ex
+04:09:53.773 [DBG] Sent 184 bytes
+no ex
+04:09:53.789 [DBG] 32 bytes read
+no ex
+04:09:53.789 [DBG] Sent 31 bytes
+no ex
+04:09:57.680 [DBG] 32 bytes read
+no ex
+04:09:57.681 [DBG] Sent 31 bytes
+no ex
+04:09:58.780 [DBG] Sent 184 bytes
+no ex
+04:10:00.680 [DBG] 32 bytes read
+no ex
+04:10:00.681 [DBG] Sent 31 bytes
+no ex
+04:10:03.680 [DBG] 32 bytes read
+no ex
+04:10:03.681 [DBG] Sent 31 bytes
+no ex
+04:10:03.708 [INF] RunHandleWinLoss: 0
+04:10:03.708 [INF] CalculateResult: 20230114
+04:10:03.708 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+04:10:03.712 [INF] CalculateResult 3: 0
+04:10:03.714 [INF] CalculateResult 3: 0
+04:10:03.790 [DBG] Sent 184 bytes
+no ex
+04:10:06.682 [DBG] 32 bytes read
+no ex
+04:10:06.682 [DBG] Sent 31 bytes
+no ex
+04:10:08.781 [DBG] Sent 184 bytes
+no ex
+04:10:09.681 [DBG] 32 bytes read
+no ex
+04:10:09.681 [DBG] Sent 31 bytes
+no ex
+04:10:12.680 [DBG] 32 bytes read
+no ex
+04:10:12.681 [DBG] Sent 31 bytes
+no ex
+04:10:13.775 [DBG] Sent 184 bytes
+no ex
+04:10:15.681 [DBG] 32 bytes read
+no ex
+04:10:15.681 [DBG] Sent 31 bytes
+no ex
+04:10:18.680 [DBG] 32 bytes read
+no ex
+04:10:18.680 [DBG] Sent 31 bytes
+no ex
+04:10:18.786 [DBG] Sent 184 bytes
+no ex
+04:10:21.680 [DBG] 32 bytes read
+no ex
+04:10:21.680 [DBG] Sent 31 bytes
+no ex
+04:10:23.791 [DBG] Sent 184 bytes
+no ex
+04:10:24.680 [DBG] 32 bytes read
+no ex
+04:10:24.681 [DBG] Sent 31 bytes
+no ex
+04:10:27.680 [DBG] 32 bytes read
+no ex
+04:10:27.681 [DBG] Sent 31 bytes
+no ex
+04:10:28.781 [DBG] Sent 184 bytes
+no ex
+04:10:30.701 [DBG] 32 bytes read
+no ex
+04:10:30.701 [DBG] Sent 31 bytes
+no ex
+04:10:33.737 [DBG] 32 bytes read
+no ex
+04:10:33.737 [DBG] Sent 31 bytes
+no ex
+04:10:33.788 [DBG] Sent 184 bytes
+no ex
+04:10:36.684 [DBG] 32 bytes read
+no ex
+04:10:36.685 [DBG] Sent 31 bytes
+no ex
+04:10:38.789 [DBG] Sent 184 bytes
+no ex
+04:10:39.685 [DBG] 32 bytes read
+no ex
+04:10:39.686 [DBG] Sent 31 bytes
+no ex
+04:10:42.681 [DBG] 32 bytes read
+no ex
+04:10:42.681 [DBG] Sent 31 bytes
+no ex
+04:10:43.779 [DBG] Sent 184 bytes
+no ex
+04:10:45.682 [DBG] 32 bytes read
+no ex
+04:10:45.683 [DBG] Sent 31 bytes
+no ex
+04:10:47.876 [DBG] 32 bytes read
+no ex
+04:10:47.877 [DBG] Sent 31 bytes
+no ex
+04:10:48.790 [DBG] Sent 184 bytes
+no ex
+04:10:51.684 [DBG] 32 bytes read
+no ex
+04:10:51.685 [DBG] Sent 31 bytes
+no ex
+04:10:53.794 [DBG] Sent 184 bytes
+no ex
+04:10:54.684 [DBG] 32 bytes read
+no ex
+04:10:54.685 [DBG] Sent 31 bytes
+no ex
+04:10:57.684 [DBG] 33 bytes read
+no ex
+04:10:57.685 [DBG] Sent 32 bytes
+no ex
+04:10:58.781 [DBG] Sent 184 bytes
+no ex
+04:11:00.744 [DBG] 33 bytes read
+no ex
+04:11:00.745 [DBG] Sent 32 bytes
+no ex
+04:11:03.685 [DBG] 33 bytes read
+no ex
+04:11:03.685 [DBG] Sent 32 bytes
+no ex
+04:11:03.790 [DBG] Sent 184 bytes
+no ex
+04:11:06.696 [DBG] 33 bytes read
+no ex
+04:11:06.697 [DBG] Sent 32 bytes
+no ex
+04:11:08.780 [DBG] Sent 184 bytes
+no ex
+04:11:09.685 [DBG] 33 bytes read
+no ex
+04:11:09.685 [DBG] Sent 32 bytes
+no ex
+04:11:12.680 [DBG] 33 bytes read
+no ex
+04:11:12.681 [DBG] Sent 32 bytes
+no ex
+04:11:13.788 [DBG] Sent 184 bytes
+no ex
+04:11:15.688 [DBG] 33 bytes read
+no ex
+04:11:15.688 [DBG] Sent 32 bytes
+no ex
+04:11:18.684 [DBG] 33 bytes read
+no ex
+04:11:18.685 [DBG] Sent 32 bytes
+no ex
+04:11:18.794 [DBG] Sent 184 bytes
+no ex
+04:11:21.744 [DBG] 33 bytes read
+no ex
+04:11:21.745 [DBG] Sent 32 bytes
+no ex
+04:11:23.785 [DBG] Sent 184 bytes
+no ex
+04:11:24.685 [DBG] 33 bytes read
+no ex
+04:11:24.686 [DBG] Sent 32 bytes
+no ex
+04:11:27.684 [DBG] 33 bytes read
+no ex
+04:11:27.685 [DBG] Sent 32 bytes
+no ex
+04:11:28.796 [DBG] Sent 184 bytes
+no ex
+04:11:30.681 [DBG] 33 bytes read
+no ex
+04:11:30.681 [DBG] Sent 32 bytes
+no ex
+04:11:33.684 [DBG] 33 bytes read
+no ex
+04:11:33.685 [DBG] Sent 32 bytes
+no ex
+04:11:33.789 [DBG] Sent 184 bytes
+no ex
+04:11:36.696 [DBG] 33 bytes read
+no ex
+04:11:36.697 [DBG] Sent 32 bytes
+no ex
+04:11:38.798 [DBG] Sent 184 bytes
+no ex
+04:11:39.680 [DBG] 33 bytes read
+no ex
+04:11:39.681 [DBG] Sent 32 bytes
+no ex
+04:11:42.684 [DBG] 33 bytes read
+no ex
+04:11:42.685 [DBG] Sent 32 bytes
+no ex
+04:11:43.788 [DBG] Sent 184 bytes
+no ex
+04:11:45.692 [DBG] 33 bytes read
+no ex
+04:11:45.693 [DBG] Sent 32 bytes
+no ex
+04:11:48.685 [DBG] 33 bytes read
+no ex
+04:11:48.685 [DBG] Sent 32 bytes
+no ex
+04:11:48.799 [DBG] Sent 184 bytes
+no ex
+04:11:51.685 [DBG] 33 bytes read
+no ex
+04:11:51.685 [DBG] Sent 32 bytes
+no ex
+04:11:53.785 [DBG] Sent 184 bytes
+no ex
+04:11:54.686 [DBG] 33 bytes read
+no ex
+04:11:54.686 [DBG] Sent 32 bytes
+no ex
+04:11:57.684 [DBG] 33 bytes read
+no ex
+04:11:57.685 [DBG] Sent 32 bytes
+no ex
+04:11:58.790 [DBG] Sent 184 bytes
+no ex
+04:12:00.719 [DBG] 33 bytes read
+no ex
+04:12:00.719 [DBG] Sent 32 bytes
+no ex
+04:12:03.685 [DBG] 33 bytes read
+no ex
+04:12:03.685 [DBG] Sent 32 bytes
+no ex
+04:12:03.796 [DBG] Sent 184 bytes
+no ex
+04:12:06.684 [DBG] 33 bytes read
+no ex
+04:12:06.685 [DBG] Sent 32 bytes
+no ex
+04:12:08.785 [DBG] Sent 184 bytes
+no ex
+04:12:09.684 [DBG] 33 bytes read
+no ex
+04:12:09.685 [DBG] Sent 32 bytes
+no ex
+04:12:12.684 [DBG] 33 bytes read
+no ex
+04:12:12.685 [DBG] Sent 32 bytes
+no ex
+04:12:13.797 [DBG] Sent 184 bytes
+no ex
+04:12:15.684 [DBG] 33 bytes read
+no ex
+04:12:15.685 [DBG] Sent 32 bytes
+no ex
+04:12:18.684 [DBG] 33 bytes read
+no ex
+04:12:18.684 [DBG] Sent 32 bytes
+no ex
+04:12:18.788 [DBG] Sent 184 bytes
+no ex
+04:12:21.684 [DBG] 33 bytes read
+no ex
+04:12:21.685 [DBG] Sent 32 bytes
+no ex
+04:12:23.799 [DBG] Sent 184 bytes
+no ex
+04:12:24.684 [DBG] 33 bytes read
+no ex
+04:12:24.685 [DBG] Sent 32 bytes
+no ex
+04:12:27.684 [DBG] 33 bytes read
+no ex
+04:12:27.685 [DBG] Sent 32 bytes
+no ex
+04:12:28.789 [DBG] Sent 184 bytes
+no ex
+04:12:30.684 [DBG] 33 bytes read
+no ex
+04:12:30.684 [DBG] Sent 32 bytes
+no ex
+04:12:33.688 [DBG] 33 bytes read
+no ex
+04:12:33.688 [DBG] Sent 32 bytes
+no ex
+04:12:33.792 [DBG] Sent 184 bytes
+no ex
+04:12:36.686 [DBG] 33 bytes read
+no ex
+04:12:36.686 [DBG] Sent 32 bytes
+no ex
+04:12:38.799 [DBG] Sent 184 bytes
+no ex
+04:12:39.684 [DBG] 33 bytes read
+no ex
+04:12:39.684 [DBG] Sent 32 bytes
+no ex
+04:12:42.686 [DBG] 33 bytes read
+no ex
+04:12:42.686 [DBG] Sent 32 bytes
+no ex
+04:12:43.790 [DBG] Sent 184 bytes
+no ex
+04:12:45.684 [DBG] 33 bytes read
+no ex
+04:12:45.684 [DBG] Sent 32 bytes
+no ex
+04:12:48.687 [DBG] 33 bytes read
+no ex
+04:12:48.688 [DBG] Sent 32 bytes
+no ex
+04:12:48.797 [DBG] Sent 184 bytes
+no ex
+04:12:51.685 [DBG] 33 bytes read
+no ex
+04:12:51.685 [DBG] Sent 32 bytes
+no ex
+04:12:53.806 [DBG] Sent 184 bytes
+no ex
+04:12:54.684 [DBG] 33 bytes read
+no ex
+04:12:54.684 [DBG] Sent 32 bytes
+no ex
+04:12:57.688 [DBG] 33 bytes read
+no ex
+04:12:57.689 [DBG] Sent 32 bytes
+no ex
+04:12:58.796 [DBG] Sent 184 bytes
+no ex
+04:13:00.745 [DBG] 33 bytes read
+no ex
+04:13:00.746 [DBG] Sent 32 bytes
+no ex
+04:13:03.691 [DBG] 33 bytes read
+no ex
+04:13:03.692 [DBG] Sent 32 bytes
+no ex
+04:13:03.805 [DBG] Sent 184 bytes
+no ex
+04:13:06.684 [DBG] 33 bytes read
+no ex
+04:13:06.684 [DBG] Sent 32 bytes
+no ex
+04:13:08.794 [DBG] Sent 184 bytes
+no ex
+04:13:09.684 [DBG] 33 bytes read
+no ex
+04:13:09.684 [DBG] Sent 32 bytes
+no ex
+04:13:12.684 [DBG] 33 bytes read
+no ex
+04:13:12.684 [DBG] Sent 32 bytes
+no ex
+04:13:13.799 [DBG] Sent 184 bytes
+no ex
+04:13:15.684 [DBG] 33 bytes read
+no ex
+04:13:15.684 [DBG] Sent 32 bytes
+no ex
+04:13:16.621 [DBG] 8 bytes read
+no ex
+04:13:16.621 [DBG] Sent 4 bytes
+no ex
+04:14:04.187 [INF] RunScan: 0
+04:14:04.187 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(4:14)","Data":null,"DataObj":null}
+04:15:03.714 [INF] RunHandleWinLoss: 0
+04:15:03.714 [INF] CalculateResult: 20230114
+04:15:03.714 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+04:15:03.717 [INF] CalculateResult 3: 0
+04:15:03.718 [INF] CalculateResult 3: 0
+04:19:04.187 [INF] RunScan: 0
+04:19:04.188 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(4:19)","Data":null,"DataObj":null}
+04:20:03.719 [INF] RunHandleWinLoss: 0
+04:20:03.719 [INF] CalculateResult: 20230114
+04:20:03.719 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+04:20:03.722 [INF] CalculateResult 3: 0
+04:20:03.724 [INF] CalculateResult 3: 0
+04:24:04.188 [INF] RunScan: 0
+04:24:04.188 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(4:24)","Data":null,"DataObj":null}
+04:25:03.724 [INF] RunHandleWinLoss: 0
+04:25:03.724 [INF] CalculateResult: 20230114
+04:25:03.724 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+04:25:03.728 [INF] CalculateResult 3: 0
+04:25:03.730 [INF] CalculateResult 3: 0
+04:29:04.189 [INF] RunScan: 0
+04:29:04.190 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(4:29)","Data":null,"DataObj":null}
+04:30:03.730 [INF] RunHandleWinLoss: 0
+04:30:03.730 [INF] CalculateResult: 20230114
+04:30:03.730 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+04:30:03.732 [INF] CalculateResult 3: 0
+04:30:03.733 [INF] CalculateResult 3: 0
+04:34:04.190 [INF] RunScan: 0
+04:34:04.191 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(4:34)","Data":null,"DataObj":null}
+04:35:03.733 [INF] RunHandleWinLoss: 0
+04:35:03.733 [INF] CalculateResult: 20230114
+04:35:03.733 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+04:35:03.737 [INF] CalculateResult 3: 0
+04:35:03.738 [INF] CalculateResult 3: 0
+04:39:04.191 [INF] RunScan: 0
+04:39:04.191 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(4:39)","Data":null,"DataObj":null}
+04:40:03.738 [INF] RunHandleWinLoss: 0
+04:40:03.738 [INF] CalculateResult: 20230114
+04:40:03.738 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+04:40:03.741 [INF] CalculateResult 3: 0
+04:40:03.742 [INF] CalculateResult 3: 0
+04:44:04.191 [INF] RunScan: 0
+04:44:04.192 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(4:44)","Data":null,"DataObj":null}
+04:45:03.742 [INF] RunHandleWinLoss: 0
+04:45:03.743 [INF] CalculateResult: 20230114
+04:45:03.743 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+04:45:03.745 [INF] CalculateResult 3: 0
+04:45:03.746 [INF] CalculateResult 3: 0
+04:49:04.192 [INF] RunScan: 0
+04:49:04.192 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(4:49)","Data":null,"DataObj":null}
+04:50:03.746 [INF] RunHandleWinLoss: 0
+04:50:03.746 [INF] CalculateResult: 20230114
+04:50:03.746 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+04:50:03.750 [INF] CalculateResult 3: 0
+04:50:03.751 [INF] CalculateResult 3: 0
+04:54:04.192 [INF] RunScan: 0
+04:54:04.192 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(4:54)","Data":null,"DataObj":null}
+04:55:03.751 [INF] RunHandleWinLoss: 0
+04:55:03.752 [INF] CalculateResult: 20230114
+04:55:03.752 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+04:55:03.755 [INF] CalculateResult 3: 0
+04:55:03.756 [INF] CalculateResult 3: 0
+04:59:04.192 [INF] RunScan: 0
+04:59:04.192 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(4:59)","Data":null,"DataObj":null}
+05:00:03.756 [INF] RunHandleWinLoss: 0
+05:00:03.756 [INF] CalculateResult: 20230114
+05:00:03.756 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+05:00:03.760 [INF] CalculateResult 3: 0
+05:00:03.762 [INF] CalculateResult 3: 0
+05:04:04.192 [INF] RunScan: 0
+05:04:04.193 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(5:4)","Data":null,"DataObj":null}
+05:05:03.762 [INF] RunHandleWinLoss: 0
+05:05:03.763 [INF] CalculateResult: 20230114
+05:05:03.763 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+05:05:03.766 [INF] CalculateResult 3: 0
+05:05:03.767 [INF] CalculateResult 3: 0
+05:09:04.194 [INF] RunScan: 0
+05:09:04.194 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(5:9)","Data":null,"DataObj":null}
+05:10:03.768 [INF] RunHandleWinLoss: 0
+05:10:03.768 [INF] CalculateResult: 20230114
+05:10:03.768 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+05:10:03.770 [INF] CalculateResult 3: 0
+05:10:03.771 [INF] CalculateResult 3: 0
+05:14:04.194 [INF] RunScan: 0
+05:14:04.194 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(5:14)","Data":null,"DataObj":null}
+05:15:03.771 [INF] RunHandleWinLoss: 0
+05:15:03.771 [INF] CalculateResult: 20230114
+05:15:03.771 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+05:15:03.775 [INF] CalculateResult 3: 0
+05:15:03.776 [INF] CalculateResult 3: 0
+05:19:04.194 [INF] RunScan: 0
+05:19:04.194 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(5:19)","Data":null,"DataObj":null}
+05:20:03.776 [INF] RunHandleWinLoss: 0
+05:20:03.776 [INF] CalculateResult: 20230114
+05:20:03.777 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+05:20:03.780 [INF] CalculateResult 3: 0
+05:20:03.781 [INF] CalculateResult 3: 0
+05:24:04.195 [INF] RunScan: 0
+05:24:04.195 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(5:24)","Data":null,"DataObj":null}
+05:25:03.781 [INF] RunHandleWinLoss: 0
+05:25:03.782 [INF] CalculateResult: 20230114
+05:25:03.782 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+05:25:03.785 [INF] CalculateResult 3: 0
+05:25:03.786 [INF] CalculateResult 3: 0
+05:29:04.195 [INF] RunScan: 0
+05:29:04.195 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(5:29)","Data":null,"DataObj":null}
+05:30:03.786 [INF] RunHandleWinLoss: 0
+05:30:03.786 [INF] CalculateResult: 20230114
+05:30:03.786 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+05:30:03.789 [INF] CalculateResult 3: 0
+05:30:03.790 [INF] CalculateResult 3: 0
+05:34:04.195 [INF] RunScan: 0
+05:34:04.195 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(5:34)","Data":null,"DataObj":null}
+05:35:03.790 [INF] RunHandleWinLoss: 0
+05:35:03.790 [INF] CalculateResult: 20230114
+05:35:03.790 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+05:35:03.793 [INF] CalculateResult 3: 0
+05:35:03.794 [INF] CalculateResult 3: 0
+05:39:04.196 [INF] RunScan: 0
+05:39:04.196 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(5:39)","Data":null,"DataObj":null}
+05:40:03.794 [INF] RunHandleWinLoss: 0
+05:40:03.794 [INF] CalculateResult: 20230114
+05:40:03.794 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+05:40:03.799 [INF] CalculateResult 3: 0
+05:40:03.800 [INF] CalculateResult 3: 0
+05:44:04.196 [INF] RunScan: 0
+05:44:04.197 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(5:44)","Data":null,"DataObj":null}
+05:45:03.801 [INF] RunHandleWinLoss: 0
+05:45:03.801 [INF] CalculateResult: 20230114
+05:45:03.801 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+05:45:03.804 [INF] CalculateResult 3: 0
+05:45:03.805 [INF] CalculateResult 3: 0
+05:49:04.198 [INF] RunScan: 0
+05:49:04.198 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(5:49)","Data":null,"DataObj":null}
+05:50:03.805 [INF] RunHandleWinLoss: 0
+05:50:03.805 [INF] CalculateResult: 20230114
+05:50:03.805 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+05:50:03.808 [INF] CalculateResult 3: 0
+05:50:03.809 [INF] CalculateResult 3: 0
+05:54:04.198 [INF] RunScan: 0
+05:54:04.198 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(5:54)","Data":null,"DataObj":null}
+05:55:03.809 [INF] RunHandleWinLoss: 0
+05:55:03.809 [INF] CalculateResult: 20230114
+05:55:03.809 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+05:55:03.813 [INF] CalculateResult 3: 0
+05:55:03.814 [INF] CalculateResult 3: 0
+05:59:04.198 [INF] RunScan: 0
+05:59:04.198 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(5:59)","Data":null,"DataObj":null}
+06:00:03.814 [INF] RunHandleWinLoss: 0
+06:00:03.814 [INF] CalculateResult: 20230114
+06:00:03.814 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+06:00:03.817 [INF] CalculateResult 3: 0
+06:00:03.819 [INF] CalculateResult 3: 0
+06:04:04.199 [INF] RunScan: 0
+06:04:04.199 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(6:4)","Data":null,"DataObj":null}
+06:04:06.708 [DBG] Client connected from 127.0.0.1:35590
+no ex
+06:04:06.713 [DBG] 744 bytes read
+no ex
+06:04:06.721 [DBG] Building Hybi-14 Response
+no ex
+06:04:06.729 [DBG] Sent 129 bytes
+no ex
+06:04:06.801 [DBG] 141 bytes read
+no ex
+06:04:06.804 [DBG] Sent 30 bytes
+no ex
+06:04:06.805 [INF] GET: http://127.0.0.1:8081/api?c=3&un=huy1411&pw=cc0d45bc2f499fc4666d09691485a0f9&pf=web&at=
+06:04:06.859 [INF] GET response: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Imh1eTE0MTExIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjozOTQzNDk3MiwieHVUb3RhbCI6NTAwMDAwLCJ2aXBwb2ludCI6MCwidmlwcG9pbnRTYXZlIjowLCJjcmVhdGVUaW1lIjoiMTItMDEtMjAyMyIsImlwQWRkcmVzcyI6IjEyNy4wLjAuMSIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6Imh1eTE0MTEiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"951afe2110beb01f31ec23141e06be48"}
+
+06:04:06.889 [DBG] Sent 5736 bytes
+no ex
+06:04:09.526 [DBG] Sent 184 bytes
+no ex
+06:04:09.797 [DBG] 31 bytes read
+no ex
+06:04:09.797 [DBG] Sent 30 bytes
+no ex
+06:04:12.805 [DBG] 31 bytes read
+no ex
+06:04:12.805 [DBG] Sent 30 bytes
+no ex
+06:04:14.517 [DBG] Sent 184 bytes
+no ex
+06:04:15.803 [DBG] 31 bytes read
+no ex
+06:04:15.803 [DBG] Sent 30 bytes
+no ex
+06:04:18.801 [DBG] 31 bytes read
+no ex
+06:04:18.801 [DBG] Sent 30 bytes
+no ex
+06:04:19.525 [DBG] Sent 184 bytes
+no ex
+06:04:21.801 [DBG] 31 bytes read
+no ex
+06:04:21.801 [DBG] Sent 30 bytes
+no ex
+06:04:24.534 [DBG] Sent 184 bytes
+no ex
+06:04:24.800 [DBG] 31 bytes read
+no ex
+06:04:24.801 [DBG] Sent 30 bytes
+no ex
+06:04:27.801 [DBG] 31 bytes read
+no ex
+06:04:27.801 [DBG] Sent 30 bytes
+no ex
+06:04:29.524 [DBG] Sent 184 bytes
+no ex
+06:04:30.801 [DBG] 31 bytes read
+no ex
+06:04:30.801 [DBG] Sent 30 bytes
+no ex
+06:04:33.801 [DBG] 31 bytes read
+no ex
+06:04:33.801 [DBG] Sent 30 bytes
+no ex
+06:04:34.535 [DBG] Sent 184 bytes
+no ex
+06:04:37.773 [DBG] 31 bytes read
+no ex
+06:04:37.773 [DBG] Sent 30 bytes
+no ex
+06:04:39.527 [DBG] Sent 184 bytes
+no ex
+06:04:40.536 [DBG] Sent 76 bytes
+no ex
+06:04:40.781 [DBG] 31 bytes read
+no ex
+06:04:40.782 [DBG] Sent 30 bytes
+no ex
+06:04:43.774 [DBG] 31 bytes read
+no ex
+06:04:43.774 [DBG] Sent 30 bytes
+no ex
+06:04:44.522 [DBG] Sent 184 bytes
+no ex
+06:04:45.337 [DBG] 32 bytes read
+no ex
+06:04:45.342 [DBG] 114 bytes read
+no ex
+06:04:45.342 [DBG] Sent 171 bytes
+no ex
+06:04:45.345 [DBG] Sent 52 bytes
+no ex
+06:04:45.347 [DBG] Sent 41 bytes
+no ex
+06:04:45.353 [DBG] Sent 41 bytes
+no ex
+06:04:45.373 [DBG] 47 bytes read
+no ex
+06:04:45.379 [DBG] Sent 61 bytes
+no ex
+06:04:45.381 [DBG] 47 bytes read
+no ex
+06:04:45.396 [DBG] Sent 61 bytes
+no ex
+06:04:45.517 [DBG] 173 bytes read
+no ex
+06:04:45.517 [DBG] 47 bytes read
+no ex
+06:04:45.533 [DBG] Sent 61 bytes
+no ex
+06:04:45.534 [DBG] Sent 61 bytes
+no ex
+06:04:45.534 [DBG] Sent 61 bytes
+no ex
+06:04:45.558 [INF] Time queue 25 > frame time 16, processed 4, remain 1
+06:04:45.559 [INF] Server full speed, frame 7322527, total 25, task 25, engine 0, bot 0, network 0, push 0, avg fps 56.179775
+06:04:45.559 [DBG] Sent 41 bytes
+no ex
+06:04:45.559 [DBG] Sent 61 bytes
+no ex
+06:04:45.809 [DBG] 31 bytes read
+no ex
+06:04:45.809 [DBG] Sent 30 bytes
+no ex
+06:04:48.805 [DBG] 31 bytes read
+no ex
+06:04:48.805 [DBG] Sent 30 bytes
+no ex
+06:04:49.528 [DBG] Sent 184 bytes
+no ex
+06:04:49.970 [DBG] 58 bytes read
+no ex
+06:04:49.975 [DBG] Sent 71 bytes
+no ex
+06:04:51.807 [DBG] 31 bytes read
+no ex
+06:04:51.807 [DBG] Sent 30 bytes
+no ex
+06:04:52.605 [DBG] 58 bytes read
+no ex
+06:04:52.618 [DBG] Sent 330 bytes
+no ex
+06:04:54.534 [DBG] Sent 184 bytes
+no ex
+06:04:54.801 [DBG] 31 bytes read
+no ex
+06:04:54.801 [DBG] Sent 30 bytes
+no ex
+06:04:56.221 [DBG] 58 bytes read
+no ex
+06:04:56.225 [DBG] Sent 71 bytes
+no ex
+06:04:57.801 [DBG] 31 bytes read
+no ex
+06:04:57.801 [DBG] Sent 30 bytes
+no ex
+06:04:58.109 [DBG] 32 bytes read
+no ex
+06:04:58.126 [DBG] Sent 41 bytes
+no ex
+06:04:59.524 [DBG] Sent 184 bytes
+no ex
+06:05:00.809 [DBG] 31 bytes read
+no ex
+06:05:00.809 [DBG] Sent 30 bytes
+no ex
+06:05:03.819 [INF] RunHandleWinLoss: 0
+06:05:03.819 [INF] CalculateResult: 20230114
+06:05:03.819 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+06:05:03.821 [INF] CalculateResult 3: 0
+06:05:03.822 [INF] CalculateResult 3: 0
+06:05:03.829 [DBG] 31 bytes read
+no ex
+06:05:03.829 [DBG] Sent 30 bytes
+no ex
+06:05:04.533 [DBG] Sent 184 bytes
+no ex
+06:05:06.807 [DBG] 31 bytes read
+no ex
+06:05:06.807 [DBG] Sent 30 bytes
+no ex
+06:05:09.523 [DBG] Sent 184 bytes
+no ex
+06:05:09.800 [DBG] 31 bytes read
+no ex
+06:05:09.801 [DBG] Sent 30 bytes
+no ex
+06:05:12.805 [DBG] 31 bytes read
+no ex
+06:05:12.805 [DBG] Sent 30 bytes
+no ex
+06:05:14.535 [DBG] Sent 184 bytes
+no ex
+06:05:15.805 [DBG] 31 bytes read
+no ex
+06:05:15.805 [DBG] Sent 30 bytes
+no ex
+06:05:18.801 [DBG] 31 bytes read
+no ex
+06:05:18.802 [DBG] Sent 30 bytes
+no ex
+06:05:19.531 [DBG] Sent 184 bytes
+no ex
+06:05:21.805 [DBG] 31 bytes read
+no ex
+06:05:21.805 [DBG] Sent 30 bytes
+no ex
+06:05:22.541 [DBG] Sent 73 bytes
+no ex
+06:05:24.539 [DBG] Sent 184 bytes
+no ex
+06:05:24.801 [DBG] 31 bytes read
+no ex
+06:05:24.801 [DBG] Sent 30 bytes
+no ex
+06:05:27.807 [DBG] 31 bytes read
+no ex
+06:05:27.807 [DBG] Sent 30 bytes
+no ex
+06:05:29.532 [DBG] Sent 184 bytes
+no ex
+06:05:30.801 [DBG] 31 bytes read
+no ex
+06:05:30.801 [DBG] Sent 30 bytes
+no ex
+06:05:33.806 [DBG] 31 bytes read
+no ex
+06:05:33.806 [DBG] Sent 30 bytes
+no ex
+06:05:34.540 [DBG] Sent 184 bytes
+no ex
+06:05:37.776 [DBG] 31 bytes read
+no ex
+06:05:37.776 [DBG] Sent 30 bytes
+no ex
+06:05:39.528 [DBG] Sent 184 bytes
+no ex
+06:05:40.773 [DBG] 31 bytes read
+no ex
+06:05:40.773 [DBG] Sent 30 bytes
+no ex
+06:05:43.773 [DBG] 31 bytes read
+no ex
+06:05:43.773 [DBG] Sent 30 bytes
+no ex
+06:05:44.538 [DBG] Sent 184 bytes
+no ex
+06:05:46.772 [DBG] 31 bytes read
+no ex
+06:05:46.773 [DBG] Sent 30 bytes
+no ex
+06:05:48.805 [DBG] 31 bytes read
+no ex
+06:05:48.806 [DBG] Sent 30 bytes
+no ex
+06:05:49.532 [DBG] Sent 184 bytes
+no ex
+06:05:51.802 [DBG] 31 bytes read
+no ex
+06:05:51.802 [DBG] Sent 30 bytes
+no ex
+06:05:54.538 [DBG] Sent 184 bytes
+no ex
+06:05:54.804 [DBG] 31 bytes read
+no ex
+06:05:54.805 [DBG] Sent 30 bytes
+no ex
+06:05:57.806 [DBG] 31 bytes read
+no ex
+06:05:57.806 [DBG] Sent 30 bytes
+no ex
+06:05:59.221 [DBG] 8 bytes read
+no ex
+06:05:59.222 [DBG] Sent 4 bytes
+no ex
+06:09:04.199 [INF] RunScan: 0
+06:09:04.199 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(6:9)","Data":null,"DataObj":null}
+06:10:03.822 [INF] RunHandleWinLoss: 0
+06:10:03.823 [INF] CalculateResult: 20230114
+06:10:03.823 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+06:10:03.826 [INF] CalculateResult 3: 0
+06:10:03.827 [INF] CalculateResult 3: 0
+06:14:04.199 [INF] RunScan: 0
+06:14:04.200 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(6:14)","Data":null,"DataObj":null}
+06:15:03.827 [INF] RunHandleWinLoss: 0
+06:15:03.827 [INF] CalculateResult: 20230114
+06:15:03.827 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+06:15:03.830 [INF] CalculateResult 3: 0
+06:15:03.831 [INF] CalculateResult 3: 0
+06:19:04.200 [INF] RunScan: 0
+06:19:04.200 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(6:19)","Data":null,"DataObj":null}
+06:20:03.831 [INF] RunHandleWinLoss: 0
+06:20:03.831 [INF] CalculateResult: 20230114
+06:20:03.831 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+06:20:03.835 [INF] CalculateResult 3: 0
+06:20:03.836 [INF] CalculateResult 3: 0
+06:24:04.200 [INF] RunScan: 0
+06:24:04.201 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(6:24)","Data":null,"DataObj":null}
+06:25:03.836 [INF] RunHandleWinLoss: 0
+06:25:03.836 [INF] CalculateResult: 20230114
+06:25:03.836 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+06:25:03.839 [INF] CalculateResult 3: 0
+06:25:03.841 [INF] CalculateResult 3: 0
+06:29:04.201 [INF] RunScan: 0
+06:29:04.201 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(6:29)","Data":null,"DataObj":null}
+06:30:03.841 [INF] RunHandleWinLoss: 0
+06:30:03.841 [INF] CalculateResult: 20230114
+06:30:03.841 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+06:30:03.845 [INF] CalculateResult 3: 0
+06:30:03.846 [INF] CalculateResult 3: 0
+06:34:04.201 [INF] RunScan: 0
+06:34:04.202 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(6:34)","Data":null,"DataObj":null}
+06:35:03.846 [INF] RunHandleWinLoss: 0
+06:35:03.846 [INF] CalculateResult: 20230114
+06:35:03.846 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+06:35:03.849 [INF] CalculateResult 3: 0
+06:35:03.849 [INF] CalculateResult 3: 0
+06:39:04.202 [INF] RunScan: 0
+06:39:04.202 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(6:39)","Data":null,"DataObj":null}
+06:40:03.850 [INF] RunHandleWinLoss: 0
+06:40:03.850 [INF] CalculateResult: 20230114
+06:40:03.850 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+06:40:03.854 [INF] CalculateResult 3: 0
+06:40:03.855 [INF] CalculateResult 3: 0
+06:44:04.202 [INF] RunScan: 0
+06:44:04.202 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(6:44)","Data":null,"DataObj":null}
+06:45:03.855 [INF] RunHandleWinLoss: 0
+06:45:03.855 [INF] CalculateResult: 20230114
+06:45:03.855 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+06:45:03.859 [INF] CalculateResult 3: 0
+06:45:03.860 [INF] CalculateResult 3: 0
+06:49:04.202 [INF] RunScan: 0
+06:49:04.203 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(6:49)","Data":null,"DataObj":null}
+06:50:03.860 [INF] RunHandleWinLoss: 0
+06:50:03.860 [INF] CalculateResult: 20230114
+06:50:03.860 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+06:50:03.863 [INF] CalculateResult 3: 0
+06:50:03.864 [INF] CalculateResult 3: 0
+06:54:04.203 [INF] RunScan: 0
+06:54:04.203 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(6:54)","Data":null,"DataObj":null}
+06:55:03.864 [INF] RunHandleWinLoss: 0
+06:55:03.865 [INF] CalculateResult: 20230114
+06:55:03.865 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+06:55:03.869 [INF] CalculateResult 3: 0
+06:55:03.870 [INF] CalculateResult 3: 0
+06:59:04.203 [INF] RunScan: 0
+06:59:04.204 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(6:59)","Data":null,"DataObj":null}
+07:00:03.871 [INF] RunHandleWinLoss: 0
+07:00:03.871 [INF] CalculateResult: 20230114
+07:00:03.871 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+07:00:03.876 [INF] CalculateResult 3: 0
+07:00:03.877 [INF] CalculateResult 3: 0
+07:04:04.204 [INF] RunScan: 0
+07:04:04.204 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(7:4)","Data":null,"DataObj":null}
+07:05:03.877 [INF] RunHandleWinLoss: 0
+07:05:03.877 [INF] CalculateResult: 20230114
+07:05:03.877 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+07:05:03.879 [INF] CalculateResult 3: 0
+07:05:03.880 [INF] CalculateResult 3: 0
+07:09:04.204 [INF] RunScan: 0
+07:09:04.205 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(7:9)","Data":null,"DataObj":null}
+07:10:03.880 [INF] RunHandleWinLoss: 0
+07:10:03.880 [INF] CalculateResult: 20230114
+07:10:03.880 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+07:10:03.884 [INF] CalculateResult 3: 0
+07:10:03.885 [INF] CalculateResult 3: 0
+07:12:59.575 [DBG] Client connected from 198.98.60.167:37912
+no ex
+07:12:59.583 [DBG] 212 bytes read
+no ex
+07:12:59.607 [DBG] Error while reading
+Fleck.WebSocketException: Exception of type 'Fleck.WebSocketException' was thrown.
+   at Fleck.HandlerFactory.BuildHandler(WebSocketHttpRequest request, Action`1 onMessage, Action onClose, Action`1 onBinary, Action`1 onPing, Action`1 onPong) in /var/app/banca/Fleck/HandlerFactory.cs:line 25
+   at Fleck.WebSocketServer.<>c__DisplayClass42_0.<OnClientConnect>b__1(WebSocketHttpRequest r) in /var/app/banca/Fleck/WebSocketServer.cs:line 164
+   at Fleck.WebSocketConnection.CreateHandler(IEnumerable`1 data) in /var/app/banca/Fleck/WebSocketConnection.cs:line 159
+   at Fleck.WebSocketConnection.<>c__DisplayClass61_0.<Read>b__0(Int32 r) in /var/app/banca/Fleck/WebSocketConnection.cs:line 193
+   at Fleck.SocketWrapper.<>c__DisplayClass24_0.<Receive>b__1(Task`1 t) in /var/app/banca/Fleck/SocketWrapper.cs:line 126
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+07:13:00.064 [DBG] Client connected from 198.98.60.167:39858
+no ex
+07:13:00.064 [DBG] 243 bytes read
+no ex
+07:13:20.063 [DBG] 0 bytes read. Closing.
+no ex
+07:14:04.205 [INF] RunScan: 0
+07:14:04.205 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(7:14)","Data":null,"DataObj":null}
+07:15:03.885 [INF] RunHandleWinLoss: 0
+07:15:03.886 [INF] CalculateResult: 20230114
+07:15:03.886 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+07:15:03.889 [INF] CalculateResult 3: 0
+07:15:03.890 [INF] CalculateResult 3: 0
+07:19:04.205 [INF] RunScan: 0
+07:19:04.207 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(7:19)","Data":null,"DataObj":null}
+07:20:03.890 [INF] RunHandleWinLoss: 0
+07:20:03.890 [INF] CalculateResult: 20230114
+07:20:03.890 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+07:20:03.893 [INF] CalculateResult 3: 0
+07:20:03.894 [INF] CalculateResult 3: 0
+07:24:04.207 [INF] RunScan: 0
+07:24:04.207 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(7:24)","Data":null,"DataObj":null}
+07:25:03.894 [INF] RunHandleWinLoss: 0
+07:25:03.894 [INF] CalculateResult: 20230114
+07:25:03.894 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+07:25:03.897 [INF] CalculateResult 3: 0
+07:25:03.898 [INF] CalculateResult 3: 0
+07:29:04.207 [INF] RunScan: 0
+07:29:04.207 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(7:29)","Data":null,"DataObj":null}
+07:30:03.899 [INF] RunHandleWinLoss: 0
+07:30:03.899 [INF] CalculateResult: 20230114
+07:30:03.899 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+07:30:03.901 [INF] CalculateResult 3: 0
+07:30:03.902 [INF] CalculateResult 3: 0
+07:34:04.207 [INF] RunScan: 0
+07:34:04.208 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(7:34)","Data":null,"DataObj":null}
+07:35:03.903 [INF] RunHandleWinLoss: 0
+07:35:03.903 [INF] CalculateResult: 20230114
+07:35:03.903 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+07:35:03.905 [INF] CalculateResult 3: 0
+07:35:03.906 [INF] CalculateResult 3: 0
+07:39:04.208 [INF] RunScan: 0
+07:39:04.208 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(7:39)","Data":null,"DataObj":null}
+07:40:03.906 [INF] RunHandleWinLoss: 0
+07:40:03.906 [INF] CalculateResult: 20230114
+07:40:03.907 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+07:40:03.910 [INF] CalculateResult 3: 0
+07:40:03.911 [INF] CalculateResult 3: 0
+07:44:04.208 [INF] RunScan: 0
+07:44:04.208 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(7:44)","Data":null,"DataObj":null}
+07:45:03.912 [INF] RunHandleWinLoss: 0
+07:45:03.912 [INF] CalculateResult: 20230114
+07:45:03.912 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+07:45:03.914 [INF] CalculateResult 3: 0
+07:45:03.915 [INF] CalculateResult 3: 0
+07:49:04.209 [INF] RunScan: 0
+07:49:04.209 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(7:49)","Data":null,"DataObj":null}
+07:50:03.915 [INF] RunHandleWinLoss: 0
+07:50:03.915 [INF] CalculateResult: 20230114
+07:50:03.915 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+07:50:03.923 [INF] CalculateResult 3: 0
+07:50:03.925 [INF] CalculateResult 3: 0
+07:54:04.209 [INF] RunScan: 0
+07:54:04.209 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(7:54)","Data":null,"DataObj":null}
+07:55:03.926 [INF] RunHandleWinLoss: 0
+07:55:03.926 [INF] CalculateResult: 20230114
+07:55:03.926 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+07:55:03.928 [INF] CalculateResult 3: 0
+07:55:03.929 [INF] CalculateResult 3: 0
+07:59:04.210 [INF] RunScan: 0
+07:59:04.210 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(7:59)","Data":null,"DataObj":null}
+08:00:03.929 [INF] RunHandleWinLoss: 0
+08:00:03.929 [INF] CalculateResult: 20230114
+08:00:03.929 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+08:00:03.931 [INF] CalculateResult 3: 0
+08:00:03.932 [INF] CalculateResult 3: 0
+08:04:04.210 [INF] RunScan: 0
+08:04:04.210 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(8:4)","Data":null,"DataObj":null}
+08:05:03.932 [INF] RunHandleWinLoss: 0
+08:05:03.932 [INF] CalculateResult: 20230114
+08:05:03.932 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+08:05:03.934 [INF] CalculateResult 3: 0
+08:05:03.935 [INF] CalculateResult 3: 0
+08:09:04.211 [INF] RunScan: 0
+08:09:04.211 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(8:9)","Data":null,"DataObj":null}
+08:10:03.935 [INF] RunHandleWinLoss: 0
+08:10:03.935 [INF] CalculateResult: 20230114
+08:10:03.935 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+08:10:03.937 [INF] CalculateResult 3: 0
+08:10:03.938 [INF] CalculateResult 3: 0
+08:14:04.211 [INF] RunScan: 0
+08:14:04.211 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(8:14)","Data":null,"DataObj":null}
+08:15:03.938 [INF] RunHandleWinLoss: 0
+08:15:03.938 [INF] CalculateResult: 20230114
+08:15:03.938 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+08:15:03.942 [INF] CalculateResult 3: 0
+08:15:03.944 [INF] CalculateResult 3: 0
+08:19:04.211 [INF] RunScan: 0
+08:19:04.212 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(8:19)","Data":null,"DataObj":null}
+08:20:03.944 [INF] RunHandleWinLoss: 0
+08:20:03.944 [INF] CalculateResult: 20230114
+08:20:03.944 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+08:20:03.949 [INF] CalculateResult 3: 0
+08:20:03.950 [INF] CalculateResult 3: 0
+08:24:04.212 [INF] RunScan: 0
+08:24:04.212 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(8:24)","Data":null,"DataObj":null}
+08:25:03.950 [INF] RunHandleWinLoss: 0
+08:25:03.950 [INF] CalculateResult: 20230114
+08:25:03.950 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+08:25:03.953 [INF] CalculateResult 3: 0
+08:25:03.954 [INF] CalculateResult 3: 0
+08:29:04.212 [INF] RunScan: 0
+08:29:04.213 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(8:29)","Data":null,"DataObj":null}
+08:30:03.954 [INF] RunHandleWinLoss: 0
+08:30:03.954 [INF] CalculateResult: 20230114
+08:30:03.954 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+08:30:03.956 [INF] CalculateResult 3: 0
+08:30:03.957 [INF] CalculateResult 3: 0
+08:34:04.213 [INF] RunScan: 0
+08:34:04.213 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(8:34)","Data":null,"DataObj":null}
+08:35:03.957 [INF] RunHandleWinLoss: 0
+08:35:03.958 [INF] CalculateResult: 20230114
+08:35:03.958 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+08:35:03.962 [INF] CalculateResult 3: 0
+08:35:03.965 [INF] CalculateResult 3: 0
+08:39:04.213 [INF] RunScan: 0
+08:39:04.213 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(8:39)","Data":null,"DataObj":null}
+08:40:03.965 [INF] RunHandleWinLoss: 0
+08:40:03.965 [INF] CalculateResult: 20230114
+08:40:03.965 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+08:40:03.972 [INF] CalculateResult 3: 0
+08:40:03.973 [INF] CalculateResult 3: 0
+08:44:04.213 [INF] RunScan: 0
+08:44:04.214 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(8:44)","Data":null,"DataObj":null}
+08:45:03.973 [INF] RunHandleWinLoss: 0
+08:45:03.974 [INF] CalculateResult: 20230114
+08:45:03.974 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+08:45:03.976 [INF] CalculateResult 3: 0
+08:45:03.977 [INF] CalculateResult 3: 0
+08:49:04.214 [INF] RunScan: 0
+08:49:04.214 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(8:49)","Data":null,"DataObj":null}
+08:50:03.977 [INF] RunHandleWinLoss: 0
+08:50:03.977 [INF] CalculateResult: 20230114
+08:50:03.977 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+08:50:03.980 [INF] CalculateResult 3: 0
+08:50:03.981 [INF] CalculateResult 3: 0
+08:54:04.214 [INF] RunScan: 0
+08:54:04.215 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(8:54)","Data":null,"DataObj":null}
+08:55:03.982 [INF] RunHandleWinLoss: 0
+08:55:03.982 [INF] CalculateResult: 20230114
+08:55:03.982 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+08:55:03.986 [INF] CalculateResult 3: 0
+08:55:03.988 [INF] CalculateResult 3: 0
+08:59:04.215 [INF] RunScan: 0
+08:59:04.215 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(8:59)","Data":null,"DataObj":null}
+09:00:03.988 [INF] RunHandleWinLoss: 0
+09:00:03.988 [INF] CalculateResult: 20230114
+09:00:03.988 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+09:00:03.991 [INF] CalculateResult 3: 0
+09:00:03.992 [INF] CalculateResult 3: 0
+09:04:04.215 [INF] RunScan: 0
+09:04:04.216 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(9:4)","Data":null,"DataObj":null}
+09:05:03.992 [INF] RunHandleWinLoss: 0
+09:05:03.992 [INF] CalculateResult: 20230114
+09:05:03.992 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+09:05:03.995 [INF] CalculateResult 3: 0
+09:05:03.996 [INF] CalculateResult 3: 0
+09:09:04.216 [INF] RunScan: 0
+09:09:04.216 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(9:9)","Data":null,"DataObj":null}
+09:10:03.997 [INF] RunHandleWinLoss: 0
+09:10:03.997 [INF] CalculateResult: 20230114
+09:10:03.997 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+09:10:04.002 [INF] CalculateResult 3: 0
+09:10:04.008 [INF] CalculateResult 3: 0
+09:14:04.216 [INF] RunScan: 0
+09:14:04.217 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(9:14)","Data":null,"DataObj":null}
+09:15:04.008 [INF] RunHandleWinLoss: 0
+09:15:04.008 [INF] CalculateResult: 20230114
+09:15:04.008 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+09:15:04.012 [INF] CalculateResult 3: 0
+09:15:04.013 [INF] CalculateResult 3: 0
+09:19:04.217 [INF] RunScan: 0
+09:19:04.217 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(9:19)","Data":null,"DataObj":null}
+09:20:04.013 [INF] RunHandleWinLoss: 0
+09:20:04.013 [INF] CalculateResult: 20230114
+09:20:04.013 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+09:20:04.019 [INF] CalculateResult 3: 0
+09:20:04.020 [INF] CalculateResult 3: 0
+09:24:04.217 [INF] RunScan: 0
+09:24:04.219 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(9:24)","Data":null,"DataObj":null}
+09:25:04.020 [INF] RunHandleWinLoss: 0
+09:25:04.020 [INF] CalculateResult: 20230114
+09:25:04.020 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+09:25:04.024 [INF] CalculateResult 3: 0
+09:25:04.025 [INF] CalculateResult 3: 0
+09:29:04.220 [INF] RunScan: 0
+09:29:04.220 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(9:29)","Data":null,"DataObj":null}
+09:30:04.025 [INF] RunHandleWinLoss: 0
+09:30:04.025 [INF] CalculateResult: 20230114
+09:30:04.025 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+09:30:04.027 [INF] CalculateResult 3: 0
+09:30:04.028 [INF] CalculateResult 3: 0
+09:34:04.220 [INF] RunScan: 0
+09:34:04.220 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(9:34)","Data":null,"DataObj":null}
+09:35:04.028 [INF] RunHandleWinLoss: 0
+09:35:04.028 [INF] CalculateResult: 20230114
+09:35:04.028 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+09:35:04.032 [INF] CalculateResult 3: 0
+09:35:04.033 [INF] CalculateResult 3: 0
+09:39:04.220 [INF] RunScan: 0
+09:39:04.221 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(9:39)","Data":null,"DataObj":null}
+09:40:04.033 [INF] RunHandleWinLoss: 0
+09:40:04.033 [INF] CalculateResult: 20230114
+09:40:04.033 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+09:40:04.038 [INF] CalculateResult 3: 0
+09:40:04.039 [INF] CalculateResult 3: 0
+09:43:58.031 [DBG] Client connected from 198.199.112.101:47758
+no ex
+09:43:58.058 [DBG] 27 bytes read
+no ex
+09:44:04.221 [INF] RunScan: 0
+09:44:04.221 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(9:44)","Data":null,"DataObj":null}
+09:44:08.003 [DBG] 0 bytes read. Closing.
+no ex
+09:45:04.039 [INF] RunHandleWinLoss: 0
+09:45:04.039 [INF] CalculateResult: 20230114
+09:45:04.039 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+09:45:04.042 [INF] CalculateResult 3: 0
+09:45:04.043 [INF] CalculateResult 3: 0
+09:49:04.221 [INF] RunScan: 0
+09:49:04.222 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(9:49)","Data":null,"DataObj":null}
+09:50:04.044 [INF] RunHandleWinLoss: 0
+09:50:04.044 [INF] CalculateResult: 20230114
+09:50:04.044 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+09:50:04.049 [INF] CalculateResult 3: 0
+09:50:04.049 [INF] CalculateResult 3: 0
+09:54:04.222 [INF] RunScan: 0
+09:54:04.222 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(9:54)","Data":null,"DataObj":null}
+09:55:04.049 [INF] RunHandleWinLoss: 0
+09:55:04.050 [INF] CalculateResult: 20230114
+09:55:04.050 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+09:55:04.053 [INF] CalculateResult 3: 0
+09:55:04.054 [INF] CalculateResult 3: 0
+09:59:04.223 [INF] RunScan: 0
+09:59:04.223 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(9:59)","Data":null,"DataObj":null}
+10:00:04.054 [INF] RunHandleWinLoss: 0
+10:00:04.054 [INF] CalculateResult: 20230114
+10:00:04.054 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+10:00:04.057 [INF] CalculateResult 3: 0
+10:00:04.058 [INF] CalculateResult 3: 0
+10:04:04.223 [INF] RunScan: 0
+10:04:04.224 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(10:4)","Data":null,"DataObj":null}
+10:05:04.059 [INF] RunHandleWinLoss: 0
+10:05:04.059 [INF] CalculateResult: 20230114
+10:05:04.059 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+10:05:04.063 [INF] CalculateResult 3: 0
+10:05:04.064 [INF] CalculateResult 3: 0
+10:09:04.224 [INF] RunScan: 0
+10:09:04.224 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(10:9)","Data":null,"DataObj":null}
+10:10:04.064 [INF] RunHandleWinLoss: 0
+10:10:04.065 [INF] CalculateResult: 20230114
+10:10:04.065 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+10:10:04.068 [INF] CalculateResult 3: 0
+10:10:04.068 [INF] CalculateResult 3: 0
+10:14:04.225 [INF] RunScan: 0
+10:14:04.225 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(10:14)","Data":null,"DataObj":null}
+10:15:04.068 [INF] RunHandleWinLoss: 0
+10:15:04.069 [INF] CalculateResult: 20230114
+10:15:04.069 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+10:15:04.071 [INF] CalculateResult 3: 0
+10:15:04.072 [INF] CalculateResult 3: 0
+10:19:04.225 [INF] RunScan: 0
+10:19:04.229 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(10:19)","Data":null,"DataObj":null}
+10:20:04.072 [INF] RunHandleWinLoss: 0
+10:20:04.072 [INF] CalculateResult: 20230114
+10:20:04.072 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+10:20:04.077 [INF] CalculateResult 3: 0
+10:20:04.078 [INF] CalculateResult 3: 0
+10:24:04.229 [INF] RunScan: 0
+10:24:04.230 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(10:24)","Data":null,"DataObj":null}
+10:25:04.078 [INF] RunHandleWinLoss: 0
+10:25:04.078 [INF] CalculateResult: 20230114
+10:25:04.078 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+10:25:04.081 [INF] CalculateResult 3: 0
+10:25:04.082 [INF] CalculateResult 3: 0
+10:29:04.230 [INF] RunScan: 0
+10:29:04.230 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(10:29)","Data":null,"DataObj":null}
+10:30:04.082 [INF] RunHandleWinLoss: 0
+10:30:04.082 [INF] CalculateResult: 20230114
+10:30:04.082 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+10:30:04.085 [INF] CalculateResult 3: 0
+10:30:04.085 [INF] CalculateResult 3: 0
+10:34:04.230 [INF] RunScan: 0
+10:34:04.231 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(10:34)","Data":null,"DataObj":null}
+10:35:04.085 [INF] RunHandleWinLoss: 0
+10:35:04.085 [INF] CalculateResult: 20230114
+10:35:04.085 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+10:35:04.089 [INF] CalculateResult 3: 0
+10:35:04.090 [INF] CalculateResult 3: 0
+10:39:04.231 [INF] RunScan: 0
+10:39:04.232 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(10:39)","Data":null,"DataObj":null}
+10:40:04.090 [INF] RunHandleWinLoss: 0
+10:40:04.090 [INF] CalculateResult: 20230114
+10:40:04.090 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+10:40:04.094 [INF] CalculateResult 3: 0
+10:40:04.095 [INF] CalculateResult 3: 0
+10:44:04.232 [INF] RunScan: 0
+10:44:04.233 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(10:44)","Data":null,"DataObj":null}
+10:45:04.095 [INF] RunHandleWinLoss: 0
+10:45:04.095 [INF] CalculateResult: 20230114
+10:45:04.095 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+10:45:04.098 [INF] CalculateResult 3: 0
+10:45:04.099 [INF] CalculateResult 3: 0
+10:49:04.233 [INF] RunScan: 0
+10:49:04.234 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(10:49)","Data":null,"DataObj":null}
+10:49:10.897 [DBG] Client connected from 104.152.52.101:48121
+no ex
+10:49:12.873 [DBG] 372 bytes read
+no ex
+10:49:23.087 [DBG] 372 bytes read
+no ex
+10:49:33.300 [DBG] 372 bytes read
+no ex
+10:50:04.100 [INF] RunHandleWinLoss: 0
+10:50:04.100 [INF] CalculateResult: 20230114
+10:50:04.100 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+10:50:04.105 [INF] CalculateResult 3: 0
+10:50:04.106 [INF] CalculateResult 3: 0
+10:54:04.234 [INF] RunScan: 0
+10:54:04.235 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(10:54)","Data":null,"DataObj":null}
+10:55:04.106 [INF] RunHandleWinLoss: 0
+10:55:04.106 [INF] CalculateResult: 20230114
+10:55:04.106 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+10:55:04.110 [INF] CalculateResult 3: 0
+10:55:04.112 [INF] CalculateResult 3: 0
+10:59:04.235 [INF] RunScan: 0
+10:59:04.236 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(10:59)","Data":null,"DataObj":null}
+11:00:04.112 [INF] RunHandleWinLoss: 0
+11:00:04.112 [INF] CalculateResult: 20230114
+11:00:04.112 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+11:00:04.118 [INF] CalculateResult 3: 0
+11:00:04.119 [INF] CalculateResult 3: 0
+11:04:04.236 [INF] RunScan: 0
+11:04:04.237 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(11:4)","Data":null,"DataObj":null}
+11:05:04.119 [INF] RunHandleWinLoss: 0
+11:05:04.119 [INF] CalculateResult: 20230114
+11:05:04.119 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+11:05:04.127 [INF] CalculateResult 3: 0
+11:05:04.129 [INF] CalculateResult 3: 0
+11:09:04.237 [INF] RunScan: 0
+11:09:04.237 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(11:9)","Data":null,"DataObj":null}
+11:10:04.129 [INF] RunHandleWinLoss: 0
+11:10:04.130 [INF] CalculateResult: 20230114
+11:10:04.130 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+11:10:04.136 [INF] CalculateResult 3: 0
+11:10:04.137 [INF] CalculateResult 3: 0
+11:14:04.237 [INF] RunScan: 0
+11:14:04.238 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(11:14)","Data":null,"DataObj":null}
+11:15:04.137 [INF] RunHandleWinLoss: 0
+11:15:04.138 [INF] CalculateResult: 20230114
+11:15:04.138 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+11:15:04.143 [INF] CalculateResult 3: 0
+11:15:04.144 [INF] CalculateResult 3: 0
+11:19:04.238 [INF] RunScan: 0
+11:19:04.239 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(11:19)","Data":null,"DataObj":null}
+11:20:04.144 [INF] RunHandleWinLoss: 0
+11:20:04.145 [INF] CalculateResult: 20230114
+11:20:04.145 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+11:20:04.150 [INF] CalculateResult 3: 0
+11:20:04.151 [INF] CalculateResult 3: 0
+11:24:04.239 [INF] RunScan: 0
+11:24:04.240 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(11:24)","Data":null,"DataObj":null}
+11:25:04.151 [INF] RunHandleWinLoss: 0
+11:25:04.152 [INF] CalculateResult: 20230114
+11:25:04.152 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+11:25:04.156 [INF] CalculateResult 3: 0
+11:25:04.157 [INF] CalculateResult 3: 0
+11:29:04.240 [INF] RunScan: 0
+11:29:04.241 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(11:29)","Data":null,"DataObj":null}
+11:30:04.157 [INF] RunHandleWinLoss: 0
+11:30:04.157 [INF] CalculateResult: 20230114
+11:30:04.157 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+11:30:04.162 [INF] CalculateResult 3: 0
+11:30:04.163 [INF] CalculateResult 3: 0
+11:34:04.241 [INF] RunScan: 0
+11:34:04.242 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(11:34)","Data":null,"DataObj":null}
+11:35:04.163 [INF] RunHandleWinLoss: 0
+11:35:04.164 [INF] CalculateResult: 20230114
+11:35:04.164 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+11:35:04.169 [INF] CalculateResult 3: 0
+11:35:04.170 [INF] CalculateResult 3: 0
+11:39:04.242 [INF] RunScan: 0
+11:39:04.242 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(11:39)","Data":null,"DataObj":null}
+11:40:04.170 [INF] RunHandleWinLoss: 0
+11:40:04.170 [INF] CalculateResult: 20230114
+11:40:04.170 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+11:40:04.175 [INF] CalculateResult 3: 0
+11:40:04.175 [INF] CalculateResult 3: 0
+11:44:04.243 [INF] RunScan: 0
+11:44:04.243 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(11:44)","Data":null,"DataObj":null}
+11:45:04.175 [INF] RunHandleWinLoss: 0
+11:45:04.176 [INF] CalculateResult: 20230114
+11:45:04.176 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+11:45:04.184 [INF] CalculateResult 3: 0
+11:45:04.185 [INF] CalculateResult 3: 0
+11:49:04.244 [INF] RunScan: 0
+11:49:04.249 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(11:49)","Data":null,"DataObj":null}
+11:50:04.185 [INF] RunHandleWinLoss: 0
+11:50:04.185 [INF] CalculateResult: 20230114
+11:50:04.185 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+11:50:04.191 [INF] CalculateResult 3: 0
+11:50:04.193 [INF] CalculateResult 3: 0
+11:54:04.249 [INF] RunScan: 0
+11:54:04.250 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(11:54)","Data":null,"DataObj":null}
+11:55:04.193 [INF] RunHandleWinLoss: 0
+11:55:04.193 [INF] CalculateResult: 20230114
+11:55:04.193 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+11:55:04.203 [INF] CalculateResult 3: 0
+11:55:04.204 [INF] CalculateResult 3: 0
+11:59:04.250 [INF] RunScan: 0
+11:59:04.251 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(11:59)","Data":null,"DataObj":null}
+12:00:04.204 [INF] RunHandleWinLoss: 0
+12:00:04.205 [INF] CalculateResult: 20230114
+12:00:04.205 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+12:00:04.211 [INF] CalculateResult 3: 0
+12:00:04.212 [INF] CalculateResult 3: 0
+12:04:04.251 [INF] RunScan: 0
+12:04:04.252 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(12:4)","Data":null,"DataObj":null}
+12:05:04.212 [INF] RunHandleWinLoss: 0
+12:05:04.213 [INF] CalculateResult: 20230114
+12:05:04.213 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+12:05:04.221 [INF] CalculateResult 3: 0
+12:05:04.222 [INF] CalculateResult 3: 0
+12:09:04.253 [INF] RunScan: 0
+12:09:04.253 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(12:9)","Data":null,"DataObj":null}
+12:10:04.222 [INF] RunHandleWinLoss: 0
+12:10:04.223 [INF] CalculateResult: 20230114
+12:10:04.223 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+12:10:04.230 [INF] CalculateResult 3: 0
+12:10:04.232 [INF] CalculateResult 3: 0
+12:14:04.254 [INF] RunScan: 0
+12:14:04.255 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(12:14)","Data":null,"DataObj":null}
+12:15:04.232 [INF] RunHandleWinLoss: 0
+12:15:04.232 [INF] CalculateResult: 20230114
+12:15:04.232 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+12:15:04.239 [INF] CalculateResult 3: 0
+12:15:04.240 [INF] CalculateResult 3: 0
+12:19:04.255 [INF] RunScan: 0
+12:19:04.255 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(12:19)","Data":null,"DataObj":null}
+12:20:04.240 [INF] RunHandleWinLoss: 0
+12:20:04.240 [INF] CalculateResult: 20230114
+12:20:04.240 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+12:20:04.246 [INF] CalculateResult 3: 0
+12:20:04.247 [INF] CalculateResult 3: 0
+12:24:04.255 [INF] RunScan: 0
+12:24:04.256 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(12:24)","Data":null,"DataObj":null}
+12:25:04.247 [INF] RunHandleWinLoss: 0
+12:25:04.247 [INF] CalculateResult: 20230114
+12:25:04.247 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+12:25:04.257 [INF] CalculateResult 3: 0
+12:25:04.258 [INF] CalculateResult 3: 0
+12:29:04.256 [INF] RunScan: 0
+12:29:04.257 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(12:29)","Data":null,"DataObj":null}
+12:30:04.258 [INF] RunHandleWinLoss: 0
+12:30:04.258 [INF] CalculateResult: 20230114
+12:30:04.258 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+12:30:04.263 [INF] CalculateResult 3: 0
+12:30:04.265 [INF] CalculateResult 3: 0
+12:34:04.257 [INF] RunScan: 0
+12:34:04.258 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(12:34)","Data":null,"DataObj":null}
+12:35:04.265 [INF] RunHandleWinLoss: 0
+12:35:04.265 [INF] CalculateResult: 20230114
+12:35:04.265 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+12:35:04.269 [INF] CalculateResult 3: 0
+12:35:04.270 [INF] CalculateResult 3: 0
+12:39:04.258 [INF] RunScan: 0
+12:39:04.259 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(12:39)","Data":null,"DataObj":null}
+12:40:04.270 [INF] RunHandleWinLoss: 0
+12:40:04.270 [INF] CalculateResult: 20230114
+12:40:04.270 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+12:40:04.278 [INF] CalculateResult 3: 0
+12:40:04.279 [INF] CalculateResult 3: 0
+12:44:04.259 [INF] RunScan: 0
+12:44:04.260 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(12:44)","Data":null,"DataObj":null}
+12:44:40.306 [DBG] Client connected from 184.105.247.194:15612
+no ex
+12:44:40.711 [DBG] 128 bytes read
+no ex
+12:44:42.117 [DBG] 0 bytes read. Closing.
+no ex
+12:45:04.279 [INF] RunHandleWinLoss: 0
+12:45:04.279 [INF] CalculateResult: 20230114
+12:45:04.279 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+12:45:04.284 [INF] CalculateResult 3: 0
+12:45:04.284 [INF] CalculateResult 3: 0
+12:49:04.260 [INF] RunScan: 0
+12:49:04.260 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(12:49)","Data":null,"DataObj":null}
+12:50:04.285 [INF] RunHandleWinLoss: 0
+12:50:04.285 [INF] CalculateResult: 20230114
+12:50:04.285 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+12:50:04.288 [INF] CalculateResult 3: 0
+12:50:04.289 [INF] CalculateResult 3: 0
+12:54:04.260 [INF] RunScan: 0
+12:54:04.261 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(12:54)","Data":null,"DataObj":null}
+12:55:04.289 [INF] RunHandleWinLoss: 0
+12:55:04.290 [INF] CalculateResult: 20230114
+12:55:04.290 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+12:55:04.293 [INF] CalculateResult 3: 0
+12:55:04.294 [INF] CalculateResult 3: 0
+12:59:04.261 [INF] RunScan: 0
+12:59:04.261 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(12:59)","Data":null,"DataObj":null}
+13:00:04.294 [INF] RunHandleWinLoss: 0
+13:00:04.294 [INF] CalculateResult: 20230114
+13:00:04.294 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+13:00:04.300 [INF] CalculateResult 3: 0
+13:00:04.301 [INF] CalculateResult 3: 0
+13:04:04.261 [INF] RunScan: 0
+13:04:04.262 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(13:4)","Data":null,"DataObj":null}
+13:05:04.302 [INF] RunHandleWinLoss: 0
+13:05:04.302 [INF] CalculateResult: 20230114
+13:05:04.302 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+13:05:04.306 [INF] CalculateResult 3: 0
+13:05:04.306 [INF] CalculateResult 3: 0
+13:09:04.263 [INF] RunScan: 0
+13:09:04.263 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(13:9)","Data":null,"DataObj":null}
+13:10:04.306 [INF] RunHandleWinLoss: 0
+13:10:04.307 [INF] CalculateResult: 20230114
+13:10:04.307 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+13:10:04.309 [INF] CalculateResult 3: 0
+13:10:04.310 [INF] CalculateResult 3: 0
+13:14:04.263 [INF] RunScan: 0
+13:14:04.264 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(13:14)","Data":null,"DataObj":null}
+13:15:04.310 [INF] RunHandleWinLoss: 0
+13:15:04.310 [INF] CalculateResult: 20230114
+13:15:04.310 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+13:15:04.313 [INF] CalculateResult 3: 0
+13:15:04.314 [INF] CalculateResult 3: 0
+13:19:04.264 [INF] RunScan: 0
+13:19:04.265 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(13:19)","Data":null,"DataObj":null}
+13:20:04.315 [INF] RunHandleWinLoss: 0
+13:20:04.315 [INF] CalculateResult: 20230114
+13:20:04.315 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+13:20:04.320 [INF] CalculateResult 3: 0
+13:20:04.320 [INF] CalculateResult 3: 0
+13:24:04.265 [INF] RunScan: 0
+13:24:04.266 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(13:24)","Data":null,"DataObj":null}
+13:25:04.321 [INF] RunHandleWinLoss: 0
+13:25:04.321 [INF] CalculateResult: 20230114
+13:25:04.321 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+13:25:04.328 [INF] CalculateResult 3: 0
+13:25:04.329 [INF] CalculateResult 3: 0
+13:29:04.266 [INF] RunScan: 0
+13:29:04.267 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(13:29)","Data":null,"DataObj":null}
+13:30:04.330 [INF] RunHandleWinLoss: 0
+13:30:04.330 [INF] CalculateResult: 20230114
+13:30:04.330 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+13:30:04.337 [INF] CalculateResult 3: 0
+13:30:04.338 [INF] CalculateResult 3: 0
+13:34:04.267 [INF] RunScan: 0
+13:34:04.268 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(13:34)","Data":null,"DataObj":null}
+13:35:04.338 [INF] RunHandleWinLoss: 0
+13:35:04.338 [INF] CalculateResult: 20230114
+13:35:04.338 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+13:35:04.344 [INF] CalculateResult 3: 0
+13:35:04.345 [INF] CalculateResult 3: 0
+13:39:04.268 [INF] RunScan: 0
+13:39:04.268 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(13:39)","Data":null,"DataObj":null}
+13:40:04.345 [INF] RunHandleWinLoss: 0
+13:40:04.345 [INF] CalculateResult: 20230114
+13:40:04.345 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+13:40:04.355 [INF] CalculateResult 3: 0
+13:40:04.357 [INF] CalculateResult 3: 0
+13:44:04.268 [INF] RunScan: 0
+13:44:04.269 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(13:44)","Data":null,"DataObj":null}
+13:45:04.358 [INF] RunHandleWinLoss: 0
+13:45:04.358 [INF] CalculateResult: 20230114
+13:45:04.358 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+13:45:04.364 [INF] CalculateResult 3: 0
+13:45:04.366 [INF] CalculateResult 3: 0
+13:49:04.269 [INF] RunScan: 0
+13:49:04.270 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(13:49)","Data":null,"DataObj":null}
+13:50:04.366 [INF] RunHandleWinLoss: 0
+13:50:04.367 [INF] CalculateResult: 20230114
+13:50:04.367 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+13:50:04.375 [INF] CalculateResult 3: 0
+13:50:04.377 [INF] CalculateResult 3: 0
+13:54:04.270 [INF] RunScan: 0
+13:54:04.271 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(13:54)","Data":null,"DataObj":null}
+13:55:04.377 [INF] RunHandleWinLoss: 0
+13:55:04.377 [INF] CalculateResult: 20230114
+13:55:04.377 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+13:55:04.382 [INF] CalculateResult 3: 0
+13:55:04.383 [INF] CalculateResult 3: 0
+13:59:04.271 [INF] RunScan: 0
+13:59:04.272 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(13:59)","Data":null,"DataObj":null}
+14:00:04.383 [INF] RunHandleWinLoss: 0
+14:00:04.383 [INF] CalculateResult: 20230114
+14:00:04.383 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+14:00:04.387 [INF] CalculateResult 3: 0
+14:00:04.388 [INF] CalculateResult 3: 0
+14:04:04.272 [INF] RunScan: 0
+14:04:04.274 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(14:4)","Data":null,"DataObj":null}
+14:05:04.388 [INF] RunHandleWinLoss: 0
+14:05:04.389 [INF] CalculateResult: 20230114
+14:05:04.389 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+14:05:04.391 [INF] CalculateResult 3: 0
+14:05:04.391 [INF] CalculateResult 3: 0
+14:09:04.274 [INF] RunScan: 0
+14:09:04.275 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(14:9)","Data":null,"DataObj":null}
+14:10:04.391 [INF] RunHandleWinLoss: 0
+14:10:04.391 [INF] CalculateResult: 20230114
+14:10:04.391 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+14:10:04.395 [INF] CalculateResult 3: 0
+14:10:04.396 [INF] CalculateResult 3: 0
+14:14:04.275 [INF] RunScan: 0
+14:14:04.276 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(14:14)","Data":null,"DataObj":null}
+14:15:04.396 [INF] RunHandleWinLoss: 0
+14:15:04.396 [INF] CalculateResult: 20230114
+14:15:04.396 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+14:15:04.401 [INF] CalculateResult 3: 0
+14:15:04.402 [INF] CalculateResult 3: 0
+14:19:04.276 [INF] RunScan: 0
+14:19:04.277 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(14:19)","Data":null,"DataObj":null}
+14:20:04.402 [INF] RunHandleWinLoss: 0
+14:20:04.402 [INF] CalculateResult: 20230114
+14:20:04.403 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+14:20:04.411 [INF] CalculateResult 3: 0
+14:20:04.413 [INF] CalculateResult 3: 0
+14:24:04.277 [INF] RunScan: 0
+14:24:04.277 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(14:24)","Data":null,"DataObj":null}
+14:25:04.413 [INF] RunHandleWinLoss: 0
+14:25:04.413 [INF] CalculateResult: 20230114
+14:25:04.413 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+14:25:04.423 [INF] CalculateResult 3: 0
+14:25:04.424 [INF] CalculateResult 3: 0
+14:29:04.278 [INF] RunScan: 0
+14:29:04.278 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(14:29)","Data":null,"DataObj":null}
+14:30:04.424 [INF] RunHandleWinLoss: 0
+14:30:04.424 [INF] CalculateResult: 20230114
+14:30:04.424 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+14:30:04.431 [INF] CalculateResult 3: 0
+14:30:04.432 [INF] CalculateResult 3: 0
+14:34:04.278 [INF] RunScan: 0
+14:34:04.278 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(14:34)","Data":null,"DataObj":null}
+14:35:04.433 [INF] RunHandleWinLoss: 0
+14:35:04.433 [INF] CalculateResult: 20230114
+14:35:04.433 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+14:35:04.438 [INF] CalculateResult 3: 0
+14:35:04.438 [INF] CalculateResult 3: 0
+14:39:04.279 [INF] RunScan: 0
+14:39:04.279 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(14:39)","Data":null,"DataObj":null}
+14:40:04.438 [INF] RunHandleWinLoss: 0
+14:40:04.439 [INF] CalculateResult: 20230114
+14:40:04.439 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+14:40:04.445 [INF] CalculateResult 3: 0
+14:40:04.446 [INF] CalculateResult 3: 0
+14:44:04.279 [INF] RunScan: 0
+14:44:04.280 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(14:44)","Data":null,"DataObj":null}
+14:45:04.446 [INF] RunHandleWinLoss: 0
+14:45:04.446 [INF] CalculateResult: 20230114
+14:45:04.446 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+14:45:04.454 [INF] CalculateResult 3: 0
+14:45:04.456 [INF] CalculateResult 3: 0
+14:49:04.280 [INF] RunScan: 0
+14:49:04.281 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(14:49)","Data":null,"DataObj":null}
+14:50:04.456 [INF] RunHandleWinLoss: 0
+14:50:04.457 [INF] CalculateResult: 20230114
+14:50:04.457 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+14:50:04.461 [INF] CalculateResult 3: 0
+14:50:04.462 [INF] CalculateResult 3: 0
+14:54:04.281 [INF] RunScan: 0
+14:54:04.281 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(14:54)","Data":null,"DataObj":null}
+14:55:04.462 [INF] RunHandleWinLoss: 0
+14:55:04.462 [INF] CalculateResult: 20230114
+14:55:04.462 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+14:55:04.469 [INF] CalculateResult 3: 0
+14:55:04.470 [INF] CalculateResult 3: 0
+14:59:04.282 [INF] RunScan: 0
+14:59:04.282 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(14:59)","Data":null,"DataObj":null}
+15:00:04.470 [INF] RunHandleWinLoss: 0
+15:00:04.471 [INF] CalculateResult: 20230114
+15:00:04.471 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+15:00:04.475 [INF] CalculateResult 3: 0
+15:00:04.475 [INF] CalculateResult 3: 0
+15:04:04.282 [INF] RunScan: 0
+15:04:04.285 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(15:4)","Data":null,"DataObj":null}
+15:05:04.476 [INF] RunHandleWinLoss: 0
+15:05:04.476 [INF] CalculateResult: 20230114
+15:05:04.476 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+15:05:04.486 [INF] CalculateResult 3: 0
+15:05:04.487 [INF] CalculateResult 3: 0
+15:09:04.285 [INF] RunScan: 0
+15:09:04.285 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(15:9)","Data":null,"DataObj":null}
+15:10:04.487 [INF] RunHandleWinLoss: 0
+15:10:04.487 [INF] CalculateResult: 20230114
+15:10:04.487 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+15:10:04.495 [INF] CalculateResult 3: 0
+15:10:04.496 [INF] CalculateResult 3: 0
+15:14:04.286 [INF] RunScan: 0
+15:14:04.286 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(15:14)","Data":null,"DataObj":null}
+15:15:04.496 [INF] RunHandleWinLoss: 0
+15:15:04.496 [INF] CalculateResult: 20230114
+15:15:04.496 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+15:15:04.502 [INF] CalculateResult 3: 0
+15:15:04.504 [INF] CalculateResult 3: 0
+15:19:04.286 [INF] RunScan: 0
+15:19:04.287 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(15:19)","Data":null,"DataObj":null}
+15:20:04.504 [INF] RunHandleWinLoss: 0
+15:20:04.504 [INF] CalculateResult: 20230114
+15:20:04.504 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+15:20:04.511 [INF] CalculateResult 3: 0
+15:20:04.512 [INF] CalculateResult 3: 0
+15:24:04.287 [INF] RunScan: 0
+15:24:04.288 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(15:24)","Data":null,"DataObj":null}
+15:25:04.513 [INF] RunHandleWinLoss: 0
+15:25:04.513 [INF] CalculateResult: 20230114
+15:25:04.513 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+15:25:04.519 [INF] CalculateResult 3: 0
+15:25:04.520 [INF] CalculateResult 3: 0
+15:29:04.288 [INF] RunScan: 0
+15:29:04.288 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(15:29)","Data":null,"DataObj":null}
+15:30:04.520 [INF] RunHandleWinLoss: 0
+15:30:04.520 [INF] CalculateResult: 20230114
+15:30:04.520 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+15:30:04.525 [INF] CalculateResult 3: 0
+15:30:04.526 [INF] CalculateResult 3: 0
+15:34:04.289 [INF] RunScan: 0
+15:34:04.290 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(15:34)","Data":null,"DataObj":null}
+15:35:04.526 [INF] RunHandleWinLoss: 0
+15:35:04.526 [INF] CalculateResult: 20230114
+15:35:04.526 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+15:35:04.534 [INF] CalculateResult 3: 0
+15:35:04.536 [INF] CalculateResult 3: 0
+15:39:04.290 [INF] RunScan: 0
+15:39:04.290 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(15:39)","Data":null,"DataObj":null}
+15:40:04.536 [INF] RunHandleWinLoss: 0
+15:40:04.536 [INF] CalculateResult: 20230114
+15:40:04.536 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+15:40:04.547 [INF] CalculateResult 3: 0
+15:40:04.548 [INF] CalculateResult 3: 0
+15:44:04.290 [INF] RunScan: 0
+15:44:04.291 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(15:44)","Data":null,"DataObj":null}
+15:45:04.549 [INF] RunHandleWinLoss: 0
+15:45:04.549 [INF] CalculateResult: 20230114
+15:45:04.549 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+15:45:04.555 [INF] CalculateResult 3: 0
+15:45:04.556 [INF] CalculateResult 3: 0
+15:49:04.291 [INF] RunScan: 0
+15:49:04.299 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(15:49)","Data":null,"DataObj":null}
+15:50:04.556 [INF] RunHandleWinLoss: 0
+15:50:04.556 [INF] CalculateResult: 20230114
+15:50:04.556 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+15:50:04.567 [INF] CalculateResult 3: 0
+15:50:04.568 [INF] CalculateResult 3: 0
+15:54:04.299 [INF] RunScan: 0
+15:54:04.300 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(15:54)","Data":null,"DataObj":null}
+15:55:04.569 [INF] RunHandleWinLoss: 0
+15:55:04.569 [INF] CalculateResult: 20230114
+15:55:04.569 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+15:55:04.577 [INF] CalculateResult 3: 0
+15:55:04.578 [INF] CalculateResult 3: 0
+15:59:04.300 [INF] RunScan: 0
+15:59:04.301 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(15:59)","Data":null,"DataObj":null}
+16:00:04.578 [INF] RunHandleWinLoss: 0
+16:00:04.578 [INF] CalculateResult: 20230114
+16:00:04.578 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+16:00:04.589 [INF] CalculateResult 3: 0
+16:00:04.590 [INF] CalculateResult 3: 0
+16:04:04.301 [INF] RunScan: 0
+16:04:04.304 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(16:4)","Data":null,"DataObj":null}
+16:05:04.590 [INF] RunHandleWinLoss: 0
+16:05:04.590 [INF] CalculateResult: 20230114
+16:05:04.590 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+16:05:04.597 [INF] CalculateResult 3: 0
+16:05:04.598 [INF] CalculateResult 3: 0
+16:09:04.304 [INF] RunScan: 0
+16:09:04.307 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(16:9)","Data":null,"DataObj":null}
+16:10:04.598 [INF] RunHandleWinLoss: 0
+16:10:04.599 [INF] CalculateResult: 20230114
+16:10:04.599 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+16:10:04.606 [INF] CalculateResult 3: 0
+16:10:04.607 [INF] CalculateResult 3: 0
+16:14:04.307 [INF] RunScan: 0
+16:14:04.312 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(16:14)","Data":null,"DataObj":null}
+16:15:04.607 [INF] RunHandleWinLoss: 0
+16:15:04.607 [INF] CalculateResult: 20230114
+16:15:04.607 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+16:15:04.617 [INF] CalculateResult 3: 0
+16:15:04.619 [INF] CalculateResult 3: 0
+16:19:04.312 [INF] RunScan: 0
+16:19:04.315 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(16:19)","Data":null,"DataObj":null}
+16:20:04.619 [INF] RunHandleWinLoss: 0
+16:20:04.619 [INF] CalculateResult: 20230114
+16:20:04.619 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+16:20:04.628 [INF] CalculateResult 3: 0
+16:20:04.629 [INF] CalculateResult 3: 0
+16:22:21.477 [DBG] Client connected from 167.94.138.45:59054
+no ex
+16:22:22.546 [DBG] Error while reading
+System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+16:22:22.701 [DBG] Client connected from 167.94.138.45:40180
+no ex
+16:22:22.729 [DBG] 243 bytes read
+no ex
+16:22:25.730 [DBG] Error while reading
+System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+16:22:25.936 [DBG] Client connected from 167.94.138.45:36284
+no ex
+16:22:26.937 [DBG] 45 bytes read
+no ex
+16:22:26.954 [DBG] Error while reading
+Fleck.WebSocketException: Exception of type 'Fleck.WebSocketException' was thrown.
+   at Fleck.HandlerFactory.BuildHandler(WebSocketHttpRequest request, Action`1 onMessage, Action onClose, Action`1 onBinary, Action`1 onPing, Action`1 onPong) in /var/app/banca/Fleck/HandlerFactory.cs:line 25
+   at Fleck.WebSocketServer.<>c__DisplayClass42_0.<OnClientConnect>b__1(WebSocketHttpRequest r) in /var/app/banca/Fleck/WebSocketServer.cs:line 164
+   at Fleck.WebSocketConnection.CreateHandler(IEnumerable`1 data) in /var/app/banca/Fleck/WebSocketConnection.cs:line 159
+   at Fleck.WebSocketConnection.<>c__DisplayClass61_0.<Read>b__0(Int32 r) in /var/app/banca/Fleck/WebSocketConnection.cs:line 193
+   at Fleck.SocketWrapper.<>c__DisplayClass24_0.<Receive>b__1(Task`1 t) in /var/app/banca/Fleck/SocketWrapper.cs:line 126
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+16:22:27.382 [DBG] Client connected from 167.94.138.45:49090
+no ex
+16:22:27.383 [DBG] Error while reading
+System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+16:24:04.315 [INF] RunScan: 0
+16:24:04.318 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(16:24)","Data":null,"DataObj":null}
+16:25:04.629 [INF] RunHandleWinLoss: 0
+16:25:04.629 [INF] CalculateResult: 20230114
+16:25:04.629 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+16:25:04.636 [INF] CalculateResult 3: 0
+16:25:04.638 [INF] CalculateResult 3: 0
+16:29:04.318 [INF] RunScan: 0
+16:29:04.324 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(16:29)","Data":null,"DataObj":null}
+16:30:04.638 [INF] RunHandleWinLoss: 0
+16:30:04.638 [INF] CalculateResult: 20230114
+16:30:04.638 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+16:30:04.647 [INF] CalculateResult 3: 0
+16:30:04.648 [INF] CalculateResult 3: 0
+16:34:04.324 [INF] RunScan: 0
+16:34:04.326 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(16:34)","Data":null,"DataObj":null}
+16:35:04.648 [INF] RunHandleWinLoss: 0
+16:35:04.649 [INF] CalculateResult: 20230114
+16:35:04.649 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+16:35:04.656 [INF] CalculateResult 3: 0
+16:35:04.657 [INF] CalculateResult 3: 0
+16:35:20.102 [DBG] Client connected from 127.0.0.1:56610
+no ex
+16:35:20.103 [DBG] 918 bytes read
+no ex
+16:35:20.119 [DBG] Building Hybi-14 Response
+no ex
+16:35:20.149 [DBG] Sent 129 bytes
+no ex
+16:35:20.934 [DBG] 31 bytes read
+no ex
+16:35:20.939 [DBG] 110 bytes read
+no ex
+16:35:20.940 [DBG] Sent 30 bytes
+no ex
+16:35:20.942 [INF] GET: http://127.0.0.1:8081/api?c=3&un=huy1411&pw=cc0d45bc2f499fc4666d09691485a0f9&pf=web&at=
+16:35:21.059 [INF] GET response: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Imh1eTE0MTExIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjoyOTQzNTE2OCwieHVUb3RhbCI6NTAwMDAwLCJ2aXBwb2ludCI6MCwidmlwcG9pbnRTYXZlIjowLCJjcmVhdGVUaW1lIjoiMTItMDEtMjAyMyIsImlwQWRkcmVzcyI6IjEyNy4wLjAuMSIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6Imh1eTE0MTEiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjpmYWxzZX0=","accessToken":"74409ee99fde07b6171e39f074b8942c"}
+
+16:35:21.136 [DBG] Sent 5736 bytes
+no ex
+16:35:22.842 [DBG] 32 bytes read
+no ex
+16:35:22.872 [DBG] Sent 41 bytes
+no ex
+16:35:23.834 [DBG] Sent 184 bytes
+no ex
+16:35:23.934 [DBG] 31 bytes read
+no ex
+16:35:23.935 [DBG] Sent 30 bytes
+no ex
+16:35:24.956 [DBG] 58 bytes read
+no ex
+16:35:24.965 [DBG] Sent 71 bytes
+no ex
+16:35:26.937 [DBG] 31 bytes read
+no ex
+16:35:26.937 [DBG] Sent 30 bytes
+no ex
+16:35:27.054 [DBG] 58 bytes read
+no ex
+16:35:27.066 [DBG] Sent 71 bytes
+no ex
+16:35:28.829 [DBG] Sent 184 bytes
+no ex
+16:35:29.956 [DBG] 31 bytes read
+no ex
+16:35:29.956 [DBG] Sent 30 bytes
+no ex
+16:35:32.965 [DBG] 31 bytes read
+no ex
+16:35:32.965 [DBG] Sent 30 bytes
+no ex
+16:35:33.828 [DBG] Sent 184 bytes
+no ex
+16:35:35.990 [DBG] 31 bytes read
+no ex
+16:35:35.990 [DBG] Sent 30 bytes
+no ex
+16:35:38.843 [DBG] Sent 184 bytes
+no ex
+16:35:38.951 [DBG] 31 bytes read
+no ex
+16:35:38.951 [DBG] Sent 30 bytes
+no ex
+16:35:41.944 [DBG] 31 bytes read
+no ex
+16:35:41.944 [DBG] Sent 30 bytes
+no ex
+16:35:43.836 [DBG] Sent 184 bytes
+no ex
+16:35:44.941 [DBG] 31 bytes read
+no ex
+16:35:44.941 [DBG] Sent 30 bytes
+no ex
+16:35:47.956 [DBG] 31 bytes read
+no ex
+16:35:47.956 [DBG] Sent 30 bytes
+no ex
+16:35:48.828 [DBG] Sent 184 bytes
+no ex
+16:35:50.949 [DBG] 31 bytes read
+no ex
+16:35:50.949 [DBG] Sent 30 bytes
+no ex
+16:35:53.829 [DBG] Sent 184 bytes
+no ex
+16:35:53.937 [DBG] 31 bytes read
+no ex
+16:35:53.937 [DBG] Sent 30 bytes
+no ex
+16:35:56.967 [DBG] 31 bytes read
+no ex
+16:35:56.967 [DBG] Sent 30 bytes
+no ex
+16:35:58.832 [DBG] Sent 184 bytes
+no ex
+16:35:59.961 [DBG] 31 bytes read
+no ex
+16:35:59.961 [DBG] Sent 30 bytes
+no ex
+16:36:02.935 [DBG] 31 bytes read
+no ex
+16:36:02.935 [DBG] Sent 30 bytes
+no ex
+16:36:03.838 [DBG] Sent 184 bytes
+no ex
+16:36:05.932 [DBG] 31 bytes read
+no ex
+16:36:05.932 [DBG] Sent 30 bytes
+no ex
+16:36:08.846 [DBG] Sent 184 bytes
+no ex
+16:36:08.948 [DBG] 31 bytes read
+no ex
+16:36:08.949 [DBG] Sent 30 bytes
+no ex
+16:36:11.952 [DBG] 31 bytes read
+no ex
+16:36:11.952 [DBG] Sent 30 bytes
+no ex
+16:36:13.843 [DBG] Sent 184 bytes
+no ex
+16:36:14.941 [DBG] 31 bytes read
+no ex
+16:36:14.941 [DBG] Sent 30 bytes
+no ex
+16:36:17.944 [DBG] 31 bytes read
+no ex
+16:36:17.944 [DBG] Sent 30 bytes
+no ex
+16:36:18.834 [DBG] Sent 184 bytes
+no ex
+16:36:20.957 [DBG] 31 bytes read
+no ex
+16:36:20.957 [DBG] Sent 30 bytes
+no ex
+16:36:23.835 [DBG] Sent 184 bytes
+no ex
+16:36:23.961 [DBG] 31 bytes read
+no ex
+16:36:23.961 [DBG] Sent 30 bytes
+no ex
+16:36:26.953 [DBG] 31 bytes read
+no ex
+16:36:26.954 [DBG] Sent 30 bytes
+no ex
+16:36:28.847 [DBG] Sent 184 bytes
+no ex
+16:36:29.961 [DBG] 31 bytes read
+no ex
+16:36:29.961 [DBG] Sent 30 bytes
+no ex
+16:36:32.969 [DBG] 31 bytes read
+no ex
+16:36:32.970 [DBG] Sent 30 bytes
+no ex
+16:36:33.837 [DBG] Sent 184 bytes
+no ex
+16:36:36.036 [DBG] 31 bytes read
+no ex
+16:36:36.036 [DBG] Sent 30 bytes
+no ex
+16:36:38.849 [DBG] Sent 184 bytes
+no ex
+16:36:39.007 [DBG] 31 bytes read
+no ex
+16:36:39.007 [DBG] Sent 30 bytes
+no ex
+16:36:40.400 [DBG] 8 bytes read
+no ex
+16:36:40.400 [DBG] Sent 4 bytes
+no ex
+16:39:04.327 [INF] RunScan: 0
+16:39:04.327 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(16:39)","Data":null,"DataObj":null}
+16:40:04.657 [INF] RunHandleWinLoss: 0
+16:40:04.658 [INF] CalculateResult: 20230114
+16:40:04.658 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+16:40:04.666 [INF] CalculateResult 3: 0
+16:40:04.668 [INF] CalculateResult 3: 0
+16:44:04.327 [INF] RunScan: 0
+16:44:04.349 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(16:44)","Data":null,"DataObj":null}
+16:45:04.668 [INF] RunHandleWinLoss: 0
+16:45:04.669 [INF] CalculateResult: 20230114
+16:45:04.669 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+16:45:04.676 [INF] CalculateResult 3: 0
+16:45:04.676 [INF] CalculateResult 3: 0
+16:49:04.349 [INF] RunScan: 0
+16:49:04.352 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(16:49)","Data":null,"DataObj":null}
+16:50:04.676 [INF] RunHandleWinLoss: 0
+16:50:04.677 [INF] CalculateResult: 20230114
+16:50:04.677 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+16:50:04.687 [INF] CalculateResult 3: 0
+16:50:04.689 [INF] CalculateResult 3: 0
+16:50:41.333 [DBG] Client connected from 198.199.95.29:54754
+no ex
+16:50:41.335 [DBG] 116 bytes read
+no ex
+16:50:41.366 [DBG] Error while reading
+Fleck.WebSocketException: Exception of type 'Fleck.WebSocketException' was thrown.
+   at Fleck.HandlerFactory.BuildHandler(WebSocketHttpRequest request, Action`1 onMessage, Action onClose, Action`1 onBinary, Action`1 onPing, Action`1 onPong) in /var/app/banca/Fleck/HandlerFactory.cs:line 25
+   at Fleck.WebSocketServer.<>c__DisplayClass42_0.<OnClientConnect>b__1(WebSocketHttpRequest r) in /var/app/banca/Fleck/WebSocketServer.cs:line 164
+   at Fleck.WebSocketConnection.CreateHandler(IEnumerable`1 data) in /var/app/banca/Fleck/WebSocketConnection.cs:line 159
+   at Fleck.WebSocketConnection.<>c__DisplayClass61_0.<Read>b__0(Int32 r) in /var/app/banca/Fleck/WebSocketConnection.cs:line 193
+   at Fleck.SocketWrapper.<>c__DisplayClass24_0.<Receive>b__1(Task`1 t) in /var/app/banca/Fleck/SocketWrapper.cs:line 126
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+16:54:04.353 [INF] RunScan: 0
+16:54:04.353 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(16:54)","Data":null,"DataObj":null}
+16:55:04.689 [INF] RunHandleWinLoss: 0
+16:55:04.689 [INF] CalculateResult: 20230114
+16:55:04.690 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+16:55:04.715 [INF] CalculateResult 3: 0
+16:55:04.716 [INF] CalculateResult 3: 0
+16:59:04.353 [INF] RunScan: 0
+16:59:04.354 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(16:59)","Data":null,"DataObj":null}
+17:00:04.716 [INF] RunHandleWinLoss: 0
+17:00:04.716 [INF] CalculateResult: 20230114
+17:00:04.716 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+17:00:04.721 [INF] CalculateResult 3: 0
+17:00:04.721 [INF] CalculateResult 3: 0
+17:04:04.354 [INF] RunScan: 0
+17:04:04.355 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(17:4)","Data":null,"DataObj":null}
+17:05:04.721 [INF] RunHandleWinLoss: 0
+17:05:04.722 [INF] CalculateResult: 20230114
+17:05:04.722 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+17:05:04.726 [INF] CalculateResult 3: 0
+17:05:04.728 [INF] CalculateResult 3: 0
+17:09:04.355 [INF] RunScan: 0
+17:09:04.356 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(17:9)","Data":null,"DataObj":null}
+17:10:04.728 [INF] RunHandleWinLoss: 0
+17:10:04.729 [INF] CalculateResult: 20230114
+17:10:04.729 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+17:10:04.731 [INF] CalculateResult 3: 0
+17:10:04.732 [INF] CalculateResult 3: 0
+17:14:04.356 [INF] RunScan: 0
+17:14:04.356 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(17:14)","Data":null,"DataObj":null}
+17:15:04.732 [INF] RunHandleWinLoss: 0
+17:15:04.732 [INF] CalculateResult: 20230114
+17:15:04.732 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+17:15:04.737 [INF] CalculateResult 3: 0
+17:15:04.738 [INF] CalculateResult 3: 0
+17:19:04.356 [INF] RunScan: 0
+17:19:04.357 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(17:19)","Data":null,"DataObj":null}
+17:20:04.738 [INF] RunHandleWinLoss: 0
+17:20:04.738 [INF] CalculateResult: 20230114
+17:20:04.739 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+17:20:04.742 [INF] CalculateResult 3: 0
+17:20:04.743 [INF] CalculateResult 3: 0
+17:24:04.357 [INF] RunScan: 0
+17:24:04.357 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(17:24)","Data":null,"DataObj":null}
+17:25:04.744 [INF] RunHandleWinLoss: 0
+17:25:04.744 [INF] CalculateResult: 20230114
+17:25:04.744 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+17:25:04.746 [INF] CalculateResult 3: 0
+17:25:04.747 [INF] CalculateResult 3: 0
+17:29:04.357 [INF] RunScan: 0
+17:29:04.358 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(17:29)","Data":null,"DataObj":null}
+17:30:04.747 [INF] RunHandleWinLoss: 0
+17:30:04.747 [INF] CalculateResult: 20230114
+17:30:04.747 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+17:30:04.749 [INF] CalculateResult 3: 0
+17:30:04.750 [INF] CalculateResult 3: 0
+17:34:04.358 [INF] RunScan: 0
+17:34:04.358 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(17:34)","Data":null,"DataObj":null}
+17:35:04.750 [INF] RunHandleWinLoss: 0
+17:35:04.750 [INF] CalculateResult: 20230114
+17:35:04.750 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+17:35:04.752 [INF] CalculateResult 3: 0
+17:35:04.753 [INF] CalculateResult 3: 0
+17:39:04.359 [INF] RunScan: 0
+17:39:04.359 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(17:39)","Data":null,"DataObj":null}
+17:40:04.753 [INF] RunHandleWinLoss: 0
+17:40:04.753 [INF] CalculateResult: 20230114
+17:40:04.753 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+17:40:04.762 [INF] CalculateResult 3: 0
+17:40:04.766 [INF] CalculateResult 3: 0
+17:44:04.359 [INF] RunScan: 0
+17:44:04.360 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(17:44)","Data":null,"DataObj":null}
+17:45:04.766 [INF] RunHandleWinLoss: 0
+17:45:04.766 [INF] CalculateResult: 20230114
+17:45:04.766 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+17:45:04.770 [INF] CalculateResult 3: 0
+17:45:04.771 [INF] CalculateResult 3: 0
+17:49:04.360 [INF] RunScan: 0
+17:49:04.360 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(17:49)","Data":null,"DataObj":null}
+17:50:04.771 [INF] RunHandleWinLoss: 0
+17:50:04.771 [INF] CalculateResult: 20230114
+17:50:04.771 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+17:50:04.774 [INF] CalculateResult 3: 0
+17:50:04.775 [INF] CalculateResult 3: 0
+17:54:04.360 [INF] RunScan: 0
+17:54:04.361 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(17:54)","Data":null,"DataObj":null}
+17:55:04.775 [INF] RunHandleWinLoss: 0
+17:55:04.775 [INF] CalculateResult: 20230114
+17:55:04.775 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+17:55:04.782 [INF] CalculateResult 3: 0
+17:55:04.783 [INF] CalculateResult 3: 0
+17:59:04.361 [INF] RunScan: 0
+17:59:04.361 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(17:59)","Data":null,"DataObj":null}
+18:00:04.783 [INF] RunHandleWinLoss: 0
+18:00:04.783 [INF] CalculateResult: 20230114
+18:00:04.783 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+18:00:04.785 [INF] CalculateResult 3: 0
+18:00:04.786 [INF] CalculateResult 3: 0
+18:04:04.362 [INF] RunScan: 0
+18:04:04.362 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(18:4)","Data":null,"DataObj":null}
+18:05:04.786 [INF] RunHandleWinLoss: 0
+18:05:04.787 [INF] CalculateResult: 20230114
+18:05:04.787 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+18:05:04.791 [INF] CalculateResult 3: 0
+18:05:04.793 [INF] CalculateResult 3: 0
+18:09:04.362 [INF] RunScan: 0
+18:09:04.362 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(18:9)","Data":null,"DataObj":null}
+18:10:04.793 [INF] RunHandleWinLoss: 0
+18:10:04.793 [INF] CalculateResult: 20230114
+18:10:04.793 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+18:10:04.795 [INF] CalculateResult 3: 0
+18:10:04.796 [INF] CalculateResult 3: 0
+18:14:04.362 [INF] RunScan: 0
+18:14:04.363 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(18:14)","Data":null,"DataObj":null}
+18:15:04.796 [INF] RunHandleWinLoss: 0
+18:15:04.796 [INF] CalculateResult: 20230114
+18:15:04.796 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+18:15:04.798 [INF] CalculateResult 3: 0
+18:15:04.799 [INF] CalculateResult 3: 0
+18:19:04.363 [INF] RunScan: 0
+18:19:04.363 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(18:19)","Data":null,"DataObj":null}
+18:20:04.799 [INF] RunHandleWinLoss: 0
+18:20:04.799 [INF] CalculateResult: 20230114
+18:20:04.799 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+18:20:04.802 [INF] CalculateResult 3: 0
+18:20:04.804 [INF] CalculateResult 3: 0
+18:24:04.363 [INF] RunScan: 0
+18:24:04.364 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(18:24)","Data":null,"DataObj":null}
+18:25:04.804 [INF] RunHandleWinLoss: 0
+18:25:04.804 [INF] CalculateResult: 20230114
+18:25:04.804 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+18:25:04.808 [INF] CalculateResult 3: 0
+18:25:04.809 [INF] CalculateResult 3: 0
+18:29:04.364 [INF] RunScan: 0
+18:29:04.364 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(18:29)","Data":null,"DataObj":null}
+18:30:04.809 [INF] RunHandleWinLoss: 0
+18:30:04.809 [INF] CalculateResult: 20230114
+18:30:04.809 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+18:30:04.812 [INF] CalculateResult 3: 0
+18:30:04.812 [INF] CalculateResult 3: 0
+18:34:04.364 [INF] RunScan: 0
+18:34:04.365 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(18:34)","Data":null,"DataObj":null}
+18:35:04.812 [INF] RunHandleWinLoss: 0
+18:35:04.813 [INF] CalculateResult: 20230114
+18:35:04.813 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+18:35:04.815 [INF] CalculateResult 3: 0
+18:35:04.815 [INF] CalculateResult 3: 0
+18:39:04.365 [INF] RunScan: 0
+18:39:04.365 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(18:39)","Data":null,"DataObj":null}
+18:40:04.816 [INF] RunHandleWinLoss: 0
+18:40:04.816 [INF] CalculateResult: 20230114
+18:40:04.816 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+18:40:04.819 [INF] CalculateResult 3: 0
+18:40:04.820 [INF] CalculateResult 3: 0
+18:44:04.365 [INF] RunScan: 0
+18:44:05.306 [INF] ScanXskt result: 62940-27086-84830-42992-26177-28240-86842-54934-53016-11166-1213-7375-8375-1727-0737-3018-1279-2435-5696-5434-949-318-656-02-34-82-81
+18:44:05.306 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng 5.","Data":null,"DataObj":null}
+18:45:04.820 [INF] RunHandleWinLoss: 0
+18:45:04.821 [INF] CalculateResult: 20230114
+18:45:04.821 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+18:45:04.824 [INF] CalculateResult 3: 20230114
+18:45:04.880 [INF] CalculateResult 4: 0
+18:45:04.884 [INF] updatePlayRequest: Update loto_request set Status=1,Win=0,WinNumber='[40,86,30,92,77,40,42,34,16,66,13,75,75,27,37,18,79,35,96,34,49,18,56,"02",34,82,81]' where Id=87;
+18:45:04.884 [INF] CalculateResult 3: 20230114
+18:45:04.884 [INF] CalculateResult 4: 0
+18:45:04.884 [INF] updatePlayRequest: Update loto_request set Status=1,Win=0,WinNumber='[40,86,30,92,77,40,42,34,16,66,13,75,75,27,37,18,79,35,96,34,49,18,56,"02",34,82,81]' where Id=88;
+18:49:05.306 [INF] RunScan: 0
+18:49:05.306 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+18:50:04.885 [INF] RunHandleWinLoss: 0
+18:50:04.885 [INF] CalculateResult: 20230114
+18:50:04.885 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+18:54:05.306 [INF] RunScan: 0
+18:54:05.307 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+18:55:04.887 [INF] RunHandleWinLoss: 0
+18:55:04.887 [INF] CalculateResult: 20230114
+18:55:04.887 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+18:59:05.307 [INF] RunScan: 0
+18:59:05.307 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+18:59:36.530 [DBG] Client connected from 127.0.0.1:51152
+no ex
+18:59:36.531 [DBG] 742 bytes read
+no ex
+18:59:36.539 [DBG] Building Hybi-14 Response
+no ex
+18:59:36.546 [DBG] Sent 129 bytes
+no ex
+18:59:37.180 [DBG] 31 bytes read
+no ex
+18:59:37.185 [DBG] 110 bytes read
+no ex
+18:59:37.185 [DBG] Sent 30 bytes
+no ex
+18:59:37.186 [INF] GET: http://127.0.0.1:8081/api?c=3&un=huy1411&pw=cc0d45bc2f499fc4666d09691485a0f9&pf=web&at=
+18:59:37.219 [INF] GET response: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Imh1eTE0MTExIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjoyOTkzNTE2OCwieHVUb3RhbCI6NTAwMDAwLCJ2aXBwb2ludCI6MCwidmlwcG9pbnRTYXZlIjowLCJjcmVhdGVUaW1lIjoiMTItMDEtMjAyMyIsImlwQWRkcmVzcyI6IjEyNy4wLjAuMSIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6Imh1eTE0MTEiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjp0cnVlfQ==","accessToken":"10daf1553934f35fd21bda42a4b80258"}
+
+18:59:37.271 [DBG] Sent 5736 bytes
+no ex
+18:59:39.868 [DBG] Sent 184 bytes
+no ex
+18:59:40.255 [DBG] 31 bytes read
+no ex
+18:59:40.255 [DBG] Sent 30 bytes
+no ex
+18:59:40.448 [DBG] 32 bytes read
+no ex
+18:59:40.450 [DBG] Sent 41 bytes
+no ex
+18:59:43.174 [DBG] 31 bytes read
+no ex
+18:59:43.174 [DBG] Sent 30 bytes
+no ex
+18:59:43.979 [DBG] 58 bytes read
+no ex
+18:59:43.988 [DBG] Sent 329 bytes
+no ex
+18:59:44.876 [DBG] Sent 184 bytes
+no ex
+18:59:46.176 [DBG] 31 bytes read
+no ex
+18:59:46.177 [DBG] Sent 30 bytes
+no ex
+18:59:48.668 [DBG] 32 bytes read
+no ex
+18:59:48.673 [DBG] Sent 41 bytes
+no ex
+18:59:49.181 [DBG] 31 bytes read
+no ex
+18:59:49.181 [DBG] Sent 30 bytes
+no ex
+18:59:49.867 [DBG] Sent 184 bytes
+no ex
+18:59:52.180 [DBG] 31 bytes read
+no ex
+18:59:52.180 [DBG] Sent 30 bytes
+no ex
+18:59:54.873 [DBG] Sent 184 bytes
+no ex
+18:59:55.180 [DBG] 31 bytes read
+no ex
+18:59:55.180 [DBG] Sent 30 bytes
+no ex
+18:59:58.232 [DBG] 31 bytes read
+no ex
+18:59:58.232 [DBG] Sent 30 bytes
+no ex
+18:59:59.878 [DBG] Sent 184 bytes
+no ex
+19:00:01.180 [DBG] 31 bytes read
+no ex
+19:00:01.181 [DBG] Sent 30 bytes
+no ex
+19:00:03.968 [DBG] 32 bytes read
+no ex
+19:00:03.983 [DBG] Sent 41 bytes
+no ex
+19:00:04.179 [DBG] 31 bytes read
+no ex
+19:00:04.179 [DBG] Sent 30 bytes
+no ex
+19:00:04.870 [DBG] Sent 184 bytes
+no ex
+19:00:04.890 [INF] RunHandleWinLoss: 0
+19:00:04.890 [INF] CalculateResult: 20230114
+19:00:04.890 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+19:00:07.192 [DBG] 31 bytes read
+no ex
+19:00:07.192 [DBG] Sent 30 bytes
+no ex
+19:00:09.877 [DBG] Sent 184 bytes
+no ex
+19:00:10.191 [DBG] 31 bytes read
+no ex
+19:00:10.191 [DBG] Sent 30 bytes
+no ex
+19:00:13.178 [DBG] 31 bytes read
+no ex
+19:00:13.179 [DBG] Sent 30 bytes
+no ex
+19:00:14.870 [DBG] Sent 184 bytes
+no ex
+19:00:16.179 [DBG] 31 bytes read
+no ex
+19:00:16.179 [DBG] Sent 30 bytes
+no ex
+19:00:19.228 [DBG] 31 bytes read
+no ex
+19:00:19.229 [DBG] Sent 30 bytes
+no ex
+19:00:19.882 [DBG] Sent 184 bytes
+no ex
+19:00:22.188 [DBG] 31 bytes read
+no ex
+19:00:22.188 [DBG] Sent 30 bytes
+no ex
+19:00:24.886 [DBG] Sent 184 bytes
+no ex
+19:00:25.192 [DBG] 31 bytes read
+no ex
+19:00:25.192 [DBG] Sent 30 bytes
+no ex
+19:00:28.184 [DBG] 31 bytes read
+no ex
+19:00:28.184 [DBG] Sent 30 bytes
+no ex
+19:00:29.873 [DBG] Sent 184 bytes
+no ex
+19:00:31.187 [DBG] 31 bytes read
+no ex
+19:00:31.188 [DBG] Sent 30 bytes
+no ex
+19:00:34.190 [DBG] 31 bytes read
+no ex
+19:00:34.190 [DBG] Sent 30 bytes
+no ex
+19:00:34.885 [DBG] Sent 184 bytes
+no ex
+19:00:37.886 [DBG] 31 bytes read
+no ex
+19:00:37.886 [DBG] Sent 30 bytes
+no ex
+19:00:39.874 [DBG] Sent 184 bytes
+no ex
+19:00:40.880 [DBG] 31 bytes read
+no ex
+19:00:40.880 [DBG] Sent 30 bytes
+no ex
+19:00:43.890 [DBG] 31 bytes read
+no ex
+19:00:43.890 [DBG] Sent 30 bytes
+no ex
+19:00:44.883 [DBG] Sent 184 bytes
+no ex
+19:00:46.897 [DBG] 31 bytes read
+no ex
+19:00:46.898 [DBG] Sent 30 bytes
+no ex
+19:00:49.887 [DBG] 31 bytes read
+no ex
+19:00:49.887 [DBG] Sent 30 bytes
+no ex
+19:00:49.888 [DBG] Sent 184 bytes
+no ex
+19:00:52.888 [DBG] 31 bytes read
+no ex
+19:00:52.888 [DBG] Sent 30 bytes
+no ex
+19:00:54.877 [DBG] Sent 184 bytes
+no ex
+19:00:55.886 [DBG] 31 bytes read
+no ex
+19:00:55.887 [DBG] Sent 30 bytes
+no ex
+19:00:58.889 [DBG] 31 bytes read
+no ex
+19:00:58.889 [DBG] Sent 30 bytes
+no ex
+19:00:59.882 [DBG] Sent 184 bytes
+no ex
+19:01:01.893 [DBG] 31 bytes read
+no ex
+19:01:01.894 [DBG] Sent 30 bytes
+no ex
+19:01:04.876 [DBG] Sent 184 bytes
+no ex
+19:01:04.884 [DBG] 31 bytes read
+no ex
+19:01:04.884 [DBG] Sent 30 bytes
+no ex
+19:01:07.897 [DBG] 31 bytes read
+no ex
+19:01:07.897 [DBG] Sent 30 bytes
+no ex
+19:01:09.888 [DBG] Sent 184 bytes
+no ex
+19:01:10.890 [DBG] 31 bytes read
+no ex
+19:01:10.890 [DBG] Sent 30 bytes
+no ex
+19:01:13.918 [DBG] 31 bytes read
+no ex
+19:01:13.918 [DBG] Sent 30 bytes
+no ex
+19:01:14.882 [DBG] Sent 184 bytes
+no ex
+19:01:16.897 [DBG] 31 bytes read
+no ex
+19:01:16.897 [DBG] Sent 30 bytes
+no ex
+19:01:19.881 [DBG] Sent 184 bytes
+no ex
+19:01:19.894 [DBG] 31 bytes read
+no ex
+19:01:19.895 [DBG] Sent 30 bytes
+no ex
+19:01:22.891 [DBG] 31 bytes read
+no ex
+19:01:22.892 [DBG] Sent 30 bytes
+no ex
+19:01:24.892 [DBG] Sent 184 bytes
+no ex
+19:01:25.891 [DBG] 31 bytes read
+no ex
+19:01:25.892 [DBG] Sent 30 bytes
+no ex
+19:01:28.887 [DBG] 31 bytes read
+no ex
+19:01:28.887 [DBG] Sent 30 bytes
+no ex
+19:01:29.880 [DBG] Sent 184 bytes
+no ex
+19:01:31.891 [DBG] 31 bytes read
+no ex
+19:01:31.892 [DBG] Sent 30 bytes
+no ex
+19:01:34.889 [DBG] Sent 184 bytes
+no ex
+19:01:34.891 [DBG] 31 bytes read
+no ex
+19:01:34.892 [DBG] Sent 30 bytes
+no ex
+19:01:37.885 [DBG] 31 bytes read
+no ex
+19:01:37.885 [DBG] Sent 30 bytes
+no ex
+19:01:39.885 [DBG] Sent 184 bytes
+no ex
+19:01:40.889 [DBG] 31 bytes read
+no ex
+19:01:40.889 [DBG] Sent 30 bytes
+no ex
+19:01:43.878 [DBG] 31 bytes read
+no ex
+19:01:43.879 [DBG] Sent 30 bytes
+no ex
+19:01:44.891 [DBG] Sent 184 bytes
+no ex
+19:01:46.888 [DBG] 31 bytes read
+no ex
+19:01:46.889 [DBG] Sent 30 bytes
+no ex
+19:01:49.180 [DBG] 31 bytes read
+no ex
+19:01:49.180 [DBG] Sent 30 bytes
+no ex
+19:01:49.885 [DBG] Sent 184 bytes
+no ex
+19:01:52.216 [DBG] 31 bytes read
+no ex
+19:01:52.217 [DBG] Sent 30 bytes
+no ex
+19:01:52.924 [DBG] 32 bytes read
+no ex
+19:01:52.932 [DBG] Sent 41 bytes
+no ex
+19:01:54.881 [DBG] Sent 184 bytes
+no ex
+19:01:55.178 [DBG] 31 bytes read
+no ex
+19:01:55.178 [DBG] Sent 30 bytes
+no ex
+19:01:58.232 [DBG] 31 bytes read
+no ex
+19:01:58.233 [DBG] Sent 30 bytes
+no ex
+19:01:58.529 [DBG] 47 bytes read
+no ex
+19:01:58.531 [DBG] 47 bytes read
+no ex
+19:01:58.541 [DBG] Sent 61 bytes
+no ex
+19:01:58.541 [DBG] Sent 61 bytes
+no ex
+19:01:59.261 [DBG] 94 bytes read
+no ex
+19:01:59.276 [DBG] Sent 61 bytes
+no ex
+19:01:59.276 [DBG] Sent 61 bytes
+no ex
+19:01:59.891 [DBG] Sent 184 bytes
+no ex
+19:02:00.863 [DBG] 94 bytes read
+no ex
+19:02:00.865 [DBG] Sent 61 bytes
+no ex
+19:02:00.865 [DBG] Sent 61 bytes
+no ex
+19:02:01.178 [DBG] 31 bytes read
+no ex
+19:02:01.178 [DBG] Sent 30 bytes
+no ex
+19:02:02.359 [DBG] 32 bytes read
+no ex
+19:02:02.372 [DBG] Sent 41 bytes
+no ex
+19:02:04.181 [DBG] 31 bytes read
+no ex
+19:02:04.181 [DBG] Sent 30 bytes
+no ex
+19:02:04.885 [DBG] Sent 184 bytes
+no ex
+19:02:07.181 [DBG] 31 bytes read
+no ex
+19:02:07.181 [DBG] Sent 30 bytes
+no ex
+19:02:09.882 [DBG] Sent 184 bytes
+no ex
+19:02:10.211 [DBG] 31 bytes read
+no ex
+19:02:10.212 [DBG] Sent 30 bytes
+no ex
+19:02:13.225 [DBG] 31 bytes read
+no ex
+19:02:13.225 [DBG] Sent 30 bytes
+no ex
+19:02:14.887 [DBG] Sent 184 bytes
+no ex
+19:02:16.235 [DBG] 31 bytes read
+no ex
+19:02:16.236 [DBG] Sent 30 bytes
+no ex
+19:02:19.207 [DBG] 31 bytes read
+no ex
+19:02:19.208 [DBG] Sent 30 bytes
+no ex
+19:02:19.889 [DBG] Sent 184 bytes
+no ex
+19:02:22.219 [DBG] 31 bytes read
+no ex
+19:02:22.219 [DBG] Sent 30 bytes
+no ex
+19:02:24.897 [DBG] Sent 184 bytes
+no ex
+19:02:25.231 [DBG] 31 bytes read
+no ex
+19:02:25.231 [DBG] Sent 30 bytes
+no ex
+19:02:28.226 [DBG] 31 bytes read
+no ex
+19:02:28.226 [DBG] Sent 30 bytes
+no ex
+19:02:29.889 [DBG] Sent 184 bytes
+no ex
+19:02:31.224 [DBG] 31 bytes read
+no ex
+19:02:31.224 [DBG] Sent 30 bytes
+no ex
+19:02:34.268 [DBG] 31 bytes read
+no ex
+19:02:34.268 [DBG] Sent 30 bytes
+no ex
+19:02:34.896 [DBG] Sent 184 bytes
+no ex
+19:02:37.239 [DBG] 31 bytes read
+no ex
+19:02:37.240 [DBG] Sent 30 bytes
+no ex
+19:02:39.897 [DBG] Sent 184 bytes
+no ex
+19:02:40.201 [DBG] 31 bytes read
+no ex
+19:02:40.201 [DBG] Sent 30 bytes
+no ex
+19:02:43.216 [DBG] 31 bytes read
+no ex
+19:02:43.216 [DBG] Sent 30 bytes
+no ex
+19:02:44.892 [DBG] Sent 184 bytes
+no ex
+19:02:46.226 [DBG] 31 bytes read
+no ex
+19:02:46.226 [DBG] Sent 30 bytes
+no ex
+19:02:49.211 [DBG] 31 bytes read
+no ex
+19:02:49.211 [DBG] Sent 30 bytes
+no ex
+19:02:49.898 [DBG] Sent 184 bytes
+no ex
+19:02:52.236 [DBG] 31 bytes read
+no ex
+19:02:52.236 [DBG] Sent 30 bytes
+no ex
+19:02:54.887 [DBG] Sent 184 bytes
+no ex
+19:02:55.223 [DBG] 31 bytes read
+no ex
+19:02:55.224 [DBG] Sent 30 bytes
+no ex
+19:02:58.208 [DBG] 31 bytes read
+no ex
+19:02:58.208 [DBG] Sent 30 bytes
+no ex
+19:02:59.896 [DBG] Sent 184 bytes
+no ex
+19:03:00.671 [DBG] 8 bytes read
+no ex
+19:03:00.672 [DBG] Sent 4 bytes
+no ex
+19:04:05.308 [INF] RunScan: 0
+19:04:05.308 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:05:04.891 [INF] RunHandleWinLoss: 0
+19:05:04.891 [INF] CalculateResult: 20230114
+19:05:04.891 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+19:09:05.308 [INF] RunScan: 0
+19:09:05.308 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:10:04.893 [INF] RunHandleWinLoss: 0
+19:10:04.893 [INF] CalculateResult: 20230114
+19:10:04.893 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+19:14:05.308 [INF] RunScan: 0
+19:14:05.309 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:15:04.895 [INF] RunHandleWinLoss: 0
+19:15:04.895 [INF] CalculateResult: 20230114
+19:15:04.895 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+19:19:05.309 [INF] RunScan: 0
+19:19:05.310 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:20:04.897 [INF] RunHandleWinLoss: 0
+19:20:04.897 [INF] CalculateResult: 20230114
+19:20:04.897 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+19:24:05.310 [INF] RunScan: 0
+19:24:05.310 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:25:04.899 [INF] RunHandleWinLoss: 0
+19:25:04.899 [INF] CalculateResult: 20230114
+19:25:04.899 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+19:29:05.310 [INF] RunScan: 0
+19:29:05.310 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:30:04.901 [INF] RunHandleWinLoss: 0
+19:30:04.901 [INF] CalculateResult: 20230114
+19:30:04.901 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+19:34:05.311 [INF] RunScan: 0
+19:34:05.311 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:35:04.903 [INF] RunHandleWinLoss: 0
+19:35:04.903 [INF] CalculateResult: 20230114
+19:35:04.903 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+19:39:05.311 [INF] RunScan: 0
+19:39:05.311 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:40:04.905 [INF] RunHandleWinLoss: 0
+19:40:04.905 [INF] CalculateResult: 20230114
+19:40:04.905 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+19:44:05.311 [INF] RunScan: 0
+19:44:05.311 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:45:04.907 [INF] RunHandleWinLoss: 0
+19:45:04.907 [INF] CalculateResult: 20230114
+19:45:04.907 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+19:49:05.311 [INF] RunScan: 0
+19:49:05.312 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:50:04.908 [INF] RunHandleWinLoss: 0
+19:50:04.908 [INF] CalculateResult: 20230114
+19:50:04.908 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+19:54:05.312 [INF] RunScan: 0
+19:54:05.312 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+19:55:04.910 [INF] RunHandleWinLoss: 0
+19:55:04.910 [INF] CalculateResult: 20230114
+19:55:04.910 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+19:59:05.312 [INF] RunScan: 0
+19:59:05.313 [INF] Result: {"Status":"Success","Message":"Kết quả ngày hôm nay đã được đăng","Data":null,"DataObj":null}
+20:00:04.913 [INF] RunHandleWinLoss: 0
+20:00:04.913 [INF] CalculateResult: 20230114
+20:00:04.913 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+20:04:05.313 [INF] RunScan: 0
+20:04:05.313 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:4)","Data":null,"DataObj":null}
+20:05:04.915 [INF] RunHandleWinLoss: 0
+20:05:04.916 [INF] CalculateResult: 20230114
+20:05:04.916 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+20:09:05.313 [INF] RunScan: 0
+20:09:05.313 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:9)","Data":null,"DataObj":null}
+20:09:55.869 [DBG] Client connected from 127.0.0.1:52640
+no ex
+20:09:55.874 [DBG] 742 bytes read
+no ex
+20:09:55.883 [DBG] Building Hybi-14 Response
+no ex
+20:09:55.893 [DBG] Sent 129 bytes
+no ex
+20:09:56.164 [INF] 8888 bot: 2, peer: 1, ccu: 0
+20:09:56.165 [INF] Server full speed, frame 10288912, total 21, task 0, engine 21, bot 0, network 0, push 0, avg fps 57.471264
+20:09:57.405 [DBG] 31 bytes read
+no ex
+20:09:57.409 [DBG] 110 bytes read
+no ex
+20:09:57.409 [DBG] Sent 30 bytes
+no ex
+20:09:57.410 [INF] GET: http://127.0.0.1:8081/api?c=3&un=huy1411&pw=cc0d45bc2f499fc4666d09691485a0f9&pf=web&at=
+20:09:57.479 [INF] GET response: {"success":true,"message":null,"errorCode":"0","data":null,"sessionKey":"eyJuaWNrbmFtZSI6Imh1eTE0MTExIiwiYXZhdGFyIjoiMCIsInZpblRvdGFsIjoyOTkzNTE2OCwieHVUb3RhbCI6NTAwMDAwLCJ2aXBwb2ludCI6MCwidmlwcG9pbnRTYXZlIjowLCJjcmVhdGVUaW1lIjoiMTItMDEtMjAyMyIsImlwQWRkcmVzcyI6IjEyNy4wLjAuMSIsImNlcnRpZmljYXRlIjpmYWxzZSwibHVja3lSb3RhdGUiOjAsImRhaUx5IjowLCJtb2JpbGVTZWN1cmUiOjAsImJpcnRoZGF5IjoiIiwiYXBwU2VjdXJlIjowLCJ1c2VybmFtZSI6Imh1eTE0MTEiLCJlbWFpbCI6MCwiYWRkcmVzcyI6bnVsbCwidmVyaWZ5TW9iaWxlIjp0cnVlfQ==","accessToken":"a6b92181bbc794e05e6dc169174515b5"}
+
+20:09:57.521 [DBG] Sent 5736 bytes
+no ex
+20:09:59.305 [DBG] 58 bytes read
+no ex
+20:09:59.317 [DBG] Sent 329 bytes
+no ex
+20:10:00.326 [DBG] Sent 184 bytes
+no ex
+20:10:00.404 [DBG] 31 bytes read
+no ex
+20:10:00.404 [DBG] Sent 30 bytes
+no ex
+20:10:01.015 [DBG] 32 bytes read
+no ex
+20:10:01.030 [DBG] Sent 41 bytes
+no ex
+20:10:03.405 [DBG] 31 bytes read
+no ex
+20:10:03.405 [DBG] Sent 30 bytes
+no ex
+20:10:04.919 [INF] RunHandleWinLoss: 0
+20:10:04.919 [INF] CalculateResult: 20230114
+20:10:04.919 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+20:10:05.333 [DBG] Sent 184 bytes
+no ex
+20:10:06.405 [DBG] 31 bytes read
+no ex
+20:10:06.405 [DBG] Sent 30 bytes
+no ex
+20:10:09.198 [DBG] 47 bytes read
+no ex
+20:10:09.214 [DBG] Sent 61 bytes
+no ex
+20:10:09.435 [DBG] 31 bytes read
+no ex
+20:10:09.436 [DBG] Sent 30 bytes
+no ex
+20:10:10.338 [DBG] Sent 184 bytes
+no ex
+20:10:12.402 [DBG] 31 bytes read
+no ex
+20:10:12.402 [DBG] Sent 30 bytes
+no ex
+20:10:15.331 [DBG] Sent 184 bytes
+no ex
+20:10:15.402 [DBG] 31 bytes read
+no ex
+20:10:15.402 [DBG] Sent 30 bytes
+no ex
+20:10:18.408 [DBG] 31 bytes read
+no ex
+20:10:18.409 [DBG] Sent 30 bytes
+no ex
+20:10:19.999 [DBG] 32 bytes read
+no ex
+20:10:20.014 [DBG] Sent 41 bytes
+no ex
+20:10:20.337 [DBG] Sent 184 bytes
+no ex
+20:10:21.405 [DBG] 31 bytes read
+no ex
+20:10:21.405 [DBG] Sent 30 bytes
+no ex
+20:10:24.464 [DBG] 31 bytes read
+no ex
+20:10:24.464 [DBG] Sent 30 bytes
+no ex
+20:10:25.326 [DBG] Sent 184 bytes
+no ex
+20:10:27.448 [DBG] 31 bytes read
+no ex
+20:10:27.448 [DBG] Sent 30 bytes
+no ex
+20:10:30.331 [DBG] Sent 184 bytes
+no ex
+20:10:30.447 [DBG] 31 bytes read
+no ex
+20:10:30.447 [DBG] Sent 30 bytes
+no ex
+20:10:33.452 [DBG] 31 bytes read
+no ex
+20:10:33.452 [DBG] Sent 30 bytes
+no ex
+20:10:35.339 [DBG] Sent 184 bytes
+no ex
+20:10:35.791 [DBG] 8 bytes read
+no ex
+20:10:35.792 [DBG] Sent 4 bytes
+no ex
+20:10:35.802 [INF] 8888 bot: 2, peer: 0, ccu: 0
+20:14:05.313 [INF] RunScan: 0
+20:14:05.313 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:14)","Data":null,"DataObj":null}
+20:15:04.921 [INF] RunHandleWinLoss: 0
+20:15:04.921 [INF] CalculateResult: 20230114
+20:15:04.921 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+20:19:05.313 [INF] RunScan: 0
+20:19:05.314 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:19)","Data":null,"DataObj":null}
+20:20:04.923 [INF] RunHandleWinLoss: 0
+20:20:04.923 [INF] CalculateResult: 20230114
+20:20:04.923 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+20:22:37.845 [DBG] Client connected from 167.248.133.62:56542
+no ex
+20:22:39.006 [DBG] Error while reading
+System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+20:22:39.188 [DBG] Client connected from 167.248.133.62:57214
+no ex
+20:22:39.230 [DBG] 243 bytes read
+no ex
+20:22:42.263 [DBG] Error while reading
+System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+20:22:42.482 [DBG] Client connected from 167.248.133.62:41964
+no ex
+20:22:43.671 [DBG] 45 bytes read
+no ex
+20:22:43.680 [DBG] Error while reading
+Fleck.WebSocketException: Exception of type 'Fleck.WebSocketException' was thrown.
+   at Fleck.HandlerFactory.BuildHandler(WebSocketHttpRequest request, Action`1 onMessage, Action onClose, Action`1 onBinary, Action`1 onPing, Action`1 onPong) in /var/app/banca/Fleck/HandlerFactory.cs:line 25
+   at Fleck.WebSocketServer.<>c__DisplayClass42_0.<OnClientConnect>b__1(WebSocketHttpRequest r) in /var/app/banca/Fleck/WebSocketServer.cs:line 164
+   at Fleck.WebSocketConnection.CreateHandler(IEnumerable`1 data) in /var/app/banca/Fleck/WebSocketConnection.cs:line 159
+   at Fleck.WebSocketConnection.<>c__DisplayClass61_0.<Read>b__0(Int32 r) in /var/app/banca/Fleck/WebSocketConnection.cs:line 193
+   at Fleck.SocketWrapper.<>c__DisplayClass24_0.<Receive>b__1(Task`1 t) in /var/app/banca/Fleck/SocketWrapper.cs:line 126
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+20:22:44.188 [DBG] Client connected from 167.248.133.62:53386
+no ex
+20:22:44.264 [DBG] Error while reading
+System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+20:24:05.314 [INF] RunScan: 0
+20:24:05.314 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:24)","Data":null,"DataObj":null}
+20:25:04.925 [INF] RunHandleWinLoss: 0
+20:25:04.925 [INF] CalculateResult: 20230114
+20:25:04.925 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+20:29:05.314 [INF] RunScan: 0
+20:29:05.315 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:29)","Data":null,"DataObj":null}
+20:30:04.926 [INF] RunHandleWinLoss: 0
+20:30:04.926 [INF] CalculateResult: 20230114
+20:30:04.926 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+20:34:05.315 [INF] RunScan: 0
+20:34:05.315 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:34)","Data":null,"DataObj":null}
+20:35:04.929 [INF] RunHandleWinLoss: 0
+20:35:04.929 [INF] CalculateResult: 20230114
+20:35:04.929 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+20:39:05.315 [INF] RunScan: 0
+20:39:05.315 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:39)","Data":null,"DataObj":null}
+20:40:04.931 [INF] RunHandleWinLoss: 0
+20:40:04.931 [INF] CalculateResult: 20230114
+20:40:04.931 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+20:44:05.316 [INF] RunScan: 0
+20:44:05.316 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:44)","Data":null,"DataObj":null}
+20:45:04.933 [INF] RunHandleWinLoss: 0
+20:45:04.933 [INF] CalculateResult: 20230114
+20:45:04.933 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+20:49:05.316 [INF] RunScan: 0
+20:49:05.316 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:49)","Data":null,"DataObj":null}
+20:50:04.936 [INF] RunHandleWinLoss: 0
+20:50:04.936 [INF] CalculateResult: 20230114
+20:50:04.936 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'
+20:54:05.316 [INF] RunScan: 0
+20:54:05.317 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(20:54)","Data":null,"DataObj":null}
+20:55:04.937 [INF] RunHandleWinLoss: 0
+20:55:04.937 [INF] CalculateResult: 20230114
+20:55:04.937 [INF] CalculateResult 2: select * from loto_request where Session=20230114 AND NOT Status='1'

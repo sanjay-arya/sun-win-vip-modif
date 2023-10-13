@@ -1,0 +1,31 @@
+{
+  "taixiucbApp": {
+    "reportGame": {
+      "home": {
+        "title": "Report Games",
+        "createLabel": "Add new một Report Game",
+        "createOrEditLabel": "Add new hoặc cập nhật Report Game",
+        "notFound": "No Report Games found"
+      },
+      "created": "Một Report Game mới được tạo với định danh {{ param }}",
+      "updated": "Một Report Game cập nhật với định danh {{ param }}",
+      "deleted": "Một Report Game đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Report Game {{ id }}?"
+      },
+      "detail": {
+        "title": "Report Game"
+      },
+      "rdate": "Rdate",
+      "sicboBet": "Sicbo Bet",
+      "sicboWin": "Sicbo Win",
+      "sedieBet": "Sedie Bet",
+      "sedieWin": "Sedie Win",
+      "rocketBet": "Rocket Bet",
+      "rocketWin": "Rocket Win",
+      "sicboFee": "Sicbo Fee",
+      "sedieFee": "Sedie Fee",
+      "rocketFee": "Rocket Fee"
+    }
+  }
+}

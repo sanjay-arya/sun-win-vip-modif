@@ -1,0 +1,33 @@
+{
+  "txcbApp": {
+    "taixiuRecord": {
+      "home": {
+        "title": "Taixiu Records",
+        "createLabel": "Add new một Taixiu Record",
+        "createOrEditLabel": "Add new hoặc cập nhật Taixiu Record",
+        "notFound": "No Taixiu Records found"
+      },
+      "created": "Một Taixiu Record mới được tạo với định danh {{ param }}",
+      "updated": "Một Taixiu Record cập nhật với định danh {{ param }}",
+      "deleted": "Một Taixiu Record đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Taixiu Record {{ id }}?"
+      },
+      "detail": {
+        "title": "Taixiu Record"
+      },
+      "taixiuId": "Taixiu Id",
+      "userId": "User Id",
+      "loginname": "Loginname",
+      "betamount": "Betamount",
+      "winamount": "Winamount",
+      "typed": "Typed",
+      "status": "Status",
+      "bettime": "Bettime",
+      "result": "Result",
+      "description": "Description",
+      "refundamount": "Refundamount",
+      "ip": "Ip"
+    }
+  }
+}

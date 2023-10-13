@@ -1,0 +1,115 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="taixiucbApp.reportGame.home.title">Report Games</span>
+
+    </h2>
+    <form class="filter-group" [formGroup]="filterForm" (ngSubmit)="onSubmit(filterForm.value)">
+        
+        <div class="filter-form">
+            <div class="filter-item">
+                <label for="start-time" jhiTranslate="global.field.start-time"></label>
+                <div class="form-group d-flex align-items-center">
+                    <div class="input-group mr-2">
+                        <input class="form-control" placeholder="yyyy-mm-dd" id="start-time" formControlName="startDate"
+                               ngbDatepicker #s="ngbDatepicker">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" (click)="s.toggle()" type="button">
+                                <fa-icon [icon]="faCalendar"></fa-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-item">
+                <label for="end-time" jhiTranslate="global.field.end-time"></label>
+                <div class="form-group d-flex align-items-center">
+                    <div class="input-group mr-2">
+                        <input class="form-control" placeholder="yyyy-mm-dd" id="end-time" formControlName="endDate"
+                               ngbDatepicker #e="ngbDatepicker">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" (click)="e.toggle()" type="button">
+                                <fa-icon [icon]="faCalendar"></fa-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-outline-dark">
+            <fa-icon icon="search"></fa-icon>
+            <span jhiTranslate="entity.action.search"></span>
+        </button>
+    </form>
+    <jhi-alert-error></jhi-alert-error>
+
+    <jhi-alert></jhi-alert>
+
+    <div class="alert alert-warning" id="no-result" *ngIf="reportGames?.length === 0">
+        <span jhiTranslate="taixiucbApp.reportGame.home.notFound">No reportGames found</span>
+    </div>
+
+    <div class="table-responsive" id="entities" *ngIf="reportGames && reportGames.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+                <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="loadPage.bind(this)">
+                    <th scope="col"  jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="rdate"><span jhiTranslate="taixiucbApp.reportGame.rdate">Rdate</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="sicboBet"><span jhiTranslate="taixiucbApp.reportGame.sicboBet">Sicbo Bet</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="sicboWin"><span jhiTranslate="taixiucbApp.reportGame.sicboWin">Sicbo Win</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="sedieBet"><span jhiTranslate="taixiucbApp.reportGame.sedieBet">Sedie Bet</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="sedieWin"><span jhiTranslate="taixiucbApp.reportGame.sedieWin">Sedie Win</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="rocketBet"><span jhiTranslate="taixiucbApp.reportGame.rocketBet">Rocket Bet</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="rocketWin"><span jhiTranslate="taixiucbApp.reportGame.rocketWin">Rocket Win</span> <fa-icon icon="sort"></fa-icon></th>
+                   
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let reportGame of reportGames ;trackBy: trackId">
+                    <td><a [routerLink]="['/report-game', reportGame.id, 'view']">{{ reportGame.id }}</a></td>
+                    <td>{{ reportGame.rdate | date:'yyyy-MM-dd' }}</td>
+                    <td>{{ reportGame.sicboBet }}</td>
+                    <td>{{ reportGame.sicboWin }}</td>
+                    <td>{{ reportGame.sedieBet }}</td>
+                    <td>{{ reportGame.sedieWin }}</td>
+                    <td>{{ reportGame.rocketBet }}</td>
+                    <td>{{ reportGame.rocketWin }}</td>
+                   
+                    <td class="text-right">
+                        <div class="btn-group">
+                            <button type="submit"
+                                    [routerLink]="['/report-game', reportGame.id, 'view']"
+                                    class="btn btn-info btn-sm">
+                                <fa-icon icon="eye"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                            </button>
+
+                            <button type="submit"
+                                    [routerLink]="['/report-game', reportGame.id, 'edit']"
+                                    class="btn btn-primary btn-sm">
+                                <fa-icon icon="pencil-alt"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                            </button>
+
+                            <button type="submit" (click)="delete(reportGame)"
+                                    class="btn btn-danger btn-sm">
+                                <fa-icon icon="times"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div *ngIf="reportGames && reportGames.length > 0">
+        <div class="row justify-content-center">
+            <jhi-item-count [page]="page" [total]="totalItems" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+        </div>
+
+        <div class="row justify-content-center">
+            <ngb-pagination [collectionSize]="totalItems" [(page)]="ngbPaginationPage" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage($event)"></ngb-pagination>
+        </div>
+    </div>
+</div>

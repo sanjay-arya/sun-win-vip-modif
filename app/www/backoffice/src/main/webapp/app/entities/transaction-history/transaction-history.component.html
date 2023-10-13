@@ -1,0 +1,149 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="taixiucbApp.transactionHistory.home.title">Transaction Histories</span>
+
+    </h2>
+    <form class="filter-group" [formGroup]="filterForm" (ngSubmit)="onSubmit(filterForm.value)">
+        <div class="filter-form">
+            <div class="filter-item">
+                <label for="username" jhiTranslate="taixiucbApp.transactionHistory.username"></label>
+                <input class="form-control" type="text" id="username" formControlName="username">
+            </div>
+            <div class="filter-item">
+                <label for="action" jhiTranslate="taixiucbApp.transactionHistory.action"></label>
+                             
+<select class="form-control" name="action" id="action"  formControlName="action">
+    <option value="1">Deposit</option>
+    <option value="2">Withdraw</option>
+    <option value="3">BET_TX</option>
+    <option value="4">WIN_TX</option>
+    <option value="5">REFUND_TX</option>
+    <option value="6">BET_XD</option>
+    <option value="7">WIN_XD</option>
+    <option value="8">REFUND_XD</option>
+    <option value="9">JACKPOT_XD</option>
+    <option value="10">BET_TD</option>
+    <option value="11">WIN_TD</option>
+  </select>
+               
+            </div>
+        </div>
+        <div class="filter-form">
+            <div class="filter-item">
+                <label for="start-time" jhiTranslate="global.field.start-time"></label>
+                <div class="form-group d-flex align-items-center">
+                    <div class="input-group mr-2">
+                        <input class="form-control" placeholder="yyyy-mm-dd" id="start-time" formControlName="startDate"
+                               ngbDatepicker #s="ngbDatepicker">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" (click)="s.toggle()" type="button">
+                                <fa-icon [icon]="faCalendar"></fa-icon>
+                            </button>
+                        </div>
+                    </div>
+                    <ngb-timepicker [seconds]="true" formControlName="startTime"></ngb-timepicker>
+                </div>
+            </div>
+            <div class="filter-item">
+                <label for="end-time" jhiTranslate="global.field.end-time"></label>
+                <div class="form-group d-flex align-items-center">
+                    <div class="input-group mr-2">
+                        <input class="form-control" placeholder="yyyy-mm-dd" id="end-time" formControlName="endDate"
+                               ngbDatepicker #e="ngbDatepicker">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" (click)="e.toggle()" type="button">
+                                <fa-icon [icon]="faCalendar"></fa-icon>
+                            </button>
+                        </div>
+                    </div>
+                    <ngb-timepicker [seconds]="true" formControlName="endTime"></ngb-timepicker>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-outline-dark">
+            <fa-icon icon="search"></fa-icon>
+            <span jhiTranslate="entity.action.search"></span>
+        </button>
+    </form>
+    <jhi-alert-error></jhi-alert-error>
+
+    <jhi-alert></jhi-alert>
+
+    <div class="alert alert-warning" id="no-result" *ngIf="transactionHistories?.length === 0">
+        <span jhiTranslate="taixiucbApp.transactionHistory.home.notFound">No transactionHistories found</span>
+    </div>
+
+    <div class="table-responsive" id="entities" *ngIf="transactionHistories && transactionHistories.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+                <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="loadPage.bind(this)">
+                    <th scope="col"  jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="amount"><span jhiTranslate="taixiucbApp.transactionHistory.amount">Amount</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="created"><span jhiTranslate="taixiucbApp.transactionHistory.created">Created</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="action"><span jhiTranslate="taixiucbApp.transactionHistory.action">Action</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="current_balance"><span jhiTranslate="taixiucbApp.transactionHistory.current_balance">Current Balance</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="username"><span jhiTranslate="taixiucbApp.transactionHistory.username">Username</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let transactionHistory of transactionHistories ;trackBy: trackId" [ngSwitch]="transactionHistory.action">
+                    <td><a [routerLink]="['/transaction-history', transactionHistory.id, 'view']">{{ transactionHistory.id }}</a></td>
+                    <td>{{ transactionHistory.amount }}</td>
+                    <td>{{ transactionHistory.created | date:'yyyy-MM-dd HH:mm:ss' }}</td>
+                    <!-- {{ transactionHistory.action }} -->
+                    <td >
+                        <span *ngSwitchCase="1">Deposit</span>
+    <span *ngSwitchCase="2">Withdraw</span>
+    <span *ngSwitchCase="3">BET_TX</span>
+    <span *ngSwitchCase="4">WIN_TX</span>
+    <span *ngSwitchCase="5">REFUND_TX</span>
+    <span *ngSwitchCase="6">BET_XD</span>
+    <span *ngSwitchCase="7">WIN_XD</span>
+    <span *ngSwitchCase="8">REFUND_XD</span>
+    <span *ngSwitchCase="9">JACKPOT_XD</span>
+    <span *ngSwitchCase="10">BET_TD</span>
+    <span *ngSwitchCase="11">WIN_TD</span>
+                    </td>
+                   
+  
+                    <td>{{ transactionHistory.current_balance }}</td>
+                    <td>{{ transactionHistory.username }}</td>
+                    <td class="text-right">
+                        <div class="btn-group">
+                            <button type="submit"
+                                    [routerLink]="['/transaction-history', transactionHistory.id, 'view']"
+                                    class="btn btn-info btn-sm">
+                                <fa-icon icon="eye"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                            </button>
+
+                            <button type="submit"
+                                    [routerLink]="['/transaction-history', transactionHistory.id, 'edit']"
+                                    class="btn btn-primary btn-sm">
+                                <fa-icon icon="pencil-alt"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                            </button>
+
+                            <button type="submit" (click)="delete(transactionHistory)"
+                                    class="btn btn-danger btn-sm">
+                                <fa-icon icon="times"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div *ngIf="transactionHistories && transactionHistories.length > 0">
+        <div class="row justify-content-center">
+            <jhi-item-count [page]="page" [total]="totalItems" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+        </div>
+
+        <div class="row justify-content-center">
+            <ngb-pagination [collectionSize]="totalItems" [(page)]="ngbPaginationPage" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage($event)"></ngb-pagination>
+        </div>
+    </div>
+</div>

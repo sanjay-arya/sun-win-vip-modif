@@ -1,0 +1,55 @@
+16 Feb 2023 13:12:03,806 INFO  [main] bootLogger - BitZeroServer alpha
+16 Feb 2023 13:12:03,810 INFO  [main] bootLogger - BitZeroEngine version: alpha{ main }
+16 Feb 2023 13:12:03,810 INFO  [main] bootLogger - System Info:
+	Processor(s): 4
+	VM Max. memory: 1858MB
+	os.name: Linux
+	os.arch: amd64
+	os.version: 4.15.0-202-generic
+	java.version: 1.8.0_352
+	java.vendor: Private Build
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.352-b08
+	java.vm.vendor: Private Build
+	java.vm.name: OpenJDK 64-Bit Server VM
+	java.io.tmpdir: /tmp
+	Default charset: UTF-8
+
+16 Feb 2023 13:12:03,811 INFO  [main] bootLogger - Network Info:
+	Card: vethcb354cb
+		 ->fe80:0:0:0:5082:91ff:fe90:a3aa%vethcb354cb
+	Card: veth34cbc28
+		 ->fe80:0:0:0:94c6:aaff:fedb:eaac%veth34cbc28
+	Card: veth3ec9c77
+		 ->fe80:0:0:0:20d7:e9ff:fec8:9d8b%veth3ec9c77
+	Card: veth1bb3d64
+		 ->fe80:0:0:0:389d:7aff:feb2:dc84%veth1bb3d64
+	Card: veth191bc60
+		 ->fe80:0:0:0:64b1:12ff:fefb:5fce%veth191bc60
+	Card: br-1697ca636b46
+		 ->fe80:0:0:0:42:69ff:feff:7487%br-1697ca636b46
+		 ->172.18.0.1
+	Card: docker0
+		 ->172.17.0.1
+	Card: eth0
+		 ->fe80:0:0:0:f03c:93ff:fe2a:d53f%eth0
+		 ->2400:8901:0:0:f03c:93ff:fe2a:d53f%eth0
+		 ->139.162.61.145
+	Card: lo
+		 ->0:0:0:0:0:0:0:1%lo
+		 ->127.0.0.1
+
+16 Feb 2023 13:12:03,819 INFO  [main] bootLogger - Session manager ready: bitzero.engine.sessions.DefaultSessionManager@287f7811
+16 Feb 2023 13:12:03,825 INFO  [main] bootLogger - TCP Selector opened
+16 Feb 2023 13:12:03,833 INFO  [main] bootLogger - AcceptSelector opened
+16 Feb 2023 13:12:03,839 INFO  [main] bootLogger - Added bound tcp socket --> 127.0.0.1:1643
+16 Feb 2023 13:12:03,852 INFO  [main] bootLogger - Controller started: bitzero.server.controllers.SystemController -- Queue: 0/40000
+16 Feb 2023 13:12:03,871 INFO  [Scheduler1-thread-1] bootLogger - Scheduler started: scheduler
+16 Feb 2023 13:12:04,089 INFO  [main] bootLogger - Controller started: bitzero.server.controllers.ExtensionController -- Queue: 0/90000
+16 Feb 2023 13:12:04,096 INFO  [main] bootLogger - EngineAcceptor initialized
+16 Feb 2023 13:12:04,199 INFO  [main] bootLogger - Socket Writer started (pool size:4)
+16 Feb 2023 13:12:04,201 INFO  [main] bootLogger - Security Manager started
+16 Feb 2023 13:12:04,207 INFO  [main] bootLogger - IOHandler: bitzero.server.protocol.BZIoHandler@692fd26
+16 Feb 2023 13:12:04,209 INFO  [main] bootLogger - EngineReader started
+16 Feb 2023 13:12:04,209 INFO  [main] bootLogger - [[[ ===--- Boot sequence complete ---=== ]]]

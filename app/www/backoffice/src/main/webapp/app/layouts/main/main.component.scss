@@ -1,0 +1,40 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+.container-fluid {
+  .wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 82vh;
+    margin-top: 20px;
+
+    .side-bar {
+      width: 20%;
+      height: fit-content;
+      background-color: white;
+      margin-top: 0;
+      border-radius: 2px;
+      padding: 0;
+      overflow-x: auto;
+      overflow-y: auto;
+      transition: all 0.5s ease-in-out;
+    }
+
+    .jh-card {
+      width: 79%;
+      margin-left: 1%;
+      margin-top: 0;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+
+  .side-bar-collapsed {
+    .side-bar {
+      width: 5%;
+    }
+
+    .jh-card {
+      width: 94%;
+    }
+  }
+}

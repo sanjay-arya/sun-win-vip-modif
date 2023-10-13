@@ -1,0 +1,25 @@
+{
+  "txcbApp": {
+    "taixiu": {
+      "home": {
+        "title": "Over/under",
+        "createLabel": "Add new một Taixiu",
+        "createOrEditLabel": "Add new hoặc cập nhật Taixiu",
+        "notFound": "No Taixius found"
+      },
+      "created": "Một Taixiu mới được tạo với định danh {{ param }}",
+      "updated": "Một Taixiu cập nhật với định danh {{ param }}",
+      "deleted": "Một Taixiu đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Taixiu {{ id }}?"
+      },
+      "detail": {
+        "title": "Taixiu"
+      },
+      "opentime": "Opentime",
+      "endtime": "Endtime",
+      "status": "Status",
+      "result": "Result"
+    }
+  }
+}

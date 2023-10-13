@@ -1,0 +1,529 @@
+26 Sep 2023 00:58:08,657 INFO  [main] bitzero.server.BitZeroServer - Boot sequence starts...
+26 Sep 2023 00:58:08,984 INFO  [main] entities.managers.BZBannedUserStorage - BanUserStorage initialized
+26 Sep 2023 00:58:09,005 INFO  [main] entities.managers.BZBannedUserManager - BanUser data loaded: 0 records.
+26 Sep 2023 00:58:10,865 DEBUG [main] server.util.TaskScheduler - Task scheduled: Thread[Thread-22,5,main], 10 SECONDS
+26 Sep 2023 00:58:10,866 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$ServerReadyTask@1e461e41, 10 SECONDS
+26 Sep 2023 00:58:10,874 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$RewardThanhDuDaily@38089a5a, 84709 SECONDS
+26 Sep 2023 00:58:10,939 DEBUG [main] server.util.TaskScheduler - referenceTaiXiuId md5: 26701
+26 Sep 2023 00:58:10,944 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$ServerReadyTask@49964d75, 10 SECONDS
+26 Sep 2023 00:58:10,945 INFO  [main] Extensions - {null}: game.modules.chat.ChatMD5Module initilazion 
+26 Sep 2023 00:58:10,962 INFO  [main] Extensions - {null}: game.modules.chat.ChatWorldModule initilazion 
+26 Sep 2023 00:58:10,967 INFO  [main] Extensions - {null}: game.modules.minigame.MiniPokerModule initilazion 
+26 Sep 2023 00:58:11,292 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.MiniPokerModule$MiniPokerX2Task@35229f85, 293508 SECONDS
+26 Sep 2023 00:58:11,301 INFO  [main] Extensions - {null}: game.modules.minigame.BauCuaModule initilazion 
+26 Sep 2023 00:58:11,330 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.BauCuaModule$ServerReadyTask@39fcbef6, 10 SECONDS
+26 Sep 2023 00:58:11,366 INFO  [main] Extensions - {null}: game.modules.minigame.CaoThapModule initilazion 
+26 Sep 2023 00:58:11,378 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.CaoThapModule$RewardDaily@550a1967, 84708 SECONDS
+26 Sep 2023 00:58:11,380 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.CaoThapModule$BotDailyTask@2a640157, 83008 SECONDS
+26 Sep 2023 00:58:11,381 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.CaoThapModule$BotTask@5d8bafa9, 52216 SECONDS
+26 Sep 2023 00:58:11,382 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.CaoThapModule$BotTask@576f63f6, 71483 SECONDS
+26 Sep 2023 00:58:11,382 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.CaoThapModule$BotTask@2dca0d64, 11820 SECONDS
+26 Sep 2023 00:58:11,382 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.CaoThapModule$BotTask@f80945f, 58231 SECONDS
+26 Sep 2023 00:58:11,382 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.CaoThapModule$BotTask@ff684e1, 18177 SECONDS
+26 Sep 2023 00:58:11,392 INFO  [main] Extensions - {null}: game.modules.minigame.PokeGoModule initilazion 
+26 Sep 2023 00:58:11,406 ERROR [main] bitzero.server.BitZeroServer - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Message: 0
+Description: Unexpected error during Server boot. The server cannot start.
+Solution: Please email us the content of this error message, including the stack trace to toannobita@gmail..com
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.minigame.PokeGoModule.init(PokeGoModule.java:112)
+bitzero.server.extensions.BZHandlerFactory.getHandlerInstance(BZHandlerFactory.java:70)
+bitzero.server.extensions.BZHandlerFactory.findHandler(BZHandlerFactory.java:54)
+bitzero.server.extensions.BZHandlerFactory.addHandler(BZHandlerFactory.java:32)
+bitzero.server.extensions.BZExtension.addRequestHandler(BZExtension.java:24)
+game.BaseGameExtension.init(BaseGameExtension.java:120)
+bitzero.server.entities.ExtensionManager.initExtensions(ExtensionManager.java:33)
+bitzero.server.entities.ExtensionManager.init(ExtensionManager.java:48)
+bitzero.server.BitZeroServer.start(BitZeroServer.java:154)
+game.MinigameMain.main(MinigameMain.java:28)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+26 Sep 2023 00:58:20,946 DEBUG [pool-2-thread-5] server.util.TaskScheduler - generateDices: [S@641ca5f0
+26 Sep 2023 00:59:10,865 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@fb5f4d2
+26 Sep 2023 00:59:14,865 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@e609bfb, 1 SECONDS
+26 Sep 2023 00:59:14,865 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@5da4b752, 1 SECONDS
+26 Sep 2023 00:59:14,944 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@1037fb1c, 1 SECONDS
+26 Sep 2023 00:59:15,945 DEBUG [pool-2-thread-2] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 00:59:24,945 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@3aeca87b
+26 Sep 2023 01:00:15,865 DEBUG [pool-2-thread-8] server.util.TaskScheduler - generateDices: [S@54d3c5ac
+26 Sep 2023 01:00:19,865 DEBUG [pool-2-thread-3] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@e609bfb, 1 SECONDS
+26 Sep 2023 01:00:19,865 DEBUG [pool-2-thread-3] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@5da4b752, 1 SECONDS
+26 Sep 2023 01:00:19,944 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@1037fb1c, 1 SECONDS
+26 Sep 2023 01:00:20,945 DEBUG [pool-2-thread-6] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:00:29,945 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@152449e4
+26 Sep 2023 01:01:20,865 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@60735135
+26 Sep 2023 01:01:24,865 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@e609bfb, 1 SECONDS
+26 Sep 2023 01:01:24,865 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@5da4b752, 1 SECONDS
+26 Sep 2023 01:01:24,944 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@1037fb1c, 1 SECONDS
+26 Sep 2023 01:01:25,944 DEBUG [pool-2-thread-2] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:01:34,944 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@20263312
+26 Sep 2023 01:02:25,865 DEBUG [pool-2-thread-3] server.util.TaskScheduler - generateDices: [S@36a30bf
+26 Sep 2023 01:02:29,865 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@e609bfb, 1 SECONDS
+26 Sep 2023 01:02:29,865 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@5da4b752, 1 SECONDS
+26 Sep 2023 01:02:29,944 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@1037fb1c, 1 SECONDS
+26 Sep 2023 01:02:30,945 DEBUG [pool-2-thread-5] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:02:39,945 DEBUG [pool-2-thread-8] server.util.TaskScheduler - generateDices: [S@29e15c56
+26 Sep 2023 01:04:44,697 INFO  [main] bitzero.server.BitZeroServer - Boot sequence starts...
+26 Sep 2023 01:04:44,997 INFO  [main] entities.managers.BZBannedUserStorage - BanUserStorage initialized
+26 Sep 2023 01:04:45,019 INFO  [main] entities.managers.BZBannedUserManager - BanUser data loaded: 0 records.
+26 Sep 2023 01:04:46,324 DEBUG [main] server.util.TaskScheduler - Task scheduled: Thread[Thread-22,5,main], 10 SECONDS
+26 Sep 2023 01:04:46,325 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$ServerReadyTask@30e868be, 10 SECONDS
+26 Sep 2023 01:04:46,328 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$RewardThanhDuDaily@5bf0fe62, 84313 SECONDS
+26 Sep 2023 01:04:46,364 DEBUG [main] server.util.TaskScheduler - referenceTaiXiuId md5: 26706
+26 Sep 2023 01:04:46,378 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$ServerReadyTask@7a1234bf, 10 SECONDS
+26 Sep 2023 01:04:46,379 INFO  [main] Extensions - {null}: game.modules.chat.ChatMD5Module initilazion 
+26 Sep 2023 01:04:46,389 INFO  [main] Extensions - {null}: game.modules.chat.ChatWorldModule initilazion 
+26 Sep 2023 01:04:46,394 INFO  [main] Extensions - {null}: game.modules.minigame.MiniPokerModule initilazion 
+26 Sep 2023 01:04:46,694 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.MiniPokerModule$MiniPokerX2Task@5629510, 293113 SECONDS
+26 Sep 2023 01:04:46,713 INFO  [main] Extensions - {null}: game.modules.minigame.BauCuaModule initilazion 
+26 Sep 2023 01:04:46,742 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.BauCuaModule$ServerReadyTask@79351f41, 10 SECONDS
+26 Sep 2023 01:04:46,749 INFO  [main] Extensions - {null}: game.modules.minigame.CaoThapModule initilazion 
+26 Sep 2023 01:04:46,759 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.CaoThapModule$RewardDaily@5ef6ae06, 84313 SECONDS
+26 Sep 2023 01:04:46,760 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.CaoThapModule$BotDailyTask@55dfebeb, 82613 SECONDS
+26 Sep 2023 01:04:46,760 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.CaoThapModule$BotTask@77b14724, 36239 SECONDS
+26 Sep 2023 01:04:46,761 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.CaoThapModule$BotTask@5d9b7a8a, 64230 SECONDS
+26 Sep 2023 01:04:46,761 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.CaoThapModule$BotTask@1e8ce150, 74929 SECONDS
+26 Sep 2023 01:04:46,761 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.CaoThapModule$BotTask@604f2bd2, 28919 SECONDS
+26 Sep 2023 01:04:46,761 DEBUG [main] server.util.TaskScheduler - Task scheduled: game.modules.minigame.CaoThapModule$BotTask@1d3ac898, 6577 SECONDS
+26 Sep 2023 01:04:46,765 INFO  [main] Extensions - {null}: game.modules.minigame.PokeGoModule initilazion 
+26 Sep 2023 01:04:46,773 ERROR [main] bitzero.server.BitZeroServer - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Message: 0
+Description: Unexpected error during Server boot. The server cannot start.
+Solution: Please email us the content of this error message, including the stack trace to toannobita@gmail..com
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.minigame.PokeGoModule.init(PokeGoModule.java:112)
+bitzero.server.extensions.BZHandlerFactory.getHandlerInstance(BZHandlerFactory.java:70)
+bitzero.server.extensions.BZHandlerFactory.findHandler(BZHandlerFactory.java:54)
+bitzero.server.extensions.BZHandlerFactory.addHandler(BZHandlerFactory.java:32)
+bitzero.server.extensions.BZExtension.addRequestHandler(BZExtension.java:24)
+game.BaseGameExtension.init(BaseGameExtension.java:120)
+bitzero.server.entities.ExtensionManager.initExtensions(ExtensionManager.java:33)
+bitzero.server.entities.ExtensionManager.init(ExtensionManager.java:48)
+bitzero.server.BitZeroServer.start(BitZeroServer.java:154)
+game.MinigameMain.main(MinigameMain.java:28)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+26 Sep 2023 01:04:56,382 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@843cb50
+26 Sep 2023 01:05:46,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@4817feef
+26 Sep 2023 01:05:50,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:05:50,325 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:05:50,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:05:51,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:06:00,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@7bb70f7b
+26 Sep 2023 01:06:51,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - generateDices: [S@10dcb937
+26 Sep 2023 01:06:55,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:06:55,325 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:06:55,368 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:06:56,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:07:05,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@5aa4075
+26 Sep 2023 01:07:56,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - generateDices: [S@596afb5d
+26 Sep 2023 01:08:00,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:08:00,325 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:08:00,368 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:08:01,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:08:10,369 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@60ae2256
+26 Sep 2023 01:09:01,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@52e0fcf7
+26 Sep 2023 01:09:05,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:09:05,325 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:09:05,368 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:09:06,369 DEBUG [pool-2-thread-6] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:09:15,369 DEBUG [pool-2-thread-6] server.util.TaskScheduler - generateDices: [S@7b434be9
+26 Sep 2023 01:10:06,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - generateDices: [S@215835f5
+26 Sep 2023 01:10:10,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:10:10,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:10:10,368 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:10:11,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:10:20,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@a5d9afe
+26 Sep 2023 01:11:11,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@5441b142
+26 Sep 2023 01:11:15,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:11:15,325 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:11:15,368 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:11:16,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:11:25,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@368cf614
+26 Sep 2023 01:12:16,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@b2cea09
+26 Sep 2023 01:12:20,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:12:20,325 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:12:20,368 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:12:21,369 DEBUG [pool-2-thread-9] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:12:30,369 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@6861a1b7
+26 Sep 2023 01:13:21,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@5e2f34f8
+26 Sep 2023 01:13:25,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:13:25,325 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:13:25,368 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:13:26,369 DEBUG [pool-2-thread-6] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:13:35,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - generateDices: [S@7a6e057e
+26 Sep 2023 01:14:26,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@e13385c
+26 Sep 2023 01:14:30,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:14:30,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:14:30,368 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:14:31,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:14:40,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@325cd117
+26 Sep 2023 01:15:31,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@d333bc9
+26 Sep 2023 01:15:35,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:15:35,325 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:15:35,368 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:15:36,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:15:45,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@15adbb7e
+26 Sep 2023 01:16:36,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@b96e197
+26 Sep 2023 01:16:40,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:16:40,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:16:40,368 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:16:41,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:16:50,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@6f07e27e
+26 Sep 2023 01:17:41,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@43795b4d
+26 Sep 2023 01:17:45,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:17:45,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:17:45,369 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:17:46,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:17:55,369 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@6b63c532
+26 Sep 2023 01:18:46,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@2e955323
+26 Sep 2023 01:18:50,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:18:50,325 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:18:50,368 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:18:51,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:19:00,369 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@174de94f
+26 Sep 2023 01:19:51,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - generateDices: [S@37ff51a4
+26 Sep 2023 01:19:55,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:19:55,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:19:55,368 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:19:56,369 DEBUG [pool-2-thread-8] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:20:05,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@2bbc56f4
+26 Sep 2023 01:20:56,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@7f08b917
+26 Sep 2023 01:21:00,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:21:00,325 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:21:00,368 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:21:01,369 DEBUG [pool-2-thread-8] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:21:10,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@4b6e8df6
+26 Sep 2023 01:22:01,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - generateDices: [S@20e8ed03
+26 Sep 2023 01:22:05,325 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:22:05,325 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:22:05,368 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:22:06,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:22:15,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - generateDices: [S@1a3488d8
+26 Sep 2023 01:23:06,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@3bd46115
+26 Sep 2023 01:23:10,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:23:10,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:23:10,368 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:23:11,369 DEBUG [pool-2-thread-8] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:23:20,369 DEBUG [pool-2-thread-5] server.util.TaskScheduler - generateDices: [S@1740845e
+26 Sep 2023 01:24:11,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - generateDices: [S@5f2488bd
+26 Sep 2023 01:24:15,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:24:15,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:24:15,368 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:24:16,371 DEBUG [pool-2-thread-5] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:24:25,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@ddc48d5
+26 Sep 2023 01:25:16,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@40f2cc48
+26 Sep 2023 01:25:20,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:25:20,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:25:20,368 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:25:21,369 DEBUG [pool-2-thread-6] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:25:30,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@543b80ca
+26 Sep 2023 01:26:21,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@19fa7a9f
+26 Sep 2023 01:26:25,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:26:25,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:26:25,368 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:26:26,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:26:35,369 DEBUG [pool-2-thread-6] server.util.TaskScheduler - generateDices: [S@7501ae4a
+26 Sep 2023 01:27:26,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@67247da1
+26 Sep 2023 01:27:30,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:27:30,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:27:30,368 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:27:31,369 DEBUG [pool-2-thread-6] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:27:40,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@505ca39e
+26 Sep 2023 01:28:31,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - generateDices: [S@7c8b3c5b
+26 Sep 2023 01:28:35,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:28:35,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:28:35,368 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:28:36,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:28:45,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@5580acf8
+26 Sep 2023 01:29:36,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@33974604
+26 Sep 2023 01:29:40,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:29:40,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:29:40,368 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:29:41,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:29:50,369 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@2ade961d
+26 Sep 2023 01:30:41,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - generateDices: [S@3ea6cb7c
+26 Sep 2023 01:30:45,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:30:45,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:30:45,368 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:30:46,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:30:55,369 DEBUG [pool-2-thread-5] server.util.TaskScheduler - generateDices: [S@78080034
+26 Sep 2023 01:31:46,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - generateDices: [S@1a6055ce
+26 Sep 2023 01:31:50,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:31:50,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:31:50,368 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:31:51,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:32:00,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@483b47c5
+26 Sep 2023 01:32:51,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@14f41b63
+26 Sep 2023 01:32:55,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:32:55,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:32:55,368 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:32:56,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:33:05,369 DEBUG [pool-2-thread-8] server.util.TaskScheduler - generateDices: [S@6519fe9c
+26 Sep 2023 01:33:56,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - generateDices: [S@41bcce9e
+26 Sep 2023 01:34:00,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:34:00,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:34:00,368 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:34:01,369 DEBUG [pool-2-thread-5] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:34:10,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@3a5ceb8e
+26 Sep 2023 01:35:01,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - generateDices: [S@6a8d61ce
+26 Sep 2023 01:35:05,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:35:05,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:35:05,368 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:35:06,369 DEBUG [pool-2-thread-8] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:35:15,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@20c12344
+26 Sep 2023 01:36:06,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@22f6e88c
+26 Sep 2023 01:36:10,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:36:10,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:36:10,368 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:36:11,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:36:20,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@54cfa446
+26 Sep 2023 01:37:11,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - generateDices: [S@4b2c8d5d
+26 Sep 2023 01:37:15,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:37:15,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:37:15,369 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:37:16,369 DEBUG [pool-2-thread-5] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:37:25,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - generateDices: [S@5a17c55e
+26 Sep 2023 01:38:16,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@db7a06
+26 Sep 2023 01:38:20,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:38:20,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:38:20,368 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:38:21,369 DEBUG [pool-2-thread-6] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:38:30,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@3a040246
+26 Sep 2023 01:39:21,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - generateDices: [S@30dfb9e0
+26 Sep 2023 01:39:25,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:39:25,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:39:25,368 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:39:26,369 DEBUG [pool-2-thread-5] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:39:35,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@35503ceb
+26 Sep 2023 01:40:26,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@1cf3b6e6
+26 Sep 2023 01:40:30,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:40:30,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:40:30,368 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:40:31,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:40:40,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@35b190ce
+26 Sep 2023 01:41:31,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - generateDices: [S@36e48040
+26 Sep 2023 01:41:35,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:41:35,325 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:41:35,368 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:41:36,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:41:45,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@e4e4c7b
+26 Sep 2023 01:42:36,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@17919b27
+26 Sep 2023 01:42:40,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:42:40,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:42:40,368 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:42:41,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:42:50,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@312e1015
+26 Sep 2023 01:43:41,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@c3cb25d
+26 Sep 2023 01:43:45,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:43:45,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:43:45,368 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:43:46,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:43:55,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - generateDices: [S@2cd24d3
+26 Sep 2023 01:44:46,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - generateDices: [S@5698602c
+26 Sep 2023 01:44:50,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:44:50,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:44:50,368 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:44:51,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:45:00,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@b984f73
+26 Sep 2023 01:45:51,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@41fc94
+26 Sep 2023 01:45:55,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:45:55,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:45:55,368 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:45:56,369 DEBUG [pool-2-thread-9] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:46:05,369 DEBUG [pool-2-thread-5] server.util.TaskScheduler - generateDices: [S@3ac4840b
+26 Sep 2023 01:46:56,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@27aa6641
+26 Sep 2023 01:47:00,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:47:00,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:47:00,368 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:47:01,369 DEBUG [pool-2-thread-9] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:47:10,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@39d47dfa
+26 Sep 2023 01:48:01,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - generateDices: [S@2348d2bd
+26 Sep 2023 01:48:05,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:48:05,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:48:05,368 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:48:06,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:48:15,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@152b59c8
+26 Sep 2023 01:49:06,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@14892666
+26 Sep 2023 01:49:10,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:49:10,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:49:10,368 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:49:11,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:49:20,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@4878b408
+26 Sep 2023 01:50:11,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@6a3b2edc
+26 Sep 2023 01:50:15,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:50:15,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:50:15,368 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:50:16,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:50:25,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@444f4d1d
+26 Sep 2023 01:51:16,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@3f5a9de
+26 Sep 2023 01:51:20,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:51:20,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:51:20,368 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:51:21,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:51:30,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - generateDices: [S@17c5b5aa
+26 Sep 2023 01:52:21,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@e772b51
+26 Sep 2023 01:52:25,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:52:25,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:52:25,368 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:52:26,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:52:35,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - generateDices: [S@17c22f91
+26 Sep 2023 01:53:26,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@49c7942
+26 Sep 2023 01:53:30,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:53:30,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:53:30,368 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:53:31,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:53:40,369 DEBUG [pool-2-thread-6] server.util.TaskScheduler - generateDices: [S@5cc879f7
+26 Sep 2023 01:54:31,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - generateDices: [S@9fddd0a
+26 Sep 2023 01:54:35,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:54:35,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:54:35,368 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:54:36,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:54:45,369 DEBUG [pool-2-thread-8] server.util.TaskScheduler - generateDices: [S@549354a6
+26 Sep 2023 01:55:36,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@8858d0
+26 Sep 2023 01:55:40,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:55:40,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:55:40,368 DEBUG [pool-2-thread-9] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:55:41,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:55:50,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@5ed32698
+26 Sep 2023 01:56:41,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - generateDices: [S@37c3dd93
+26 Sep 2023 01:56:45,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:56:45,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:56:45,368 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:56:46,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:56:55,368 DEBUG [pool-2-thread-8] server.util.TaskScheduler - generateDices: [S@42268324
+26 Sep 2023 01:57:46,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@6ca66b10
+26 Sep 2023 01:57:50,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:57:50,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:57:50,368 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:57:51,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:58:00,369 DEBUG [pool-2-thread-5] server.util.TaskScheduler - generateDices: [S@1a1ecaee
+26 Sep 2023 01:58:51,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@12755cfe
+26 Sep 2023 01:58:55,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 01:58:55,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 01:58:55,368 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 01:58:56,369 DEBUG [pool-2-thread-6] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 01:59:05,368 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@5fe1be28
+26 Sep 2023 01:59:56,325 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@72fb6da3
+26 Sep 2023 02:00:00,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:00:00,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:00:00,368 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:00:01,369 DEBUG [pool-2-thread-5] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:00:10,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@3af5a732
+26 Sep 2023 02:01:01,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - generateDices: [S@6455960f
+26 Sep 2023 02:01:05,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:01:05,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:01:05,368 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:01:06,369 DEBUG [pool-2-thread-9] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:01:15,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - generateDices: [S@52c81969
+26 Sep 2023 02:02:06,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@74a9187d
+26 Sep 2023 02:02:10,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:02:10,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:02:10,368 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:02:11,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:02:20,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@5fa56d66
+26 Sep 2023 02:03:11,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@69b8cad0
+26 Sep 2023 02:03:15,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:03:15,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:03:15,368 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:03:16,369 DEBUG [pool-2-thread-6] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:03:25,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@36eb5fae
+26 Sep 2023 02:04:16,325 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@69215f37
+26 Sep 2023 02:04:20,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:04:20,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:04:20,369 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:04:21,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:04:30,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@4b05be9d
+26 Sep 2023 02:04:45,028 DEBUG [pool-2-thread-6] entities.managers.BZBannedUserManager - Ban User data autosave done in 3ms.
+26 Sep 2023 02:05:21,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@54d85d16
+26 Sep 2023 02:05:25,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:05:25,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:05:25,368 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:05:26,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:05:35,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@11a9f1bd
+26 Sep 2023 02:06:26,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@46ec0680
+26 Sep 2023 02:06:30,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:06:30,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:06:30,369 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:06:31,369 DEBUG [pool-2-thread-5] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:06:40,369 DEBUG [pool-2-thread-5] server.util.TaskScheduler - generateDices: [S@460323d7
+26 Sep 2023 02:07:31,324 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@7392d389
+26 Sep 2023 02:07:35,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:07:35,324 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:07:35,368 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:07:36,369 DEBUG [pool-2-thread-9] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:07:45,369 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@74b8ff89
+26 Sep 2023 02:08:36,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - generateDices: [S@384cea9
+26 Sep 2023 02:08:40,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:08:40,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:08:40,368 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:08:41,369 DEBUG [pool-2-thread-2] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:08:50,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - generateDices: [S@4c0ef108
+26 Sep 2023 02:09:41,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@7bc58e1b
+26 Sep 2023 02:09:45,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:09:45,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:09:45,368 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:09:46,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:09:55,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@47e2e5bc
+26 Sep 2023 02:10:46,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - generateDices: [S@376e9234
+26 Sep 2023 02:10:50,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:10:50,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:10:50,368 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:10:51,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:11:00,369 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@7bffc53f
+26 Sep 2023 02:11:51,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@2726678a
+26 Sep 2023 02:11:55,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:11:55,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:11:55,368 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:11:56,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:12:05,369 DEBUG [pool-2-thread-9] server.util.TaskScheduler - generateDices: [S@3be12578
+26 Sep 2023 02:12:56,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - generateDices: [S@79f6f287
+26 Sep 2023 02:13:00,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:13:00,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:13:00,368 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:13:01,369 DEBUG [pool-2-thread-8] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:13:10,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@3aee6311
+26 Sep 2023 02:14:01,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - generateDices: [S@7599ea3e
+26 Sep 2023 02:14:05,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:14:05,324 DEBUG [pool-2-thread-6] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:14:05,368 DEBUG [pool-2-thread-8] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:14:06,369 DEBUG [pool-2-thread-8] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:14:15,369 DEBUG [pool-2-thread-10] server.util.TaskScheduler - generateDices: [S@53d1a852
+26 Sep 2023 02:15:06,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - generateDices: [S@6c64b5bf
+26 Sep 2023 02:15:10,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:15:10,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:15:10,368 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:15:11,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:15:20,369 DEBUG [pool-2-thread-1] server.util.TaskScheduler - generateDices: [S@49436fe
+26 Sep 2023 02:16:11,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@7eaa00a0
+26 Sep 2023 02:16:15,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:16:15,324 DEBUG [pool-2-thread-2] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:16:15,368 DEBUG [pool-2-thread-7] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:16:16,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:16:25,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@bccd0f4
+26 Sep 2023 02:17:16,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@33bdaadc
+26 Sep 2023 02:17:20,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:17:20,324 DEBUG [pool-2-thread-5] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:17:20,368 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:17:21,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:17:30,369 DEBUG [pool-2-thread-5] server.util.TaskScheduler - generateDices: [S@76254d53
+26 Sep 2023 02:18:21,324 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@2650c06f
+26 Sep 2023 02:18:25,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:18:25,324 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:18:25,368 DEBUG [pool-2-thread-1] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:18:26,369 DEBUG [pool-2-thread-8] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:18:35,368 DEBUG [pool-2-thread-5] server.util.TaskScheduler - generateDices: [S@2ed9587
+26 Sep 2023 02:19:26,324 DEBUG [pool-2-thread-8] server.util.TaskScheduler - generateDices: [S@777a9fbe
+26 Sep 2023 02:19:30,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@6cd78330, 1 SECONDS
+26 Sep 2023 02:19:30,324 DEBUG [pool-2-thread-10] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuModule$CalculatingTaiXiuPrize@242a2827, 1 SECONDS
+26 Sep 2023 02:19:30,368 DEBUG [pool-2-thread-4] server.util.TaskScheduler - Task scheduled: game.modules.minigame.TaiXiuMD5Module$CalculatingTaiXiuPrize@34062b1, 1 SECONDS
+26 Sep 2023 02:19:31,369 DEBUG [pool-2-thread-4] server.util.TaskScheduler - calculatePrize MD5
+26 Sep 2023 02:19:40,369 DEBUG [pool-2-thread-7] server.util.TaskScheduler - generateDices: [S@1cea3f8e

@@ -1,0 +1,99 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+            <h2 id="jhi-xocdia-record-heading" jhiTranslate="txcbApp.xocdiaRecord.home.createOrEditLabel">Create or edit a Taixiu Record</h2>
+
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+
+                <div class="form-group" [hidden]="!editForm.get('id')!.value">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id" formControlName="id" readonly />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="txcbApp.xocdiaRecord.xocdiaId" for="field_xocdiaId">Taixiu Id</label>
+                    <input type="number" class="form-control" name="xocdiaId" id="field_xocdiaId"
+                           formControlName="xocdiaId"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="txcbApp.xocdiaRecord.userId" for="field_userId">User Id</label>
+                    <input type="number" class="form-control" name="userId" id="field_userId"
+                           formControlName="userId"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="txcbApp.xocdiaRecord.loginname" for="field_loginname">Loginname</label>
+                    <input type="text" class="form-control" name="loginname" id="field_loginname"
+                           formControlName="loginname"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="txcbApp.xocdiaRecord.betamount" for="field_betamount">Betamount</label>
+                    <input type="number" class="form-control" name="betamount" id="field_betamount"
+                           formControlName="betamount"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="txcbApp.xocdiaRecord.winamount" for="field_winamount">Winamount</label>
+                    <input type="number" class="form-control" name="winamount" id="field_winamount"
+                           formControlName="winamount"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="txcbApp.xocdiaRecord.typed" for="field_typed">Typed</label>
+                    <input type="number" class="form-control" name="typed" id="field_typed"
+                           formControlName="typed"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="txcbApp.xocdiaRecord.status" for="field_status">Status</label>
+                    <input type="number" class="form-control" name="status" id="field_status"
+                           formControlName="status"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="txcbApp.xocdiaRecord.bettime" for="field_bettime">Bettime</label>
+                    <div class="d-flex">
+                        <input id="field_bettime" type="datetime-local" class="form-control" name="bettime" formControlName="bettime" placeholder="YYYY-MM-DD HH:mm"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="txcbApp.xocdiaRecord.result" for="field_result">Result</label>
+                    <input type="text" class="form-control" name="result" id="field_result"
+                           formControlName="result"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="txcbApp.xocdiaRecord.description" for="field_description">Description</label>
+                    <input type="text" class="form-control" name="description" id="field_description"
+                           formControlName="description"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="txcbApp.xocdiaRecord.refundamount" for="field_refundamount">Refundamount</label>
+                    <input type="number" class="form-control" name="refundamount" id="field_refundamount"
+                           formControlName="refundamount"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="txcbApp.xocdiaRecord.ip" for="field_ip">Ip</label>
+                    <input type="text" class="form-control" name="ip" id="field_ip"
+                           formControlName="ip"/>
+                </div>
+            </div>
+
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary" (click)="previousState()">
+                    <fa-icon icon="ban"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+
+                <button type="submit" id="save-entity" [disabled]="editForm.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon icon="save"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

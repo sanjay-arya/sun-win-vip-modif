@@ -1,0 +1,54 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="transferHistory">
+            <h2><span jhiTranslate="taixiucbApp.transferHistory.detail.title">Transfer History</span> {{ transferHistory.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="taixiucbApp.transferHistory.amount">Amount</span></dt>
+                <dd>
+                    <span>{{ transferHistory.amount }}</span>
+                </dd>
+                <dt><span jhiTranslate="taixiucbApp.transferHistory.created">Created</span></dt>
+                <dd>
+                    <span>{{ transferHistory.created }}</span>
+                </dd>
+                <dt><span jhiTranslate="taixiucbApp.transferHistory.action">Action</span></dt>
+                <dd>
+                    <span>{{ transferHistory.action }}</span>
+                </dd>
+                <dt><span jhiTranslate="taixiucbApp.transferHistory.current_balance">Current Balance</span></dt>
+                <dd>
+                    <span>{{ transferHistory.current_balance }}</span>
+                </dd>
+                <dt><span jhiTranslate="taixiucbApp.transferHistory.username">Username</span></dt>
+                <dd>
+                    <span>{{ transferHistory.username }}</span>
+                </dd>
+                <dt><span jhiTranslate="taixiucbApp.transferHistory.orderId">Order Id</span></dt>
+                <dd>
+                    <span>{{ transferHistory.orderId }}</span>
+                </dd>
+                <dt><span jhiTranslate="taixiucbApp.transferHistory.transId">Trans Id</span></dt>
+                <dd>
+                    <span>{{ transferHistory.transId }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/transfer-history', transferHistory.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+{
+  "txcbApp": {
+    "txRank": {
+      "home": {
+        "title": "Tx Ranks",
+        "createLabel": "Add new một Tx Rank",
+        "createOrEditLabel": "Add new hoặc cập nhật Tx Rank",
+        "notFound": "No Tx Ranks found",
+        "editAll": "Sửa All",
+        "msgSuccess": "Update thành công",
+        "msgUnsuccessAll": "Update thành công {{ param1 }} bản ghi. {{ param2 }} bản ghi chưa được cập nhật.",
+        "validationAmountMinMax": "Amount of money phải lớn hơn 1000000 và nhỏ hơn 99999999999999999."
+      },
+      "created": "Một Tx Rank mới được tạo với định danh {{ param }}",
+      "updated": "Một Tx Rank cập nhật với định danh {{ param }}",
+      "deleted": "Một Tx Rank đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Tx Rank {{ id }}?"
+      },
+      "detail": {
+        "title": "Tx Rank"
+      },
+      "loginname": "Loginname",
+      "amount": "Amount"
+    }
+  }
+}

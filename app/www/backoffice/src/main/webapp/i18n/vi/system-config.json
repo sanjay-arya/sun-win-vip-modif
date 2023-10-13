@@ -1,0 +1,67 @@
+{
+  "system-config": {
+    "title": "Cấu hình hệ thống",
+    "maintenance": {
+      "title": "Status của hệ thống",
+      "inactive": "Đang bảo trì",
+      "active": "Đang hoạt động"
+    },
+    "chat-bot": {
+      "title": "Status của chat bot",
+      "inactive": "Đang bảo trì",
+      "active": "Đang hoạt động"
+    },
+    "game-bot": {
+      "title": "Status của game bot",
+      "inactive": "Đang bảo trì",
+      "active": "Đang hoạt động"
+    },
+    "upload-chat": {
+      "title": "Tải lên file chat",
+      "choose-file": "Select file",
+      "submit": "Tải lên"
+    },
+    "upload-bot": {
+      "title": "Tải lên file bot",
+      "choose-file": "Select file",
+      "submit": "Tải lên"
+    },
+    "download-chat": {
+      "title": "Tải xuống file chat hiện tại",
+      "download": "Tải xuống"
+    },
+    "download-bot": {
+      "title": "Tải xuống bot file hiện tại",
+      "download": "Tải xuống"
+    },
+    "messages": {
+      "error": {
+        "chooseFile": "Select file lỗi, vui lòng thử lại!",
+        "uploadFile": "Tải lên bị lỗi, vui lòng thử lại!",
+        "downloadFile": "Tải xuống bị lỗi, vui lòng thử lại!",
+        "jackpotBonus": "Đã xảy ra lỗi, vui lòng thử lại!"
+      },
+      "success": {
+        "chooseFile": "Select file thành công, nhấn Tải lên để hoàn tất!",
+        "uploadFile": "Tải lên file thành công!",
+        "downloadFile": "Tải xuống file thành công!",
+        "jackpotBonus": "Success!"
+      }
+    },
+    "jackpot-setting": {
+      "title": "Jackpot random setting",
+      "submit": "Thay đổi"
+    },
+    "jackpot-status": {
+      "title": "Status của jackpot",
+      "inactive": "Đang bảo trì",
+      "active": "Đang hoạt động"
+    },
+    "jackpot-bonus": {
+      "title": "Jackpot bonus",
+      "inactive": "Inactive",
+      "active": "Active",
+      "submit": "Submit"
+    }
+  }
+}

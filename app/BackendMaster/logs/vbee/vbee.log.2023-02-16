@@ -1,0 +1,688 @@
+2023-02-16 00:00:45,110 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269301 md5: null moneytype: 1
+2023-02-16 00:03:14,975 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269303 md5: null moneytype: 1
+2023-02-16 00:04:30,421 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269304 md5: null moneytype: 1
+2023-02-16 00:05:45,116 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269305 md5: null moneytype: 1
+2023-02-16 00:08:15,152 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269307 md5: null moneytype: 1
+2023-02-16 00:09:30,488 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269308 md5: null moneytype: 1
+2023-02-16 00:10:45,384 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269309 md5: null moneytype: 1
+2023-02-16 00:13:15,205 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269311 md5: null moneytype: 1
+2023-02-16 00:14:30,154 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269312 md5: null moneytype: 1
+2023-02-16 00:15:45,481 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269313 md5: null moneytype: 1
+2023-02-16 00:18:15,681 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269315 md5: null moneytype: 1
+2023-02-16 00:19:30,241 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269316 md5: null moneytype: 1
+2023-02-16 00:21:59,990 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269318 md5: null moneytype: 1
+2023-02-16 00:23:15,550 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269319 md5: null moneytype: 1
+2023-02-16 00:27:00,145 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269322 md5: null moneytype: 1
+2023-02-16 00:28:15,084 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269323 md5: null moneytype: 1
+2023-02-16 00:32:00,146 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269326 md5: null moneytype: 1
+2023-02-16 00:38:15,251 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269331 md5: null moneytype: 1
+2023-02-16 00:39:30,281 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269332 md5: null moneytype: 1
+2023-02-16 00:40:45,287 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269333 md5: null moneytype: 1
+2023-02-16 00:47:00,386 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269338 md5: null moneytype: 1
+2023-02-16 00:49:30,132 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269340 md5: null moneytype: 1
+2023-02-16 00:50:45,788 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269341 md5: null moneytype: 1
+2023-02-16 00:52:00,294 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269342 md5: null moneytype: 1
+2023-02-16 00:54:30,041 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269344 md5: null moneytype: 1
+2023-02-16 00:55:45,045 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269345 md5: null moneytype: 1
+2023-02-16 00:57:00,246 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269346 md5: null moneytype: 1
+2023-02-16 01:00:45,251 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269349 md5: null moneytype: 1
+2023-02-16 01:09:30,538 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269356 md5: null moneytype: 1
+2023-02-16 01:13:15,373 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269359 md5: null moneytype: 1
+2023-02-16 01:15:45,237 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269361 md5: null moneytype: 1
+2023-02-16 01:17:00,415 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269362 md5: null moneytype: 1
+2023-02-16 01:19:30,261 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269364 md5: null moneytype: 1
+2023-02-16 01:22:00,429 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269366 md5: null moneytype: 1
+2023-02-16 01:23:15,268 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269367 md5: null moneytype: 1
+2023-02-16 01:24:30,406 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269368 md5: null moneytype: 1
+2023-02-16 01:25:45,252 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269369 md5: null moneytype: 1
+2023-02-16 01:32:00,150 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269374 md5: null moneytype: 1
+2023-02-16 01:33:15,356 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269375 md5: null moneytype: 1
+2023-02-16 01:34:29,982 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269376 md5: null moneytype: 1
+2023-02-16 01:39:30,475 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269380 md5: null moneytype: 1
+2023-02-16 01:40:45,119 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269381 md5: null moneytype: 1
+2023-02-16 01:41:59,976 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269382 md5: null moneytype: 1
+2023-02-16 01:43:15,294 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269383 md5: null moneytype: 1
+2023-02-16 01:45:44,995 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269385 md5: null moneytype: 1
+2023-02-16 01:47:00,162 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269386 md5: null moneytype: 1
+2023-02-16 01:49:30,306 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269388 md5: null moneytype: 1
+2023-02-16 01:50:44,938 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269389 md5: null moneytype: 1
+2023-02-16 01:54:30,506 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269392 md5: null moneytype: 1
+2023-02-16 01:57:00,061 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269394 md5: null moneytype: 1
+2023-02-16 01:58:15,016 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269395 md5: null moneytype: 1
+2023-02-16 01:59:30,049 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269396 md5: null moneytype: 1
+2023-02-16 02:02:00,029 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269398 md5: null moneytype: 1
+2023-02-16 02:03:14,966 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269399 md5: null moneytype: 1
+2023-02-16 02:04:30,297 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269400 md5: null moneytype: 1
+2023-02-16 02:07:00,354 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269402 md5: null moneytype: 1
+2023-02-16 02:09:30,086 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269404 md5: null moneytype: 1
+2023-02-16 02:10:45,452 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269405 md5: null moneytype: 1
+2023-02-16 02:12:00,620 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269406 md5: null moneytype: 1
+2023-02-16 02:17:00,060 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269410 md5: null moneytype: 1
+2023-02-16 02:18:15,289 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269411 md5: null moneytype: 1
+2023-02-16 02:19:30,222 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269412 md5: null moneytype: 1
+2023-02-16 02:20:44,919 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269413 md5: null moneytype: 1
+2023-02-16 02:22:00,193 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269414 md5: null moneytype: 1
+2023-02-16 02:24:30,099 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269416 md5: null moneytype: 1
+2023-02-16 02:25:45,147 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269417 md5: null moneytype: 1
+2023-02-16 02:27:00,274 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269418 md5: null moneytype: 1
+2023-02-16 02:28:15,077 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269419 md5: null moneytype: 1
+2023-02-16 02:32:00,144 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269422 md5: null moneytype: 1
+2023-02-16 02:33:15,280 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269423 md5: null moneytype: 1
+2023-02-16 02:34:30,255 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269424 md5: null moneytype: 1
+2023-02-16 02:38:15,058 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269427 md5: null moneytype: 1
+2023-02-16 02:42:00,009 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269430 md5: null moneytype: 1
+2023-02-16 02:43:14,906 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269431 md5: null moneytype: 1
+2023-02-16 02:45:45,080 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269433 md5: null moneytype: 1
+2023-02-16 02:48:15,177 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269435 md5: null moneytype: 1
+2023-02-16 02:55:45,288 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269441 md5: null moneytype: 1
+2023-02-16 03:03:14,977 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269447 md5: null moneytype: 1
+2023-02-16 03:05:44,986 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269449 md5: null moneytype: 1
+2023-02-16 03:08:15,041 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269451 md5: null moneytype: 1
+2023-02-16 03:12:00,006 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269454 md5: null moneytype: 1
+2023-02-16 03:13:15,151 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269455 md5: null moneytype: 1
+2023-02-16 03:17:00,038 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269458 md5: null moneytype: 1
+2023-02-16 03:18:14,937 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269459 md5: null moneytype: 1
+2023-02-16 03:22:00,015 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269462 md5: null moneytype: 1
+2023-02-16 03:24:30,013 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269464 md5: null moneytype: 1
+2023-02-16 03:25:44,929 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269465 md5: null moneytype: 1
+2023-02-16 03:26:59,969 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269466 md5: null moneytype: 1
+2023-02-16 03:29:30,079 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269468 md5: null moneytype: 1
+2023-02-16 03:30:44,845 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269469 md5: null moneytype: 1
+2023-02-16 03:32:00,099 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269470 md5: null moneytype: 1
+2023-02-16 03:33:15,398 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269471 md5: null moneytype: 1
+2023-02-16 03:34:30,037 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269472 md5: null moneytype: 1
+2023-02-16 03:35:45,002 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269473 md5: null moneytype: 1
+2023-02-16 03:38:14,985 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269475 md5: null moneytype: 1
+2023-02-16 03:39:29,995 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269476 md5: null moneytype: 1
+2023-02-16 03:40:45,147 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269477 md5: null moneytype: 1
+2023-02-16 03:44:29,876 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269480 md5: null moneytype: 1
+2023-02-16 03:48:15,046 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269483 md5: null moneytype: 1
+2023-02-16 03:49:30,100 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269484 md5: null moneytype: 1
+2023-02-16 03:50:44,940 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269485 md5: null moneytype: 1
+2023-02-16 03:53:14,915 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269487 md5: null moneytype: 1
+2023-02-16 03:55:44,888 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269489 md5: null moneytype: 1
+2023-02-16 03:56:59,920 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269490 md5: null moneytype: 1
+2023-02-16 03:59:29,876 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269492 md5: null moneytype: 1
+2023-02-16 04:01:59,817 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269494 md5: null moneytype: 1
+2023-02-16 04:03:14,900 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269495 md5: null moneytype: 1
+2023-02-16 04:04:29,823 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269496 md5: null moneytype: 1
+2023-02-16 04:05:44,905 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269497 md5: null moneytype: 1
+2023-02-16 04:08:14,943 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269499 md5: null moneytype: 1
+2023-02-16 04:09:29,835 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269500 md5: null moneytype: 1
+2023-02-16 04:15:44,873 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269505 md5: null moneytype: 1
+2023-02-16 04:18:14,971 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269507 md5: null moneytype: 1
+2023-02-16 04:19:29,822 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269508 md5: null moneytype: 1
+2023-02-16 04:20:44,911 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269509 md5: null moneytype: 1
+2023-02-16 04:22:00,002 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269510 md5: null moneytype: 1
+2023-02-16 04:33:14,804 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269519 md5: null moneytype: 1
+2023-02-16 04:36:59,917 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269522 md5: null moneytype: 1
+2023-02-16 04:39:29,917 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269524 md5: null moneytype: 1
+2023-02-16 04:49:29,810 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269532 md5: null moneytype: 1
+2023-02-16 04:54:29,823 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269536 md5: null moneytype: 1
+2023-02-16 04:58:15,017 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269539 md5: null moneytype: 1
+2023-02-16 04:59:29,865 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269540 md5: null moneytype: 1
+2023-02-16 05:00:44,870 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269541 md5: null moneytype: 1
+2023-02-16 05:01:59,877 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269542 md5: null moneytype: 1
+2023-02-16 05:04:29,943 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269544 md5: null moneytype: 1
+2023-02-16 05:09:29,921 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269548 md5: null moneytype: 1
+2023-02-16 05:10:45,078 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269549 md5: null moneytype: 1
+2023-02-16 05:11:59,928 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269550 md5: null moneytype: 1
+2023-02-16 05:15:44,896 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269553 md5: null moneytype: 1
+2023-02-16 05:18:14,869 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269555 md5: null moneytype: 1
+2023-02-16 05:19:29,978 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269556 md5: null moneytype: 1
+2023-02-16 05:21:59,845 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269558 md5: null moneytype: 1
+2023-02-16 05:25:44,917 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269561 md5: null moneytype: 1
+2023-02-16 05:29:29,941 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269564 md5: null moneytype: 1
+2023-02-16 05:33:14,902 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269567 md5: null moneytype: 1
+2023-02-16 05:35:44,840 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269569 md5: null moneytype: 1
+2023-02-16 05:36:59,861 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269570 md5: null moneytype: 1
+2023-02-16 05:39:29,881 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269572 md5: null moneytype: 1
+2023-02-16 05:42:00,000 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269574 md5: null moneytype: 1
+2023-02-16 05:48:14,937 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269579 md5: null moneytype: 1
+2023-02-16 05:49:29,995 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269580 md5: null moneytype: 1
+2023-02-16 05:50:44,884 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269581 md5: null moneytype: 1
+2023-02-16 05:55:44,848 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269585 md5: null moneytype: 1
+2023-02-16 05:56:59,855 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269586 md5: null moneytype: 1
+2023-02-16 05:58:14,933 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269587 md5: null moneytype: 1
+2023-02-16 05:59:30,198 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269588 md5: null moneytype: 1
+2023-02-16 06:00:44,835 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269589 md5: null moneytype: 1
+2023-02-16 06:04:29,996 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269592 md5: null moneytype: 1
+2023-02-16 06:05:44,962 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269593 md5: null moneytype: 1
+2023-02-16 06:06:59,877 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269594 md5: null moneytype: 1
+2023-02-16 06:12:00,030 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269598 md5: null moneytype: 1
+2023-02-16 06:13:14,977 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269599 md5: null moneytype: 1
+2023-02-16 06:14:29,843 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269600 md5: null moneytype: 1
+2023-02-16 06:15:45,037 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269601 md5: null moneytype: 1
+2023-02-16 06:20:44,863 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269605 md5: null moneytype: 1
+2023-02-16 06:23:14,983 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269607 md5: null moneytype: 1
+2023-02-16 06:24:29,816 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269608 md5: null moneytype: 1
+2023-02-16 06:25:44,935 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269609 md5: null moneytype: 1
+2023-02-16 06:28:14,860 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269611 md5: null moneytype: 1
+2023-02-16 06:29:29,942 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269612 md5: null moneytype: 1
+2023-02-16 06:34:29,909 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269616 md5: null moneytype: 1
+2023-02-16 06:35:44,852 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269617 md5: null moneytype: 1
+2023-02-16 06:36:59,864 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269618 md5: null moneytype: 1
+2023-02-16 06:38:15,049 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269619 md5: null moneytype: 1
+2023-02-16 06:39:29,872 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269620 md5: null moneytype: 1
+2023-02-16 06:48:14,959 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269627 md5: null moneytype: 1
+2023-02-16 06:50:44,874 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269629 md5: null moneytype: 1
+2023-02-16 06:54:29,886 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269632 md5: null moneytype: 1
+2023-02-16 06:55:44,915 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269633 md5: null moneytype: 1
+2023-02-16 06:56:59,865 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269634 md5: null moneytype: 1
+2023-02-16 06:58:14,855 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269635 md5: null moneytype: 1
+2023-02-16 07:07:00,090 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269642 md5: null moneytype: 1
+2023-02-16 07:10:44,953 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269645 md5: null moneytype: 1
+2023-02-16 07:22:00,064 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269654 md5: null moneytype: 1
+2023-02-16 07:30:45,202 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269661 md5: null moneytype: 1
+2023-02-16 07:31:59,988 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269662 md5: null moneytype: 1
+2023-02-16 07:33:15,072 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269663 md5: null moneytype: 1
+2023-02-16 07:35:45,078 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269665 md5: null moneytype: 1
+2023-02-16 07:40:45,200 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269669 md5: null moneytype: 1
+2023-02-16 07:43:15,222 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269671 md5: null moneytype: 1
+2023-02-16 07:45:44,907 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269673 md5: null moneytype: 1
+2023-02-16 07:47:00,156 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269674 md5: null moneytype: 1
+2023-02-16 07:48:15,013 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269675 md5: null moneytype: 1
+2023-02-16 07:50:44,897 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269677 md5: null moneytype: 1
+2023-02-16 07:51:59,920 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269678 md5: null moneytype: 1
+2023-02-16 08:04:30,269 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269688 md5: null moneytype: 1
+2023-02-16 08:06:59,912 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269690 md5: null moneytype: 1
+2023-02-16 08:08:15,573 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269691 md5: null moneytype: 1
+2023-02-16 08:09:30,051 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269692 md5: null moneytype: 1
+2023-02-16 08:14:29,982 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269696 md5: null moneytype: 1
+2023-02-16 08:15:45,315 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269697 md5: null moneytype: 1
+2023-02-16 08:18:15,157 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269699 md5: null moneytype: 1
+2023-02-16 08:19:30,448 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269700 md5: null moneytype: 1
+2023-02-16 08:24:30,207 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269704 md5: null moneytype: 1
+2023-02-16 08:25:45,595 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269705 md5: null moneytype: 1
+2023-02-16 08:29:29,969 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269708 md5: null moneytype: 1
+2023-02-16 08:32:00,174 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269710 md5: null moneytype: 1
+2023-02-16 08:33:15,018 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269711 md5: null moneytype: 1
+2023-02-16 08:42:00,100 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269718 md5: null moneytype: 1
+2023-02-16 08:45:45,159 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269721 md5: null moneytype: 1
+2023-02-16 08:47:00,100 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269722 md5: null moneytype: 1
+2023-02-16 08:48:14,944 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269723 md5: null moneytype: 1
+2023-02-16 08:50:45,060 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269725 md5: null moneytype: 1
+2023-02-16 08:52:00,335 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269726 md5: null moneytype: 1
+2023-02-16 08:53:15,344 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269727 md5: null moneytype: 1
+2023-02-16 08:55:45,054 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269729 md5: null moneytype: 1
+2023-02-16 08:57:00,135 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269730 md5: null moneytype: 1
+2023-02-16 08:58:15,580 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269731 md5: null moneytype: 1
+2023-02-16 09:01:59,973 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269734 md5: null moneytype: 1
+2023-02-16 09:03:15,225 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269735 md5: null moneytype: 1
+2023-02-16 09:04:30,283 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269736 md5: null moneytype: 1
+2023-02-16 09:05:45,046 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269737 md5: null moneytype: 1
+2023-02-16 09:15:45,295 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269745 md5: null moneytype: 1
+2023-02-16 09:17:00,040 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269746 md5: null moneytype: 1
+2023-02-16 09:20:44,977 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269749 md5: null moneytype: 1
+2023-02-16 09:21:59,957 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269750 md5: null moneytype: 1
+2023-02-16 09:28:15,468 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269755 md5: null moneytype: 1
+2023-02-16 09:30:45,721 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269757 md5: null moneytype: 1
+2023-02-16 09:34:30,241 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269760 md5: null moneytype: 1
+2023-02-16 09:35:45,356 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269761 md5: null moneytype: 1
+2023-02-16 09:37:00,333 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269762 md5: null moneytype: 1
+2023-02-16 09:38:15,424 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269763 md5: null moneytype: 1
+2023-02-16 09:39:30,187 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269764 md5: null moneytype: 1
+2023-02-16 09:40:45,391 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269765 md5: null moneytype: 1
+2023-02-16 09:42:00,349 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269766 md5: null moneytype: 1
+2023-02-16 09:43:15,191 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269767 md5: null moneytype: 1
+2023-02-16 09:48:15,439 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269771 md5: null moneytype: 1
+2023-02-16 09:49:30,131 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269772 md5: null moneytype: 1
+2023-02-16 09:50:45,143 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269773 md5: null moneytype: 1
+2023-02-16 09:52:00,393 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269774 md5: null moneytype: 1
+2023-02-16 09:54:30,296 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269776 md5: null moneytype: 1
+2023-02-16 09:57:00,389 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269778 md5: null moneytype: 1
+2023-02-16 09:58:15,329 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269779 md5: null moneytype: 1
+2023-02-16 10:02:00,024 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269782 md5: null moneytype: 1
+2023-02-16 10:04:30,025 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269784 md5: null moneytype: 1
+2023-02-16 10:05:45,236 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269785 md5: null moneytype: 1
+2023-02-16 10:09:30,388 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269788 md5: null moneytype: 1
+2023-02-16 10:10:44,999 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269789 md5: null moneytype: 1
+2023-02-16 10:17:00,062 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269794 md5: null moneytype: 1
+2023-02-16 10:18:15,234 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269795 md5: null moneytype: 1
+2023-02-16 10:19:30,262 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269796 md5: null moneytype: 1
+2023-02-16 10:22:00,276 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269798 md5: null moneytype: 1
+2023-02-16 10:24:30,163 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269800 md5: null moneytype: 1
+2023-02-16 10:25:45,241 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269801 md5: null moneytype: 1
+2023-02-16 10:26:59,987 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269802 md5: null moneytype: 1
+2023-02-16 10:28:15,035 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269803 md5: null moneytype: 1
+2023-02-16 10:29:30,419 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269804 md5: null moneytype: 1
+2023-02-16 10:30:45,217 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269805 md5: null moneytype: 1
+2023-02-16 10:32:00,104 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269806 md5: null moneytype: 1
+2023-02-16 10:37:00,419 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269810 md5: null moneytype: 1
+2023-02-16 10:39:30,301 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269812 md5: null moneytype: 1
+2023-02-16 10:43:15,403 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269815 md5: null moneytype: 1
+2023-02-16 10:47:00,443 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269818 md5: null moneytype: 1
+2023-02-16 10:48:15,081 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269819 md5: null moneytype: 1
+2023-02-16 10:52:00,449 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269822 md5: null moneytype: 1
+2023-02-16 10:55:45,096 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269825 md5: null moneytype: 1
+2023-02-16 10:58:15,291 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269827 md5: null moneytype: 1
+2023-02-16 10:59:30,096 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269828 md5: null moneytype: 1
+2023-02-16 11:00:45,384 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269829 md5: null moneytype: 1
+2023-02-16 11:03:15,166 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269831 md5: null moneytype: 1
+2023-02-16 11:08:15,384 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269835 md5: null moneytype: 1
+2023-02-16 11:10:45,120 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269837 md5: null moneytype: 1
+2023-02-16 11:12:00,208 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269838 md5: null moneytype: 1
+2023-02-16 11:13:15,204 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269839 md5: null moneytype: 1
+2023-02-16 11:15:44,957 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269841 md5: null moneytype: 1
+2023-02-16 11:18:15,507 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269843 md5: null moneytype: 1
+2023-02-16 11:24:30,421 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269848 md5: null moneytype: 1
+2023-02-16 11:25:45,422 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269849 md5: null moneytype: 1
+2023-02-16 11:28:15,301 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269851 md5: null moneytype: 1
+2023-02-16 11:29:30,266 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269852 md5: null moneytype: 1
+2023-02-16 11:32:00,123 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269854 md5: null moneytype: 1
+2023-02-16 11:37:00,275 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269858 md5: null moneytype: 1
+2023-02-16 11:39:30,081 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269860 md5: null moneytype: 1
+2023-02-16 11:44:30,370 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269864 md5: null moneytype: 1
+2023-02-16 11:45:45,267 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269865 md5: null moneytype: 1
+2023-02-16 11:47:00,075 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269866 md5: null moneytype: 1
+2023-02-16 11:50:45,297 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269869 md5: null moneytype: 1
+2023-02-16 11:52:00,325 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269870 md5: null moneytype: 1
+2023-02-16 11:55:45,025 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269873 md5: null moneytype: 1
+2023-02-16 12:03:15,251 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269879 md5: null moneytype: 1
+2023-02-16 12:07:00,027 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269882 md5: null moneytype: 1
+2023-02-16 12:19:30,299 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269892 md5: null moneytype: 1
+2023-02-16 12:20:45,352 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269893 md5: null moneytype: 1
+2023-02-16 12:22:00,187 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269894 md5: null moneytype: 1
+2023-02-16 12:33:15,025 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269903 md5: null moneytype: 1
+2023-02-16 12:34:30,311 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269904 md5: null moneytype: 1
+2023-02-16 12:37:00,267 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269906 md5: null moneytype: 1
+2023-02-16 12:38:15,285 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269907 md5: null moneytype: 1
+2023-02-16 12:39:30,325 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269908 md5: null moneytype: 1
+2023-02-16 12:40:45,400 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269909 md5: null moneytype: 1
+2023-02-16 12:43:15,500 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269911 md5: null moneytype: 1
+2023-02-16 12:45:45,616 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269913 md5: null moneytype: 1
+2023-02-16 12:47:00,033 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269914 md5: null moneytype: 1
+2023-02-16 12:52:00,343 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269918 md5: null moneytype: 1
+2023-02-16 12:54:30,112 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269920 md5: null moneytype: 1
+2023-02-16 12:55:45,393 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269921 md5: null moneytype: 1
+2023-02-16 12:57:25,985 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269922 md5: null moneytype: 1
+2023-02-16 12:58:14,915 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269923 md5: null moneytype: 1
+2023-02-16 12:59:30,345 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 269924 md5: null moneytype: 1
+2023-02-16 13:05:48,755 | INFO  | pool-15-thread-21 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 268695 md5: null moneytype: 1
+2023-02-16 13:11:37,336 | INFO  | main | vbee Logging initialized.
+2023-02-16 13:11:37,341 | INFO  | main | vbee VBEE INIT
+2023-02-16 13:11:38,488 | INFO  | main | vbee luckyReferenceId: 0
+2023-02-16 13:11:38,488 | INFO  | main | vbee moneyVinReferenceId: 262208
+2023-02-16 13:11:38,488 | INFO  | main | vbee moneyXuReferenceId: 0
+2023-02-16 13:11:38,490 | INFO  | main | vbee STARTING RABBITMQ ...!!!
+2023-02-16 13:11:38,595 | INFO  | main | vbee queueName:queue_server_info id:1 path:com.vinplay.vbee.rmq.serverinfo.processor.LogCCUProcessor
+2023-02-16 13:11:38,687 | INFO  | main | vbee Start 1 queue_server_info, num commands= 1 success
+2023-02-16 13:11:38,687 | INFO  | main | vbee queueName:queue_payment id:10 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyInGameProcessor
+2023-02-16 13:11:38,687 | INFO  | main | vbee queueName:queue_payment id:12 path:com.vinplay.vbee.rmq.payment.processor.FreezeMoneyInGameProcessor
+2023-02-16 13:11:38,687 | INFO  | main | vbee queueName:queue_payment id:13 path:com.vinplay.vbee.rmq.payment.processor.RestoreMoneyInGameProcessor
+2023-02-16 13:11:38,687 | INFO  | main | vbee queueName:queue_payment id:14 path:com.vinplay.vbee.rmq.payment.processor.SafeMoneyProcessor
+2023-02-16 13:11:38,687 | INFO  | main | vbee queueName:queue_payment id:16 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyProcessor
+2023-02-16 13:11:38,687 | INFO  | main | vbee queueName:queue_payment id:18 path:com.vinplay.vbee.rmq.payment.processor.UpdateVippointProcessor
+2023-02-16 13:11:38,687 | INFO  | main | vbee queueName:queue_payment id:19 path:com.vinplay.vbee.rmq.payment.processor.NoHuGameBaiProcessor
+2023-02-16 13:11:38,726 | INFO  | main | vbee Start 50 queue_payment, num commands= 7 success
+2023-02-16 13:11:38,727 | INFO  | main | vbee queueName:queue_payment_minigame id:30 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyProcessor
+2023-02-16 13:11:38,758 | INFO  | main | vbee Start 50 queue_payment_minigame, num commands= 1 success
+2023-02-16 13:11:38,758 | INFO  | main | vbee queueName:queue_payment_gamebai id:40 path:com.vinplay.vbee.rmq.payment.processor.UpdateMoneyInGameProcessor
+2023-02-16 13:11:38,758 | INFO  | main | vbee queueName:queue_payment_gamebai id:41 path:com.vinplay.vbee.rmq.payment.processor.FreezeMoneyInGameProcessor
+2023-02-16 13:11:38,759 | INFO  | main | vbee queueName:queue_payment_gamebai id:42 path:com.vinplay.vbee.rmq.payment.processor.RestoreMoneyInGameProcessor
+2023-02-16 13:11:38,772 | INFO  | main | vbee Start 1 queue_payment_gamebai, num commands= 3 success
+2023-02-16 13:11:38,772 | INFO  | main | vbee queueName:queue_pot id:106 path:com.vinplay.vbee.rmq.minigame.processor.UpdatePotProcessor
+2023-02-16 13:11:38,806 | INFO  | main | vbee Start 10 queue_pot, num commands= 1 success
+2023-02-16 13:11:38,806 | INFO  | main | vbee queueName:queue_fund id:110 path:com.vinplay.vbee.rmq.minigame.processor.UpdateFundProcessor
+2023-02-16 13:11:38,849 | INFO  | main | vbee Start 10 queue_fund, num commands= 1 success
+2023-02-16 13:11:38,849 | INFO  | main | vbee queueName:queue_vqmm id:105 path:com.vinplay.vbee.rmq.minigame.processor.SaveResultLuckyProcessor
+2023-02-16 13:11:38,865 | INFO  | main | vbee Start 1 queue_vqmm, num commands= 1 success
+2023-02-16 13:11:38,866 | INFO  | main | vbee queueName:queue_taixiu id:100 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionTaiXiuProcessor
+2023-02-16 13:11:38,866 | INFO  | main | vbee queueName:queue_taixiu id:101 path:com.vinplay.vbee.rmq.minigame.processor.SaveResultTaiXiuProcessor
+2023-02-16 13:11:38,866 | INFO  | main | vbee queueName:queue_taixiu id:102 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionDetailTaiXiuProcessor
+2023-02-16 13:11:38,866 | INFO  | main | vbee queueName:queue_taixiu id:103 path:com.vinplay.vbee.rmq.minigame.processor.UpdateTransactionDetailTaiXiuProcessor
+2023-02-16 13:11:38,866 | INFO  | main | vbee queueName:queue_taixiu id:104 path:com.vinplay.vbee.rmq.minigame.processor.ThanhDuProcessor
+2023-02-16 13:11:38,866 | INFO  | main | vbee queueName:queue_taixiu id:105 path:com.vinplay.vbee.rmq.minigame.processor.SaveResultTaiXiuMd5Processor
+2023-02-16 13:11:38,919 | INFO  | main | vbee Start 10 queue_taixiu, num commands= 6 success
+2023-02-16 13:11:38,919 | INFO  | main | vbee queueName:queue_taixiu_md5 id:1100 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionTaiXiuMd5Processor
+2023-02-16 13:11:38,919 | INFO  | main | vbee queueName:queue_taixiu_md5 id:1101 path:com.vinplay.vbee.rmq.minigame.processor.SaveResultTaiXiuMd5Processor
+2023-02-16 13:11:38,920 | INFO  | main | vbee queueName:queue_taixiu_md5 id:1102 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionDetailTaiXiuMd5Processor
+2023-02-16 13:11:38,920 | INFO  | main | vbee queueName:queue_taixiu_md5 id:1103 path:com.vinplay.vbee.rmq.minigame.processor.UpdateTransactionDetailTaiXiuMd5Processor
+2023-02-16 13:11:38,966 | INFO  | main | vbee Start 10 queue_taixiu_md5, num commands= 4 success
+2023-02-16 13:11:38,966 | INFO  | main | vbee queueName:queue_minipoker id:111 path:com.vinplay.vbee.rmq.minigame.processor.LogMiniPokerProcessor
+2023-02-16 13:11:39,012 | INFO  | main | vbee Start 10 queue_minipoker, num commands= 1 success
+2023-02-16 13:11:39,012 | INFO  | main | vbee queueName:queue_pokego id:134 path:com.vinplay.vbee.rmq.minigame.processor.LogPokeGoProcessor
+2023-02-16 13:11:39,088 | INFO  | main | vbee Start 10 queue_pokego, num commands= 1 success
+2023-02-16 13:11:39,089 | INFO  | main | vbee queueName:queue_galaxy id:141 path:com.vinplay.vbee.rmq.minigame.processor.LogGalaxyProcessor
+2023-02-16 13:11:39,134 | INFO  | main | vbee Start 10 queue_galaxy, num commands= 1 success
+2023-02-16 13:11:39,134 | INFO  | main | vbee queueName:queue_caothap id:112 path:com.vinplay.vbee.rmq.minigame.processor.LogCaoThapProcessor
+2023-02-16 13:11:39,134 | INFO  | main | vbee queueName:queue_caothap id:113 path:com.vinplay.vbee.rmq.minigame.processor.LogCaoThapWinProcessor
+2023-02-16 13:11:39,218 | INFO  | main | vbee Start 10 queue_caothap, num commands= 2 success
+2023-02-16 13:11:39,218 | INFO  | main | vbee queueName:queue_baucua id:130 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionDetailBauCuaProcessor
+2023-02-16 13:11:39,218 | INFO  | main | vbee queueName:queue_baucua id:131 path:com.vinplay.vbee.rmq.minigame.processor.SaveTransactionBauCuaProcessor
+2023-02-16 13:11:39,218 | INFO  | main | vbee queueName:queue_baucua id:132 path:com.vinplay.vbee.rmq.minigame.processor.SaveResultBauCuaProcessor
+2023-02-16 13:11:39,218 | INFO  | main | vbee queueName:queue_baucua id:133 path:com.vinplay.vbee.rmq.minigame.processor.UpdateToiChonCaProcessor
+2023-02-16 13:11:39,243 | INFO  | main | vbee Start 10 queue_baucua, num commands= 4 success
+2023-02-16 13:11:39,243 | INFO  | main | vbee queueName:queue_hu_gamebai id:401 path:com.vinplay.vbee.rmq.gamebai.processor.CongTienHuGameBaiProcessor
+2023-02-16 13:11:39,243 | INFO  | main | vbee queueName:queue_hu_gamebai id:402 path:com.vinplay.vbee.rmq.gamebai.processor.SaveLogNoHuGameBaiProcessor
+2023-02-16 13:11:39,273 | INFO  | main | vbee Start 1 queue_hu_gamebai, num commands= 2 success
+2023-02-16 13:11:39,273 | INFO  | main | vbee queueName:queue_log_gamebai id:501 path:com.vinplay.vbee.rmq.gamebai.processor.SaveLogGameByNickNameProcessor
+2023-02-16 13:11:39,273 | INFO  | main | vbee queueName:queue_log_gamebai id:502 path:com.vinplay.vbee.rmq.gamebai.processor.SaveLogGameDetailProcessor
+2023-02-16 13:11:39,371 | INFO  | main | vbee Start 10 queue_log_gamebai, num commands= 2 success
+2023-02-16 13:11:39,372 | INFO  | main | vbee queueName:queue_log_money id:601 path:com.vinplay.vbee.rmq.log.processor.LogMoneyUserProcessor
+2023-02-16 13:11:39,467 | INFO  | main | vbee Start 50 queue_log_money, num commands= 1 success
+2023-02-16 13:11:39,467 | INFO  | main | vbee queueName:queue_log_report_user_balance id:602 path:com.vinplay.vbee.rmq.loguserinday.LogSumReportUserSQLProcessor
+2023-02-16 13:11:39,527 | INFO  | main | vbee Start 50 queue_log_report_user_balance, num commands= 1 success
+2023-02-16 13:11:39,528 | INFO  | main | vbee queueName:queue_log_chuyen_tien_dai_ly id:602 path:com.vinplay.vbee.rmq.log.processor.LogChuyenTienDaiLyProcessor
+2023-02-16 13:11:39,528 | INFO  | main | vbee queueName:queue_log_chuyen_tien_dai_ly id:11 path:com.vinplay.vbee.rmq.payment.processor.FreezeMoneyTranferAgentProcessor
+2023-02-16 13:11:39,528 | INFO  | main | vbee queueName:queue_log_chuyen_tien_dai_ly id:15 path:com.vinplay.vbee.rmq.payment.processor.RestoreMoneyTranferAgentProcessor
+2023-02-16 13:11:39,583 | INFO  | main | vbee Start 10 queue_log_chuyen_tien_dai_ly, num commands= 3 success
+2023-02-16 13:11:39,583 | INFO  | main | vbee queueName:queue_kho_bau id:135 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-02-16 13:11:39,621 | INFO  | main | vbee Start 10 queue_kho_bau, num commands= 1 success
+2023-02-16 13:11:39,621 | INFO  | main | vbee queueName:queue_audition id:8001 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-02-16 13:11:39,644 | INFO  | main | vbee Start 10 queue_audition, num commands= 1 success
+2023-02-16 13:11:39,644 | INFO  | main | vbee queueName:queue_chiemtinh id:8010 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-02-16 13:11:39,707 | INFO  | main | vbee Start 10 queue_chiemtinh, num commands= 1 success
+2023-02-16 13:11:39,708 | INFO  | main | vbee queueName:queue_bikini id:8011 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-02-16 13:11:39,735 | INFO  | main | vbee Start 10 queue_bikini, num commands= 1 success
+2023-02-16 13:11:39,735 | INFO  | main | vbee queueName:queue_range_rover id:8002 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-02-16 13:11:39,808 | INFO  | main | vbee Start 10 queue_range_rover, num commands= 1 success
+2023-02-16 13:11:39,808 | INFO  | main | vbee queueName:queue_maybach id:8003 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-02-16 13:11:39,915 | INFO  | main | vbee Start 10 queue_maybach, num commands= 1 success
+2023-02-16 13:11:39,915 | INFO  | main | vbee queueName:queue_tamhung id:8004 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-02-16 13:11:39,954 | INFO  | main | vbee Start 10 queue_tamhung, num commands= 1 success
+2023-02-16 13:11:39,954 | INFO  | main | vbee queueName:queue_roll_roye id:8005 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-02-16 13:11:39,978 | INFO  | main | vbee Start 10 queue_roll_roye, num commands= 1 success
+2023-02-16 13:11:39,978 | INFO  | main | vbee queueName:queue_benley id:8006 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-02-16 13:11:40,024 | INFO  | main | vbee Start 10 queue_benley, num commands= 1 success
+2023-02-16 13:11:40,024 | INFO  | main | vbee queueName:queue_avengers id:136 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-02-16 13:11:40,106 | INFO  | main | vbee Start 10 queue_avengers, num commands= 1 success
+2023-02-16 13:11:40,107 | INFO  | main | vbee queueName:queue_spartan id:10136 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-02-16 13:11:40,198 | INFO  | main | vbee Start 10 queue_spartan, num commands= 1 success
+2023-02-16 13:11:40,198 | INFO  | main | vbee queueName:queue_my_nhan_ngu id:137 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-02-16 13:11:40,250 | INFO  | main | vbee Start 10 queue_my_nhan_ngu, num commands= 1 success
+2023-02-16 13:11:40,250 | INFO  | main | vbee queueName:queue_nu_diep_vien id:138 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-02-16 13:11:40,272 | INFO  | main | vbee Start 10 queue_nu_diep_vien, num commands= 1 success
+2023-02-16 13:11:40,272 | INFO  | main | vbee queueName:queue_vqv id:139 path:com.vinplay.vbee.rmq.slot.processor.LogSlotMachineProcessor
+2023-02-16 13:11:40,314 | INFO  | main | vbee Start 10 queue_vqv, num commands= 1 success
+2023-02-16 13:11:40,314 | INFO  | main | vbee queueName:queue_log_nohu id:140 path:com.vinplay.vbee.rmq.slot.processor.LogNoHuSlotProcessor
+2023-02-16 13:11:40,339 | INFO  | main | vbee Start 10 queue_log_nohu, num commands= 1 success
+2023-02-16 13:11:40,339 | INFO  | main | vbee queueName:queue_report id:701 path:com.vinplay.vbee.rmq.report.processor.ReportMoneyProcessor
+2023-02-16 13:11:40,399 | INFO  | main | vbee Start 10 queue_report, num commands= 1 success
+2023-02-16 13:11:40,399 | INFO  | main | vbee queueName:queue_vippoint_event id:801 path:com.vinplay.vbee.rmq.vippoint.processor.UpdateVippointEventProcessor
+2023-02-16 13:11:40,442 | INFO  | main | vbee Start 10 queue_vippoint_event, num commands= 1 success
+2023-02-16 13:11:40,442 | INFO  | main | vbee queueName:queue_login_info id:50 path:com.vinplay.vbee.rmq.statistic.processor.LoginPortalInfoProcessor
+2023-02-16 13:11:40,458 | INFO  | main | vbee Start 5 queue_login_info, num commands= 1 success
+2023-02-16 13:11:40,458 | INFO  | main | vbee queueName:queue_user_mission id:901 path:com.vinplay.vbee.rmq.userMission.processor.UpdateUserMissionProcessor
+2023-02-16 13:11:40,458 | INFO  | main | vbee queueName:queue_user_mission id:902 path:com.vinplay.vbee.rmq.userMission.processor.LogReceivedRewardMissionProcessor
+2023-02-16 13:11:40,480 | INFO  | main | vbee Start 1 queue_user_mission, num commands= 2 success
+2023-02-16 13:11:40,480 | INFO  | main | vbee queueName:queue_log_mission id:902 path:com.vinplay.vbee.rmq.userMission.processor.LogReceivedRewardMissionProcessor
+2023-02-16 13:11:40,493 | INFO  | main | vbee Start 1 queue_log_mission, num commands= 1 success
+2023-02-16 13:11:40,493 | INFO  | main | vbee queueName:queue_log_money_extra id:1001 path:com.vinplay.vbee.rmq.log.processor.LogMoneyUserExtraProcessor
+2023-02-16 13:11:40,581 | INFO  | main | vbee Start 50 queue_log_money_extra, num commands= 1 success
+2023-02-16 13:11:40,581 | INFO  | main | vbee queueName:queue_gift_code id:1200 path:com.vinplay.vbee.rmq.giftcode.processor.UpdateGiftCodeStoreProcessor
+2023-02-16 13:11:40,581 | INFO  | main | vbee queueName:queue_gift_code id:1201 path:com.vinplay.vbee.rmq.giftcode.processor.LockGiftCodeProcessor
+2023-02-16 13:11:40,605 | INFO  | main | vbee Start 1 queue_gift_code, num commands= 2 success
+2023-02-16 13:11:40,606 | INFO  | main | vbee queueName:queue_log_sent_sms id:1310 path:com.vinplay.vbee.rmq.processor.sentsms.LogSentSmsProcessor
+2023-02-16 13:11:40,625 | INFO  | main | vbee Start 1 queue_log_sent_sms, num commands= 1 success
+2023-02-16 13:11:40,625 | INFO  | main | vbee RABBITMQ Started ...!!!
+2023-02-16 13:18:18,091 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270130 md5: null moneytype: 1
+2023-02-16 13:22:03,280 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270133 md5: null moneytype: 1
+2023-02-16 13:23:18,384 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270134 md5: null moneytype: 1
+2023-02-16 13:24:33,330 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270135 md5: null moneytype: 1
+2023-02-16 13:25:48,029 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270136 md5: null moneytype: 1
+2023-02-16 13:28:18,173 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270138 md5: null moneytype: 1
+2023-02-16 13:30:48,557 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270140 md5: null moneytype: 1
+2023-02-16 13:33:18,223 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270142 md5: null moneytype: 1
+2023-02-16 13:35:48,064 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270144 md5: null moneytype: 1
+2023-02-16 13:38:17,953 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270146 md5: null moneytype: 1
+2023-02-16 13:39:33,060 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270147 md5: null moneytype: 1
+2023-02-16 13:40:48,287 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270148 md5: null moneytype: 1
+2023-02-16 13:42:03,251 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270149 md5: null moneytype: 1
+2023-02-16 13:45:48,008 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270152 md5: null moneytype: 1
+2023-02-16 13:48:18,021 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270154 md5: null moneytype: 1
+2023-02-16 13:49:33,374 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270155 md5: null moneytype: 1
+2023-02-16 13:50:47,995 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270156 md5: null moneytype: 1
+2023-02-16 13:52:03,101 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270157 md5: null moneytype: 1
+2023-02-16 13:55:48,326 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270160 md5: null moneytype: 1
+2023-02-16 13:57:03,493 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270161 md5: null moneytype: 1
+2023-02-16 13:58:18,185 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270162 md5: null moneytype: 1
+2023-02-16 13:59:33,027 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270163 md5: null moneytype: 1
+2023-02-16 14:02:02,999 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270165 md5: null moneytype: 1
+2023-02-16 14:03:18,003 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270166 md5: null moneytype: 1
+2023-02-16 14:04:33,326 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270167 md5: null moneytype: 1
+2023-02-16 14:05:48,272 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270168 md5: null moneytype: 1
+2023-02-16 14:07:03,489 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270169 md5: null moneytype: 1
+2023-02-16 14:08:18,280 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270170 md5: null moneytype: 1
+2023-02-16 14:09:33,398 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270171 md5: null moneytype: 1
+2023-02-16 14:10:48,226 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270172 md5: null moneytype: 1
+2023-02-16 14:15:48,221 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270176 md5: null moneytype: 1
+2023-02-16 14:18:18,366 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270178 md5: null moneytype: 1
+2023-02-16 14:19:33,114 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270179 md5: null moneytype: 1
+2023-02-16 14:20:48,182 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270180 md5: null moneytype: 1
+2023-02-16 14:23:18,083 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270182 md5: null moneytype: 1
+2023-02-16 14:27:03,315 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270185 md5: null moneytype: 1
+2023-02-16 14:28:18,118 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270186 md5: null moneytype: 1
+2023-02-16 14:29:33,050 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270187 md5: null moneytype: 1
+2023-02-16 14:30:48,346 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270188 md5: null moneytype: 1
+2023-02-16 14:33:18,552 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270190 md5: null moneytype: 1
+2023-02-16 14:34:33,430 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270191 md5: null moneytype: 1
+2023-02-16 14:37:03,132 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270193 md5: null moneytype: 1
+2023-02-16 14:38:18,192 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270194 md5: null moneytype: 1
+2023-02-16 14:42:03,398 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270197 md5: null moneytype: 1
+2023-02-16 14:49:33,469 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270203 md5: null moneytype: 1
+2023-02-16 14:50:48,275 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270204 md5: null moneytype: 1
+2023-02-16 14:53:18,302 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270206 md5: null moneytype: 1
+2023-02-16 15:05:48,619 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270216 md5: null moneytype: 1
+2023-02-16 15:08:17,999 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270218 md5: null moneytype: 1
+2023-02-16 15:09:33,314 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270219 md5: null moneytype: 1
+2023-02-16 15:10:48,197 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270220 md5: null moneytype: 1
+2023-02-16 15:13:18,306 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270222 md5: null moneytype: 1
+2023-02-16 15:14:33,067 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270223 md5: null moneytype: 1
+2023-02-16 15:17:03,247 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270225 md5: null moneytype: 1
+2023-02-16 15:18:17,992 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270226 md5: null moneytype: 1
+2023-02-16 15:20:48,191 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270228 md5: null moneytype: 1
+2023-02-16 15:23:18,083 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270230 md5: null moneytype: 1
+2023-02-16 15:25:48,383 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270232 md5: null moneytype: 1
+2023-02-16 15:27:03,424 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270233 md5: null moneytype: 1
+2023-02-16 15:28:18,192 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270234 md5: null moneytype: 1
+2023-02-16 15:29:33,414 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270235 md5: null moneytype: 1
+2023-02-16 15:30:48,058 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270236 md5: null moneytype: 1
+2023-02-16 15:33:18,048 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270238 md5: null moneytype: 1
+2023-02-16 15:34:33,264 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270239 md5: null moneytype: 1
+2023-02-16 15:37:03,570 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270241 md5: null moneytype: 1
+2023-02-16 15:38:18,385 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270242 md5: null moneytype: 1
+2023-02-16 15:40:48,191 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270244 md5: null moneytype: 1
+2023-02-16 15:43:18,297 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270246 md5: null moneytype: 1
+2023-02-16 15:47:03,451 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270249 md5: null moneytype: 1
+2023-02-16 15:52:03,330 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270253 md5: null moneytype: 1
+2023-02-16 15:53:17,975 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270254 md5: null moneytype: 1
+2023-02-16 15:57:03,274 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270257 md5: null moneytype: 1
+2023-02-16 15:59:33,370 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270259 md5: null moneytype: 1
+2023-02-16 16:00:48,444 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270260 md5: null moneytype: 1
+2023-02-16 16:02:03,384 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270261 md5: null moneytype: 1
+2023-02-16 16:04:33,225 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270263 md5: null moneytype: 1
+2023-02-16 16:07:03,138 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270265 md5: null moneytype: 1
+2023-02-16 16:10:48,581 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270268 md5: null moneytype: 1
+2023-02-16 16:12:03,310 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270269 md5: null moneytype: 1
+2023-02-16 16:14:32,978 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270271 md5: null moneytype: 1
+2023-02-16 16:15:48,290 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270272 md5: null moneytype: 1
+2023-02-16 16:17:03,057 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270273 md5: null moneytype: 1
+2023-02-16 16:18:18,341 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270274 md5: null moneytype: 1
+2023-02-16 16:19:33,486 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270275 md5: null moneytype: 1
+2023-02-16 16:20:48,101 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270276 md5: null moneytype: 1
+2023-02-16 16:22:03,350 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270277 md5: null moneytype: 1
+2023-02-16 16:23:18,061 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270278 md5: null moneytype: 1
+2023-02-16 16:29:33,517 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270283 md5: null moneytype: 1
+2023-02-16 16:32:03,361 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270285 md5: null moneytype: 1
+2023-02-16 16:35:48,527 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270288 md5: null moneytype: 1
+2023-02-16 16:38:18,339 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270290 md5: null moneytype: 1
+2023-02-16 16:39:33,284 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270291 md5: null moneytype: 1
+2023-02-16 16:42:03,412 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270293 md5: null moneytype: 1
+2023-02-16 16:44:33,401 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270295 md5: null moneytype: 1
+2023-02-16 16:50:48,280 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270300 md5: null moneytype: 1
+2023-02-16 16:55:48,278 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270304 md5: null moneytype: 1
+2023-02-16 16:58:18,110 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270306 md5: null moneytype: 1
+2023-02-16 16:59:33,482 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270307 md5: null moneytype: 1
+2023-02-16 17:00:48,254 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270308 md5: null moneytype: 1
+2023-02-16 17:04:33,466 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270311 md5: null moneytype: 1
+2023-02-16 17:05:48,440 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270312 md5: null moneytype: 1
+2023-02-16 17:07:03,420 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270313 md5: null moneytype: 1
+2023-02-16 17:12:03,316 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270317 md5: null moneytype: 1
+2023-02-16 17:13:18,349 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270318 md5: null moneytype: 1
+2023-02-16 17:14:33,231 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270319 md5: null moneytype: 1
+2023-02-16 17:20:48,274 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270324 md5: null moneytype: 1
+2023-02-16 17:24:33,138 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270327 md5: null moneytype: 1
+2023-02-16 17:25:48,102 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270328 md5: null moneytype: 1
+2023-02-16 17:30:48,438 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270332 md5: null moneytype: 1
+2023-02-16 17:35:48,236 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270336 md5: null moneytype: 1
+2023-02-16 17:43:18,026 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270342 md5: null moneytype: 1
+2023-02-16 17:45:48,186 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270344 md5: null moneytype: 1
+2023-02-16 17:47:03,102 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270345 md5: null moneytype: 1
+2023-02-16 17:50:48,099 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270348 md5: null moneytype: 1
+2023-02-16 17:52:03,021 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270349 md5: null moneytype: 1
+2023-02-16 17:53:18,022 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270350 md5: null moneytype: 1
+2023-02-16 17:54:33,117 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270351 md5: null moneytype: 1
+2023-02-16 17:59:33,276 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270355 md5: null moneytype: 1
+2023-02-16 18:00:48,070 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270356 md5: null moneytype: 1
+2023-02-16 18:04:33,106 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270359 md5: null moneytype: 1
+2023-02-16 18:08:18,450 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270362 md5: null moneytype: 1
+2023-02-16 18:14:33,461 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270367 md5: null moneytype: 1
+2023-02-16 18:19:33,297 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270371 md5: null moneytype: 1
+2023-02-16 18:20:48,469 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270372 md5: null moneytype: 1
+2023-02-16 18:22:03,499 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270373 md5: null moneytype: 1
+2023-02-16 18:25:48,381 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270376 md5: null moneytype: 1
+2023-02-16 18:27:03,184 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270377 md5: null moneytype: 1
+2023-02-16 18:28:18,004 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270378 md5: null moneytype: 1
+2023-02-16 18:29:33,356 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270379 md5: null moneytype: 1
+2023-02-16 18:30:48,417 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270380 md5: null moneytype: 1
+2023-02-16 18:32:03,229 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270381 md5: null moneytype: 1
+2023-02-16 18:33:18,500 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270382 md5: null moneytype: 1
+2023-02-16 18:35:48,184 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270384 md5: null moneytype: 1
+2023-02-16 18:37:03,463 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270385 md5: null moneytype: 1
+2023-02-16 18:39:33,254 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270387 md5: null moneytype: 1
+2023-02-16 18:45:48,645 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270392 md5: null moneytype: 1
+2023-02-16 18:48:18,450 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270394 md5: null moneytype: 1
+2023-02-16 18:49:33,067 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270395 md5: null moneytype: 1
+2023-02-16 18:50:48,333 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270396 md5: null moneytype: 1
+2023-02-16 18:59:33,352 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270403 md5: null moneytype: 1
+2023-02-16 19:02:03,089 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270405 md5: null moneytype: 1
+2023-02-16 19:08:18,388 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270410 md5: null moneytype: 1
+2023-02-16 19:10:48,328 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270412 md5: null moneytype: 1
+2023-02-16 19:12:03,278 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270413 md5: null moneytype: 1
+2023-02-16 19:14:33,628 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270415 md5: null moneytype: 1
+2023-02-16 19:15:48,545 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270416 md5: null moneytype: 1
+2023-02-16 19:22:03,088 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270421 md5: null moneytype: 1
+2023-02-16 19:23:18,311 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270422 md5: null moneytype: 1
+2023-02-16 19:25:48,614 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270424 md5: null moneytype: 1
+2023-02-16 19:27:03,277 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270425 md5: null moneytype: 1
+2023-02-16 19:30:48,412 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270428 md5: null moneytype: 1
+2023-02-16 19:32:03,153 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270429 md5: null moneytype: 1
+2023-02-16 19:34:33,125 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270431 md5: null moneytype: 1
+2023-02-16 19:37:03,379 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270433 md5: null moneytype: 1
+2023-02-16 19:43:18,146 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270438 md5: null moneytype: 1
+2023-02-16 19:45:48,405 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270440 md5: null moneytype: 1
+2023-02-16 19:48:18,315 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270442 md5: null moneytype: 1
+2023-02-16 19:53:18,005 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270446 md5: null moneytype: 1
+2023-02-16 19:54:33,054 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270447 md5: null moneytype: 1
+2023-02-16 19:58:18,485 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270450 md5: null moneytype: 1
+2023-02-16 20:00:48,084 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270452 md5: null moneytype: 1
+2023-02-16 20:02:03,517 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270453 md5: null moneytype: 1
+2023-02-16 20:04:33,416 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270455 md5: null moneytype: 1
+2023-02-16 20:05:48,224 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270456 md5: null moneytype: 1
+2023-02-16 20:07:03,187 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270457 md5: null moneytype: 1
+2023-02-16 20:08:18,391 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270458 md5: null moneytype: 1
+2023-02-16 20:12:03,037 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270461 md5: null moneytype: 1
+2023-02-16 20:13:18,183 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270462 md5: null moneytype: 1
+2023-02-16 20:14:34,010 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270463 md5: null moneytype: 1
+2023-02-16 20:17:03,284 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270465 md5: null moneytype: 1
+2023-02-16 20:19:33,244 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270467 md5: null moneytype: 1
+2023-02-16 20:25:48,419 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270472 md5: null moneytype: 1
+2023-02-16 20:27:03,276 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270473 md5: null moneytype: 1
+2023-02-16 20:29:33,255 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270475 md5: null moneytype: 1
+2023-02-16 20:30:48,635 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270476 md5: null moneytype: 1
+2023-02-16 20:33:17,991 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270478 md5: null moneytype: 1
+2023-02-16 20:34:33,084 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270479 md5: null moneytype: 1
+2023-02-16 20:35:48,471 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270480 md5: null moneytype: 1
+2023-02-16 20:38:17,997 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270482 md5: null moneytype: 1
+2023-02-16 20:39:33,255 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270483 md5: null moneytype: 1
+2023-02-16 20:42:03,164 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270485 md5: null moneytype: 1
+2023-02-16 20:43:18,296 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270486 md5: null moneytype: 1
+2023-02-16 20:50:48,261 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270492 md5: null moneytype: 1
+2023-02-16 20:52:03,624 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270493 md5: null moneytype: 1
+2023-02-16 20:53:18,386 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270494 md5: null moneytype: 1
+2023-02-16 20:55:48,403 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270496 md5: null moneytype: 1
+2023-02-16 20:57:03,377 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270497 md5: null moneytype: 1
+2023-02-16 21:02:03,440 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270501 md5: null moneytype: 1
+2023-02-16 21:04:33,157 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270503 md5: null moneytype: 1
+2023-02-16 21:05:48,268 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270504 md5: null moneytype: 1
+2023-02-16 21:07:03,069 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270505 md5: null moneytype: 1
+2023-02-16 21:09:33,293 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270507 md5: null moneytype: 1
+2023-02-16 21:12:03,241 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270509 md5: null moneytype: 1
+2023-02-16 21:13:18,239 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270510 md5: null moneytype: 1
+2023-02-16 21:14:32,991 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270511 md5: null moneytype: 1
+2023-02-16 21:17:03,226 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270513 md5: null moneytype: 1
+2023-02-16 21:19:33,682 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270515 md5: null moneytype: 1
+2023-02-16 21:25:48,218 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270520 md5: null moneytype: 1
+2023-02-16 21:28:18,092 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270522 md5: null moneytype: 1
+2023-02-16 21:32:03,309 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270525 md5: null moneytype: 1
+2023-02-16 21:35:48,715 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270528 md5: null moneytype: 1
+2023-02-16 21:39:33,364 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270531 md5: null moneytype: 1
+2023-02-16 21:43:18,013 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270534 md5: null moneytype: 1
+2023-02-16 21:44:33,461 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270535 md5: null moneytype: 1
+2023-02-16 21:47:03,328 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270537 md5: null moneytype: 1
+2023-02-16 21:49:33,047 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270539 md5: null moneytype: 1
+2023-02-16 21:50:48,331 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270540 md5: null moneytype: 1
+2023-02-16 21:52:03,828 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270541 md5: null moneytype: 1
+2023-02-16 21:54:33,322 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270543 md5: null moneytype: 1
+2023-02-16 21:57:03,290 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270545 md5: null moneytype: 1
+2023-02-16 21:58:18,042 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270546 md5: null moneytype: 1
+2023-02-16 22:02:03,374 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270549 md5: null moneytype: 1
+2023-02-16 22:03:18,048 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270550 md5: null moneytype: 1
+2023-02-16 22:05:48,176 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270552 md5: null moneytype: 1
+2023-02-16 22:09:33,210 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270555 md5: null moneytype: 1
+2023-02-16 22:12:03,413 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270557 md5: null moneytype: 1
+2023-02-16 22:13:18,133 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270558 md5: null moneytype: 1
+2023-02-16 22:15:48,329 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270560 md5: null moneytype: 1
+2023-02-16 22:18:18,514 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270562 md5: null moneytype: 1
+2023-02-16 22:20:48,340 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270564 md5: null moneytype: 1
+2023-02-16 22:22:03,237 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270565 md5: null moneytype: 1
+2023-02-16 22:23:18,110 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270566 md5: null moneytype: 1
+2023-02-16 22:24:33,407 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270567 md5: null moneytype: 1
+2023-02-16 22:28:18,497 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270570 md5: null moneytype: 1
+2023-02-16 22:29:33,229 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270571 md5: null moneytype: 1
+2023-02-16 22:30:48,318 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270572 md5: null moneytype: 1
+2023-02-16 22:32:03,479 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270573 md5: null moneytype: 1
+2023-02-16 22:34:33,144 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270575 md5: null moneytype: 1
+2023-02-16 22:40:48,677 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270580 md5: null moneytype: 1
+2023-02-16 22:42:03,112 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270581 md5: null moneytype: 1
+2023-02-16 22:43:18,395 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270582 md5: null moneytype: 1
+2023-02-16 22:44:33,204 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270583 md5: null moneytype: 1
+2023-02-16 22:45:48,172 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270584 md5: null moneytype: 1
+2023-02-16 22:47:03,340 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270585 md5: null moneytype: 1
+2023-02-16 22:48:17,994 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270586 md5: null moneytype: 1
+2023-02-16 22:49:33,372 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270587 md5: null moneytype: 1
+2023-02-16 22:50:48,074 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270588 md5: null moneytype: 1
+2023-02-16 22:52:03,471 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270589 md5: null moneytype: 1
+2023-02-16 22:54:33,113 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270591 md5: null moneytype: 1
+2023-02-16 22:57:03,547 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270593 md5: null moneytype: 1
+2023-02-16 22:58:18,212 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270594 md5: null moneytype: 1
+2023-02-16 22:59:33,136 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270595 md5: null moneytype: 1
+2023-02-16 23:00:48,415 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270596 md5: null moneytype: 1
+2023-02-16 23:04:33,092 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270599 md5: null moneytype: 1
+2023-02-16 23:05:48,129 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270600 md5: null moneytype: 1
+2023-02-16 23:07:03,349 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270601 md5: null moneytype: 1
+2023-02-16 23:08:18,041 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270602 md5: null moneytype: 1
+2023-02-16 23:09:33,407 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270603 md5: null moneytype: 1
+2023-02-16 23:12:03,136 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270605 md5: null moneytype: 1
+2023-02-16 23:14:33,152 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270607 md5: null moneytype: 1
+2023-02-16 23:19:33,090 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270611 md5: null moneytype: 1
+2023-02-16 23:20:48,315 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270612 md5: null moneytype: 1
+2023-02-16 23:24:33,090 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270615 md5: null moneytype: 1
+2023-02-16 23:25:48,066 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270616 md5: null moneytype: 1
+2023-02-16 23:27:03,020 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270617 md5: null moneytype: 1
+2023-02-16 23:28:18,355 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270618 md5: null moneytype: 1
+2023-02-16 23:29:33,702 | INFO  | pool-15-thread-4 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270619 md5: null moneytype: 1
+2023-02-16 23:30:48,099 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270620 md5: null moneytype: 1
+2023-02-16 23:32:03,307 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270621 md5: null moneytype: 1
+2023-02-16 23:34:33,290 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270623 md5: null moneytype: 1
+2023-02-16 23:37:03,458 | INFO  | pool-15-thread-3 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270625 md5: null moneytype: 1
+2023-02-16 23:38:18,192 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270626 md5: null moneytype: 1
+2023-02-16 23:40:48,290 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270628 md5: null moneytype: 1
+2023-02-16 23:42:03,241 | INFO  | pool-15-thread-7 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270629 md5: null moneytype: 1
+2023-02-16 23:44:32,989 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270631 md5: null moneytype: 1
+2023-02-16 23:52:03,156 | INFO  | pool-15-thread-5 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270637 md5: null moneytype: 1
+2023-02-16 23:53:18,154 | INFO  | pool-15-thread-10 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270638 md5: null moneytype: 1
+2023-02-16 23:54:33,395 | INFO  | pool-15-thread-8 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270639 md5: null moneytype: 1
+2023-02-16 23:57:03,342 | INFO  | pool-15-thread-6 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270641 md5: null moneytype: 1
+2023-02-16 23:59:33,398 | INFO  | pool-15-thread-9 | vbee SaveResultTaiXiuProcessor - isMD5: false  referenceId: 270643 md5: null moneytype: 1

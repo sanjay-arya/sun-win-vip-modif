@@ -1,0 +1,26 @@
+{
+  "txcbApp": {
+    "chatbox": {
+      "home": {
+        "title": "Chatboxes",
+        "createLabel": "Add new một Chatbox",
+        "createOrEditLabel": "Add new hoặc cập nhật Chatbox",
+        "notFound": "No Chatboxes found"
+      },
+      "created": "Một Chatbox mới được tạo với định danh {{ param }}",
+      "updated": "Một Chatbox cập nhật với định danh {{ param }}",
+      "deleted": "Một Chatbox đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Chatbox {{ id }}?"
+      },
+      "detail": {
+        "title": "Chatbox"
+      },
+      "label": {
+        "loginname": "Loginname",
+        "message": "Message",
+        "created": "Created"
+      }
+    }
+  }
+}

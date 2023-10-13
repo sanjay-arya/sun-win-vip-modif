@@ -1,0 +1,67 @@
+{
+  "system-config": {
+    "title": "System configuration",
+    "maintenance": {
+      "title": "Current system status",
+      "inactive": "Inactive",
+      "active": "Active"
+    },
+    "chat-bot": {
+      "title": "Current chat bot status",
+      "inactive": "Inactive",
+      "active": "Active"
+    },
+    "game-bot": {
+      "title": "Current game bot status",
+      "inactive": "Inactive",
+      "active": "Active"
+    },
+    "upload-chat": {
+      "title": "Upload chat file",
+      "choose-file": "Choose file",
+      "submit": "Submit"
+    },
+    "upload-bot": {
+      "title": "Upload bot file",
+      "choose-file": "Choose file",
+      "submit": "Submit"
+    },
+    "download-chat": {
+      "title": "Download chat file",
+      "download": "Download"
+    },
+    "download-bot": {
+      "title": "Download bot file",
+      "download": "Download"
+    },
+    "messages": {
+      "error": {
+        "chooseFile": "Choose file failed, please try again!",
+        "uploadFile": "Upload file failed, please try again!",
+        "downloadFile": "Download file failed, please try again!",
+        "jackpotBonus": "Submit failed, please try again!"
+      },
+      "success": {
+        "chooseFile": "Choose file successfully, click Submit to submit file!",
+        "uploadFile": "Upload file successfully!",
+        "downloadFile": "Download file successfully!",
+        "jackpotBonus": "Submit successfully!"
+      }
+    },
+    "jackpot-setting": {
+      "title": "Jackpot random setting",
+      "submit": "Submit"
+    },
+    "jackpot-status": {
+      "title": "Jackpot status",
+      "inactive": "Inactive",
+      "active": "Active"
+    },
+    "jackpot-bonus": {
+      "title": "Jackpot bonus",
+      "inactive": "Inactive",
+      "active": "Active",
+      "submit": "Submit"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "txcbApp": {
+    "xocdiaRank": {
+      "home": {
+        "title": "Xocdia Ranks",
+        "createLabel": "Create a new Xocdia Rank",
+        "createOrEditLabel": "Create or edit a Xocdia Rank",
+        "notFound": "No Xocdia Ranks found",
+        "editAll": "Edit all",
+        "msgSuccess": "Updated successful",
+        "msgUnsuccessAll": "Successfully updated {{ param1 }} records. {{ param2 }} records have not been updated.",
+        "validationAmountMinMax": "Amount should be at least 1000000 and cannot be more than 99999999999999999."
+      },
+      "created": "A new Xocdia Rank is created with identifier {{ param }}",
+      "updated": "A Xocdia Rank is updated with identifier {{ param }}",
+      "deleted": "A Xocdia Rank is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Xocdia Rank {{ id }}?"
+      },
+      "detail": {
+        "title": "Xocdia Rank"
+      },
+      "loginname": "Loginname",
+      "amount": "Amount"
+    }
+  }
+}

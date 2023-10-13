@@ -1,0 +1,27 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "loginname",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "amount",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required", "min", "max"],
+      "fieldValidateRulesMin": "1000000",
+      "fieldValidateRulesMax": "99999999999999999"
+    }
+  ],
+  "changelogDate": "20201030080300",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "no",
+  "entityTableName": "tx_rank",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "pagination"
+}

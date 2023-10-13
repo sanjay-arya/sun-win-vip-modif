@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "title": "Cài đặt người dùng [<strong>{{username}}</strong>]",
+    "form": {
+      "fullName": "Name",
+      "fullName.placeholder": "Nhập tên của bạn",
+      "lastname": "Há»�",
+      "lastname.placeholder": "Nhập tên của bạn",
+      "language": "Ngôn ngữ",
+      "button": "Lưu"
+    },
+    "messages": {
+      "error": {
+        "fail": "<strong>Có lỗi xảy ra!</strong> Không thể lưu cài đặt.",
+        "emailexists": "<strong>Email Ä‘Ã£ Ä‘Æ°á»£c sá»­ dá»¥ng!</strong> Vui lÃ²ng nháº­p email khÃ¡c."
+      },
+      "success": "<strong>Success !</strong>",
+      "validate": {
+        "firstname": {
+          "required": "Bạn phải nhập tên.",
+          "minlength": "Name phải có ít nhất 1 kí tự",
+          "maxlength": "Name không thể có quá 200 kí tự"
+        },
+        "lastname": {
+          "required": "Báº¡n pháº£i nháº­p há»� tÃªn.",
+          "minlength": "Há»� tÃªn pháº£i cÃ³ Ã­t nháº¥t 1 kÃ½ tá»±",
+          "maxlength": "Há»� tÃªn khÃ´ng Ä‘Æ°á»£c vÆ°á»£t quÃ¡ 50 kÃ½ tá»±"
+        }
+      }
+    }
+  }
+}

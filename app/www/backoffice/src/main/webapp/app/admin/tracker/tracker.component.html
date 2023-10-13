@@ -1,0 +1,30 @@
+<div>
+    <h2 id="tracker-page-heading" jhiTranslate="tracker.title">Real-time user activities</h2>
+
+    <div class="table-responsive">
+        <table class="table table-striped" aria-describedby="tracker-page-heading">
+            <thead>
+                <tr>
+                    <th scope="col" >Lượt xổ</th>
+                    <th scope="col" >Giây</th>
+                    <th scope="col">Total số user đặt Tài</th>
+                    <th scope="col">Total số user đặt Xỉu</th>
+                    <th scope="col">Total money đặt Tài</th>
+                    <th scope="col">Total money đặt Xỉu</th>
+                    <th scope="col">Kết quả</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let activity of activities">
+                    <td>{{ activity.id }}</td>
+                    <td>{{ activity.cd }}</td>
+                    <td>{{ activity.ut }}</td>
+                     <td>{{ activity.ux }}</td>
+                      <td>{{ activity.at }}</td>
+                       <td>{{ activity.ax }}</td>
+                       <td>{{ activity.rs}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

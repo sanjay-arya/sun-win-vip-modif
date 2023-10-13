@@ -1,0 +1,26 @@
+{
+  "taixiucbApp": {
+    "transactionHistory": {
+      "home": {
+        "title": "Transaction Histories",
+        "createLabel": "Add new một Transaction History",
+        "createOrEditLabel": "Add new hoặc cập nhật Transaction History",
+        "notFound": "No Transaction Histories found"
+      },
+      "created": "Một Transaction History mới được tạo với định danh {{ param }}",
+      "updated": "Một Transaction History cập nhật với định danh {{ param }}",
+      "deleted": "Một Transaction History đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Transaction History {{ id }}?"
+      },
+      "detail": {
+        "title": "Transaction History"
+      },
+      "amount": "Amount",
+      "created": "Created",
+      "action": "Action",
+      "current_balance": "Current Balance",
+      "username": "Username"
+    }
+  }
+}

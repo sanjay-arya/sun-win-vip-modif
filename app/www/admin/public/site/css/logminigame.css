@@ -1,0 +1,111 @@
+.spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px; /* half width of the spinner gif */
+  margin-top: -50px; /* half height of the spinner gif */
+  text-align: center;
+  z-index: 1234;
+  overflow: auto;
+  width: 100px; /* width of the spinner gif */
+  height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
+}
+
+#resultsearch {
+  color: red;
+  margin-left: 20px;
+}
+
+.sTable tbody tr td {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#nameuser {
+  margin-left: -14px !important;
+  margin-bottom: -2px !important;
+  width: 100px;
+}
+
+.formRow label.formLeft.formtoDate {
+  margin-left: 20px !important;
+  width: 100px;
+  margin-bottom: -3px !important;
+}
+
+.nickname label {
+  margin-left: 8px;
+  margin-bottom: -2px;
+  width: 80px;
+}
+
+.form .nickname input {
+  margin-left: 20px;
+  margin-bottom: -2px;
+  width: 220px
+}
+
+.session-1 {
+  margin-left: 8px;
+  margin-bottom: -2px;
+  width: 80px;
+}
+
+.form input.session-2 {
+  margin-left: 20px;
+  margin-bottom: -2px;
+  width: 220px
+}
+
+.money-type-1 {
+  margin-left: 22px;
+  margin-bottom: -2px;
+  width: 80px
+}
+
+.money-type-2 {
+  margin-bottom: -2px;
+  width: 213px;
+  margin-left: -3px;
+}
+
+.button.blueB.search {
+  margin-left: 10px;
+}
+
+.basic {
+  margin-left: 20px
+}
+
+.list-logminigame {
+  height: 20px;
+}
+
+.container {
+  margin-right: 20px;
+}
+
+.image-logminigame {
+  display: none;
+}
+
+#datetimepicker1 {
+  margin-left: 22px;
+}
+
+#datetimepicker2 {
+  width: 220px;
+}
+
+.money-type-3 {
+  margin-left: 8px;
+  margin-bottom: -2px;
+  width: 80px;
+}
+
+.money-type-4 {
+  margin-bottom: -2px;
+  width: 213px;
+  margin-left: 20px;
+}

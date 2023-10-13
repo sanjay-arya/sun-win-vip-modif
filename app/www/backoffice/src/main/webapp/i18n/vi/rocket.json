@@ -1,0 +1,25 @@
+{
+  "txcbApp": {
+    "rocket": {
+      "home": {
+        "title": "Trên Dưới",
+        "createLabel": "Add new một Rocket",
+        "createOrEditLabel": "Add new hoặc cập nhật Rocket",
+        "notFound": "No Rockets found"
+      },
+      "created": "Một Rocket mới được tạo với định danh {{ param }}",
+      "updated": "Một Rocket cập nhật với định danh {{ param }}",
+      "deleted": "Một Rocket đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Rocket {{ id }}?"
+      },
+      "detail": {
+        "title": "Rocket"
+      },
+      "opentime": "Opentime",
+      "endtime": "Endtime",
+      "status": "Status",
+      "result": "Result"
+    }
+  }
+}
