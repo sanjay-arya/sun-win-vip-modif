@@ -160,3 +160,63 @@ Caused by: java.net.SocketException: Connection reset
 2023-09-26 01:03:17,815 | INFO  | main | pay.server.JettyServer Logging initialized.
 2023-09-26 01:03:17,816 | INFO  | main | pay.server.JettyServer STARTING WEBSERVICE PAY API .... !!!!
 2023-09-26 01:03:17,866 | ERROR | main | pay.server.JettyServer WEBSERVICE PAY API Start error: /var/app/config/rmq.properties
+2023-10-13 23:02:00,315 | INFO  | main | pay.server.JettyServer Logging initialized.
+2023-10-13 23:02:00,315 | INFO  | main | pay.server.JettyServer STARTING WEBSERVICE PAY API .... !!!!
+2023-10-13 23:02:00,783 | WARN  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Invalid releaseTimeout value null for mysqlpool_gamebai
+2023-10-13 23:02:00,798 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Enabling release timeout (0ms) on pool mysqlpool_gamebai
+2023-10-13 23:02:00,798 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_gamebai (minpool=0,maxpool=10,maxsize=10,idleTimeout=900)
+2023-10-13 23:02:00,798 | WARN  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Invalid releaseTimeout value null for mysqlpool_minigame
+2023-10-13 23:02:00,800 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Enabling release timeout (0ms) on pool mysqlpool_minigame
+2023-10-13 23:02:00,800 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_minigame (minpool=5,maxpool=20,maxsize=30,idleTimeout=900)
+2023-10-13 23:02:00,802 | WARN  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Invalid releaseTimeout value null for mysqlpool_admin
+2023-10-13 23:02:00,803 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-10-13 23:02:00,813 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Enabling release timeout (0ms) on pool mysqlpool_admin
+2023-10-13 23:02:00,813 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpool_admin (minpool=0,maxpool=10,maxsize=10,idleTimeout=900)
+2023-10-13 23:02:00,813 | WARN  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Invalid releaseTimeout value null for mysqlpoolname
+2023-10-13 23:02:00,814 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Enabling release timeout (0ms) on pool mysqlpoolname
+2023-10-13 23:02:00,814 | INFO  | main | db.ConnectionPoolManager.mysqlpool_gamebai mysqlpool_gamebai: Created pool mysqlpoolname (minpool=5,maxpool=30,maxsize=40,idleTimeout=900)
+2023-10-13 23:02:00,815 | INFO  | main | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-10-13 23:02:01,105 | INFO  | main | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-10-13 23:02:01,105 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-10-13 23:02:01,106 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-10-13 23:02:01,116 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-10-13 23:02:01,122 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-10-13 23:02:01,122 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-10-13 23:02:01,128 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-10-13 23:02:01,128 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-10-13 23:02:01,131 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-10-13 23:02:01,131 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-10-13 23:02:01,137 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-10-13 23:02:01,137 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-10-13 23:02:01,137 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-10-13 23:02:01,137 | DEBUG | main | recharge PartnerConfig:{"cong_gach_the":"GACHTHE","gachthe_api_key":"uDBA7HetkDNFIohQpkXeuOMeh6BRTkFJR2Mi5qmY","gachthe_callback_url":"https://iwspay.kohtut.dev/api/gachthe/callback","gachthe_email":"chan@gmail.com","gachthe_client_id":"42","naptienga_api_key":"974ec1a4-d291-46a2-bf1a-885e8f0f05ef","naptienga_secret_key":"a763535e-6d79-41f8-a580-330cbcc47a94","esm_api_key":"CB991EC380FA2608B12FBB04A901FD","esm_secret_key":"00A58E01101465763DC821682DB392","mua_card_secret_key":"543f51e72b0c0979ca18736b19042633","mua_card_callback":"http://wspay.xxeng.vip/naptienga/callback","mua_card_24h_partner_id":"543f51e72b0c0979ca18736b19042633","mua_card_24h_partner_key":"http://wspay.xxeng.vip/naptienga/callback","client":"HT68","ecard_partner_id":"99225","ecard_username":"jantwo7","rut_cuoc_api_key":"","host_bot":"http://bot-web-service.default:6868/botteleapi","sms_partner":"SMS_BRANDNAME","airpay24h_username":"user","airpay24h_password":"123","naptienga_api_key_vip52":"d44987ce-78d1-424c-843e-ce51d5543ed5","naptienga_secret_key_vip52":"95b01544-a588-4f58-a51e-623aefe169e0","khothe_endpoint":"","khothe_partner_id":"","khothe_username":"","khothe_password":"","khothe_private_key":"","khothe_public_key":"","momo_zoan_partner_key":"","momo_zoan_partner_name":"","momo_zoan_endpoint":"","zoan_card_endpoint":"","zoan_card_username":"","zoan_card_password":"","zoan_card_callback_url":"","sms_brandname_password":"123456","sms_brandname_username":"TRONGHUNG","sms_brandname_name":"VTDD","sms_brandname_url":"http://210.211.109.117/apibrandname/send?wsdl"}
+2023-10-13 23:02:01,139 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-10-13 23:02:01,143 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-10-13 23:02:01,144 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8
+2023-10-13 23:02:01,163 | INFO  | Thread-6 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Created a new connection
+2023-10-13 23:02:01,163 | INFO  | Thread-3 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Created a new connection
+2023-10-13 23:02:01,213 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-10-13 23:02:01,298 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-10-13 23:02:01,300 | INFO  | main | mongodb.driver.cluster Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-10-13 23:02:01,519 | INFO  | cluster-ClusterId{value='652971013d4363d9d83d3a6b', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:3, serverValue:10}] to 127.0.0.1:27017
+2023-10-13 23:02:01,521 | INFO  | cluster-ClusterId{value='652971013d4363d9d83d3a6b', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=816807}
+2023-10-13 23:02:01,529 | INFO  | cluster-ClusterId{value='652971013d4363d9d83d3a6a', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:1, serverValue:12}] to 127.0.0.1:27017
+2023-10-13 23:02:01,533 | INFO  | cluster-ClusterId{value='652971013d4363d9d83d3a6a', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=3478812}
+2023-10-13 23:02:01,541 | INFO  | cluster-ClusterId{value='652971013d4363d9d83d3a69', description='null'}-127.0.0.1:27017 | mongodb.driver.connection Opened connection [connectionId{localValue:2, serverValue:11}] to 127.0.0.1:27017
+2023-10-13 23:02:01,542 | INFO  | cluster-ClusterId{value='652971013d4363d9d83d3a69', description='null'}-127.0.0.1:27017 | mongodb.driver.cluster Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 11]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, roundTripTimeNanos=664506}
+2023-10-13 23:02:01,800 | INFO  | main | mongodb.driver.connection Opened connection [connectionId{localValue:4, serverValue:13}] to 127.0.0.1:27017
+2023-10-13 23:02:01,832 | INFO  | main | jetty.util.log Logging initialized @1741ms
+2023-10-13 23:02:01,884 | INFO  | main | jetty.server.Server jetty-9.2.10.v20150310
+2023-10-13 23:02:01,909 | INFO  | main | jetty.server.ServerConnector Started ServerConnector@331acdad{HTTP/1.1}{0.0.0.0:18081}
+2023-10-13 23:02:01,909 | INFO  | main | jetty.server.Server Started @1819ms
+2023-10-13 23:02:01,909 | INFO  | main | pay.server.JettyServer WEBSERVICE PAY API Started ...!!!
+2023-10-13 23:17:01,140 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-10-13 23:17:01,140 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-10-13 23:17:01,140 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-10-13 23:17:01,140 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-10-13 23:17:01,159 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-10-13 23:17:01,159 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-10-13 23:17:01,159 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-10-13 23:17:01,160 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection
+2023-10-13 23:17:06,142 | INFO  | Cleaner-thread-3 | db.ConnectionPool.mysqlpoolname mysqlpoolname: Destroyed connection
+2023-10-13 23:17:06,160 | INFO  | Cleaner-thread-1 | db.ConnectionPool.mysqlpool_minigame mysqlpool_minigame: Destroyed connection

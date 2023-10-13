@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/var/www/sun/app/banca/websocket-sharp/websocket-sharp.csproj": {}
+    "/var/app/banca/websocket-sharp/websocket-sharp.csproj": {}
   },
   "projects": {
-    "/var/www/sun/app/banca/websocket-sharp/websocket-sharp.csproj": {
+    "/var/app/banca/websocket-sharp/websocket-sharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/var/www/sun/app/banca/websocket-sharp/websocket-sharp.csproj",
+        "projectUniqueName": "/var/app/banca/websocket-sharp/websocket-sharp.csproj",
         "projectName": "websocket-sharp",
-        "projectPath": "/var/www/sun/app/banca/websocket-sharp/websocket-sharp.csproj",
+        "projectPath": "/var/app/banca/websocket-sharp/websocket-sharp.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/var/www/sun/app/banca/websocket-sharp/obj/",
+        "outputPath": "/var/app/banca/websocket-sharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -53,7 +53,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.426/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/189/sdk/3.1.426/RuntimeIdentifierGraph.json"
         }
       }
     }

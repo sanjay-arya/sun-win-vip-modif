@@ -7136,11 +7136,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/var/www/sun/app/banca/BanCaLiteNet/BanCaLiteNet.csproj",
+      "projectUniqueName": "/var/app/banca/BanCaLiteNet/BanCaLiteNet.csproj",
       "projectName": "BanCaLiteNet",
-      "projectPath": "/var/www/sun/app/banca/BanCaLiteNet/BanCaLiteNet.csproj",
+      "projectPath": "/var/app/banca/BanCaLiteNet/BanCaLiteNet.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/var/www/sun/app/banca/BanCaLiteNet/obj/",
+      "outputPath": "/var/app/banca/BanCaLiteNet/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/root/.nuget/NuGet/NuGet.Config"
@@ -7154,8 +7154,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "/var/www/sun/app/banca/Core/Core.csproj": {
-              "projectPath": "/var/www/sun/app/banca/Core/Core.csproj"
+            "/var/app/banca/Core/Core.csproj": {
+              "projectPath": "/var/app/banca/Core/Core.csproj"
             }
           }
         }
@@ -7211,7 +7211,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.426/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/189/sdk/3.1.426/RuntimeIdentifierGraph.json"
       }
     }
   },

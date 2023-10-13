@@ -1,15 +1,1 @@
-26 Sep 2023 00:57:30,919 INFO  [main] bitzero.server.BitZeroServer - Boot sequence starts...
-26 Sep 2023 00:57:31,185 INFO  [main] entities.managers.BZBannedUserStorage - BanUserStorage initialized
-26 Sep 2023 00:57:31,216 INFO  [main] entities.managers.BZBannedUserManager - BanUser data loaded: 0 records.
-26 Sep 2023 00:57:31,558 INFO  [main] bitzero.server.BitZeroServer - Listening Sockets: { 127.0.0.1:2343, TCP } { 127.0.0.1:2344 (WebSocket) }
-26 Sep 2023 00:57:31,560 INFO  [main] bitzero.server.BitZeroServer - BitZeroServer Max (alpha RC-READY!
-26 Sep 2023 00:57:31,561 DEBUG [main] engine.core.BitZeroEngine - START IN BITREZEO ENGINE ** 
-26 Sep 2023 00:57:31,562 DEBUG [main] bitzero.server.BitZeroServer - START ENGINE SERVER ***   
-26 Sep 2023 01:03:40,301 INFO  [main] bitzero.server.BitZeroServer - Boot sequence starts...
-26 Sep 2023 01:03:40,572 INFO  [main] entities.managers.BZBannedUserStorage - BanUserStorage initialized
-26 Sep 2023 01:03:40,595 INFO  [main] entities.managers.BZBannedUserManager - BanUser data loaded: 0 records.
-26 Sep 2023 01:03:40,901 INFO  [main] bitzero.server.BitZeroServer - Listening Sockets: { 127.0.0.1:2343, TCP } { 127.0.0.1:2344 (WebSocket) }
-26 Sep 2023 01:03:40,903 INFO  [main] bitzero.server.BitZeroServer - BitZeroServer Max (alpha RC-READY!
-26 Sep 2023 01:03:40,904 DEBUG [main] engine.core.BitZeroEngine - START IN BITREZEO ENGINE ** 
-26 Sep 2023 01:03:40,904 DEBUG [main] bitzero.server.BitZeroServer - START ENGINE SERVER ***   
-26 Sep 2023 02:03:40,611 DEBUG [pool-2-thread-4] entities.managers.BZBannedUserManager - Ban User data autosave done in 14ms.
+14 Oct 2023 00:02:32,452 DEBUG [pool-2-thread-6] entities.managers.BZBannedUserManager - Ban User data autosave done in 3ms.

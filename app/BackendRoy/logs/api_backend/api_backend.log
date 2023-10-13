@@ -21,3 +21,6 @@
 2023-09-26 01:04:04,947 | INFO  | main | backend ERRROR INIT RMQApi /var/app/config/rmq.properties
 2023-09-26 01:04:04,972 | INFO  | main | backend ERRROR INIT GameCommon null
 2023-09-26 01:04:04,975 | INFO  | main | backend BACKEND API SERVER Start error: null
+2023-10-13 23:11:06,964 | INFO  | main | backend Logging initialized.
+2023-10-13 23:11:06,964 | DEBUG | main | backend STARTING BACKEND API SERVER .... !!!!
+2023-10-13 23:11:09,059 | INFO  | main | backend BACKEND API SERVER Started ...!!!

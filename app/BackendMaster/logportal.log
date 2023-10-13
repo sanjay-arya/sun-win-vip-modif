@@ -99,16 +99,16 @@
 2038 <-> com.vinplay.api.processors.wages.HistoryUserWagesProcessor
 2039 <-> com.vinplay.api.processors.wages.SearchMemberProcessor
 2040 <-> com.vinplay.api.processors.wages.UpdateNicknameInviteProcessor
-java.nio.file.NoSuchFileException: /var/app/config/rmq.properties
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
-	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
-	at java.nio.file.Files.newByteChannel(Files.java:361)
-	at java.nio.file.Files.newByteChannel(Files.java:407)
-	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
-	at java.nio.file.Files.newInputStream(Files.java:152)
-	at java.nio.file.Files.newBufferedReader(Files.java:2784)
-	at java.nio.file.Files.newBufferedReader(Files.java:2816)
-	at com.vinplay.vbee.common.rmq.RMQApi.start(RMQApi.java:62)
-	at com.vinplay.api.server.JettyServer.main(JettyServer.java:66)
+Oct 13, 2023 11:01:57 PM com.hazelcast.core.LifecycleService
+INFO: HazelcastClient[hz.client_0_dev][3.6.4] is STARTING
+Oct 13, 2023 11:01:57 PM com.hazelcast.core.LifecycleService
+INFO: HazelcastClient[hz.client_0_dev][3.6.4] is STARTED
+Oct 13, 2023 11:01:58 PM com.hazelcast.client.spi.impl.ClientMembershipListener
+INFO: 
+
+Members [1] {
+	Member [127.0.0.1]:5701
+}
+
+Oct 13, 2023 11:01:58 PM com.hazelcast.core.LifecycleService
+INFO: HazelcastClient[hz.client_0_dev][3.6.4] is CLIENT_CONNECTED

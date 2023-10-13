@@ -1,0 +1,30 @@
+00:01:40.616 [INF] RunScan: 0
+00:01:40.618 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:1)","Data":null,"DataObj":null}
+00:02:40.548 [INF] RunHandleWinLoss: 0
+00:02:40.548 [INF] CalculateResult: 20231014
+00:02:40.548 [INF] CalculateResult 2: select * from loto_request where Session=20231014 AND NOT Status='1'
+00:06:40.619 [INF] RunScan: 0
+00:06:40.619 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:6)","Data":null,"DataObj":null}
+00:07:40.550 [INF] RunHandleWinLoss: 0
+00:07:40.550 [INF] CalculateResult: 20231014
+00:07:40.550 [INF] CalculateResult 2: select * from loto_request where Session=20231014 AND NOT Status='1'
+00:11:40.619 [INF] RunScan: 0
+00:11:40.619 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:11)","Data":null,"DataObj":null}
+00:12:40.552 [INF] RunHandleWinLoss: 0
+00:12:40.552 [INF] CalculateResult: 20231014
+00:12:40.552 [INF] CalculateResult 2: select * from loto_request where Session=20231014 AND NOT Status='1'
+00:16:40.619 [INF] RunScan: 0
+00:16:40.620 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:16)","Data":null,"DataObj":null}
+00:17:40.553 [INF] RunHandleWinLoss: 0
+00:17:40.553 [INF] CalculateResult: 20231014
+00:17:40.553 [INF] CalculateResult 2: select * from loto_request where Session=20231014 AND NOT Status='1'
+00:21:40.620 [INF] RunScan: 0
+00:21:40.621 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:21)","Data":null,"DataObj":null}
+00:22:40.555 [INF] RunHandleWinLoss: 0
+00:22:40.555 [INF] CalculateResult: 20231014
+00:22:40.555 [INF] CalculateResult 2: select * from loto_request where Session=20231014 AND NOT Status='1'
+00:26:40.621 [INF] RunScan: 0
+00:26:40.621 [INF] Result: {"Status":"Error","Message":"Kết quả được lấy từ 18h40 -> 20h(0:26)","Data":null,"DataObj":null}
+00:27:40.559 [INF] RunHandleWinLoss: 0
+00:27:40.559 [INF] CalculateResult: 20231014
+00:27:40.559 [INF] CalculateResult 2: select * from loto_request where Session=20231014 AND NOT Status='1'

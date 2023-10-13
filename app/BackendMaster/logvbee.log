@@ -1,13 +1,16 @@
-java.nio.file.NoSuchFileException: /var/app/config/hazelcast.properties
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
-	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
-	at java.nio.file.Files.newByteChannel(Files.java:361)
-	at java.nio.file.Files.newByteChannel(Files.java:407)
-	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
-	at java.nio.file.Files.newInputStream(Files.java:152)
-	at java.nio.file.Files.newBufferedReader(Files.java:2784)
-	at java.nio.file.Files.newBufferedReader(Files.java:2816)
-	at com.vinplay.vbee.common.hazelcast.HazelcastLoader.start(HazelcastLoader.java:17)
-	at com.vinplay.vbee.main.VBeeMain.main(VBeeMain.java:42)
+Oct 13, 2023 11:01:52 PM com.hazelcast.core.LifecycleService
+INFO: HazelcastClient[hz.client_0_dev][3.6.4] is STARTING
+Oct 13, 2023 11:01:52 PM com.hazelcast.core.LifecycleService
+INFO: HazelcastClient[hz.client_0_dev][3.6.4] is STARTED
+Oct 13, 2023 11:01:52 PM com.hazelcast.client.spi.impl.ClientMembershipListener
+INFO: 
+
+Members [1] {
+	Member [127.0.0.1]:5701
+}
+
+Oct 13, 2023 11:01:52 PM com.hazelcast.core.LifecycleService
+INFO: HazelcastClient[hz.client_0_dev][3.6.4] is CLIENT_CONNECTED
+log4j:WARN No appenders could be found for logger (org.mongodb.driver.cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.

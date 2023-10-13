@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YNMG2rBHu5d27wyP4nRWCKYQXoMcUnlPI4+0Rkg2yU4MN4VzzuEbQgW9sfYlTWef6Cr/dfOkDhb4iILQR6c/zg==",
+  "dgSpecHash": "NMp3DuBgGTbgWz1TOz1JxysnQNhYm5eeeFh6H1Eo3MKB39etrwN4c+0JvFp/x1O491g33IIn00Pl45DfSEOcFg==",
   "success": true,
-  "projectFilePath": "/var/www/sun/app/banca/Core/Core.csproj",
+  "projectFilePath": "/var/app/banca/Core/Core.csproj",
   "expectedPackageFiles": [
     "/root/.nuget/packages/bouncycastle.netcore/1.8.3/bouncycastle.netcore.1.8.3.nupkg.sha512",
     "/root/.nuget/packages/google.protobuf/3.6.1/google.protobuf.3.6.1.nupkg.sha512",

@@ -1,0 +1,667 @@
+14 Oct 2023 00:00:35,291 ERROR [pool-2-thread-2] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:01:35,290 ERROR [pool-2-thread-5] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:02:35,290 ERROR [pool-2-thread-1] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:03:35,290 ERROR [pool-2-thread-7] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:04:35,290 ERROR [pool-2-thread-9] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:05:35,290 ERROR [pool-2-thread-10] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:06:35,290 ERROR [pool-2-thread-6] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:07:35,291 ERROR [pool-2-thread-3] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:08:35,290 ERROR [pool-2-thread-8] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:09:35,290 ERROR [pool-2-thread-9] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:10:35,290 ERROR [pool-2-thread-10] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:11:35,290 ERROR [pool-2-thread-6] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:12:35,290 ERROR [pool-2-thread-3] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:13:35,290 ERROR [pool-2-thread-8] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:14:35,290 ERROR [pool-2-thread-9] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:15:35,290 ERROR [pool-2-thread-2] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:16:35,290 ERROR [pool-2-thread-6] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:17:35,290 ERROR [pool-2-thread-3] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:18:35,290 ERROR [pool-2-thread-8] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:19:35,290 ERROR [pool-2-thread-9] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:20:35,290 ERROR [pool-2-thread-10] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:21:35,291 ERROR [pool-2-thread-6] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:22:35,290 ERROR [pool-2-thread-3] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:23:35,290 ERROR [pool-2-thread-8] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:24:35,290 ERROR [pool-2-thread-9] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:25:35,290 ERROR [pool-2-thread-10] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:26:35,290 ERROR [pool-2-thread-6] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:27:35,290 ERROR [pool-2-thread-3] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 Oct 2023 00:28:35,290 ERROR [pool-2-thread-8] debug - 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: An error occurred during the Execution
++--- --- ---+
+Stack Trace:
++--- --- ---+
+game.modules.gameRoom.config.HuVangConfig.getGameConfig(HuVangConfig.java:145)
+game.modules.gameRoom.config.HuVangConfig.getConfigCurrentGame(HuVangConfig.java:163)
+game.modules.gameRoom.entities.ThongTinHuVang.addMoneyInLoop(ThongTinHuVang.java:47)
+game.modules.gameRoom.GameRoomModule.gameRoomLoop(GameRoomModule.java:113)
+game.modules.gameRoom.GameRoomModule.access$100(GameRoomModule.java:102)
+game.modules.gameRoom.GameRoomModule$GameLoopTask.run(GameRoomModule.java:724)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:750)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

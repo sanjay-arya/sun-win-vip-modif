@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/var/www/sun/app/banca/BanCaLiteNet/BanCaLiteNet.csproj": {}
+    "/var/app/banca/BanCaLiteNet/BanCaLiteNet.csproj": {}
   },
   "projects": {
-    "/var/www/sun/app/banca/BanCaLiteNet/BanCaLiteNet.csproj": {
+    "/var/app/banca/BanCaLiteNet/BanCaLiteNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/var/www/sun/app/banca/BanCaLiteNet/BanCaLiteNet.csproj",
+        "projectUniqueName": "/var/app/banca/BanCaLiteNet/BanCaLiteNet.csproj",
         "projectName": "BanCaLiteNet",
-        "projectPath": "/var/www/sun/app/banca/BanCaLiteNet/BanCaLiteNet.csproj",
+        "projectPath": "/var/app/banca/BanCaLiteNet/BanCaLiteNet.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/var/www/sun/app/banca/BanCaLiteNet/obj/",
+        "outputPath": "/var/app/banca/BanCaLiteNet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "/var/www/sun/app/banca/Core/Core.csproj": {
-                "projectPath": "/var/www/sun/app/banca/Core/Core.csproj"
+              "/var/app/banca/Core/Core.csproj": {
+                "projectPath": "/var/app/banca/Core/Core.csproj"
               }
             }
           }
@@ -82,18 +82,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.426/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/189/sdk/3.1.426/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/var/www/sun/app/banca/Core/Core.csproj": {
+    "/var/app/banca/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/var/www/sun/app/banca/Core/Core.csproj",
+        "projectUniqueName": "/var/app/banca/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/var/www/sun/app/banca/Core/Core.csproj",
+        "projectPath": "/var/app/banca/Core/Core.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/var/www/sun/app/banca/Core/obj/",
+        "outputPath": "/var/app/banca/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -107,11 +107,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/var/www/sun/app/banca/Fleck/Fleck.csproj": {
-                "projectPath": "/var/www/sun/app/banca/Fleck/Fleck.csproj"
+              "/var/app/banca/Fleck/Fleck.csproj": {
+                "projectPath": "/var/app/banca/Fleck/Fleck.csproj"
               },
-              "/var/www/sun/app/banca/websocket-sharp/websocket-sharp.csproj": {
-                "projectPath": "/var/www/sun/app/banca/websocket-sharp/websocket-sharp.csproj"
+              "/var/app/banca/websocket-sharp/websocket-sharp.csproj": {
+                "projectPath": "/var/app/banca/websocket-sharp/websocket-sharp.csproj"
               }
             }
           }
@@ -186,18 +186,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.426/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/189/sdk/3.1.426/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/var/www/sun/app/banca/Fleck/Fleck.csproj": {
+    "/var/app/banca/Fleck/Fleck.csproj": {
       "version": "0.0.0.1-local",
       "restore": {
-        "projectUniqueName": "/var/www/sun/app/banca/Fleck/Fleck.csproj",
+        "projectUniqueName": "/var/app/banca/Fleck/Fleck.csproj",
         "projectName": "Fleck",
-        "projectPath": "/var/www/sun/app/banca/Fleck/Fleck.csproj",
+        "projectPath": "/var/app/banca/Fleck/Fleck.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/var/www/sun/app/banca/Fleck/obj/",
+        "outputPath": "/var/app/banca/Fleck/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -239,18 +239,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.426/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/189/sdk/3.1.426/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/var/www/sun/app/banca/websocket-sharp/websocket-sharp.csproj": {
+    "/var/app/banca/websocket-sharp/websocket-sharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/var/www/sun/app/banca/websocket-sharp/websocket-sharp.csproj",
+        "projectUniqueName": "/var/app/banca/websocket-sharp/websocket-sharp.csproj",
         "projectName": "websocket-sharp",
-        "projectPath": "/var/www/sun/app/banca/websocket-sharp/websocket-sharp.csproj",
+        "projectPath": "/var/app/banca/websocket-sharp/websocket-sharp.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/var/www/sun/app/banca/websocket-sharp/obj/",
+        "outputPath": "/var/app/banca/websocket-sharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -292,7 +292,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.426/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/189/sdk/3.1.426/RuntimeIdentifierGraph.json"
         }
       }
     }

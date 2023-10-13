@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kIlfiQvG9ZhTXY7HtL8mLZp4SYyxtaDFx1E0fzQbULO6b6wrQvosNUjarV5rTl+ap3VjQDFGAg8SHivgC14GWw==",
+  "dgSpecHash": "tuzr9fnpgf51lumBxIFCvv9xmqPBVJpfJhvp4xXfEQWAf+vDB55p5tqyV49pYLNwgTWRqoegOhAE8C556xRT7g==",
   "success": true,
-  "projectFilePath": "/var/www/sun/app/banca/BanCaLiteNet/BanCaLiteNet.csproj",
+  "projectFilePath": "/var/app/banca/BanCaLiteNet/BanCaLiteNet.csproj",
   "expectedPackageFiles": [
     "/root/.nuget/packages/bouncycastle.netcore/1.8.3/bouncycastle.netcore.1.8.3.nupkg.sha512",
     "/root/.nuget/packages/google.protobuf/3.6.1/google.protobuf.3.6.1.nupkg.sha512",

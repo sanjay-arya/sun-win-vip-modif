@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lee30C+v0IZxwmNlLRX6jSZqmUQ8e/3TphiYZ1O5ahqCCnhC9TNTF9W5ZBCFfV+72G1uN3FNhrGFKMQ7is4iyQ==",
+  "dgSpecHash": "mnwvU+2T0Ya30Mx3MWO2D0AZ2Mi70vZBDlW3NT2ccvWLLEnCls9JZlkQn9U0RajUhlJgqEmKLAir7dQ3l8aZ5A==",
   "success": true,
-  "projectFilePath": "/var/www/sun/app/banca/Fleck/Fleck.csproj",
+  "projectFilePath": "/var/app/banca/Fleck/Fleck.csproj",
   "expectedPackageFiles": [
     "/root/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/root/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"

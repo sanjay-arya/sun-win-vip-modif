@@ -247,31 +247,19 @@
 9461 <-> com.vinplay.api.backend.processors.agent.UpdateInfoAgentProcessor
 9462 <-> com.vinplay.api.backend.processors.agent.TopupUser4AgentAdminProccessor
 9463 <-> com.vinplay.api.backend.processors.DestroyHazelcastProcessor
-log4j:WARN No appenders could be found for logger (wspay).
+log4j:WARN No appenders could be found for logger (snaq.db.ConnectionPoolManager.mysqlpool_gamebai).
 log4j:WARN Please initialize the log4j system properly.
-java.lang.NullPointerException
-	at com.vinplay.vbee.common.pools.ConnectionPool.getConnection(ConnectionPool.java:75)
-	at com.vinplay.dal.dao.impl.AgentDAOImpl.listAgent(AgentDAOImpl.java:232)
-	at com.vinplay.dal.service.impl.AgentServiceImpl.listAgent(AgentServiceImpl.java:27)
-	at com.vinplay.api.backend.processors.report.ReportMoneySystemNewProcessor.getListAgent(ReportMoneySystemNewProcessor.java:447)
-	at com.vinplay.api.backend.processors.report.ReportMoneySystemNewProcessor.<init>(ReportMoneySystemNewProcessor.java:28)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.vinplay.vbee.common.cp.BaseController.initCommands(BaseController.java:21)
-	at com.vinplay.api.backend.server.VinPlayBackendMain.loadCommands(VinPlayBackendMain.java:204)
-	at com.vinplay.api.backend.server.VinPlayBackendMain.main(VinPlayBackendMain.java:99)
-java.nio.file.NoSuchFileException: /var/app/config/hazelcast.properties
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
-	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
-	at java.nio.file.Files.newByteChannel(Files.java:361)
-	at java.nio.file.Files.newByteChannel(Files.java:407)
-	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
-	at java.nio.file.Files.newInputStream(Files.java:152)
-	at java.nio.file.Files.newBufferedReader(Files.java:2784)
-	at java.nio.file.Files.newBufferedReader(Files.java:2816)
-	at com.vinplay.vbee.common.hazelcast.HazelcastLoader.start(HazelcastLoader.java:17)
-	at com.vinplay.api.backend.server.VinPlayBackendMain.main(VinPlayBackendMain.java:100)
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Oct 13, 2023 11:02:04 PM com.hazelcast.core.LifecycleService
+INFO: HazelcastClient[hz.client_0_dev][3.6.4] is STARTING
+Oct 13, 2023 11:02:05 PM com.hazelcast.core.LifecycleService
+INFO: HazelcastClient[hz.client_0_dev][3.6.4] is STARTED
+Oct 13, 2023 11:02:05 PM com.hazelcast.client.spi.impl.ClientMembershipListener
+INFO: 
+
+Members [1] {
+	Member [127.0.0.1]:5701
+}
+
+Oct 13, 2023 11:02:05 PM com.hazelcast.core.LifecycleService
+INFO: HazelcastClient[hz.client_0_dev][3.6.4] is CLIENT_CONNECTED
