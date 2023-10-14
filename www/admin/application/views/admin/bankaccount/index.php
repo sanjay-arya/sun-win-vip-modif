@@ -15,8 +15,8 @@
     <div class="widget backaccount">
         <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
         <div class="title">
-            <h6>List Account ngân hàng</h6>
-            <h6 style="float: right">Total số bản ghi:<span style="color:#0000ff" id="total"></span></h6>
+            <h6>List of bank accounts</h6>
+            <h6 style="float: right">Total number of records:<span style="color:#0000ff" id="total"></span></h6>
         </div>
 
         <form class="list_filter form" action="<?php echo admin_url('bankaccount/userbot') ?>" method="post">
@@ -38,12 +38,12 @@
             <div class="formRow">
                 <table>
                     <tr>
-                        <td><label for="bankNumber" style="margin-left: 50px;margin-bottom:-2px;width: 100px">Số tài khoản:</label></td>
+                        <td><label for="bankNumber" style="margin-left: 50px;margin-bottom:-2px;width: 100px">Account number:</label></td>
                         <td><input type="text" style="margin-left: 20px;margin-bottom:-2px;width: 150px"
                                    id="bankNumber" value="<?php echo $this->input->post('bankNumber') ?>" name="bankNumber">
                         </td>
 
-                        <td><label for="bankName" style="margin-left: 50px;margin-bottom:-2px;width: 100px">Ngân hàng:</label></td>
+                        <td><label for="bankName" style="margin-left: 50px;margin-bottom:-2px;width: 100px">Bank:</label></td>
                         <td>
                             <?php $this->load->view('/admin/component/selection/bankname'); ?>
                         </td>
@@ -83,8 +83,8 @@
                             <th style="width:40px" hidden>Id</th>
                             <th>Nick Name</th>
                             <th>Name</th>
-                            <th>Chi nhánh</th>
-                            <th>Name ngân hàng</th>
+                            <th>Branch</th>
+                            <th>Bank name</th>
                             <th>Account</th>
                             <th style="width: 70px;">Active</th>
                             <th>Người sửa cuối cùng</th>
@@ -254,7 +254,7 @@
             '<tr><td>Nickname<td/><td>' + value.nickName + '<td/></tr>' +
             '<tr><td>Name<td/><td>' + value.customerName + '<td/></tr>' +
             '<tr><td>Ngân hàng<td/><td>' + value.bankName + '<td/></tr>' +
-            '<tr><td>Chi nhánh<td/><td>' + (value.branch || '-') + '<td/></tr>' +
+            '<tr><td>Branch<td/><td>' + (value.branch || '-') + '<td/></tr>' +
             '</table>'
     }
 

@@ -2,7 +2,7 @@
 <div class="titleArea">
     <div class="wrapper">
         <div class="pageTitle">
-            <h5>Báo cáo Total quan</h5>
+            <h5>Báo cáo Tổng quan</h5>
         </div>
         <div class="clear"></div>
     </div>
@@ -31,7 +31,7 @@
         <div class="widget">
             <h4 id="resultsearch"></h4>
             <div class="title">
-                <h6>Báo cáo Total quan</h6>
+                <h6>Báo cáo Tổng quan</h6>
             </div>
             <form class="list_filter form" action="<?php echo admin_url('report/overviewReport') ?>" method="post">
                 <div class="formRow row">

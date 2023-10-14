@@ -3,7 +3,7 @@
 <div class="wrapper">
     <div class="widget">
         <div class="title">
-            <h6>Giftcode statistics admin đã dùng </h6>
+            <h6>Giftcode statistics admin used</h6>
 
         </div>
         <div class="formRow">
@@ -51,7 +51,7 @@
             <tr style="height: 20px;">
                 <td>Nick name</td>
                 <td>Giftcode</td>
-                <td>Doanh thu</td>
+                <td>Revenue</td>
                 <td>Waste</td>
             </tr>
             </thead>

@@ -2,7 +2,7 @@
 <div class="titleArea">
     <div class="wrapper">
         <div class="pageTitle">
-            <h5>DANH SÁCH USER THUỘC ĐẠI LÝ</h5>
+            <h5>LIST OF USERS BELONGING TO AGENT</h5>
         </div>
         <div class="clear"></div>
     </div>
@@ -30,10 +30,10 @@
         <div class="widget">
             <h4 id="resultsearch"></h4>
             <div class="title">
-                <h6>Danh Sách User thuộc đại lý</h6>
-                <h6 class="total">Total doanh thu:<span class="total-number" id="total_doanhthu"></span></h6>
-                <h6 class="total">Total rút:<span class="total-number" id="total_rut"></span></h6>
-                <h6 class="total">Total nạp:<span class="total-number" id="total_nap"></span></h6>
+                <h6>List of Users belonging to the agency</h6>
+                <h6 class="total">Total revenue:<span class="total-number" id="total_doanhthu"></span></h6>
+                <h6 class="total">Total withdrew:<span class="total-number" id="total_rut"></span></h6>
+                <h6 class="total">Total loaded:<span class="total-number" id="total_nap"></span></h6>
                 <h6 class="total">Total records:<span class="total-number" id="totalData"></span></h6>
             </div>
             <form class="list_filter form" action="" method="post">
@@ -91,11 +91,11 @@
                 <tr class="list-loggameslot">
                     <td>No</td>
                     <td>Nick name</td>
-                    <td>Ngày đăng kí</td>
+                    <td>Registration date</td>
                     <td>Balance</td>
-                    <td>Total nạp (1)</td>
-                    <td>Total rút (2)</td>
-                    <td>Doanh thu (3) = (1) - (2)</td>
+                    <td>Total loaded (1)</td>
+                    <td>Total withdraw (2)</td>
+                    <td>Revenue (3) = (1) - (2)</td>
                     <td>Act</td>
                 </tr>
                 </thead>

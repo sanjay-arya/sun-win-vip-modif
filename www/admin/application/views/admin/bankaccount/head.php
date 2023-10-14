@@ -1,7 +1,7 @@
 <div class="titleArea">
 	<div class="wrapper">
 		<div class="pageTitle">
-			<h5>Quản lý Account ngân hàng</h5>
+			<h5>Bank Account Management</h5>
 		</div>
         <div class="horControlB menu_action">
             <ul>
@@ -36,11 +36,11 @@
                         <input id="inputCustomerName" type="text" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="inputBankNumber" class="col-form-label">Số tài khoản:</label>
+                        <label for="inputBankNumber" class="col-form-label">Account number:</label>
                         <input id="inputBankNumber" type="text" class="form-control" >
                     </div>
                     <div class="form-group">
-                        <label for="inputBankName" class="col-form-label">Ngân hàng:</label>
+                        <label for="inputBankName" class="col-form-label">Bank:</label>
                         <select id="inputBankName" class="form-control" name="bankName">
                             <option value="">Select</option>
                             <?php

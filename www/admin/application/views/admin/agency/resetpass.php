@@ -21,9 +21,9 @@
                 <tr>
                     <td>
                         <label for="param_name" class="formLeft" id="nameuser"
-                               style="margin-left: 400px;margin-bottom:7px;width: 200px">Nhập mật khẩu cũ:</label></td>
+                               style="margin-left: 400px;margin-bottom:7px;width: 200px">Enter old password:</label></td>
                     <td>
-                        <span class="oneTwo"><input type="password" _autocheck="true" id="matkhaucu" value="" style="height: 30px;width: 200px" placeholder="Nhập mật khẩu cũ" name="matkhaucu"></span>
+                        <span class="oneTwo"><input type="password" _autocheck="true" id="matkhaucu" value="" style="height: 30px;width: 200px" placeholder="Enter old password" name="matkhaucu"></span>
                     </td>
                     <td>
                         <label for="param_name" class="formLeft" id="nameuser"
@@ -38,9 +38,9 @@
                 <tr>
                     <td>
                         <label for="param_name" class="formLeft" id="nameuser"
-                               style="margin-left: 400px;margin-bottom:7px;width: 200px">Nhập mật khẩu mới</label></td>
+                               style="margin-left: 400px;margin-bottom:7px;width: 200px">Enter your new password</label></td>
                     <td>
-                        <span class="oneTwo"><input type="password" _autocheck="true" id="matkhaumoi" value="" style="height: 30px;width: 200px" placeholder="Nhập mật khẩu mới"
+                        <span class="oneTwo"><input type="password" _autocheck="true" id="matkhaumoi" value="" style="height: 30px;width: 200px" placeholder="Enter your new password"
                                                     name="matkhaumoi"></span>
                     </td>
                     <td>
@@ -56,10 +56,10 @@
                 <tr>
                     <td>
                         <label for="param_name" class="formLeft" id="vinlabel"
-                               style="margin-left: 400px;margin-bottom:7px;width: 200px">Nhập lại mật khẩu mới:
+                               style="margin-left: 400px;margin-bottom:7px;width: 200px">Enter a new password:
                         </label></td>
                     <td>
-                        <span class="oneTwo"><input type="password" _autocheck="true" id="rematkhau" value="" placeholder="Nhập lại mật khẩu mới:" style="height: 30px;width: 200px" name="rematkhau"></span>
+                        <span class="oneTwo"><input type="password" _autocheck="true" id="rematkhau" value="" placeholder="Enter a new password:" style="height: 30px;width: 200px" name="rematkhau"></span>
                     </td>
                     <td>
                         <label for="param_name" class="formLeft" id="nameuser"
@@ -74,10 +74,10 @@
                 <tr>
                     <td>
                         <label for="param_name" class="formLeft" id="nameuser"
-                               style="margin-left: 400px;margin-bottom:7px;width: 200px">Mã OTP:
+                               style="margin-left: 400px;margin-bottom:7px;width: 200px">OTP code:
                         </label></td>
                     <td>
-                        <span class="oneTwo"><input type="text" _autocheck="true" id="maotp" value="" placeholder="Nhập mã otp" style="height: 30px;width: 200px"
+                        <span class="oneTwo"><input type="text" _autocheck="true" id="maotp" value="" placeholder="Enter the otp code" style="height: 30px;width: 200px"
                                                     name="maotp"></span>
                     </td>
                 </tr>
@@ -109,11 +109,11 @@
                     console.log(data);
                     if(data == 1){
 
-                        $("#erroroldpass").html("Không được để trống");
+                        $("#erroroldpass").html("Cannot be left blank");
                     }else if(data == 2){
-                    $("#erroroldpass").html("Old password không đúng");
+                    $("#erroroldpass").html("Old password is incorrect");
                 }else if(data == 3){
-                        $("#errornewpass").html("Không được để trống");
+                        $("#errornewpass").html("Cannot be left blank");
                     }
 
             }

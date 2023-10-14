@@ -52,7 +52,7 @@ class Bank extends MY_Controller {
         if(!$id) {
             $response = [
                 'success' => false,
-                'msg' => 'Bank không hợp lệ'
+                'msg' => 'Invalid Bank'
             ];
             echo json_encode($response);
             return;

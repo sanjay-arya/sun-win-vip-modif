@@ -14,15 +14,14 @@
     <?php $this->load->view('admin/message', $this->data); ?>
     <div class="widget">
         <div class="title">
-            <h6>Chuyển win tài khoản</h6>
+            <h6>Switch win account</h6>
         </div>
         <div class="formRow">
             <table>
                 <tr>
                     <td>
                         <label for="param_name" class="formLeft" id="nameuser"
-                               style="margin-left: 400px;margin-bottom:7px;width: 200px">Enter your nickname cần
-                            chuyển:</label></td>
+                               style="margin-left: 400px;margin-bottom:7px;width: 200px">Enter your nickname to transfer:</label></td>
                     <td>
                  <span class="oneTwo"><input type="text" _autocheck="true" id="nametran" value="" style="height: 30px;width: 200px" placeholder="Enter your nickname" name="nametran"></span>
                     </td>
@@ -35,10 +34,9 @@
                 <tr>
                     <td>
                         <label for="param_name" class="formLeft" id="nameuser"
-                               style="margin-left: 400px;margin-bottom:7px;width: 200px">Nhập lại nick name cần
-                            chuyển:</label></td>
+                               style="margin-left: 400px;margin-bottom:7px;width: 200px">Re-enter the nickname you want to transfer:</label></td>
                     <td>
-                        <span class="oneTwo"><input type="text" _autocheck="true" id="nametranre" value="" style="height: 30px;width: 200px" placeholder="Nhập lại nick name"
+                        <span class="oneTwo"><input type="text" _autocheck="true" id="nametranre" value="" style="height: 30px;width: 200px" placeholder="Re-enter your nickname"
                                                     name="nametranre"></span>
                     </td>
                 </tr>
@@ -50,10 +48,10 @@
                 <tr>
                     <td>
                         <label for="param_name" class="formLeft" id="vinlabel"
-                               style="margin-left: 400px;margin-bottom:7px;width: 200px">Số vin chuyển:
+                               style="margin-left: 400px;margin-bottom:7px;width: 200px">Transmitted vin number:
                         </label></td>
                     <td>
-                        <span class="oneTwo"><input type="text" _autocheck="true" id="vintran" value="" placeholder="Nhập số win cần chuyển" style="height: 30px;width: 200px" name="vintran"></span>
+                        <span class="oneTwo"><input type="text" _autocheck="true" id="vintran" value="" placeholder="Enter the win number to transfer" style="height: 30px;width: 200px" name="vintran"></span>
                     </td>
                 </tr>
             </table>
@@ -64,10 +62,10 @@
                 <tr>
                     <td>
                         <label for="param_name" class="formLeft" id="nameuser"
-                               style="margin-left: 400px;margin-bottom:7px;width: 200px">Mã OTP:
+                               style="margin-left: 400px;margin-bottom:7px;width: 200px">OTP code:
                         </label></td>
                     <td>
-                        <span class="oneTwo"><input type="text" _autocheck="true" id="maotp" value="" placeholder="Nhập mã otp" style="height: 30px;width: 200px"
+                        <span class="oneTwo"><input type="text" _autocheck="true" id="maotp" value="" placeholder="Enter the otp code" style="height: 30px;width: 200px"
                                                     name="maotp"></span>
                     </td>
                 </tr>

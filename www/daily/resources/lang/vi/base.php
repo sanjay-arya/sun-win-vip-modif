@@ -2,7 +2,7 @@
 
 return [
     'home' => 'Trang chủ',
-    'dashboard' => 'Trang Total quan',
+    'dashboard' => 'Trang Tổng quan',
     'manage_member' => 'Quản lý thành viên',
     'game_stats' => 'Số liệu game',
     'day_report' => 'Báo cáo ngày',

@@ -1,7 +1,7 @@
 
 <div class="home-view">
     <div style="display: flex;flex-direction: row">
-        <h6>Total quan</h6>
+        <h6Overview/h6>
         <select id="select_provider" name="select_provider"
                 style="margin-left: 10px;margin-bottom:-2px;width: 143px">
             <option value="today">Today</option>

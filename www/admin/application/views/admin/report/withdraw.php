@@ -131,7 +131,7 @@
                                 </select>
                             </td>
 
-                            <td><label for="bankName" style="margin-left: 50px;margin-bottom:-2px;width: 100px">Ngân hàng:</label></td>
+                            <td><label for="bankName" style="margin-left: 50px;margin-bottom:-2px;width: 100px">Bank:</label></td>
                             <td>
                                 <?php $this->load->view('/admin/component/selection/bankname'); ?>
                             </td>
@@ -143,7 +143,7 @@
 
                     <table>
                         <tr>
-                            <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Số tài khoản:</label></td>
+                            <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Account number:</label></td>
                             <td><input type="text" style="margin-left: 20px;margin-bottom:-2px;width: 150px"
                                        id="bankAccountNumber" value="<?php echo $this->input->post('bankAccountNumber') ?>" name="bankAccountNumber">
                             </td>

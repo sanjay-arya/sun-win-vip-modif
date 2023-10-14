@@ -105,7 +105,7 @@
 <!--                <td><label style="margin-left: 30px;margin-bottom:-2px;width: 100px">Ip:</label></td>-->
 <!--                <td><input type="text" style="margin-left: 20px;margin-bottom:-2px;width: 150px"-->
 <!--                           id="txtip" value="--><?php //echo $this->input->post('txtip') ?><!--" name="txtip"></td>-->
-<!--                <td><label style="margin-left: 70px;margin-bottom:-2px;width: 100px">Ngân hàng:</label></td>-->
+<!--                <td><label style="margin-left: 70px;margin-bottom:-2px;width: 100px">Bank:</label></td>-->
 <!--                <td><select id="select_bank" name="select_bank"-->
 <!--                            style="margin-left: 0px;margin-bottom:-2px;width: 143px">-->
 <!--                        <option value="">Select</option>-->

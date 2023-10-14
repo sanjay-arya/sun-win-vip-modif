@@ -16,7 +16,7 @@
         <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
         <div class="title">
             <h6>List Ngân hàng</h6>
-<!--            <h6 style="float: right">Total số bản ghi:<span style="color:#0000ff" id="total"></span></h6>-->
+<!--            <h6 style="float: right">Total number of records:<span style="color:#0000ff" id="total"></span></h6>-->
         </div>
 
         <form class="list_filter form" action="<?php echo admin_url('bankname/userbot') ?>" method="post">

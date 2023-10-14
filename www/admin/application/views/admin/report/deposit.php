@@ -133,7 +133,7 @@
                                 </select>
                             </td>
 
-                            <td><label for="bankName" style="margin-left: 50px;margin-bottom:-2px;width: 100px">Ngân hàng:</label></td>
+                            <td><label for="bankName" style="margin-left: 50px;margin-bottom:-2px;width: 100px">Bank:</label></td>
                             <td>
                                 <?php $this->load->view('/admin/component/selection/bankname'); ?>
                             </td>

@@ -12,8 +12,8 @@
             <td>No</td>
             <td>Nick Name</td>
             <td>Name</td>
-            <td>Chi nhánh</td>
-            <td>Name ngân hàng</td>
+            <td>Branch</td>
+            <td>Bank name</td>
             <td>Account</td>
             <td>Active</td>
             <td>Người sửa cuối cùng</td>
@@ -160,7 +160,7 @@
             '<tr><td>Nickname<td/><td>' + value.nickName + '<td/></tr>' +
             '<tr><td>Name<td/><td>' + value.customerName + '<td/></tr>' +
             '<tr><td>Ngân hàng<td/><td>' + value.bankName + '<td/></tr>' +
-            '<tr><td>Chi nhánh<td/><td>' + (value.branch || '-') + '<td/></tr>' +
+            '<tr><td>Branch<td/><td>' + (value.branch || '-') + '<td/></tr>' +
             '</table>'
     }
 

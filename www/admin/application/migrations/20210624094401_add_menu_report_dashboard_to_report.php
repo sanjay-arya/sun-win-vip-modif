@@ -11,7 +11,7 @@ class Migration_Add_menu_report_dashboard_to_report extends CI_Migration
             return;
         }
         $data = array(
-            'Name' => 'Báo cáo Total quan',
+            'Name' => 'Báo cáo Tổng quan',
             'Param' => '12',
             'Link' => 'report/overviewreport',
             'Status' => 'A',

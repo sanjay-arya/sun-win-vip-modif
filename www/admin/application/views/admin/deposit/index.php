@@ -139,7 +139,7 @@
                                     </option>
                                 </select>
                             </td>
-                            <td><label for="bankName" class="formLeft">Ngân hàng:</label></td>
+                            <td><label for="bankName" class="formLeft">Bank:</label></td>
                             <td>
                                 <?php $this->load->view('/admin/component/selection/bankname'); ?>
                             </td>

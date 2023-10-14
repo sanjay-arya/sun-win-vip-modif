@@ -135,7 +135,7 @@
                                     </option>
                                 </select>
                             </td>
-                            <td><label for="bankName" class="formLeft">Ngân hàng:</label></td>
+                            <td><label for="bankName" class="formLeft">Bank:</label></td>
                             <td>
                                 <?php $this->load->view('/admin/component/selection/bankname'); ?>
                             </td>
@@ -147,7 +147,7 @@
 
                     <table>
                         <tr>
-                            <td><label class="formLeft">Số tài khoản:</label>
+                            <td><label class="formLeft">Account number:</label>
                             </td>
                             <td><input type="text" class="my-input-class"
                                        id="bankAccountNumber"
