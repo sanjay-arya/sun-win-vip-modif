@@ -2,7 +2,7 @@
     <div class="titleArea">
         <div class="wrapper">
             <div class="pageTitle">
-                <h5>Log game bài</h5>
+                <h5>Log card game</h5>
             </div>
             <div class="clear"></div>
         </div>
@@ -23,8 +23,8 @@
         <div class="widget">
             <h4 id="resultsearch"></h4>
             <div class="title">
-                <h6>Lịch sử game bài</h6>
-                <h6 class="total">Total Số People chơi:<span class="total-number" id="tong_player"></span></h6>
+                <h6>History of card games</h6>
+                <h6 class="total">Total Number of People playing:<span class="total-number" id="tong_player"></span></h6>
             </div>
             <form class="list_filter form" action="<?php echo admin_url('loggamebai/bacay') ?>" method="post">
             <div class="formRow">
@@ -57,7 +57,7 @@
                 <div class="formRow">
                     <table>
                         <tr>
-                            <td><label class="session-1">Phiên:</label></td>
+                            <td><label class="session-1">Session:</label></td>
                             <td><input class="session-2" type="text" id="session_name" value="<?= empty($this->input->get('session_name')) ? $this->input->post('session_name') : $this->input->get('session_name') ?>" name="session_name"></td>
                             <td><label class="session-1" style="margin-left: 18px;">Nick name:</label></td>
                             <td><input class="session-2" style="margin-left: 1px;" type="text" id="filter_iname" value="<?= empty($this->input->get('name')) ?  $this->input->post('name') : $this->input->get('name') ?>" name="name"></td>

@@ -19,7 +19,7 @@
         <h4 id="resultsearch"></h4>
         <div class="title">
             <h6>Lịch sử minipoker </h6>
-            <h6 style=" float: right;font-size:15px;text-transform:none;">Total Số People chơi:<span style="color:#0000ff;padding-left:10px;font-size:initial;" id="tong_player"></span></h6>
+            <h6 style=" float: right;font-size:15px;text-transform:none;">Total Number of People playing:<span style="color:#0000ff;padding-left:10px;font-size:initial;" id="tong_player"></span></h6>
         </div>
 
         <form class="list_filter form" action="<?php echo admin_url('logminigame/logminipoker') ?>" method="post">

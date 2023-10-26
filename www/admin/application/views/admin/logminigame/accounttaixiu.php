@@ -16,7 +16,7 @@
         <h4 id="resultsearch"></h4>
         <div class="title">
             <h6>Lịch sử tài khoản chơi Over/under</h6>
-            <h6 class="total">Total Số People chơi:<span class="total-number" id="totalPlayer"></span></h6>
+            <h6 class="total">Total Number of People playing:<span class="total-number" id="totalPlayer"></span></h6>
         </div>
         <form class="list_filter form" action="<?php echo admin_url('logminigame/accounttaixiu') ?>" method="post">
             <div class="formRow">
@@ -53,7 +53,7 @@
                 <table>
                     <tr>
                         <td>
-                            <label for="param_name" class="session-1">Phiên: </label>
+                            <label for="param_name" class="session-1">Session: </label>
                         </td>
                         <td><input type="text" class="session-2"
                                    id="phientx" value="<?= empty($this->input->get('phientx')) ? $this->input->post('phientx') : $this->input->get('phientx') ?>"

@@ -53,7 +53,7 @@
                         <tr>
                             <td>
                                 <label for="param_name"
-                                       class="session-1">Phiên: </label>
+                                       class="session-1">Session: </label>
                             </td>
                             <td><input type="text" class="session-2"
                                        id="phientx" value="<?= empty($this->input->get('phientx')) ? $this->input->post('phientx') : $this->input->get('phientx')?>"

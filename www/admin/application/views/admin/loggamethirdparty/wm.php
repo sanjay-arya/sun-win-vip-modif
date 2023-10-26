@@ -27,7 +27,7 @@
                     <h6 class="total">Total đặt cược:<span class="total-number" id="totalBet"></span></h6>
                     <h6 class="total">Total đặt cược hợp lệ:<span class="total-number" id="totalValidBet"></span></h6>
                     <h6 class="total">Total thanh toán:<span class="total-number" id="totalPayout"></span></h6>
-                    <h6 class="total">Total Số People chơi:<span class="total-number" id="tong_player"></span></h6>
+                    <h6 class="total">Total Number of People playing:<span class="total-number" id="tong_player"></span></h6>
                 </div>
                 <form class="list_filter form" action="<?php echo admin_url('loggamethirdparty/wm') ?>" method="post">
                     <div class="formRow">

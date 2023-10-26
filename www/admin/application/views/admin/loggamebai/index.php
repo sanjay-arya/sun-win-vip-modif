@@ -2,7 +2,7 @@
 <div class="titleArea">
     <div class="wrapper">
         <div class="pageTitle">
-            <h5>Log game bài</h5>
+            <h5>Log card game</h5>
         </div>
         <div class="clear"></div>
     </div>
@@ -24,7 +24,7 @@
     <div class="widget">
         <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
         <div class="title">
-            <h6>Lịch sử game bài</h6>
+            <h6>History of card games</h6>
         </div>
         <form class="list_filter form" action="<?php echo admin_url('loggamebai') ?>" method="post">
         <div class="formRow">
@@ -92,7 +92,7 @@
 
                 <table>
                     <tr>
-                        <td><label style="margin-left: 50px;margin-bottom:-2px;width: 80px">Phiên:</label></td>
+                        <td><label style="margin-left: 50px;margin-bottom:-2px;width: 80px">Session:</label></td>
                         <td><input type="text" style="margin-left: 20px;margin-bottom:-2px;width: 150px"
                                    id="session_name" value="<?php echo $this->input->post('session_name') ?>" name="session_name"></td>
                         <td><label style="margin-left: 70px;margin-bottom:-2px;width: 80px">Type of money:</label></td>

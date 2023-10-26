@@ -26,7 +26,7 @@
                 <h6>Game slot đua xe</h6>
                 <h6 class="total">Total thắng:<span class="total-number" id="tong_thang"></span></h6>
                 <h6 class="total">Total bet:<span class="total-number" id="tong_cuoc"></span></h6>
-                <h6 class="total">Total Số People chơi:<span class="total-number" id="tong_player"></span></h6>
+                <h6 class="total">Total Number of People playing:<span class="total-number" id="tong_player"></span></h6>
             </div>
             <form class="list_filter form" action="<?php echo admin_url('loggameslot/taydu') ?>" method="post">
                 <div class="formRow">
@@ -66,7 +66,7 @@
                 <div class="formRow">
                     <table>
                         <tr>
-                            <td><label class="session-1">Phiên:</label></td>
+                            <td><label class="session-1">Session:</label></td>
                             <td><input type="text" class="session-2"
                                        id="transId" value="<?php echo $this->input->post('transId') ?>" name="transId">
                             </td>

@@ -2,7 +2,7 @@
     <div class="titleArea">
         <div class="wrapper">
             <div class="pageTitle">
-                <h5>Log game bài</h5>
+                <h5>Log card game</h5>
             </div>
             <div class="clear"></div>
         </div>
@@ -23,7 +23,7 @@
             <div class="widget">
                 <h4 id="resultsearch"></h4>
                 <div class="title">
-                    <h6>Lịch sử game bài</h6>
+                    <h6>History of card games</h6>
                 </div>
                 <form class="list_filter form" action="<?php echo admin_url('loggamebai/sam') ?>" method="post">
                     <div class="formRow row">

@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="<?php echo public_url() ?>/site/css/loggamethirdparty.css">
         <div class="title">
             <h6>Lịch sử bầu cua</h6>
-            <h6 class="total">Total Số People chơi:<span class="total-number" id="totalPlayer"></span></h6>
+            <h6 class="total">Total Number of People playing:<span class="total-number" id="totalPlayer"></span></h6>
         </div>
         <form class="list_filter form" action="<?php echo admin_url('logminigame/logbaucua') ?>" method="post">
             <div class="formRow">
@@ -47,7 +47,7 @@
             <div class="formRow">
                 <table>
                     <tr>
-                        <td><label class="session-1">Phiên:</label></td>
+                        <td><label class="session-1">Session:</label></td>
                         <td ><input type="text" class="session-2" id="phienbc" value="<?= empty($this->input->get('phienbc')) ? $this->input->post('phienbc') : $this->input->get('phienbc')?>" name="phienbc"></td>
                         <td><label  id = "labelvin" class="money-type-1" style="margin-left: 19px">Room win:</label></td>
 

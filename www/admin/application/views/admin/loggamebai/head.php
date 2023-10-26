@@ -2,7 +2,7 @@
 <div class="titleArea">
 	<div class="wrapper">
 		<div class="pageTitle">
-			<h5>Log game bài</h5>
+			<h5>Log card game</h5>
 
 		</div>
 

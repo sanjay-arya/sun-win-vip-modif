@@ -52,7 +52,7 @@
             <div class="formRow">
                 <table>
                     <tr>
-                        <td><label class="session-1">Phiên:</label></td>
+                        <td><label class="session-1">Session:</label></td>
                         <td ><input type="text" class="session-2" id="phienbc" value="<?php echo $this->input->post('phienbc') ?>" name="phienbc"></td>
                         <td><label  id = "labelvin" class="money-type-1" style="margin-left: 19px">Room win:</label></td>
 

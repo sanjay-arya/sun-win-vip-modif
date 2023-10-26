@@ -32,7 +32,7 @@ $lang['mod_media']				        = 'Upload ảnh trong bài viết';
 $lang['group_content']                  = 'Nội dung';
 
 $lang['group_ads']						= 'Quảng cáo';
-$lang['mod_ads_location']				= 'Vị trí đặt quảng cáo';
+$lang['mod_ads_location']				= 'Location đặt quảng cáo';
 $lang['mod_ads_banner']				  	= 'Banner quảng cáo';
 
 $lang['group_entertainment']            = 'Giải trí';

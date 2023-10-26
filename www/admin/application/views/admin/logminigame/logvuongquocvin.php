@@ -56,7 +56,7 @@
                 <div class="formRow">
                     <table>
                         <tr>
-                            <td><label  style="margin-left: 70px;margin-bottom:-2px;width: 80px;">Phiên:</label></td>
+                            <td><label  style="margin-left: 70px;margin-bottom:-2px;width: 80px;">Session:</label></td>
                             <td ><input type="text" style="margin-left: 0px;margin-bottom:-2px;width: 150px"  id="phienbc" value="<?php echo $this->input->post('phienbc') ?>" name="phienbc"></td>
 
                             <td><label  id = "labelvin" style="margin-left: 75px;margin-bottom:-2px;width: 80px;">Nickname:</label></td>

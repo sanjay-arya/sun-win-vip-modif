@@ -38,7 +38,7 @@
                                    onclick="window.location.href = '<?php echo admin_url('logminigame/detailphientaixiu/'.$phien . '/' . $uriParam) ?>'; "
                                    value="Reset" class="basic" style="margin-left: 20px">
                         </td>
-                        <td><label style="margin-left: 100px;margin-bottom:-2px;width: 80px;">Phiên:</label></td>
+                        <td><label style="margin-left: 100px;margin-bottom:-2px;width: 80px;">Session:</label></td>
                         <td><label style="margin-left: 20px;margin-bottom:-2px;width: 80px;"><?php echo $phien; ?></label></td>
                     </tr>
                 </table>

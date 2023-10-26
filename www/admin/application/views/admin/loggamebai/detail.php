@@ -1,7 +1,7 @@
 <div class="titleArea">
     <div class="wrapper">
         <div class="pageTitle">
-            <h5>Log game bài detail</h5>
+            <h5>Log card game detail</h5>
         </div>
         <div class="clear"></div>
     </div>
@@ -21,10 +21,10 @@
                class="sTable mTable myTable withCheck" id="checkAll">
             <thead>
             <tr style="line-height: 30px">
-                <td>Vị trí</td>
-                <td>Name People chơi</td>
-                <td>Act</td>
-                <td>Nội dung</td>
+            <td>Location</td>
+            <td>Name of Players</td>
+            <td>Action</td>
+            <td>Content</td>
             </tr>
             </thead>
             <tbody id="logbai">
@@ -496,7 +496,7 @@ function GameLog(str) {
                 if (action.name == 'BD') {
                     var danhsachbatdau = new DanhSachBatDau(action.detail);
                     action.data = danhsachbatdau;
-                    action.fullName = 'Bắt đầu ván chơi';
+                    action.fullName = 'Start the game';
                     listAction.push(action);
                 }
                 if (action.name == 'DD') {
@@ -739,12 +739,12 @@ function BatDau(str) {
     this.printToScreen = function () {
         if (listbd[1] == null) {
             if ((listbdmc.length > 1)) {
-                $("#logbai").html(tableName(listbdmc[2], listName[listbdmc[2]], "Chương", "Mức cược:" + listbdmc[1] + "  " + moneyType));
+                $("#logbai").html(tableName(listbdmc[2], listName[listbdmc[2]],"Chapter","Bet level:"+ listbdmc[1] + "  " + moneyType));
             } else if (listbdmc.length == 1) {
                 $("#logbai").append(tableName("", "Type of money", moneyType, ""));
             }
         } else {
-            $("#logbai").append(tableName(this.chair, this.nickname, "Bắt đầu", ""));
+            $("#logbai").append(tableName(this.chair, this.nickname, "Begin", ""));
         }
 
     }}
@@ -794,7 +794,7 @@ function MoiCuocdt(str) {
 
             if (listmc[1] == listbd[1]) {
 
-                $("#logbai").append(tableName(this.chair, this.name, "Mời cược", "Chương, mức cược: " + listmc[0] + " " + moneyType));
+                $("#logbai").append(tableName(this.chair, this.name, "Bet Offer", "Chapter, bet level: " + listmc[0] + " " + moneyType));
             }
             else {
                 $("#logbai").append(tableName(this.chair, this.name, "", ""));
@@ -811,7 +811,7 @@ function DatCuoc(str) {
         this.cuoc = data[1];
     }
     this.printToScreen = function () {
-        $("#logbai").append(tableName(this.chair, listName[this.chair], "Đặt cược", "x " + this.cuoc));
+        $("#logbai").append(tableName(this.chair, listName[this.chair], "Place a bet", "x " + this.cuoc));
     }
 
 }
@@ -825,7 +825,7 @@ function VaoGa(str) {
         this.cuoc = data[1];
     }
     this.printToScreen = function () {
-        $("#logbai").append(tableName(this.chair, listName[this.chair], "Vào gà", "x " + this.cuoc));
+        $("#logbai").append(tableName(this.chair, listName[this.chair], "Bet the chicken", "x " + this.cuoc));
     }
 
 }
@@ -841,7 +841,7 @@ function KeCua(str) {
         this.rate = data[2]
     }
     this.printToScreen = function () {
-        $("#logbai").append(tableName(this.chair, listName[this.chair], "Ké cửa", listName[this.cuoc] + " " + "x" + " " + this.rate));
+        $("#logbai").append(tableName(this.chair, listName[this.chair], "Kick the door", listName[this.cuoc] + " " + "x" + " " + this.rate));
     }
 }
 function SoLo(str) {
@@ -856,7 +856,7 @@ function SoLo(str) {
         this.rate = data[2]
     }
     this.printToScreen = function () {
-        $("#logbai").append(tableName(this.chair, listName[this.chair], "Sô lô", listName[this.cuoc] + " " + "x" + " " + this.rate));
+        $("#logbai").append(tableName(this.chair, listName[this.chair], "Solo", listName[this.cuoc] + " " + "x" + " " + this.rate));
     }
 }
 
@@ -872,7 +872,7 @@ function DiDau(str) {
         return mapObj[matched];
     });
     this.printToScreen = function () {
-        $("#logbai").append(tableName(this.chair, listName[this.chair], "Đi đầu", ""));
+        $("#logbai").append(tableName(this.chair, listName[this.chair], "Go first", ""));
     }
 }
 function ChiaBai(str) {
@@ -906,7 +906,7 @@ function ChiaBaiDt(str) {
         this.type = listdt[2];
     }
     this.printToScreen = function () {
-        $("#logbai").append(tableName(this.chair, listName[this.chair], "Chia bài", this.bai));
+        $("#logbai").append(tableName(this.chair, listName[this.chair], "Distribute the cards", this.bai));
     }
 }
 function DanhBai(str) {
@@ -924,11 +924,11 @@ function DanhBai(str) {
     });
     this.printToScreen = function () {
         if (this.auto == 1) {
-            $("#logbai").append(tableName(this.chair, listName[this.chair], "Tự động đánh", this.cards));
+            $("#logbai").append(tableName(this.chair, listName[this.chair], "Autoplay", this.cards));
         } else if (this.boluot == 1) {
-            $("#logbai").append(tableName(this.chair, listName[this.chair], "Bỏ lượt", ""));
+            $("#logbai").append(tableName(this.chair, listName[this.chair], "Give views", ""));
         } else {
-            $("#logbai").append(tableName(this.chair, listName[this.chair], "Stonenh bài", this.cards));
+            $("#logbai").append(tableName(this.chair, listName[this.chair], "Stonenh card", this.cards));
         }
 
     }
@@ -976,11 +976,11 @@ function KetThuc(str) {
         }
         else {
             if (this.money >= 0) {
-                $("#logbai").append(tableName(this.chair, listName[this.chair], "Kết thúc", "Thắng: " + this.money + " " + moneyType + " " + this.card.replace(/c|r|t|b/gi, function (matched) {
+                $("#logbai").append(tableName(this.chair, listName[this.chair], "End","Win: " + this.money + " " + moneyType + " " + this.card.replace(/c|r|t|b/gi, function (matched) {
                     return mapObj[matched];
                 })))
             } else {
-                $("#logbai").append(tableName(this.chair, listName[this.chair], "Kết thúc", "Thua: " + this.money + " " + moneyType + " " + this.card.replace(/c|r|t|b/gi, function (matched) {
+                $("#logbai").append(tableName(this.chair, listName[this.chair], "End","Lose: " + this.money + " " + moneyType + " " + this.card.replace(/c|r|t|b/gi, function (matched) {
                     return mapObj[matched];
                 })))
 
@@ -992,28 +992,28 @@ function BaoSam(str) {
     var chair = null;
     this.chair = str;
     this.printToScreen = function () {
-        $("#logbai").append(tableName(this.chair, listName[this.chair], "Báo sâm", ""));
+        $("#logbai").append(tableName(this.chair, listName[this.chair], "Ginseng Leopard", ""));
     }
 }
 function ChonSam(str) {
     var chair = null;
     this.chair = str;
     this.printToScreen = function () {
-        $("#logbai").append(tableName(this.chair, listName[this.chair], "Select sâm", ""));
+        $("#logbai").append(tableName(this.chair, listName[this.chair], "Select ginseng", ""));
     }
 }
 function QuayLai(str) {
     var chair = null;
     this.chair = str;
     this.printToScreen = function () {
-        $("#logbai").append(tableName(this.chair, listName[this.chair], "Kết nối lại", ""));
+        $("#logbai").append(tableName(this.chair, listName[this.chair], "Reconnect", ""));
     }
 }
 function MatKetNoi(str) {
     var chair = null;
     this.chair = str;
     this.printToScreen = function () {
-        $("#logbai").append(tableName(this.chair, listName[this.chair], "Mất kết nối", ""));
+        $("#logbai").append(tableName(this.chair, listName[this.chair], "Disconnected", ""));
     }
 }
 function SelectDealer(str) {
@@ -1175,7 +1175,7 @@ function RutBai(str) {
         return mapObj[matched];
     });
     this.printToScreen = function () {
-        $("#logbai").append(tableName(this.chair, listName[this.chair], "Rút bài", this.bai));
+        $("#logbai").append(tableName(this.chair, listName[this.chair], "Draw cards", this.bai));
     };
 }
 function DanhSachSoBai(str) {
@@ -1388,9 +1388,9 @@ function BatDauXDCT(str) {
         } else {
 
             if (listbd[1] == 0) {
-                $("#logbai").append(tableName("", this.nickname, "Bắt đầu", ""));
+                $("#logbai").append(tableName("", this.nickname, "Begin", ""));
             } else {
-                $("#logbai").append(tableName("", this.nickname, "Bắt đầu", "Nhà cái : " + commaSeparateNumber(listbd[2]) + " " + moneyType));
+                $("#logbai").append(tableName("", this.nickname, "Begin", "Nhà cái : " + commaSeparateNumber(listbd[2]) + " " + moneyType));
             }
         }
 
@@ -1414,12 +1414,12 @@ function DatCuocXDCT(str) {
 
     this.printToScreen = function () {
         if (listbd[3] == 1) {
-            $("#logbai").append(tableName("", listbd[0], "Đặt cược", "Gấp đôi: " + commaSeparateNumber(listbd[2])));
+            $("#logbai").append(tableName("", listbd[0], "Place a bet", "Gấp đôi: " + commaSeparateNumber(listbd[2])));
         } else if (listbd[3] == 2) {
-            $("#logbai").append(tableName("", listbd[0], "Đặt cược", "Tất tay cửa " + potxd(listbd[1]) + " " + commaSeparateNumber(listbd[2])));
+            $("#logbai").append(tableName("", listbd[0], "Place a bet", "Tất tay cửa " + potxd(listbd[1]) + " " + commaSeparateNumber(listbd[2])));
 
         } else if (listbd[3] == 0) {
-            $("#logbai").append(tableName("", listbd[0], "Đặt cược", potxd(listbd[1]) + ": " + commaSeparateNumber(listbd[2])));
+            $("#logbai").append(tableName("", listbd[0], "Place a bet", potxd(listbd[1]) + ": " + commaSeparateNumber(listbd[2])));
         }
 
     }}
