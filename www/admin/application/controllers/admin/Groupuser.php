@@ -99,9 +99,9 @@ Class Groupuser extends MY_Controller
                     );
                     if ($this->groupuser_model->update($id, $data)) {
                         //tạo ra nội dung thông báo
-                        $this->session->set_flashdata('message', 'Update dữ liệu thành công');
+                        $this->session->set_flashdata('message', 'Data update successful');
                     } else {
-                        $this->session->set_flashdata('message', 'Không cập nhật được');
+                        $this->session->set_flashdata('message', 'Unable to update');
                     }
                     //chuyen tới trang danh sách quản trị viên
                     redirect(admin_url('groupuser'));
@@ -124,7 +124,7 @@ Class Groupuser extends MY_Controller
         //thuc hiện xóa
         $this->groupuser_model->delete($id);
 
-        $this->session->set_flashdata('message', 'Erase dữ liệu thành công');
+        $this->session->set_flashdata('message', 'Erase data successfully');
         redirect(admin_url('groupuser'));
     }
     function  role()
@@ -152,7 +152,7 @@ Class Groupuser extends MY_Controller
                 );
                 $this->menurole_model->Create($data);
             }
-            $this->session->set_flashdata('message', 'Update dữ liệu thành công');
+            $this->session->set_flashdata('message', 'Data update successful');
             redirect(admin_url('groupuser'));
         }
         $this->data['temp'] = 'admin/groupuser/role';

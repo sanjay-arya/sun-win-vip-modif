@@ -137,7 +137,7 @@ Class Marketing extends MY_Controller
                 );
                 if ($this->urlbuilder_model->update($id,$data)) {
                     //tạo ra nội dung thông báo
-                    $this->session->set_flashdata('message', 'Update dữ liệu thành công');
+                    $this->session->set_flashdata('message', 'Data update successful');
                 } else {
                     $this->session->set_flashdata('message', 'Không thêm được');
                 }
@@ -153,7 +153,7 @@ Class Marketing extends MY_Controller
         $id = $this->uri->rsegment(3);
         $this->urlbuilder_model->delete($id);
         //tạo ra nội dung thông báo
-        $this->session->set_flashdata('message', 'Erase dữ liệu thành công');
+        $this->session->set_flashdata('message', 'Erase data successfully');
         redirect(admin_url('marketing'));
     }
 
@@ -200,7 +200,7 @@ Class Marketing extends MY_Controller
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -373,7 +373,7 @@ Class Marketing extends MY_Controller
         //lay thong cua quan trị viên
         $info = $this->utmcampain_model->get_info($id);
         if (!$info) {
-            $this->session->set_flashdata('message', 'Không tồn tại quản trị viên');
+            $this->session->set_flashdata('message', 'Administrator does not exist');
             redirect(admin_url('marketing/campain'));
         }
         $this->data['info'] = $info;
@@ -388,9 +388,9 @@ Class Marketing extends MY_Controller
                 //neu ma thay doi mat khau thi moi gan du lieu
                 if ($this->utmcampain_model->update($id, $data)) {
                     //tạo ra nội dung thông báo
-                    $this->session->set_flashdata('message', 'Update dữ liệu thành công');
+                    $this->session->set_flashdata('message', 'Data update successful');
                 } else {
-                    $this->session->set_flashdata('message', 'Không cập nhật được');
+                    $this->session->set_flashdata('message', 'Unable to update');
                 }
                 //chuyen tới trang danh sách quản trị viên
                 redirect(admin_url('marketing/campain'));
@@ -408,7 +408,7 @@ Class Marketing extends MY_Controller
         //lay thong cua quan trị viên
         $info = $this->utmmedium_model->get_info($id);
         if (!$info) {
-            $this->session->set_flashdata('message', 'Không tồn tại quản trị viên');
+            $this->session->set_flashdata('message', 'Administrator does not exist');
             redirect(admin_url('marketing/medium'));
         }
         $this->data['info'] = $info;
@@ -423,9 +423,9 @@ Class Marketing extends MY_Controller
             //neu ma thay doi mat khau thi moi gan du lieu
             if ($this->utmmedium_model->update($id, $data)) {
                 //tạo ra nội dung thông báo
-                $this->session->set_flashdata('message', 'Update dữ liệu thành công');
+                $this->session->set_flashdata('message', 'Data update successful');
             } else {
-                $this->session->set_flashdata('message', 'Không cập nhật được');
+                $this->session->set_flashdata('message', 'Unable to update');
             }
             //chuyen tới trang danh sách quản trị viên
             redirect(admin_url('marketing/medium'));
@@ -443,7 +443,7 @@ Class Marketing extends MY_Controller
         //lay thong cua quan trị viên
         $info = $this->utmsource_model->get_info($id);
         if (!$info) {
-            $this->session->set_flashdata('message', 'Không tồn tại quản trị viên');
+            $this->session->set_flashdata('message', 'Administrator does not exist');
             redirect(admin_url('marketing/source'));
         }
         $this->data['info'] = $info;
@@ -458,9 +458,9 @@ Class Marketing extends MY_Controller
             //neu ma thay doi mat khau thi moi gan du lieu
             if ($this->utmsource_model->update($id, $data)) {
                 //tạo ra nội dung thông báo
-                $this->session->set_flashdata('message', 'Update dữ liệu thành công');
+                $this->session->set_flashdata('message', 'Data update successful');
             } else {
-                $this->session->set_flashdata('message', 'Không cập nhật được');
+                $this->session->set_flashdata('message', 'Unable to update');
             }
             //chuyen tới trang danh sách quản trị viên
             redirect(admin_url('marketing/source'));
@@ -478,7 +478,7 @@ Class Marketing extends MY_Controller
         //lay thong cua quan trị viên
         $info = $this->sourcegiftcode_model->get_info($id);
         if (!$info) {
-            $this->session->set_flashdata('message', 'Không tồn tại quản trị viên');
+            $this->session->set_flashdata('message', 'Administrator does not exist');
             redirect(admin_url('marketing/sourcegiftcode'));
         }
         $this->data['info'] = $info;
@@ -498,9 +498,9 @@ Class Marketing extends MY_Controller
             //neu ma thay doi mat khau thi moi gan du lieu
             if ($this->sourcegiftcode_model->update($id, $data)) {
                 //tạo ra nội dung thông báo
-                $this->session->set_flashdata('message', 'Update dữ liệu thành công');
+                $this->session->set_flashdata('message', 'Data update successful');
             } else {
-                $this->session->set_flashdata('message', 'Không cập nhật được');
+                $this->session->set_flashdata('message', 'Unable to update');
             }
             //chuyen tới trang danh sách quản trị viên
             redirect(admin_url('marketing/sourcegiftcode'));
@@ -516,7 +516,7 @@ Class Marketing extends MY_Controller
         $id = $this->uri->rsegment(3);
         $this->utmcampain_model->delete($id);
         //tạo ra nội dung thông báo
-        $this->session->set_flashdata('message', 'Erase dữ liệu thành công');
+        $this->session->set_flashdata('message', 'Erase data successfully');
         redirect(admin_url('marketing/campain'));
     }
     function deletemedium()
@@ -525,7 +525,7 @@ Class Marketing extends MY_Controller
         $id = $this->uri->rsegment(3);
         $this->utmmedium_model->delete($id);
         //tạo ra nội dung thông báo
-        $this->session->set_flashdata('message', 'Erase dữ liệu thành công');
+        $this->session->set_flashdata('message', 'Erase data successfully');
         redirect(admin_url('marketing/medium'));
     }
     function deletesource()
@@ -534,7 +534,7 @@ Class Marketing extends MY_Controller
         $id = $this->uri->rsegment(3);
         $this->utmsource_model->delete($id);
         //tạo ra nội dung thông báo
-        $this->session->set_flashdata('message', 'Erase dữ liệu thành công');
+        $this->session->set_flashdata('message', 'Erase data successfully');
         redirect(admin_url('marketing/source'));
     }
     function deletesourcegiftcode()
@@ -543,7 +543,7 @@ Class Marketing extends MY_Controller
         $id = $this->uri->rsegment(3);
         $this->sourcegiftcode_model->delete($id);
         //tạo ra nội dung thông báo
-        $this->session->set_flashdata('message', 'Erase dữ liệu thành công');
+        $this->session->set_flashdata('message', 'Erase data successfully');
         redirect(admin_url('marketing/sourcegiftcode'));
     }
 
@@ -589,7 +589,7 @@ Class Marketing extends MY_Controller
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -625,7 +625,7 @@ Class Marketing extends MY_Controller
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 }

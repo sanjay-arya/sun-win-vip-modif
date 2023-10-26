@@ -124,9 +124,9 @@ Class Menu extends MY_Controller
 
                 if ($this->menu_model->update($id, $data)) {
                     //tạo ra nội dung thông báo
-                    $this->session->set_flashdata('message', 'Update dữ liệu thành công');
+                    $this->session->set_flashdata('message', 'Data update successful');
                 } else {
-                    $this->session->set_flashdata('message', 'Không cập nhật được');
+                    $this->session->set_flashdata('message', 'Unable to update');
                 }
                 //chuyen tới trang danh sách quản trị viên
                 redirect(admin_url('menu'));
@@ -150,7 +150,7 @@ Class Menu extends MY_Controller
         //thuc hiện xóa
         $this->menu_model->delete($id);
 
-        $this->session->set_flashdata('message', 'Erase dữ liệu thành công');
+        $this->session->set_flashdata('message', 'Erase data successfully');
         redirect(admin_url('menu'));
     }
 

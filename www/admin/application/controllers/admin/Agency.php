@@ -63,7 +63,7 @@ Class Agency extends MY_Controller
                 } else {
                     // $this->logadmin_model->create($this->logadmindata(1, $this->input->post('nickname'), $admin_info->username));
                     $this->useragent_model->create($data);
-                    $this->session->set_flashdata('message', ' Bạn thêm người dùng thành công');
+                    $this->session->set_flashdata('message', ' You added the user successfully');
                     echo json_encode("2");
                 }
             } else {
@@ -77,7 +77,7 @@ Class Agency extends MY_Controller
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
     function daily1()
@@ -93,13 +93,13 @@ Class Agency extends MY_Controller
             foreach ($info as $row) {
                 $this->admin_model->delete($row->ID);
                 $data1 = array(
-                    'action' => "Erase tài khoản admin đại lý cấp 1",
+                    'action' => "Erase level 1 agent admin account",
                     'account_name' => $row->FullName,
                     'username' => $admin_info->UserName
                 );
                 $this->logadmin_model->create($data1);
             }
-            echo json_encode("Bạn trở thành tài khoản thường");
+            echo json_encode("You become a regular account");
         } else {
             // insert vao db
             $data = array(
@@ -120,14 +120,14 @@ Class Agency extends MY_Controller
                 'dai_ly' => 1
             );
             $data2 = array(
-                'action' => "Thêm tài khoản admin đại lý cấp 1",
+                'action' => "Add level 1 agent admin account",
                 'account_name' => $this->input->post('nickname'),
                 'username' => $admin_info->UserName
             );
             $this->logadmin_model->create($data2);
             $this->usergame_model->update($this->input->post('id'), $data1);
             $this->admin_model->create($data);
-            echo json_encode("Bạn thêm mới đại lý thành công");
+            echo json_encode("You successfully added a new agent");
         }
     }
 
@@ -147,13 +147,13 @@ Class Agency extends MY_Controller
             foreach ($info as $row) {
                 $this->admin_model->delete($row->ID);
                 $data1 = array(
-                    'action' => "Erase tài khoản admin đại lý cấp 2",
+                    'action' => "Erase level 2 agent admin account",
                     'account_name' => $row->FullName,
                     'username' => $admin_info->UserName
                 );
                 $this->logadmin_model->create($data1);
             }
-            echo json_encode("Bạn trở thành tài khoản thường");
+            echo json_encode("You become a regular account");
         } else {
             // insert vao db
             $data = array(
@@ -168,17 +168,17 @@ Class Agency extends MY_Controller
                 'dai_ly' => 2
             );
             $data2 = array(
-                'action' => "Thêm tài khoản admin đại lý cấp 2",
+                'action' => "Add level 2 agent admin account",
                 'account_name' => $this->input->post('nickname'),
                 'username' => $admin_info->UserName
             );
             if($total > 4 ){
-                echo json_encode("Bạn đã thêm quá 5 đại lý");die();
+                echo json_encode("You have added more than 5 agents");die();
             }else if($total < 5){
                 $this->logadmin_model->create($data2);
                 $this->usergame_model->update($this->input->post('id'), $data1);
                 $this->admin_model->create($data);
-                echo json_encode("Bạn thêm mới đại lý thành công");
+                echo json_encode("You successfully added a new agent");
             }
         }
     }
@@ -193,7 +193,7 @@ Class Agency extends MY_Controller
         $info = $this->admin_model->get_info($id);
         // var_dump($info->UserName);die();
         if (!$info) {
-            $this->session->set_flashdata('message', 'Không tồn tại quản trị viên');
+            $this->session->set_flashdata('message', 'Administrator does not exist');
             redirect(admin_url('agency'));
         }
         $infous = $this->usergame_model->get_info_daily($info->UserName);
@@ -206,13 +206,13 @@ Class Agency extends MY_Controller
         //thuc hiện xóa
 
         $data2 = array(
-            'action' => "Erase tài khoản admin đại lý",
+            'action' => "Erase agent admin account",
             'account_name' => $info->FullName,
             'username' => $admin_info->UserName
         );
         $this->logadmin_model->create($data2);
         $this->admin_model->delete($id);
-        $this->session->set_flashdata('message', 'Erase dữ liệu thành công');
+        $this->session->set_flashdata('message', 'Erase data successfully');
         redirect(admin_url('agency'));
     }
     function listtranfer(){
@@ -381,9 +381,9 @@ Class Agency extends MY_Controller
 
                     if ($this->admin_model->update($id, $data)) {
                         //tạo ra nội dung thông báo
-                        $this->session->set_flashdata('message', 'Update dữ liệu thành công');
+                        $this->session->set_flashdata('message', 'Data update successful');
                     } else {
-                        $this->session->set_flashdata('message', 'Không cập nhật được');
+                        $this->session->set_flashdata('message', 'Unable to update');
                     }
                     //chuyen tới trang danh sách quản trị viên
                     redirect(admin_url('agency'));
@@ -405,9 +405,9 @@ Class Agency extends MY_Controller
 
                     if ($this->admin_model->update($admininfo->ID, $data)) {
                         //tạo ra nội dung thông báo
-                        $this->session->set_flashdata('message', 'Update dữ liệu thành công');
+                        $this->session->set_flashdata('message', 'Data update successful');
                     } else {
-                        $this->session->set_flashdata('message', 'Không cập nhật được');
+                        $this->session->set_flashdata('message', 'Unable to update');
                     }
                     //chuyen tới trang danh sách quản trị viên
                     redirect(admin_url('agency'));
@@ -471,7 +471,7 @@ Class Agency extends MY_Controller
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -495,7 +495,7 @@ Class Agency extends MY_Controller
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -528,7 +528,7 @@ Class Agency extends MY_Controller
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -551,7 +551,7 @@ Class Agency extends MY_Controller
 			if (isset($datainfo)) {
 				echo $datainfo;
 			} else {
-				echo "Bạn không được hack";
+				echo "You must not hack";
 			}
 		}
 

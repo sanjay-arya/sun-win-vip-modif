@@ -70,7 +70,7 @@ Class Home extends MY_Controller
             $charging->userRecharge=$userRecharge;
             echo json_encode($charging);
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 }

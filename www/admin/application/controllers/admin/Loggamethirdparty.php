@@ -80,7 +80,7 @@
  					if(isset($datainfo)) {
 							echo $datainfo;
 					}else{
-							echo "Bạn không được hack";
+							echo "You must not hack";
 					}
 			}
 
@@ -159,7 +159,7 @@
 					if(isset($datainfo)) {
 							echo $datainfo;
 					}else{
-							echo "Bạn không được hack";
+							echo "You must not hack";
 					}
 			}
 
@@ -229,7 +229,7 @@
 					if(isset($datainfo)) {
 							echo $datainfo;
 					}else{
-							echo "Bạn không được hack";
+							echo "You must not hack";
 					}
 			}
 
@@ -260,7 +260,7 @@
                 echo $data;
                 return;
             }
-            echo "Bạn không được hack";
+            echo "You must not hack";
             return;
         }
 
@@ -329,7 +329,7 @@
                     echo $data;
                     return;
                 }
-                echo "Bạn không được hack";
+                echo "You must not hack";
                 return;
 
             } catch (\Exception $e) {
@@ -364,7 +364,7 @@
                     echo $data;
                     return;
                 }
-                echo "Bạn không được hack";
+                echo "You must not hack";
                 return;
             } catch (\Exception $e) {
                 log_message('error', 'Caught exception sboAjax : ' . $e->getMessage());

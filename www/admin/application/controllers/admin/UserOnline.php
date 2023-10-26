@@ -26,7 +26,7 @@ Class UserOnline extends MY_Controller
             'mi' => $this->input->post("size"),
         ];
         $data = $this->get_data_curl($this->config->item('admin-base') . 'list-useronline' . "?" . http_build_query($params));
-        echo empty($data) ? "Bạn không được hack" : $data;
+        echo empty($data) ? "You must not hack" : $data;
         return;
     }
 }

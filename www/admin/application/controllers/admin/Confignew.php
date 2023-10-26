@@ -54,7 +54,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -67,7 +67,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -84,7 +84,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -97,7 +97,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -114,7 +114,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -127,7 +127,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -144,7 +144,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -155,7 +155,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -168,7 +168,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -185,7 +185,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -205,7 +205,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -222,7 +222,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -235,7 +235,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -247,7 +247,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -276,7 +276,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -289,7 +289,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -313,7 +313,7 @@ Class Confignew extends MY_Controller
             echo $datainfo;
 
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -323,7 +323,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -344,7 +344,7 @@ Class Confignew extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 //    function config1ajax()
@@ -353,7 +353,7 @@ Class Confignew extends MY_Controller
 //        if (isset($datainfo)) {
 //            echo $datainfo;
 //        } else {
-//            echo "Bạn không được hack";
+//            echo "You must not hack";
 //        }
 //    }
 //    function config2ajax()
@@ -362,7 +362,7 @@ Class Confignew extends MY_Controller
 //        if (isset($datainfo)) {
 //            echo $datainfo;
 //        } else {
-//            echo "Bạn không được hack";
+//            echo "You must not hack";
 //        }
 //    }
 //    function config3ajax()
@@ -371,7 +371,7 @@ Class Confignew extends MY_Controller
 //        if (isset($datainfo)) {
 //            echo $datainfo;
 //        } else {
-//            echo "Bạn không được hack";
+//            echo "You must not hack";
 //        }
 //    }
 }

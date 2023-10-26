@@ -45,7 +45,7 @@ Class Giftcode extends MY_Controller
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
     function giftcodemkt()
@@ -84,7 +84,7 @@ Class Giftcode extends MY_Controller
             if(isset($datainfo)) {
                 echo $datainfo;
             }else{
-                echo "Bạn không được hack";
+                echo "You must not hack";
             }
     }
 
@@ -157,7 +157,7 @@ Class Giftcode extends MY_Controller
 	//        if (isset($server_output)) {
 	//            echo $server_output;
 	//        } else {
-	//            echo "Bạn không được hack";
+	//            echo "You must not hack";
 	//        }
 	//        curl_close($ch);
 	//

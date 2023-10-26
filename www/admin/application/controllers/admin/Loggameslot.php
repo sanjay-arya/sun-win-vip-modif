@@ -29,7 +29,7 @@
 					if(isset($datainfo)) {
 							echo $datainfo;
 					}else{
-							echo "Bạn không được hack";
+							echo "You must not hack";
 					}
 			}
 
@@ -55,7 +55,7 @@
 					if(isset($datainfo)) {
 							echo $datainfo;
 					}else{
-							echo "Bạn không được hack";
+							echo "You must not hack";
 					}
 			}
 
@@ -81,7 +81,7 @@
 					if(isset($datainfo)) {
 							echo $datainfo;
 					}else{
-							echo "Bạn không được hack";
+							echo "You must not hack";
 					}
 			}
 
@@ -106,7 +106,7 @@
 					if(isset($datainfo)) {
 							echo $datainfo;
 					}else{
-							echo "Bạn không được hack";
+							echo "You must not hack";
 					}
 			}
 
@@ -132,7 +132,7 @@
 					if(isset($datainfo)) {
 							echo $datainfo;
 					}else{
-							echo "Bạn không được hack";
+							echo "You must not hack";
 					}
 			}
 
@@ -158,7 +158,7 @@
 					if(isset($datainfo)) {
 							echo $datainfo;
 					}else{
-							echo "Bạn không được hack";
+							echo "You must not hack";
 					}
 			}
 
@@ -184,7 +184,7 @@
 					if(isset($datainfo)) {
 							echo $datainfo;
 					}else{
-							echo "Bạn không được hack";
+							echo "You must not hack";
 					}
 			}
 
@@ -211,7 +211,7 @@
             $endPoint = $this->config->item('api_backend') . "?" . http_build_query($params);
             try {
                 $data = $this->get_data_curl($endPoint);
-                echo empty($data) ? "Bạn không được hack" : $data;
+                echo empty($data) ? "You must not hack" : $data;
                 return;
             } catch (\Exception $e) {
                 log_message('error', 'Caught exception getListAjax : ' . $e->getMessage());
@@ -242,7 +242,7 @@
             $endPoint = $this->config->item('api_backend') . "?" . http_build_query($params);
             try {
                 $data = $this->get_data_curl($endPoint);
-                echo empty($data) ? "Bạn không được hack" : $data;
+                echo empty($data) ? "You must not hack" : $data;
                 return;
             } catch (\Exception $e) {
                 log_message('error', 'Caught exception getListAjax : ' . $e->getMessage());
@@ -273,7 +273,7 @@
             $endPoint = $this->config->item('api_backend') . "?" . http_build_query($params);
             try {
                 $data = $this->get_data_curl($endPoint);
-                echo empty($data) ? "Bạn không được hack" : $data;
+                echo empty($data) ? "You must not hack" : $data;
                 return;
             } catch (\Exception $e) {
                 log_message('error', 'Caught exception getListAjax : ' . $e->getMessage());
@@ -304,7 +304,7 @@
             $endPoint = $this->config->item('api_backend') . "?" . http_build_query($params);
             try {
                 $data = $this->get_data_curl($endPoint);
-                echo empty($data) ? "Bạn không được hack" : $data;
+                echo empty($data) ? "You must not hack" : $data;
                 return;
             } catch (\Exception $e) {
                 log_message('error', 'Caught exception getListAjax : ' . $e->getMessage());

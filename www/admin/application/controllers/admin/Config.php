@@ -67,9 +67,9 @@ Class Config extends MY_Controller
 
             if ($this->gameconfig_model->update($id, $data)) {
                 //tạo ra nội dung thông báo
-                $this->session->set_flashdata('message', 'Update dữ liệu thành công');
+                $this->session->set_flashdata('message', 'Data update successful');
             } else {
-                $this->session->set_flashdata('message', 'Không cập nhật được');
+                $this->session->set_flashdata('message', 'Unable to update');
             }
             redirect(admin_url('config'));
 
@@ -795,7 +795,7 @@ Class Config extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -808,7 +808,7 @@ Class Config extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -832,7 +832,7 @@ Class Config extends MY_Controller
             echo $datainfo;
 
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -842,7 +842,7 @@ Class Config extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -866,7 +866,7 @@ Class Config extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -880,7 +880,7 @@ Class Config extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -898,7 +898,7 @@ Class Config extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 

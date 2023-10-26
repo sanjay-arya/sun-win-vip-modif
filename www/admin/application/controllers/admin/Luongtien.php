@@ -35,11 +35,11 @@ Class Luongtien extends MY_Controller
                 echo $data;
                 return;
             }
-            echo "Bạn không được hack";
+            echo "You must not hack";
             return;
         } catch (\Exception $e) {
             log_message('error', 'Caught exception loghoantraajax : ' . $e->getMessage());
-            echo "Bạn không được hack";
+            echo "You must not hack";
             return;
         }
     }
@@ -66,7 +66,7 @@ Class Luongtien extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -82,7 +82,7 @@ Class Luongtien extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -99,7 +99,7 @@ Class Luongtien extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 }

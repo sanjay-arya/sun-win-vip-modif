@@ -48,7 +48,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -91,7 +91,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -178,7 +178,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -208,7 +208,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -238,7 +238,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -262,7 +262,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -282,7 +282,7 @@ class Usergame extends MY_Controller
     //        if (isset($datainfo)) {
     //            echo $datainfo;
     //        } else {
-    //            echo "Bạn không được hack";
+    //            echo "You must not hack";
     //        }
     //    }
 
@@ -303,7 +303,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -343,7 +343,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -409,7 +409,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -434,7 +434,7 @@ class Usergame extends MY_Controller
             $this->logadmin_model->create($data);
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -464,7 +464,7 @@ class Usergame extends MY_Controller
     //            }
     //            echo $datainfo;
     //        } else {
-    //            echo "Bạn không được hack";
+    //            echo "You must not hack";
     //        }
     //    }
 
@@ -513,7 +513,7 @@ class Usergame extends MY_Controller
     //            }
     //
     //        } else {
-    //            echo "Bạn không được hack";
+    //            echo "You must not hack";
     //        }
     //
     //    }
@@ -557,7 +557,7 @@ class Usergame extends MY_Controller
     //            }
     //
     //        } else {
-    //            echo "Bạn không được hack";
+    //            echo "You must not hack";
     //        }
     //
     //    }
@@ -580,7 +580,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
     //    function checkinfo()
@@ -668,7 +668,7 @@ class Usergame extends MY_Controller
     //        if (isset($datainfo)) {
     //            echo $datainfo;
     //        } else {
-    //            echo "Bạn không được hack";
+    //            echo "You must not hack";
     //        }
     //
     //    }
@@ -691,7 +691,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -705,7 +705,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -715,7 +715,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -732,7 +732,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -752,7 +752,7 @@ class Usergame extends MY_Controller
             echo $result;
             return;
         }
-        echo "Bạn không được hack";
+        echo "You must not hack";
         return;
     }
 
@@ -763,7 +763,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -789,7 +789,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -806,7 +806,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -816,7 +816,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -826,7 +826,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -836,7 +836,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -848,7 +848,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -860,7 +860,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -870,7 +870,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -880,7 +880,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -890,7 +890,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -902,7 +902,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -912,7 +912,7 @@ class Usergame extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 

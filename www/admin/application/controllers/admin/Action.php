@@ -85,7 +85,7 @@ Class Action extends MY_Controller
                 //them moi vao csdl
                 if ($this->actionadmin_model->update($id, $data)) {
                     //tạo ra nội dung thông báo
-                    $this->session->set_flashdata('message', 'Update dữ liệu thành công');
+                    $this->session->set_flashdata('message', 'Data update successful');
                 } else {
                     $this->session->set_flashdata('message', 'Không thêm được');
                 }

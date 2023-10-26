@@ -75,7 +75,7 @@ Class Deposit extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 

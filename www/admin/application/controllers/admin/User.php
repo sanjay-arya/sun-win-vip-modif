@@ -28,7 +28,7 @@ Class User extends MY_Controller
             $response = [
                 "success" => false,
                 "errorCode" => -1,
-                "message" => 'Không tồn tại quản trị viên'
+                "message" => 'Administrator does not exist'
             ];
             echo json_encode($response);
         } else {
@@ -70,7 +70,7 @@ Class User extends MY_Controller
                             $response = [
                                 "success" => false,
                                 "errorCode" => -1,
-                                "message" => 'Không cập nhật được'
+                                "message" => 'Unable to update'
                             ];
                             echo json_encode($response);
                         }
@@ -138,7 +138,7 @@ Class User extends MY_Controller
                 }
             }
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
     function trutienajax(){
@@ -178,7 +178,7 @@ Class User extends MY_Controller
                 }
             }
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -188,7 +188,7 @@ function getnicknameajax(){
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
     /*
@@ -225,7 +225,7 @@ function getnicknameajax(){
             }
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
     function updatevpevent(){
@@ -264,7 +264,7 @@ function getnicknameajax(){
             }
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 	  function refundbonus(){
@@ -294,7 +294,7 @@ function getnicknameajax(){
             $this->logadmin_model->create($data);}
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
     function bonusajax(){
@@ -312,7 +312,7 @@ function getnicknameajax(){
                 $this->logadmin_model->create($data);}
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 	
@@ -349,7 +349,7 @@ function getnicknameajax(){
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -370,7 +370,7 @@ function getnicknameajax(){
             if(isset($datainfo)) {
                 echo $datainfo;
             }else{
-                echo "Bạn không được hack";
+                echo "You must not hack";
             }
         }
 
@@ -391,7 +391,7 @@ function getnicknameajax(){
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
     function reportgcdlajax(){
@@ -411,7 +411,7 @@ function getnicknameajax(){
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 	
@@ -461,7 +461,7 @@ function getnicknameajax(){
            }
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 	
@@ -556,7 +556,7 @@ function getnicknameajax(){
             }
             echo $server_output;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
        curl_close ($ch);
 
@@ -646,7 +646,7 @@ function getnicknameajax(){
             }
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 	
@@ -686,7 +686,7 @@ function getnicknameajax(){
             }
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 	

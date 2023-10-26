@@ -119,7 +119,7 @@ class Admin extends MY_Controller
                 );
                 $this->userrole_model->create($data1);
             }
-            $this->session->set_flashdata('message', ' Bạn thêm người dùng thành công');
+            $this->session->set_flashdata('message', ' You added the user successfully');
             echo json_encode("2");
         }
     }
@@ -132,7 +132,7 @@ class Admin extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
 
     }
@@ -156,7 +156,7 @@ class Admin extends MY_Controller
 
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -174,7 +174,7 @@ class Admin extends MY_Controller
         //lay thong cua quan trị viên
         $info = $this->admin_model->get_info($id);
         if (!$info) {
-            $this->session->set_flashdata('message', 'Không tồn tại quản trị viên');
+            $this->session->set_flashdata('message', 'Administrator does not exist');
             redirect(admin_url('admin'));
         }
         $this->data['info'] = $info;
@@ -185,9 +185,9 @@ class Admin extends MY_Controller
             );
             if ($this->admin_model->update($id, $data)) {
                 //tạo ra nội dung thông báo
-                $this->session->set_flashdata('message', 'Update dữ liệu thành công');
+                $this->session->set_flashdata('message', 'Data update successful');
             } else {
-                $this->session->set_flashdata('message', 'Không cập nhật được');
+                $this->session->set_flashdata('message', 'Unable to update');
             }
             //chuyen tới trang danh sách quản trị viên
             redirect(admin_url('admin'));
@@ -212,7 +212,7 @@ class Admin extends MY_Controller
         //lay thong cua quan trị viên
         $info = $this->admin_model->get_info($id);
         if (!$info) {
-            $this->session->set_flashdata('message', 'Không tồn tại quản trị viên');
+            $this->session->set_flashdata('message', 'Administrator does not exist');
             redirect(admin_url('admin'));
         }
         $this->data['info'] = $info;
@@ -240,7 +240,7 @@ class Admin extends MY_Controller
                         //tạo ra nội dung thông báo
                         $this->session->set_flashdata('message', 'Change Password thành công');
                     } else {
-                        $this->session->set_flashdata('message', 'Không cập nhật được');
+                        $this->session->set_flashdata('message', 'Unable to update');
                     }
                     //chuyen tới trang danh sách quản trị viên
                     redirect(admin_url('admin'));
@@ -300,9 +300,9 @@ class Admin extends MY_Controller
                 }
                 if ($this->userrole_model->create($data)) {
                     //tạo ra nội dung thông báo
-                    $this->session->set_flashdata('message', 'Update dữ liệu thành công');
+                    $this->session->set_flashdata('message', 'Data update successful');
                 } else {
-                    $this->session->set_flashdata('message', 'Không cập nhật được');
+                    $this->session->set_flashdata('message', 'Unable to update');
                 }
                 redirect(admin_url('admin'));
             }
@@ -350,7 +350,7 @@ class Admin extends MY_Controller
         //lay thong tin cua quan tri vien
         $info = $this->admin_model->get_info($id);
         if (!$info) {
-            $this->session->set_flashdata('message', 'Không tồn tại quản trị viên');
+            $this->session->set_flashdata('message', 'Administrator does not exist');
             redirect(admin_url('admin'));
         }
         //thuc hiện xóa
@@ -362,7 +362,7 @@ class Admin extends MY_Controller
             $where = array("User_ID" => $id);
             $this->userrole_model->del_rule($where);
             file_get_contents($this->config->item('api_backend') . '?c=103&nn=' . $nickname . '&st=0');
-            $this->session->set_flashdata('message', 'Erase dữ liệu thành công');
+            $this->session->set_flashdata('message', 'Erase data successfully');
         }
         redirect(admin_url('admin'));
     }

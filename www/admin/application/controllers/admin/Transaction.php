@@ -51,7 +51,7 @@ Class Transaction extends MY_Controller
 //        if (isset($datainfo)) {
 //            echo $datainfo["content"];
 //        } else {
-//            echo "Bạn không được hack";
+//            echo "You must not hack";
 //        }
 //
 //    }
@@ -92,7 +92,7 @@ Class Transaction extends MY_Controller
 //        if (isset($datainfo)) {
 //            echo $datainfo;
 //        } else {
-//            echo "Bạn không được hack";
+//            echo "You must not hack";
 //        }
 //
 //    }
@@ -181,7 +181,7 @@ Class Transaction extends MY_Controller
 //        if (isset($datainfo)) {
 //            echo $datainfo;
 //        } else {
-//            echo "Bạn không được hack";
+//            echo "You must not hack";
 //        }
 //    }
 
@@ -204,7 +204,7 @@ Class Transaction extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -227,7 +227,7 @@ Class Transaction extends MY_Controller
 //        if (isset($datainfo)) {
 //            echo $datainfo;
 //        } else {
-//            echo "Bạn không được hack";
+//            echo "You must not hack";
 //        }
 //    }
 
@@ -249,7 +249,7 @@ Class Transaction extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -275,7 +275,7 @@ Class Transaction extends MY_Controller
             }
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -299,7 +299,7 @@ Class Transaction extends MY_Controller
             }
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -352,7 +352,7 @@ Class Transaction extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -392,7 +392,7 @@ Class Transaction extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -411,7 +411,7 @@ Class Transaction extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -428,7 +428,7 @@ Class Transaction extends MY_Controller
             $this->logadmin_model->create($data);
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -447,7 +447,7 @@ Class Transaction extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -464,7 +464,7 @@ Class Transaction extends MY_Controller
             $this->logadmin_model->create($data);
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -507,7 +507,7 @@ Class Transaction extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -534,7 +534,7 @@ Class Transaction extends MY_Controller
             );
             $this->logadmin_model->create($data);
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
 
         }
     }
@@ -560,7 +560,7 @@ Class Transaction extends MY_Controller
             $this->logadmin_model->create($data);
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -576,7 +576,7 @@ Class Transaction extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -588,7 +588,7 @@ Class Transaction extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -633,7 +633,7 @@ Class Transaction extends MY_Controller
 //        if (isset($datainfo)) {
 //            echo $datainfo;
 //        } else {
-//            echo "Bạn không được hack";
+//            echo "You must not hack";
 //        }
 //
 //    }

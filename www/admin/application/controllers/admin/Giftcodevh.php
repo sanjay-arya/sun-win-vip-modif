@@ -49,7 +49,7 @@ Class Giftcodevh extends MY_Controller
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -101,7 +101,7 @@ Class Giftcodevh extends MY_Controller
                 }
             }
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
         curl_close ($ch);
     }
@@ -155,7 +155,7 @@ Class Giftcodevh extends MY_Controller
                 }
             }
         } else {
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
         curl_close ($ch);
     }
@@ -193,7 +193,7 @@ Class Giftcodevh extends MY_Controller
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
     function giftcodevhuse()
@@ -243,7 +243,7 @@ Class Giftcodevh extends MY_Controller
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -275,7 +275,7 @@ Class Giftcodevh extends MY_Controller
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -305,7 +305,7 @@ Class Giftcodevh extends MY_Controller
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
 
     }
@@ -334,7 +334,7 @@ Class Giftcodevh extends MY_Controller
         if(isset($datainfo)) {
             echo $datainfo;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
     }
 
@@ -491,7 +491,7 @@ Class Giftcodevh extends MY_Controller
         if(isset($server_output)) {
             echo $server_output;
         }else{
-            echo "Bạn không được hack";
+            echo "You must not hack";
         }
         curl_close ($ch);
 //        if($money == 1){
@@ -502,7 +502,7 @@ Class Giftcodevh extends MY_Controller
 //        if(isset($datainfo)) {
 //            echo $datainfo;
 //        }else{
-//            echo "Bạn không được hack";
+//            echo "You must not hack";
 //        }
     }
 
