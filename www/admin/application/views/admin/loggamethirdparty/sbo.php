@@ -52,12 +52,13 @@
             </div>
         </form>
         <div class="row">
-            <div class="col-sm-12">
-                <h4 class="float-right">Total đặt cược:<span style="color:#0000ff" id="totalBet"></span></h4>
-                <h4 class="float-right"> Total đặt cược hợp lệ : <span style="color:#0000ff" id="totalValidBet"></span> | </h4>
-                <h4 class="float-right"> Total thanh toán : <span style="color:#0000ff" id="totalPayout"></span> | </h4>
-                <h4 class="float-right">Total số People chơi : <span style="color:#0000ff" id="totalPlayer"></span> | </h4>
-            </div>
+        <div class="col-sm-12">
+            <h4 class="float-right">Total bets:<span style="color:#0000ff" id="totalBet"></span></h4>
+            <h4 class="float-right">Total valid bets:<span style="color:#0000ff" id="totalValidBet"></span> | </h4>
+            <h4 class="float-right">Total payouts:<span style="color:#0000ff" id="totalPayout"></span> | </h4>
+            <h4 class="float-right">Total number of players:<span style="color:#0000ff" id="totalPlayer"></span> | </h4>
+        </div>
+
             <div class="col-sm-12">
                 <h4 class="float-right">Total records:<span style="color:#0000ff" id="total"></span></h4>
             </div>

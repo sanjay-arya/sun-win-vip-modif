@@ -112,7 +112,7 @@
                                     <thead>
                                         <tr style="height: 20px;">
                                             <td>Name game</td>
-                                            <td>Money cược</td>
+                                            <td>Money bet</td>
                                             <td>Trả thưởng</td>
                                             <td>Money hoàn trả</td>
                                             <td>Money sự kiện</td>
@@ -144,7 +144,7 @@
                                     <thead>
                                         <tr style="height: 20px;">
                                             <td>Name game</td>
-                                            <td>Money cược</td>
+                                            <td>Money bet</td>
                                             <td>Trả thưởng</td>
                                             <td>Money hoàn trả</td>
                                             <td>Money sự kiện</td>
@@ -530,7 +530,7 @@
                                     <thead>
                                         <tr style="height: 20px;">
                                             <td>Name game</td>
-                                            <td>Money cược</td>
+                                            <td>Money bet</td>
                                             <td>Trả thưởng</td>
                                             <td>Money hoàn trả</td>
                                             <td>Money sự kiện</td>
@@ -562,7 +562,7 @@
                                     <thead>
                                         <tr style="height: 20px;">
                                             <td>Name game</td>
-                                            <td>Money cược</td>
+                                            <td>Money bet</td>
                                             <td>Trả thưởng</td>
                                             <td>Money hoàn trả</td>
                                             <td>Money sự kiện</td>
@@ -1227,7 +1227,7 @@ $(document).ready(function() {
                     $('#logaction2').html(result3);
                 }
                 if (res.actionGame.HamCaMap != null) {
-                    result4 += resultSearchTransction("Bắn cá", res.actionGame.HamCaMap.moneyWin,
+                    result4 += resultSearchTransction("Shoot Fish", res.actionGame.HamCaMap.moneyWin,
                         res.actionGame.HamCaMap.moneyLost, res.actionGame.HamCaMap.moneyOther,
                         res.actionGame.HamCaMap.fee, res.actionGame.HamCaMap.revenuePlayGame,
                         res.actionGame.HamCaMap.revenue);
@@ -1239,7 +1239,7 @@ $(document).ready(function() {
                     total23 += res.actionGame.HamCaMap.revenuePlayGame;
                     total24 += res.actionGame.HamCaMap.revenue;
                 } else {
-                    result4 += resultSearchTransction("Bắn cá", 0, 0, 0, 0, 0, 0);
+                    result4 += resultSearchTransction("Shoot Fish", 0, 0, 0, 0, 0, 0);
                     $('#logactiongamekhac').html(result4);
                 }
 

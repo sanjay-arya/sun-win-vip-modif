@@ -113,7 +113,7 @@
         <table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable withCheck" id="checkAll">
             <thead>
             <tr class="list-logminigame">
-                <td>Phiên</td>
+                <td>Session</td>
                 <td>Nick name</td>
                 <td>Money đặt</td>
                 <td>Cửa đặt</td>

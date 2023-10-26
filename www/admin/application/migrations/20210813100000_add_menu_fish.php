@@ -11,7 +11,7 @@ class Migration_Add_menu_fish extends CI_Migration
             return;
         }
         $data = array(
-            'Name' => 'Bắn cá',
+            'Name' => 'Shoot Fish',
             'Param' => '3',
             'Link' => 'loggamethirdparty/fish',
             'Status' => 'A',

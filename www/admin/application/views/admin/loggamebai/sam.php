@@ -86,7 +86,7 @@
                 </form>
                 <div class="row">
                     <div class="col-sm-12 text-right">
-                        <h6 style="display: inline"><strong>Total People chơi:</strong><span class="total-data-span" id="totalPlayer"></span></h6>
+                        <h6 style="display: inline"><strong>Total People plays:</strong><span class="total-data-span" id="totalPlayer"></span></h6>
                         <h6 style="display: inline"><strong> | Total records:</strong><span class="total-data-span" id="totalData"></span></h6>
                     </div>
                 </div>
@@ -96,17 +96,18 @@
                         <td>No</td>
                         <td>Tran id</td>
                         <td>Nick name</td>
-                        <td>Money cược</td>
-                        <td>Thẻ bài</td>
-                        <td>Fund hiện tại</td>
-                        <td>Pot hiện tại</td>
+                        <td>Betting amount</td>
+                        <td>Card deck</td>
+                        <td>Current fund</td>
+                        <td>Current pot</td>
                         <td>Type of money</td>
-                        <td>Ô cược</td>
+                        <td>Betting box</td>
                         <td>Bonus</td>
-                        <td>Kết quả</td>
+                        <td>Result</td>
                         <td>Step</td>
                         <td>Date created</td>
                     </tr>
+
                     </thead>
                     <tbody id="logaction">
                     </tbody>

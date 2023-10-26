@@ -4,7 +4,7 @@
 <div class="wrapper">
     <div class="widget">
         <div class="title">
-            <h6>Update nhóm People dùng</h6>
+            <h6>Update the People group to use</h6>
         </div>
         <form id="form" class="form" enctype="multipart/form-data" method="post" action="">
             <fieldset>
@@ -18,7 +18,7 @@
                     <div class="clear"></div>
                 </div>
                 <div class="formRow">
-                    <label for="param_username" class="formLeft">Ghi chú:<span class="req">*</span></label>
+                    <label for="param_username" class="formLeft">Note:<span class="req">*</span></label>
                     <div class="formRight">
                         <span class="oneTwo"><input type="text" _autocheck="true" value="<?php echo $info->Description?>" id="param_username" name="description"></span>
                         <span class="autocheck" name="name_autocheck"></span>

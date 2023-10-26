@@ -15,17 +15,18 @@
     <div class="widget">
         <?php if ($list != null) : ?>
             <div class="title">
-                <h6>List nhóm People dùng</h6>
+                <h6>List of groups People use</h6>
                 <div class="num f12">Total: <b><?php echo $total ?></b></div>
             </div>
             <table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable withCheck" id="checkAll">
                 <thead>
                 <tr>
                     <td style="width:80px;">No</td>
-                    <td>Name nhóm</td>
-                    <td>Ghi chú</td>
+                    <td>Group Name</td>
+                    <td>Note</td>
                     <td style="width:100px;">Operation</td>
                 </tr>
+
                 </thead>
                 <tbody>
                 <?php $stt = 1; ?>
@@ -57,7 +58,7 @@
             </table>
         <?php endif ?>
         <?php if ($list == null): ?>
-            Bạn không có quyền truy cập
+            You do not have access
         <?php endif ?>
     </div>
 </div>

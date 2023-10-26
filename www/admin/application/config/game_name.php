@@ -27,7 +27,7 @@ $config['game_match'] =
 		"BIKINI" => "Bikini",
 		"GALAXY" => "Galaxy",
 		"RANGE_ROVER" => "RANGE_ROVER",
-		"FISH" => "Bắn cá",
+		"FISH" => "Shoot Fish",
 		"ebet" => "Ebet",
 		"sbo" => "Sbo",
 	);

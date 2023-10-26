@@ -88,7 +88,7 @@
             <table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable withCheck" id="checkAll">
                 <thead>
                 <tr class="list-logminigame">
-                    <td>Phiên</td>
+                    <td>Session</td>
                     <td>Money đặt xỉu</td>
                     <td>Total đặt xỉu</td>
                     <td>Hoàn trả cửa xỉu</td>
@@ -96,7 +96,7 @@
                     <td>Total đặt tài</td>
                     <td>Hoàn trả cửa tài</td>
                     <td>Jackpot</td>
-                    <td>Kết quả</td>
+                    <td>Result</td>
                     <td>Kết quả giải</td>
                     <td>Type of money</td>
                     <td>Date created</td>

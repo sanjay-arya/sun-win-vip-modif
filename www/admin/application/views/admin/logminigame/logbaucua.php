@@ -111,10 +111,10 @@
         <table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable withCheck" id="checkAll">
             <thead>
             <tr class="list-logminigame">
-                <td>Phiên</td>
+                <td>Session</td>
                 <td>Nick name</td>
                 <td>Room</td>
-                <td>Kết quả</td>
+                <td>Result</td>
                 <td>Money đặt bầu</td>
                 <td>Money đặt cua</td>
                 <td>Money đặt tôm</td>

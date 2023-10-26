@@ -15,7 +15,7 @@
     <div class="widget backaccount">
         <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
         <div class="title">
-            <h6>List Ngân hàng</h6>
+            <h6>List of Banks</h6>
 <!--            <h6 style="float: right">Total number of records:<span style="color:#0000ff" id="total"></span></h6>-->
         </div>
 

@@ -72,7 +72,7 @@
                             <table class="table table-bordered">
                                 <thead>
                                 <tr style="height: 20px;">
-                                    <td>Phiên</td>
+                                    <td>Session</td>
                                     <td>Nick name</td>
                                     <td>Money đạt</td>
                                     <td>Cửa đặt</td>

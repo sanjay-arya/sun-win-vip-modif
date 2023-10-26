@@ -109,7 +109,7 @@
                 <td>Nick name</td>
                 <td style="width:100px;">Room chơi</td>
                 <td style="width:100px;">Kết quả</td>
-                <td>Money thưởng</td>
+                <td>Money bonus</td>
                 <td>Quân bài</td>
                 <td>Hũ hiện tại</td>
                 <td>Fund hiện tại</td>

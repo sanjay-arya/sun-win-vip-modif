@@ -1271,11 +1271,12 @@ function DanhQuan(str) {
 
         if (data[7] != 2) {
             this.printToScreen = function () {
-                $("#logbai").append(tableName(this.chair, listName[this.chair], "Đi quân", this.co + "  từ vị trí:  " + data[2] + data[3] + " đến vị trí  " + data[4] + data[5]));
+                $("#logbai").append(tableName(this.chair, listName[this.chair], "Move piece", this.co + " from position: " + data[2] + data[3] + " to position " + data[4] + data[5]));
+
             };
         } else {
             this.printToScreen = function () {
-                $("#logbai").append(tableName(this.chair, listName[this.chair], "Đi quân", this.co + "  từ vị trí:  " + data[2] + data[3] + " đến vị trí  " + data[4] + data[5] + " ăn quân  " + this.co1));
+                $("#logbai").append(tableName(this.chair, listName[this.chair], "Move piece", this.co + " from position: " + data[2] + data[3] + " to position " + data[4] + data[5] + " capturing piece " + this.co1));
             };
         }
     }
@@ -1338,11 +1339,11 @@ function HetCo(str) {
         }
     }    this.printToScreen = function () {
         if (data[0] == 6) {
-            $("#logbai").append(tableName(this.chair, listName[this.chair], "Money wins: " + this.money + "  Reason thắng: đối thủ hết giờ", result));
+            $("#logbai").append(tableName(this.chair, listName[this.chair], "Money wins: " + this.money + "Reason wins: opponent runs out of time", result));
         } else if (data[0] == 7) {
-            $("#logbai").append(tableName(this.chair, listName[this.chair], "Money wins: " + this.money + "  Reason thắng: đối thủ xin thua", result));
+            $("#logbai").append(tableName(this.chair, listName[this.chair], "Money wins: " + this.money + "Reason wins: opponent begs to lose", result));
         } else if (data[0] == 1) {
-            $("#logbai").append(tableName(this.chair, listName[this.chair], "Ván này hòa, số tiền bị trừ: " + this.money, result));
+            $("#logbai").append(tableName(this.chair, listName[this.chair], "This game is a draw, the amount is deducted: " + this.money, result));
         }
         else {
             $("#logbai").append(tableName(this.chair, listName[this.chair], "Money wins: " + this.money, result));
@@ -1390,7 +1391,7 @@ function BatDauXDCT(str) {
             if (listbd[1] == 0) {
                 $("#logbai").append(tableName("", this.nickname, "Begin", ""));
             } else {
-                $("#logbai").append(tableName("", this.nickname, "Begin", "Nhà cái : " + commaSeparateNumber(listbd[2]) + " " + moneyType));
+                $("#logbai").append(tableName("", this.nickname, "Begin", "Dealer : " + commaSeparateNumber(listbd[2]) + " " + moneyType));
             }
         }
 
@@ -1414,9 +1415,9 @@ function DatCuocXDCT(str) {
 
     this.printToScreen = function () {
         if (listbd[3] == 1) {
-            $("#logbai").append(tableName("", listbd[0], "Place a bet", "Gấp đôi: " + commaSeparateNumber(listbd[2])));
+            $("#logbai").append(tableName("", listbd[0], "Place a bet", "Double: " + commaSeparateNumber(listbd[2])));
         } else if (listbd[3] == 2) {
-            $("#logbai").append(tableName("", listbd[0], "Place a bet", "Tất tay cửa " + potxd(listbd[1]) + " " + commaSeparateNumber(listbd[2])));
+            $("#logbai").append(tableName("", listbd[0], "Place a bet", "All hands on deck" + potxd(listbd[1]) + " " + commaSeparateNumber(listbd[2])));
 
         } else if (listbd[3] == 0) {
             $("#logbai").append(tableName("", listbd[0], "Place a bet", potxd(listbd[1]) + ": " + commaSeparateNumber(listbd[2])));
@@ -1472,7 +1473,7 @@ function HoanTienCT(str) {
 
     if(listbd != null) {
         this.printToScreen = function () {
-            $("#logbai").append(tableName("", listbd[1], "Hoàn tiền", potxd(listbd[0]) + ": " + commaSeparateNumber(listbd[2])));
+            $("#logbai").append(tableName("", listbd[1], "Refund", potxd(listbd[0]) + ": " + commaSeparateNumber(listbd[2])));
 
         }
     }}
@@ -1491,7 +1492,7 @@ function KetQua(str) {
     }
 
     this.printToScreen = function () {
-        $("#logbai").append(tableName("", "Kết quả", kqpot(listbd[0]) + " ," + kqpot(listbd[1]) + " ," + kqpot(listbd[2]) + " ," + kqpot(listbd[3]), kqpotkq(trang, den)));
+        $("#logbai").append(tableName("", "Result", kqpot(listbd[0]) + " ," + kqpot(listbd[1]) + " ," + kqpot(listbd[2]) + " ," + kqpot(listbd[3]), kqpotkq(trang, den)));
 
     }}function TraThuong(str) {
     var listds = new Array();
@@ -1512,9 +1513,9 @@ function TraLai(str) {
     var listbd = str.split("/");
     this.printToScreen = function () {
         if (listbd[1] == 1) {
-            $("#logbai").append(tableName("", listbd[0], "Nhà cái cân tất", commaSeparateNumber(listbd[2].replace(";", ""))));
+            $("#logbai").append(tableName("", listbd[0], "The house/bookmaker balances everything ", commaSeparateNumber(listbd[2].replace(";", ""))));
         } else if (listbd[1] == 2) {
-            $("#logbai").append(tableName("", listbd[0], "Nhà cái trả lại", commaSeparateNumber(listbd[2].replace(";", ""))));
+            $("#logbai").append(tableName("", listbd[0], "The dealer returns", commaSeparateNumber(listbd[2].replace(";", ""))));
         }
     }
 }
@@ -1523,9 +1524,9 @@ function TraThuongDT(str) {
     console.log(listbd);
     this.printToScreen = function () {
         if (listbd[2] != "") {
-            $("#logbai").append(tableName("", listbd[0], "Trả thưởng", commaSeparateNumber(listbd[1]) + " " + trathuongeror(listbd[2])));
+            $("#logbai").append(tableName("", listbd[0], "Reward", commaSeparateNumber(listbd[1]) + " " + trathuongeror(listbd[2])));
         } else {
-            $("#logbai").append(tableName("", listbd[0], "Trả thưởng", commaSeparateNumber(listbd[1])));
+            $("#logbai").append(tableName("", listbd[0], "Reward", commaSeparateNumber(listbd[1])));
         }
     }
 }
@@ -1540,7 +1541,7 @@ function DungDatCuoc(str) {
     var listbd6 = listbd[5].split("/");
 
     this.printToScreen = function () {
-        $("#logbai").append(tableName("", "", "Dừng đặt cược", potxd(listbd1[0]) + ": " + commaSeparateNumber(listbd1[1]) + " , " + potxd(listbd2[0]) + ": " + commaSeparateNumber(listbd2[1]) + " , " + potxd(listbd3[0]) + ": " + commaSeparateNumber(listbd3[1]) + " , " + potxd(listbd4[0]) + ": " + commaSeparateNumber(listbd4[1]) + " , " + potxd(listbd5[0]) + ": " + commaSeparateNumber(listbd5[1]) + " , " + potxd(listbd6[0]) + ": " + commaSeparateNumber(listbd6[1])));
+        $("#logbai").append(tableName("", "", "Stop betting", potxd(listbd1[0]) + ": " + commaSeparateNumber(listbd1[1]) + " , " + potxd(listbd2[0]) + ": " + commaSeparateNumber(listbd2[1]) + " , " + potxd(listbd3[0]) + ": " + commaSeparateNumber(listbd3[1]) + " , " + potxd(listbd4[0]) + ": " + commaSeparateNumber(listbd4[1]) + " , " + potxd(listbd5[0]) + ": " + commaSeparateNumber(listbd5[1]) + " , " + potxd(listbd6[0]) + ": " + commaSeparateNumber(listbd6[1])));
     }
 }
 
@@ -1554,7 +1555,7 @@ function DungHoanTien(str) {
     var listbd6 = listbd[5].split("/");
 
     this.printToScreen = function () {
-        $("#logbai").append(tableName("", "", "Dừng hoàn  tiền", potxd(listbd1[0]) + ": " + commaSeparateNumber(listbd1[1]) + " , " + potxd(listbd2[0]) + ": " + commaSeparateNumber(listbd2[1]) + " , " + potxd(listbd3[0]) + ": " + commaSeparateNumber(listbd3[1]) + " , " + potxd(listbd4[0]) + ": " + commaSeparateNumber(listbd4[1]) + " , " + potxd(listbd5[0]) + ": " + commaSeparateNumber(listbd5[1]) + " , " + potxd(listbd6[0]) + ": " + commaSeparateNumber(listbd6[1])));
+        $("#logbai").append(tableName("", "", "Stop Refunds", potxd(listbd1[0]) + ": " + commaSeparateNumber(listbd1[1]) + " , " + potxd(listbd2[0]) + ": " + commaSeparateNumber(listbd2[1]) + " , " + potxd(listbd3[0]) + ": " + commaSeparateNumber(listbd3[1]) + " , " + potxd(listbd4[0]) + ": " + commaSeparateNumber(listbd4[1]) + " , " + potxd(listbd5[0]) + ": " + commaSeparateNumber(listbd5[1]) + " , " + potxd(listbd6[0]) + ": " + commaSeparateNumber(listbd6[1])));
     }
 }
 function replaceAt(string, index, replace) {
@@ -1580,53 +1581,56 @@ function tableName(chair, name, action, des) {
 function resultWintype(count) {
     var strresult;
     switch (count) {
-        case 1:
-            strresult = "Không chơi";
-            break;
-        case 2:
-            strresult = "Thắng thông";
-            break;
-        case 3:
-            strresult = "Thắng sâm";
-            break;
-        case 4:
-            strresult = "Thắng chặn sâm";
-            break;
-        case 5:
-            strresult = "Thắng bắt treo";
-            break;
-        case 6:
-            strresult = "50,000 Win";
-            break;
-        case 7:
-            strresult = "Thắng trắng tứ 2";
-        case 8:
-            strresult = "Thắng trắng 5 đôi";
-            break;
-        case 9:
-            strresult = "300,000 Coin";
-            break;
-        case 10:
-            strresult = "500,000 Coin";
-            break;
-        case 11:
-            strresult = "1,000,000 Coin";
-            break;
-        case 12:
-            strresult = "2,000,000 Coin";
-            break;
-        case 13:
-            strresult = "5,000,000 Coin";
-            break;
-        case 14:
-            strresult = "1 lượt quay Candy Slot";
-        case 15:
-            strresult = "2 lượt quay Candy Slot";
-            break;
-        case 16:
-            strresult = "Trượt rồi";
-            break;
-    }
+    case 1:
+        strresult = "Not playing";
+        break;
+    case 2:
+        strresult = "Winning with a sequence";
+        break;
+    case 3:
+        strresult = "Winning with a set";
+        break;
+    case 4:
+        strresult = "Winning by blocking opponents";
+        break;
+    case 5:
+        strresult = "Winning by catching a thief";
+        break;
+    case 6:
+        strresult = "50,000 Win";
+        break;
+    case 7:
+        strresult = "Winning with a pure quartet";
+        break;
+    case 8:
+        strresult = "Winning with five pairs";
+        break;
+    case 9:
+        strresult = "300,000 Coins";
+        break;
+    case 10:
+        strresult = "500,000 Coins";
+        break;
+    case 11:
+        strresult = "1,000,000 Coins";
+        break;
+    case 12:
+        strresult = "2,000,000 Coins";
+        break;
+    case 13:
+        strresult = "5,000,000 Coins";
+        break;
+    case 14:
+        strresult = "1 turn on Candy Slot";
+        break;
+    case 15:
+        strresult = "2 turns on Candy Slot";
+        break;
+    case 16:
+        strresult = "Missed";
+        break;
+}
+
     return strresult;
 }
 function actiontt(count) {
@@ -1658,22 +1662,19 @@ function commaSeparateNumber(val) {
 }function potxd(count) {
     var strresult = "";
     if (count == 0) {
-        strresult = "chẵn";
+    strresult = "even";
     } else if (count == 1) {
-        strresult = "lẻ";
+        strresult = "odd";
+    } else if (count == 2) {
+        strresult = "4 white";
+    } else if (count == 3) {
+        strresult = "4 black";
+    } else if (count == 4) {
+        strresult = "1 white";
+    } else if (count == 5) {
+        strresult = "1 black";
     }
-    else if (count == 2) {
-        strresult = "4 trắng";
-    }
-    else if (count == 3) {
-        strresult = "4 đen";
-    }
-    else if (count == 4) {
-        strresult = "1 trắng";
-    }
-    else if (count == 5) {
-        strresult = "1 đen";
-    }
+
 
     return strresult;
 }
@@ -1681,29 +1682,28 @@ function commaSeparateNumber(val) {
 function kqpot(count) {
     var strresult = "";
     if (count == 0) {
-        strresult = "trắng";
+    strresult = "white";
     } else if (count == 1) {
-        strresult = "đen";
+        strresult = "black";
     }
+
     return strresult;
 }
 function kqpotkq(trang, den) {
 
     var strresult = "";
     if (trang == 4 && den == 0) {
-        strresult = "chẵn , 4 trắng";
+        strresult = "even, 4 white";
     } else if (trang == 3 && den == 1) {
-        strresult = "lẻ, 1 đen";
+        strresult = "odd, 1 black";
+    } else if (trang == 2 && den == 2) {
+        strresult = "even";
+    } else if (trang == 1 && den == 3) {
+        strresult = "odd, 1 white";
+    } else if (trang == 0 && den == 4) {
+        strresult = "even, 4 black";
     }
-    else if (trang == 2 && den == 2) {
-        strresult = "chẵn";
-    }
-    else if (trang == 1 && den == 3) {
-        strresult = "lẻ, 1 trắng";
-    }
-    else if (trang == 0 && den == 4) {
-        strresult = "chẵn, 4 đen";
-    }
+
     return strresult;
 }
 
@@ -1711,36 +1711,33 @@ function trathuongeror(count) {
 
     var strresult = "";
     if (count == 0) {
-        strresult = "thành công";
+        strresult = "success";
     } else if (count == 1001) {
         strresult = "system error";
-    }
-    else if (count == 1030) {
-        strresult = " hazelcast error";
-    }
-    else if (count == 1031) {
+    } else if (count == 1030) {
+        strresult = "hazelcast error";
+    } else if (count == 1031) {
         strresult = "rmq error";
-    }
-    else if (count == 1003) {
-        strresult = "sessionId not  exist";
+    } else if (count == 1003) {
+        strresult = "session ID does not exist";
     }
     return strresult;
+
 }
 
 function bancuaxd(count) {
 
     var strresult = "";
     if (count == 1) {
-        strresult = "Nhà cái cân tất";
+        strresult = "The house/bookmaker balances everything";
     } else if (count == 2) {
-        strresult = "Nhà cái bán chẵn";
-    }
-    else if (count == 3) {
-        strresult = "Nhà cái bán lẻ";
-    }
-    else if (count == 4) {
-        strresult = "Player mua cửa";
+        strresult = "The house/bookmaker sells even";
+    } else if (count == 3) {
+        strresult = "The house/bookmaker sells odd";
+    } else if (count == 4) {
+        strresult = "Player buys the door";
     }
     return strresult;
+
 }
 </script>

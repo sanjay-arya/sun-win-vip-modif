@@ -22,11 +22,12 @@
         <div class="widget">
             <h4 id="resultsearch"></h4>
             <div class="title">
-                <h6>Lịch sử game thirdparty</h6>
-                <h6 class="total d-none">Total đặt cược:<span class="total-number" id="totalBet"></span></h6>
-                <h6 class="total d-none">Total đặt cược hợp lệ:<span class="total-number" id="totalValidBet"></span></h6>
-                <h6 class="total d-none">Total thanh toán:<span class="total-number" id="totalPayout"></span></h6>
-                <h6 class="total d-none">Total Number of People playing:<span class="total-number" id="tong_player"></span></h6>
+            <h6>Third-party game history</h6>
+            <h6 class="total d-none">Total bets:<span class="total-number" id="totalBet"></span></h6>
+            <h6 class="total d-none">Total valid bets:<span class="total-number" id="totalValidBet"></span></h6>
+            <h6 class="total d-none">Total payouts:<span class="total-number" id="totalPayout"></span></h6>
+            <h6 class="total d-none">Total number of players:<span class="total-number" id="tong_player"></span></h6>
+
             </div>
             <form class="list_filter form" action="<?php echo admin_url('loggamethirdparty/cmd') ?>" method="post">
                 <div class="formRow row">
@@ -97,7 +98,7 @@
                 <div class="formRow">
                     <table>
                         <tr>
-                            <td><label class="flagtime-1">Số dòng:</label></td>
+                            <td><label class="flagtime-1">Line number:</label></td>
                             <td><select class="flagtime-2" id="maxItem" name="maxItem">
                                     <option value="20" <?= ($this->input->post('maxItem') == "20" || $this->input->get('maxItem') == "20") ? "selected" : "" ?>>20</option>
                                     <option value="50" <?= ($this->input->post('maxItem') == "50" || $this->input->get('maxItem') == "50") ? "selected" : "" ?>>50</option>

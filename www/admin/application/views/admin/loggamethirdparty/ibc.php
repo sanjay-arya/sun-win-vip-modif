@@ -26,12 +26,13 @@
             <div class="widget">
                 <h4 id="resultsearch"></h4>
                 <div class="title">
-                    <h6>Lịch sử game thirdparty</h6>
-                    <h6 class="total">Total đặt cược:<span class="total-number" id="totalBet"></span></h6>
-                    <h6 class="total">Total đặt cược hợp lệ:<span class="total-number" id="totalValidBet"></span></h6>
-                    <h6 class="total">Total thanh toán:<span class="total-number" id="totalPayout"></span></h6>
-                    <h6 class="total">Total Number of People playing:<span class="total-number" id="tong_player"></span></h6>
+                    <h6>Third-party game history</h6>
+                    <h6 class="total">Total bets:<span class="total-number" id="totalBet"></span></h6>
+                    <h6 class="total">Total valid bets:<span class="total-number" id="totalValidBet"></span></h6>
+                    <h6 class="total">Total payouts:<span class="total-number" id="totalPayout"></span></h6>
+                    <h6 class="total">Total number of players:<span class="total-number" id="tong_player"></span></h6>
                 </div>
+
                 <form class="list_filter form" action="<?php echo admin_url('loggamethirdparty/ibc') ?>" method="post">
                     <div class="formRow">
                         <table>
@@ -140,7 +141,7 @@
                     <div class="formRow">
                         <table>
                             <tr>
-                                <td><label class="flagtime-1">Số dòng:</label></td>
+                                <td><label class="flagtime-1">Line number:</label></td>
                                 <td><select class="flagtime-2" id="maxItem" name="maxItem">
                                         <option value="20" <?php if($this->input->post('maxItem') == "20" || $this->input->get('maxItem') == "20"){echo "selected";} ?>>20</option>
                                         <option value="50" <?php if($this->input->post('maxItem') == "50" ||  $this->input->get('maxItem') == "50"){echo "selected";} ?>>50</option>

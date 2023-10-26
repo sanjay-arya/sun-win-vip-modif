@@ -25,8 +25,8 @@
         <div class="widget">
             <h4 id="resultsearch"></h4>
             <div class="title">
-                <h6>Game slot chim điên</h6>
-                <h6 class="total">Total thắng:<span class="total-number" id="tong_thang"></span></h6>
+                <h6>Crazy bird slot game</h6>
+                <h6 class="total">Total wins:<span class="total-number" id="tong_thang"></span></h6>
                 <h6 class="total">Total bet:<span class="total-number" id="tong_cuoc"></span></h6>
                 <h6 class="total">Total Number of People playing:<span class="total-number" id="tong_player"></span></h6>
             </div>
@@ -72,7 +72,7 @@
                             <td><input type="text" class="session-2"
                                        id="transId" value="<?php echo $this->input->post('transId') ?>" name="transId">
                             </td>
-                            <td><label class="money-type-1">Money cược:</label></td>
+                            <td><label class="money-type-1">Bet amount:</label></td>
                             <td><input type="text" class="money-type-2"
                                        id="bet_value" value="<?php echo $this->input->post('bet_value') ?>"
                                        name="bet_value"></td>
@@ -109,14 +109,14 @@
                 <thead>
                 <tr class="list-loggameslot">
                     <td>No</td>
-                    <td>Phiên</td>
+                    <td>Session</td>
                     <td>Nick name</td>
-                    <td>Money cược</td>
-                    <td>Ô đặt cược</td>
-                    <td>Các ô thắng</td>
-                    <td>Phần thưởng trên các ô</td>
-                    <td>Money thưởng</td>
-                    <td>Kết quả</td>
+                    <td>Money bet</td>
+                    <td>Bet box</td>
+                    <td>Winning tiles</td>
+                    <td>Rewards on tiles</td>
+                    <td>Money bonus</td>
+                    <td>Result</td>
                     <td>Date created</td>
                 </tr>
                 </thead>

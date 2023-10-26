@@ -115,7 +115,7 @@
                                     <tr style="height: 20px;">
                                         <td>Name game</td>
                                         <td>Trả thưởng</td>
-                                        <td>Money cược</td>
+                                        <td>Money bet</td>
                                         <td>Money hoàn trả</td>
                                         <td>Waste</td>
                                         <td class="col-sm-2">Money wins trong game</td>
@@ -147,7 +147,7 @@
                                     <tr style="height: 20px;">
                                         <td>Name game</td>
                                         <td>Trả thưởng</td>
-                                        <td>Money cược</td>
+                                        <td>Money bet</td>
                                         <td>Money hoàn trả</td>
                                         <td>Waste</td>
                                         <td class="col-sm-2">Money wins trong game</td>
@@ -179,7 +179,7 @@
                                     <tr style="height: 20px;">
                                         <td>Name game</td>
                                         <td>Trả thưởng</td>
-                                        <td>Money cược</td>
+                                        <td>Money bet</td>
                                         <td>Money hoàn trả</td>
                                         <td>Waste</td>
                                         <td class="col-sm-2">Money wins trong game</td>
@@ -211,7 +211,7 @@
                                     <tr style="height: 20px;">
                                         <td>Name game</td>
                                         <td>Trả thưởng</td>
-                                        <td>Money cược</td>
+                                        <td>Money bet</td>
                                         <td>Money hoàn trả</td>
                                         <td>Waste</td>
                                         <td class="col-sm-2">Money wins trong game</td>
@@ -520,7 +520,7 @@
                                     <tr style="height: 20px;">
                                         <td>Name game</td>
                                         <td>Trả thưởng</td>
-                                        <td>Money cược</td>
+                                        <td>Money bet</td>
                                         <td>Money hoàn trả</td>
                                         <td>Waste</td>
                                         <td>Money wins trong game</td>
@@ -551,7 +551,7 @@
                                     <tr style="height: 20px;">
                                         <td>Name game</td>
                                         <td>Trả thưởng</td>
-                                        <td>Money cược</td>
+                                        <td>Money bet</td>
                                         <td>Money hoàn trả</td>
                                         <td>Waste</td>
                                         <td>Money wins trong game</td>

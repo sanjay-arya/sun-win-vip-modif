@@ -95,9 +95,9 @@
             <thead>
             <tr class="list-logminigame">
                 <td>No</td>
-                <td>Phiên</td>
+                <td>Session</td>
                 <td>Room</td>
-                <td>Kết quả</td>
+                <td>Result</td>
                 <td>Cửa nhân</td>
                 <td>Money đặt bầu</td>
                 <td>Money thưởng bầu</td>

@@ -102,7 +102,7 @@
                                     <option value="BIKINI" <?php if($this->input->post('actionName') == "wm"){echo "BIKINI";} ?>>Bikini</option>
                                     <option value="GALAXY" <?php if($this->input->post('actionName') == "GALAXY"){echo "selected";} ?>>Galaxy</option>
                                     <option value="sbo" <?php if($this->input->post('actionName') == "sbo"){echo "selected";} ?>>Sbo</option>
-                                    <option value="fish" <?php if($this->input->post('actionName') == "fish"){echo "selected";} ?>>Bắn cá</option>
+                                    <option value="fish" <?php if($this->input->post('actionName') == "fish"){echo "selected";} ?>>Shoot Fish</option>
                                     <option value="ebet" <?php if($this->input->post('actionName') == "ebet"){echo "selected";} ?>>ebet</option>
                                     <option value="DIEM_DANH" <?php if($this->input->post('actionName') == "DIEM_DANH"){echo "selected";} ?>>Điểm danh</option>
                                 </select></td>
@@ -411,7 +411,7 @@
                 rs += "<td>" + 'Sbo' + "</td>";
                 break;
             case 'fish':
-                rs += "<td>" + 'Bắn cá' + "</td>";
+                rs += "<td>" + 'Shoot Fish' + "</td>";
                 break;
             default:
                 switch (value.action_name) {
@@ -509,7 +509,7 @@
                         rs += "<td>" + 'Sbo' + "</td>";
                         break;
                     case 'fish':
-                        rs += "<td>" + 'Bắn cá' + "</td>";
+                        rs += "<td>" + 'Shoot Fish' + "</td>";
                         break;
                     default:
                         rs += "<td>" + value.action_name + "</td>";

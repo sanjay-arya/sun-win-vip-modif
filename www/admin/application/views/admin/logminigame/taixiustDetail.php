@@ -93,7 +93,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <h3 class="float-right"> | Total records:<span style="color:#0000ff" id="total"></span></h3>
-                <h3 class="float-right">Total People chơi:<span style="color:#0000ff" id="totalPlayer"></span></h3>
+                <h3 class="float-right">Total People plays:<span style="color:#0000ff" id="totalPlayer"></span></h3>
             </div>
             <div class="col-sm-12">
                 <div id="resultsearch" class="float-left text-danger"></div>

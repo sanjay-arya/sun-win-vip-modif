@@ -189,7 +189,7 @@ $lang['notice_add_success']				= 'Add new thành công!';
 $lang['notice_update_success']			= 'Dữ liệu đã được cập nhật!';
 $lang['notice_del_success']				= 'Dữ liệu đã được xóa!';
 $lang['notice_page_not_found']			= 'Không tìm thấy trang được yêu cầu';
-$lang['notice_do_not_have_permission']	= 'Bạn không có quyền truy cập trang này';
+$lang['notice_do_not_have_permission']	= 'You do not have access trang này';
 $lang['notice_can_not_do']				= 'Không thể thực hiện yêu cầu này';
 $lang['notice_can_not_handle']			= 'Có lỗi xẩy ra trong qua trình xử lý';
 

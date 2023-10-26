@@ -115,14 +115,14 @@
             <thead>
             <tr style="height: 20px;">
                 <td>No</td>
-                <td>Phiên</td>
+                <td>Session</td>
                 <td>Nickname</td>
                 <td>Room</td>
                 <td>Dòng đặt</td>
                 <td>Dòng thắng</td>
-                <td>Money thưởng</td>
+                <td>Money bonus</td>
                 <td>Total thưởng</td>
-                <td>Kết quả</td>
+                <td>Result</td>
                 <td>Money</td>
                 <td>Time</td>
             </tr>

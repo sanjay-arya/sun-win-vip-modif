@@ -104,7 +104,7 @@
                                 <td>No</td>
                                 <td>Name game</td>
                                 <td>Trả thưởng</td>
-                                <td>Money cược</td>
+                                <td>Money bet</td>
                                 <td>Money sư kiện</td>
                                 <td>Waste</td>
                                 <td>Money wins trong game</td>
@@ -624,7 +624,7 @@ $("#search_tran").click(function () {
                 }
                 if(res.users.actionGame.fish != null) {
                     var stt = 5;
-                    result4 += resultSearchTransctionbai(stt, "Bắn cá", res.users.actionGame.fish.moneyWin, res.users.actionGame.fish.moneyLost, res.users.actionGame.fish.moneyOther, res.users.actionGame.fish.fee, res.users.actionGame.fish.revenuePlayGame, res.users.actionGame.fish.revenue);
+                    result4 += resultSearchTransctionbai(stt, "Shoot Fish", res.users.actionGame.fish.moneyWin, res.users.actionGame.fish.moneyLost, res.users.actionGame.fish.moneyOther, res.users.actionGame.fish.fee, res.users.actionGame.fish.revenuePlayGame, res.users.actionGame.fish.revenue);
                     $('#logactionthirdparty').html(result4);
 
                     total6 += res.users.actionGame.fish.moneyWin;
@@ -865,7 +865,7 @@ $("#search_tran").click(function () {
                 }
                 if(res.users.actionGame.HamCaMap != null) {
                     var stt = 15;
-                    result2 += resultSearchTransctionbai(stt, "Bắn cá", res.users.actionGame.HamCaMap.moneyWin, res.users.actionGame.HamCaMap.moneyLost, res.users.actionGame.HamCaMap.moneyOther, res.users.actionGame.HamCaMap.fee, res.users.actionGame.HamCaMap.revenuePlayGame, res.users.actionGame.HamCaMap.revenue);
+                    result2 += resultSearchTransctionbai(stt, "Shoot Fish", res.users.actionGame.HamCaMap.moneyWin, res.users.actionGame.HamCaMap.moneyLost, res.users.actionGame.HamCaMap.moneyOther, res.users.actionGame.HamCaMap.fee, res.users.actionGame.HamCaMap.revenuePlayGame, res.users.actionGame.HamCaMap.revenue);
                     $('#logactionbai').html(result2);
                     total6 += res.users.actionGame.HamCaMap.moneyWin;
                     total7 += res.users.actionGame.HamCaMap.moneyLost;

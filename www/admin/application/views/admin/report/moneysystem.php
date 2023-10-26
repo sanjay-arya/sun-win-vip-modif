@@ -132,7 +132,7 @@
                             <td>No</td>
                             <td>Name game</td>
                             <td>Trả thưởng</td>
-                            <td>Money cược</td>
+                            <td>Money bet</td>
                             <td>Money sự kiện</td>
                             <td>Waste</td>
                             <td>Money wins trong game</td>
@@ -209,7 +209,7 @@
                             <td>No</td>
                             <td>Name game</td>
                             <td>Trả thưởng</td>
-                            <td>Money cược</td>
+                            <td>Money bet</td>
                             <td>Money sự kiện</td>
                             <td>Waste</td>
                             <td>Money wins trong game</td>
