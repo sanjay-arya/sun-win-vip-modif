@@ -124,7 +124,7 @@
                     <td>Số lượng tin nhắn</td>
                     <td>Describe</td>
                     <td>Time</td>
-                    <td>Time cập nhật</td>
+                    <td>Update time</td>
                 </tr>
                 </thead>
                 <tbody id="logaction">

@@ -135,10 +135,10 @@
     //                    if (res.errorCode == 0) {
     //                        $("#bsModal3").modal("show");
     //                        if (res.nickName != null || res.nickName != "" ) {
-    //                            $("#errocode").html("Nick name không tồn tại:" + (res.nickName));
+    //                            $("#errocode").html("Nick name does not exist:" + (res.nickName));
     //                        }
     //                    } else if (res.errorCode == 10001) {
-    //                        $("#errocode").html("Nick name không tồn tại:" + (res.nickName));
+    //                        $("#errocode").html("Nick name does not exist:" + (res.nickName));
     //
     //                    } else if (res.errorCode == 10002) {
     //                        $("#errocode").html("Số lượng nickname nhiều hơn số lượng giftcode vui lòng upload lại file");

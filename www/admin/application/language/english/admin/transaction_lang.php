@@ -39,7 +39,7 @@ $lang['delete_order']				  		= 'Erase đơn hàng';
 
 $lang['select_action']				   		= 'Act...';
 $lang['action_cancel']						= 'Cancel bỏ';
-$lang['action_del']							= 'Erase';
+$lang['action_del']							= 'Delete';
 $lang['action_active']					    = 'Success';
 
 $lang['order_processing']                   = 'Xử lý đơn hàng';

@@ -93,7 +93,7 @@ function resultSearchTransction(stt,title,user,content,date,mid) {
     rs += "<td>" + user + "</td>";
     rs += "<td>" + stripHtml(content) + "</td>";
     rs += "<td>" + date + "</td>";
-    rs += "<td>" + "<input type='button' id='deletemail' value='Erase' class='button redB' style='margin-left: 70px' onclick=\"xoamail('" + mid + "')\" >" + "</td>";
+    rs += "<td>" + "<input type='button' id='deletemail' value='Delete' class='button redB' style='margin-left: 70px' onclick=\"xoamail('" + mid + "')\" >" + "</td>";
     rs += "</tr>";
     return rs;
 }

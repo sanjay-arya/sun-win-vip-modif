@@ -19,7 +19,7 @@ $lang['vip_set']							= 'Tạo vip';
 $lang['vip_del']							= 'Bỏ vip';
 $lang['city']								= 'Thành phố';
 $lang['tab_info']							= 'Thông tin chung';
-$lang['tab_option']							= 'Thuộc tính';
+$lang['tab_option']							= 'Properties';
 $lang['select_option_value']				= '-=[Select giá trị]=-';
 $lang['other_value']						= 'hoặc điền';
 $lang['last_update']						= 'Update';
@@ -44,7 +44,7 @@ $lang['option_feature']				  		= 'hấp dẫn nhất';
 $lang['option_vip']				  			= 'Vip';
 
 $lang['action_accept']						= 'Confirm';
-$lang['action_del']							= 'Erase';
+$lang['action_del']							= 'Delete';
 
 $lang['notice_are_you_sure_want_to_delete']	= 'Bạn có chắc chắn muốn xóa video';
 $lang['notice_are_you_sure_want_to_accept']	= 'Bạn có chắc chắn muốn Confirm video';

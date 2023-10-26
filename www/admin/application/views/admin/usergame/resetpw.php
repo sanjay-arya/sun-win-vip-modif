@@ -32,7 +32,7 @@
                         <div class="col-sm-2">
 
                         </div>
-                        <div class="col-sm-2"><label>Nhập nickname</label></div>
+                        <div class="col-sm-2"><label>Enter a nickname</label></div>
                         <div class="col-sm-2"><input class="form-control" id="filter_iname" placeholder="Enter your nickname" type="text"></div>
                         <div class="col-sm-1">
                             <input type="button" id="search_tran" value="Reset password" class="button blueB">
@@ -49,7 +49,7 @@
                         <div class="modal-header">
                         </div>
                         <div class="modal-body">
-                            <p style="color: #0000ff">Bạn thay đổi mật khẩu thành công</p>
+                            <p style="color: #0000ff">You changed your password successfully</p>
                         </div>
                         <div class="modal-footer">
                             <input class="blueB logMeIn" type="button" value="Close" data-dismiss="modal"

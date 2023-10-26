@@ -130,7 +130,7 @@
         rs += "<td class='' style='text-align: center;'><i class='" + (value.status == 1 ? 'fa fa-check' :'' ) + "' aria-hidden='true'></i></td>";
         rs += "<td class='option'>" +
                 "<a href='' title='Edit' class='tipS edit-action'> <img src=' <?php echo public_url('admin') ?>/images/icons/color/edit.png'/></a>" +
-                "<a href='' title='Erase' class='tipS delete-action verify_action'> <img src='<?php echo public_url('admin') ?>/images/icons/color/delete.png'/></a>" +
+                "<a href='' title='Delete' class='tipS delete-action verify_action'> <img src='<?php echo public_url('admin') ?>/images/icons/color/delete.png'/></a>" +
                "</td>";
         return rs;
     }
@@ -159,7 +159,7 @@
             let value = list_data[(item_index -1)%page_size]
 
             bootbox.confirm({
-                message: 'Bạn có chắc chắn xóa <b>' + value.bank_name + '</b></br>' + messageBody(value),
+                message: 'Are you sure delete <b>' + value.bank_name + '</b></br>' + messageBody(value),
                 backdrop: true,
                 centerVertical: true,
                 callback: function (result) {
@@ -199,7 +199,7 @@
     }
 
     function messageBody(value) {
-        return '<table class="table"><tr><th>Trường dữ liệu<th/><th>Thuộc tính<th/></tr>' +
+        return '<table class="table"><tr><th>Data fields<th/><th>Properties<th/></tr>' +
             '<tr><td>Bank Name<td/><td>' + value.bank_name + '<td/></tr>' +
             '<tr><td>Bank Code<td/><td>' + value.code + '<td/></tr>' +
             '</table>'

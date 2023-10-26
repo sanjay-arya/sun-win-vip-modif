@@ -29,7 +29,7 @@
         <div class="widget">
             <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
             <div class="title">
-                <h6>Ngân hàng nạp tiền</h6>
+                <h6>Bank nạp tiền</h6>
             </div>
             <form class="list_filter form" style="margin-bottom: 20px;" action="<?php echo admin_url('report/bankrecharge') ?>" method="post">
                 <div class="formRow">
@@ -77,7 +77,7 @@
                     <td>No</td>
                     <td style="width: 10%;">Trading code</td>
                     <td>Nick name</td>
-                    <td>Số tài khoản</td>
+                    <td>Account number</td>
                     <td>Amount of money</td>
                     <td>Status</td>
                     <td style="width: 10%;">Time</td>

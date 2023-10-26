@@ -34,7 +34,7 @@ $lang['export']                             = 'Xuất ra Excel';
 $lang['select_action']				   		= 'Act...';
 $lang['action_cancel']						= 'Cancel bỏ';
 $lang['action_active']						= 'Success';
-$lang['action_del']							= 'Erase';
+$lang['action_del']							= 'Delete';
 
 $lang['note_enter_user_id']					= 'Nhập mã thành viên';
 $lang['note_enter_product_id']				= 'Nhập mã sản phẩm';

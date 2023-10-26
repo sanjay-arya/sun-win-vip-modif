@@ -179,10 +179,10 @@
     //                        $("#content").val("");
     //                        $("#txttitle").val("");
     //                        if (res.nickName != "") {
-    //                            $("#errocode").html("Nick name không tồn tại:" + res.nickName);
+    //                            $("#errocode").html("Nick name does not exist:" + res.nickName);
     //                        }
     //                    } else if (res.errorCode == 10001) {
-    //                        $("#errocode").html("Nick name không tồn tại:" + res.nickName);
+    //                        $("#errocode").html("Nick name does not exist:" + res.nickName);
     //
     //                    } else if (res.errorCode == 10002) {
     //                        $("#errocode").html("Số lượng nickname và số lượng giftcode không bằng nhau vui lòng upload lại file");

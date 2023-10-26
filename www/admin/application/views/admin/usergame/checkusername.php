@@ -114,7 +114,7 @@
     <!--//                    if (res.errorCode == 0) {-->
     <!--//                        $("#bsModal3").modal("show");-->
     <!--//                        if (res.lstNickName != null || res.lstNickName != "") {-->
-    <!--//                            $("#errocode").html("Nick name không tồn tại:" + (res.lstNickName));-->
+    <!--//                            $("#errocode").html("Nick name does not exist:" + (res.lstNickName));-->
     <!--//                        }-->
     <!--//                        stt = 1;-->
     <!--//                        $.each(res.transactions, function (index, value) {-->

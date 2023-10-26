@@ -24,7 +24,7 @@
         <div class="widget">
             <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
             <div class="title">
-                <h6>List tài khoản vip</h6>
+                <h6>List of vip accounts</h6>
                 <h6 style="float: right">Total account number:<span style="color:#0000ff" id="numuser"></span></h6>
             </div>
             <form class="list_filter form" action="<?php echo admin_url('usergame/uservip') ?>" method="post">
@@ -80,7 +80,7 @@
                             </td>
                             <td class="item"><select id="fieldname" name="fieldname"
                                                      style="margin-left: 27px;margin-bottom:-2px;width: 142px">
-                                    <option value="5" <?php if($this->input->post('fieldname') == 5 ){echo "selected";} ?>>Vippoint tích lũy</option>
+                                    <option value="5" <?php if($this->input->post('fieldname') == 5 ){echo "selected";} ?>>Vippoint accumulation</option>
                                     <option value="1" <?php if($this->input->post('fieldname') == 1 ){echo "selected";} ?>>Vin</option>
                                     <option value="2" <?php if($this->input->post('fieldname') == 2 ){echo "selected";} ?>>Coin</option>
                                     <option value="3" <?php if($this->input->post('fieldname') == 3 ){echo "selected";} ?>>Safe</option>
@@ -175,12 +175,12 @@
                                 <td>Nickname</td>
                                 <td>Surplus Win</td>
                                 <td>Surplus xu</td>
-                                <td>Số Win the safe</td>
-                                <td>Vippoint hiện tại</td>
-                                <td>Vippoint tích lũy</td>
+                                <td>No. Win the safe</td>
+                                <td>Current Vippoint</td>
+                                <td>Vippoint accumulation</td>
                                 <td>Vippoint event</td>
-                                <td>Bậc vippoint</td>
-                                <td>Money nạp</td>
+                                <td>VIP level</td>
+                                <td>Money loaded</td>
                                 <td>Birthday</td>
                                 <td>Date created</td>
                             </tr>

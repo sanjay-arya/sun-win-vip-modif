@@ -132,7 +132,7 @@
                 <td>No</td>
                 <td>Trading code</td>
                 <td>Nick name</td>
-                <td>Ngân hàng</td>
+                <td>Bank</td>
                 <td>Số Account</td>
                 <td style="width:100px;">Name tài khoản</td>
                 <td>Money chuyển</td>

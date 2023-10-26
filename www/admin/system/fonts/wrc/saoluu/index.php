@@ -189,7 +189,7 @@ function display_select($sth,$q){
  }
  if ($is_sht){
    $abtn="&nbsp;<input type='submit' value='Xuất khẩu' onclick=\"sht('exp')\">
- <input type='submit' value='Erase' onclick=\"if(ays()){sht('drop')}else{return false}\">
+ <input type='submit' value='Delete' onclick=\"if(ays()){sht('drop')}else{return false}\">
  <input type='submit' value='Truncate' onclick=\"if(ays()){sht('trunc')}else{return false}\">
  <input type='submit' value='Tối ưu' onclick=\"sht('opt')\">
  <b>selected tables</b>";

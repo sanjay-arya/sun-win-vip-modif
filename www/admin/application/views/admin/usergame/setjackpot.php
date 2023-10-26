@@ -126,7 +126,7 @@
     var list_data = [];
     $("#search_tran").click(function () {
         if($("#nickName").val() == ""){
-            alert("vui lòng nhập Nickname");
+            alert("vui lòng Enter a nickname");
         } else {
             $.ajax({
                 type: "POST",
@@ -187,7 +187,7 @@
 
     function remove() {
         $(".tipS.reject-action").click(function () {
-            if(confirm("Bạn có chắc chắn xóa không?")) {
+            if(confirm("Are you sure to delete?")) {
                 let item_index = $(this).closest('td').siblings('.stt').text();
                 let value = list_data[(item_index -1)];
                 $.ajax({

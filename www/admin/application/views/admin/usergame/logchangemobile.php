@@ -30,7 +30,7 @@
             <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
 
             <div class="title">
-                <h6>Log đổi số Phone</h6>
+                <h6>Log to change Phone number</h6>
             </div>
             <form class="list_filter form" action="<?php echo admin_url('usergame/logchangemobile') ?>" method="post">
 
@@ -39,13 +39,11 @@
                     <table>
                         <tr>
 
-                            <td><label style="margin-left: 48px;margin-bottom:-2px;width: 140px">Phone number
-                                    mới:</label></td>
+                            <td><label style="margin-left: 48px;margin-bottom:-2px;width: 140px">New Phone number:</label></td>
                             <td><input type="text" style="margin-left: 20px;margin-bottom:-2px;width: 150px"
                                        id="txtmobienew" value="<?php echo $this->input->post('txtmobienew') ?>"
                                        name="txtmobienew"></td>
-                            <td><label style="margin-left: 30px;margin-bottom:-2px;width: 140px">Số điện thoai
-                                    cũ:</label></td>
+                            <td><label style="margin-left: 30px;margin-bottom:-2px;width: 140px">Old Phone number:</label></td>
                             <td><input type="text" style="margin-left: 20px;margin-bottom:-2px;width: 150px"
                                        id="txtmobieold" value="<?php echo $this->input->post('txtmobieold') ?>"
                                        name="txtmobieold"></td>
@@ -84,9 +82,9 @@
                 <tr style="height: 20px;">
                     <td>No</td>
                     <td>Nickname</td>
-                    <td>Phone number mới</td>
-                    <td>Phone number cũ</td>
-                    <td>Time cập nhật</td>
+                    <td>New Phone number</td>
+                    <td>Old Phone number cũ</td>
+                    <td>Update time</td>
                 </tr>
                 </thead>
                 <tbody id="logaction">

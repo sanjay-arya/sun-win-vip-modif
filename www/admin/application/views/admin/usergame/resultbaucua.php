@@ -2,7 +2,7 @@
     <h4 id="baucuaResultsearch" style="color: red;margin-left: 20px"></h4>
 	<?php if ($admin_info->Status == "A"): ?>
       <div class="title">
-          <h4>SET RESULT BẦU CUA<span style="color: #0000FF"></span></h4>
+          <h4>SET RESULT OF THE CRABS<span style="color: #0000FF"></span></h4>
       </div>
       <div class="formRow">
           <div class="row">
@@ -23,7 +23,7 @@
       </div>
 
       <div class="title">
-          <h6 class="title-jackpot">Result bầu cua</h6>
+          <h6 class="title-jackpot">Result of the crab</h6>
       </div>
       <table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable withCheck">
           <thead>
@@ -128,7 +128,7 @@
 
     function removebaucua() {
         $("#baucua-icon").click(function () {
-            if (confirm("Bạn có chắc chắn xóa không?")) {
+            if (confirm("Are you sure to delete?")) {
                 $.ajax({
                     type: "POST",
                     url: "<?php echo admin_url('usergame/deleteresultbaucuaajax')?>",

@@ -96,7 +96,7 @@
         if ($("#user_type").val() == "") {
             alert("Vui lòng chọn loại user");
         } else if($("#nickName").val() == ""){
-            alert("Vui lòng nhập Nickname");
+            alert("Vui lòng Enter a nickname");
         } else {
             $.ajax({
                 type: "POST",
@@ -156,7 +156,7 @@
 
     function remove() {
         $(".tipS.reject-action").click(function () {
-            if(confirm("Bạn có chắc chắn xóa không?")) {
+            if(confirm("Are you sure to delete?")) {
                 let value = $(this).closest('td').siblings('.key').text();
                 $.ajax({
                     type: "POST",

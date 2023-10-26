@@ -41,7 +41,7 @@ $lang['discount']				        	= 'Hoa hống giới thiệu';
 $lang['select_action']				   		= 'Act...';
 $lang['action_block']						= 'Lock account';
 $lang['action_unblock']						= 'Mở lại tài khoản';
-$lang['action_del']							= 'Erase';
+$lang['action_del']							= 'Delete';
 
 $lang['note_password']						= 'Mật khẩu phải có ít nhất 6 kí tự';
 $lang['note_password_change']				= 'Khi muốn thay đổi mật khẩu thì mới nhập giá trị';

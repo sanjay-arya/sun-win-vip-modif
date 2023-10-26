@@ -17,27 +17,27 @@
             <div id="list_role">
                 <div class="formRow">
                     <div class="row">
-                        <label class="col-sm-1" style="width: 154px"> Cấm login</label>
+                        <label class="col-sm-1" style="width: 154px"> Login is prohibited</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="0">
                         </div>
-                        <label class="col-sm-1" style="width: 154px"> Cấm chuyển tiền</label>
+                        <label class="col-sm-1" style="width: 154px"> Money transfer is prohibited</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="3">
                         </div>
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi sâm</label>
+                        <label class="col-sm-1" style="width: 154px"> Ban playing ginseng</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="8">
                         </div>
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi ba cây</label>
+                        <label class="col-sm-1" style="width: 154px"> It is forbidden to play three cards</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="9">
                         </div>
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi binh</label>
+                        <label class="col-sm-1" style="width: 154px"> It is forbidden to play soldiers</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="10">
@@ -47,7 +47,7 @@
                 <div class="formRow">
                     <div class="row">
 
-                        <label class="col-sm-1" style="width: 154px"> Cấm đổi thưởng</label>
+                        <label class="col-sm-1" style="width: 154px"> Rewards are prohibited</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="1">
@@ -57,17 +57,17 @@
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="2">
                         </div>
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi tlmn</label>
+                        <label class="col-sm-1" style="width: 154px"> It is forbidden to play tlmn</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="11">
                         </div>
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi tá lả</label>
+                        <label class="col-sm-1" style="width: 154px"> It is forbidden to flirt</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="12">
                         </div>
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi liêng</label>
+                        <label class="col-sm-1" style="width: 154px"> It is forbidden to play sacred</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="13">
@@ -76,27 +76,27 @@
                 </div>
                 <div class="formRow">
                     <div class="row">
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi xì tố</label>
+                        <label class="col-sm-1" style="width: 154px"> Ban playing poker</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="14">
                         </div>
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi xóc xóc</label>
+                        <label class="col-sm-1" style="width: 154px"> It is forbidden to play shock jockey</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="15">
                         </div>
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi bài cào</label>
+                        <label class="col-sm-1" style="width: 154px"> Playing scratch cards is prohibited</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="16">
                         </div>
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi poker</label>
+                        <label class="col-sm-1" style="width: 154px"> Playing poker is prohibited</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="17">
                         </div>
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi xi dzach</label>
+                        <label class="col-sm-1" style="width: 154px"> It is forbidden to play poker</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="23">
@@ -105,7 +105,7 @@
                 </div>
                 <div class="formRow">
                     <div class="row">
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi xóc đĩa</label>
+                        <label class="col-sm-1" style="width: 154px"> It is forbidden to play coin toss</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="24">
@@ -115,17 +115,17 @@
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="25">
                         </div>
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi cờ tướng</label>
+                        <label class="col-sm-1" style="width: 154px"> Ban playing chess</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="26">
                         </div>
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi cờ vua</label>
+                        <label class="col-sm-1" style="width: 154px"> Chess is forbidden</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="27">
                         </div>
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi PokerTour</label>
+                        <label class="col-sm-1" style="width: 154px"> Playing poker is prohibitedTour</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="28">
@@ -134,12 +134,12 @@
                 </div>
                 <div class="formRow">
                     <div class="row">
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi Cờ Úp</label>
+                        <label class="col-sm-1" style="width: 154px"> It is forbidden to play Up Chess</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="29">
                         </div>
-                        <label class="col-sm-1" style="width: 154px"> Cấm chơi Shark's jaw</label>
+                        <label class="col-sm-1" style="width: 154px"> It is forbidden to play Shark's jaw</label>
 
                         <div class="col-sm-1">
                             <input type="checkbox" name="role" value="30">
@@ -150,10 +150,10 @@
             </div>
             <div class="formRow">
                 <div class="row">
-                    <label class="col-sm-1" style="width: 154px">Reason khóa</label>
+                    <label class="col-sm-1" style="width: 154px">Reason lock</label>
 
                     <div class="col-sm-2">
-                        <input type="text" id="txtlydo" class="form-control" placeholder="Nhập lý do khóa">
+                        <input type="text" id="txtlydo" class="form-control" placeholder="Enter the lock reason">
                     </div>
                     <div class="col-sm-1"><input type="button" id="openuser" value="Update" class="button blueB">
                     </div>
@@ -210,7 +210,7 @@
             lst_role1.push($(this).val());
         });
         if ($("#txtlydo").val() == "") {
-            alert("Bạn chưa nhập lý do khóa");
+            alert("Bạn chưa Enter the lock reason");
             return false;
         }
         if (lst_role.length > 0) {
@@ -271,70 +271,70 @@
         var strresult = "";
         switch (count) {
             case "0":
-                strresult = " Cấm Login";
+                strresult = "Login Prohibited";
                 break;
             case "1":
-                strresult = "Cấm Đổi thưởng";
+                strresult = "Reward Redemption Prohibited";
                 break;
             case "2":
                 strresult = "Login sandbox";
                 break;
             case "3":
-                strresult = "Cấm Chuyển tiền";
+                strresult = "Remittance Transfer Prohibited";
                 break;
             case "8":
-                strresult = "Cấm Play sâm";
+                strresult = "It is forbidden to play ginseng";
                 break;
             case "9":
-                strresult = "Cấm Play ba cây";
+                strresult = "Playing three cards is prohibited";
                 break;
             case "10":
-                strresult = "Cấm Play binh";
+                strresult = "Playing soldiers is prohibited";
                 break;
             case "11":
-                strresult = "Cấm Play tlmn";
+                strresult = "Playing tlmn is prohibited";
                 break;
             case "12":
-                strresult = "Cấm Play tá lả";
+                strresult = "It is forbidden to play gossip";
                 break;
             case "13":
-                strresult = "Cấm Play liêng";
+                strresult = "It is forbidden to play liêng";
                 break;
             case "14":
-                strresult = "Cấm Play xì tố";
+                strresult = "Playing poker is prohibited";
                 break;
             case "15":
-                strresult = "Cấm Play xóc xóc";
+                strresult = "Playing shock jockey is prohibited";
                 break;
             case "16":
-                strresult = "Cấm Play bài cào";
+                strresult = "Playing scratch cards is prohibited";
                 break;
             case "17":
-                strresult = "Cấm Play poker";
+                strresult = "Playing poker is prohibited";
                 break;
             case "23":
-                strresult = "Cấm Play xì dzach";
+                strresult = "Playing poker is prohibited";
                 break;
             case "24":
-                strresult = "Cấm Play xóc đĩa";
+                strresult = "It is forbidden to play coin toss";
                 break;
             case "25":
-                strresult = "Cấm Play caro";
+                strresult = "Playing checkers is prohibited";
                 break;
             case "26":
-                strresult = "Cấm Play cờ tướng";
+                strresult = "Playing Chinese chess is prohibited";
                 break;
             case "27":
-                strresult = "Cấm Play cờ vua";
+                strresult = "Playing chess is prohibited";
                 break;
             case "28":
-                strresult = "Cấm Play PokerTour";
+                strresult = "Playing poker is prohibitedTour";
                 break;
             case "29":
-                strresult = "Cấm Play Cờ úp";
+                strresult = "It is forbidden to play Downward Chess";
                 break;
             case "30":
-                strresult = "Cấm Play Shark's jaw";
+                strresult = "Play Shark's jaw is prohibited";
                 break;
         }
         return strresult;

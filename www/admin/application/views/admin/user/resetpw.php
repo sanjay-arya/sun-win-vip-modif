@@ -27,7 +27,7 @@
                                 <div class="col-sm-3"></div>
                                 <label class="col-sm-1 control-label">Nick name:</label>
                                 <div class="col-sm-2">
-                                    <input type="text" id="nickname" class="form-control" placeholder="Nhập nickname">
+                                    <input type="text" id="nickname" class="form-control" placeholder="Enter a nickname">
                                 </div>
                             </div>
                         </div>
@@ -64,7 +64,7 @@
                                     <div class="modal-header">
                                     </div>
                                     <div class="modal-body">
-                                        <p style="color: #0000ff">Bạn thay đổi mật khẩu thành công</p>
+                                        <p style="color: #0000ff">You changed your password successfully</p>
                                     </div>
                                     <div class="modal-footer">
                                         <input class="blueB logMeIn" type="button" value="Close" data-dismiss="modal"

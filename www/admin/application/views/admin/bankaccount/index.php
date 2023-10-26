@@ -87,8 +87,8 @@
                             <th>Bank name</th>
                             <th>Account</th>
                             <th style="width: 70px;">Active</th>
-                            <th>People sửa cuối cùng</th>
-                            <th>Day chỉnh sửa cuối cùng</th>
+                            <th>Person edited last</th>
+                            <th>Date of last edit</th>
                             <th style="width:100px;">Act</th>
                         </tr>
                         </thead>
@@ -179,7 +179,7 @@
         rs += "<td class=''>" + (updateDate) + "</td>";
         rs += "<td class='option'>" +
                 "<a href='' title='Edit' class='tipS edit-action'> <img src=' <?php echo public_url('admin') ?>/images/icons/color/edit.png'/></a>" +
-                "<a href='' title='Erase' class='tipS delete-action verify_action'> <img src='<?php echo public_url('admin') ?>/images/icons/color/delete.png'/></a>" +
+                "<a href='' title='Delete' class='tipS delete-action verify_action'> <img src='<?php echo public_url('admin') ?>/images/icons/color/delete.png'/></a>" +
                "</td>";
         return rs;
     }
@@ -209,7 +209,7 @@
             let value = list_data[(item_index -1)%page_size]
 
             bootbox.confirm({
-                message: 'Bạn có chắc chắn xóa <b>' + value.nickName + '</b></br>' + messageBody(value),
+                message: 'Are you sure delete <b>' + value.nickName + '</b></br>' + messageBody(value),
                 backdrop: true,
                 centerVertical: true,
                 callback: function (result) {
@@ -249,11 +249,11 @@
     }
 
     function messageBody(value) {
-        return '<table class="table"><tr><th>Trường dữ liệu<th/><th>Thuộc tính<th/></tr>' +
-            '<tr><td>Số tài khoản<td/><td>' + value.bankNumber + '<td/></tr>' +
+        return '<table class="table"><tr><th>Data fields<th/><th>Properties<th/></tr>' +
+            '<tr><td>Account number<td/><td>' + value.bankNumber + '<td/></tr>' +
             '<tr><td>Nickname<td/><td>' + value.nickName + '<td/></tr>' +
             '<tr><td>Name<td/><td>' + value.customerName + '<td/></tr>' +
-            '<tr><td>Ngân hàng<td/><td>' + value.bankName + '<td/></tr>' +
+            '<tr><td>Bank<td/><td>' + value.bankName + '<td/></tr>' +
             '<tr><td>Branch<td/><td>' + (value.branch || '-') + '<td/></tr>' +
             '</table>'
     }

@@ -32,7 +32,7 @@
                     </div>
                     <label class="col-sm-2 control-label">Account:</label>
                     <div class="col-sm-3">
-                        <input type="text" id="nickname"  class="form-control" placeholder="Bạn cần nhập nickname">
+                        <input type="text" id="nickname"  class="form-control" placeholder="Bạn cần Enter a nickname">
                     </div>
 
                 </div>

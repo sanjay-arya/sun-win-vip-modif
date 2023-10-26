@@ -1,7 +1,7 @@
 <div class="titleArea">
 	<div class="wrapper">
 		<div class="pageTitle">
-			<h5>Quản lý Ngân hàng</h5>
+			<h5>Bank management</h5>
 		</div>
         <div class="horControlB menu_action">
             <ul>
@@ -17,7 +17,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">Quản lý Ngân hàng</h3>
+                <h3 class="modal-title" id="exampleModalLabel">Bank management</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>

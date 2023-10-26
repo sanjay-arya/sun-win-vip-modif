@@ -292,7 +292,7 @@
 //            <td>Time</td>
 //            <td>Status</td>
 //            <td>Describe</td>
-//            <td>Time cập nhật</td>
+//            <td>Update time</td>
 //        </tr>
 //        </thead>
 //        <tbody id="logaction">

@@ -210,7 +210,7 @@
                     }
                 }, error: function () {
                     $("#spinner").hide();
-                    $("#errorname").html("Hệ thống quá tải.  Vui long thử lại sau");
+                    $("#errorname").html("System overload. Please try again later");
                 },timeout : 20000
             });
         });

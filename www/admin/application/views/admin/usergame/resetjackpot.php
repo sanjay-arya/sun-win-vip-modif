@@ -75,7 +75,7 @@
                         <div class="modal-header">
                         </div>
                         <div class="modal-body">
-                            <p style="color: #7a6fbe">Bạn Set Success</p>
+                            <p style="color: #7a6fbe">You Set Success</p>
                         </div>
                         <div class="modal-footer">
                             <input class="blueB logMeIn" type="button" value="Close" data-dismiss="modal"
@@ -112,7 +112,7 @@
             return false;
         }
         if($("#gamename").val() == ""){
-            $("#errorname").html("Bạn chưa chọn game");
+            $("#errorname").html("You have not selected a game yet");
             return false;
         }
         
@@ -141,7 +141,7 @@
                 }
             }, error: function () {
                 $("#spinner").hide();
-                $("#errorname").html("Hệ thống quá tải.  Vui long thử lại sau");
+                $("#errorname").html("System overload. Please try again later");
             },timeout : 20000
         });
     });

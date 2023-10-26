@@ -138,13 +138,13 @@
                 <td>No</td>
                 <td>Nickname</td>
                 <td>Money</td>
-                <td>Ngân hàng</td>
+                <td>Bank</td>
                 
                 <td>Trading code</td>
                 <td>Time</td>
                 <td>Status</td>
                 <td>Describe</td>
-                <td>Time cập nhật</td>
+                <td>Update time</td>
                 <td>Act</td>
                 <td>Select bên thứ 3</td>
                 <td>People duyệt</td>

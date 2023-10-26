@@ -165,7 +165,7 @@
     <!--//                    $("#spinner").hide();-->
     <!--//                    if (res.errorCode == 0) {-->
     <!--//                        if (res.lstExitsNickName != null || res.lstExitsNickName != "") {-->
-    <!--//                            $("#errocode").html("Nick name không tồn tại:" + (res.lstExitsNickName));-->
+    <!--//                            $("#errocode").html("Nick name does not exist:" + (res.lstExitsNickName));-->
     <!--//                        }-->
     <!--//                        stt = 1;-->
     <!--//-->

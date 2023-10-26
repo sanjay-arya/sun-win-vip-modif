@@ -125,7 +125,7 @@
 //                <td>Time</td>
 //                <td>Status</td>
 //                <td>Describe</td>
-//                <td>Time cập nhật</td>
+//                <td>Update time</td>
 //                <td>Act</td>
 //                <td>People duyệt</td>
 //            </tr>

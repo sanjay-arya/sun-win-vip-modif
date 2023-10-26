@@ -43,8 +43,8 @@
     <table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable topTable" style="margin-top: 45px;">
       <thead>
         <tr>
-          <td style="width: 50%">Tài [<em id="taimd5OrderCount">0</em> order(s) ~ <em id="taimd5OrderTotal">0</em> VNĐ]</td>
-          <td>Xỉu [<em id="xiumd5OrderCount">0</em> order(s) ~ <em id="xiumd5OrderTotal">0</em> VNĐ]</td>
+          <td style="width: 50%">Tài [<em id="taimd5OrderCount">0</em> order(s) ~ <em id="taimd5OrderTotal">0</em> VND]</td>
+          <td>Xỉu [<em id="xiumd5OrderCount">0</em> order(s) ~ <em id="xiumd5OrderTotal">0</em> VND]</td>
         </tr>
       </thead>
       <tbody>
@@ -54,7 +54,7 @@
               <thead>
                 <tr>
                   <td style="width: 60%">Player</td>
-                  <td>Cược</td>
+                  <td>Bet</td>
                 </tr>
               </thead>
               <tbody id="taimd5Order">
@@ -66,7 +66,7 @@
               <thead>
                 <tr>
                   <td style="width: 60%">Player</td>
-                  <td>Cược</td>
+                  <td>Bet</td>
                 </tr>
               </thead>
               <tbody id="xiumd5Order">
@@ -274,7 +274,7 @@
 
   function removetaixiu() {
     $("#taixiumd5-icon").click(function() {
-      if (confirm("Bạn có chắc chắn xóa không?")) {
+      if (confirm("Are you sure to delete?")) {
         $.ajax({
           type: "POST",
           url: "<?php echo admin_url('usergame/deleteresulttaixiumd5ajax') ?>",

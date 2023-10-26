@@ -163,7 +163,7 @@
     //                        $("#content").val("");
     //                        $("#txttitle").val("");
     //                        if (res.nickName != "") {
-    //                            $("#errocode").html("Nick name không tồn tại:" + res.nickName);
+    //                            $("#errocode").html("Nick name does not exist:" + res.nickName);
     //                        }
     //                    } else if (res.errorCode == 7006) {
     //                        $("#errocode").html("Nội dung không đúng định dạng");

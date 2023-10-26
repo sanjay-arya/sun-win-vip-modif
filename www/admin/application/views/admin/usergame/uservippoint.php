@@ -16,7 +16,7 @@
     <div class="widget">
         <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
         <div class="title">
-            <h6>List tài khoản vippoint</h6>
+            <h6>List of vippoint accounts</h6>
             <h6 style="float: right">Total account number:<span style="color:#0000ff" id="numuser"></span></h6>
         </div>
         <form class="list_filter form" action="<?php echo admin_url('usergame/uservippoint') ?>" method="post">
@@ -76,7 +76,7 @@
                                 <option value="1" <?php if($this->input->post('fieldname') == 1 ){echo "selected";} ?>>Win</option>
                                 <option value="3" <?php if($this->input->post('fieldname') == 3 ){echo "selected";} ?>>Safe</option>
                                 <option value="4" <?php if($this->input->post('fieldname') == 4 ){echo "selected";} ?>>Vippoint</option>
-                                <option value="5" <?php if($this->input->post('fieldname') == 5 ){echo "selected";} ?>>Vippoint tích lũy</option>
+                                <option value="5" <?php if($this->input->post('fieldname') == 5 ){echo "selected";} ?>>Vippoint accumulation</option>
                                 <option value="6" <?php if($this->input->post('fieldname') == 6 ){echo "selected";} ?>>Nạp tiền</option>
                             </select>
                         </td>
@@ -197,12 +197,12 @@
                                 <td>Username</td>
                                 <td>Nickname</td>
                                 <td>Surplus Win</td>
-                                <td>Số Win the safe</td>
+                                <td>No. Win the safe</td>
                                 <td>Vippoint h iện tại</td>
-                                <td>Vippoint tích lũy</td>
+                                <td>Vippoint accumulation</td>
                                 <td>Vippoint event</td>
-                                <td>Bậc vippoint</td>
-                                <td>Money nạp</td>
+                                <td>VIP level</td>
+                                <td>Money loaded</td>
                                 <td>Date created</td>
                         </tr>
                         </thead>

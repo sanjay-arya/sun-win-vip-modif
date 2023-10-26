@@ -145,7 +145,7 @@
             fromdate = "";
         }
         if ($("#nickName").val() == '') {
-            alert('Vui lòng nhập NickName');
+            alert('Vui lòng Enter a nickname');
         } else {
             $('#logaction').show();
             $.ajax({

@@ -316,7 +316,7 @@ $(function () {
 });
 $("#search_tran").click(function () {
     if($("#filter_iname").val().trim()==""){
-        alert('Bạn phải nhập nickname')
+        alert('Bạn phải Enter a nickname')
         return false;
 
     }

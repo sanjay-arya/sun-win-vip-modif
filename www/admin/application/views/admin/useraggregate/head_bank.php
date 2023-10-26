@@ -2,7 +2,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">Account ngân hàng</h3>
+                <h3 class="modal-title" id="exampleModalLabel">Bank account</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -17,7 +17,7 @@
                         <input id="inputNickName" type="text" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="inputCustomerName" class="col-form-label">Name khách hàng:</label>
+                        <label for="inputCustomerName" class="col-form-label">Customer name:</label>
                         <input id="inputCustomerName" type="text" class="form-control">
                     </div>
                     <div class="form-group">
@@ -38,7 +38,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="inputBranchName" class="col-form-label">Chi nhánh:</label>
+                        <label for="inputBranchName" class="col-form-label">Branch:</label>
                         <input id="inputBranchName" type="text" class="form-control" >
                     </div>
                     <div class="form-group">
