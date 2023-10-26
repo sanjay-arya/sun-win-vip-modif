@@ -71,7 +71,7 @@
             <div id="widget">
                 <input type="hidden" value="<?php echo $admin_info->Status ?>" id="status">                <div class="formRow">
                     <div class="row">
-                        <h4 id="" style="color: red;margin-left: 20px">Money nạp game (VND)</h4>
+                        <h4 id="" style="color: red;margin-left: 20px">Money loaded game (VND)</h4>
                     </div>
                 </div>
                 <div class="formRow">

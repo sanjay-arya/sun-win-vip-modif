@@ -261,7 +261,7 @@
                         <table>
                             <tr>
 
-                                <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Nhà cung cấp:</label>
+                                <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Supplier:</label>
                                 </td>
                                 <td class="">
                                     <select id="select_partner" name="select_partner"

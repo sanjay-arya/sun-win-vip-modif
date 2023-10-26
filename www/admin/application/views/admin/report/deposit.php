@@ -63,7 +63,7 @@
                                        id="nickName" value="<?php echo $this->input->post('nickName') ?>"
                                        name="nickName">
                             </td>
-                            <td><label style="margin-left: 50px;margin-bottom:-2px;width: 100px">Nhà cung cấp:</label>
+                            <td><label style="margin-left: 50px;margin-bottom:-2px;width: 100px">Supplier:</label>
                             </td>
                             <?php $this->load->view('admin/component/selection/provider') ?>
                         </tr>
@@ -100,35 +100,35 @@
                                     <option value="">Select</option>
                                     <option value="0" <?php if ($this->input->post('status') == "0") {
                                         echo "selected";
-                                    } ?>>pending (Đang chờ xử lý)
+                                    } ?>>pending (Pending)
                                     </option>
                                     <option value="1" <?php if ($this->input->post('status') == 1) {
                                         echo "selected";
-                                    } ?>>received (Đã nhận và đang xử lý)
+                                    } ?>>received (Received and processing)
                                     </option>
                                     <option value="2" <?php if ($this->input->post('status') == 2) {
                                         echo "selected";
-                                    } ?>>success (Đã xử lý thành công)
+                                    } ?>>success (Processed successfully)
                                     </option>
                                     <option value="3" <?php if ($this->input->post('status') == 3) {
                                         echo "selected";
-                                    } ?>>failed (Đã xử lý thất bại)
+                                    } ?>>failed (Processing failed)
                                     </option>
                                     <option value="4" <?php if ($this->input->post('status') == 4) {
                                         echo "selected";
-                                    } ?>>completed (Transaction hoàn thất)
+                                    } ?>>completed (Transaction is complete)
                                     </option>
                                     <option value="5" <?php if ($this->input->post('status') == 5) {
                                         echo "selected";
-                                    } ?>>review (Đang xem xét)
+                                    } ?>>review (Is considering)
                                     </option>
                                     <option value="11" <?php if ($this->input->post('status') == 11) {
                                         echo "selected";
-                                    } ?>>spam (Yêu cầu bị send quá nhiều lần)
+                                    } ?>>spam (The request was sent too many times)
                                     </option>
                                     <option value="12" <?php if ($this->input->post('status') == 12) {
                                         echo "selected";
-                                    } ?>>request (Yêu cầu rút tiền)
+                                    } ?>>request (Request withdrawal)
                                     </option>
                                 </select>
                             </td>
@@ -144,11 +144,11 @@
                 <div class="formRow">
                     <table>
                         <tr>
-                            <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Amount of money từ:</label></td>
+                            <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Amount of money from:</label></td>
                             <td><input type="text" style="margin-left: 20px;margin-bottom:-2px;width: 150px"
                                        id="fromAmount" value="<?php echo $this->input->post('fromAmount') ?>" name="fromAmount">
                             </td>
-                            <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Đến:</label></td>
+                            <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Arrive:</label></td>
                             <td><input type="text" style="margin-left: 20px;margin-bottom:-2px;width: 150px"
                                        id="toAmount" value="<?php echo $this->input->post('toAmount') ?>" name="toAmount">
                             </td>
@@ -187,7 +187,7 @@
                                 <th width="40px">No</th>
                                 <th>Nickname</th>
                                 <th>Amount of money</th>
-                                <th>Nhà CC</th>
+                                <th>CC House</th>
                                 <th>Order Id</th>
                                 <th>Transaction Id</th>
                                 <th>Bank Code</th>
@@ -195,7 +195,7 @@
                                 <th>Update cuối</th>
                                 <th>Describe</th>
                                 <th>Status</th>
-                                <th>People phê duyệt</th>
+                                <th>People approved</th>
                                 <th style="width:100px;">Act</th>
                             </tr>
                             </thead>
@@ -251,21 +251,21 @@
 
     var status_dict = {
         "0":
-            {"text": "Đang chờ xử lý", "label": "pending", "color": "text-info"},
+            {"text": "Pending", "label": "pending", "color": "text-info"},
         "1":
-            {"text": "Đã nhận và đang xử lý", "label": "received", "color": "text-info"},
+            {"text": "Received and processing", "label": "received", "color": "text-info"},
         "2":
-            {"text": "Đã xử lý thành công", "label": "success", "color": "text-info"},
+            {"text": "Processed successfully", "label": "success", "color": "text-info"},
         "3":
-            {"text": "Đã xử lý thất bại", "label": "failed", "color": ""},
+            {"text": "Processing failed", "label": "failed", "color": ""},
         "4":
-            {"text": "Transaction hoàn thất", "label": "completed", "color": ""},
+            {"text": "Transaction is complete", "label": "completed", "color": ""},
         "5":
-            {"text": "Đang xem xét", "label": "review", "color": "text-info"},
+            {"text": "Is considering", "label": "review", "color": "text-info"},
         "11":
-            {"text": "Yêu cầu bị send quá nhiều lần", "label": "spam", "color": "text-info"},
+            {"text": "The request was sent too many times", "label": "spam", "color": "text-info"},
         "12":
-            {"text": "Yêu cầu rút tiền", "label": "request", "color": "text-primary"},
+            {"text": "Request withdrawal", "label": "request", "color": "text-primary"},
     }
     $(document).ready(function(){
         initData()

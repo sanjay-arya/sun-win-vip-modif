@@ -185,12 +185,12 @@
     //                        $("#errocode").html("Nick name does not exist:" + res.nickName);
     //
     //                    } else if (res.errorCode == 10002) {
-    //                        $("#errocode").html("Số lượng nickname và số lượng giftcode không bằng nhau vui lòng upload lại file");
+    //                        $("#errocode").html("Quantity nickname và số lượng giftcode không bằng nhau vui lòng upload lại file");
     //
     //
     //                    }
     //                    else if (res.errorCode == 10003) {
-    //                        $("#errocode").html("Số lượng nickname và số lượng giftcode không bằng nhau vui lòng upload lại file");
+    //                        $("#errocode").html("Quantity nickname và số lượng giftcode không bằng nhau vui lòng upload lại file");
     //
     //
     //                    }

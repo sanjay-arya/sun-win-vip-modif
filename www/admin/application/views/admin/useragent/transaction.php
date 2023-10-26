@@ -14,7 +14,7 @@
         <form class="list_filter form" action="<?php echo admin_url('userAgency/transaction') ?>" method="post">
             <div class="formRow row">
                 <div class="col-sm-1">
-                    <label for="giftCode">Mã đại lý : </label>
+                    <label for="giftCode">Dealer code: </label>
                 </div>
                 <div class="col-sm-2">
                     <input type="text" id="key" value="<?php echo $this->input->post('key') ?>" name="key">
@@ -73,7 +73,7 @@
                                 <th>Account Source</th>
                                 <th>Account đích</th>
                                 <th>Nội dung</th>
-                                <th>People phê duyệt</th>
+                                <th>People approved</th>
                                 <th>Describe</th>
                                 <th>Time yêu cầu</th>
                                 <th>Act</th>
@@ -122,7 +122,7 @@
 
         if(value.Status == 0 || value.Status ==1) {
             rs +=  `<a href="#" class="text-decoration" onclick="approve(${value.Id}, '${value.Money}', '${value.AgentCode}')">Duyệt</a>`;
-            rs += `<a href="#" class="text-decoration mb-2" onclick="reject(${value.Id}, '${value.Money}', '${value.AgentCode}')">Từ chối</a><br>`;
+            rs += `<a href="#" class="text-decoration mb-2" onclick="reject(${value.Id}, '${value.Money}', '${value.AgentCode}')">Refuse</a><br>`;
         }
         rs +=  "</td>";
         return rs;
@@ -148,7 +148,7 @@
                             alert('Success');
                             location.reload();
                         } else {
-                            alert('Từ chối thất bại');
+                            alert('Refuse thất bại');
                         }
                     }, error: function (e) {
                         console.error(e.message)

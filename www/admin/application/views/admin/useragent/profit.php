@@ -18,7 +18,7 @@
         <form class="list_filter form" action="<?= admin_url('userAgency/profit')?>" method="post">
             <div class="formRow row">
                 <div class="col-sm-1">
-                    <label for="giftCode" class="">Mã đại lý : </label>
+                    <label for="giftCode" class="">Dealer code: </label>
                 </div>
                 <div class="col-sm-2">
                     <input class="" type="text" id="code" value="<?= $this->input->post('code') ?>" name="code">

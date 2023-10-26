@@ -47,7 +47,7 @@
                         <tr style="height: 20px;">
                             <td>No</td>
                             <td>Nickname</td>
-                            <td>Money thắng</td>
+                            <td>Money wins</td>
                         </tr>
                         </thead>
                         <tbody id="logaction">

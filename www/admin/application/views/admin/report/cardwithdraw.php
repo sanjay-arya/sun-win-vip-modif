@@ -87,7 +87,7 @@
                     <td>Nick name</td>
                     <td>Type thẻ</td>
                     <td>Amount of money</td>
-                    <td>Số lượng</td>
+                    <td>Quantity</td>
                     <td>Status</td>
                     <td style="width: 10%;">Time</td>
                     <td>Confirm</td>

@@ -49,11 +49,11 @@
                     <td><label class="money-type-1" style="margin-left: 8px">Action name:</label></td>
                     <td><select class="money-type-2" id="wiDrawActionName" name="actionName">
                             <option value="" <?php if($this->input->post('actionName') == ""){echo "selected";} ?>>Select</option>
-                            <option value="Admin" <?php if($this->input->post('actionName') == "Admin"){echo "selected";} ?>>Admin thực hiện</option>
+                            <option value="Admin" <?php if($this->input->post('actionName') == "Admin"){echo "selected";} ?>>Admin perform</option>
                             <option value="REQUEST_CASHOUT" <?php if($this->input->post('actionName') == "REQUEST_CASHOUT"){echo "selected";} ?>>Yêu cầu rút</option>
                             <option value="CashOutByPrincePay" <?php if($this->input->post('actionName') == "CashOutByPaywell"){echo "selected";} ?>>Rút tiền từ Paywell</option>
                             <option value="CashOutByClickPay" <?php if($this->input->post('actionName') == "CashOutByClickPay"){echo "selected";} ?>>Rút tiền từ 1ClickPay</option>
-                            <option value="CashOutByPrincePay" <?php if($this->input->post('actionName') == "CashOutByPrincePay"){echo "selected";} ?>>Rút tiền từ PrincePay</option>
+                            <option value="CashOutByPrincePay" <?php if($this->input->post('actionName') == "CashOutByPrincePay"){echo "selected";} ?>>Withdraw money from PrincePay</option>
                         </select></td>
                     <td><label class="money-type-1">Current<br>money&nbsp;&nbsp;&nbsp;&nbsp;>=</label></td>
                     <td><input type="text" class="money-type-2" id="withdrawCurrentMoney" value="<?php echo $this->input->post('currentMoney') ?>" name="currentMoney"></td>
@@ -77,10 +77,10 @@
         <thead>
         <tr class="list-loggameslot">
             <td>No</td>
-            <td>Phiên giao dịch</td>
+            <td>Session</td>
             <td>Current money</td>
             <td>Money exchange</td>
-            <td>Thời điểm giao dịch</td>
+            <td>Transaction time</td>
             <td>Action name</td>
         </tr>
         </thead>
@@ -254,7 +254,7 @@
         rs += "<td>" + value.trans_time + "</td>";
         switch (value.action_name) {
             case 'Admin':
-                rs += "<td>" + 'Admin thực hiện' + "</td>";
+                rs += "<td>" + 'Admin perform' + "</td>";
                 break;
             case 'REQUEST_CASHOUT':
                 rs += "<td>" + 'Yêu cầu rút' + "</td>";

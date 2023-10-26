@@ -58,7 +58,7 @@
                                 <option value="">Select</option>
                                 <option value="100" <?php if($this->input->post('select_status') == "100" ){echo "selected";} ?>>Success</option>
                                 <option value="1" <?php if($this->input->post('select_status') == "1" ){echo "selected";} ?>>Chờ duyệt</option>
-                                <option value="2" <?php if($this->input->post('select_status') == "2" ){echo "selected";} ?>>Từ chối</option>
+                                <option value="2" <?php if($this->input->post('select_status') == "2" ){echo "selected";} ?>>Refuse</option>
                             </select>
                         </td>
 
@@ -217,7 +217,7 @@
         rs += "<td>" + description + "</td>";
         rs += "<td>" + updatetime + "</td>";
         if(status == 1){
-            rs += "<td>  <span class='label label-danger'><a style='color: white;' href=\"javascript: reject("+tid+")\">Từ chối</a></span> <span class='label label-success'><a style='color: white;' href=\"javascript: approve("+tid+")\">Duyệt</a></span> </td>";
+            rs += "<td>  <span class='label label-danger'><a style='color: white;' href=\"javascript: reject("+tid+")\">Refuse</a></span> <span class='label label-success'><a style='color: white;' href=\"javascript: approve("+tid+")\">Duyệt</a></span> </td>";
         
         }else{
             rs += "<td></td>"
@@ -245,10 +245,10 @@
             success: function (result) {
                 $("#spinner").hide();
                 if(result.success){
-                    alert("Từ chối thành công!");
+                    alert("Refuse thành công!");
                     window.location.href = "";
                 }else{
-                    alert("Từ chối thất bại!")
+                    alert("Refuse thất bại!")
                 }
 
             }, error: function () {
@@ -287,11 +287,11 @@
     function getStatusText(status){
         switch(status){
             case 1:
-                return "<span class='label label-warning'>Đang chờ xử lý</span>";
+                return "<span class='label label-warning'>Pending</span>";
             case 100:
                 return "<span class='label label-success'>Success </span>";
             case 2:
-                return "<span class=\"label label-danger\">Từ chối </span>";
+                return "<span class=\"label label-danger\">Refuse </span>";
             default:
                 return "Không xác định";
         }

@@ -4,7 +4,7 @@
 <div>
     <h4 id="bankResultsearch" style="color: red;margin-left: 20px"></h4>
     <div class="title">
-        <h6>Thông tin Bank account</h6>
+        <h6>Bank account information</h6>
     </div>
     <table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable withCheck">
         <thead>
@@ -135,7 +135,7 @@
                                     bankInitData()
                                 } else {
                                     bootbox.alert({
-                                        message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> Đã có lỗi xảy ra ${response.errorCode} : ${response.message}`,
+                                        message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> An error has occurred ${response.errorCode} : ${response.message}`,
                                         backdrop: true,
                                         centerVertical: true
                                     })

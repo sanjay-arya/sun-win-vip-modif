@@ -54,7 +54,7 @@
                                 <option value="TaiXiu">Over/under</option>
                                 <option value="MiniPoker">Mini Poker</option>
                                 <option value="CaoThap">Cao Thấp</option>
-                                <option value="BauCua">Bầu Cua</option>
+                                <option value="BauCua">Election crab</option>
                                 <option value="Safe Money">Safe Money</option>
                                 <option value="Top Up">Top Up</option>
                                 <option value="Internet Banking">Internet Banking</option>

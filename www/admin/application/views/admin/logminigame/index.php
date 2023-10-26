@@ -157,9 +157,9 @@
         rs += "<td>" + (total_jackpot) + "</td>";
         rs += "<td>" + dice1 + "," +dice2+"," + dice3 + "</td>";
         if(result == 1){
-            rs += "<td>" + "Tài" + "</td>";
+            rs += "<td>" + "Finance" + "</td>";
         }else  if(result == 0){
-            rs += "<td>" + "Xỉu" + "</td>";
+            rs += "<td>" + "Faint" + "</td>";
         }
         if(money == 1){
             rs += "<td>" + "Win" + "</td>";

@@ -3,7 +3,7 @@
 <div class="">
     <h4 id="resultsearch"></h4>
     <div class="title">
-        <h6>Thông tin nạp</h6>
+        <h6>Loading information</h6>
     </div>
     <form class="list_filter form">
         <div class="formRow">
@@ -58,23 +58,23 @@
                             </option>
                             <option value="Admin" <?php if ($this->input->post('actionName') == "Admin") {
 															echo "selected";
-														} ?>>Admin thực hiện
+														} ?>>Admin perform
                             </option>
                             <option value="RefundRecharge" <?php if ($this->input->post('actionName') == "RefundRecharge") {
 															echo "selected";
-														} ?>>Hoàn trả từ hệ thống
+														} ?>>Refund from the system
                             </option>
                             <option value="RechargeByPaywell" <?php if ($this->input->post('actionName') == "RechargeByPaywell") {
 															echo "selected";
-														} ?>>Nạp tiền từ Paywell
+														} ?>>Deposit money from Paywell
                             </option>
                             <option value="RechargeByClickPay" <?php if ($this->input->post('actionName') == "RechargeByClickPay") {
 															echo "selected";
-														} ?>>Nạp tiền từ 1ClickPay
+														} ?>>Deposit money from 1ClickPay
                             </option>
                             <option value="RechargeByPrincePay" <?php if ($this->input->post('actionName') == "RechargeByPrincePay") {
 															echo "selected";
-														} ?>>Nạp tiền từ PrincePay
+														} ?>>Deposit money from PrincePay
                             </option>
                         </select></td>
                     <td><label class="money-type-1">Current<br>money&nbsp;&nbsp;&nbsp;&nbsp;>=</label></td>
@@ -103,10 +103,10 @@
         <thead>
         <tr class="list-loggameslot">
             <td>No</td>
-            <td>Phiên giao dịch</td>
+            <td>Session</td>
             <td>Current money</td>
             <td>Money exchange</td>
-            <td>Thời điểm giao dịch</td>
+            <td>Transaction time</td>
             <td>Action name</td>
         </tr>
         </thead>
@@ -279,19 +279,19 @@
         rs += "<td>" + value.trans_time + "</td>";
         switch (value.action_name) {
             case 'Admin':
-                rs += "<td>" + 'Admin thực hiện' + "</td>";
+                rs += "<td>" + 'Admin perform' + "</td>";
                 break;
             case 'RefundRecharge':
-                rs += "<td>" + 'Hoàn trả từ hệ thống' + "</td>";
+                rs += "<td>" + 'Refund from the system' + "</td>";
                 break;
             case 'RechargeByPaywell':
-                rs += "<td>" + 'Nạp tiền từ Paywell' + "</td>";
+                rs += "<td>" + 'Deposit money from Paywell' + "</td>";
                 break;
             case 'RechargeByClickPay':
-                rs += "<td>" + 'Nạp tiền từ 1ClickPay' + "</td>";
+                rs += "<td>" + 'Deposit money from 1ClickPay' + "</td>";
                 break;
             case 'RechargeByPrincePay':
-                rs += "<td>" + 'Nạp tiền từ PrincePay' + "</td>";
+                rs += "<td>" + 'Deposit money from PrincePay' + "</td>";
                 break;
             default:
                 rs += "<td>" + value.action_name + "</td>";

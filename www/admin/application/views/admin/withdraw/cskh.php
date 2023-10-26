@@ -18,11 +18,11 @@
                 <h6>List Withdraw</h6>
                 <table style="float: right">
                     <tr>
-                        <td>Total số thành công:</td>
+                        <td>Total number of successes:</td>
                         <td style="color:#0000ff" id="total_success"></td>
                     </tr>
                     <tr>
-                        <td>Total money thành công:</td>
+                        <td>Total money success:</td>
                         <td style="color:#0000ff" id="total_money">
                     </tr>
                 </table>
@@ -32,7 +32,7 @@
                     <table>
                         <tr>
                             <td>
-                                <label for="fromTime" class="formLeft">Tạo từ:</label>
+                                <label for="fromTime" class="formLeft">Create words:</label>
                             </td>
                             <td class="item">
                                 <div class="input-group date" id="datetimepicker1">
@@ -67,7 +67,7 @@
                                        id="nickName" value="<?php echo $this->input->post('nickName') ?>"
                                        name="nickName">
                             </td>
-                            <td><label class="formLeft">Nhà cung cấp:</label>
+                            <td><label class="formLeft">Supplier:</label>
                             </td>
                             <?php $this->load->view('admin/component/selection/provider') ?>
                         </tr>
@@ -103,35 +103,35 @@
                                     <option value="">Select</option>
                                     <option value="0" <?php if ($this->input->post('status') == "0") {
                                         echo "selected";
-                                    } ?>>pending (Đang chờ xử lý)
+                                    } ?>>pending (Pending)
                                     </option>
                                     <option value="1" <?php if ($this->input->post('status') == 1) {
                                         echo "selected";
-                                    } ?>>received (Đã nhận và đang xử lý)
+                                    } ?>>received (Received and processing)
                                     </option>
                                     <option value="2" <?php if ($this->input->post('status') == 2) {
                                         echo "selected";
-                                    } ?>>success (Đã xử lý thành công)
+                                    } ?>>success (Processed successfully)
                                     </option>
                                     <option value="3" <?php if ($this->input->post('status') == 3) {
                                         echo "selected";
-                                    } ?>>failed (Đã xử lý thất bại)
+                                    } ?>>failed (Processed failed)
                                     </option>
                                     <option value="4" <?php if ($this->input->post('status') == 4) {
                                         echo "selected";
-                                    } ?>>completed (Transaction hoàn thất)
+                                    } ?>>completed (Transaction completed)
                                     </option>
                                     <option value="5" <?php if ($this->input->post('status') == 5) {
                                         echo "selected";
-                                    } ?>>review (Đang xem xét)
+                                    } ?>>review (Is considering)
                                     </option>
                                     <option value="11" <?php if ($this->input->post('status') == 11) {
                                         echo "selected";
-                                    } ?>>spam (Yêu cầu bị send quá nhiều lần)
+                                    } ?>>spam (Request sent too many times)
                                     </option>
                                     <option value="12" <?php if ($this->input->post('status') == 12) {
                                         echo "selected";
-                                    } ?>>request (Yêu cầu rút tiền)
+                                    } ?>>request (Withdrawal request)
                                     </option>
                                 </select>
                             </td>
@@ -154,7 +154,7 @@
                                        value="<?php echo $this->input->post('bankAccountNumber') ?>"
                                        name="bankAccountNumber">
                             </td>
-                            <td><label class="formLeft">Chủ khoản:</label></td>
+                            <td><label class="formLeft">Account owner:</label></td>
                             <td><input type="text" class="my-input-class"
                                        id="bankAccountName" value="<?php echo $this->input->post('bankAccountName') ?>"
                                        name="bankAccountName">
@@ -166,13 +166,13 @@
                 <div class="formRow">
                     <table>
                         <tr>
-                            <td><label class="formLeft">Amount of money từ:</label>
+                            <td><label class="formLeft">Amount of money from:</label>
                             </td>
                             <td><input type="text" class="my-input-class"
                                        id="fromAmount" value="<?php echo $this->input->post('fromAmount') ?>"
                                        name="fromAmount">
                             </td>
-                            <td><label class="formLeft">Đến:</label></td>
+                            <td><label class="formLeft">Arrive:</label></td>
                             <td><input type="text" class="my-input-class"
                                        id="toAmount" value="<?php echo $this->input->post('toAmount') ?>"
                                        name="toAmount">
@@ -211,17 +211,17 @@
                                 <th width="40px">No</th>
                                 <th>Nickname</th>
                                 <th>Amount of money</th>
-                                <th>Nhà CC</th>
+                                <th>CC House</th>
                                 <th>Order Id</th>
                                 <th>Transaction Id</th>
                                 <th>Bank Code</th>
                                 <th>Account number</th>
-                                <th>Name chủ khoản</th>
-                                <th>Reason từ chối</th>
+                                <th>Name of account holder</th>
+                                <th>Reason refused</th>
                                 <th>Date created</th>
-                                <th>Update cuối</th>
+                                <th>Last update</th>
                                 <th>Status</th>
-                                <th>People phê duyệt</th>
+                                <th>People approved</th>
                                 <th style="width:100px;">Act</th>
                             </tr>
                             </thead>
@@ -248,7 +248,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">Update trạng thái</h3>
+                <h3 class="modal-title" id="exampleModalLabel">Update status</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -265,14 +265,14 @@
                     <div class="form-group">
                         <label for="inputCustomerName" class="col-form-label">Status : </label>
                         <select id="status-agent">
-                            <option value="0">Đang chờ xử lý</option>
-                            <option value="1">Đã nhận và đang xử lý</option>
-                            <option value="2">Đã xử lý thành công</option>
-                            <option value="3">Đã xử lý thất bại</option>
-                            <option value="4">Transaction hoàn tất</option>
-                            <option value="5">Đang xem xét</option>
-                            <option value="11">Yêu cầu bị send quá nhiều lần</option>
-                            <option value="12">Yêu cầu rút tiền</option>
+                            <option value="0">Pending</option>
+                            <option value="1">Received and processing</option>
+                            <option value="2">Processed successfully</option>
+                            <option value="3">Processing failed</option>
+                            <option value="4">Transaction completed</option>
+                            <option value="5">Is considering</option>
+                            <option value="11">The request was sent too many times</option>
+                            <option value="12">Request withdrawal</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -301,21 +301,21 @@
 
     var status_dict = {
         "0":
-            {"text": "Đang chờ xử lý", "label": "pending", "color": "status-pending"},
+            {"text": "Pending", "label": "pending", "color": "status-pending"},
         "1":
-            {"text": "Đã nhận và đang xử lý", "label": "received", "color": "text-info"},
+            {"text": "Received and processing", "label": "received", "color": "text-info"},
         "2":
-            {"text": "Đã xử lý thành công", "label": "success", "color": "text-info"},
+            {"text": "Processed successfully", "label": "success", "color": "text-info"},
         "3":
-            {"text": "Đã xử lý thất bại", "label": "failed", "color": "status-fail"},
+            {"text": "Processing failed", "label": "failed", "color": "status-fail"},
         "4":
-            {"text": "Transaction hoàn thất", "label": "completed", "color": "status-complete"},
+            {"text": "Transaction is complete", "label": "completed", "color": "status-complete"},
         "5":
-            {"text": "Đang xem xét", "label": "review", "color": "text-info"},
+            {"text": "Is considering", "label": "review", "color": "text-info"},
         "11":
-            {"text": "Yêu cầu bị send quá nhiều lần", "label": "spam", "color": "text-info"},
+            {"text": "The request was sent too many times", "label": "spam", "color": "text-info"},
         "12":
-            {"text": "Yêu cầu rút tiền", "label": "request", "color": "status-request"},
+            {"text": "Request withdrawal", "label": "request", "color": "status-request"},
     }
     $(document).ready(function(){
         var startDate = moment(new Date()).hours(0).minutes(0).seconds(0).milliseconds(0)
@@ -400,22 +400,22 @@
                 $("#spinner").hide();
                 console.log(result);
                 if (result.success) {
-                    alert('Update thành công.');
+                    alert('Updated successfully.');
                     return;
                 }
-                alert('Update thất bại.');
+                alert('Update failed.');
                 location.reload();
             },
             error: function () {
                 $("#spinner").hide();
-                alert('Update thất bại.');
+                alert('Update failed.');
             },
             timeout: 40000
         });
     });
 
     function crPoppover(value) {
-        return ' data-toggle="popover" data-title="Thông tin chi tiết" data-html=true data-trigger="hover" data-placement="left" ' +
+        return ' data-toggle="popover" data-title="Details" data-html=true data-trigger="hover" data-placement="left" ' +
             'data-content="' +
             Object.entries(value).map(([x, y]) => `${x} : ${y}`).join("</br>")
             + '" '
@@ -425,12 +425,12 @@
         return '<table class="table"><tr><th>Data fields<th/><th>Properties<th/></tr>' +
             '<tr><td>Nickname<td/><td>' + value.Nickname + '<td/></tr>' +
             '<tr><td>Amount of money<td/><td>' + $.number(value.Amount, undefined, '.', ',') + '<td/></tr>' +
-            '<tr><td>Nhà CC<td/><td>' + value.ProviderName + '<td/></tr>' +
+            '<tr><td>CC House<td/><td>' + value.ProviderName + '<td/></tr>' +
             '<tr><td>Order Id<td/><td>' + value.Id + '<td/></tr>' +
             '<tr><td>Transaction Id<td/><td>' + value.ReferenceId + '<td/></tr>' +
             '<tr><td>Bank<td/><td>' + value.BankCode + '<td/></tr>' +
             '<tr><td>Account number<td/><td>' + value.BankAccountNumber + '<td/></tr>' +
-            '<tr><td>Name chủ khoản<td/><td>' + value.BankAccountName + '<td/></tr>' +
+            '<tr><td>Name of account holder<td/><td>' + value.BankAccountName + '<td/></tr>' +
             '<tr><td>Date created<td/><td>' + value.CreatedAt + '<td/></tr>' +
             '<tr><td>Status<td/><td>' + status_dict[value.Status].text + '<td/></tr>' +
             '</table>'

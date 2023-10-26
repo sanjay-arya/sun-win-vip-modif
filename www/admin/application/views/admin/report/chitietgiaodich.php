@@ -72,23 +72,23 @@
                             <td><select class="money-type-2" style="margin-left:18px;width: 219px !important;" id="actionName" name="actionName">
                                     <option value="" <?php if($this->input->post('actionName') == ""){echo "selected";} ?>>Select</option>
                                     <option value="Admin" <?php if($this->input->post('actionName') == "Admin"){echo "selected";} ?>>Admin</option>
-                                    <option value="Audition" <?php if($this->input->post('actionName') == "Audition"){echo "selected";} ?>>Slot Đua xe</option>
+                                    <option value="Audition" <?php if($this->input->post('actionName') == "Audition"){echo "selected";} ?>>Slot Racing</option>
                                     <option value="BENLEY" <?php if($this->input->post('actionName') == "BENLEY"){echo "selected";} ?>>Slot Bitcoin</option>
-                                    <option value="BaCay" <?php if($this->input->post('actionName') == "BaCay"){echo "selected";} ?>>Card game ba cây</option>
-                                    <option value="BauCua" <?php if($this->input->post('actionName') == "BauCua"){echo "selected";} ?>>Bầu cua</option>
+                                    <option value="BaCay" <?php if($this->input->post('actionName') == "BaCay"){echo "selected";} ?>>Three-card game card</option>
+                                    <option value="BauCua" <?php if($this->input->post('actionName') == "BauCua"){echo "selected";} ?>>Election crab</option>
                                     <option value="CANDY" <?php if($this->input->post('actionName') == "CANDY"){echo "selected";} ?>>Slot pokemon</option>
-                                    <option value="CaoThap" <?php if($this->input->post('actionName') == "CaoThap"){echo "selected";} ?>>Cao thấp</option>
-                                    <option value="CashOutByClickPay" <?php if($this->input->post('actionName') == "CashOutByClickPay"){echo "selected";} ?>>Rút tiền từ ClickPay</option>
-                                    <option value="CashOutByPrincePay" <?php if($this->input->post('actionName') == "CashOutByPrincePay"){echo "selected";} ?>>Rút tiền từ PrincePay</option>
-                                    <option value="Exchange" <?php if($this->input->post('actionName') == "Exchange"){echo "selected";} ?>>Đổi tiền</option>
+                                    <option value="CaoThap" <?php if($this->input->post('actionName') == "CaoThap"){echo "selected";} ?>>High and low</option>
+                                    <option value="CashOutByClickPay" <?php if($this->input->post('actionName') == "CashOutByClickPay"){echo "selected";} ?>>Withdraw money from ClickPay</option>
+                                    <option value="CashOutByPrincePay" <?php if($this->input->post('actionName') == "CashOutByPrincePay"){echo "selected";} ?>>Withdraw money from PrincePay</option>
+                                    <option value="Exchange" <?php if($this->input->post('actionName') == "Exchange"){echo "selected";} ?>>Money change</option>
                                     <option value="GIFT_CODE" <?php if($this->input->post('actionName') == "GIFT_CODE"){echo "selected";} ?>>GIFT_CODE</option>
                                     <option value="GiftCode" <?php if($this->input->post('actionName') == "GiftCode"){echo "selected";} ?>>GiftCode</option>
                                     <option value="MAYBACH" <?php if($this->input->post('actionName') == "MAYBACH"){echo "selected";} ?>>Slot thao</option>
                                     <option value="MiniPoker" <?php if($this->input->post('actionName') == "MiniPoker"){echo "selected";} ?>>Minipoker</option>
-                                    <option value="RechargeByPaywell" <?php if($this->input->post('actionName') == "RechargeByPaywell"){echo "selected";} ?>>Nạp tiền bằng Paywell</option>
-                                    <option value="RechargeByPrincePay" <?php if($this->input->post('actionName') == "RechargeByPrincePay"){echo "selected";} ?>>Nạp tiền bằng PrincePay</option>
-                                    <option value="Spartan" <?php if($this->input->post('actionName') == "Spartan"){echo "selected";} ?>>Slot Thần tài</option>
-                                    <option value="TAMHUNG" <?php if($this->input->post('actionName') == "TAMHUNG"){echo "selected";} ?>>Slot chim điên</option>
+                                    <option value="RechargeByPaywell" <?php if($this->input->post('actionName') == "RechargeByPaywell"){echo "selected";} ?>>Deposit with Paywell</option>
+                                    <option value="RechargeByPrincePay" <?php if($this->input->post('actionName') == "RechargeByPrincePay"){echo "selected";} ?>>Deposit with PrincePay</option>
+                                    <option value="Spartan" <?php if($this->input->post('actionName') == "Spartan"){echo "selected";} ?>>Slot God of wealth</option>
+                                    <option value="TAMHUNG" <?php if($this->input->post('actionName') == "TAMHUNG"){echo "selected";} ?>>Crazy bird slot</option>
                                     <option value="TaiXiu" <?php if($this->input->post('actionName') == "TaiXiu"){echo "selected";} ?>>Over/under</option>
                                     <option value="Tlmn" <?php if($this->input->post('actionName') == "Tlmn"){echo "selected";} ?>>Head south</option>
                                     <option value="XocDia" <?php if($this->input->post('actionName') == "XocDia"){echo "selected";} ?>>Xoc disc</option>
@@ -96,9 +96,9 @@
                                     <option value="ibc2" <?php if($this->input->post('actionName') == "ibc2"){echo "selected";} ?>>Game IBC</option>
                                     <option value="wm" <?php if($this->input->post('actionName') == "wm"){echo "selected";} ?>>Game WM</option>
                                     <option value="cmd" <?php if($this->input->post('actionName') == "cmd"){echo "selected";} ?>>Game CMD</option>
-                                    <option value="CHIEMTINH" <?php if($this->input->post('actionName') == "CHIEMTINH"){echo "selected";} ?>>Chiêm tinh</option>
+                                    <option value="CHIEMTINH" <?php if($this->input->post('actionName') == "CHIEMTINH"){echo "selected";} ?>>Horoscope</option>
                                     <option value="taixiusieutoc" <?php if($this->input->post('actionName') == "taixiusieutoc"){echo "selected";} ?>>Over/under siêu tốc</option>
-                                    <option value="ROLL_ROYE" <?php if($this->input->post('actionName') == "ROLL_ROYE"){echo "selected";} ?>>Thần bài</option>
+                                    <option value="ROLL_ROYE" <?php if($this->input->post('actionName') == "ROLL_ROYE"){echo "selected";} ?>>God card</option>
                                     <option value="BIKINI" <?php if($this->input->post('actionName') == "wm"){echo "BIKINI";} ?>>Bikini</option>
                                     <option value="GALAXY" <?php if($this->input->post('actionName') == "GALAXY"){echo "selected";} ?>>Galaxy</option>
                                     <option value="sbo" <?php if($this->input->post('actionName') == "sbo"){echo "selected";} ?>>Sbo</option>
@@ -321,31 +321,31 @@
                 rs += "<td>" + 'Admin' + "</td>";
                 break;
             case 'Audition':
-                rs += "<td>" + 'Slot Đua xe' + "</td>";
+                rs += "<td>" + 'Slot Racing' + "</td>";
                 break;
             case 'BENLEY':
                 rs += "<td>" + 'Slot Bitcoin' + "</td>";
                 break;
             case 'BaCay':
-                rs += "<td>" + 'Card game ba cây' + "</td>";
+                rs += "<td>" + 'Three-card game card' + "</td>";
                 break;
             case 'BauCua':
-                rs += "<td>" + 'Bầu cua' + "</td>";
+                rs += "<td>" + 'Election crab' + "</td>";
                 break;
             case 'CANDY':
                 rs += "<td>" + 'Slot pokemon' + "</td>";
                 break;
             case 'CaoThap':
-                rs += "<td>" + 'Cao thấp' + "</td>";
+                rs += "<td>" + 'High and low' + "</td>";
                 break;
             case 'CashOutByClickPay':
-                rs += "<td>" + 'Rút tiền từ ClickPay' + "</td>";
+                rs += "<td>" + 'Withdraw money from ClickPay' + "</td>";
                 break;
             case 'CashOutByPrincePay':
-                rs += "<td>" + 'Rút tiền từ PrincePay' + "</td>";
+                rs += "<td>" + 'Withdraw money from PrincePay' + "</td>";
                 break;
             case 'Exchange':
-                rs += "<td>" + 'Đổi tiền' + "</td>";
+                rs += "<td>" + 'Money change' + "</td>";
                 break;
             case 'GIFT_CODE':
                 rs += "<td>" + 'GIFT_CODE' + "</td>";
@@ -354,22 +354,22 @@
                 rs += "<td>" + 'GiftCode' + "</td>";
                 break;
             case 'MAYBACH':
-                rs += "<td>" + 'Slot thể thao' + "</td>";
+                rs += "<td>" + 'Sports Slots' + "</td>";
                 break;
             case 'MiniPoker':
                 rs += "<td>" + 'Minipoker' + "</td>";
                 break;
             case 'RechargeByPaywell':
-                rs += "<td>" + 'Nạp tiền bằng Paywell' + "</td>";
+                rs += "<td>" + 'Deposit with Paywell' + "</td>";
                 break;
             case 'RechargeByPrincePay':
-                rs += "<td>" + 'Nạp tiền bằng PrincePay' + "</td>";
+                rs += "<td>" + 'Deposit with PrincePay' + "</td>";
                 break;
             case 'Spartan':
-                rs += "<td>" + 'Slot Thần tài' + "</td>";
+                rs += "<td>" + 'Slot God of wealth' + "</td>";
                 break;
             case 'TAMHUNG':
-                rs += "<td>" + 'Slot chim điên' + "</td>";
+                rs += "<td>" + 'Crazy bird slot' + "</td>";
                 break;
             case 'TaiXiu':
                 rs += "<td>" + 'Over/under' + "</td>";
@@ -393,13 +393,13 @@
                 rs += "<td>" + 'Game CMD' + "</td>";
                 break;
             case 'CHIEMTINH':
-                rs += "<td>" + 'Chiêm tinh' + "</td>";
+                rs += "<td>" + 'Horoscope' + "</td>";
                 break;
             case 'taixiusieutoc':
                 rs += "<td>" + 'Over/under siêu tốc' + "</td>";
                 break;
             case 'ROLL_ROYE':
-                rs += "<td>" + 'Thần bài' + "</td>";
+                rs += "<td>" + 'God card' + "</td>";
                 break;
             case 'BIKINI':
                 rs += "<td>" + 'Bikini' + "</td>";
@@ -419,31 +419,31 @@
                         rs += "<td>" + 'Admin' + "</td>";
                         break;
                     case 'Audition':
-                        rs += "<td>" + 'Slot Đua xe' + "</td>";
+                        rs += "<td>" + 'Slot Racing' + "</td>";
                         break;
                     case 'BENLEY':
                         rs += "<td>" + 'Slot Bitcoin' + "</td>";
                         break;
                     case 'BaCay':
-                        rs += "<td>" + 'Card game ba cây' + "</td>";
+                        rs += "<td>" + 'Three-card game card' + "</td>";
                         break;
                     case 'BauCua':
-                        rs += "<td>" + 'Bầu cua' + "</td>";
+                        rs += "<td>" + 'Election crab' + "</td>";
                         break;
                     case 'CANDY':
                         rs += "<td>" + 'Slot pokemon' + "</td>";
                         break;
                     case 'CaoThap':
-                        rs += "<td>" + 'Cao thấp' + "</td>";
+                        rs += "<td>" + 'High and low' + "</td>";
                         break;
                     case 'CashOutByClickPay':
-                        rs += "<td>" + 'Rút tiền từ ClickPay' + "</td>";
+                        rs += "<td>" + 'Withdraw money from ClickPay' + "</td>";
                         break;
                     case 'CashOutByPrincePay':
-                        rs += "<td>" + 'Rút tiền từ PrincePay' + "</td>";
+                        rs += "<td>" + 'Withdraw money from PrincePay' + "</td>";
                         break;
                     case 'Exchange':
-                        rs += "<td>" + 'Đổi tiền' + "</td>";
+                        rs += "<td>" + 'Money change' + "</td>";
                         break;
                     case 'GIFT_CODE':
                         rs += "<td>" + 'GIFT_CODE' + "</td>";
@@ -452,22 +452,22 @@
                         rs += "<td>" + 'GiftCode' + "</td>";
                         break;
                     case 'MAYBACH':
-                        rs += "<td>" + 'Slot thể thao' + "</td>";
+                        rs += "<td>" + 'Sports Slots' + "</td>";
                         break;
                     case 'MiniPoker':
                         rs += "<td>" + 'Minipoker' + "</td>";
                         break;
                     case 'RechargeByPaywell':
-                        rs += "<td>" + 'Nạp tiền bằng Paywell' + "</td>";
+                        rs += "<td>" + 'Deposit with Paywell' + "</td>";
                         break;
                     case 'RechargeByPrincePay':
-                        rs += "<td>" + 'Nạp tiền bằng PrincePay' + "</td>";
+                        rs += "<td>" + 'Deposit with PrincePay' + "</td>";
                         break;
                     case 'Spartan':
-                        rs += "<td>" + 'Slot Thần tài' + "</td>";
+                        rs += "<td>" + 'Slot God of wealth' + "</td>";
                         break;
                     case 'TAMHUNG':
-                        rs += "<td>" + 'Slot chim điên' + "</td>";
+                        rs += "<td>" + 'Crazy bird slot' + "</td>";
                         break;
                     case 'TaiXiu':
                         rs += "<td>" + 'Over/under' + "</td>";
@@ -491,13 +491,13 @@
                         rs += "<td>" + 'Game CMD' + "</td>";
                         break;
                     case 'CHIEMTINH':
-                        rs += "<td>" + 'Chiêm tinh' + "</td>";
+                        rs += "<td>" + 'Horoscope' + "</td>";
                         break;
                     case 'taixiusieutoc':
                         rs += "<td>" + 'Over/under siêu tốc' + "</td>";
                         break;
                     case 'ROLL_ROYE':
-                        rs += "<td>" + 'Thần bài' + "</td>";
+                        rs += "<td>" + 'God card' + "</td>";
                         break;
                     case 'BIKINI':
                         rs += "<td>" + 'Bikini' + "</td>";

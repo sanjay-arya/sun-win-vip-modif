@@ -1,7 +1,7 @@
 <div class="titleArea">
     <div class="wrapper">
         <div class="pageTitle">
-            <h5>Xuất dữ liệu user đại Lý</h5>
+            <h5>Export data user đại Lý</h5>
         </div>
         <div class="clear"></div>
     </div>
@@ -20,7 +20,7 @@
                     <input type="text" id="ref" value="<?= $this->input->post('ref') ?>" required name="ref">
                 </div>
                 <div class="col-sm-2">
-                    <input type="submit" id="search_tran" value="Xuất dữ liệu" class="button blueB">
+                    <input type="submit" id="search_tran" value="Export data" class="button blueB">
                 </div>
             </div>
         </form>

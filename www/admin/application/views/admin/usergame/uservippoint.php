@@ -68,7 +68,7 @@
                     <tr>
                         <td>
                             <label for="param_name" style="width: 120px;margin-bottom:-3px;margin-left: 23px;"
-                                   class="formLeft"> Sắp xếp theo: </label>
+                                   class="formLeft"> Sorted by: </label>
                         </td>
                         <td class="item"><select id="fieldname" name="fieldname"
                                                  style="margin-left: 27px;margin-bottom:-2px;width: 142px">
@@ -82,7 +82,7 @@
                         </td>
                         <td>
                             <label for="param_name" style="width: 115px;margin-bottom:-3px;margin-left: 47px;"
-                                   class="formLeft"> Điều kiện: </label>
+                                   class="formLeft"> Condition: </label>
                         </td>
                         <td class="item"><select id="timkiemtheo" name="timkiemtheo"
                                                  style="margin-left: 5px;margin-bottom:-2px;width: 150px">
@@ -100,7 +100,7 @@
 
                         <td>
                             <label for="param_name" style="width: 115px;margin-bottom:-3px;margin-left: 47px;"
-                                   class="formLeft"> Type tài khoản: </label>
+                                   class="formLeft"> Account type: </label>
                         </td>
                         <?php if($admin_info->Status == "M" || $admin_info->Status == "S" ): ?>
                             <td class="item"><select id="typetaikhoan" name="timkiemtheo"
@@ -154,22 +154,22 @@
                 <table>
                     <tr>
 
-                        <td><label style="margin-left: 47px;margin-bottom:-2px;width: 100px">Type tìm kiếm:</label></td>
+                        <td><label style="margin-left: 47px;margin-bottom:-2px;width: 100px">Search type:</label></td>
                         <td><select id="typetimkiem" name="typetimkiem"
                                     style="margin-left: 20px;margin-bottom:-2px;width: 150px">
                                 <?php if ($admin_info->Status == "M" || $admin_info->Status == "L" || $admin_info->Status == "LM"): ?>
                                     <option value="0" <?php if ($this->input->post('typetimkiem') == "0") {
                                         echo "selected";
-                                    } ?>>Tìm chính xác
+                                    } ?>>Find exactly
                                     </option>
                                 <?php else: ?>
                                     <option value="0" <?php if ($this->input->post('typetimkiem') == "0") {
                                         echo "selected";
-                                    } ?>>Tìm chính xác
+                                    } ?>>Find exactly
                                     </option>
                                     <option value="1" <?php if ($this->input->post('typetimkiem') == "1") {
                                         echo "selected";
-                                    } ?>>Tìm gần đúng
+                                    } ?>>Find approximate
                                     </option>
                                 <?php endif; ?>
                             </select></td>
@@ -198,7 +198,7 @@
                                 <td>Nickname</td>
                                 <td>Surplus Win</td>
                                 <td>No. Win the safe</td>
-                                <td>Vippoint h iện tại</td>
+                                <td>Vippoint h currently</td>
                                 <td>Vippoint accumulation</td>
                                 <td>Vippoint event</td>
                                 <td>VIP level</td>
@@ -393,15 +393,15 @@ $(document).ready(function () {
     function bacVippoint(strVip){
         var strresult;
         if(strVip>=0 && strVip <= 800){
-            strresult = "Đồng";
+            strresult = "Copper";
         }else if(strVip > 800 && strVip <= 4500){
-            strresult = "Bạc";
+            strresult = "Silver";
         }else if(strVip > 4500 && strVip <= 8600){
-            strresult = "Vàng";
+            strresult = "Gold";
         }else if(strVip > 8600 && strVip <= 50000){
-            strresult = "Bạch Kim";
+            strresult = "Platinum";
         }else if(strVip > 50000){
-            strresult = "Kim Cương";
+            strresult = "Diamond";
         }
         return strresult;
     }

@@ -171,7 +171,7 @@
                         <td><label style="margin-left: 30px;margin-bottom:-2px;width: 100px">Trading code:</label></td>
                         <td><input type="text" style="margin-left: 20px;margin-bottom:-2px;width: 150px"
                                    id="magiaodich" value="<?php echo $this->input->post('magiaodich') ?>" name="magiaodich"></td>
-                        <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Nhà cung cấp:</label>
+                        <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Supplier:</label>
                         </td>
                         <td class="">
                             <select id="select_partner" name="select_partner"
@@ -236,7 +236,7 @@
                 <td>Thẻ</td>
                 <td>Nhà cung cấp</td>
                 <td>Denominations</td>
-                <td style="width:100px;">Số lượng</td>
+                <td style="width:100px;">Quantity</td>
                 <?php if ($admin_info->Status == "A" || $admin_info->Status == "W"): ?>
                     <td>Thông tin thẻ nạp</td>
                 <?php endif; ?>
@@ -594,7 +594,7 @@
 <!--                        <td><label style="margin-left: 30px;margin-bottom:-2px;width: 100px">Trading code:</label></td>-->
 <!--                        <td><input type="text" style="margin-left: 20px;margin-bottom:-2px;width: 150px"-->
 <!--                                   id="magiaodich" value="--><?php //echo $this->input->post('magiaodich') ?><!--" name="magiaodich"></td>-->
-<!--                        <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Nhà cung cấp:</label>-->
+<!--                        <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Supplier:</label>-->
 <!--                        </td>-->
 <!--                        <td class="">-->
 <!--                            <select id="select_partner" name="select_partner"-->
@@ -659,7 +659,7 @@
 //                <td>Thẻ</td>
 //                <td>Nhà cung cấp</td>
 //                <td>Denominations</td>
-//                <td style="width:100px;">Số lượng</td>
+//                <td style="width:100px;">Quantity</td>
 //                <?php //if ($admin_info->Status == "A" || $admin_info->Status == "W"): ?>
 <!--                    <td>Thông tin thẻ nạp</td>-->
 <!--                --><?php //endif; ?>

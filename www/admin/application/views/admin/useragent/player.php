@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="col-sm-2">
-                    <label for="giftCode" class="">Mã đại lý : </label>
+                    <label for="giftCode" class="">Dealer code: </label>
                 </div>
                 <div class="col-sm-3">
                     <input class="" type="text" id="cd" value="<?= empty($cd) ? $this->input->post('cd') : $cd ?>" name="cd">

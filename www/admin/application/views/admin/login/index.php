@@ -62,7 +62,7 @@
                 <div class="modal-body" style="height: 100px">
 
                     <input class="form-control" type="text" id="odplogin" placeholder="Nhập ODP">
-                    <input type="button" class="blueB logMeIn pull-right" style="margin-top: 10px" value="Đăng nhập"
+                    <input type="button" class="blueB logMeIn pull-right" style="margin-top: 10px" value="Log in"
                            id="loginodp">
                 </div>
                 <div class="modal-footer">

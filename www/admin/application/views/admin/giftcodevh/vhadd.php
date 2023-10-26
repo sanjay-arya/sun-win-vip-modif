@@ -70,7 +70,7 @@
                         <div class="row">
                             <div class="col-sm-2">
                             </div>
-                            <label class="col-sm-1 control-label">Số lượng:</label>
+                            <label class="col-sm-1 control-label">Quantity:</label>
 
                             <div class="col-sm-2">
                                 <input type="text" class="form-control" id="soluong">

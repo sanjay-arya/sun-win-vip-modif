@@ -49,8 +49,8 @@
                         <td><label style="margin-bottom:-2px;width: 70px">Cửa đặt :</label></td>
                         <td class="">
                             <select id="betSide" name="bet_side" style="margin-bottom:-2px;width: 150px;margin-left: 24px;">
-                                <option value="1" <?php if($this->input->post('bet_side')== "1" ){echo "selected";} ?>>Tài</option>
-                                <option value="0" <?php if($this->input->post('bet_side')== "0" ){echo "selected";} ?> >Xỉu</option>
+                                <option value="1" <?php if($this->input->post('bet_side')== "1" ){echo "selected";} ?>>Finance</option>
+                                <option value="0" <?php if($this->input->post('bet_side')== "0" ){echo "selected";} ?> >Faint</option>
                             </select>
                         </td>
                         <td><label style="margin-left: 50px;margin-bottom:-2px;width: 100px">Lọc Bot:</label></td>
@@ -123,10 +123,10 @@ function resulttaixiudetail(reference_id, user_name, bet_value, bet_side, prize,
     rs += "<td>" + user_name + "</td>";
     rs += "<td>" + commaSeparateNumber(bet_value) + "</td>";
     if (bet_side == 0) {
-        rs += "<td>" + "Xỉu" + "</td>";
+        rs += "<td>" + "Faint" + "</td>";
     }
     else if (bet_side == 1) {
-        rs += "<td>" + "Tài" + "</td>";
+        rs += "<td>" + "Finance" + "</td>";
     }
     rs += "<td>" + commaSeparateNumber(prize) + "</td>";
     rs += "<td>" + commaSeparateNumber(refund) + "</td>";

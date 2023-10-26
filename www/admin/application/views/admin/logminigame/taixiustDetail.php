@@ -76,8 +76,8 @@
                 <div class="col-sm-2">
                     <select id="type" name="t" class="money-type-2">
                         <option value="" <?php if($this->input->post('t') == ""){echo "selected";} ?>>Select</option>
-                        <option value="1" <?php if($this->input->post('t') == "1"){echo "selected";} ?>>Tài</option>
-                        <option value="0" <?php if($this->input->post('t') == "2"){echo "selected";} ?>>Xỉu</option>
+                        <option value="1" <?php if($this->input->post('t') == "1"){echo "selected";} ?>>Finance</option>
+                        <option value="0" <?php if($this->input->post('t') == "2"){echo "selected";} ?>>Faint</option>
                     </select>
                 </div>
             </div>
@@ -108,7 +108,7 @@
                             <th style="width:40px">No</th>
                             <th>nickname</th>
                             <th>Money cược </th>
-                            <th>Money thắng</th>
+                            <th>Money wins</th>
                             <th>Cửa</th>
                             <th>Time cược</th>
                             <th>Trang thái</th>
@@ -272,9 +272,9 @@
     function maskedType(val) {
         switch (val) {
             case 1:
-                return 'Tài';
+                return 'Finance';
             case 2:
-                return 'Xỉu';
+                return 'Faint';
             default:
                 return val;
         }

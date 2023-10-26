@@ -15,7 +15,7 @@
     <div class="widget">
         <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
         <div class="title">
-            <h6>Lịch sử tài khoản login</h6>
+            <h6>Login account history</h6>
             <h6 style="float: right">Total:<span style="color:#0000ff" id="numuser"></span></h6>
         </div>
         <form class="list_filter form">
@@ -35,8 +35,8 @@
                         <td class="">
                             <select id="status" name="timkiemtheo"
                                     style="margin-left: 5px;margin-bottom:-2px;width: 150px">
-                                <option value="1" <?php if($this->input->post('timkiemtheo')== "1" ){echo "selected";} ?>>Đăng nhập</option>
-                                <option value="0" <?php if($this->input->post('timkiemtheo')== "0" ){echo "selected";} ?>>Đăng ký</option>
+                                <option value="1" <?php if($this->input->post('timkiemtheo')== "1" ){echo "selected";} ?>>Log in</option>
+                                <option value="0" <?php if($this->input->post('timkiemtheo')== "0" ){echo "selected";} ?>>Register</option>
                             </select>
                         </td>                    </tr>
 
@@ -90,9 +90,9 @@
                 <td>IP</td>
                 <td>Device</td>
                 <td>Status</td>
-                <td>Bảo mật</td>
+                <td>Security</td>
                 <td>Date created</td>
-                <td>Số lượng</td>
+                <td>Quantity</td>
                 <td>Use giftcode</td>
             </tr>
             </thead>
@@ -158,9 +158,9 @@
         rs += `<td><span class='ip-search' value='${ip}' onclick="ipSearch('${ip}')">${ip}</span></td>`;
         rs += "<td class='col-sm-3'>" + agent + "</td>";
         if(type == 1){
-        rs += "<td>" + " Đăng nhập" + "</td>";
+        rs += "<td>" + " Log in" + "</td>";
         }else{
-            rs += "<td>" + "Đăng ký" + "</td>";
+            rs += "<td>" + "Register" + "</td>";
         }
         if(security == 1){
             rs += "<td>" + "Have" + "</td>";

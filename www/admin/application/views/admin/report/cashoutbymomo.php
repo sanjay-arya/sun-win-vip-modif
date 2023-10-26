@@ -79,7 +79,7 @@
 <!--                                <option value="error"-->
 <!--                                    --><?php //if($this->input->post('select_status') == "error" ){echo "selected";} ?><!-->Rút tiền thất bại</option>-->
 <!--                                <option value="reject"-->
-<!--                                    --><?php //if($this->input->post('select_status') == "reject" ){echo "selected";} ?><!-->Từ chối</option>-->
+<!--                                    --><?php //if($this->input->post('select_status') == "reject" ){echo "selected";} ?><!-->Refuse</option>-->
 <!--                                -->
 <!--                            </select>-->
 <!--                        </td>-->

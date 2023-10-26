@@ -138,7 +138,7 @@
 
         function showPopupConfirmRelogin() {
             bootbox.confirm({
-                message: "Bạn có muốn đăng nhập lại",
+                message: "Do you want to log in again?",
                 buttons: {
                     confirm: {
                         label: 'Yes',

@@ -170,16 +170,16 @@
     //                    }
     //
     //                    else if (res.errorCode == 7002) {
-    //                        $("#errocode").html("Số lượng nickname và số lượng serial , pin không bằng nhau vui lòng upload lại file");
+    //                        $("#errocode").html("Quantity nickname và số lượng serial , pin không bằng nhau vui lòng upload lại file");
     //                    }
     //                    else if (res.errorCode == 7003) {
-    //                        $("#errocode").html("Số lượng serial , pin và số lượng nickname không bằng nhau vui lòng upload lại file");
+    //                        $("#errocode").html("Quantity serial , pin và số lượng nickname không bằng nhau vui lòng upload lại file");
     //                    }
     //                    else if (res.errorCode == 7004) {
-    //                        $("#errocode").html("Số lượng serial  và số lượng pin không bằng nhau vui lòng upload lại file");
+    //                        $("#errocode").html("Quantity serial  và số lượng pin không bằng nhau vui lòng upload lại file");
     //                    }
     //                    else if (res.errorCode == 7005) {
-    //                        $("#errocode").html("Số lượng pin  và số lượng serial không bằng nhau vui lòng upload lại file");
+    //                        $("#errocode").html("Quantity pin  và số lượng serial không bằng nhau vui lòng upload lại file");
     //                    }
     //                }, error: function () {
     //                    $("#spinner").hide();

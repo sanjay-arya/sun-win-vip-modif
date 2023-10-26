@@ -103,7 +103,7 @@
 <!--                    <thead>-->
 <!--                    <tr style="height: 20px;">-->
 <!--                        <td>Denominations</td>-->
-<!--                        <td>Số lượng</td>-->
+<!--                        <td>Quantity</td>-->
 <!--                        <td>Chưa kích hoạt</td>-->
 <!--                        <td>Đã dùng</td>-->
 <!--                        <td>Đã khóa</td>-->

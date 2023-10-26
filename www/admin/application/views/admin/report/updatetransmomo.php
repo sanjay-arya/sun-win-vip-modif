@@ -95,7 +95,7 @@
                                 <option value="error"
                                     <?php if($dataTrans['data']['Status'] == "error" ){echo "selected";} ?>>Lỗi </option>
                                 <option value="reject"
-                                    <?php if($dataTrans['data']['Status'] == "reject" ){echo "selected";} ?>> Từ chối</option>
+                                    <?php if($dataTrans['data']['Status'] == "reject" ){echo "selected";} ?>> Refuse</option>
                             </select>
                         
                         </label></div>

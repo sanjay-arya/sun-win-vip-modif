@@ -181,7 +181,7 @@
                 result += "<tr>";
                 result += "<td colspan='1'></td>";
                 result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Mệnhgiá" + "</td>";
-                result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Số lượng" + "</td>";
+                result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Quantity" + "</td>";
                 result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Đã dùng" + "</td>";
                 result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Total money đã dùng" + "</td>";
                 result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Đã khóa" + "</td>";
@@ -237,7 +237,7 @@
                 result += "<tr>";
                 result += "<td colspan='1'></td>";
                 result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Mệnhgiá" + "</td>";
-                result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Số lượng" + "</td>";
+                result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Quantity" + "</td>";
                 result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Đã dùng" + "</td>";
                 result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Total money đã dùng" + "</td>";
                 result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Đã khóa" + "</td>";

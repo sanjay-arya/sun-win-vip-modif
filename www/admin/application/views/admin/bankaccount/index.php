@@ -229,7 +229,7 @@
                                     initData()
                                 } else {
                                     bootbox.alert({
-                                        message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> Đã có lỗi xảy ra ${response.errorCode} : ${response.message}`,
+                                        message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> An error has occurred ${response.errorCode} : ${response.message}`,
                                         backdrop: true,
                                         centerVertical: true
                                     })

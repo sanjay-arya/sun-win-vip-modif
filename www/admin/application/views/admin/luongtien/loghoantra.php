@@ -107,17 +107,17 @@
     function capvip(strVip) {
         let strresult;
         if (strVip >= 0 && strVip <= 80) {
-            strresult = "Đá";
+            strresult = "Stone";
         } else if (strVip >= 0 && strVip <= 800) {
-            strresult = "Đồng";
+            strresult = "Copper";
         } else if (strVip > 800 && strVip <= 4500) {
-            strresult = "Bạc";
+            strresult = "Silver";
         } else if (strVip > 4500 && strVip <= 8600) {
-            strresult = "Vàng";
+            strresult = "Gold";
         } else if (strVip > 8600 && strVip <= 50000) {
-            strresult = "Bạch Kim";
+            strresult = "Platinum";
         } else if (strVip > 50000) {
-            strresult = "Kim Cương";
+            strresult = "Diamond";
         }
         return strresult;
     }

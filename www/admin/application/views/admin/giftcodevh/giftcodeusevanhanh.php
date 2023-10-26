@@ -82,7 +82,7 @@
                             <tr>
                                 <th>No</th>
                                 <th>Denominations</th>
-                                <th>Số lượng</th>
+                                <th>Quantity</th>
                                 <th>Giftcode đã dùng</th>
                                 <th>Remaining Giftcode</th>
                             </tr>

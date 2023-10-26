@@ -1,7 +1,7 @@
 <div class="titleArea">
     <div class="wrapper">
         <div class="pageTitle">
-            <h5>Total cược</h5>
+            <h5>Total bet</h5>
         </div>
         <div class="clear"></div>
     </div>
@@ -22,7 +22,7 @@
         <div class="widget">
             <h4 id="resultsearch"></h4>
             <div class="title">
-                <h6>Total cược</h6>
+                <h6>Total bet</h6>
             </div>
             <form class="list_filter form" action="<?php echo admin_url('report/tongcuoc') ?>" method="post">
                 <div class="formRow">
@@ -80,7 +80,7 @@
                     <td>moneyWinSport</td>
                     <td>MoneyMyGame</td>
                     <td>moneyWinMyGame</td>
-                    <td>Total cược</td>
+                    <td>Total bet</td>
                     <td>Total thắng</td>
                 </tr>
                 </thead>

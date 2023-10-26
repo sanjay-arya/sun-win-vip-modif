@@ -1,7 +1,7 @@
 <div class="titleArea">
     <div class="wrapper">
         <div class="pageTitle">
-            <h5>QUẢN LÝ USER ONLINE</h5>
+            <h5>ONLINE USER MANAGEMENT</h5>
         </div>
         <div class="clear"></div>
     </div>
@@ -12,7 +12,7 @@
 
     <div class="widget backaccount">
         <div class="title">
-            <h6>DANH SÁCH USER ONLINE</h6>
+            <h6>LIST OF USERS ONLINE</h6>
         </div>
 
         <form class="list_filter form" action="<?php echo admin_url('UserOnline/index') ?>" method="post">

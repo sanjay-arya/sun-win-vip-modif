@@ -256,7 +256,7 @@
                                     <th>Denominations</th>
                                     <th>Giftcode</th>
                                     <th>Nickname</th>
-                                    <th>Số lượng</th>
+                                    <th>Quantity</th>
                                     <th>Date created</th>
                                     <th>Date of use</th>
                                     <th>Status</th>

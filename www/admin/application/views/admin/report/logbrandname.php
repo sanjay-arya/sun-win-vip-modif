@@ -121,7 +121,7 @@
                     <td>Tin nhắn</td>
                     <td>Phone</td>
                     <td>Status</td>
-                    <td>Số lượng tin nhắn</td>
+                    <td>Quantity tin nhắn</td>
                     <td>Describe</td>
                     <td>Time</td>
                     <td>Update time</td>

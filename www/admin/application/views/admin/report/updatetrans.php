@@ -78,7 +78,7 @@
                         <div class="col-sm-2">
 
                         </div>
-                        <div class="col-sm-2"><label>Số Tài Khoản</label></div>
+                        <div class="col-sm-2"><label>Số Finance Khoản</label></div>
                         <div class="col-sm-2"><label><?php echo $dataTrans['data']['BankAccountNumber'] ?></label></div>
 
                     </div>
@@ -89,7 +89,7 @@
                         <div class="col-sm-2">
 
                         </div>
-                        <div class="col-sm-2"><label>Name Tài Khoản</label></div>
+                        <div class="col-sm-2"><label>Name Finance Khoản</label></div>
                         <div class="col-sm-2"><label><?php echo $dataTrans['data']['BankAccountName'] ?></label></div>
 
                     </div>
@@ -116,7 +116,7 @@
                                 <option value="error"
                                     <?php if($dataTrans['data']['Status'] == "error" ){echo "selected";} ?>>Lỗi </option>
                                 <option value="reject"
-                                    <?php if($dataTrans['data']['Status'] == "reject" ){echo "selected";} ?>> Từ chối</option>
+                                    <?php if($dataTrans['data']['Status'] == "reject" ){echo "selected";} ?>> Refuse</option>
                             </select>
                         
                         </label></div>

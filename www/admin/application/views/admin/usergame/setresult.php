@@ -10,7 +10,7 @@
     <div class="wrapper">
         <ul class="tabs-menu">
             <li class="current"><a href="#tab-1">Over/under</a></li>
-            <li><a href="#tab-3">Bầu Cua</a></li>
+            <li><a href="#tab-3">Election crab</a></li>
         </ul>
         <div class="widget">
             <?php if ($admin_info->Status == "A") : ?>
@@ -22,7 +22,7 @@
                                 <?php $this->load->view('admin/usergame/resulttaixiu', $this->data) ?>
                             </div>
                             <div id="tab-3" class="tab-content col-sm-12">
-                                <!--  Bầu Cua  -->
+                                <!--  Election crab  -->
                                 <?php $this->load->view('admin/usergame/resultbaucua', $this->data) ?>
                             </div>
                         </div>

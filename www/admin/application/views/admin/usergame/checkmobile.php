@@ -59,8 +59,8 @@
   <!--<!--                                <td>Username</td>-->-->
   <!--<!--                                <td>Nickname</td>-->-->
   <!--<!--                                <td>SDT</td>-->-->
-  <!--<!--                                <td>Money nạp</td>-->-->
-  <!--<!--                                <td>Bảo mật</td>-->-->
+  <!--<!--                                <td>Money loaded</td>-->-->
+  <!--<!--                                <td>Security</td>-->-->
   <!--<!--                            </tr>-->-->
   <!--<!--                            </thead>-->-->
   <!--<!--                            <tbody id="logaction">-->-->
@@ -76,7 +76,7 @@
   <!--<!--                            <thead>-->-->
   <!--<!--                            <tr style="height: 20px;">-->-->
   <!--<!--                                <td>No</td>-->-->
-  <!--<!--                                <td>SĐT</td>-->-->
+  <!--<!--                                <td>Phone number</td>-->-->
   <!--<!--                            </tr>-->-->
   <!--<!--                            </thead>-->-->
   <!--<!--                            <tbody id="logaction1">-->-->

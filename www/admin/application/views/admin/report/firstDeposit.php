@@ -18,7 +18,7 @@
         <form class="list_filter form" action="<?php echo admin_url('report/firstDeposit') ?>" method="post">
             <div class="formRow row">
                 <div class="col-sm-1">
-                    <label for="giftCode">Mã đại lý : </label>
+                    <label for="giftCode">Dealer code: </label>
                 </div>
                 <div class="col-sm-2">
                     <input type="text" id="code" value="<?php echo $this->input->post('code') ?>" name="code">

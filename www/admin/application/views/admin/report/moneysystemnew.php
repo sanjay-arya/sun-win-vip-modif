@@ -73,7 +73,7 @@
                     <table id="checkAll" class="table table-bordered" style="table-layout: fixed">
                         <thead>
                         <tr style="height: 20px;">
-                            <td>Money nạp (4)</td>
+                            <td>Money loaded (4)</td>
                             <td>Money sự kiên (5)</td>
                             <td style="font-weight: 600;color: #0000ff">Total nạp (4) +(5)</td>
                             <td>Money đổi thưởng (7)</td>
@@ -118,8 +118,8 @@
                                         <td>Money cược</td>
                                         <td>Money hoàn trả</td>
                                         <td>Waste</td>
-                                        <td class="col-sm-2">Money thắng trong game</td>
-                                        <td>Money thắng Total</td>
+                                        <td class="col-sm-2">Money wins trong game</td>
+                                        <td>Money wins Total</td>
                                     </tr>
                                     </thead>
                                     <tbody id="logaction1"></tbody>
@@ -150,8 +150,8 @@
                                         <td>Money cược</td>
                                         <td>Money hoàn trả</td>
                                         <td>Waste</td>
-                                        <td class="col-sm-2">Money thắng trong game</td>
-                                        <td>Money thắng Total</td>
+                                        <td class="col-sm-2">Money wins trong game</td>
+                                        <td>Money wins Total</td>
                                     </tr>
                                     </thead>
                                     <tbody id="logaction2"></tbody>
@@ -182,8 +182,8 @@
                                         <td>Money cược</td>
                                         <td>Money hoàn trả</td>
                                         <td>Waste</td>
-                                        <td class="col-sm-2">Money thắng trong game</td>
-                                        <td>Money thắng Total</td>
+                                        <td class="col-sm-2">Money wins trong game</td>
+                                        <td>Money wins Total</td>
                                     </tr>
                                     </thead>
                                     <tbody id="logaction3"></tbody>
@@ -214,8 +214,8 @@
                                         <td>Money cược</td>
                                         <td>Money hoàn trả</td>
                                         <td>Waste</td>
-                                        <td class="col-sm-2">Money thắng trong game</td>
-                                        <td>Money thắng Total</td>
+                                        <td class="col-sm-2">Money wins trong game</td>
+                                        <td>Money wins Total</td>
                                     </tr>
                                     <tbody>
                                     <tr>
@@ -242,19 +242,19 @@
                                     <tr>
                                         <td rowspan="5"
                                             style="vertical-align: middle;text-align: center;color: #ff0000;font-weight: 600">
-                                            Money nạp user
+                                            Money loaded user
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>Money nạp Paywell</td>
+                                        <td>Money loaded Paywell</td>
                                         <td id="ListUserInRechargeByPaywell" class="moneyhtml"></td>
                                     </tr>
                                     <tr>
-                                        <td>Money nạp Princepay</td>
+                                        <td>Money loaded Princepay</td>
                                         <td id="ListUserInRechargeByPrincePay" class="moneyhtml"></td>
                                     </tr>
                                     <tr>
-                                        <td>Money nạp Oneclickpay</td>
+                                        <td>Money loaded Oneclickpay</td>
                                         <td id="ListUserInRechargeByClickPay" class="moneyhtml"></td>
                                     </tr>
                                     <tr>
@@ -523,8 +523,8 @@
                                         <td>Money cược</td>
                                         <td>Money hoàn trả</td>
                                         <td>Waste</td>
-                                        <td>Money thắng trong game</td>
-                                        <td>Money thắng Total</td>
+                                        <td>Money wins trong game</td>
+                                        <td>Money wins Total</td>
                                     </tr>
                                     </thead>
                                     <tbody id="logactionbot1"></tbody>
@@ -554,8 +554,8 @@
                                         <td>Money cược</td>
                                         <td>Money hoàn trả</td>
                                         <td>Waste</td>
-                                        <td>Money thắng trong game</td>
-                                        <td>Money thắng Total</td>
+                                        <td>Money wins trong game</td>
+                                        <td>Money wins Total</td>
                                     </tr>
                                     </thead>
                                     <tbody id="logactionbot2"></tbody>

@@ -107,8 +107,8 @@
                                 <td>Money cược</td>
                                 <td>Money sư kiện</td>
                                 <td>Waste</td>
-                                <td>Money thắng trong game</td>
-                                <td>Money thắng Total</td>
+                                <td>Money wins trong game</td>
+                                <td>Money wins Total</td>
                             </tr>
                             </thead>
                             <tbody id="logaction">
@@ -142,12 +142,12 @@
                             <tr style="height: 20px;">
                                 <td>No</td>
                                 <td>Name game</td>
-                                <td>Money thắng</td>
-                                <td>Money thua</td>
+                                <td>Money wins</td>
+                                <td>Money lost</td>
                                 <td>Money sư kiện</td>
                                 <td>Waste</td>
-                                <td>Money thắng trong game</td>
-                                <td>Money thắng Total</td>
+                                <td>Money wins trong game</td>
+                                <td>Money wins Total</td>
                             </tr>
                             </thead>
                             <tbody id="logactionbai">
@@ -182,12 +182,12 @@
                             <tr style="height: 20px;">
                                 <td>No</td>
                                 <td>Name game</td>
-                                <td>Money thắng</td>
-                                <td>Money thua</td>
+                                <td>Money wins</td>
+                                <td>Money lost</td>
                                 <td>Money sư kiện</td>
                                 <td>Waste</td>
-                                <td>Money thắng trong game</td>
-                                <td>Money thắng Total</td>
+                                <td>Money wins trong game</td>
+                                <td>Money wins Total</td>
                             </tr>
                             </thead>
                             <tbody id="logactionslot">
@@ -222,12 +222,12 @@
                             <tr style="height: 20px;">
                                 <td>No</td>
                                 <td>Name game</td>
-                                <td>Money thắng</td>
-                                <td>Money thua</td>
+                                <td>Money wins</td>
+                                <td>Money lost</td>
                                 <td>Money sư kiện</td>
                                 <td>Waste</td>
-                                <td>Money thắng trong game</td>
-                                <td>Money thắng Total</td>
+                                <td>Money wins trong game</td>
+                                <td>Money wins Total</td>
                             </tr>
                             </thead>
                             <tbody id="logactionthirdparty">
@@ -399,7 +399,7 @@ $("#search_tran").click(function () {
 
                 if(res.users.actionGame.BauCua != null) {
                     var stt = 2;
-                    result1 += resultSearchTransction(stt, "Bầu Cua", res.users.actionGame.BauCua.moneyWin, res.users.actionGame.BauCua.moneyLost, res.users.actionGame.BauCua.moneyOther, res.users.actionGame.BauCua.fee, res.users.actionGame.BauCua.revenuePlayGame, res.users.actionGame.BauCua.revenue);
+                    result1 += resultSearchTransction(stt, "Election crab", res.users.actionGame.BauCua.moneyWin, res.users.actionGame.BauCua.moneyLost, res.users.actionGame.BauCua.moneyOther, res.users.actionGame.BauCua.fee, res.users.actionGame.BauCua.revenuePlayGame, res.users.actionGame.BauCua.revenue);
                     $('#logaction').html(result1);
                     total += res.users.actionGame.BauCua.moneyWin;
                     total1 += res.users.actionGame.BauCua.moneyLost;
@@ -444,7 +444,7 @@ $("#search_tran").click(function () {
                 }
                 if(res.users.actionGame.TAMHUNG != null) {
                     var stt = 2;
-                    result3 += resultSearchTransction(stt, "Chim điên", res.users.actionGame.TAMHUNG.moneyWin, res.users.actionGame.TAMHUNG.moneyLost, res.users.actionGame.TAMHUNG.moneyOther, res.users.actionGame.TAMHUNG.fee, res.users.actionGame.TAMHUNG.revenuePlayGame, res.users.actionGame.TAMHUNG.revenue);
+                    result3 += resultSearchTransction(stt, "Crazy bird", res.users.actionGame.TAMHUNG.moneyWin, res.users.actionGame.TAMHUNG.moneyLost, res.users.actionGame.TAMHUNG.moneyOther, res.users.actionGame.TAMHUNG.fee, res.users.actionGame.TAMHUNG.revenuePlayGame, res.users.actionGame.TAMHUNG.revenue);
                     $('#logactionslot').html(result3);
                     total += res.users.actionGame.TAMHUNG.moneyWin;
                     total1 += res.users.actionGame.TAMHUNG.moneyLost;
@@ -474,7 +474,7 @@ $("#search_tran").click(function () {
                 }
                 if(res.users.actionGame.Spartan != null) {
                     var stt = 4;
-                    result3 += resultSearchTransction(stt, "Thần tài", res.users.actionGame.Spartan.moneyWin, res.users.actionGame.Spartan.moneyLost, res.users.actionGame.Spartan.moneyOther, res.users.actionGame.Spartan.fee, res.users.actionGame.Spartan.revenuePlayGame, res.users.actionGame.Spartan.revenue);
+                    result3 += resultSearchTransction(stt, "God of wealth", res.users.actionGame.Spartan.moneyWin, res.users.actionGame.Spartan.moneyLost, res.users.actionGame.Spartan.moneyOther, res.users.actionGame.Spartan.fee, res.users.actionGame.Spartan.revenuePlayGame, res.users.actionGame.Spartan.revenue);
                     $('#logactionslot').html(result3);
                     total += res.users.actionGame.Spartan.moneyWin;
                     total1 += res.users.actionGame.Spartan.moneyLost;
@@ -489,7 +489,7 @@ $("#search_tran").click(function () {
                 }
                 if(res.users.actionGame.MAYBACH != null) {
                     var stt = 5;
-                    result3 += resultSearchTransction(stt, "Thể thao", res.users.actionGame.MAYBACH.moneyWin, res.users.actionGame.MAYBACH.moneyLost, res.users.actionGame.MAYBACH.moneyOther, res.users.actionGame.MAYBACH.fee, res.users.actionGame.MAYBACH.revenuePlayGame, res.users.actionGame.MAYBACH.revenue);
+                    result3 += resultSearchTransction(stt, "Sport", res.users.actionGame.MAYBACH.moneyWin, res.users.actionGame.MAYBACH.moneyLost, res.users.actionGame.MAYBACH.moneyOther, res.users.actionGame.MAYBACH.fee, res.users.actionGame.MAYBACH.revenuePlayGame, res.users.actionGame.MAYBACH.revenue);
                     $('#logactionslot').html(result3);
                     total += res.users.actionGame.MAYBACH.moneyWin;
                     total1 += res.users.actionGame.MAYBACH.moneyLost;
@@ -504,7 +504,7 @@ $("#search_tran").click(function () {
                 }
                 if(res.users.actionGame.Audition != null) {
                     var stt = 6;
-                    result3 += resultSearchTransction(stt, "Đua xe", res.users.actionGame.Audition.moneyWin, res.users.actionGame.Audition.moneyLost, res.users.actionGame.Audition.moneyOther, res.users.actionGame.Audition.fee, res.users.actionGame.Audition.revenuePlayGame, res.users.actionGame.Audition.revenue);
+                    result3 += resultSearchTransction(stt, "Racing", res.users.actionGame.Audition.moneyWin, res.users.actionGame.Audition.moneyLost, res.users.actionGame.Audition.moneyOther, res.users.actionGame.Audition.fee, res.users.actionGame.Audition.revenuePlayGame, res.users.actionGame.Audition.revenue);
                     $('#logactionslot').html(result3);
                     total += res.users.actionGame.Audition.moneyWin;
                     total1 += res.users.actionGame.Audition.moneyLost;

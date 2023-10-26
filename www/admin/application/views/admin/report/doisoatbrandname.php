@@ -177,7 +177,7 @@
 //
 //                result += "<tr>";
 //                result += '<td class="moneysystem">'+"Nội dung"+'</td>';
-//                result += '<td class="moneysystem">'+"Số lượng"+'</td>';
+//                result += '<td class="moneysystem">'+"Quantity"+'</td>';
 //                result += '<td class="moneysystem">'+"Đơn giá"+'</td>';
 //                result += '<td class="moneysystem">'+"Amount of money"+'</td>';
 //                result += "</tr>";
@@ -216,7 +216,7 @@
 //
 //                result += "<tr>";
 //                result += '<td class="moneysystem">'+"Nội dung"+'</td>';
-//                result += '<td class="moneysystem">'+"Số lượng"+'</td>';
+//                result += '<td class="moneysystem">'+"Quantity"+'</td>';
 //                result += '<td class="moneysystem">'+"Đơn giá"+'</td>';
 //                result += '<td class="moneysystem">'+"Amount of money"+'</td>';
 //                result += "</tr>";

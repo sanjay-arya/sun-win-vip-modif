@@ -147,7 +147,7 @@
                                 <th>No</th>
                                 <th>Denominations</th>
                                 <th>Giftcode</th>
-                                <th>Số lượng</th>
+                                <th>Quantity</th>
                                 <th>Date created</th>
                                 <th>Status</th>
                             </tr>

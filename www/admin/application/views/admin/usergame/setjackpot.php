@@ -8,7 +8,7 @@
         
         <?php if ($admin_info->Status == "A"): ?>
             <div class="title">
-                <h4>SET NỔ HŨ <span style="color: #0000FF"></span></h4>
+                <h4>EXPLOSION SET<span style="color: #0000FF"></span></h4>
             </div>
             <div class="formRow">
                 <div class="row">
@@ -23,15 +23,15 @@
                     </div>
                     <div class="col-sm-2">
                         <select id="gameID">
-                            <option value="160">160 - Chim điên</option>
-                            <option value="110">110 - Đua xe</option>
-                            <option value="150">150 - Thể thao</option>
-                            <option value="120">120 - Thần tài</option>
+                            <option value="160">160 - Crazy bird</option>
+                            <option value="110">110 - Racing</option>
+                            <option value="150">150 - Sport</option>
+                            <option value="120">120 - God of wealth</option>
                             <option value="170">170 - Bitcoin</option>
                             <option value="6">6 - Pokemon</option>
-                            <option value="191">191 - Chiêm tinh</option>
+                            <option value="191">191 - Horoscope</option>
                             <option value="1">1 - Minipoker</option>
-                            <option value="180">180 - Thần bài</option>
+                            <option value="180">180 - God card</option>
                             <option value="197">197 - Bikini</option>
                         </select>
                     </div>
@@ -55,13 +55,13 @@
             <div class="formRow">
                 <div class="row">
                     <div class="col-sm-1">
-                        <input type="button" id="search_tran" value="Set Nổ Hũ" class="button blueB">
+                        <input type="button" id="search_tran" value="Set of Exploding Jars" class="button blueB">
                     </div>
                 </div>
             </div>
 
                 <div class="title">
-                    <h6 class="title-jackpot">List Nổ hũ</h6>
+                    <h6 class="title-jackpot">List of exploding jars</h6>
                 </div>
                 <table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable withCheck" id="checkAll">
                     <thead>

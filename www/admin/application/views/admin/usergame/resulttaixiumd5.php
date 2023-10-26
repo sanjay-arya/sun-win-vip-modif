@@ -43,8 +43,8 @@
     <table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable topTable" style="margin-top: 45px;">
       <thead>
         <tr>
-          <td style="width: 50%">Tài [<em id="taimd5OrderCount">0</em> order(s) ~ <em id="taimd5OrderTotal">0</em> VND]</td>
-          <td>Xỉu [<em id="xiumd5OrderCount">0</em> order(s) ~ <em id="xiumd5OrderTotal">0</em> VND]</td>
+          <td style="width: 50%">Finance [<em id="taimd5OrderCount">0</em> order(s) ~ <em id="taimd5OrderTotal">0</em> VND]</td>
+          <td>Faint [<em id="xiumd5OrderCount">0</em> order(s) ~ <em id="xiumd5OrderTotal">0</em> VND]</td>
         </tr>
       </thead>
       <tbody>

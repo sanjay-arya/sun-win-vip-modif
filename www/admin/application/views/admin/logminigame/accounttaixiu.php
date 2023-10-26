@@ -87,8 +87,8 @@
                         </td>
                         <td><select id="cuadatid" name="cuadatid" class="money-type-2">
                                 <option value="" <?php if($this->input->post('cuadatid') == "" || $this->input->get('cuadatid') == ""){echo "selected";} ?>>All</option>
-                                <option value="1" <?php if($this->input->post('cuadatid') == "1" || $this->input->get('cuadatid') == "1"){echo "selected";} ?>>Tài</option>
-                                <option value="0" <?php if($this->input->post('cuadatid') == "0" || $this->input->get('cuadatid') == "0"){echo "selected";} ?>>Xỉu</option>
+                                <option value="1" <?php if($this->input->post('cuadatid') == "1" || $this->input->get('cuadatid') == "1"){echo "selected";} ?>>Finance</option>
+                                <option value="0" <?php if($this->input->post('cuadatid') == "0" || $this->input->get('cuadatid') == "0"){echo "selected";} ?>>Faint</option>
                             </select>
                         </td>
                     </tr>
@@ -171,9 +171,9 @@
         rs += "<td>" + user_name + "</td>";
         rs += "<td>" + commaSeparateNumber(bet_value) + "</td>";
         if(bet_side == 1){
-            rs += "<td>" + "Tài" + "</td>";
+            rs += "<td>" + "Finance" + "</td>";
         }else  if(bet_side == 0){
-            rs += "<td>" + "Xỉu" + "</td>";
+            rs += "<td>" + "Faint" + "</td>";
         }
         rs += "<td>" + commaSeparateNumber(total_prize) + "</td>";
         rs += "<td>" + commaSeparateNumber(total_refund) + "</td>";

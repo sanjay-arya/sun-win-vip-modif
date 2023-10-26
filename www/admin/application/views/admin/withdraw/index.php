@@ -18,11 +18,11 @@
                 <h6>List Withdraw</h6>
                 <table style="float: right">
                     <tr>
-                        <td>Total số thành công:</td>
+                        <td>Total number of successes:</td>
                         <td style="color:#0000ff" id="total_success"></td>
                     </tr>
                     <tr>
-                        <td>Total money thành công:</td>
+                        <td>Total money success:</td>
                         <td style="color:#0000ff" id="total_money">
                     </tr>
                 </table>
@@ -67,7 +67,7 @@
                                        id="nickName" value="<?php echo $this->input->post('nickName') ?>"
                                        name="nickName">
                             </td>
-                            <td><label class="formLeft">Nhà cung cấp:</label>
+                            <td><label class="formLeft">Supplier:</label>
                             </td>
                             <?php $this->load->view('admin/component/selection/provider') ?>
                         </tr>
@@ -103,35 +103,35 @@
                                     <option value="">Select</option>
                                     <option value="0" <?php if ($this->input->post('status') == "0") {
                                         echo "selected";
-                                    } ?>>pending (Đang chờ xử lý)
+                                    } ?>>pending (Pending)
                                     </option>
                                     <option value="1" <?php if ($this->input->post('status') == 1) {
                                         echo "selected";
-                                    } ?>>received (Đã nhận và đang xử lý)
+                                    } ?>>received (Received and processing)
                                     </option>
                                     <option value="2" <?php if ($this->input->post('status') == 2) {
                                         echo "selected";
-                                    } ?>>success (Đã xử lý thành công)
+                                    } ?>>success (Processed successfully)
                                     </option>
                                     <option value="3" <?php if ($this->input->post('status') == 3) {
                                         echo "selected";
-                                    } ?>>failed (Đã xử lý thất bại)
+                                    } ?>>failed (Processing failed)
                                     </option>
                                     <option value="4" <?php if ($this->input->post('status') == 4) {
                                         echo "selected";
-                                    } ?>>completed (Transaction hoàn thất)
+                                    } ?>>completed (Transaction is complete)
                                     </option>
                                     <option value="5" <?php if ($this->input->post('status') == 5) {
                                         echo "selected";
-                                    } ?>>review (Đang xem xét)
+                                    } ?>>review (Is considering)
                                     </option>
                                     <option value="11" <?php if ($this->input->post('status') == 11) {
                                         echo "selected";
-                                    } ?>>spam (Yêu cầu bị send quá nhiều lần)
+                                    } ?>>spam (The request was sent too many times)
                                     </option>
                                     <option value="12" <?php if ($this->input->post('status') == 12) {
                                         echo "selected";
-                                    } ?>>request (Yêu cầu rút tiền)
+                                    } ?>>request (Request withdrawal)
                                     </option>
                                 </select>
                             </td>
@@ -154,7 +154,7 @@
                                        value="<?php echo $this->input->post('bankAccountNumber') ?>"
                                        name="bankAccountNumber">
                             </td>
-                            <td><label class="formLeft">Chủ khoản:</label></td>
+                            <td><label class="formLeft">Account holder:</label></td>
                             <td><input type="text" class="my-input-class"
                                        id="bankAccountName" value="<?php echo $this->input->post('bankAccountName') ?>"
                                        name="bankAccountName">
@@ -166,13 +166,13 @@
                 <div class="formRow">
                     <table>
                         <tr>
-                            <td><label class="formLeft">Amount of money từ:</label>
+                            <td><label class="formLeft">Amount of money from:</label>
                             </td>
                             <td><input type="text" class="my-input-class"
                                        id="fromAmount" value="<?php echo $this->input->post('fromAmount') ?>"
                                        name="fromAmount">
                             </td>
-                            <td><label class="formLeft">Đến:</label></td>
+                            <td><label class="formLeft">Arrive:</label></td>
                             <td><input type="text" class="my-input-class"
                                        id="toAmount" value="<?php echo $this->input->post('toAmount') ?>"
                                        name="toAmount">
@@ -211,17 +211,17 @@
                                 <th width="40px">No</th>
                                 <th>Nickname</th>
                                 <th>Amount of money</th>
-                                <th>Nhà CC</th>
+                                <th>CC House</th>
                                 <th>Order Id</th>
                                 <th>Transaction Id</th>
                                 <th>Bank Code</th>
                                 <th>Account number</th>
-                                <th>Name chủ khoản</th>
-                                <th>Reason từ chối</th>
+                                <th>Name of account holder</th>
+                                <th>Reason refused</th>
                                 <th>Date created</th>
                                 <th>Update cuối</th>
                                 <th>Status</th>
-                                <th>People phê duyệt</th>
+                                <th>People approved</th>
                                 <th style="width:100px;">Act</th>
                             </tr>
                             </thead>
@@ -258,21 +258,21 @@
 
     var status_dict = {
         "0":
-            {"text": "Đang chờ xử lý", "label": "pending", "color": "status-pending"},
+            {"text": "Pending", "label": "pending", "color": "status-pending"},
         "1":
-            {"text": "Đã nhận và đang xử lý", "label": "received", "color": "text-info"},
+            {"text": "Received and processing", "label": "received", "color": "text-info"},
         "2":
-            {"text": "Đã xử lý thành công", "label": "success", "color": "text-info"},
+            {"text": "Processed successfully", "label": "success", "color": "text-info"},
         "3":
-            {"text": "Đã xử lý thất bại", "label": "failed", "color": "status-fail"},
+            {"text": "Processing failed", "label": "failed", "color": "status-fail"},
         "4":
-            {"text": "Transaction hoàn thất", "label": "completed", "color": "status-complete"},
+            {"text": "Transaction is complete", "label": "completed", "color": "status-complete"},
         "5":
-            {"text": "Đang xem xét", "label": "review", "color": "text-info"},
+            {"text": "Is considering", "label": "review", "color": "text-info"},
         "11":
-            {"text": "Yêu cầu bị send quá nhiều lần", "label": "spam", "color": "text-info"},
+            {"text": "The request was sent too many times", "label": "spam", "color": "text-info"},
         "12":
-            {"text": "Yêu cầu rút tiền", "label": "request", "color": "status-request"},
+            {"text": "Request withdrawal", "label": "request", "color": "status-request"},
     }
     $(document).ready(function(){
         var startDate = moment(new Date()).hours(0).minutes(0).seconds(0).milliseconds(0)
@@ -339,8 +339,8 @@
             '<div ' + crPoppover(value) + ' class="tipS view-action text-info btn-circle"> <i class="fa fa-eye " aria-hidden="true"></i> </div>' +
             (
                 status_dict[value.Status].label === 'request' ?
-                    ('<a href="" title="Chấp nhận" class="tipS accept-action verify_action text-primary btn-circle"> <i class="fa fa-check" aria-hidden="true"></i></a>' +
-                    '<a href="" title="Từ chối" class="tipS reject-action verify_action text-danger btn-circle">  <i class="fa fa-times" aria-hidden="true"></i></a>')
+                    ('<a href="" title="Accept" class="tipS accept-action verify_action text-primary btn-circle"> <i class="fa fa-check" aria-hidden="true"></i></a>' +
+                    '<a href="" title="Refuse" class="tipS reject-action verify_action text-danger btn-circle">  <i class="fa fa-times" aria-hidden="true"></i></a>')
                 : ''
             ) +
             "</td>";
@@ -358,12 +358,12 @@
         return '<table class="table"><tr><th>Data fields<th/><th>Properties<th/></tr>' +
             '<tr><td>Nickname<td/><td>' + value.Nickname + '<td/></tr>' +
             '<tr><td>Amount of money<td/><td>' + $.number(value.Amount, undefined, '.', ',') + '<td/></tr>' +
-            '<tr><td>Nhà CC<td/><td>' + value.ProviderName + '<td/></tr>' +
+            '<tr><td>CC House<td/><td>' + value.ProviderName + '<td/></tr>' +
             '<tr><td>Order Id<td/><td>' + value.Id + '<td/></tr>' +
             '<tr><td>Transaction Id<td/><td>' + value.ReferenceId + '<td/></tr>' +
             '<tr><td>Bank<td/><td>' + value.BankCode + '<td/></tr>' +
             '<tr><td>Account number<td/><td>' + value.BankAccountNumber + '<td/></tr>' +
-            '<tr><td>Name chủ khoản<td/><td>' + value.BankAccountName + '<td/></tr>' +
+            '<tr><td>Name of account holder<td/><td>' + value.BankAccountName + '<td/></tr>' +
             '<tr><td>Date created<td/><td>' + value.CreatedAt + '<td/></tr>' +
             '<tr><td>Status<td/><td>' + status_dict[value.Status].text + '<td/></tr>' +
             '</table>'
@@ -395,15 +395,15 @@
 
                         if(response.data == "" ||  response.data == "[ ]" || response.data.length == 0 ) {
                             bootbox.alert({
-                                message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> Không có nhà cung cấp thỏa mãn <b>orderId ${value.Id}</b>`,
+                                message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> There are no satisfied suppliers <b>orderId ${value.Id}</b>`,
                                 backdrop: true,
                                 centerVertical: true
                             })
                         } else {
                             // call data get provider to show
                             bootbox.prompt({
-                                title: "Chấp nhận giao dịch!",
-                                message: messageBody(value) + '</br><p><b>Select 1 trong các tài khoản dưới để hoàn thành giao dịch:</b</p>',
+                                title: "Accept giao dịch!",
+                                message: messageBody(value) + '</br><p><b>Select 1 of the accounts below to complete the transaction:</b</p>',
                                 inputType: 'radio',
                                 inputOptions: JSON.parse(response.data).map(x => ({
                                     'text': x,
@@ -429,7 +429,7 @@
                                                     initData()
                                                 } else {
                                                     bootbox.alert({
-                                                        message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> Đã có lỗi xảy ra ${response.errorCode} : ${response.message}`,
+                                                        message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> An error has occurred ${response.errorCode} : ${response.message}`,
                                                         backdrop: true,
                                                         centerVertical: true
                                                     })
@@ -449,7 +449,7 @@
 
                     } else {
                         bootbox.alert({
-                            message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> Đã có lỗi xảy ra ${response.errorCode} : ${response.message}`,
+                            message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> An error has occurred ${response.errorCode} : ${response.message}`,
                             backdrop: true,
                             centerVertical: true
                         })
@@ -469,8 +469,8 @@
             e.preventDefault()
 
             bootbox.prompt({
-                title: `Từ chối giao dịch!`,
-                message: messageBody(value) + "</br><p><b>Nhập lý do từ chối:</b</p>",
+                title: `Refuse giao dịch!`,
+                message: messageBody(value) + "</br><p><b>Enter reason for rejection:</b</p>",
                 callback: function (result) {
                     if(result) {
                         $("#spinner").show();
@@ -490,7 +490,7 @@
                                 } else {
 
                                     bootbox.alert({
-                                        message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> Đã có lỗi xảy ra ${response.errorCode} : ${response.message}`,
+                                        message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> An error has occurred ${response.errorCode} : ${response.message}`,
                                         backdrop: true,
                                         centerVertical: true
                                     })

@@ -928,7 +928,7 @@ function DanhBai(str) {
         } else if (this.boluot == 1) {
             $("#logbai").append(tableName(this.chair, listName[this.chair], "Bỏ lượt", ""));
         } else {
-            $("#logbai").append(tableName(this.chair, listName[this.chair], "Đánh bài", this.cards));
+            $("#logbai").append(tableName(this.chair, listName[this.chair], "Stonenh bài", this.cards));
         }
 
     }
@@ -1155,11 +1155,11 @@ function EndGame(str) {
 
     if (data[2] != "" || data[2] != null) {
         this.printToScreen = function () {
-            $("#logbai").append(tableName(this.chair, listName[this.chair], "Money thắng: " + this.money, result));
+            $("#logbai").append(tableName(this.chair, listName[this.chair], "Money wins: " + this.money, result));
         };
     } else {
         this.printToScreen = function () {
-            $("#logbai").append(tableName(this.chair, listName[this.chair], "Money thắng: " + this.money, ""));
+            $("#logbai").append(tableName(this.chair, listName[this.chair], "Money wins: " + this.money, ""));
         };
     }
 
@@ -1338,14 +1338,14 @@ function HetCo(str) {
         }
     }    this.printToScreen = function () {
         if (data[0] == 6) {
-            $("#logbai").append(tableName(this.chair, listName[this.chair], "Money thắng: " + this.money + "  Reason thắng: đối thủ hết giờ", result));
+            $("#logbai").append(tableName(this.chair, listName[this.chair], "Money wins: " + this.money + "  Reason thắng: đối thủ hết giờ", result));
         } else if (data[0] == 7) {
-            $("#logbai").append(tableName(this.chair, listName[this.chair], "Money thắng: " + this.money + "  Reason thắng: đối thủ xin thua", result));
+            $("#logbai").append(tableName(this.chair, listName[this.chair], "Money wins: " + this.money + "  Reason thắng: đối thủ xin thua", result));
         } else if (data[0] == 1) {
             $("#logbai").append(tableName(this.chair, listName[this.chair], "Ván này hòa, số tiền bị trừ: " + this.money, result));
         }
         else {
-            $("#logbai").append(tableName(this.chair, listName[this.chair], "Money thắng: " + this.money, result));
+            $("#logbai").append(tableName(this.chair, listName[this.chair], "Money wins: " + this.money, result));
         }
 
     };

@@ -32,7 +32,7 @@
                             <td><label>Nick name:</label></td>
                             <td><input type="text"
                                        id="nickName" value="<?php echo $this->input->post('nickName') ?>" name="nickName"></td>
-                            <td><label class="session-1">Số phiên chơi game:</label></td>
+                            <td><label class="session-1">Number of gaming sessions:</label></td>
                             <td><input type="text" class="session-2"
                                        id="transId" value="<?php echo $this->input->post('transId') ?>" name="transId"></td>
                         </tr>
@@ -94,11 +94,11 @@
                             <td><label class="money-type-1" style="margin-left: 7px">Action name:</label></td>
                             <td><select class="money-type-2" style="margin-left: 1px; width: 213px!important;" id="actionName" name="actionName">
                                     <option value="" <?php if($this->input->post('actionName') == ""){echo "selected";} ?>>Select</option>
-                                    <option value="Admin" <?php if($this->input->post('actionName') == "Admin"){echo "selected";} ?>>Admin thực hiện</option>
-                                    <option value="RefundRecharge" <?php if($this->input->post('actionName') == "RefundRecharge"){echo "selected";} ?>>Hoàn trả từ hệ thống</option>
-                                    <option value="RechargeByPaywell" <?php if($this->input->post('actionName') == "RechargeByPaywell"){echo "selected";} ?>>Nạp tiền từ Paywell</option>
-                                    <option value="RechargeByClickPay" <?php if($this->input->post('actionName') == "RechargeByClickPay"){echo "selected";} ?>>Nạp tiền từ 1ClickPay</option>
-                                    <option value="RechargeByPrincePay" <?php if($this->input->post('actionName') == "RechargeByPrincePay"){echo "selected";} ?>>Nạp tiền từ PrincePay</option>
+                                    <option value="Admin" <?php if($this->input->post('actionName') == "Admin"){echo "selected";} ?>>Admin perform</option>
+                                    <option value="RefundRecharge" <?php if($this->input->post('actionName') == "RefundRecharge"){echo "selected";} ?>>Refund from the system</option>
+                                    <option value="RechargeByPaywell" <?php if($this->input->post('actionName') == "RechargeByPaywell"){echo "selected";} ?>>Deposit money from Paywell</option>
+                                    <option value="RechargeByClickPay" <?php if($this->input->post('actionName') == "RechargeByClickPay"){echo "selected";} ?>>Deposit money from 1ClickPay</option>
+                                    <option value="RechargeByPrincePay" <?php if($this->input->post('actionName') == "RechargeByPrincePay"){echo "selected";} ?>>Deposit money from PrincePay</option>
                                 </select></td>
                         </tr>
                     </table>
@@ -127,11 +127,11 @@
                 <thead>
                 <tr class="list-loggameslot">
                     <td>No</td>
-                    <td>Phiên giao dịch</td>
+                    <td>Session</td>
                     <td>Nick name</td>
                     <td>Current money</td>
                     <td>Money exchange</td>
-                    <td>Thời điểm giao dịch</td>
+                    <td>Transaction time</td>
                     <td>Action name</td>
                 </tr>
                 </thead>
@@ -302,19 +302,19 @@
         rs += "<td>" + value.trans_time + "</td>";
                 switch (value.action_name) {
                     case 'Admin':
-                        rs += "<td>" + 'Admin thực hiện' + "</td>";
+                        rs += "<td>" + 'Admin perform' + "</td>";
                         break;
                     case 'RefundRecharge':
-                        rs += "<td>" + 'Hoàn trả từ hệ thống' + "</td>";
+                        rs += "<td>" + 'Refund from the system' + "</td>";
                         break;
                     case 'RechargeByPaywell':
-                        rs += "<td>" + 'Nạp tiền từ Paywell' + "</td>";
+                        rs += "<td>" + 'Deposit money from Paywell' + "</td>";
                         break;
                     case 'RechargeByClickPay':
-                        rs += "<td>" + 'Nạp tiền từ 1ClickPay' + "</td>";
+                        rs += "<td>" + 'Deposit money from 1ClickPay' + "</td>";
                         break;
                     case 'RechargeByPrincePay':
-                        rs += "<td>" + 'Nạp tiền từ PrincePay' + "</td>";
+                        rs += "<td>" + 'Deposit money from PrincePay' + "</td>";
                         break;
                     default:
                         rs += "<td>" + value.action_name + "</td>";

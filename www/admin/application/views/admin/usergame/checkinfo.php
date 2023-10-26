@@ -99,8 +99,8 @@
     <!--<!--                            <tr style="height: 20px;">-->-->
     <!--<!--                                <td>No</td>-->-->
     <!--<!--                                <td>Nickname</td>-->-->
-    <!--<!--                                <td>Money nạp</td>-->-->
-    <!--<!--                                <td>Money thắng Total</td>-->-->
+    <!--<!--                                <td>Money loaded</td>-->-->
+    <!--<!--                                <td>Money wins Total</td>-->-->
     <!--<!--                                <td>Transfer</td>-->-->
     <!--<!--                                <td>Buy card code</td>-->-->
     <!--<!--                                <td>Nạp Phone</td>-->-->

@@ -5,7 +5,7 @@
         <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
         <?php if ($admin_info->Status == "A"): ?>
             <div class="title">
-                <h4>SET USER TỈ LỆ THẮNG CAO <span style="color: #0000FF"></span></h4>
+                <h4>SET USER HIGH WINNING RATE <span style="color: #0000FF"></span></h4>
             </div>
             <div class="formRow">
                 <div class="row">
@@ -24,7 +24,7 @@
                             <option value="0" selected>Player</option>
                             <option value="1">bot</option>
                             <option value="2">TEST sport</option>
-                            <option value="3">TEST xóc đĩa</option>
+                            <option value="3">TEST disc jockey</option>
                         </select>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
             </div>
 
                 <div class="title">
-                    <h6 class="title-jackpot">List user tỉ lệ thắng cao</h6>
+                    <h6 class="title-jackpot">List of users with high winning rate</h6>
                 </div>
                 <table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable withCheck" id="checkAll">
                     <thead>

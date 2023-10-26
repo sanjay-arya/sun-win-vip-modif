@@ -130,13 +130,13 @@
             <div class="row">
 
                 <div class="col-xs-6">
-                    <h3 style="text-align: center;color: #0000ff">Top User thắng</h3>
+                    <h3 style="text-align: center;color: #0000ff">Top User wins</h3>
                     <table id="checkAll" class="table table-bordered" style="table-layout: fixed">
                         <thead>
                         <tr style="height: 20px;">
                             <td>No</td>
                             <td>Nickname</td>
-                            <td>Money thắng</td>
+                            <td>Money wins</td>
                         </tr>
                         </thead>
 
@@ -146,13 +146,13 @@
                     </table>
                 </div>
                 <div class="col-xs-6">
-                    <h3 style="text-align: center;color: #0000ff">Top User thua</h3>
+                    <h3 style="text-align: center;color: #0000ff">Top User lost</h3>
                     <table id="checkAll" class="table table-bordered" style="table-layout: fixed">
                         <thead>
                         <tr style="height: 20px;">
                             <td>No</td>
                             <td>Nickname</td>
-                            <td>Money thua</td>
+                            <td>Money lost</td>
                         </tr>
                         </thead>
                         <tbody id="loguserlost">
@@ -166,13 +166,13 @@
             <div class="row">
 
                 <div class="col-xs-6">
-                    <h3 style="text-align: center;color: #0000ff">Top Bot thắng</h3>
+                    <h3 style="text-align: center;color: #0000ff">Top Bot wins</h3>
                     <table id="checkAll" class="table table-bordered" style="table-layout: fixed">
                         <thead>
                         <tr style="height: 20px;">
                             <td>No</td>
                             <td>Nickname</td>
-                            <td>Money thắng</td>
+                            <td>Money wins</td>
                         </tr>
                         </thead>
                         <tbody id="logbotwin">
@@ -181,13 +181,13 @@
                     </table>
                 </div>
                 <div class="col-xs-6">
-                    <h3 style="text-align: center;color: #0000ff">Top Bot thua</h3>
+                    <h3 style="text-align: center;color: #0000ff">Top Bot lost</h3>
                     <table id="checkAll" class="table table-bordered" style="table-layout: fixed">
                         <thead>
                         <tr style="height: 20px;">
                             <td>No</td>
                             <td>Nickname</td>
-                            <td>Money thua</td>
+                            <td>Money lost</td>
                         </tr>
                         </thead>
                         <tbody id="logbotlost">

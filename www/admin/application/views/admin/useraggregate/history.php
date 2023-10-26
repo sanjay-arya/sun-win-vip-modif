@@ -37,8 +37,8 @@
                     <td><label class="money-type-1" style="margin-left: 8px">Status:</label></td>
                     <td>
                         <select class="money-type-2" id="status" name="timkiemtheo">
-                            <option value="1" <?php if ($this->input->post('timkiemtheo') == "1") {echo "selected";} ?>>Đăng nhập</option>
-                            <option value="0" <?php if ($this->input->post('timkiemtheo') == "0") {echo "selected";} ?>>Đăng ký</option>
+                            <option value="1" <?php if ($this->input->post('timkiemtheo') == "1") {echo "selected";} ?>>Log in</option>
+                            <option value="0" <?php if ($this->input->post('timkiemtheo') == "0") {echo "selected";} ?>>Register</option>
                         </select>
                     </td>
                     <td><label class="money-type-1">Ip:</label></td>
@@ -73,9 +73,9 @@
             <td>IP</td>
             <td>Device</td>
             <td>Status</td>
-            <td>Bảo mật</td>
+            <td>Security</td>
             <td>Date created</td>
-            <td>Số lượng</td>
+            <td>Quantity</td>
             <td>Use giftcode</td>
         </tr>
         </thead>
@@ -142,9 +142,9 @@
         rs += "<td class='ip'>" + '<a style="cursor: pointer;text-decoration-line: underline;" class="check-ip">'+ ip +'</a>' + "</td>";
         rs += "<td class='col-sm-3'>" + agent + "</td>";
         if (type == 1) {
-            rs += "<td>" + " Đăng nhập" + "</td>";
+            rs += "<td>" + " Log in" + "</td>";
         } else {
-            rs += "<td>" + "Đăng ký" + "</td>";
+            rs += "<td>" + "Register" + "</td>";
         }
         if (security == 1) {
             rs += "<td>" + "Have" + "</td>";

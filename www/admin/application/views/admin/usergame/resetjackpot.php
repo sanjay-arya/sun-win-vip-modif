@@ -21,7 +21,7 @@
             src="<?php echo public_url() ?>/site/bootstrap/bootstrap-datetimepicker.min.js"></script>
         <div class="widget">
             <div class="title">
-                <h6>Reset Hũ</h6>
+                <h6>Reset Jar</h6>
             </div>
             <form class="list_filter form" action="" method="">
                 <div class="formRow">

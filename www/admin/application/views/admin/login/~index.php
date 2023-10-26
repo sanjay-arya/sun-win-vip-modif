@@ -15,7 +15,7 @@
 <!---->
 <!--    <div style="height:auto; margin:auto;" id="admin_login" class="widget">-->
 <!--        <div class="title">-->
-<!--            <span>Đăng nhập</span>-->
+<!--            <span>Log in</span>-->
 <!--        </div>-->
 <!--        <form method="post" action="" id="form" class="form">-->
 <!---->
@@ -28,7 +28,7 @@
 <!--                <div style="color:red;font-weight:blod;text-align:center"-->
 <!--                     id="validate-text">--><?php //if (isset($message) && $message): ?><!----><?php //echo $message ?><!----><?php //endif; ?><!--</div>-->
 <!--                <input type="hidden" value="1" name="submit">-->
-<!--                <input type="button" class="dredB logMeIn" value="Đăng nhập" id="login">-->
+<!--                <input type="button" class="dredB logMeIn" value="Log in" id="login">-->
 <!---->
 <!--                <div class="clear"></div>-->
 <!--            </div>-->
@@ -45,7 +45,7 @@
 <!--                    <div class="modal-body" style="height: 100px">-->
 <!---->
 <!--                        <input class="form-control" type="text" id="odplogin" placeholder="Nhập ODP">-->
-<!--                        <input type="button" class="blueB logMeIn pull-right" style="margin-top: 10px" value="Đăng nhập"-->
+<!--                        <input type="button" class="blueB logMeIn pull-right" style="margin-top: 10px" value="Log in"-->
 <!--                               id="loginodp">-->
 <!--                    </div>-->
 <!--                    <div class="modal-footer">-->

@@ -90,7 +90,7 @@
                 <div class="col-sm-1">
                     <input type="checkbox" name="role" value="24">
                 </div>
-                <label class="col-sm-1" style="width: 154px"> Cấm chơi caro</label>
+                <label class="col-sm-1" style="width: 154px">Playing checkers is prohibited</label>
 
                 <div class="col-sm-1">
                     <input type="checkbox" name="role" value="25">

@@ -252,7 +252,7 @@
 //                        } ?><!-->Đã sử dụng-->
 <!--                        </option>-->
 <!--                    </select></td>-->
-<!--                <td><label style="margin-left: 47px;margin-bottom:-2px;width: 100px">Type tài khoản:</label></td>-->
+<!--                <td><label style="margin-left: 47px;margin-bottom:-2px;width: 100px">Account type:</label></td>-->
 <!--                <td><select id="select_tk" name="select_tk" style="margin-left: 30px;margin-bottom:-2px;width: 150px">-->
 <!--                        <option value="-1" --><?php //if ($this->input->post('select_tk') == "-1") {
 //                            echo "selected";

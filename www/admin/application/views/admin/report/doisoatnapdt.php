@@ -62,7 +62,7 @@
 <!--                <table>-->
 <!--                    <tr>-->
 <!---->
-<!--                        <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Nhà cung cấp:</label>-->
+<!--                        <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Supplier:</label>-->
 <!--                        </td>-->
 <!--                        <td class="">-->
 <!--                            <select id="select_partner" name="select_partner"-->
@@ -244,7 +244,7 @@
 //            result += "<tr>";
 //            result += "<td colspan='1'></td>";
 //            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Mệnhgiá" + "</td>";
-//            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Số lượng" + "</td>";
+//            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Quantity" + "</td>";
 //            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Total money nạp Phone" + "</td>";
 //            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Tỉ lệ" + "</td>";
 //            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Money chiết khấu" + "</td>";

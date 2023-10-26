@@ -144,7 +144,7 @@
 <!--                        <td>ID</td>-->
 <!--                        <td>Name game</td>-->
 <!--                        <td>Type code</td>-->
-<!--                        <td>Số lượng</td>-->
+<!--                        <td>Quantity</td>-->
 <!--                        <td>Denominations</td>-->
 <!--                        <td>Hạn sử dụng</td>-->
 <!--                        <td>Date created</td>-->

@@ -111,7 +111,7 @@
                 <td>Money thưởng gà</td>
                 <td>Money đặt hưou</td>
                 <td>Money thưởng hưou</td>
-                <td>Money thắng  thua</td>
+                <td>Money wins  thua</td>
                 <td>Date created</td>
             </tr>
             </thead>

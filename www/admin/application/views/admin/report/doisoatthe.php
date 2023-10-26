@@ -268,8 +268,8 @@
 //            result += "<tr>";
 //            result += "<td colspan='1'></td>";
 //            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Mệnhgiá" + "</td>";
-//            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Số lượng" + "</td>";
-//            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Money nạp" + "</td>";
+//            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Quantity" + "</td>";
+//            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Money loaded" + "</td>";
 //            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Tỉ lệ" + "</td>";
 //            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Money thực thu" + "</td>";
 //            result += "</tr>";

@@ -76,7 +76,7 @@
                         <tr>
                             <td>
                                 <label for="param_name" style="width: 120px;margin-bottom:-3px;margin-left: 23px;"
-                                       class="formLeft"> Sắp xếp theo: </label>
+                                       class="formLeft"> Sorted by: </label>
                             </td>
                             <td class="item"><select id="fieldname" name="fieldname"
                                                      style="margin-left: 27px;margin-bottom:-2px;width: 142px">
@@ -91,7 +91,7 @@
                             </td>
                             <td>
                                 <label for="param_name" style="width: 115px;margin-bottom:-3px;margin-left: 47px;"
-                                       class="formLeft"> Điều kiện: </label>
+                                       class="formLeft"> Condition: </label>
                             </td>
                             <td class="item"><select id="timkiemtheo" name="timkiemtheo"
                                                      style="margin-left: 5px;margin-bottom:-2px;width: 150px">
@@ -109,7 +109,7 @@
 
                             <td>
                                 <label for="param_name" style="width: 115px;margin-bottom:-3px;margin-left: 47px;"
-                                       class="formLeft"> Type tài khoản: </label>
+                                       class="formLeft"> Account type: </label>
                             </td>
                             <?php if($admin_info->Status == "M" || $admin_info->Status == "S" ): ?>
                                 <td class="item"><select id="typetaikhoan" name="timkiemtheo"
@@ -364,24 +364,24 @@
     function bacVippoint(strVip){
         var strresult;
         if(strVip>=0 && strVip <= 80){
-            strresult = "Đá";
+            strresult = "Stone";
         }else if(strVip > 80 && strVip <= 800){
-            strresult = "Đồng";
+            strresult = "Copper";
         }else if(strVip > 800 && strVip <= 4500){
-            strresult = "Bạc";
+            strresult = "Silver";
         }else if(strVip > 4500 && strVip <= 8600){
-            strresult = "Vàng";
+            strresult = "Gold";
         }else if(strVip > 8600 && strVip <= 12000){
-            strresult = "Bạch Kim 1";
+            strresult = "Platinum 1";
         }else if(strVip > 12000 && strVip <= 50000){
-            strresult = "Bạch Kim 2";
+            strresult = "Platinum 2";
         }else if(strVip > 50000 && strVip <= 100000){
-            strresult = "Kim Cương 1";
+            strresult = "Diamond 1";
         }else if(strVip > 100000 && strVip <= 200000){
-            strresult = "Kim Cương 2";
+            strresult = "Diamond 2";
         }
         else if(strVip > 200000){
-            strresult = "Kim Cương 3";
+            strresult = "Diamond 3";
         }
         return strresult;
     }

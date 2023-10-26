@@ -27,7 +27,7 @@
     <tr>
         <th class="background-sliver">Address : </th>
         <td><?= $dataInfoUser ? $dataInfoUser['address'] : '' ?></td>
-        <th class="background-sliver">Mã đại lý : </th>
+        <th class="background-sliver">Dealer code: </th>
         <td><?= $dataInfoUser ? $dataInfoUser['referral_code'] : '' ?></td>
     </tr>
     <tr>

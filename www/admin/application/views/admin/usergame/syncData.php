@@ -1,7 +1,7 @@
 <div class="titleArea">
     <div class="wrapper">
         <div class="pageTitle">
-            <h5>Đồng bộ dữ liệu</h5>
+            <h5>Data synchronization</h5>
         </div>
         <div class="clear"></div>
     </div>
@@ -12,7 +12,7 @@
 
     <div class="widget">
         <div class="title">
-            <h6>Đồng bộ dữ liệu</h6>
+            <h6>Data synchronization</h6>
         </div>
         <div class="list_filter form">
             <div class="formRow row" style="height: 250px">
@@ -51,12 +51,12 @@
                     </div>
                 </div>
                 <div class="col-sm-1">
-                    <button type="button" id="sync" class="btn btn-primary">Đồng bộ</button>
+                    <button type="button" id="sync" class="btn btn-primary">Synchronized</button>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12" style="display: none" id="result-context">
-                    Đồng bộ dữ liệu : <span id="result-records"></span> bản ghi.
+                    Data synchronization : <span id="result-records"></span> record.
                 </div>
             </div>
         </div>

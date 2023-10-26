@@ -19,9 +19,9 @@
         <li><a href="#tab-3">Rút</a></li>
         <li><a href="#tab-4">TK ngân hàng</a></li>
         <li><a href="#tab-5">Check IP</a></li>
-        <li><a href="#tab-6">Biến động số dư</a></li>
+        <li><a href="#tab-6">Balance fluctuations</a></li>
         <li><a href="#tab-7">Lock account</a></li>
-        <li><a href="#tab-8">Total cược và thắng</a></li>
+        <li><a href="#tab-8">Total bet và thắng</a></li>
         <li><a href="#tab-9">Change Password</a></li>
     </ul>
     <div class="widget">
@@ -49,7 +49,7 @@
                         <?php $this->load->view('admin/useraggregate/history', $this->data) ?>
                     </div>
                     <div id="tab-6" class="tab-content col-sm-12">
-                        <!--  Biến động số dư  -->
+                        <!--  Balance fluctuations  -->
                         <?php $this->load->view('admin/useraggregate/balance', $this->data) ?>
                     </div>
                     <div id="tab-7" class="tab-content col-sm-12">
@@ -57,7 +57,7 @@
                         <?php $this->load->view('admin/useraggregate/setting', $this->data) ?>
                     </div>
                     <div id="tab-8" class="tab-content col-sm-12">
-                        <!--  Total cược và Total money thắng của từng games  -->
+                        <!--  Total bet và Total money thắng của từng games  -->
                         <?php $this->load->view('admin/useraggregate/betwin', $this->data) ?>
                     </div>
                     <div id="tab-9" class="tab-content col-sm-12">

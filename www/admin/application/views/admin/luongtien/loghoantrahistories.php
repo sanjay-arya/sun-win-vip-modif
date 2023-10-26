@@ -122,8 +122,8 @@
 <script>
     var page_size = '<?php echo $this->input->post('page_size') ?>' || 10
     let capvip = {
-        0: "Đá",
-        1: "Kim Cương"
+        0: "Stone",
+        1: "Diamond"
     }
 
     $(function () {

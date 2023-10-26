@@ -218,12 +218,12 @@
         return '<table class="table"><tr><th>Data fields<th/><th>Properties<th/></tr>' +
             '<tr><td>Nickname<td/><td>' + value.Nickname + '<td/></tr>' +
             '<tr><td>Amount of money<td/><td>' + $.number(value.Amount, undefined, '.', ',') + '<td/></tr>' +
-            '<tr><td>Nhà CC<td/><td>' + value.ProviderName + '<td/></tr>' +
+            '<tr><td>CC House<td/><td>' + value.ProviderName + '<td/></tr>' +
             '<tr><td>Order Id<td/><td>' + value.Id + '<td/></tr>' +
             '<tr><td>Transaction Id<td/><td>' + value.ReferenceId + '<td/></tr>' +
             '<tr><td>Bank<td/><td>' + value.BankCode + '<td/></tr>' +
             '<tr><td>Account number<td/><td>' + value.BankAccountNumber + '<td/></tr>' +
-            '<tr><td>Name chủ khoản<td/><td>' + value.BankAccountName + '<td/></tr>' +
+            '<tr><td>Name of account holder<td/><td>' + value.BankAccountName + '<td/></tr>' +
             '<tr><td>Date created<td/><td>' + value.CreatedAt + '<td/></tr>' +
             '<tr><td>Status<td/><td>' + status_dict[value.Status].text + '<td/></tr>' +
             '</table>'

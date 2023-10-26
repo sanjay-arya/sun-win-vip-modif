@@ -86,17 +86,17 @@
                     <h5>Waste: <span id = "spanphe" style="color: #0000ff"></span></h5>
                 </div>
                 <div class="col-sm-3">
-                    <h5>Money thắng trong game: <span id = "spanmoneygame" style="color: #0000ff"></span></h5>
+                    <h5>Money wins trong game: <span id = "spanmoneygame" style="color: #0000ff"></span></h5>
                 </div>
                 <div class="col-sm-3">
-                    <h5>Money thắng Total: <span id = "spanmoney" style="color: #0000ff"></span></h5>
+                    <h5>Money wins Total: <span id = "spanmoney" style="color: #0000ff"></span></h5>
                 </div>
             </div>
         </div>
 
         <div class="formRow">
             <div class="row">
-                <h4 id="" style="color: red;margin-left: 20px">Money nạp game (VND)</h4>
+                <h4 id="" style="color: red;margin-left: 20px">Money loaded game (VND)</h4>
             </div>
         </div>
         <div class="formRow">
@@ -135,8 +135,8 @@
                             <td>Money cược</td>
                             <td>Money sự kiện</td>
                             <td>Waste</td>
-                            <td>Money thắng trong game</td>
-                            <td>Money thắng Total</td>
+                            <td>Money wins trong game</td>
+                            <td>Money wins Total</td>
                         </tr>
                         </thead>
                         <tbody id="logaction"> </tbody>
@@ -168,12 +168,12 @@
                         <tr style="height: 20px;">
                             <td>No</td>
                             <td>Name game</td>
-                            <td>Money thắng</td>
-                            <td>Money thua</td>
+                            <td>Money wins</td>
+                            <td>Money lost</td>
                             <td>Money sự kiện</td>
                             <td>Waste</td>
-                            <td>Money thắng trong game</td>
-                            <td>Money thắng Total</td>
+                            <td>Money wins trong game</td>
+                            <td>Money wins Total</td>
                         </tr>
                         </thead>
                         <tbody id="logactiongamebai"></tbody>
@@ -212,8 +212,8 @@
                             <td>Money cược</td>
                             <td>Money sự kiện</td>
                             <td>Waste</td>
-                            <td>Money thắng trong game</td>
-                            <td>Money thắng Total</td>
+                            <td>Money wins trong game</td>
+                            <td>Money wins Total</td>
                         </tr>
                         </thead>
                         <tbody id="logactionbot">
@@ -245,12 +245,12 @@
                         <tr style="height: 20px;">
                             <td>No</td>
                             <td>Name game</td>
-                            <td>Money thắng</td>
-                            <td>Money thua</td>
+                            <td>Money wins</td>
+                            <td>Money lost</td>
                             <td>Money sự kiện</td>
                             <td>Waste</td>
-                            <td>Money thắng trong game</td>
-                            <td>Money thắng Total</td>
+                            <td>Money wins trong game</td>
+                            <td>Money wins Total</td>
                         </tr>
                         </thead>
                         <tbody id="logactionbotgamebai">
@@ -596,7 +596,7 @@
                     }
                     if(res.actionGame.BauCua != null) {
                         var stt = 4;
-                        result1 += resultSearchTransction(stt, "Bầu Cua", res.actionGame.BauCua.moneyWin, res.actionGame.BauCua.moneyLost, res.actionGame.BauCua.moneyOther, res.actionGame.BauCua.fee, res.actionGame.BauCua.revenuePlayGame, res.actionGame.BauCua.revenue);
+                        result1 += resultSearchTransction(stt, "Election crab", res.actionGame.BauCua.moneyWin, res.actionGame.BauCua.moneyLost, res.actionGame.BauCua.moneyOther, res.actionGame.BauCua.fee, res.actionGame.BauCua.revenuePlayGame, res.actionGame.BauCua.revenue);
                         $('#logaction').html(result1);
                     }
                     if(res.actionGame.Candy != null) {
@@ -767,7 +767,7 @@
                     }
                     if(res.actionGameBot.BauCua != null) {
                         var stt = 4;
-                        result3 += resultSearchTransctionbot(stt, "Bầu Cua", res.actionGameBot.BauCua.moneyWin, res.actionGameBot.BauCua.moneyLost, res.actionGameBot.BauCua.moneyOther, res.actionGameBot.BauCua.fee, res.actionGameBot.BauCua.revenuePlayGame, res.actionGameBot.BauCua.revenue);
+                        result3 += resultSearchTransctionbot(stt, "Election crab", res.actionGameBot.BauCua.moneyWin, res.actionGameBot.BauCua.moneyLost, res.actionGameBot.BauCua.moneyOther, res.actionGameBot.BauCua.fee, res.actionGameBot.BauCua.revenuePlayGame, res.actionGameBot.BauCua.revenue);
                         $('#logactionbot').html(result3);
                     }
                     if(res.actionGameBot.Candy != null) {

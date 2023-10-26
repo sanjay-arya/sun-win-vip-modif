@@ -14,7 +14,7 @@
         <div class="widget">
             <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
             <div class="title">
-                <h6>List tài khoản thường</h6>
+                <h6>List of regular accounts</h6>
                 <h6 style="float: right">Total account number:<span style="color:#0000ff" id="numuser"></span></h6>
             </div>
             <form class="list_filter form" action="<?php echo admin_url('usergame/uservinplay') ?>" method="post">
@@ -56,7 +56,7 @@
                                        id="nickname" value="<?= empty($this->input->post('nickname')) ? (empty($this->input->get('nickname')) ? '' : $this->input->get('nickname')) : $this->input->post('nickname') ?>"
                                        name="nickname">
                             </td>
-                            <td><label class="formLeft">Mã đại lý:</label>
+                            <td><label class="formLeft">Dealer code:</label>
                             </td>
                             <td><input type="text" class="my-input-class"
                                        id="refcode" value="<?= empty($this->input->post('refcode')) ? (empty($this->input->get('refcode')) ? '' : $this->input->get('refcode')) : $this->input->post('refcode') ?>" name="refcode">
@@ -147,7 +147,7 @@
                             <td>
                                 <input hidden type="text" value="0" name="isEx" id="isEx">
                                 <button  class="button blueB" id="export" style="margin-left: 20px">
-                                    Xuất dữ liệu
+                                    Export data
                                 </button>
                             </td>
                         </tr>
@@ -165,16 +165,16 @@
                                 <!--                            <td>Username</td>-->
                                 <td>Nickname</td>
                                 <td>Surplus Win</td>
-                                <!--                            <td>Số Win the safe</td>-->
-                                <!--                            <td>Vippoint hiện tại</td>-->
-                                <!--                            <td>Vippoint tích lũy</td>-->
+                                <!--                            <td>No. Win the safe</td>-->
+                                <!--                            <td>Current Vippoint</td>-->
+                                <!--                            <td>Vippoint accumulation</td>-->
                                 <!--                            <td>Vippoint event</td>-->
-                                <td>Bậc vippoint</td>
+                                <td>vippoint level</td>
                                 <!--                            <td>Total money nạp</td>-->
                                 <!--                            <td>Birthday</td>-->
                                 <!--                            <td>OTP</td>-->
-                                <td>SĐT</td>
-                                <!--                            <td>An toàn qua SĐT</td>-->
+                                <td>Phone number</td>
+                                <!--                            <td>An toàn qua Phone number</td>-->
                                 <td>Referral code</td>
                                 <td>Date created</td>
                                 <td>Act</td>
@@ -204,7 +204,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">Update mã đại lý cho user</h3>
+                <h3 class="modal-title" id="exampleModalLabel">Update agent code for user</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -217,7 +217,7 @@
                         <label for="inputNickName" class="col-form-label">Nick Name : <span id="nickname-visible"></span></label>
                     </div>
                     <div class="form-group">
-                        <label for="inputCustomerName" class="col-form-label">Mã đại lý : </label>
+                        <label for="inputCustomerName" class="col-form-label">Dealer code: </label>
                         <input id="code-agent" type="text" class="form-control" value="">
                     </div>
                 </form>
@@ -290,12 +290,12 @@
         rs += "<td>" + (value.referral_code || '-') + "</td>";
         rs += "<td>" + (value.createTime || '-') + "</td>";
         rs += "<td class='option'>" +
-            '<div class="tipS view-action text-info btn-circle pop-option" title="Xem Total cược"> Total cược </div>' +
+            '<div class="tipS view-action text-info btn-circle pop-option" title="See Total bets"> Total bet </div>' +
             '<div class="tipS change-password-user-action mt-2 pop-option" title="Change Password user">' +
                     '<img src="<?php echo public_url('admin') ?>/images/icons/key.png"/>' +
             '</div>' +
-            `<div class="pop-option mt-2" title="Update mã đại lý" onclick="openModel('${value.nickname}')">` +
-                'Update mã đại lý' +
+            `<div class="pop-option mt-2" title="Update agent code" onclick="openModel('${value.nickname}')">` +
+                'Update agent code' +
             '</div>' +
             "</td>";
         return rs;
@@ -323,14 +323,14 @@
                 $("#spinner").hide();
                 console.log(result);
                 if (result.errorCode == '0') {
-                    alert('Update mã đại lý thành công.');
+                    alert('Update agent code successfully.');
                     return;
                 }
                 alert(result.message);
             },
             error: function () {
                 $("#spinner").hide();
-                alert('Update thất bại.');
+                alert('Update failed.');
             },
             timeout: 40000
         });
@@ -404,15 +404,15 @@
 
                         if(response.data == "" ||  response.data == "[ ]" || response.data.length == 0 ) {
                             bootbox.alert({
-                                message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> Không có nhà cung cấp thỏa mãn <b>orderId ${value.Id}</b>`,
+                                message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> There are no satisfied suppliers <b>orderId ${value.Id}</b>`,
                                 backdrop: true,
                                 centerVertical: true
                             })
                         } else {
                             // call data get provider to show
                             bootbox.prompt({
-                                title: "Chấp nhận giao dịch!",
-                                message: messageBody(value) + '</br><p><b>Select 1 trong các tài khoản dưới để hoàn thành giao dịch:</b</p>',
+                                title: "Accept giao dịch!",
+                                message: messageBody(value) + '</br><p><b>Select 1 of the accounts below to complete the transaction:</b</p>',
                                 inputType: 'radio',
                                 inputOptions: JSON.parse(response.data).map(x => ({
                                     'text': x,
@@ -438,7 +438,7 @@
                                                     initData()
                                                 } else {
                                                     bootbox.alert({
-                                                        message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> Đã có lỗi xảy ra ${response.errorCode} : ${response.message}`,
+                                                        message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> An error has occurred ${response.errorCode} : ${response.message}`,
                                                         backdrop: true,
                                                         centerVertical: true
                                                     })
@@ -458,7 +458,7 @@
 
                     } else {
                         bootbox.alert({
-                            message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> Đã có lỗi xảy ra ${response.errorCode} : ${response.message}`,
+                            message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> An error has occurred ${response.errorCode} : ${response.message}`,
                             backdrop: true,
                             centerVertical: true
                         })
@@ -479,7 +479,7 @@
             let nickname = value ? value.nickname : undefined
             if (!nickname) {
                 bootbox.alert({
-                    message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> Không tìm thấy nickname`,
+                    message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> Nickname not found`,
                     backdrop: true,
                     centerVertical: true
                 })
@@ -487,7 +487,7 @@
             } else {
                 bootbox.prompt({
                     title: `Reset password user <b>${nickname}</b>!`,
-                    message: `<p>Nhập lại chính xác <b>${nickname}</b> để thực hiện hành động.</br>Password sau reset mặc định là <b>123456</b>:</p>`,
+                    message: `<p>Re-enter correctly <b>${nickname}</b> to take action.</br>The default password after reset is <b>123456</b>:</p>`,
                     callback: function (result) {
                         if(result.trim() == nickname) {
                             $("#spinner").show();
@@ -504,13 +504,13 @@
                                         $("#resultsearch").html("");
 
                                         bootbox.alert({
-                                            message: `<i class="fa fa-times-circle text-success" aria-hidden="true"></i> Reset mật khẩu ${nickname} thành công. A new password: <b>123456</b>.`,
+                                            message: `<i class="fa fa-times-circle text-success" aria-hidden="true"></i> Reset ${nickname} password successfully. A new password: <b>123456</b>.`,
                                             backdrop: true,
                                             centerVertical: true
                                         })
                                     } else {
                                         bootbox.alert({
-                                            message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> Đã có lỗi xảy ra ${response.errorCode} : ${response.message}`,
+                                            message: `<i class="fa fa-times-circle text-danger" aria-hidden="true"></i> An error has occurred ${response.errorCode} : ${response.message}`,
                                             backdrop: true,
                                             centerVertical: true
                                         })
@@ -523,7 +523,7 @@
                                 }, timeout: 20000})
                         } else {
                             bootbox.alert({
-                                message: `<i class="fa fa-times-circle" aria-hidden="true"></i> Nhập lại nickname đi cưng`,
+                                message: `<i class="fa fa-times-circle" aria-hidden="true"></i>Enter your nickname again`,
                                 backdrop: true,
                                 centerVertical: true
                             })
@@ -645,17 +645,17 @@
     function bacVippoint(strVip) {
         let strresult;
         if (strVip >= 0 && strVip <= 80) {
-            strresult = "Đá";
+            strresult = "Stone";
         } else if (strVip >= 0 && strVip <= 800) {
-            strresult = "Đồng";
+            strresult = "Copper";
         } else if (strVip > 800 && strVip <= 4500) {
-            strresult = "Bạc";
+            strresult = "Silver";
         } else if (strVip > 4500 && strVip <= 8600) {
-            strresult = "Vàng";
+            strresult = "Gold";
         } else if (strVip > 8600 && strVip <= 50000) {
-            strresult = "Bạch Kim";
+            strresult = "Platinum";
         } else if (strVip > 50000) {
-            strresult = "Kim Cương";
+            strresult = "Diamond";
         }
         return strresult;
     }
