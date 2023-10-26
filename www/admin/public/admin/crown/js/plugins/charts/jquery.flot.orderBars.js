@@ -12,7 +12,7 @@
  * If 2 series have the same order param, they are ordered by the position in the array;
  *
  * The plugin adjust the point by adding a value depanding of the barwidth
- * Exemple for 3 series (barwidth : 0.1) :
+ * EWatchple for 3 series (barwidth : 0.1) :
  *
  *          first bar décalage : -0.15
  *          second bar décalage : -0.05
@@ -68,12 +68,12 @@
 
         function calculPixel2XWidthConvert(plot){
             var gridDimSize = isHorizontal ? plot.getPlaceholder().innerHeight() : plot.getPlaceholder().innerWidth();
-            var minMaxValues = isHorizontal ? getAxeMinMaxValues(plot.getData(),1) : getAxeMinMaxValues(plot.getData(),0);
+            var minMaxValues = isHorizontal ? getAWatchinMaxValues(plot.getData(),1) : getAWatchinMaxValues(plot.getData(),0);
             var AxeSize = minMaxValues[1] - minMaxValues[0];
             pixelInXWidthEquivalent = AxeSize / gridDimSize;
         }
 
-        function getAxeMinMaxValues(series,AxeIdx){
+        function getAWatchinMaxValues(series,AxeIdx){
             var minMaxValues = new Array();
             for(var i = 0; i < series.length; i++){
                 minMaxValues[0] = series[i].data[0][AxeIdx];
