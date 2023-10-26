@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Đại Lý | Đăng nhập</title>
+    <title>Agent | Login</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -22,7 +22,7 @@
     <!-- /.login-logo -->
     <div class="card">
         <div class="card-body login-card-body">
-            <p class="login-box-msg">Đăng nhập đại lý</p>
+            <p class="login-box-msg">Login agent</p>
             {{-- Display thông tin trạng thái tạo bài viết --}}
             @if (session('error'))
                 <div class="alert alert-info bg-danger">{{session('error')}}</div>
@@ -30,7 +30,7 @@
             <form action="{{route('auth')}}" method="post">
                 @csrf
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Name đăng nhập" required name="user_name" >
+                    <input type="text" class="form-control" placeholder="Username" required name="user_name" >
                     <div class="input-group-append">
                         <div class="input-group-text">
                             <span class="fas fa-user"></span>
@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="input-group mb-3">
-                    <input type="password" class="form-control" placeholder="Mật khẩu" required name="pass" id="pass">
+                    <input type="password" class="form-control" placeholder="Password" required name="pass" id="pass">
                     <div class="input-group-append">
                         <div class="input-group-text">
                             <span class="fas fa-eye" onclick="passChange()" id="pass-eye"></span>
@@ -56,7 +56,7 @@
                     </div>-->
                     <!-- /.col -->
                     <div class="col-5">
-                        <button type="submit" class="btn btn-primary btn-block">Đăng nhập</button>
+                        <button type="submit" class="btn btn-primary btn-block">Log in</button>
                     </div>
                     <!-- /.col -->
                 </div>

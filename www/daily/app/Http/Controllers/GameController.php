@@ -27,7 +27,7 @@ class GameController extends Controller
         $ft = strtotime($dateFrom);
         $et = strtotime($dateTo);
         if ($ft > $et) {
-            $error = 'Ngày bắt đầu nhỏ hơn ngày kết thúc.';
+            $error = 'The start date is less than the end date.';
             return view('gameStatic.index', compact('error', 'params'));
         }
         $params = $request->all();

@@ -81,7 +81,7 @@
 
                                         <div class="row">
                                             <div class="col-12 mb-2 text-right">
-                                                Total số bản ghi : @if(!empty($data)) {{$data->total()}} @endif
+                                            Total number of records : @if(!empty($data)) {{$data->total()}} @endif
                                             </div>
                                             <div class="col-12">
                                                 <div class="card">

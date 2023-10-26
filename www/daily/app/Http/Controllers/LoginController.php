@@ -48,7 +48,7 @@ class LoginController extends Controller
             }
             $data = json_decode($body, true);
             if (!$data['success']) {
-                return redirect()->route('login')->with('error', 'Đăng nhập thất bại : ' . $data['message']);
+                return redirect()->route('login')->with('error', 'Log in thất bại : ' . $data['message']);
             }
             $request->session()->put('info', $data['data']);
             Log::info('data : ' , $data);

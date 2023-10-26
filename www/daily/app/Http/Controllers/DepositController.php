@@ -20,10 +20,10 @@ class DepositController extends Controller
         $this->depositService = $depositService;
         $this->bankService = $bankService;
         $this->customMessages = [
-            'un.required' => 'User name là bắt buộc.',
-            'nn.required' => 'Nick name là bắt buộc.',
-            'ps.required' => 'Mật khẩu là bắt buộc.',
-            'na.required' => 'Name of agent là bắt buộc.',
+            'un.required' => 'User name is required.',
+            'nn.required' => 'Nick name is required.',
+            'ps.required' => 'Password is required.',
+            'na.required' => 'Name of agent is required.',
         ];
     }
 

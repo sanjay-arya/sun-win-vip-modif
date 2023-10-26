@@ -45,7 +45,7 @@
                     <!-- /.card-body -->
                     {{--<div class="card-footer">
                         <button type="submit" class="btn btn-primary">Search</button>
-                        <a href="{{route('income')}}" class="btn btn-primary">Bỏ tìm kiếm</a>
+                        <a href="{{route('income')}}" class="btn btn-primary">Quit searching</a>
                     </div>--}}
                 </form>
             </div>

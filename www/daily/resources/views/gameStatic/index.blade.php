@@ -54,7 +54,7 @@
                         <!-- /.card-body -->
                         <div class="card-footer">
                             <button type="submit" class="btn btn-primary">{{__('base.search')}}</button>
-                            <a href="{{route('game')}}" class="btn btn-primary">Bỏ tìm kiếm</a>
+                            <a href="{{route('game')}}" class="btn btn-primary">Quit searching</a>
                         </div>
                     </form>
                 </div>
@@ -78,13 +78,13 @@
                                 <table class="table table-hover text-nowrap">
                                     <thead>
                                     <tr>
-                                        <th>Name game</th>
-                                        <th>Trả thưởng</th>
-                                        <th>Money cược</th>
-                                        <th>Money hoàn trả</th>
+                                        <th>Game Name</th>
+                                        <th>Pay rewards</th>
+                                        <th>Money bet</th>
+                                        <th>Money refunded</th>
                                         <th>Waste</th>
-                                        <th>Money thắng trong game</th>
-                                        <th>Money thắng Total</th>
+                                        <th>Money wins in the game</th>
+                                        <th>Money beats Total</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -117,13 +117,13 @@
                                 <table class="table table-hover text-nowrap">
                                     <thead>
                                     <tr>
-                                        <th>Name game</th>
-                                        <th>Trả thưởng</th>
-                                        <th>Money cược</th>
-                                        <th>Money hoàn trả</th>
+                                        <th>Game Name</th>
+                                        <th>Pay rewards</th>
+                                        <th>Money bet</th>
+                                        <th>Money refunded</th>
                                         <th>Waste</th>
-                                        <th>Money thắng trong game</th>
-                                        <th>Money thắng Total</th>
+                                        <th>Money wins in the game</th>
+                                        <th>Money beats Total</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -156,13 +156,13 @@
                                 <table class="table table-hover text-nowrap">
                                     <thead>
                                     <tr>
-                                        <th>Name game</th>
-                                        <th>Trả thưởng</th>
-                                        <th>Money cược</th>
-                                        <th>Money hoàn trả</th>
+                                        <th>Game Name</th>
+                                        <th>Pay rewards</th>
+                                        <th>Money bet</th>
+                                        <th>Money refunded</th>
                                         <th>Waste</th>
-                                        <th>Money thắng trong game</th>
-                                        <th>Money thắng Total</th>
+                                        <th>Money wins in the game</th>
+                                        <th>Money beats Total</th>
                                     </tr>
                                     </thead>
                                     <tbody>

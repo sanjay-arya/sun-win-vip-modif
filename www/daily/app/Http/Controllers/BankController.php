@@ -15,10 +15,10 @@ class BankController extends Controller
     {
         $this->bankService = $bankService;
         $this->customMessages = [
-            'ba.required' => 'Account ngân hàng là bắt buộc.',
-            'bc.required' => 'Mã ngân hàng là bắt buộc.',
-            'bn.required' => 'Số tài khoản  là bắt buộc.',
-            'br.required' => 'Name ngân hàng là bắt buộc.',
+            'ba.required' => 'Bank account is required.',
+            'bc.required' => 'Bank code is required.',
+            'bn.required' => 'Account number is required.',
+            'br.required' => 'Bank name is required.',
         ];
     }
 
@@ -91,7 +91,7 @@ class BankController extends Controller
         $params = $request->all();
         $bank = $this->bankService->getDetail($id);
         if (!$bank) {
-            session()->flash('alert-warning', 'Không tồn tại.');
+            session()->flash('alert-warning', 'Does not exist.');
             return route('banks');
         }
         $result = $this->bankService->update($id, $params);
@@ -110,7 +110,7 @@ class BankController extends Controller
         if (!$result) {
             abort(500);
         }
-        session()->flash('alert-success', 'Erase thành công');
+        session()->flash('alert-success', 'Delete successful');
         return ['success' => true];
     }
 }

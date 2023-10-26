@@ -2,7 +2,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content background-modal">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Phê duyệ</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle">Approve</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="{{__('base.close')}}">
                     <span aria-hidden="true">&times;</span>
                 </button>

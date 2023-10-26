@@ -20,9 +20,9 @@ class TransactionController extends Controller
         $this->bankService = $bankService;
         $this->transactionService = $transactionService;
         $this->customMessages = [
-            'm.required' => 'Amount of money là bắt buộc.',
-            'fbn.required' => 'Account nguồn là bắt buộc.',
-            'tbn.required' => 'Account đích là bắt buộc.',
+            'm.required' => 'Amount of money is required.',
+            'fbn.required' => 'Source account is required.',
+            'tbn.required' => 'Destination account is required.',
         ];
     }
 
@@ -82,7 +82,7 @@ class TransactionController extends Controller
         if (!$result) {
             abort(500);
         }
-        session()->flash('alert-success', 'Erase thành công');
+        session()->flash('alert-success', 'Delete successful');
         return ['success' => true];
     }
 }

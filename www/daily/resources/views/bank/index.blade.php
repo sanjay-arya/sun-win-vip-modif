@@ -124,7 +124,7 @@
     <script>
         function deleteAction(id, bn) {
             $('#deleteModalCenter').modal('show')
-            $('#delete-content').html('Bạn có chắc chắn muốn xóa : ' + bn);
+            $('#delete-content').html('Are you sure you want to delete: ' + bn);
             $('#delete-modal-bank').val(id);
         }
 
@@ -142,7 +142,7 @@
                     error: function (error) {
                         $('#deleteModalCenter').modal('hide');
                         console.log(error);
-                        alert('Erase thất bại');
+                        alert('Delete failed');
                     }
                 }
             );

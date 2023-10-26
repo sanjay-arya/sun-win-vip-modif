@@ -45,7 +45,7 @@ class UserController extends Controller
             $ft = strtotime($request->get('ft'));
             $et = strtotime($request->get('et'));
             if ($ft > $et) {
-                $error = 'Ngày bắt đầu nhỏ hơn ngày kết thúc.';
+                $error = 'The start date is less than the end date.';
                 return view('userInfo.index', compact('error'));
             }
         }
