@@ -147,7 +147,7 @@
                 <td>Time cập nhật</td>
                 <td>Act</td>
                 <td>Select bên thứ 3</td>
-                <td>Người duyệt</td>
+                <td>People duyệt</td>
             </tr>
             </thead>
             <tbody id="logaction">

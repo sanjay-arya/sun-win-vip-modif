@@ -119,7 +119,7 @@
                     <td>No</td>
                     <td>Request Id</td>
                     <td>Tin nhắn</td>
-                    <td>Điện thoại</td>
+                    <td>Phone</td>
                     <td>Status</td>
                     <td>Số lượng tin nhắn</td>
                     <td>Describe</td>

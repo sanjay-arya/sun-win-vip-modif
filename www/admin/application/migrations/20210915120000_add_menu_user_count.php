@@ -11,7 +11,7 @@ class Migration_Add_menu_user_count extends CI_Migration
             return;
         }
         $data = array(
-            'Name' => 'Số người chơi game',
+            'Name' => 'Số People chơi game',
             'Param' => '31',
             'Link' => 'report/userCount',
             'Status' => 'A',

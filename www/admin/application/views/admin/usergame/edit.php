@@ -4,7 +4,7 @@
 <div class="wrapper">
     <div class="widget">
         <div class="title">
-            <h6>Update thông tin tài khoản</h6>
+            <h6>Update account information</h6>
         </div>
         <form id="form" class="form" enctype="multipart/form-data" method="post" action="">
             <fieldset>
@@ -29,7 +29,7 @@
                     <div class="clear"></div>
                 </div>
                 <div class="formRow">
-                    <label for="param_username" class="formLeft">Nhập lại mật khẩu:<span class="req">*</span></label>
+                    <label for="param_username" class="formLeft">Enter the password:<span class="req">*</span></label>
                     <div class="formRight">
                         <span class="oneTwo"><input type="password" _autocheck="true" id="param_re_password" name="re_password"></span>
                         <span class="autocheck" name="name_autocheck"></span>

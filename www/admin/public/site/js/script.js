@@ -121,7 +121,7 @@ function validate_form_register()
 	//validate phone
 	if(phone == '')
 	{
-		show_msg('phone_error', 'Bạn cần nhập số điện thoại');
+		show_msg('phone_error', 'Bạn cần nhập số Phone');
 		error += 1;
 	}
 	else if(password != re_password)

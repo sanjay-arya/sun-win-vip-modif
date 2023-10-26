@@ -24,7 +24,7 @@
         <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
 
         <div class="title">
-            <h6>Biểu đồ Total số vin người chơi</h6>
+            <h6>Biểu đồ Total số vin People chơi</h6>
         </div>
         <form class="list_filter form" action="<?php echo admin_url('report/chartmoneytotal') ?>" method="post">
             <div class="formRow">

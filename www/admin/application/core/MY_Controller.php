@@ -477,7 +477,7 @@ class MY_Controller extends CI_Controller
                 $strresult = "Chuyển giftcode minigame";
                 break;
             case 17:
-                $strresult = "Tạo kho giftcode vận hành";
+                $strresult = "Tạo kho Giftcode operates";
                 break;
             case 18:
                 $strresult = "Chuyển giftcode cho vận hành";

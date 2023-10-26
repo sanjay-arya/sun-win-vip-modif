@@ -149,7 +149,7 @@
     $("#sendmail").click(function () {
 
         if($("#mobiledaily").val() == ""){
-            $("#errocode").html("Bạn chưa nhập điện thoại");
+            $("#errocode").html("Bạn chưa nhập Phone");
             return false;
         } if($("#content").val() == ""){
             $("#errocode").html("Bạn chưa nhập nội dung");

@@ -103,7 +103,7 @@
     <!--<!--                                <td>Money thắng Total</td>-->-->
     <!--<!--                                <td>Transfer</td>-->-->
     <!--<!--                                <td>Buy card code</td>-->-->
-    <!--<!--                                <td>Nạp điện thoại</td>-->-->
+    <!--<!--                                <td>Nạp Phone</td>-->-->
     <!--<!--                            </tr>-->-->
     <!--<!--                            </thead>-->-->
     <!--<!--                            <tbody id="logaction">-->-->
@@ -327,7 +327,7 @@
     <!--//                    }-->
     <!--//                }, error: function () {-->
     <!--//                    $("#spinner").hide();-->
-    <!--//                    $("#errocode").html("Hệ thống quá tải. Vui lòng gọi 19008698");-->
+    <!--//                    $("#errocode").html("System overloaded. Please call 19008698");-->
     <!--//                }, timeout: 20000-->
     <!--//            });-->
     <!--//        }-->

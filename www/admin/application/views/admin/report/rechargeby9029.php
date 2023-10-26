@@ -151,7 +151,7 @@
 //                <tr style="height: 20px;">
 //                    <td>No</td>
 //                    <td>Nick name</td>
-//                    <td>Điện thoại</td>
+//                    <td>Phone</td>
 //                    <td>Tin nhắn send</td>
 //                    <td>Denominations</td>
 //                    <td>Mã trả về 1 pay</td>

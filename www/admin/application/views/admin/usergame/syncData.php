@@ -74,11 +74,11 @@
     $(document).ready(function () {
         $("#sync").click(function() {
             if ($('#gn').val() == '' || $('#from-date').val() == '' || $('#end-date').val() == '') {
-                alert('Nhập game name và ngày')
+                alert('Nhập game name và Day')
                 return;
             }
             if ($('#from-date').val() > $('#end-date').val()) {
-                alert('Ngày bắt đầu lớn hơn ngày kết thúc')
+                alert('Day bắt đầu lớn hơn Day kết thúc')
                 return;
             }
             $("#sync").prop("disabled",true);

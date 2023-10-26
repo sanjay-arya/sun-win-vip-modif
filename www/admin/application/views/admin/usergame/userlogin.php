@@ -93,7 +93,7 @@
                 <td>Bảo mật</td>
                 <td>Date created</td>
                 <td>Số lượng</td>
-                <td>Sử dụng giftcode</td>
+                <td>Use giftcode</td>
             </tr>
             </thead>
             <tbody id="logaction">
@@ -163,9 +163,9 @@
             rs += "<td>" + "Đăng ký" + "</td>";
         }
         if(security == 1){
-            rs += "<td>" + "Có" + "</td>";
+            rs += "<td>" + "Have" + "</td>";
         }else if(security == 0){
-            rs += "<td>" + "Không" + "</td>";
+            rs += "<td>" + "Are not" + "</td>";
         }
         rs += "<td>" + date + "</td>";
         rs += "<td>" + (numbergc || '-') + "</td>";

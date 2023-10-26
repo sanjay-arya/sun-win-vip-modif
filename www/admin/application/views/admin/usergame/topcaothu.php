@@ -37,7 +37,7 @@
 <!--                        </td>-->
 <!--                        <td>-->
 <!--                            <label for="param_name" class="formLeft" id="nameuser"-->
-<!--                                   style="margin-left: 50px;margin-bottom:-2px;width: 100px">Ngày:</label></td>-->
+<!--                                   style="margin-left: 50px;margin-bottom:-2px;width: 100px">Day:</label></td>-->
 <!--                        <td class="item"><input name="created"-->
 <!--                                                value="--><?php //echo $this->input->get('created') ?><!--" id="toDate"-->
 <!--                                                type="text" class="datepicker"/></td>-->

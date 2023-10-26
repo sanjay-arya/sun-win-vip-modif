@@ -11,8 +11,8 @@ $lang['title_list_hide']					= 'List video đang ẩn';
 $lang['title_list_feature']					= 'List video hấp dẫn nhất';
 $lang['title_list_vip']						= 'List video vip';
 
-$lang['view_of_day']						= 'Xem các video được post trong ngày';
-$lang['post_date']							= 'Ngày đăng';
+$lang['view_of_day']						= 'Xem các video được post trong Day';
+$lang['post_date']							= 'Day đăng';
 $lang['feature_set']						= 'Tạo hấp dẫn nhất';
 $lang['feature_del']						= 'Bỏ hấp dẫn nhất';
 $lang['vip_set']							= 'Tạo vip';
@@ -27,7 +27,7 @@ $lang['price_contact']						= 'Vui lòng gọi';
 $lang['price_of_feature']					= 'Giá bán tiêu biểu';
 $lang['price_of_user']						= 'Giá bán của thành viên khác';
 $lang['note']								= 'Ghi chú';
-$lang['poster']								= 'Người đăng';
+$lang['poster']								= 'People đăng';
 
 $lang['feature_set']						= 'Tạo nổi bật';
 $lang['feature_del']						= 'Bỏ nổi bật';
@@ -43,11 +43,11 @@ $lang['feature_del']					    = 'Bỏ nổi bật';
 $lang['option_feature']				  		= 'hấp dẫn nhất';
 $lang['option_vip']				  			= 'Vip';
 
-$lang['action_accept']						= 'Xác nhận';
+$lang['action_accept']						= 'Confirm';
 $lang['action_del']							= 'Erase';
 
 $lang['notice_are_you_sure_want_to_delete']	= 'Bạn có chắc chắn muốn xóa video';
-$lang['notice_are_you_sure_want_to_accept']	= 'Bạn có chắc chắn muốn xác nhận video';
+$lang['notice_are_you_sure_want_to_accept']	= 'Bạn có chắc chắn muốn Confirm video';
 $lang['notice_are_you_sure_want_to_delete_price'] = 'Bạn có chắc chắn muốn xóa giá bán của nhà cung cấp';
 $lang['notice_no_video_in_this']			= 'Chưa có video tại đây';
 

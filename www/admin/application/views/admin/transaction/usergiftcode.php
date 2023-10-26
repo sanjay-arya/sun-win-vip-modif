@@ -130,7 +130,7 @@
 <!--                    <table>-->
 <!--                        <tr>-->
 <!--                            <td>-->
-<!--                                <label style="margin-left: 50px;margin-bottom:-2px;width: 100px">Nguồn xuất:</label></td>-->
+<!--                                <label style="margin-left: 50px;margin-bottom:-2px;width: 100px">Source xuất:</label></td>-->
 <!--                            <td class="item">-->
 <!--                                <select id="nguonxuat" class="" name="nguonxuat" style="margin-left: 20px;width:138px">-->
 <!--                                    <option value="">All</option>-->
@@ -138,7 +138,7 @@
 <!--                                    --><?php //foreach($sourcemkt as $row): ?>
 <!--                                        <option value="--><?php //echo $row->key ?><!--" --><?php //if($this->input->post("nguonxuat")==  $row->key){echo "selected";}  ?><!-->--><?php //echo '------'. $row->name ?><!--</option>-->
 <!--                                    --><?php //endforeach; ?>
-<!--                                    <option value="">Giftcode vận hành</option>-->
+<!--                                    <option value="">Giftcode operates</option>-->
 <!--                                    --><?php //foreach($sourcevh as $row): ?>
 <!--                                        <option value="--><?php //echo $row->key ?><!--" --><?php //if($this->input->post("nguonxuat")==  $row->key){echo "selected";}  ?><!-->--><?php //echo '------'. $row->name ?><!--</option>-->
 <!--                                    --><?php //endforeach; ?>
@@ -157,7 +157,7 @@
 <!--                                    <option value="" --><?php //if($this->input->post("typegiftcode")== ""){echo "selected";}  ?><!-->Select</option>-->
 <!--                                    <option value="1" --><?php //if($this->input->post("typegiftcode")== "1"){echo "selected";}  ?><!-->Giftcode đại lý</option>-->
 <!--                                    <option value="2" --><?php //if($this->input->post("typegiftcode")== "2"){echo "selected";}  ?><!-->Giftcode marketing</option>-->
-<!--                                    <option value="3" --><?php //if($this->input->post("typegiftcode")== "3"){echo "selected";}  ?><!-->Giftcode vận hành</option>-->
+<!--                                    <option value="3" --><?php //if($this->input->post("typegiftcode")== "3"){echo "selected";}  ?><!-->Giftcode operates</option>-->
 <!---->
 <!---->
 <!--                                </select>-->
@@ -175,7 +175,7 @@
 <!--                            <td>-->
 <!--                                <select name="filterdate"  id="filterdate"  style="margin-left: 20px;width:138px">-->
 <!--                                    <option value="1" --><?php //if ($this->input->post("filterdate") == "1") {echo "selected";} ?><!-->Date created</option>-->
-<!--                                    <option value="2" --><?php //if ($this->input->post("filterdate") == "2") {echo "selected";} ?><!-->Ngày sử dụng</option>-->
+<!--                                    <option value="2" --><?php //if ($this->input->post("filterdate") == "2") {echo "selected";} ?><!-->Date of use</option>-->
 <!--                                </select>-->
 <!--                            </td>-->
 <!--                            <td style="">-->
@@ -202,7 +202,7 @@
 <!--                    <td>Salary amount</td>-->
 <!--                    <td>Status</td>-->
 <!--                    <td>Date created</td>-->
-<!--                    <td>Ngày sử dụng</td>-->
+<!--                    <td>Date of use</td>-->
 <!--                </tr>-->
 <!--                </thead>-->
 <!--                <tbody id="logaction">-->

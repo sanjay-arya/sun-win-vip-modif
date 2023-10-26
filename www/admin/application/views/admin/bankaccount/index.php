@@ -87,8 +87,8 @@
                             <th>Bank name</th>
                             <th>Account</th>
                             <th style="width: 70px;">Active</th>
-                            <th>Người sửa cuối cùng</th>
-                            <th>Ngày chỉnh sửa cuối cùng</th>
+                            <th>People sửa cuối cùng</th>
+                            <th>Day chỉnh sửa cuối cùng</th>
                             <th style="width:100px;">Act</th>
                         </tr>
                         </thead>

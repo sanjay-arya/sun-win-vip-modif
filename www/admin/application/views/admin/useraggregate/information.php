@@ -19,7 +19,7 @@
         <td><?= $dataInfoUser ? $dataInfoUser['t_nap'] : '' ?></td>
     </tr>
     <tr>
-        <th class="background-sliver">Ngày sinh : </th>
+        <th class="background-sliver">Day sinh : </th>
         <td><?= $dataInfoUser ? $dataInfoUser['birthday'] : '' ?></td>
         <th class="background-sliver">Total rút : </th>
         <td><?= $dataInfoUser ? $dataInfoUser['t_rut'] : '' ?></td>

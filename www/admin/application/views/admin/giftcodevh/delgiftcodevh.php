@@ -7,7 +7,7 @@
 <?php else: ?>
 <section class="content-header">
     <h1>
-       Thu hồi giftcode vận hành
+       Thu hồi Giftcode operates
     </h1>
 </section>
     <input type="hidden" id="listgiftcode" value="<?php echo $listgc ?>">
@@ -48,7 +48,7 @@
                         <div class="row">
                             <div class="col-sm-2">
                             </div>
-                            <label class="col-sm-2 control-label">Nguồn xuất:</label>
+                            <label class="col-sm-2 control-label">Source xuất:</label>
                             <div class="col-sm-2">
                                 <select id="nguonxuat" class="form-control">
                                     <option value="">Select</option>
@@ -161,7 +161,7 @@
     }</style><script>
     $("#search_tran").click(function () {
         if($("#nguonxuat").val() == ""){
-            $("#errocode").html("Bạn chưa chọn nguồn xuất");
+            $("#errocode").html("Bạn chưa chọn Source xuất");
             return false;
         }
         if($("#phathanh").val() == ""){

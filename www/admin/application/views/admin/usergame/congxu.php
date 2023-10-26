@@ -267,7 +267,7 @@
 //                }
 //            }, error: function () {
 //            $("#spinner").hide();
-//            $("#errorname").html("Hệ thống quá tải. Vui lòng gọi 19008698");
+//            $("#errorname").html("System overloaded. Please call 19008698");
 //                 },timeout : 20000
 //        });
 //    });

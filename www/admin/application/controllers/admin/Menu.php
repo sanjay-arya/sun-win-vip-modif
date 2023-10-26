@@ -136,7 +136,7 @@ Class Menu extends MY_Controller
         $this->load->view('admin/main', $this->data);
     }
 
-//xóa dữ liệu nhóm người dùng
+//xóa dữ liệu nhóm People dùng
     function delete()
     {
         $id = $this->uri->rsegment('3');

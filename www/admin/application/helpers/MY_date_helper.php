@@ -82,7 +82,7 @@
 			return FALSE;
 		}
 
-		// Neu date la moc thoi gian co dinh (dạng ngày - Month -năm)
+		// Neu date la moc thoi gian co dinh (dạng Day - Month -năm)
 		$time = explode('-', $date);
 		if(count($time) < 3)
 		{
@@ -126,7 +126,7 @@
 			$date1 = $date;
 		}
 
-		// Neu date la moc thoi gian co dinh (dạng ngày - Month -năm)
+		// Neu date la moc thoi gian co dinh (dạng Day - Month -năm)
 		//lay ngay bat dau
 		$time = explode('-', $date);
 		if(count($time) < 3)

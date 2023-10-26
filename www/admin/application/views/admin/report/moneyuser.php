@@ -29,7 +29,7 @@
 
         <div class="widget">
             <div class="title">
-                <h6>Luồng tiền người chơi</h6>
+                <h6>Luồng tiền People chơi</h6>
             </div>
             <form class="list_filter form" action="<?php echo admin_url('report/moneyuser') ?>" method="post">
                 <div class="formRow">
@@ -1058,7 +1058,7 @@ $("#search_tran").click(function () {
                 }
                 if(res.users.actionOther.GiftCodeVH != null) {
                     var stt = 19;
-                    result5 += resultmoneyother(stt,"Giftcode vận hành",res.users.actionOther.GiftCodeVH);
+                    result5 += resultmoneyother(stt,"Giftcode operates",res.users.actionOther.GiftCodeVH);
                     $('#logdichvu').html(result5);
                 }
                 else{

@@ -25,7 +25,7 @@
             <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
             <div class="title">
                 <h6>List tài khoản vip</h6>
-                <h6 style="float: right">Total số tài khoản:<span style="color:#0000ff" id="numuser"></span></h6>
+                <h6 style="float: right">Total account number:<span style="color:#0000ff" id="numuser"></span></h6>
             </div>
             <form class="list_filter form" action="<?php echo admin_url('usergame/uservip') ?>" method="post">
                 <div class="formRow">
@@ -60,7 +60,7 @@
 
                     <table>
                         <tr>
-                            <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Name đăng nhập:</label></td>
+                            <td><label style="margin-left: 30px;margin-bottom:-2px;width: 120px">Login name:</label></td>
                             <td><input type="text" style="margin-left: 20px;margin-bottom:-2px;width: 150px"
                                        id="username" value="<?php echo $this->input->post('username') ?>" name="username">
                             </td>
@@ -175,7 +175,7 @@
                                 <td>Nickname</td>
                                 <td>Surplus Win</td>
                                 <td>Surplus xu</td>
-                                <td>Số Win két sắt</td>
+                                <td>Số Win the safe</td>
                                 <td>Vippoint hiện tại</td>
                                 <td>Vippoint tích lũy</td>
                                 <td>Vippoint event</td>

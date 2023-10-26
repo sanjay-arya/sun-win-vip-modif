@@ -1014,7 +1014,7 @@
         <div class="formRow">
             <div class="row">
                 <div class="col-sm-1">
-                    <label>Nạp thẻ điện thoại:</label>
+                    <label>Nạp thẻ Phone:</label>
                 </div>
                 <div class="col-sm-2">
                     <select id="txtisnapthe">

@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="<?php echo public_url() ?>/site/css/loggamethirdparty.css">
         <div class="title">
             <h6>Lịch sử bầu cua</h6>
-            <h6 class="total">Total Số người chơi:<span class="total-number" id="totalPlayer"></span></h6>
+            <h6 class="total">Total Số People chơi:<span class="total-number" id="totalPlayer"></span></h6>
         </div>
         <form class="list_filter form" action="<?php echo admin_url('logminigame/logbaucua') ?>" method="post">
             <div class="formRow">

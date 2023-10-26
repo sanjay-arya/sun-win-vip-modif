@@ -86,7 +86,7 @@
                 </form>
                 <div class="row">
                     <div class="col-sm-12 text-right">
-                        <h6 style="display: inline"><strong>Total người chơi:</strong><span class="total-data-span" id="totalPlayer"></span></h6>
+                        <h6 style="display: inline"><strong>Total People chơi:</strong><span class="total-data-span" id="totalPlayer"></span></h6>
                         <h6 style="display: inline"><strong> | Total records:</strong><span class="total-data-span" id="totalData"></span></h6>
                     </div>
                 </div>

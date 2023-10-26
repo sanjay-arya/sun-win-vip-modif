@@ -30,7 +30,7 @@
             <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
 
             <div class="title">
-                <h6>Lịch sử nạp tiền điện thoại</h6>
+                <h6>Lịch sử nạp tiền Phone</h6>
             </div>
             <form class="list_filter form" action="<?php echo admin_url('report/cashoutbytopup') ?>" method="post">
                 <div class="formRow">
@@ -106,7 +106,7 @@
                                     </option>
                                     <option value="23" <?php if ($this->input->post('select_status') == "23") {
                                         echo "selected";
-                                    } ?>>Sai số điện thoại
+                                    } ?>>Sai số Phone
                                     </option>
                                     <option value="30" <?php if ($this->input->post('select_status') == "30") {
                                         echo "selected";
@@ -194,7 +194,7 @@
                     <td>No</td>
                     <td>Trading code</td>
                     <td>Nick name</td>
-                    <td>Điện thoại</td>
+                    <td>Phone</td>
                     <td>Nhà mạng</td>
                     <td>Nhà cung cấp</td>
                     <td>Thuê bao</td>

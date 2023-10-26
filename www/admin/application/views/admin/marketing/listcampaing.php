@@ -22,7 +22,7 @@
             <div style="float: right">
             <h6>Total NRU:<span id="nru" style="color: red"></span> </h6>
             <h6>Total PU:<span id = "pu" style="color: red"></span> </h6>
-            <h6>Total doanh thu:<span id="doanhthu" style="color: red"></span> </h6>
+            <h6>Total Revenue:<span id="doanhthu" style="color: red"></span> </h6>
             </div>
         </div>
 
@@ -127,7 +127,7 @@
                 <td>Source</td>
                 <td style="width:100px;">NRU</td>
                 <td>PU</td>
-                <td>Doanh thu</td>
+                <td>Revenue</td>
                 <td>Time</td>
             </tr>
             </tbody>

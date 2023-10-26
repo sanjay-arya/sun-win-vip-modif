@@ -4,7 +4,7 @@
 <div class="wrapper">
     <div class="widget">
         <div class="title">
-            <h6>Add new nhóm người dùng</h6>
+            <h6>Add new nhóm People dùng</h6>
         </div>
         <form id="form" class="form" enctype="multipart/form-data" method="post" action="">
             <fieldset>

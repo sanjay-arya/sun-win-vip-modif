@@ -20,7 +20,7 @@
             <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
             <div class="title">
                 <h6>List tài khoản đại lý cấp 1</h6>
-                <h6 style="float: right">Total số tài khoản:<span style="color:#0000ff" id="numuser"></span></h6>
+                <h6 style="float: right">Total account number:<span style="color:#0000ff" id="numuser"></span></h6>
             </div>
             <form class="list_filter form" action="<?php echo admin_url('usergame/userdaily1') ?>" method="post">
                 <div class="formRow">
@@ -138,7 +138,7 @@
 <!--                                <td>Username</td>-->
                                 <td>Nickname</td>
                                 <td>Surplus Win</td>
-                                <td>Số Win két sắt</td>
+                                <td>Số Win the safe</td>
                                 <td>Vippoint hiện tại</td>
                                 <td>Vippoint tích lũy</td>
                                 <td>Vippoint event</td>

@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-sm-2">
                     <div class="col-sm-1">
-                        <button type="button" id="search_tran" class="button blueB">Xác nhận</button>
+                        <button type="button" id="search_tran" class="button blueB">Confirm</button>
                     </div>
                 </div>
             </div>
@@ -64,12 +64,12 @@
     $("#search_tran").click(function () {
         var nameCache = $('#nameCache').val();
         if(!nameCache) {
-            return alert("Name cache là bắt buộc");
+            return alert("Name cache is required");
         }
         var key = $('#key').val();
         var action = $('#action').val();
         if(!action) {
-            return alert("Action là bắt buộc");
+            return alert("Action is required");
         }
         $("#spinner").show();
         $.ajax({

@@ -27,7 +27,7 @@
             e.preventDefault()
 
             bootbox.prompt({
-                title: `Nhập ngày tạo hoàn trả yyyy-mm-dd`,
+                title: `Nhập Day tạo hoàn trả yyyy-mm-dd`,
                 message: "<p><span class='text-warning'>Chú ý:</span> Hệ thống sẽ xóa dữ liệu cũ nếu có</p>",
                 inputType: 'date',
                 value: '<?= date("Y-m-d")?>',
@@ -80,10 +80,10 @@
             e.preventDefault()
 
             bootbox.prompt({
-                title: `Nhập ngày send hoàn trả yyyy-mm-dd`,
+                title: `Nhập Day send hoàn trả yyyy-mm-dd`,
                 inputType: 'date',
                 value: '<?= date("Y-m-d")?>',
-                message: "<p><span class='text-warning'>Chú ý:</span> Money sẽ được Add trực tiếp vào tài khoản người chơi</p>",
+                message: "<p><span class='text-warning'>Chú ý:</span> Money sẽ được Add trực tiếp vào tài khoản People chơi</p>",
                 callback: function (result) {
                     if(result) {
                         $("#spinner").show();

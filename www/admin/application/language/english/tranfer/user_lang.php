@@ -25,12 +25,12 @@ $lang['affiliate_key']                      = 'Referral code';
 
 $lang['user_group']							= 'Group thành viên';
 $lang['payment']				        	= 'Cổng thanh toán';
-$lang['payment_total_amount']				= 'Amount of money giao dịch tối đa trong 1 ngày';
+$lang['payment_total_amount']				= 'Amount of money giao dịch tối đa trong 1 Day';
 
 $lang['full_name']				   			= 'Họ tên';
 $lang['card_no']				   			= 'Số chứng minh nhân dân';
 $lang['card_place']				   			= 'Nơi cấp';
-$lang['card_date']				   			= 'Ngày cấp';
+$lang['card_date']				   			= 'Day cấp';
 $lang['paypal_emails']				   		= 'Các email sử dụng khi thanh toán qua paypal';
 $lang['image_card_front']				   	= 'Mặt trước CMND/Hộ chiếu';
 $lang['image_card_back']				   	= 'Mặt sau CMND/Hộ chiếu';

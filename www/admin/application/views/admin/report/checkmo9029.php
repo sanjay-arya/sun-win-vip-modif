@@ -117,7 +117,7 @@
 //                <thead>
 //                <tr style="height: 20px;">
 //                    <td>No</td>
-//                    <td>Điện thoại</td>
+//                    <td>Phone</td>
 //                    <td>Tin nhắn send</td>
 //                    <td>Denominations</td>
 //                    <td>Đầu số</td>

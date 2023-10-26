@@ -16,8 +16,8 @@
             <td>Bank name</td>
             <td>Account</td>
             <td>Active</td>
-            <td>Người sửa cuối cùng</td>
-            <td>Ngày chỉnh sửa cuối cùng</td>
+            <td>People sửa cuối cùng</td>
+            <td>Day chỉnh sửa cuối cùng</td>
             <td>Act</td>
         </tr>
         </thead>

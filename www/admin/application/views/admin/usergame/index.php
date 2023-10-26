@@ -20,8 +20,8 @@
             <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
 
             <div class="title">
-                <h6>List tài khoản đăng ký</h6>
-                <h6 style="float: right">Total số tài khoản:<span style="color:#0000ff" id="numuser"></span></h6>
+                <h6>List of registered accounts</h6>
+                <h6 style="float: right">Total account number:<span style="color:#0000ff" id="numuser"></span></h6>
             </div>
             <form class="list_filter form" action="<?php echo admin_url('usergame') ?>" method="post">
                 <div class="formRow">
@@ -119,12 +119,12 @@
                                     <?php if ($admin_info->Status == "M" || $admin_info->Status == "L" || $admin_info->Status == "LM"): ?>
                                         <option value="0" <?php if ($this->input->post('taikhoanbot') == "0") {
                                             echo "selected";
-                                        } ?>>Người
+                                        } ?>>People
                                         </option>
                                     <?php else: ?>
                                         <option value="0" <?php if ($this->input->post('taikhoanbot') == "0") {
                                             echo "selected";
-                                        } ?>>Người
+                                        } ?>>People
                                         </option>
                                         <option value="1" <?php if ($this->input->post('taikhoanbot') == "1") {
                                             echo "selected";
@@ -175,51 +175,51 @@
                             <tr style="height: 20px;">
                                 <?php if ($admin_info->Status == "L") : ?>
                                     <td>No</td>
-                                    <td>Name đăng nhập</td>
+                                    <td>Login name</td>
                                     <td>Nickname</td>
                                     <td>Surplus Win</td>
                                     <!--                            <td>Surplus xu</td>-->
-                                    <td>Win két sắt</td>
+                                    <td>Win the safe</td>
                                     <td>Vippoint</td>
-                                    <td>Bảo mật ĐT</td>
-                                    <td>Bảo mật Email</td>
-                                    <td>Bảo mật ĐN</td>
-                                    <td>TG bảo mật</td>
+                                    <td>Phone security</td>
+                                    <td>Email Security</td>
+                                    <td>DN Security</td>
+                                    <td>TG Security</td>
                                     <td>Date created</td>
                                 <?php elseif ($admin_info->Status == "M") : ?>
                                     <td>No</td>
-                                    <td>Name đăng nhập</td>
+                                    <td>Login name</td>
                                     <td>Nickname</td>
-                                    <td>Bảo mật ĐT</td>
-                                    <td>Bảo mật Email</td>
-                                    <td>Bảo mật ĐN</td>
-                                    <td>TG bảo mật</td>
+                                    <td>Phone security</td>
+                                    <td>Email Security</td>
+                                    <td>DN Security</td>
+                                    <td>TG Security</td>
                                     <td>Date created</td>
                                 <?php elseif ($admin_info->Status == "LM") : ?>
                                     <td>No</td>
-                                    <td>Name đăng nhập</td>
+                                    <td>Login name</td>
                                     <td>Nickname</td>
                                     <td>Surplus Win</td>
                                     <!--                            <td>Surplus xu</td>-->
-                                    <td>Win két sắt</td>
-                                    <td>Bảo mật ĐT</td>
-                                    <td>Bảo mật Email</td>
-                                    <td>Bảo mật ĐN</td>
-                                    <td>TG bảo mật</td>
+                                    <td>Win the safe</td>
+                                    <td>Phone security</td>
+                                    <td>Email Security</td>
+                                    <td>DN Security</td>
+                                    <td>TG Security</td>
                                     <td>Date created</td>
                                 <?php elseif ($admin_info->Status == "S" || $admin_info->Status == "D"): ?>
                                     <td>No</td>
-                                    <td>Name đăng nhập</td>
+                                    <td>Login name</td>
                                     <td>Nickname</td>
                                     <td>Phone number</td>
                                     <td>Surplus Win</td>
                                     <!--                            <td>Surplus xu</td>-->
-                                    <td>Win két sắt</td>
+                                    <td>Win the safe</td>
                                     <td>Vippoint</td>
-                                    <td>Bảo mật ĐT</td>
-                                    <td>Bảo mật Email</td>
-                                    <td>Bảo mật ĐN</td>
-                                    <td>TG bảo mật</td>
+                                    <td>Phone security</td>
+                                    <td>Email Security</td>
+                                    <td>DN Security</td>
+                                    <td>TG Security</td>
                                     <td>Date created</td>
                                 <?php
                                 else: ?>
@@ -228,16 +228,16 @@
                                     <td>Nickname</td>
                                     <td>Surplus Win</td>
                                     <!--                            <td>Surplus xu</td>-->
-                                    <td>Số Win KS</td>
+                                    <td>Win KS number</td>
                                     <td>Vippoint</td>
-                                    <td>Bảo mật ĐT</td>
-                                    <td>Bảo mật Email</td>
+                                    <td>Phone security</td>
+                                    <td>Email Security</td>
                                     <td>Email</td>
                                     <td>CMND</td>
-                                    <td>Điện thoại</td>
+                                    <td>Phone</td>
                                     <td>Account</td>
-                                    <td>Bảo mật ĐN</td>
-                                    <td>TG bảo mật</td>
+                                    <td>DN Security</td>
+                                    <td>TG Security</td>
                                     <td>Date created</td>
                                 <?php endif; ?>
                             </tr>
@@ -326,12 +326,12 @@
             rs += "<td>" + stt + "</td>";
             if (username == null) {
                 if (googleid != null) {
-                    rs += "<td><a title='Sửa cầu'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "GG_" + googleid + "</a></td>";
+                    rs += "<td><a title='Repair the bridge'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "GG_" + googleid + "</a></td>";
                 } else if (facebookid != null) {
-                    rs += "<td><a title='Sửa cầu'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "FB_" + facebookid + "</a></td>";
+                    rs += "<td><a title='Repair the bridge'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "FB_" + facebookid + "</a></td>";
                 }
             } else {
-                rs += "<td><a title='Sửa cầu'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + username + "</a></td>";
+                rs += "<td><a title='Repair the bridge'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + username + "</a></td>";
             }
             rs += "<td>" + nickname + "</td>";
             rs += "<td>" + commaSeparateNumber(vin) + "</td>";
@@ -341,19 +341,19 @@
 
             if (serphone == 1) {
 
-                rs += "<td>" + "Có" + "</td>";
+                rs += "<td>" + "Have" + "</td>";
             } else {
-                rs += "<td>" + "Không" + "</td>";
+                rs += "<td>" + "Are not" + "</td>";
             }
             if (sermail == 1) {
-                rs += "<td>" + "Có" + "</td>";
+                rs += "<td>" + "Have" + "</td>";
             } else {
-                rs += "<td>" + "Không" + "</td>";
+                rs += "<td>" + "Are not" + "</td>";
             }
             if (iotp < 0) {
-                rs += "<td>" + "Không" + "</td>";
+                rs += "<td>" + "Are not" + "</td>";
             } else if (iotp >= 0) {
-                rs += "<td>" + "Có" + "</td>";
+                rs += "<td>" + "Have" + "</td>";
             }
             if (time == null) {
                 rs += "<td>" + "" + "</td>";
@@ -367,29 +367,29 @@
             rs += "<td>" + stt + "</td>";
             if (username == null) {
                 if (googleid != null) {
-                    rs += "<td><a title='Sửa cầu'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "GG_" + googleid + "</a></td>";
+                    rs += "<td><a title='Repair the bridge'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "GG_" + googleid + "</a></td>";
                 } else if (facebookid != null) {
-                    rs += "<td><a title='Sửa cầu'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "FB_" + facebookid + "</a></td>";
+                    rs += "<td><a title='Repair the bridge'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "FB_" + facebookid + "</a></td>";
                 }
             } else {
-                rs += "<td><a title='Sửa cầu'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + username + "</a></td>";
+                rs += "<td><a title='Repair the bridge'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + username + "</a></td>";
             }
             rs += "<td>" + nickname + "</td>";
             if (serphone == 1) {
 
-                rs += "<td>" + "Có" + "</td>";
+                rs += "<td>" + "Have" + "</td>";
             } else {
-                rs += "<td>" + "Không" + "</td>";
+                rs += "<td>" + "Are not" + "</td>";
             }
             if (sermail == 1) {
-                rs += "<td>" + "Có" + "</td>";
+                rs += "<td>" + "Have" + "</td>";
             } else {
-                rs += "<td>" + "Không" + "</td>";
+                rs += "<td>" + "Are not" + "</td>";
             }
             if (iotp < 0) {
-                rs += "<td>" + "Không" + "</td>";
+                rs += "<td>" + "Are not" + "</td>";
             } else if (iotp >= 0) {
-                rs += "<td>" + "Có" + "</td>";
+                rs += "<td>" + "Have" + "</td>";
             }
             if (time == null) {
                 rs += "<td>" + "" + "</td>";
@@ -403,12 +403,12 @@
             rs += "<td>" + stt + "</td>";
             if (username == null) {
                 if (googleid != null) {
-                    rs += "<td><a title='Sửa cầu'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "GG_" + googleid + "</a></td>";
+                    rs += "<td><a title='Repair the bridge'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "GG_" + googleid + "</a></td>";
                 } else if (facebookid != null) {
-                    rs += "<td><a title='Sửa cầu'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "FB_" + facebookid + "</a></td>";
+                    rs += "<td><a title='Repair the bridge'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "FB_" + facebookid + "</a></td>";
                 }
             } else {
-                rs += "<td><a title='Sửa cầu'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + username + "</a></td>";
+                rs += "<td><a title='Repair the bridge'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + username + "</a></td>";
             }
             rs += "<td>" + nickname + "</td>";
             rs += "<td>" + commaSeparateNumber(vin) + "</td>";
@@ -416,19 +416,19 @@
             rs += "<td>" + commaSeparateNumber(safe) + "</td>";
             if (serphone == 1) {
 
-                rs += "<td>" + "Có" + "</td>";
+                rs += "<td>" + "Have" + "</td>";
             } else {
-                rs += "<td>" + "Không" + "</td>";
+                rs += "<td>" + "Are not" + "</td>";
             }
             if (sermail == 1) {
-                rs += "<td>" + "Có" + "</td>";
+                rs += "<td>" + "Have" + "</td>";
             } else {
-                rs += "<td>" + "Không" + "</td>";
+                rs += "<td>" + "Are not" + "</td>";
             }
             if (iotp < 0) {
-                rs += "<td>" + "Không" + "</td>";
+                rs += "<td>" + "Are not" + "</td>";
             } else if (iotp >= 0) {
-                rs += "<td>" + "Có" + "</td>";
+                rs += "<td>" + "Have" + "</td>";
             }
             if (time == null) {
                 rs += "<td>" + "" + "</td>";
@@ -443,12 +443,12 @@
             rs += "<td>" + stt + "</td>";
             if (username == null) {
                 if (googleid != null) {
-                    rs += "<td><a title='Sửa cầu'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "GG_" + googleid + "</a></td>";
+                    rs += "<td><a title='Repair the bridge'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "GG_" + googleid + "</a></td>";
                 } else if (facebookid != null) {
-                    rs += "<td><a title='Sửa cầu'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "FB_" + facebookid + "</a></td>";
+                    rs += "<td><a title='Repair the bridge'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "FB_" + facebookid + "</a></td>";
                 }
             } else {
-                rs += "<td><a title='Sửa cầu'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + username + "</a></td>";
+                rs += "<td><a title='Repair the bridge'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + username + "</a></td>";
             }
             rs += "<td>" + nickname + "</td>";
             if (phone == null) {
@@ -462,19 +462,19 @@
             rs += "<td>" + vippoint + "</td>";
             if (serphone == 1) {
 
-                rs += "<td>" + "Có" + "</td>";
+                rs += "<td>" + "Have" + "</td>";
             } else {
-                rs += "<td>" + "Không" + "</td>";
+                rs += "<td>" + "Are not" + "</td>";
             }
             if (sermail == 1) {
-                rs += "<td>" + "Có" + "</td>";
+                rs += "<td>" + "Have" + "</td>";
             } else {
-                rs += "<td>" + "Không" + "</td>";
+                rs += "<td>" + "Are not" + "</td>";
             }
             if (iotp < 0) {
-                rs += "<td>" + "Không" + "</td>";
+                rs += "<td>" + "Are not" + "</td>";
             } else if (iotp >= 0) {
-                rs += "<td>" + "Có" + "</td>";
+                rs += "<td>" + "Have" + "</td>";
             }
             if (time == null) {
                 rs += "<td>" + "" + "</td>";
@@ -489,28 +489,28 @@
             rs += "<td>" + stt + "</td>";
             if (username == null) {
                 if (googleid != null) {
-                    rs += "<td><a title='Sửa cầu'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "GG_" + googleid + "</a></td>";
+                    rs += "<td><a title='Repair the bridge'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "GG_" + googleid + "</a></td>";
                 } else if (facebookid != null) {
-                    rs += "<td><a title='Sửa cầu'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "FB_" + facebookid + "</a></td>";
+                    rs += "<td><a title='Repair the bridge'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + "FB_" + facebookid + "</a></td>";
                 }
             } else {
-                rs += "<td><a title='Sửa cầu'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + username + "</a></td>";
+                rs += "<td><a title='Repair the bridge'  style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + username + "</a></td>";
             }
-            rs += "<td><a title='Sửa cầu' style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + nickname + "</a></td>";
+            rs += "<td><a title='Repair the bridge' style = 'color:#0000FF' class='open' href='<?php echo admin_url('usergame/lockuser') ?>" + "/" + nickname + "/" + status + "'>" + nickname + "</a></td>";
             rs += "<td>" + commaSeparateNumber(vin) + "</td>";
             // rs += "<td>" + commaSeparateNumber(xu) + "</td>";
             rs += "<td>" + commaSeparateNumber(safe) + "</td>";
             rs += "<td>" + vippoint + "</td>";
             if (serphone == 1) {
 
-                rs += "<td>" + "Có" + "</td>";
+                rs += "<td>" + "Have" + "</td>";
             } else {
-                rs += "<td>" + "Không" + "</td>";
+                rs += "<td>" + "Are not" + "</td>";
             }
             if (sermail == 1) {
-                rs += "<td>" + "Có" + "</td>";
+                rs += "<td>" + "Have" + "</td>";
             } else {
-                rs += "<td>" + "Không" + "</td>";
+                rs += "<td>" + "Are not" + "</td>";
             }
             if (email == null) {
                 rs += "<td>" + "" + "</td>";
@@ -533,9 +533,9 @@
                 rs += "<td>" + "Bot" + "</td>";
             }
             if (iotp < 0) {
-                rs += "<td>" + "Không" + "</td>";
+                rs += "<td>" + "Are not" + "</td>";
             } else if (iotp >= 0) {
-                rs += "<td>" + "Có" + "</td>";
+                rs += "<td>" + "Have" + "</td>";
             }
             if (time == null) {
                 rs += "<td>" + "" + "</td>";

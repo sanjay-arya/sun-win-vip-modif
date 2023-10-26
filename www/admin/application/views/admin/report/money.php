@@ -133,7 +133,7 @@
 
     </tr>
     <tr class="moneysystem">
-        <td>Giftcode vận hành</td>
+        <td>Giftcode operates</td>
         <td class="tdmoney"></td>
         <td class="tdmoney" id="money14"></td>
 
@@ -238,7 +238,7 @@
         <td class="tdmoney" id="money31"></td>
     </tr>
     <tr class="moneysystem">
-        <td>Nạp điện thoại</td>
+        <td>Nạp Phone</td>
         <td class="tdmoney" id="money32"></td>
         <td class="tdmoney" id="money33"></td>
     </tr>

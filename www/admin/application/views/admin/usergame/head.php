@@ -1,7 +1,7 @@
 <div class="titleArea">
 	<div class="wrapper">
 		<div class="pageTitle">
-			<h5>Quản lý tài khoản game</h5>
+			<h5>Manage game accounts</h5>
 
 		</div>
 		

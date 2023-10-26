@@ -113,8 +113,8 @@
 <!--                                    <option value="34" --><?php //if($this->input->post('select_status') == "34" ){echo "selected";} ?><!-->Thẻ hết hạn</option>-->
 <!--                                    <option value="35" --><?php //if($this->input->post('select_status') == "35" ){echo "selected";} ?><!-->Sai mã thẻ</option>-->
 <!--                                    <option value="36" --><?php //if($this->input->post('select_status') == "36" ){echo "selected";} ?><!-->Mã serial không đúng</option>-->
-<!--                                    <option value="37" --><?php //if($this->input->post('select_status') == "37" ){echo "selected";} ?><!-->Hết hạn mức nạp user trong ngày</option>-->
-<!--                                    <option value="38" --><?php //if($this->input->post('select_status') == "38" ){echo "selected";} ?><!-->Hết hạn mức nạp hệ thống trong ngày</option>-->
+<!--                                    <option value="37" --><?php //if($this->input->post('select_status') == "37" ){echo "selected";} ?><!-->Hết hạn mức nạp user trong Day</option>-->
+<!--                                    <option value="38" --><?php //if($this->input->post('select_status') == "38" ){echo "selected";} ?><!-->Hết hạn mức nạp hệ thống trong Day</option>-->
 <!--                                </select>-->
 <!--                            </td>-->
 <!--                            <td style="">-->

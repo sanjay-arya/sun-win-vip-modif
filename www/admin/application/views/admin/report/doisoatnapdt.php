@@ -20,7 +20,7 @@
 <!--    <div class="wrapper">-->
 <!--        --><?php //$this->load->view('admin/message', $this->data); ?>
 <!--        <div class="formRow">-->
-<!--            <h4>Đối soát nạp điện thoại</h4>-->
+<!--            <h4>Đối soát nạp Phone</h4>-->
 <!--        </div>-->
 <!--        <form class="list_filter form" action="--><?php //echo admin_url('report/doisoatnapdt') ?><!--" method="post">-->
 <!---->
@@ -245,7 +245,7 @@
 //            result += "<td colspan='1'></td>";
 //            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Mệnhgiá" + "</td>";
 //            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Số lượng" + "</td>";
-//            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Total money nạp điện thoại" + "</td>";
+//            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Total money nạp Phone" + "</td>";
 //            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Tỉ lệ" + "</td>";
 //            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Money chiết khấu" + "</td>";
 //            result += "<td style='color: #000000;font-size: 20px;text-align: right;font-weight: 600'>" + "Money trả đối tác" + "</td>";

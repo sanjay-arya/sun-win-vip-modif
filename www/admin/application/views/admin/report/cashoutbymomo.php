@@ -140,7 +140,7 @@
 //
 //                    <td>Time</td>
 //                    <td>Act</td>
-//                    <td>Người Duyệt</td>
+//                    <td>People Duyệt</td>
 //                </tr>
 //            </thead>
 //            <tbody id="logaction">

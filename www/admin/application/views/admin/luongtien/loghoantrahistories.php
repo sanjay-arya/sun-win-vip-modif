@@ -23,7 +23,7 @@
                 <div class="formRow">
                     <table>
                         <tr>
-                            <td><label for="time" style="margin-left: 30px;margin-bottom:-2px;width: 120px">Ngày:</label></td>
+                            <td><label for="time" style="margin-left: 30px;margin-bottom:-2px;width: 120px">Day:</label></td>
                             <td class="item">
                                 <div class="input-group date" id="datetimepicker">
                                     <input type="text" id="time" name="time" value="<?php echo $this->input->post('time') ?>">

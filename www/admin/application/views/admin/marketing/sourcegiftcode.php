@@ -4,7 +4,7 @@
     <?php $this->load->view('admin/message', $this->data); ?>
     <div class="widget">
         <div class="title">
-            <h6>List nguồn giftcode </h6>
+            <h6>List of giftcode sources </h6>
         </div>
         <table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable withCheck" id="checkAll">
             <thead>
@@ -12,7 +12,7 @@
                 <td style="width:80px;">No</td>
                 <td>Key</td>
                 <td>Name</td>
-                <td>Nguồn</td>
+                <td>Source</td>
                 <td>Act</td>
             </tr>
             </thead>
@@ -28,7 +28,7 @@
                     <?php elseif($row->type == 2): ?>
                         <td> Giftcode Minigame </td>
                         <?php elseif($row->type == 3): ?>
-                        <td> Giftcode vận hành </td>
+                        <td> Giftcode operates </td>
                         <?php else:?>
                         <td>  </td>
                     <?php endif; ?>

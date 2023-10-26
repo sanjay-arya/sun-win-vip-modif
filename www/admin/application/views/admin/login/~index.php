@@ -20,7 +20,7 @@
 <!--        <form method="post" action="" id="form" class="form">-->
 <!---->
 <!--            <div class="formRow">-->
-<!--                <input type="text" id="param_username" name="username" class="loginInput" placeholder="Name đăng nhập">-->
+<!--                <input type="text" id="param_username" name="username" class="loginInput" placeholder="Login name">-->
 <!--                <input type="password" id="param_password" name="password" class="loginInput" placeholder="Mật khẩu">-->
 <!--          -->
 <!--            </div>-->
@@ -116,7 +116,7 @@
 //                    $("#validate-text").html("System interruption ");
 //                }
 //                else if(res == 4){
-//                    $("#validate-text").html("Name đăng nhập không tồn tại");
+//                    $("#validate-text").html("Login name không tồn tại");
 //                }
 //                else if(res == 5){
 //                    $("#validate-text").html("Mật khẩu không chính xác");
@@ -175,7 +175,7 @@
 //               $("#validate-text").html("System interruption ");
 //           }
 //           else if(res == 4){
-//               $("#validate-text").html("Name đăng nhập không tồn tại");
+//               $("#validate-text").html("Login name không tồn tại");
 //           }
 //           else if(res == 5){
 //               $("#validate-text").html("Mật khẩu không chính xác");

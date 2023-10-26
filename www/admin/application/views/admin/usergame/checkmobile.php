@@ -14,7 +14,7 @@
   <!--<!--        -->--><!--<!--        <input type="hidden" id="listmobile" value="-->--><?php ////echo $listmb ?><!--<!--">-->-->
   <!--<!--        <div class="widget">-->-->
   <!--<!--            <div class="title">-->-->
-  <!--<!--                <h4 style="margin-left: 20px">Kiểm tra số điện thoại </h4>-->-->
+  <!--<!--                <h4 style="margin-left: 20px">Kiểm tra số Phone </h4>-->-->
   <!--<!--            </div>-->-->
   <!--<!---->-->
   <!--<!--            <div class="formRow">-->-->
@@ -156,7 +156,7 @@
   <!--//                    }-->
   <!--//                }, error: function () {-->
   <!--//                    $("#spinner").hide();-->
-  <!--//                    $("#errocode").html("Hệ thống quá tải. Vui lòng gọi 19008698");-->
+  <!--//                    $("#errocode").html("System overloaded. Please call 19008698");-->
   <!--//                }, timeout: 20000-->
   <!--//            });-->
   <!--//        }-->

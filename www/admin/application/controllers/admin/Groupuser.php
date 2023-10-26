@@ -110,7 +110,7 @@ Class Groupuser extends MY_Controller
             $this->data['temp'] = 'admin/groupuser/edit';
             $this->load->view('admin/main', $this->data);
     }
-//xóa dữ liệu nhóm người dùng
+//xóa dữ liệu nhóm People dùng
     function delete()
     {
         $id = $this->uri->rsegment('3');

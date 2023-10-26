@@ -22,12 +22,12 @@ $lang['order']                              = 'Đơn hàng';
 $lang['view_of_user']						= 'Xem các đơn hàng của thành viên';
 $lang['view_of_product']					= 'Xem các đơn hàng mua';
 $lang['recode']								= 'Redownload';
-$lang['receiver_name']						= 'Name người nhận';
-$lang['receiver_time']						= 'Ngày nhận';
+$lang['receiver_name']						= 'Name People nhận';
+$lang['receiver_time']						= 'Day nhận';
 $lang['message']							= 'Lời nhắn';
 
 $lang['personnel']                          = 'Nhân viên giao hàng';
-$lang['time']                               = 'Ngày giao hàng';
+$lang['time']                               = 'Day giao hàng';
 $lang['notes']                              = 'Ghi chú';
 
 $lang['export']                             = 'Xuất ra Excel';
@@ -41,7 +41,7 @@ $lang['note_enter_product_id']				= 'Nhập mã sản phẩm';
 
 
 $lang['date_start']				        = 'Date created';
-$lang['date_expiration']				= 'Ngày hết hạn';
+$lang['date_expiration']				= 'Day hết hạn';
 $lang['date_left']				  		= 'Còn lại';
 $lang['closed'] 						= 'Hết hạn';
 $lang['ending_today']					= 'Hết hạn hôm nay';

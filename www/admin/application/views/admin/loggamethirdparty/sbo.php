@@ -56,7 +56,7 @@
                 <h4 class="float-right">Total đặt cược:<span style="color:#0000ff" id="totalBet"></span></h4>
                 <h4 class="float-right"> Total đặt cược hợp lệ : <span style="color:#0000ff" id="totalValidBet"></span> | </h4>
                 <h4 class="float-right"> Total thanh toán : <span style="color:#0000ff" id="totalPayout"></span> | </h4>
-                <h4 class="float-right">Total số người chơi : <span style="color:#0000ff" id="totalPlayer"></span> | </h4>
+                <h4 class="float-right">Total số People chơi : <span style="color:#0000ff" id="totalPlayer"></span> | </h4>
             </div>
             <div class="col-sm-12">
                 <h4 class="float-right">Total records:<span style="color:#0000ff" id="total"></span></h4>

@@ -10,13 +10,13 @@
         <table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable withCheck" id="checkAll">
             <thead>
             <tr style="height: 20px;">
-                <td>Ngày</td>
+                <td>Day</td>
                 <td>Campaign</td>
                 <td>Medium</td>
                 <td>Source</td>
                 <td>NRU</td>
                 <td>PU</td>
-                <td>Doanh thu</td>
+                <td>Revenue</td>
             </tr>
             </thead>
             <tbody id="logaction">

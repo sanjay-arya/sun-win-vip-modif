@@ -108,7 +108,7 @@
         var startDate = $('#fromDate').val();
         var endDate = $('#toDate').val();
         if (startDate > endDate) {
-            alert("Ngày bắt đầu lớn hơn ngày kết thúc.");
+            alert("Day bắt đầu lớn hơn Day kết thúc.");
         }
         initData();
     })

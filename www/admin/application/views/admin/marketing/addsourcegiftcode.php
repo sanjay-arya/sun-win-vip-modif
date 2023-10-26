@@ -4,7 +4,7 @@
 <div class="wrapper">
     <div class="widget">
         <div class="title">
-            <h6>Add new nguồn giftcode</h6>
+            <h6>Add new giftcode source</h6>
         </div>
         <form id="form" class="form" enctype="multipart/form-data" method="post" action="">
             <fieldset>
@@ -22,7 +22,7 @@
                     <div class="clear"></div>
                 </div>
                 <div class="formRow">
-                    <label for="param_name" class="formLeft">Name nguồn giftcode:<span class="req">*</span></label>
+                    <label for="param_name" class="formLeft">Giftcode source name:<span class="req">*</span></label>
 
                     <div class="formRight">
                         <span class="oneTwo"><input type="text" _autocheck="true" id="sourcegiftcode"
@@ -42,7 +42,7 @@
                                                      name="typegiftcode">
                                 <option value="1">Giftcode marketing</option>
                                 <option value="2">Giftcode minigame</option>
-                                <option value="3">Giftcode vận hành</option>
+                                <option value="3">Giftcode operates</option>
                             </select>
                         </span>
                         <span class="autocheck" name="name_autocheck"></span>

@@ -148,7 +148,7 @@
 <!--                        <td>Denominations</td>-->
 <!--                        <td>Hạn sử dụng</td>-->
 <!--                        <td>Date created</td>-->
-<!--                        <td>Người tạo</td>-->
+<!--                        <td>People tạo</td>-->
 <!--                    </tr>-->
 <!--                    </thead>-->
 <!--                    <tbody id="logaction">-->

@@ -43,7 +43,7 @@
                         <tr style="height: 20px;">
                             <td>No</td>
                             <td>Tiêu đề</td>
-                            <td>Người send</td>
+                            <td>People send</td>
                             <td>Content</td>
                             <td>Date created</td>
                             <td>Erase mail</td>

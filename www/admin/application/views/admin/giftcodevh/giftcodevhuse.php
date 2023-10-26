@@ -194,7 +194,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="row">
-                                    <label class="col-sm-1 control-label">Nguồn xuất:</label>
+                                    <label class="col-sm-1 control-label">Source xuất:</label>
 
                                     <div class="col-sm-2">
                                         <select id="nguonxuat" class="form-control" name="nguonxuat">
@@ -232,7 +232,7 @@
                                     <div class="col-sm-2">
                                         <select name="filterdate" class="form-control" id="filterdate">
                                             <option value="1" <?php if ($this->input->post("filterdate") == "1") {echo "selected";} ?>>Date created</option>
-                                            <option value="2" <?php if ($this->input->post("filterdate") == "2") {echo "selected";} ?>>Ngày sử dụng</option>
+                                            <option value="2" <?php if ($this->input->post("filterdate") == "2") {echo "selected";} ?>>Date of use</option>
                                         </select>
                                     </div>
                                     <div class="col-sm-1"><input type="submit" value="Search" name="submit"
@@ -258,7 +258,7 @@
                                     <th>Nickname</th>
                                     <th>Số lượng</th>
                                     <th>Date created</th>
-                                    <th>Ngày sử dụng</th>
+                                    <th>Date of use</th>
                                     <th>Status</th>
                                     <th>Khóa giftcode</th>
                                 </tr>

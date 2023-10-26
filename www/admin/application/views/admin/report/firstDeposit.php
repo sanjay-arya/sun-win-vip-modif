@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="col-sm-1">
-                    <label for="giftCode">Ngày : </label>
+                    <label for="giftCode">Day : </label>
                 </div>
                 <div class="col-sm-2">
                     <div class="input-group date" id="datetimepicker2">

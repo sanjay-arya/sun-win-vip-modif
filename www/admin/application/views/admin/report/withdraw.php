@@ -211,7 +211,7 @@
                                 <th>Date created</th>
                                 <th>Update cuối</th>
                                 <th>Status</th>
-                                <th>Người phê duyệt</th>
+                                <th>People phê duyệt</th>
                                 <th style="width:100px;">Act</th>
                             </tr>
                             </thead>

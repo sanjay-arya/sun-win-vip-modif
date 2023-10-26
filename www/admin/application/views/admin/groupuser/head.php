@@ -1,7 +1,7 @@
 <div class="titleArea">
     <div class="wrapper">
         <div class="pageTitle">
-            <h5>Quản lý nhóm người dùng</h5>
+            <h5>Quản lý nhóm People dùng</h5>
         </div>
         <div class="horControlB menu_action">
             <ul>

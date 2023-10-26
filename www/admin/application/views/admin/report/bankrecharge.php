@@ -170,7 +170,7 @@
     var firstPageClick=true;    $(".actionPay").on("click", function () {
         $('#errorValidate').css("display", "none");
         $("#title-trans-id").html($(this).attr('data-value'))
-        $("#title-trans-name").html("Bạn có đồng ý xác nhận: ");
+        $("#title-trans-name").html("Bạn có đồng ý Confirm: ");
     })
 
     $(".actionCancel").on("click", function () {

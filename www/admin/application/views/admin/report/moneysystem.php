@@ -73,7 +73,7 @@
     <div id="widget">
 
     <div class="title">
-            <h6>Money người chơi</h6>
+            <h6>Money People chơi</h6>
         </div>
 
         <input type="hidden" value="<?php echo $admin_info->Status ?>" id="status">

@@ -71,7 +71,7 @@
                 <h4 class="float-right"> Total khuyến mại : <span style="color:#0000ff" id="khuyenmai"></span> | </h4>
                 <h4 class="float-right">Total nạp : <span style="color:#0000ff" id="tongnap"></span> | </h4>
                 <h4 class="float-right">Total rút : <span style="color:#0000ff" id="tongrut"></span> | </h4>
-                <h4 class="float-right">Total doanh thu : <span style="color:#0000ff" id="doanhthu"></span> | </h4>
+                <h4 class="float-right">Total Revenue : <span style="color:#0000ff" id="doanhthu"></span> | </h4>
             </div>
             <div class="col-sm-12">
                 <div id="resultsearch" class="float-left text-danger"></div>
@@ -88,7 +88,7 @@
                                 <th>Surplus</th>
                                 <th>Amount of money rút</th>
                                 <th>Amount of money nạp</th>
-                                <th>Ngày đăng ký</th>
+                                <th>Day đăng ký</th>
                             </tr>
                         </thead>
                         <tbody id="logaction">
@@ -139,7 +139,7 @@
     }
     function initData() {
         if ($("#from-date").val() > $("#end-date").val()) {
-            alert('Ngày bắt đầu lớn hơn ngày kết thúc.')
+            alert('Day bắt đầu lớn hơn Day kết thúc.')
             return;
         }
         var oldPage = 0;

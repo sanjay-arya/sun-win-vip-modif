@@ -20,7 +20,7 @@
     <div class="wrapper">
         <?php $this->load->view('admin/message', $this->data); ?>
         <div class="formRow">
-            <h4>Chỉ số marketing</h4>
+            <h4>Marketing index</h4>
         </div>
         <form class="list_filter form" action="<?php echo admin_url('marketing/reportmarketing') ?>" method="post">
 
@@ -68,10 +68,10 @@
                             <table id="checkAll" class="table table-bordered" style="table-layout: fixed">
                                 <thead>
                                 <tr style="height: 20px;">
-                                    <th>User đăng ký</th>
-                                    <th>User nạp thẻ</th>
-                                    <th>User đăng ký bảo mật</th>
-                                    <th>User vừa nạp thẻ vừa đăng ký bảo mật</th>
+                                    <th>User registration</th>
+                                    <th>User loads card</th>
+                                    <th>User registers for security</th>
+                                    <th>The user has just loaded the card and registered for security</th>
                                 </tr>
                                 </thead>
                                 <tbody id="reportvt">

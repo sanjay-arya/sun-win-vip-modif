@@ -186,7 +186,7 @@ function check_captcha(id, msg_id) {
         dataType: "html",
         success: function (data) {
             if (data == '0') {
-                $('#' + msg_id).html('Mã xác nhận không đúng.');
+                $('#' + msg_id).html('Mã Confirm không đúng.');
                 $("#" + id).focus();
                 reload_captcha('captcha');
                 return false;

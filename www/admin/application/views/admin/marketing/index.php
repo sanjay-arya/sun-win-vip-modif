@@ -12,9 +12,9 @@
             <thead>
             <tr>
                 <td style="width:80px;">No</td>
-                <td>Name chiến dịch</td>
+                <td>Campaign name</td>
                 <td>Link </td>
-                <td style="width:100px;">Thao tác</td>
+                <td style="width:100px;">Operation</td>
             </tr>
             </thead>
             <tbody>

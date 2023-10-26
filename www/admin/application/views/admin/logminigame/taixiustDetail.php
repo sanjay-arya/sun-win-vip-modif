@@ -60,7 +60,7 @@
                     </select>
                 </div>
                 <div class="col-sm-1">
-                    <label for="giftCode">Bot / người chơi : </label>
+                    <label for="giftCode">Bot / People chơi : </label>
                 </div>
                 <div class="col-sm-2">
                     <select id="user-type" name="ut" class="money-type-2">
@@ -93,7 +93,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <h3 class="float-right"> | Total records:<span style="color:#0000ff" id="total"></span></h3>
-                <h3 class="float-right">Total người chơi:<span style="color:#0000ff" id="totalPlayer"></span></h3>
+                <h3 class="float-right">Total People chơi:<span style="color:#0000ff" id="totalPlayer"></span></h3>
             </div>
             <div class="col-sm-12">
                 <div id="resultsearch" class="float-left text-danger"></div>
@@ -117,7 +117,7 @@
                             <th>Hoàn trả</th>
                             <th>ip</th>
                             <th>Time log</th>
-                            <th>Bot/Người</th>
+                            <th>Bot/People</th>
                         </tr>
                         </thead>
                         <tbody id="logaction">
@@ -143,7 +143,7 @@
         var startDate = $('#fromDate').val();
         var endDate = $('#toDate').val();
         if (startDate > endDate) {
-            alert("Ngày bắt đầu lớn hơn ngày kết thúc.");
+            alert("Day bắt đầu lớn hơn Day kết thúc.");
         }
         initData();
     })

@@ -2901,7 +2901,7 @@ Class Report extends MY_Controller
             ->getStyle('B26:E26')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B27:E27')
-            ->setCellValue('B27', 'Doanh thu win123club')
+            ->setCellValue('B27', 'Revenue win123club')
             ->getStyle('B27:E27')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->setCellValue('F17', '= E12+H12+K12+N12+Q12')

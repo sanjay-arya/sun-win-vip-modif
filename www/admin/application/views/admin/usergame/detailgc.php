@@ -1,7 +1,7 @@
 
 <section class="content-header">
     <h1>
-       Sử dụng giftcode
+       Use giftcode
     </h1>
 </section>
 <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
@@ -22,7 +22,7 @@
                                         <th>Giftcode</th>
                                         <th>Nickname</th>
                                         <th>Date created</th>
-                                        <th>Ngày sử dụng</th>
+                                        <th>Date of use</th>
                                     </tr>
                                     </thead>
                                     <tbody id="logaction">
@@ -127,7 +127,7 @@
                                         }, error: function () {
                                             $("#spinner").hide();
                                             $('#logaction').html("");
-                                            $("#resultsearch").html("Hệ thống quá tải. Vui lòng gọi 19008698");
+                                            $("#resultsearch").html("System overloaded. Please call 19008698");
                                         },timeout : 20000
                                     });
                                 }
@@ -138,7 +138,7 @@
                 }, error: function () {
                     $("#spinner").hide();
                     $('#logaction').html("");
-                    $("#resultsearch").html("Hệ thống quá tải. Vui lòng gọi 19008698");
+                    $("#resultsearch").html("System overloaded. Please call 19008698");
                 },timeout : 20000
             });
     });

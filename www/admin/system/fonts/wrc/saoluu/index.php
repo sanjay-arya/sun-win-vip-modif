@@ -493,7 +493,7 @@ function print_cfg(){
 <label class="l">Name CSDL:</label><input type="text" name="v[db]" value="<?php eo($DB['db'])?>"><br>
 <label class="l">Máy chủ:</label><input type="text" name="v[host]" value="<?php eo($DB['host'])?>"> port: <input type="text" name="v[port]" value="<?php eo($DB['port'])?>" size="4"><br>
 <label class="l">Mã hóa:</label><select name="v[chset]"><option value="">- mặc định -</option><?php echo chset_select($DB['chset'])?></select><br>
-<br><input type="checkbox" name="rmb" value="1" checked> Nhớ trong 30 ngày
+<br><input type="checkbox" name="rmb" value="1" checked> Nhớ trong 30 Day
 </div>
 <center>
 <input type="hidden" name="savecfg" value="1">

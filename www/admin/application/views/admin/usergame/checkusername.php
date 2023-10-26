@@ -60,7 +60,7 @@
     <!--<!--                                <td>Nickname</td>-->-->
     <!--<!--                                <td>IP</td>-->-->
     <!--<!--                                -->--><?php ////if($admin_info->Status == "A"): ?>
-    <!--<!--                                    <td>Điện thoại</td>-->-->
+    <!--<!--                                    <td>Phone</td>-->-->
     <!--<!--                                -->--><?php ////endif; ?>
     <!--<!--                                <td>Time</td>-->-->
     <!--<!--                            </tr>-->-->
@@ -125,7 +125,7 @@
     <!--//                    }-->
     <!--//                }, error: function () {-->
     <!--//                    $("#spinner").hide();-->
-    <!--//                    $("#errocode").html("Hệ thống quá tải. Vui lòng gọi 19008698");-->
+    <!--//                    $("#errocode").html("System overloaded. Please call 19008698");-->
     <!--//                }, timeout: 20000-->
     <!--//            });-->
     <!--//        }-->

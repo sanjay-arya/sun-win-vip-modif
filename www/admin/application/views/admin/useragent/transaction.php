@@ -27,7 +27,7 @@
                     <input type="text" id="m" value="<?php echo $this->input->post('m') ?>" name="m">
                 </div>
                 <div class="col-sm-1">
-                    <label for="giftCode">Account nguồn : </label>
+                    <label for="giftCode">Account Source : </label>
                 </div>
                 <div class="col-sm-2">
                     <input type="text" id="fbn" value="<?php echo $this->input->post('fbn') ?>" name="fbn">
@@ -63,17 +63,17 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th>Người dùng</th>
+                                <th>People dùng</th>
                                 <th>Mã đại lý</th>
                                 <th>Point</th>
                                 <th>Amount of money</th>
                                 <th>Fee</th>
                                 <th>Bonus</th>
                                 <th>Status</th>
-                                <th>Account nguồn</th>
+                                <th>Account Source</th>
                                 <th>Account đích</th>
                                 <th>Nội dung</th>
-                                <th>Người phê duyệt</th>
+                                <th>People phê duyệt</th>
                                 <th>Describe</th>
                                 <th>Time yêu cầu</th>
                                 <th>Act</th>

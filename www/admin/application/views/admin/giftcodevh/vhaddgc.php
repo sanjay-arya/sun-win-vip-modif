@@ -82,7 +82,7 @@
                         <div class="row">
                             <div class="col-sm-2">
                             </div>
-                            <label class="col-sm-1 control-label">Nguồn xuất:</label>
+                            <label class="col-sm-1 control-label">Source xuất:</label>
                             <div class="col-sm-2">
                                 <select id="nguonxuat" class="form-control">
                                     <option value="">Select</option>
@@ -158,7 +158,7 @@
             $("#errorph").html("");
             return false;
         } else if ($("#nguonxuat").val() == "") {
-            $("#errornx").html("Bạn phải chọn nguồn xuất giftcode");
+            $("#errornx").html("Bạn phải chọn Source xuất giftcode");
             $("#errorsl").html("");
             $("#errorph").html("");
             return false;

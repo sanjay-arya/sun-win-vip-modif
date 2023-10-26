@@ -89,7 +89,7 @@
             <tr style="height: 20px;">
                 <td>No</td>
                 <td>Request Id</td>
-                <td>Điện thoại</td>
+                <td>Phone</td>
                 <td>Command Code</td>
                 <td>Tin nhắn nhận</td>
                 <td>Kết quả nhận</td>

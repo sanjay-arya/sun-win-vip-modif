@@ -81,7 +81,7 @@
                             <th>Lợi nhuận</th>
                             <th>Hoa hồng</th>
                             <th>Số thành viên hoạt động</th>
-                            <th>Ngày đăng ký</th>
+                            <th>Day đăng ký</th>
                         </tr>
                         </thead>
                         <tbody id="logaction">

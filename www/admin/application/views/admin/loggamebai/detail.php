@@ -22,7 +22,7 @@
             <thead>
             <tr style="line-height: 30px">
                 <td>Vị trí</td>
-                <td>Name người chơi</td>
+                <td>Name People chơi</td>
                 <td>Act</td>
                 <td>Nội dung</td>
             </tr>

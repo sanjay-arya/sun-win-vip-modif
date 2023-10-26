@@ -203,7 +203,7 @@ echo $head;
 			
 		    (Từ trang chính của LPanel, Vào Quên mât khẩu > nhập code > )
 			
-			Lưu ý nó chỉ có thể swr dụng từ thời điểm này đến 30 phút nữa. Sau 30 phút nó sẽ hết hạn. Nhập chính xác vì nếu màn hình điện thoại bạn nhỏ có thể khi copy có kí tự xuống dòng, bạn cần phải xóa nó đi.
+			Lưu ý nó chỉ có thể swr dụng từ thời điểm này đến 30 phút nữa. Sau 30 phút nó sẽ hết hạn. Nhập chính xác vì nếu màn hình Phone bạn nhỏ có thể khi copy có kí tự xuống dòng, bạn cần phải xóa nó đi.
 			';
 			if(mail($setmail,'Quên mật khẩu',$noidungm,$options)){
 				echo noidung('Vui lòng check mail!<br/>
@@ -295,11 +295,11 @@ echo $head;
 	<ul>-> Lpanel tổng hợp lại các code thành 1 gói, fix các lỗi của các code, Menu login 
 	giúp bảo mật và tăng tính bảo mật các code trên.</ul>
 Phiên bản: 2.4<br/>
-	+ Ngày: 1/1/2015<br/>
+	+ Day: 1/1/2015<br/>
 	+ Truy cập vào chủ đề trên daivietpda.vn để biết thêm thông tin !	
 <br/>
 Phiên bản: 2.4f<br/>
-	+ Ngày: 1/11/2017<br/>
+	+ Day: 1/11/2017<br/>
 	+
 	+ Truy cập vào tab Lpanel trên <a href="http://botay.pro">BoTay.Pro</a> để biết thêm thông tin<div class="title">Trở về</div>
 	<div class="list1"><img src="data/vtr/img/quay.png" alt=""/> <a rel="nofollow"  href="index.php"> Quản lí</a></div>

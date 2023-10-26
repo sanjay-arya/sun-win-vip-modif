@@ -6,9 +6,9 @@
   <div id="list_role">
     <!-- <div class="formRow">
       <div class="row">
-        <label class="col-sm-1" style="width: 154px">Name đăng nhập</label>
+        <label class="col-sm-1" style="width: 154px">Login name</label>
         <div class="col-sm-2">
-          <input type="text" id="username" class="form-control" placeholder="Name đăng nhập game">
+          <input type="text" id="username" class="form-control" placeholder="Login name game">
         </div>
       </div>
     </div> -->

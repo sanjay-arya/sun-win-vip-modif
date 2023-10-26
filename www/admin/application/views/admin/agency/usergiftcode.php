@@ -53,11 +53,11 @@
             <tr style="height: 20px;">
                 <td>Nick name</td>
                 <td>Giftcode</td>
-                <td>Nguồn</td>
+                <td>Source</td>
                 <td>A1</td>
                 <td>A5</td>
                 <td>A30</td>
-                <td>Doanh thu</td>
+                <td>Revenue</td>
                 <td>Waste</td>
             </tr>
             </thead>

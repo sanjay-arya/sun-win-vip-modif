@@ -46,10 +46,10 @@
                             </td>
                             <td><select name="status" id="status">
                                     <option value="30">
-                                        Chờ xác nhận
+                                        Chờ Confirm
                                     </option>
                                     <option value="1">
-                                        Đã xác nhận
+                                        Đã Confirm
                                     </option>
                                     <option value="98">
                                         Đã huỷ
@@ -90,7 +90,7 @@
                     <td>Số lượng</td>
                     <td>Status</td>
                     <td style="width: 10%;">Time</td>
-                    <td>Xác nhận</td>
+                    <td>Confirm</td>
                 </tr>
                 </thead>
                 <tbody>
@@ -103,19 +103,19 @@
                         <td><?php echo number_format($value->amount) ?></td>
                         <td><?php echo $value->quantity ?></td>
                         <td>
-                            <?php if ($value->status == 1) { ?> Đã xác nhận <?php }
+                            <?php if ($value->status == 1) { ?> Đã Confirm <?php }
                             else if ($value->status == 98) { ?>Đã huỷ<?php }
-                            else if ($value->status == 99) { ?>Failure<?php } else { ?>Chờ xác nhận<?php } ?>
+                            else if ($value->status == 99) { ?>Failure<?php } else { ?>Chờ Confirm<?php } ?>
                         </td>
                         <td><?php echo $value->createTime ?></td>
                         <td>
-                            <div data-toggle="tooltip" data-placement="left" title="Xác nhận giao dịch này">
+                            <div data-toggle="tooltip" data-placement="left" title="Confirm giao dịch này">
                                 <a
                                         data-value="<?php echo $value->referenceId ?>"
                                         data-toggle="modal" data-target="#modalPayTrans"
                                         class="actionPay"
                                         style="padding:5px 10px; cursor: pointer">
-                                    <span style="background: green" class="badge badge-pill badge-success">Xác nhận</span>
+                                    <span style="background: green" class="badge badge-pill badge-success">Confirm</span>
                                 </a>
                             </div>
                             <div data-toggle="tooltip" style="margin-top: 7px;" data-placement="left" title="Huỷ giao dịch này">
@@ -203,7 +203,7 @@
     var firstPageClick = true;    $(".actionPay").on("click", function () {
         $('#errorValidate').css("display", "none");
         $("#title-trans-id").html($(this).attr('data-value'))
-        $("#title-trans-name").html("Bạn có đồng ý xác nhận: ");
+        $("#title-trans-name").html("Bạn có đồng ý Confirm: ");
     })
 
     $(".actionCancel").on("click", function () {

@@ -26,7 +26,7 @@
                 <h6>Game slot bitcoin</h6>
                 <h6 class="total">Total thắng:<span class="total-number" id="tong_thang"></span></h6>
                 <h6 class="total">Total cược:<span class="total-number" id="tong_cuoc"></span></h6>
-                <h6 class="total">Total Số người chơi:<span class="total-number" id="tong_player"></span></h6>
+                <h6 class="total">Total Số People chơi:<span class="total-number" id="tong_player"></span></h6>
             </div>
             <form class="list_filter form" action="<?php echo admin_url('loggameslot/crypto') ?>" method="post">
                 <div class="formRow">

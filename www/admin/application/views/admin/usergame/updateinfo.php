@@ -134,7 +134,7 @@
 <!--            return false;-->
 <!--        }-->
 <!--        if($("#birth_day").val() == ""){-->
-<!--            alert("Bạn chưa nhập ngày sinh nhật");-->
+<!--            alert("Bạn chưa nhập Day sinh nhật");-->
 <!--            return false;-->
 <!--        }-->
 <!--        $("#spinner").show();-->

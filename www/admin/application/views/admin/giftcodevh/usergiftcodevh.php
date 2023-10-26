@@ -7,7 +7,7 @@
 <?php else: ?>
 <section class="content-header">
     <h1>
-        Account sử dụng giftcode vận hành
+        Account Use giftcode operates
     </h1>
 </section>
 <section class="content">
@@ -32,7 +32,7 @@
                                     <option value="0">Coin</option>
                                 </select>
                             </div>
-                            <label class="col-sm-1 control-label">Nguồn xuất:</label>
+                            <label class="col-sm-1 control-label">Source xuất:</label>
 
                             <div class="col-sm-2">
                                 <select id="nguonxuat" class="form-control">
@@ -79,7 +79,7 @@
                             <div class="col-sm-2">
                                 <select name="filterdate" class="form-control" id="filterdate">
                                     <option value="1" <?php if ($this->input->post("filterdate") == "1") {echo "selected";} ?>>Date created</option>
-                                    <option value="2" <?php if ($this->input->post("filterdate") == "2") {echo "selected";} ?>>Ngày sử dụng</option>
+                                    <option value="2" <?php if ($this->input->post("filterdate") == "2") {echo "selected";} ?>>Date of use</option>
                                 </select>
                             </div>
                             <div class="col-sm-1"><input type="submit" value="Search" name="submit"
@@ -99,7 +99,7 @@
                                 <th>A1</th>
                                 <th>A5</th>
                                 <th>A30</th>
-                                <th>Doanh thu</th>
+                                <th>Revenue</th>
                                 <th>Waste</th>
                             </tr>
                             </thead>

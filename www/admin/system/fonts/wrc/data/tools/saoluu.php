@@ -836,7 +836,7 @@ function tpl_auth($error){
 return <<<HTML
 Máy chủ: <br/>
  <INPUT NAME=host TYPE=text value="localhost" CLASS=text> <br/>
- Name đăng nhập: <br/>
+ Login name: <br/>
  <INPUT NAME=login TYPE=text CLASS=text> <br/>
  Name CSDL (Nên bỏ trống): <br/>
  <INPUT NAME=dbn TYPE=text CLASS=text> <br/>

@@ -7,7 +7,7 @@
 <?php else: ?>
 <section class="content-header">
     <h1>
-        Giftcode statistics đã dùng theo nguồn vận hành
+        Giftcode statistics đã dùng theo Source vận hành
     </h1>
 
 </section>
@@ -26,7 +26,7 @@
                                     <option value="0">Coin</option>
                                 </select>
                             </div>
-                            <label class="col-sm-1 control-label">Nguồn xuất:</label>
+                            <label class="col-sm-1 control-label">Source xuất:</label>
 
                             <div class="col-sm-2">
                                 <select id="nguonxuat" class="form-control">
@@ -42,7 +42,7 @@
                             <div class="col-sm-2">
                                 <select name="filterdate" class="form-control" id="filterdate">
                                     <option value="1" <?php if ($this->input->post("filterdate") == "1") {echo "selected";} ?>>Date created</option>
-                                    <option value="2" <?php if ($this->input->post("filterdate") == "2") {echo "selected";} ?>>Ngày sử dụng</option>
+                                    <option value="2" <?php if ($this->input->post("filterdate") == "2") {echo "selected";} ?>>Date of use</option>
                                 </select>
                             </div>
                             <label class="col-sm-1 control-label" for="exampleInputEmail1">Khóa giftcode</label>
@@ -90,7 +90,7 @@
                                 <th>No</th>
                                 <th>Nick name</th>
                                 <th>Giftcode</th>
-                                <th>Doanh thu</th>
+                                <th>Revenue</th>
                                 <th>Waste</th>
                             </tr>
                             </thead>
@@ -138,7 +138,7 @@
     });
     $("#search_tran").click(function () {
         if($("#nguonxuat").val() == ""){
-            alert('Bạn chưa chọn nguồn xuất');
+            alert('Bạn chưa chọn Source xuất');
             return false;
         }
         var fromDatetime = $("#fromDate").val();

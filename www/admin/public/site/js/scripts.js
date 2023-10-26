@@ -333,7 +333,7 @@ function register(sender, e) {
     }
     if (password != password_confirm) {
         document.getElementById('btnOpenRegisterModal').click();
-        document.getElementById("divErrorRegister").innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mật khẩu xác nhận sai!";
+        document.getElementById("divErrorRegister").innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mật khẩu Confirm sai!";
         return;
     }
     if (username.length > 36 || username.length < 6) {
@@ -355,11 +355,11 @@ function register(sender, e) {
     } else {
         if (return_data == -2) {
             document.getElementById('btnOpenRegisterModal').click();
-            document.getElementById("divErrorRegister").innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mã xác nhận không đúng!";
+            document.getElementById("divErrorRegister").innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mã Confirm không đúng!";
             return;
         } else if (return_data == -3) {
             document.getElementById('btnOpenRegisterModal').click();
-            document.getElementById("divErrorRegister").innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lỗi tạo quá 20 TK/ngày!";
+            document.getElementById("divErrorRegister").innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lỗi tạo quá 20 TK/Day!";
             return;
         } else {
             document.getElementById('btnOpenRegisterModal').click();
@@ -579,7 +579,7 @@ function btnChangePass_Click(sender, e) {
         return;
     }
     if (userphone == '') {
-        document.getElementById("lblChange").innerHTML = 'Chưa nhập số điện thoại!';
+        document.getElementById("lblChange").innerHTML = 'Chưa nhập số Phone!';
         return;
     }
     var xmlHttp = new XMLHttpRequest();

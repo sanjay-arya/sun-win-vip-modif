@@ -30,7 +30,7 @@
             <h4 id="resultsearch" style="color: red;margin-left: 20px"></h4>
 
             <div class="title">
-                <h6>Log đổi số điện thoại</h6>
+                <h6>Log đổi số Phone</h6>
             </div>
             <form class="list_filter form" action="<?php echo admin_url('usergame/logchangemobile') ?>" method="post">
 

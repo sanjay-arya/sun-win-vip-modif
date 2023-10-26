@@ -86,7 +86,7 @@
 <!--            <tr>-->
 <!--                <td>-->
 <!--                    <label for="param_name" style="width: 120px;margin-bottom:-3px;margin-left: 23px;"-->
-<!--                           class="formLeft">Nguồn tạo: </label>-->
+<!--                           class="formLeft">Source tạo: </label>-->
 <!--                </td>-->
 <!--                <td class="item"><select id="select_source" name="select_source"-->
 <!--                                         style="margin-left: 27px;margin-bottom:-2px;width: 142px">-->
