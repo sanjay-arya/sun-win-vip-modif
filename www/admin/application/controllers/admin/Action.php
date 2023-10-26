@@ -43,9 +43,9 @@ Class Action extends MY_Controller
                 //them moi vao csdl
                 if ($this->actionadmin_model->create($data)) {
                     //tạo ra nội dung thông báo
-                    $this->session->set_flashdata('message', 'Add new dữ liệu thành công');
+                    $this->session->set_flashdata('message', 'Add new data successfully');
                 } else {
-                    $this->session->set_flashdata('message', 'Không thêm được');
+                    $this->session->set_flashdata('message', "Can't add");
                 }
                 //chuyen tới trang danh sách
                 redirect(admin_url('action'));
@@ -67,7 +67,7 @@ Class Action extends MY_Controller
         $info = $this->actionadmin_model->get_info($id);
         if (!$info) {
             //tạo ra nội dung thông báo
-            $this->session->set_flashdata('message', 'không tồn tại danh mục này');
+            $this->session->set_flashdata('message', "This category does not exist");
             redirect(admin_url('tag'));
         }
         $this->data['info'] = $info;
@@ -87,7 +87,7 @@ Class Action extends MY_Controller
                     //tạo ra nội dung thông báo
                     $this->session->set_flashdata('message', 'Data update successful');
                 } else {
-                    $this->session->set_flashdata('message', 'Không thêm được');
+                    $this->session->set_flashdata('message', "Can't add");
                 }
                 //chuyen tới trang danh sách
                 redirect(admin_url('action'));

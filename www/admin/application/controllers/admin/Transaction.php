@@ -269,7 +269,7 @@ Class Transaction extends MY_Controller
                 $data = array(
                     'account_name' => $admin_info->FullName,
                     'username' => $admin_info->UserName,
-                    'action' => "Open freeze tiền cho  tài khoản " . $nickname . " ,game " . $gamename . " , Room " . $room . " ,số tiền " . $money,
+                    'action' => "Open freeze money for account" . $nickname . " ,game " . $gamename . " , Room " . $room . " ,số tiền " . $money,
                 );
                 $this->logadmin_model->create($data);
             }
@@ -293,7 +293,7 @@ Class Transaction extends MY_Controller
                 $data = array(
                     'account_name' => $admin_info->FullName,
                     'username' => $admin_info->UserName,
-                    'action' => "Open freeze tiền đại lý chuyển khoản cho  tài khoản " . $nickname . " ,số tiền " . $money,
+                    'action' => "Open freeze agent transfer money to account" . $nickname . " ,số tiền " . $money,
                 );
                 $this->logadmin_model->create($data);
             }
@@ -308,10 +308,10 @@ Class Transaction extends MY_Controller
         $nickname = $this->input->post('nickname');
         $info = $list = $this->freemoney_model->get_info_freemoney($nickname);
         if ($info != false) {
-            echo json_encode("Mở khóa đóng băng thành công");
+            echo json_encode("Unlock freeze successfully");
 
         } else {
-            echo json_encode("Không tồn tại nick name");
+            echo json_encode("No nickname exists");
         }
 
     }
@@ -459,7 +459,7 @@ Class Transaction extends MY_Controller
         if (isset($datainfo)) {
             $data = array(
                 'username' => $admin_info->UserName,
-                'action' => "Trả thưởng top doanh số đại lý"
+                'action' => "Rewards for top agent sales"
             );
             $this->logadmin_model->create($data);
             echo $datainfo;
@@ -523,9 +523,9 @@ Class Transaction extends MY_Controller
         if (isset($datainfo)) {
             echo $datainfo;
             if ($tds == 1) {
-                $txtaction = "Add doanh số đại lý";
+                $txtaction = "Add agent sales";
             } elseif ($tds == 0) {
-                $txtaction = "Trừ doanh số đại lý";
+                $txtaction = "Except dealer sales";
             }
             $data = array(
                 'account_name' => $nicknamesend . "," . $nicknamerecive,
@@ -555,7 +555,7 @@ Class Transaction extends MY_Controller
             $data = array(
                 'account_name' => $admin_info->UserName,
                 'username' => $admin_info->FullName,
-                'action' => "Update giao dịch ngân lượng"
+                'action' => "Update money transactions"
             );
             $this->logadmin_model->create($data);
             echo $datainfo;

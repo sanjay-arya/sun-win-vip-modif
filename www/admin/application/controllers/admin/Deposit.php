@@ -22,7 +22,7 @@ Class Deposit extends MY_Controller
                 return ($x->bank_name);
             }, $data_decode->data);
         } else {
-            echo "Không có danh sách ngân hàng";
+            echo "No bank list";
         }
 
         $this->data['temp'] = 'admin/deposit/index';

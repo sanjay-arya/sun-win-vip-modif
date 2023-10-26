@@ -38,8 +38,8 @@ Class Menu extends MY_Controller
         //neu ma co du lieu post len thi kiem tra
         if ($this->input->post()) {
             $this->form_validation->set_rules('name', 'Name menu', 'required');
-            $this->form_validation->set_rules('param', 'Số thứ tự', 'required');
-            $this->form_validation->set_rules('link', 'Đường dẫn', 'required');
+            $this->form_validation->set_rules('param', 'Numerical order', 'required');
+            $this->form_validation->set_rules('link', 'Path', 'required');
             //nhập liệu chính xác
             if ($this->form_validation->run()) {
                 //them vao csdl
@@ -65,9 +65,9 @@ Class Menu extends MY_Controller
                 );
                 if ($this->menu_model->create($data)) {
                     //tạo ra nội dung thông báo
-                    $this->session->set_flashdata('message', 'Add new dữ liệu thành công');
+                    $this->session->set_flashdata('message', 'Add new data successfully');
                 } else {
-                    $this->session->set_flashdata('message', 'Không thêm được');
+                    $this->session->set_flashdata('message', "Can't add");
                 }
                 //chuyen tới trang danh sách quản trị viên
                 redirect(admin_url('menu'));
@@ -90,15 +90,15 @@ Class Menu extends MY_Controller
         //lay thong cua quan trị viên
         $info = $this->menu_model->get_info($id);
         if (!$info) {
-            $this->session->set_flashdata('message', 'Không tồn tại menu');
+            $this->session->set_flashdata('message', 'No menu exists');
             redirect(admin_url('menu'));
         }
         $this->data['info'] = $info;
 
         if ($this->input->post()) {
             $this->form_validation->set_rules('name', 'Name menu', 'required');
-            $this->form_validation->set_rules('param', 'Số thứ tự', 'required');
-            $this->form_validation->set_rules('link', 'Đường dẫn', 'required');
+            $this->form_validation->set_rules('param', 'Numerical order', 'required');
+            $this->form_validation->set_rules('link', 'Path', 'required');
             if ($this->form_validation->run()) {
                 $name = $this->input->post('name');
                 $param = $this->input->post('param');
@@ -144,7 +144,7 @@ Class Menu extends MY_Controller
         //lay thong tin cua quan tri vien
         $info = $this->menu_model->get_info($id);
         if (!$info) {
-            $this->session->set_flashdata('message', 'Không tồn tại menu');
+            $this->session->set_flashdata('message', 'No menu exists');
             redirect(admin_url('menu'));
         }
         //thuc hiện xóa

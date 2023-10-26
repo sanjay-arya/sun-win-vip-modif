@@ -110,18 +110,18 @@ Class Giftcode extends MY_Controller
 	//
 	//                if (!$this->upload->do_upload('filexls')) {
 	//                    $error = array('error' => $this->upload->display_errors());
-	//                    $this->data['error'] = "Bạn chưa chọn file hoặc không được phân quyền";
+	//                    $this->data['error'] = "You have not selected a file or are not authorized";
 	//
 	//                } else {
 	//                    $this->data['error'] = "";
 	//                    $data = array('upload_data' => $this->upload->data());
 	//
-	//                    $this->data['error'] = "Upload file thành công";
+	//                    $this->data['error'] = "Upload file successfully";
 	//                    //
 	//
 	//                }
 	//            } else {
-	//                $this->data['error'] = "Bạn chưa chọn file hoặc không chọn đúng file csv";
+	//                $this->data['error'] = "You have not selected a file or have not selected the correct csv file";
 	//            }
 	//
 	//        }

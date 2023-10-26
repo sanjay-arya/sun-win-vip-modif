@@ -62,7 +62,7 @@ Class Mail extends MY_Controller
 	//        if ($this->input->post("ok")) {
 	//            if (file_exists('public/admin/uploads/marketinggc.csv')) {
 	//                unlink('public/admin/uploads/marketinggc.csv');
-	//                $this->data['error'] = "Bạn xóa file cũ thành công";
+	//                $this->data['error'] = "You successfully deleted the old file";
 	//            } else {
 	//                $temp = explode(".", $_FILES["filexls"]["name"]);
 	//                $extension = end($temp);
@@ -78,16 +78,16 @@ Class Mail extends MY_Controller
 	//
 	//                    if (!$this->upload->do_upload('filexls')) {
 	//                        $error = array('error' => $this->upload->display_errors());
-	//                        $this->data['error'] = "Bạn chưa chọn file hoặc không được phân quyền";
+	//                        $this->data['error'] = "You have not selected a file or are not authorized";
 	//
 	//                    } else {
 	//                        $this->data['error'] = "";
 	//                        $data = array('upload_data' => $this->upload->data());
 	//
-	//                        $this->data['error'] = "Upload file thành công";
+	//                        $this->data['error'] = "Upload file successfully";
 	//                    }
 	//                } else {
-	//                    $this->data['error'] = "Bạn chưa chọn file hoặc không chọn đúng file csv";
+	//                    $this->data['error'] = "You have not selected a file or have not selected the correct csv file";
 	//                }
 	//            }
 	//
@@ -138,7 +138,7 @@ Class Mail extends MY_Controller
 	//        if ($this->input->post("ok")) {
 	//            if (file_exists('public/admin/uploads/marketinggctrian.csv')) {
 	//                unlink('public/admin/uploads/marketinggctrian.csv');
-	//                $this->data['error'] = "Bạn xóa file cũ thành công";
+	//                $this->data['error'] = "You successfully deleted the old file";
 	//            } else {
 	//                $temp = explode(".", $_FILES["filexls"]["name"]);
 	//                $extension = end($temp);
@@ -154,16 +154,16 @@ Class Mail extends MY_Controller
 	//
 	//                    if (!$this->upload->do_upload('filexls')) {
 	//                        $error = array('error' => $this->upload->display_errors());
-	//                        $this->data['error'] = "Bạn chưa chọn file hoặc không được phân quyền";
+	//                        $this->data['error'] = "You have not selected a file or are not authorized";
 	//
 	//                    } else {
 	//                        $this->data['error'] = "";
 	//                        $data = array('upload_data' => $this->upload->data());
 	//
-	//                        $this->data['error'] = "Upload file thành công";
+	//                        $this->data['error'] = "Upload file successfully";
 	//                    }
 	//                } else {
-	//                    $this->data['error'] = "Bạn chưa chọn file hoặc không chọn đúng file csv";
+	//                    $this->data['error'] = "You have not selected a file or have not selected the correct csv file";
 	//                }
 	//            }
 	//
@@ -276,7 +276,7 @@ Class Mail extends MY_Controller
 	//        if ($this->input->post("ok")) {
 	//            if (file_exists('public/admin/uploads/messagegc.csv')) {
 	//                unlink('public/admin/uploads/messagegc.csv');
-	//                $this->data['error'] = "Bạn xóa file cũ thành công";
+	//                $this->data['error'] = "You successfully deleted the old file";
 	//            } else {
 	//                $temp = explode(".", $_FILES["filexls"]["name"]);
 	//                $extension = end($temp);
@@ -292,16 +292,16 @@ Class Mail extends MY_Controller
 	//
 	//                    if (!$this->upload->do_upload('filexls')) {
 	//                        $error = array('error' => $this->upload->display_errors());
-	//                        $this->data['error'] = "Bạn chưa chọn file hoặc không được phân quyền";
+	//                        $this->data['error'] = "You have not selected a file or are not authorized";
 	//
 	//                    } else {
 	//                        $this->data['error'] = "";
 	//                        $data = array('upload_data' => $this->upload->data());
 	//
-	//                        $this->data['error'] = "Upload file thành công";
+	//                        $this->data['error'] = "Upload file successfully";
 	//                    }
 	//                } else {
-	//                    $this->data['error'] = "Bạn chưa chọn file hoặc không chọn đúng file csv";
+	//                    $this->data['error'] = "You have not selected a file or have not selected the correct csv file";
 	//                }
 	//            }
 	//
@@ -416,7 +416,7 @@ Class Mail extends MY_Controller
 		//        if ($this->input->post("ok")) {
 		//            if (file_exists('public/admin/uploads/marketinggcfull.csv')) {
 		//                unlink('public/admin/uploads/marketinggcfull.csv');
-		//                $this->data['error'] = "Bạn xóa file cũ thành công";
+		//                $this->data['error'] = "You successfully deleted the old file";
 		//            } else {
 		//                $temp = explode(".", $_FILES["filexls"]["name"]);
 		//                $extension = end($temp);
@@ -432,16 +432,16 @@ Class Mail extends MY_Controller
 		//
 		//                    if (!$this->upload->do_upload('filexls')) {
 		//                        $error = array('error' => $this->upload->display_errors());
-		//                        $this->data['error'] = "Bạn chưa chọn file hoặc không được phân quyền";
+		//                        $this->data['error'] = "You have not selected a file or are not authorized";
 		//
 		//                    } else {
 		//                        $this->data['error'] = "";
 		//                        $data = array('upload_data' => $this->upload->data());
 		//
-		//                        $this->data['error'] = "Upload file thành công";
+		//                        $this->data['error'] = "Upload file successfully";
 		//                    }
 		//                } else {
-		//                    $this->data['error'] = "Bạn chưa chọn file hoặc không chọn đúng file csv";
+		//                    $this->data['error'] = "You have not selected a file or have not selected the correct csv file";
 		//                }
 		//            }
 		//
@@ -515,7 +515,7 @@ Class Mail extends MY_Controller
 	//        if ($this->input->post("ok")) {
 	//            if (file_exists('public/admin/uploads/marketingvincard.csv')) {
 	//                unlink('public/admin/uploads/marketingvincard.csv');
-	//                $this->data['error'] = "Bạn xóa file cũ thành công";
+	//                $this->data['error'] = "You successfully deleted the old file";
 	//            } else {
 	//                $temp = explode(".", $_FILES["filexls"]["name"]);
 	//                $extension = end($temp);
@@ -531,16 +531,16 @@ Class Mail extends MY_Controller
 	//
 	//                    if (!$this->upload->do_upload('filexls')) {
 	//                        $error = array('error' => $this->upload->display_errors());
-	//                        $this->data['error'] = "Bạn chưa chọn file hoặc không được phân quyền";
+	//                        $this->data['error'] = "You have not selected a file or are not authorized";
 	//
 	//                    } else {
 	//                        $this->data['error'] = "";
 	//                        $data = array('upload_data' => $this->upload->data());
 	//
-	//                        $this->data['error'] = "Upload file thành công";
+	//                        $this->data['error'] = "Upload file successfully";
 	//                    }
 	//                } else {
-	//                    $this->data['error'] = "Bạn chưa chọn file hoặc không chọn đúng file csv";
+	//                    $this->data['error'] = "You have not selected a file or have not selected the correct csv file";
 	//                }
 	//            }
 	//

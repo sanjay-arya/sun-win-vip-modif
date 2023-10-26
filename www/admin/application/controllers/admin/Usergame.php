@@ -129,7 +129,7 @@ class Usergame extends MY_Controller
                 'rc' => $this->input->post("refcode") ?? '',
             ];
             $data = $this->getDataUser($params);
-            $this->csv_download(['User name', 'Phone', 'Email', 'Ngày đăng ký'], $data, ['username', 'mobile', 'email', 'createTime'], date('Y-m-d') . '_export.csv');
+            $this->csv_download(['User name', 'Phone', 'Email', 'Registration Date'], $data, ['username', 'mobile', 'email', 'createTime'], date('Y-m-d') . '_export.csv');
         }
         $this->data['temp'] = 'admin/usergame/uservinplay';
         $this->load->view('admin/main', $this->data);
@@ -331,7 +331,7 @@ class Usergame extends MY_Controller
 
     function messlockuser()
     {
-        $this->session->set_flashdata('message', 'Câp  nhật thành công');
+        $this->session->set_flashdata('message', 'Update successful');
     }
 
     function lockuserajax()
@@ -624,18 +624,18 @@ class Usergame extends MY_Controller
     //
     //                if (!$this->upload->do_upload('filexls')) {
     //                    $error = array('error' => $this->upload->display_errors());
-    //                    $this->data['error'] = "Bạn chưa chọn file hoặc không được phân quyền";
+    //                    $this->data['error'] = "You have not selected a file or are not authorized";
     //
     //                } else {
     //                    $this->data['error'] = "";
     //                    $data = array('upload_data' => $this->upload->data());
     //
-    //                    $this->data['error'] = "Upload file thành công";
+    //                    $this->data['error'] = "Upload file successfully";
     //                    //
     //
     //                }
     //            } else {
-    //                $this->data['error'] = "Bạn chưa chọn file hoặc không chọn đúng file csv";
+    //                $this->data['error'] = "You have not selected a file or have not selected the correct csv file";
     //            }
     //
     //        }

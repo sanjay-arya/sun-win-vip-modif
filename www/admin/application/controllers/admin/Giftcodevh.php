@@ -359,10 +359,10 @@ Class Giftcodevh extends MY_Controller
                     var_dump($this->data['error']);
                 } else {
                     $data = array('upload_data' => $this->upload->data());
-                    $this->data['succes'] = "Upload file thành công";
+                    $this->data['succes'] = "Upload file successfully";
                 }
             } else {
-                $this->data['error'] = "Không chọn đúng file csv";
+                $this->data['error'] = "Not selecting the correct csv file";
             }
 
         }
@@ -440,10 +440,10 @@ Class Giftcodevh extends MY_Controller
                     $this->data['error'] = "";
                     $data = array('upload_data' => $this->upload->data());
 
-                    $this->data['error'] = "Upload file thành công";
+                    $this->data['error'] = "Upload file successfully";
                 }
             } else {
-                $this->data['error'] = "Bạn chưa chọn file hoặc không chọn đúng file csv";
+                $this->data['error'] = "You have not selected a file or have not selected the correct csv file";
             }
 
         }

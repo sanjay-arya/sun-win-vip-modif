@@ -47,7 +47,7 @@ Class Groupuser extends MY_Controller
             $this->load->helper('form');
             //neu ma co du lieu post len thi kiem tra
             if ($this->input->post()) {
-                $this->form_validation->set_rules('name', 'Name nhóm', 'required');
+                $this->form_validation->set_rules('name', 'Group name', 'required');
                 //nhập liệu chính xác
                 if ($this->form_validation->run()) {
                     //them vao csdl
@@ -59,9 +59,9 @@ Class Groupuser extends MY_Controller
                     );
                     if ($this->groupuser_model->create($data)) {
                         //tạo ra nội dung thông báo
-                        $this->session->set_flashdata('message', 'Add new dữ liệu thành công');
+                        $this->session->set_flashdata('message', 'Add new data successfully');
                     } else {
-                        $this->session->set_flashdata('message', 'Không thêm được');
+                        $this->session->set_flashdata('message', "Can't add");
                     }
                     //chuyen tới trang danh sách quản trị viên
                     redirect(admin_url('groupuser'));
@@ -84,12 +84,12 @@ Class Groupuser extends MY_Controller
             //lay thong cua quan trị viên
             $info = $this->groupuser_model->get_info($id);
             if (!$info) {
-                $this->session->set_flashdata('message', 'Không tồn tại nhóm người dùng');
+                $this->session->set_flashdata('message', 'No user group exists');
                 redirect(admin_url('groupuser'));
             }
             $this->data['info'] = $info;
             if ($this->input->post()) {
-                $this->form_validation->set_rules('name', 'Name nhóm', 'required');
+                $this->form_validation->set_rules('name', 'Group name', 'required');
                 if ($this->form_validation->run()) {
                     $name = $this->input->post('name');
                     $description = $this->input->post('description');
@@ -118,7 +118,7 @@ Class Groupuser extends MY_Controller
         //lay thong tin cua quan tri vien
         $info = $this->groupuser_model->get_info($id);
         if (!$info) {
-            $this->session->set_flashdata('message', 'Không tồn tại nhóm người dùng');
+            $this->session->set_flashdata('message', 'No user group exists');
             redirect(admin_url('groupuser'));
         }
         //thuc hiện xóa

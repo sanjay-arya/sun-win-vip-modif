@@ -376,7 +376,7 @@ Class Report extends MY_Controller
                 $data = array(
                     'account_name' => $nickname,
                     'username' => $admin_info->UserName,
-                    'action' => "Update thẻ pendding, mã giao dịch:  " . $rid,
+                    'action' => "Update pendding card, transaction code: " . $rid,
 
                 );
                 $this->logadmin_model->create($data);
@@ -1230,23 +1230,23 @@ Class Report extends MY_Controller
         );
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('E5:K5')
-            ->setCellValue('E5', 'SỐ LƯỢNG BẢN TIN')
+            ->setCellValue('E5', 'NUMBER OF NEWSLETTER')
             ->mergeCells('L5:O5')
-            ->setCellValue('L5', 'DOANH THU PHÂN CHIA')
+            ->setCellValue('L5', 'DISTRIBUTED REVENUE')
             ->getStyle('E5:O5')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
-            ->setCellValue('C6', 'Đầu số')
-            ->setCellValue('D6', 'Nhà cung cấp')
-            ->setCellValue('E6', 'Yêu cầu (MO)')
-            ->setCellValue('F6', 'Phản hồi (MT)')
-            ->setCellValue('G6', 'Tính cước (CDR)')
-            ->setCellValue('H6', 'Tỷ lệ sau khi trừ thất thoát')
-            ->setCellValue('I6', 'Số tin MT cho phép/1 MO')
-            ->setCellValue('K6', 'Giới hạn MT')
-            ->setCellValue('L6', 'Chênh lệch MT')
-            ->setCellValue('M6', 'Đơn giá')
-            ->setCellValue('N6', 'Amount of money MT vượt phải thanh toán  ')
-            ->setCellValue('O6', 'Doanh thu dùng để phân chia')
+            ->setCellValue('C6', 'Prefix')
+            ->setCellValue('D6', 'Supplier')
+            ->setCellValue('E6', 'Request (MO)')
+            ->setCellValue('F6', 'Response (MT)')
+            ->setCellValue('G6', 'Charge calculation (CDR)')
+            ->setCellValue('H6', 'Rate after deducting losses')
+            ->setCellValue('I6', 'Number of MT messages allowed/1 MO')
+            ->setCellValue('K6', 'MT Limit')
+            ->setCellValue('L6', 'MT difference')
+            ->setCellValue('M6', 'Unit price')
+            ->setCellValue('N6', 'Amount of money MT exceeds to pay')
+            ->setCellValue('O6', 'Revenue is used for division')
             ->getStyle('C6:O6')->applyFromArray($BStyle);
         $datainfo = $this->get_data_curl($this->config->item('api_backend') . '?c=18&ts=' . urlencode($start_time) . '&te=' . urlencode($end_time));
         $data = json_decode($datainfo);
@@ -1380,43 +1380,43 @@ Class Report extends MY_Controller
             ->setFormatCode('#,##0');
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C13:N13')
-            ->setCellValue('C13', 'Doanh thu Công ty win123Club được hưởng (87%)')
+            ->setCellValue('C13', 'Revenue earned by win123Club Company (87%)')
             ->getStyle('C13:N13')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C14:N14')
-            ->setCellValue('C14', 'Doanh thu VMG được hưởng')
+            ->setCellValue('C14', 'Revenue VMG enjoys')
             ->getStyle('C14:N14')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C15:N15')
-            ->setCellValue('C15', 'Doanh thu tối thiểu win123Club phải trả VMG: 2.000.000đ/Month')
+            ->setCellValue('C15', 'Minimum revenue win123Club must pay VMG: 2,000,000 VND/Month')
             ->getStyle('C15:N15')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C16:N16')
-            ->setCellValue('C16', 'Amount of money  MT vượt win123Club phải thanh toán')
+            ->setCellValue('C16', 'Amount of money MT exceeds win123Club must pay')
             ->getStyle('C16:N16')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C17:N17')
-            ->setCellValue('C17', 'Fee command code đăng ký trên mạng Viettel: 1 mã x 2000đ')
+            ->setCellValue('C17', 'Fee command code to register on Viettel network: 1 code x 2000 VND')
             ->getStyle('C17:N17')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C18:N18')
-            ->setCellValue('C18', 'Doanh thu quyết toán - Công ty win123Club được hưởng sau khi trừ các chi phí')
+            ->setCellValue('C18', 'Settled revenue - win123Club Company receives after deducting expenses')
             ->getStyle('C18:N18')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C19:N19')
-            ->setCellValue('C19', 'Amount of money đã tạm tính')
+            ->setCellValue('C19', 'Amount of money has been temporarily calculated')
             ->getStyle('C19:N19')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C20:N20')
-            ->setCellValue('C20', 'Doanh thu còn lại win123Club được hưởng:')
+            ->setCellValue('C20', 'Remaining revenue win123Club enjoys:')
             ->getStyle('C20:N20')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C21:N21')
-            ->setCellValue('C21', 'Thuế VAT 10%')
+            ->setCellValue('C21', '10% VAT')
             ->getStyle('C21:N21')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C22:N22')
-            ->setCellValue('C22', 'Total Add sau thuế')
+            ->setCellValue('C22', 'Total Add after tax')
             ->getStyle('C22:N22')->applyFromArray($BStyle);
 
         $objPHPExcel->setActiveSheetIndex(0)
@@ -1538,8 +1538,8 @@ Class Report extends MY_Controller
             ->setCellValue('B6', 'No')
             ->mergeCells('C6:D6')
             ->setCellValue('C6', 'Nội dung')
-            ->setCellValue('E6', 'Số lượng')
-            ->setCellValue('F6', 'Đơn giá')
+            ->setCellValue('E6', 'Quantity')
+            ->setCellValue('F6', 'Unit price')
             ->setCellValue('G6', 'Amount of money')
             ->getStyle('B6:G6')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
@@ -1565,20 +1565,20 @@ Class Report extends MY_Controller
         $objPHPExcel->setActiveSheetIndex(0)
             ->setCellValue('B8', '1')
             ->mergeCells('C8:D8')
-            ->setCellValue('C8', 'Fee đăng ký Brandname')
+            ->setCellValue('C8', 'Fee for registering Brandname')
             ->setCellValue('E8', '')
             ->setCellValue('G8', '=F8*E8')
             ->getStyle('B8:G8')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->setCellValue('B9', '2')
             ->mergeCells('C9:D9')
-            ->setCellValue('C9', 'Fee duy trì thương hiệu')
+            ->setCellValue('C9', 'Fee maintains the brand')
             ->setCellValue('E9', 1)
             ->getStyle('B9:G9')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->setCellValue('B10', '3')
             ->mergeCells('C10:D10')
-            ->setCellValue('C10', 'Fee send tin')
+            ->setCellValue('C10', 'Fee send message')
             ->setCellValue('E10', '')
             ->setCellValue('F10', '')
             ->setCellValue('G10', '=F10*E10')
@@ -1622,27 +1622,27 @@ Class Report extends MY_Controller
             ->getStyle('B15:B20')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C15:D15')
-            ->setCellValue('C15', "SMS Quảng cáo")
+            ->setCellValue('C15', "Promotional SMS")
             ->getStyle('C15:D15')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C16:D16')
-            ->setCellValue('C16', "Mạng Viettel")
+            ->setCellValue('C16', "Viettel Network")
             ->getStyle('C16:D16')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C17:D17')
-            ->setCellValue('C17', "Mạng Vinaphone")
+            ->setCellValue('C17', "Vinaphone Network")
             ->getStyle('C17:D17')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C18:D18')
-            ->setCellValue('C18', "Mạng Mobiofone")
+            ->setCellValue('C18', "Mobiofone network")
             ->getStyle('C18:D18')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C19:D19')
-            ->setCellValue('C19', "Mạng Khác")
+            ->setCellValue('C19', "Other Network")
             ->getStyle('C19:D19')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('C20:D20')
-            ->setCellValue('C20', "Total Add (đã bao gồm 10% VAT)")
+            ->setCellValue('C20', "Total Add (including 10% VAT)")
             ->getStyle('C20:D20')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->setCellValue('E20', "=SUM(E10:E19)")
@@ -1679,18 +1679,18 @@ Class Report extends MY_Controller
     {
         $str = "";
         if ($pro == 0) {
-            $str = "Mạng Viettel";
+            $str = "Viettel Network";
         } else if ($pro == 1) {
-            $str = "Mạng Vinaphone";
+            $str = "Vinaphone Network";
         } else if ($pro == 2) {
-            $str = "Mạng Mobifone";
+            $str = "Mobifone network";
         } else if ($pro == 3) {
-            $str = "Mạng Vietnammobile";
+            $str = "Vietnammobile network";
 
         } else if ($pro == 4) {
-            $str = "Mạng Gtel";
+            $str = "Gtel Network";
         } else if ($pro == 5) {
-            $str = "Mạng khác";
+            $str = "Other Network";
         }
         return $str;
     }
@@ -1849,14 +1849,14 @@ Class Report extends MY_Controller
             ->setCellValue('I3', 'Vinaphone')
             ->getStyle('C3:K3')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
-            ->setCellValue('C4', 'Đơn giá')
-            ->setCellValue('D4', 'Số lượng')
+            ->setCellValue('C4', 'Unit price')
+            ->setCellValue('D4', 'Quantity')
             ->setCellValue('E4', 'Total money')
-            ->setCellValue('F4', 'Đơn giá')
-            ->setCellValue('G4', 'Số lượng')
+            ->setCellValue('F4', 'Unit price')
+            ->setCellValue('G4', 'Quantity')
             ->setCellValue('H4', 'Total money')
-            ->setCellValue('I4', 'Đơn giá')
-            ->setCellValue('J4', 'Số lượng')
+            ->setCellValue('I4', 'Unit price')
+            ->setCellValue('J4', 'Quantity')
             ->setCellValue('K4', 'Total money')
             ->getStyle('C4:K4')->applyFromArray($BStyle);
         $datainfo = $this->get_data_curl($this->config->item('api_backend') . '?c=149&ts=' . urlencode($start_time) . '&te=' . urlencode($end_time));
@@ -1937,19 +1937,19 @@ Class Report extends MY_Controller
             ->getNumberFormat()->setFormatCode('#,##0');
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B17:E17')
-            ->setCellValue('B17', 'Total doanh thu')
+            ->setCellValue('B17', 'Total revenue')
             ->getStyle('B17:E17')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B18:E18')
-            ->setCellValue('B18', 'Total doanh thu không bao gồm VAT')
+            ->setCellValue('B18', 'Total revenue does not include VAT')
             ->getStyle('B18:E18')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B19:E19')
-            ->setCellValue('B19', 'Tỷ lệ chia sẻ doanh thu')
+            ->setCellValue('B19', 'Revenue share ratio')
             ->getStyle('B19:E19')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B20:E20')
-            ->setCellValue('B20', 'Tỷ lệ thất thoát')
+            ->setCellValue('B20', 'Loss rate')
             ->getStyle('B20:E20')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B21:E21')
@@ -1957,27 +1957,27 @@ Class Report extends MY_Controller
             ->getStyle('B21:E21')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B22:E22')
-            ->setCellValue('B22', 'Chi phí mở mã (80,000 đ / mã)')
+            ->setCellValue('B22', 'Cost of opening code (80,000 VND/code)')
             ->getStyle('B22:E22')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B23:E23')
-            ->setCellValue('B23', 'Chi phí duy trì mã (32,000 đ / mã)')
+            ->setCellValue('B23', 'Code maintenance cost (32,000 VND/code)')
             ->getStyle('B23:E23')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B24:E24')
-            ->setCellValue('B24', 'Refund fee cước khách hàng khiếu nại')
+            ->setCellValue('B24', 'Refund fee for customer complaints')
             ->getStyle('B24:E24')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B25:E25')
-            ->setCellValue('B25', 'Fee khác (nếu có)')
+            ->setCellValue('B25', 'Other Fee (if any)')
             ->getStyle('B25:E25')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B26:E26')
-            ->setCellValue('B26', 'Total phí')
+            ->setCellValue('B26', 'Total fee')
             ->getStyle('B26:E26')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B27:E27')
-            ->setCellValue('B27', 'Doanh thu vinplay')
+            ->setCellValue('B27', 'Vinplay revenue')
             ->getStyle('B27:E27')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->setCellValue('F17', '= E16+H16+K16')
@@ -2204,12 +2204,12 @@ Class Report extends MY_Controller
                     ->setCellValue('A1', 'No')
                     ->setCellValue('B1', 'Trading code')
                     ->setCellValue('C1', 'Nickname')
-                    ->setCellValue('D1', 'Thẻ')
-                    ->setCellValue('E1', 'Nhà cung cấp')
+                    ->setCellValue('D1', 'Card')
+                    ->setCellValue('E1', 'Supplier')
                     ->setCellValue('F1', 'Serial')
                     ->setCellValue('G1', 'Mã thẻ')
                     ->setCellValue('H1', 'Denominations')
-                    ->setCellValue('I1', 'Error code dịch vụ')
+                    ->setCellValue('I1', 'Error code service')
                     ->setCellValue('J1', 'Describe')
                     ->setCellValue('K1', 'Error code win123club')
                     ->setCellValue('L1', 'Time')
@@ -2275,11 +2275,11 @@ Class Report extends MY_Controller
                 $objPHPExcel->setActiveSheetIndex(0)
                     ->setCellValue('A1', 'No')
                     ->setCellValue('B1', 'Nickname')
-                    ->setCellValue('C1', 'Điện thoại')
-                    ->setCellValue('D1', 'Nhà mạng')
-                    ->setCellValue('E1', 'Tin nhắn send')
+                    ->setCellValue('C1', 'Phone')
+                    ->setCellValue('D1', 'Home network')
+                    ->setCellValue('E1', 'Message sent')
                     ->setCellValue('F1', 'Denominations')
-                    ->setCellValue('G1', 'Đầu số')
+                    ->setCellValue('G1', 'Prefix')
                     ->setCellValue('H1', 'Trading code')
                     ->setCellValue('I1', 'Describe')
                     ->setCellValue('J1', 'Win')
@@ -2343,11 +2343,11 @@ Class Report extends MY_Controller
                 $objPHPExcel->setActiveSheetIndex(0)
                     ->setCellValue('A1', 'No')
                     ->setCellValue('B1', 'Nickname')
-                    ->setCellValue('C1', 'Điện thoại')
-                    ->setCellValue('D1', 'Nhà mạng')
-                    ->setCellValue('E1', 'Tin nhắn send')
+                    ->setCellValue('C1', 'Phone')
+                    ->setCellValue('D1', 'Home network')
+                    ->setCellValue('E1', 'Message sent')
                     ->setCellValue('F1', 'Denominations')
-                    ->setCellValue('G1', 'Đầu số')
+                    ->setCellValue('G1', 'Prefix')
                     ->setCellValue('H1', 'Trading code')
                     ->setCellValue('I1', 'Describe')
                     ->setCellValue('J1', 'Win')
@@ -2412,12 +2412,12 @@ Class Report extends MY_Controller
                     ->setCellValue('A1', 'No')
                     ->setCellValue('B1', 'Trading code')
                     ->setCellValue('C1', 'Nickname')
-                    ->setCellValue('D1', 'Thẻ')
-                    ->setCellValue('E1', 'Nhà cung cấp')
+                    ->setCellValue('D1', 'Card')
+                    ->setCellValue('E1', 'Supplier')
                     ->setCellValue('F1', 'Denominations')
-                    ->setCellValue('G1', 'Số lượng')
-                    ->setCellValue('H1', 'Thông tin thẻ nạp')
-                    ->setCellValue('I1', 'Error code dịch vụ')
+                    ->setCellValue('G1', 'Quantity')
+                    ->setCellValue('H1', 'Recharge card information')
+                    ->setCellValue('I1', 'Error code service')
                     ->setCellValue('J1', 'Describe')
                     ->setCellValue('K1', 'Error code win123Club')
                     ->setCellValue('L1', 'Time')
@@ -2485,12 +2485,12 @@ Class Report extends MY_Controller
                     ->setCellValue('A1', 'No')
                     ->setCellValue('B1', 'Trading code')
                     ->setCellValue('C1', 'Nickname')
-                    ->setCellValue('D1', 'Điện thoại')
-                    ->setCellValue('E1', 'Nhà mạng')
-                    ->setCellValue('F1', 'Nhà cung cấp')
-                    ->setCellValue('G1', 'Thuê bao')
+                    ->setCellValue('D1', 'Phone')
+                    ->setCellValue('E1', 'Home network')
+                    ->setCellValue('F1', 'Supplier')
+                    ->setCellValue('G1', 'Subscription')
                     ->setCellValue('H1', 'Money')
-                    ->setCellValue('I1', 'Error code dịch vụ')
+                    ->setCellValue('I1', 'Error code service')
                     ->setCellValue('J1', 'Describe')
                     ->setCellValue('K1', 'Error code win123club')
                     ->setCellValue('L1', 'Time')
@@ -2715,20 +2715,20 @@ Class Report extends MY_Controller
             ->setCellValue('O3', 'Vietnam Mobile')
             ->getStyle('C3:Q3')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
-            ->setCellValue('C4', 'Đơn giá')
-            ->setCellValue('D4', 'Số lượng')
+            ->setCellValue('C4', 'Unit price')
+            ->setCellValue('D4', 'Quantity')
             ->setCellValue('E4', 'Total money')
-            ->setCellValue('F4', 'Đơn giá')
-            ->setCellValue('G4', 'Số lượng')
+            ->setCellValue('F4', 'Unit price')
+            ->setCellValue('G4', 'Quantity')
             ->setCellValue('H4', 'Total money')
-            ->setCellValue('I4', 'Đơn giá')
-            ->setCellValue('J4', 'Số lượng')
+            ->setCellValue('I4', 'Unit price')
+            ->setCellValue('J4', 'Quantity')
             ->setCellValue('K4', 'Total money')
-            ->setCellValue('L4', 'Đơn giá')
-            ->setCellValue('M4', 'Số lượng')
+            ->setCellValue('L4', 'Unit price')
+            ->setCellValue('M4', 'Quantity')
             ->setCellValue('N4', 'Total money')
-            ->setCellValue('O4', 'Đơn giá')
-            ->setCellValue('P4', 'Số lượng')
+            ->setCellValue('O4', 'Unit price')
+            ->setCellValue('P4', 'Quantity')
             ->setCellValue('Q4', 'Total money')
             ->getStyle('C4:Q4')->applyFromArray($BStyle);
         $datainfo = $this->get_data_curl($this->config->item('api_backend') . '?c=148&ts=' . urlencode($start_time) . '&te=' . urlencode($end_time));
@@ -2861,19 +2861,19 @@ Class Report extends MY_Controller
             ->getNumberFormat()->setFormatCode('#,##0');
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B17:E17')
-            ->setCellValue('B17', 'Total doanh thu')
+            ->setCellValue('B17', 'Total revenue')
             ->getStyle('B17:E17')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B18:E18')
-            ->setCellValue('B18', 'Total doanh thu không bao gồm VAT')
+            ->setCellValue('B18', 'Total revenue does not include VAT')
             ->getStyle('B18:E18')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B19:E19')
-            ->setCellValue('B19', 'Tỷ lệ chia sẻ doanh thu')
+            ->setCellValue('B19', 'Revenue share ratio')
             ->getStyle('B19:E19')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B20:E20')
-            ->setCellValue('B20', 'Tỷ lệ thất thoát')
+            ->setCellValue('B20', 'Loss rate')
             ->getStyle('B20:E20')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B21:E21')
@@ -2881,23 +2881,23 @@ Class Report extends MY_Controller
             ->getStyle('B21:E21')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B22:E22')
-            ->setCellValue('B22', 'Chi phí mở mã (80,000 đ / mã)')
+            ->setCellValue('B22', 'Cost of opening code (80,000 VND/code)')
             ->getStyle('B22:E22')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B23:E23')
-            ->setCellValue('B23', 'Chi phí duy trì mã (32,000 đ / mã)')
+            ->setCellValue('B23', 'Code maintenance cost (32,000 VND/code)')
             ->getStyle('B23:E23')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B24:E24')
-            ->setCellValue('B24', 'Refund fee cước khách hàng khiếu nại')
+            ->setCellValue('B24', 'Refund fee for customer complaints')
             ->getStyle('B24:E24')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B25:E25')
-            ->setCellValue('B25', 'Fee khác (nếu có)')
+            ->setCellValue('B25', 'Other Fee (if any)')
             ->getStyle('B25:E25')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B26:E26')
-            ->setCellValue('B26', 'Total phí')
+            ->setCellValue('B26', 'Total fee')
             ->getStyle('B26:E26')->applyFromArray($BStyle);
         $objPHPExcel->setActiveSheetIndex(0)
             ->mergeCells('B27:E27')
@@ -3436,7 +3436,7 @@ Class Report extends MY_Controller
         $endPoint = $this->config->item('api_agent') . "?" . http_build_query($params);
         try {
             $data = $this->get_data_curl($endPoint);
-            echo empty($data) ? "Không trả về dữ liệu" : $data;
+            echo empty($data) ? "No data returned" : $data;
             return;
         } catch (\Exception $e) {
             log_message('error', 'Caught exception getListAjax : ' . $e->getMessage());

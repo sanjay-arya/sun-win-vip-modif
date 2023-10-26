@@ -9,6 +9,6 @@ class Migrate extends CI_Controller
         if ($this->migration->current() === FALSE) {
             return show_error($this->migration->error_string());
         }
-        echo 'Migrate thành công : ' . $this->migration->current();
+        echo 'Migrate successful : ' . $this->migration->current();
     }
 }

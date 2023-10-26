@@ -34,7 +34,7 @@ Class Login extends MY_controller
         $user = $this->admin_model->get_info_rule($where);
 
         if ($user == false) {
-            $this->session->set_flashdata('message', ' Account chưa được phân quyền');
+            $this->session->set_flashdata('message', 'Account has not been authorized');
             return false;
         } else {
             $this->session->set_userdata('user_id_login', $user->ID);
@@ -64,7 +64,7 @@ Class Login extends MY_controller
                     $this->log_login_admin($username,"Login",0);
                 }else{
                     $data->inforuser = 2;
-                    $this->log_login_admin($username,"Account chưa được phân quyền",1);
+                    $this->log_login_admin($username,"Account has not been authorized",1);
                 }
                 $datainfo = json_encode($data);
             }
@@ -73,22 +73,22 @@ Class Login extends MY_controller
                 $this->log_login_admin($username,"System interruption",1);
             }
             if($data->errorCode == 1005){
-                $this->log_login_admin($username,"Username không tồn tại",1);
+                $this->log_login_admin($username,"Username does not exist",1);
             }
             if($data->errorCode == 1007){
-                $this->log_login_admin($username,"Password không đúng",1);
+                $this->log_login_admin($username,"Password is incorrect",1);
             }
             if($data->errorCode == 1109){
-                $this->log_login_admin($username,"Account bị khóa đăng nhập",1);
+                $this->log_login_admin($username,"Account is locked from logging in",1);
             }
             if($data->errorCode == 1114){
-                $this->log_login_admin($username,"Hệ thống bảo trì",1);
+                $this->log_login_admin($username,"Maintenance system",1);
             }
             if($data->errorCode == 2001){
-                $this->log_login_admin($username,"Account chưa cập nhật nickname",1);
+                $this->log_login_admin($username,"Account has not updated nickname",1);
             }
             if($data->errorCode == 1012){
-                $this->log_login_admin($username,"Account đăng nhập bằng OTP",1);
+                $this->log_login_admin($username,"Account log in with OTP",1);
             }
         }
         if(isset($datainfo)) {
@@ -119,7 +119,7 @@ Class Login extends MY_controller
 					//return;
                     echo json_encode("1");
                 } else {
-                    $this->log_login_admin($username, "Account chưa được phân quyền", 1);
+                    $this->log_login_admin($username, "Account has not been authorized", 1);
                     echo json_encode("2");
                 }
 
@@ -129,27 +129,27 @@ Class Login extends MY_controller
                     echo json_encode("3");
                 }
                 if ($data->errorCode == 1005) {
-                    $this->log_login_admin($username, "Username không tồn tại", 1);
+                    $this->log_login_admin($username, "Username does not exist", 1);
                     echo json_encode("4");
                 }
                 if ($data->errorCode == 1007) {
-                    $this->log_login_admin($username, "Password không đúng", 1);
+                    $this->log_login_admin($username, "Password is incorrect", 1);
                     echo json_encode("5");
                 }
                 if ($data->errorCode == 1109) {
-                    $this->log_login_admin($username, "Account bị khóa đăng nhập", 1);
+                    $this->log_login_admin($username, "Account is locked from logging in", 1);
                     echo json_encode("6");
                 }
                 if ($data->errorCode == 1114) {
-                    $this->log_login_admin($username, "Hệ thống bảo trì", 1);
+                    $this->log_login_admin($username, "Maintenance system", 1);
                     echo json_encode("7");
                 }
                 if ($data->errorCode == 2001) {
-                    $this->log_login_admin($username, "Account chưa cập nhật nickname", 1);
+                    $this->log_login_admin($username, "Account has not updated nickname", 1);
                     echo json_encode("8");
                 }
                 if ($data->errorCode == 1012) {
-                    $this->log_login_admin($username, "Account đăng nhập bằng OTP", 1);
+                    $this->log_login_admin($username, "Account log in with OTP", 1);
                     echo json_encode("9");
                 }
 

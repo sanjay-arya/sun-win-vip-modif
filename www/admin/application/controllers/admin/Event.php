@@ -37,10 +37,10 @@ Class Event extends MY_Controller
                 );
                 $this->eventminigame_model->create($data);
             }
-            echo json_encode( "Bạn thêm số vòng quay thành công" );
+            echo json_encode( "You added spins successfully" );
         }else{
 
-            echo json_encode( "Nick name không tồn tại!" );
+            echo json_encode( "Nickname does not exist!" );
         }
     }
     function updaterotate(){
@@ -54,10 +54,10 @@ Class Event extends MY_Controller
                 );
                 $this->eventminigame_model->update($this->input->post('nickname'),$data);
             }
-            echo json_encode( "Bạn thêm số vòng quay thành công" );
+            echo json_encode( "You added spins successfully" );
         }else{
 
-            echo json_encode( "Nick name không tồn tại!" );
+            echo json_encode( "Nickname does not exist!" );
         }
 
     }

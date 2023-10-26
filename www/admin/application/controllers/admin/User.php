@@ -44,7 +44,7 @@ Class User extends MY_Controller
                     $response = [
                         "success" => false,
                         "errorCode" => -1,
-                        "message" => 'Nhập lại mật khẩu chưa trùng khớp'
+                        "message" => 'Re-enter password does not match'
                     ];
                     echo json_encode($response);
                 } else{
@@ -63,7 +63,7 @@ Class User extends MY_Controller
                             //tạo ra nội dung thông báo
                             $response = [
                                 "success" => true,
-                                "message" => 'Change Password thành công'
+                                "message" => 'Change Password Successfully'
                             ];
                             echo json_encode($response);
                         } else {
@@ -78,7 +78,7 @@ Class User extends MY_Controller
                         $response = [
                             "success" => false,
                             "errorCode" => -1,
-                            "message" => 'Nhập lại mật khẩu, mật khẩu cũ chưa đúng'
+                            "message" => 'Re-enter password, old password is not correct'
                         ];
                         echo json_encode($response);
                     }
@@ -248,7 +248,7 @@ function getnicknameajax(){
                     $data = array(
                         'account_name' => $nickname,
                         'username' => $admin_info->UserName,
-                        'action' => "Trừ vippoint event",
+                        'action' => "Except vippoint event",
                         'money' => -$value
                     );
                 }else{
@@ -307,7 +307,7 @@ function getnicknameajax(){
             if($datainfo == 0){
                 $data = array(
                     'username' => $admin_info->UserName,
-                    'action' => "Trả thưởng top doanh số đại lý"
+                    'action' => "Rewards for top agent sales"
                 );
                 $this->logadmin_model->create($data);}
             echo $datainfo;
@@ -442,15 +442,15 @@ function getnicknameajax(){
         if(isset($datainfo)) {
            if( $num > 0){
                 if($source == "" && $price == ""){
-                    $action = "Thu hồi giftcode được tạo từ ngày ".$this->input->post("fromdate")." đến ngày ".$this->input->post("todate")." số lượng: ".$num;
+                    $action = "Revoke giftcode created on ".$this->input->post("fromdate")." to date ".$this->input->post("todate")." quantity: ".$num;
                 }else if($source == "" && $price != ""){
-                    $action = "Thu hồi giftcode được tạo từ ngày ".$this->input->post("fromdate")." đến ngày ".$this->input->post("todate")." số lượng: ".$num." mệnh giá ".$price." K Vin";
+                    $action = "Revoke giftcode created on ".$this->input->post("fromdate")." to date ".$this->input->post("todate")." quantity: ".$num." denominations ".$price." K Vin";
                 }
                 else if($source != "" && $price == ""){
-                    $action = "Thu hồi giftcode được tạo từ ngày ".$this->input->post("fromdate")." đến ngày ".$this->input->post("todate")." số lượng: ".$num." mã ".$source;
+                    $action = "Revoke giftcode created on ".$this->input->post("fromdate")." to date ".$this->input->post("todate")." quantity: ".$num." mã ".$source;
                 }
                 else if($source != "" && $price != ""){
-                    $action = "Thu hồi giftcode được tạo từ ngày ".$this->input->post("fromdate")." đến ngày ".$this->input->post("todate")." số lượng: ".$num." mệnh giá ".$price." K Vin , mã ".$source;
+                    $action = "Revoke giftcode created on ".$this->input->post("fromdate")." to date ".$this->input->post("todate")." quantity: ".$num." denominations ".$price." K Vin , code ".$source;
                 }
                $data = array(
                    'username' => $admin_info->UserName,
@@ -471,7 +471,7 @@ function getnicknameajax(){
         if ($this->input->post("ok")) {
             if (file_exists('public/admin/uploads/congtientaixiu.csv')) {
                 unlink('public/admin/uploads/congtientaixiu.csv');
-                $this->data['error'] = "Bạn xóa file cũ thành công";
+                $this->data['error'] = "You successfully deleted the old file";
             } else {
                 $temp = explode(".", $_FILES["filexls"]["name"]);
                 $extension = end($temp);
@@ -487,16 +487,16 @@ function getnicknameajax(){
 
                     if (!$this->upload->do_upload('filexls')) {
                         $error = array('error' => $this->upload->display_errors());
-                        $this->data['error'] = "Bạn chưa chọn file hoặc không được phân quyền";
+                        $this->data['error'] = "You have not selected a file or are not authorized";
 
                     } else {
                         $this->data['error'] = "";
                         $data = array('upload_data' => $this->upload->data());
 
-                        $this->data['error'] = "Upload file thành công";
+                        $this->data['error'] = "Upload file successfully";
                     }
                 } else {
-                    $this->data['error'] = "Bạn chưa chọn file hoặc không chọn đúng file csv";
+                    $this->data['error'] = "You have not selected a file or have not selected the correct csv file";
                 }
             }
 
@@ -615,28 +615,28 @@ function getnicknameajax(){
             if ($data->errorCode == 0) {
                 if($ac == 4 && $action == 0){
                     $data = array(
-                        'action' => "Cancel bảo mật điện thoại",
+                        'action' => "Cancel phone security",
                         'account_name' => $nickname,
                         'username' => $admin_info->UserName
                     );
 
                 }elseif($ac == 5 && $action == 0){
                     $data = array(
-                        'action' => "Cancel bảo mật email",
+                        'action' => "Cancel email security",
                         'account_name' => $nickname,
                         'username' => $admin_info->UserName
                     );
 
                 }elseif($ac == 5 && $action == 1){
                     $data = array(
-                        'action' => "Đăng ký bảo mật email",
+                        'action' => "Sign up for email security",
                         'account_name' => $nickname,
                         'username' => $admin_info->UserName
                     );
 
                 }elseif($ac == 4 && $action == 1){
                     $data = array(
-                        'action' => "Đăng ký bảo mật điện thoại",
+                        'action' => "Register for phone security",
                         'account_name' => $nickname,
                         'username' => $admin_info->UserName
                     );
@@ -670,14 +670,14 @@ function getnicknameajax(){
             if ($data->errorCode == 0) {
                if($number > 0){
                     $data = array(
-                        'action' => "Add ".$number."  lượt quay slot ".$slot,
+                        'action' => "Add ".$number." slot spin ".$slot,
                         'account_name' => $nickname,
                         'username' => $admin_info->UserName
                     );
 
                 }else{
                    $data = array(
-                       'action' => "Trừ ".(-$number)."  lượt quay slot ".$slot,
+                       'action' => "Trừ ".(-$number)." slot spin ".$slot,
                        'account_name' => $nickname,
                        'username' => $admin_info->UserName
                    );
@@ -710,7 +710,7 @@ function getnicknameajax(){
         if(isset($datainfo)) {
             echo $datainfo;
         } else {
-            echo "Transaction không hợp lệ";
+            echo "Invalid transaction";
         }
     }
 

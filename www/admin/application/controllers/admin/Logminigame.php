@@ -134,21 +134,21 @@ Class Logminigame extends MY_Controller
         $code = $this->input->post('code');
         $MyFile = file('public/admin/taixiu.dat');
         if ($code == null) {
-            echo "Bạn chưa nhập cầu Over/under";
+            echo "You have not entered the Over/Under bridge";
             die();
         } else {
             foreach ($MyFile as $item) {
                 $item = (preg_replace("/\r|\n/", "", $item));
                 if ($code == $item) {
-                    echo "Bạn nhập trùng cầu Over/under rồi";
+                    echo "You entered Over/Under coccidia";
                     die();
                 }
             }
         }
         file_put_contents('public/admin/taixiu.dat', $code . "\n", FILE_APPEND);
-        echo "Bạn thêm cầu Over/under thành công";
+        echo "You successfully added the Over/Under bridge";
         $data = array(
-            'action' => " Thêm cầu Over/under",
+            'action' => "Add Over/Under bridge",
             'username' => $admin_info->UserName
         );
         $this->logadmin_model->create($data);
@@ -164,7 +164,7 @@ Class Logminigame extends MY_Controller
         foreach ($MyFile as $item) {
             $item = (preg_replace("/\r|\n/", "", $item));
             if ($code == $item) {
-                echo "Bạn nhập trùng cầu Over/under rồi";
+                echo "You entered Over/Under coccidia";
                 die();
             }
         }
@@ -173,9 +173,9 @@ Class Logminigame extends MY_Controller
             $abc = array_replace_recursive($MyFile, $arr2);
             file_put_contents('public/admin/taixiu.dat', $abc);
 
-            echo "Bạn sửa cầu Over/under thành công";
+            echo "You successfully repaired the Over/Under bridge";
             $data = array(
-                'action' => " Sửa cầu Over/under",
+                'action' => " Over/under bridge repair",
                 'username' => $admin_info->UserName
             );
             $this->logadmin_model->create($data);
@@ -193,7 +193,7 @@ Class Logminigame extends MY_Controller
         $abc = array_replace_recursive($MyFile, $arr2);
         file_put_contents('public/admin/taixiu.dat', $abc);
         $data = array(
-            'action' => " Erase cầu Over/under",
+            'action' => " Erase bridge Over/under",
             'username' => $admin_info->UserName
         );
         $this->logadmin_model->create($data);

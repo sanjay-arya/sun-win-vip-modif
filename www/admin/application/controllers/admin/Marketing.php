@@ -35,10 +35,10 @@ Class Marketing extends MY_Controller
         $this->data['utm_source'] = $utm_source;
         //neu ma co du lieu post len thi kiem tra
         if ($this->input->post()) {
-            $this->form_validation->set_rules('url_web', 'url web', 'required');
-            $this->form_validation->set_rules('utm_source', 'Nguồn chiến dịch', 'required');
-            $this->form_validation->set_rules('utm_medium', 'Phương tiện chiến dịch', 'required');
-            $this->form_validation->set_rules('utm_campaign', 'Name chiến dịch', 'required');
+            $this->form_validation->set_rules('url_web', 'web url', 'required');
+            $this->form_validation->set_rules('utm_source', 'Campaign Source', 'required');
+            $this->form_validation->set_rules('utm_medium', 'Campaign Vehicle', 'required');
+            $this->form_validation->set_rules('utm_campaign', 'Campaign name', 'required');
 
             //nhập liệu chính xác
             if ($this->form_validation->run()) {
@@ -75,9 +75,9 @@ Class Marketing extends MY_Controller
                 );
                 if ($this->urlbuilder_model->create($data)) {
                     //tạo ra nội dung thông báo
-                    $this->session->set_flashdata('message', 'Add new dữ liệu thành công');
+                    $this->session->set_flashdata('message', 'Add new data successfully');
                 } else {
-                    $this->session->set_flashdata('message', 'Không thêm được');
+                    $this->session->set_flashdata('message', "Can't add");
                 }
                 redirect(admin_url('marketing'));
             }
@@ -99,10 +99,10 @@ Class Marketing extends MY_Controller
         $info = $this->urlbuilder_model->get_info($id);
         $this->data['info'] = $info;
         if ($this->input->post()) {
-            $this->form_validation->set_rules('url_web', 'url web', 'required');
-            $this->form_validation->set_rules('utm_source', 'Nguồn chiến dịch', 'required');
-            $this->form_validation->set_rules('utm_medium', 'Phương tiện chiến dịch', 'required');
-            $this->form_validation->set_rules('utm_campaign', 'Name chiến dịch', 'required');
+            $this->form_validation->set_rules('url_web', 'web url', 'required');
+            $this->form_validation->set_rules('utm_source', 'Campaign Source', 'required');
+            $this->form_validation->set_rules('utm_medium', 'Campaign Vehicle', 'required');
+            $this->form_validation->set_rules('utm_campaign', 'Campaign name', 'required');
 
             //nhập liệu chính xác
             if ($this->form_validation->run()) {
@@ -139,7 +139,7 @@ Class Marketing extends MY_Controller
                     //tạo ra nội dung thông báo
                     $this->session->set_flashdata('message', 'Data update successful');
                 } else {
-                    $this->session->set_flashdata('message', 'Không thêm được');
+                    $this->session->set_flashdata('message', "Can't add");
                 }
                 redirect(admin_url('marketing'));
             }
@@ -222,9 +222,9 @@ Class Marketing extends MY_Controller
                 );
                 if ($this->utmcampain_model->create($data)) {
                     //tạo ra nội dung thông báo
-                    $this->session->set_flashdata('message', 'Add new dữ liệu thành công');
+                    $this->session->set_flashdata('message', 'Add new data successfully');
                 } else {
-                    $this->session->set_flashdata('message', 'Không thêm được');
+                    $this->session->set_flashdata('message', "Can't add");
                 }
                 redirect(admin_url('marketing'));
             }
@@ -251,9 +251,9 @@ Class Marketing extends MY_Controller
                 );
                 if ($this->utmsource_model->create($data)) {
                     //tạo ra nội dung thông báo
-                    $this->session->set_flashdata('message', 'Add new dữ liệu thành công');
+                    $this->session->set_flashdata('message', 'Add new data successfully');
                 } else {
-                    $this->session->set_flashdata('message', 'Không thêm được');
+                    $this->session->set_flashdata('message', "Can't add");
                 }
                 redirect(admin_url('marketing'));
             }
@@ -280,9 +280,9 @@ Class Marketing extends MY_Controller
                 );
                 if ($this->utmmedium_model->create($data)) {
                     //tạo ra nội dung thông báo
-                    $this->session->set_flashdata('message', 'Add new dữ liệu thành công');
+                    $this->session->set_flashdata('message', 'Add new data successfully');
                 } else {
-                    $this->session->set_flashdata('message', 'Không thêm được');
+                    $this->session->set_flashdata('message', "Can't add");
                 }
                 redirect(admin_url('marketing'));
             }
@@ -297,7 +297,7 @@ Class Marketing extends MY_Controller
         $this->load->helper('form');
         //neu ma co du lieu post len thi kiem tra
         if ($this->input->post()) {
-            $this->form_validation->set_rules('sourcegiftcode', 'Name nguồn giftcode', 'required');
+            $this->form_validation->set_rules('sourcegiftcode', 'Giftcode source name', 'required');
             $this->form_validation->set_rules('keygiftcode', 'Key  giftcode', 'required');
             //nhập liệu chính xác
             if ($this->form_validation->run()) {
@@ -315,9 +315,9 @@ Class Marketing extends MY_Controller
                 );
                 if ($this->sourcegiftcode_model->create($data)) {
                     //tạo ra nội dung thông báo
-                    $this->session->set_flashdata('message', 'Add new dữ liệu thành công');
+                    $this->session->set_flashdata('message', 'Add new data successfully');
                 } else {
-                    $this->session->set_flashdata('message', 'Không thêm được');
+                    $this->session->set_flashdata('message', "Can't add");
                 }
                 redirect(admin_url('marketing/sourcegiftcode'));
             }

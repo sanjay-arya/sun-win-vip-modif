@@ -16,7 +16,7 @@ Class Useraggregate extends MY_Controller
                 return ($x->bank_name);
             }, $data_decode->data);
         } else {
-            echo "Không có danh sách ngân hàng";
+            echo "No bank list";
         }
 
         $this->data['temp'] = 'admin/useraggregate/index';
@@ -118,7 +118,7 @@ Class Useraggregate extends MY_Controller
             $response = $this->get_data_curl($endPoint);
             $data = json_decode($response, true);
             if (empty($data) || empty($data['data']) || !isset($data['data']['balance'])) {
-                $balance = isset($data['message']) ? $data['message'] : 'Không trả về kết quả';
+                $balance = isset($data['message']) ? $data['message'] : 'No results returned';
                 echo json_encode(['balance' => $balance, 'message' => $response, 'userThirdParty' => '']);
                 return;
             }
@@ -147,7 +147,7 @@ Class Useraggregate extends MY_Controller
         try {
             $response = $this->get_data_curl($endPoint);
             if (empty($response)) {
-                $result = ['success' => false, 'message' => 'Không lấy dữ liệu.'];
+                $result = ['success' => false, 'message' => 'No data taken.'];
                 echo json_encode($result);
                 return;
             }

@@ -24,7 +24,7 @@ Class Config extends MY_Controller
         //lay thong cua quan trị viên
         $info = $this->gameconfig_model->get_info($id);
         if (!$info) {
-            $this->session->set_flashdata('message', 'Không tồn tại config');
+            $this->session->set_flashdata('message', 'Config does not exist');
             redirect(admin_url('config'));
         }
         $this->data['info'] = $info;

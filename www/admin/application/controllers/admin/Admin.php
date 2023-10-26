@@ -67,26 +67,26 @@ class Admin extends MY_Controller
         $fullName = $this->input->post('fullname');
         $status = $this->input->post('typeaccount');
         if (empty($status)) {
-            $this->session->set_flashdata('message', 'Select bộ phận.');
+            $this->session->set_flashdata('message', 'Select department.');
             return redirect(admin_url('admin'));
         }
         $roleMaps = $this->config->item('role_map');
         if (empty($roleMaps[$status])) {
-            $this->session->set_flashdata('message', 'Thêm nhóm người dùng tương ứng với bộ phận.');
+            $this->session->set_flashdata('message', 'Add a user group corresponding to the department.');
             return redirect(admin_url('admin'));
         }
         $groupId = $this->groupuser_model->getByName($roleMaps[$status]);
         if(!$groupId) {
-            $this->session->set_flashdata('message', 'Thêm nhóm người dùng tương ứng với tên : ' . $roleMaps[$status]);
+            $this->session->set_flashdata('message', 'Add user group corresponding to name : ' . $roleMaps[$status]);
             return redirect(admin_url('admin'));
         }
 
         $result = $this->admin_model->createAccount($username, $fullName, $groupId->Id, $status);
         if ($result) {
-            $this->session->set_flashdata('message', 'Add new dữ liệu thành công.');
+            $this->session->set_flashdata('message', 'Add new data successfully.');
             return redirect(admin_url('admin'));
         }
-        $this->session->set_flashdata('message', 'Add new dữ liệu không thành công.');
+        $this->session->set_flashdata('message', 'Add new data failed.');
         return redirect(admin_url('admin'));
     }
 
@@ -223,7 +223,7 @@ class Admin extends MY_Controller
             $newPassword = md5($this->input->post('newPassword'));
             $retypePassword = md5($this->input->post('retypePassword'));
             if($newPassword != $retypePassword){
-                $this->session->set_flashdata('message', 'Nhập lại mật khẩu chưa trùng khớp');
+                $this->session->set_flashdata('message', 'Re-enter password does not match');
                 redirect(admin_url('admin/changePassword'));
             } else{
                 if ($oldPasswordInDB == $oldPassword){
@@ -238,14 +238,14 @@ class Admin extends MY_Controller
                     $username_dbvinplay = $username_dbvinplay_admin;
                     if ($this->DBvinplay_Users_model->updateByUsername($username_dbvinplay, $data2) && $this->admin_model->update($id, $data1)) {
                         //tạo ra nội dung thông báo
-                        $this->session->set_flashdata('message', 'Change Password thành công');
+                        $this->session->set_flashdata('message', 'Change Password Successfully');
                     } else {
                         $this->session->set_flashdata('message', 'Unable to update');
                     }
                     //chuyen tới trang danh sách quản trị viên
                     redirect(admin_url('admin'));
                 }else{
-                    $this->session->set_flashdata('message', 'Nhập lại mật khẩu, mật khẩu cũ chưa đúng');
+                    $this->session->set_flashdata('message', 'Re-enter password, old password is not correct');
                     redirect(admin_url('admin'));
                 }
             }
@@ -355,7 +355,7 @@ class Admin extends MY_Controller
         }
         //thuc hiện xóa
         if ($admin_info->ID == $id) {
-            $this->session->set_flashdata('message', 'Bạn không được xóa chính mình');
+            $this->session->set_flashdata('message', 'You must not delete yourself');
             redirect(admin_url('admin'));
         } else {
             $this->admin_model->delete($id);

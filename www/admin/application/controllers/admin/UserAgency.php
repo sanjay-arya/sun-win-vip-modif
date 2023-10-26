@@ -225,7 +225,7 @@ Class UserAgency extends MY_Controller
         header('Content-Disposition: attachment; filename="' . $filename . '";');
         ob_end_clean();
         $handle = fopen('php://output', 'w');
-        fputcsv($handle, ['Nickname', 'Phone', 'Email', 'Ngày đăng ký'], $delimiter);
+        fputcsv($handle, ['Nickname', 'Phone', 'Email', 'Registration Date'], $delimiter);
         foreach ($array as $value) {
             fputcsv($handle, $value, $delimiter);
         }
