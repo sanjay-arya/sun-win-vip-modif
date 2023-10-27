@@ -1,64 +1,61 @@
 <?php
 //status
-$lang['order_status_pending']           = 'Chờ xử lý';
-$lang['order_status_completed']         = 'Đã send hàng';
-$lang['order_status_cancel']            = 'Cancel';
+$lang['order_status_pending'] = 'Pending';
+$lang['order_status_completed'] = 'Order Shipped';
+$lang['order_status_cancel'] = 'Cancelled';
 
-$lang['tran_status_pending']            = 'Chờ xử lý';
-$lang['tran_status_completed']          = 'Success';
-$lang['tran_status_cancel']             = 'Cancel';
+$lang['tran_status_pending'] = 'Pending';
+$lang['tran_status_completed'] = 'Success';
+$lang['tran_status_cancel'] = 'Cancelled';
 
+$lang['product_order_info'] = 'Order Management';
 
-$lang['product_order_info']					= 'Quản lý đơn hàng';
+$lang['title_product_order_ship'] = 'Shipping Information';
 
-$lang['title_product_order_ship']			= 'Thông tin nhận hàng';
+$lang['product'] = 'Product';
+$lang['from_date'] = 'From Date';
+$lang['to_date'] = 'To Date';
+$lang['tran'] = 'Transaction';
+$lang['product_order'] = 'Order';
+$lang['order'] = 'Order';
+$lang['view_of_user'] = 'View Orders of Members';
+$lang['view_of_product'] = 'View Purchased Orders';
+$lang['recode'] = 'Redownload';
+$lang['receiver_name'] = 'Receiver Name';
+$lang['receiver_time'] = 'Received Date';
+$lang['message'] = 'Message';
 
-$lang['product']				    		= 'Sản phẩm';
-$lang['from_date']							= 'Since';
-$lang['to_date']							= 'To date';
-$lang['tran']				    			= 'Transaction';
-$lang['product_order']				    	= 'Đơn hàng';
-$lang['order']                              = 'Đơn hàng';
-$lang['view_of_user']						= 'Xem các đơn hàng của thành viên';
-$lang['view_of_product']					= 'Xem các đơn hàng mua';
-$lang['recode']								= 'Redownload';
-$lang['receiver_name']						= 'Name People nhận';
-$lang['receiver_time']						= 'Day nhận';
-$lang['message']							= 'Lời nhắn';
+$lang['personnel'] = 'Delivery Personnel';
+$lang['time'] = 'Delivery Date';
+$lang['notes'] = 'Notes';
 
-$lang['personnel']                          = 'Nhân viên giao hàng';
-$lang['time']                               = 'Day giao hàng';
-$lang['notes']                              = 'Ghi chú';
+$lang['export'] = 'Export to Excel';
+$lang['select_action'] = 'Action...';
+$lang['action_cancel'] = 'Cancel';
+$lang['action_active'] = 'Success';
+$lang['action_del'] = 'Delete';
 
-$lang['export']                             = 'Xuất ra Excel';
-$lang['select_action']				   		= 'Act...';
-$lang['action_cancel']						= 'Cancel bỏ';
-$lang['action_active']						= 'Success';
-$lang['action_del']							= 'Delete';
+$lang['note_enter_user_id'] = 'Enter Member ID';
+$lang['note_enter_product_id'] = 'Enter Product ID';
+$lang['date_start'] = 'Date Created';
+$lang['date_expiration'] = 'Expiration Date';
+$lang['date_left'] = 'Remaining';
+$lang['closed'] = 'Expired';
+$lang['ending_today'] = 'Expiring Today';
 
-$lang['note_enter_user_id']					= 'Nhập mã thành viên';
-$lang['note_enter_product_id']				= 'Nhập mã sản phẩm';
+$lang['button_login'] = 'Login';
+$lang['button_logout'] = 'Logout';
+$lang['button_submit'] = 'Submit';
+$lang['button_reset'] = 'Reset';
+$lang['button_accept'] = 'Accept';
+$lang['button_cancel'] = 'Cancel';
+$lang['button_add'] = 'Add New';
+$lang['button_update'] = 'Update';
 
+$lang['notice_are_you_sure_want_to_recode'] = 'Are you sure you want to Redownload the card code for order #%s?';
+$lang['notice_are_you_sure_want_to_active'] = 'Are you sure you want to activate order #%s?';
+$lang['notice_are_you_sure_want_to_cancel'] = 'Are you sure you want to cancel order #%s?';
+$lang['notice_are_you_sure_want_to_delete'] = 'Are you sure you want to delete order #%s?';
 
-$lang['date_start']				        = 'Date created';
-$lang['date_expiration']				= 'Day hết hạn';
-$lang['date_left']				  		= 'Còn lại';
-$lang['closed'] 						= 'Hết hạn';
-$lang['ending_today']					= 'Hết hạn hôm nay';
-
-$lang['button_login']					= 'Đăng nhập';
-$lang['button_logout']				 	= 'Đăng xuất';
-$lang['button_submit']					= 'Perform';
-$lang['button_reset']					= 'Cancel bỏ';
-$lang['button_accept']				  	= 'Chấp nhận';
-$lang['button_cancel']				 	= 'Cancel bỏ';
-$lang['button_add']						= 'Add new';
-$lang['button_update']					= 'Update';
-
-
-$lang['notice_are_you_sure_want_to_recode']	= 'Bạn có chắc chắn muốn Redownload mã thẻ của đơn hàng #%s ?';
-$lang['notice_are_you_sure_want_to_active'] = 'Bạn có chắc chắn muốn kich hoạt đơn hàng #%s ?';
-$lang['notice_are_you_sure_want_to_cancel']	= 'Bạn có chắc chắn muốn Cancel bỏ đơn hàng #%s ?';
-$lang['notice_are_you_sure_want_to_delete']	= 'Bạn có chắc chắn muốn xóa đơn hàng #%s ?';
 
 ?>

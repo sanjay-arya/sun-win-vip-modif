@@ -1,54 +1,55 @@
 <?php
-$lang['video_info']						   = 'Quản lý video';
+$lang['video_info'] = 'Video Management';
 
-$lang['intro']								= 'Giới thiệu';
-$lang['link']								= 'Link Youtube';
-$lang['show_home']                          = 'Display ra trang chủ';
+$lang['intro'] = 'Introduction';
+$lang['link'] = 'YouTube Link';
+$lang['show_home'] = 'Display on Homepage';
 
-$lang['title_list_unaccept']				= 'List video chờ duyệt';
-$lang['title_list_accept']					= 'List video đã duyệt';
-$lang['title_list_hide']					= 'List video đang ẩn';
-$lang['title_list_feature']					= 'List video hấp dẫn nhất';
-$lang['title_list_vip']						= 'List video vip';
+$lang['title_list_unaccept'] = 'List of Videos Waiting for Approval';
+$lang['title_list_accept'] = 'List of Approved Videos';
+$lang['title_list_hide'] = 'List of Hidden Videos';
+$lang['title_list_feature'] = 'List of Featured Videos';
+$lang['title_list_vip'] = 'List of VIP Videos';
 
-$lang['view_of_day']						= 'Xem các video được post trong Day';
-$lang['post_date']							= 'Day đăng';
-$lang['feature_set']						= 'Tạo hấp dẫn nhất';
-$lang['feature_del']						= 'Bỏ hấp dẫn nhất';
-$lang['vip_set']							= 'Tạo vip';
-$lang['vip_del']							= 'Bỏ vip';
-$lang['city']								= 'Thành phố';
-$lang['tab_info']							= 'Thông tin chung';
-$lang['tab_option']							= 'Properties';
-$lang['select_option_value']				= '-=[Select giá trị]=-';
-$lang['other_value']						= 'hoặc điền';
-$lang['last_update']						= 'Update';
-$lang['price_contact']						= 'Vui lòng gọi';
-$lang['price_of_feature']					= 'Giá bán tiêu biểu';
-$lang['price_of_user']						= 'Giá bán của thành viên khác';
-$lang['note']								= 'Ghi chú';
-$lang['poster']								= 'People đăng';
+$lang['view_of_day'] = 'View Videos Posted Today';
+$lang['post_date'] = 'Posting Date';
+$lang['feature_set'] = 'Set as Featured';
+$lang['feature_del'] = 'Remove Featured';
+$lang['vip_set'] = 'Set as VIP';
+$lang['vip_del'] = 'Remove VIP';
+$lang['city'] = 'City';
+$lang['tab_info'] = 'General Information';
+$lang['tab_option'] = 'Video Properties';
+$lang['select_option_value'] = '-=[Select a Value]=-';
+$lang['other_value'] = 'or enter';
+$lang['last_update'] = 'Last Update';
+$lang['price_contact'] = 'Please Call';
+$lang['price_of_feature'] = 'Featured Video Price';
+$lang['price_of_user'] = 'Price for Other Users';
+$lang['note'] = 'Note';
+$lang['poster'] = 'Posted By';
 
-$lang['feature_set']						= 'Tạo nổi bật';
-$lang['feature_del']						= 'Bỏ nổi bật';
-$lang['hide_set']							= 'Ẩn video';
-$lang['hide_del']							= 'Hiện video';
+$lang['feature_set'] = 'Set as Featured';
+$lang['feature_del'] = 'Remove Featured';
+$lang['hide_set'] = 'Hide Video';
+$lang['hide_del'] = 'Show Video';
 
-//option
-$lang['hide_set']						    = 'Ẩn Video';
-$lang['hide_del']						    = 'Hiện Video';
-$lang['feature_set']					    = 'Tạo nổi bật';
-$lang['feature_del']					    = 'Bỏ nổi bật';
+// Options
+$lang['hide_set'] = 'Hide Video';
+$lang['hide_del'] = 'Show Video';
+$lang['feature_set'] = 'Set as Featured';
+$lang['feature_del'] = 'Remove Featured';
 
-$lang['option_feature']				  		= 'hấp dẫn nhất';
-$lang['option_vip']				  			= 'Vip';
+$lang['option_feature'] = 'Featured';
+$lang['option_vip'] = 'VIP';
 
-$lang['action_accept']						= 'Confirm';
-$lang['action_del']							= 'Delete';
+$lang['action_accept'] = 'Confirm';
+$lang['action_del'] = 'Delete';
 
-$lang['notice_are_you_sure_want_to_delete']	= 'Bạn có chắc chắn muốn xóa video';
-$lang['notice_are_you_sure_want_to_accept']	= 'Bạn có chắc chắn muốn Confirm video';
-$lang['notice_are_you_sure_want_to_delete_price'] = 'Bạn có chắc chắn muốn xóa giá bán của nhà cung cấp';
-$lang['notice_no_video_in_this']			= 'Chưa có video tại đây';
+$lang['notice_are_you_sure_want_to_delete'] = 'Are you sure you want to delete this video?';
+$lang['notice_are_you_sure_want_to_accept'] = 'Are you sure you want to confirm this video?';
+$lang['notice_are_you_sure_want_to_delete_price'] = 'Are you sure you want to delete the price of this supplier?';
+$lang['notice_no_video_in_this'] = 'No videos available here.';
+
 
 ?>

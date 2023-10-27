@@ -1,60 +1,58 @@
 <?php
-$lang['user_info']							= 'Quản lý thành viên';
+$lang['user_info'] = 'User Management';
 
-$lang['title_verify_info']					= 'Thông tin xác thực';
-$lang['title_verify_edit']					= 'Edit thông tin xác thực';
+$lang['title_verify_info'] = 'Verification Information';
+$lang['title_verify_edit'] = 'Edit Verification Information';
 
-$lang['password_repeat']					= 'Nhập lại mật khẩu';
-$lang['user_is_blocked']					= 'Account này đã bị khóa';
-$lang['user_unblock']						= 'Đang hoạt động';
-$lang['user_blocked']						= 'Bị khóa';
-$lang['block_user']				        	= 'Lock account';
-$lang['unblock_user']				        = 'Mở lại tài khoản';
-$lang['user_date_added']					= 'Thành viên từ';
-$lang['admin_login_user']					= 'Đăng nhập vào tài khoản thành viên';
-$lang['verify']								= 'Xác thực';
-$lang['view_verify_info']					= 'Xem thông tin xác thực';
-$lang['blocked']							= 'Khóa';
-$lang['balance']							= 'Surplus';
-$lang['transaction']						= 'Transaction';
-$lang['withdraw']							= 'Rút tiền';
-$lang['deposit']							= 'Nạp tiền';
+$lang['password_repeat'] = 'Repeat Password';
+$lang['user_is_blocked'] = 'This account is blocked';
+$lang['user_unblock'] = 'Active';
+$lang['user_blocked'] = 'Blocked';
+$lang['block_user'] = 'Lock Account';
+$lang['unblock_user'] = 'Unlock Account';
+$lang['user_date_added'] = 'Member Since';
+$lang['admin_login_user'] = 'Log in as a user';
+$lang['verify'] = 'Verify';
+$lang['view_verify_info'] = 'View Verification Information';
+$lang['blocked'] = 'Blocked';
+$lang['balance'] = 'Balance';
+$lang['transaction'] = 'Transaction';
+$lang['withdraw'] = 'Withdraw';
+$lang['deposit'] = 'Deposit';
 
-$lang['affiliate']                          = 'Affiliate';
-$lang['affiliate_key']                      = 'Referral code';
+$lang['affiliate'] = 'Affiliate';
+$lang['affiliate_key'] = 'Referral Code';
 
-$lang['user_group']							= 'Group thành viên';
-$lang['payment']				        	= 'Cổng thanh toán';
-$lang['payment_total_amount']				= 'Amount of money giao dịch tối đa trong 1 Day';
+$lang['user_group'] = 'User Group';
+$lang['payment'] = 'Payment Gateway';
+$lang['payment_total_amount'] = 'Maximum Transaction Amount in a Day';
 
-$lang['full_name']				   			= 'Họ tên';
-$lang['card_no']				   			= 'Số chứng minh nhân dân';
-$lang['card_place']				   			= 'Nơi cấp';
-$lang['card_date']				   			= 'Day cấp';
-$lang['paypal_emails']				   		= 'Các email sử dụng khi thanh toán qua paypal';
-$lang['image_card_front']				   	= 'Mặt trước CMND/Hộ chiếu';
-$lang['image_card_back']				   	= 'Mặt sau CMND/Hộ chiếu';
-$lang['image_photo']				   		= 'Ảnh cá nhân';
+$lang['full_name'] = 'Full Name';
+$lang['card_no'] = 'ID Card Number';
+$lang['card_place'] = 'Place of Issue';
+$lang['card_date'] = 'Date of Issue';
+$lang['paypal_emails'] = 'Emails used for PayPal payments';
+$lang['image_card_front'] = 'Front of ID Card/Passport';
+$lang['image_card_back'] = 'Back of ID Card/Passport';
+$lang['image_photo'] = 'Personal Photo';
 
-$lang['discount']				        	= 'Hoa hống giới thiệu';
+$lang['discount'] = 'Referral Bonus';
 
-$lang['select_action']				   		= 'Act...';
-$lang['action_block']						= 'Lock account';
-$lang['action_unblock']						= 'Mở lại tài khoản';
-$lang['action_del']							= 'Delete';
+$lang['select_action'] = 'Action...';
+$lang['action_block'] = 'Block Account';
+$lang['action_unblock'] = 'Unlock Account';
+$lang['action_del'] = 'Delete';
+$lang['note_password'] = 'Password must be at least 6 characters long';
+$lang['note_password_change'] = 'When you want to change the password, enter the new value';
+$lang['note_paypal_emails'] = 'One email per line';
 
-$lang['note_password']						= 'Mật khẩu phải có ít nhất 6 kí tự';
-$lang['note_password_change']				= 'Khi muốn thay đổi mật khẩu thì mới nhập giá trị';
-$lang['note_paypal_emails']					= 'Mỗi email một dòng';
+$lang['notice_are_you_sure_want_to_delete'] = 'Are you sure you want to delete the user';
+$lang['notice_are_you_sure_want_to_block'] = 'Are you sure you want to block the account';
+$lang['notice_are_you_sure_want_to_unblock'] = 'Are you sure you want to unblock the account';
+$lang['notice_verify_are_you_sure_want_to_accept'] = 'Are you sure you want to verify the user: %s ?
+When verified, the system will automatically assign the user to the group: %s.';
+$lang['notice_verify_are_you_sure_want_to_cancel'] = 'Are you sure you want to cancel the verification information of the user: %s ?
+When canceled, the system will automatically assign the user to the group: %s.';
 
-$lang['notice_are_you_sure_want_to_delete']	= 'Bạn có chắc chắn muốn xóa thành viên';
-$lang['notice_are_you_sure_want_to_block']	= 'Bạn có chắc chắn muốn khóa tài khoản';
-$lang['notice_are_you_sure_want_to_unblock']= 'Bạn có chắc chắn muốn mở lại tài khoản';
-$lang['notice_verify_are_you_sure_want_to_accept']	= 'Bạn có chắc chắn muốn xác thực cho thành viên: %s ?
-												Khi xác thực thì hệ thống sẽ tự động gán thành viên vào nhóm: %s.
-											';
-$lang['notice_verify_are_you_sure_want_to_cancel']	= 'Bạn có chắc chắn muốn Cancel bỏ thông tin xác thực của thành viên: %s ?
-												Khi Cancel bỏ thì hệ thống sẽ tự động gán thành viên vào nhóm: %s.
-											';
 
 ?>

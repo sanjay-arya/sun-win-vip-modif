@@ -110,28 +110,29 @@
 //                    var baseurl = "<?php //print admin_url(); ?>//";
 //                    window.location.href = baseurl;
 //                }else if(res == 2){
-//                    $("#validate-text").html("Account không phải là admin hoặc đại lý");
+//                  $("#validate-text").html("Account is not an admin or agent");
 //                }
 //                else if(res == 3){
 //                    $("#validate-text").html("System interruption ");
 //                }
 //                else if(res == 4){
-//                    $("#validate-text").html("Login name không tồn tại");
+//                    $("#validate-text").html("Login name does not exist");
 //                }
 //                else if(res == 5){
-//                    $("#validate-text").html("Mật khẩu không chính xác");
+//                   $("#validate-text").html("Incorrect password");
 //                }
 //                else if(res == 6){
-//                    $("#validate-text").html("Account bị khóa");
+//                    $("#validate-text").html("Account is locked");
 //                }
 //                else if(res == 7){
-//                    $("#validate-text").html("Hệ thống bảo trì");
+//                    $("#validate-text").html("System maintenance");
 //                }
 //                else if(res == 8){
-//                    $("#validate-text").html("Account chưa cập nhật nickname");
+//                   $("#validate-text").html("Account has not updated its nickname");
 //                }
 //                else if(res == 9){
-//                    $("#validate-text").html("Account chưa đăng ký OTP");
+//                    $("#validate-text").html("Account has not registered for OTP");
+}
 //                }
 //            }, error: function () {
 //                $("#spinner").hide();
@@ -142,15 +143,16 @@
 //});
 //$("#login").click(function () {
 //    if ($("#param_password").val() == "" && $("#param_username").val() == "") {
-//        $("#validate-text").html("Bạn chưa nhập tên đăng nhập và mật khẩu");
+//        $("#validate-text").html("You haven't entered a username and password.");
 //        return false;
 //    }
 //    if ($("#param_username").val() == "") {
-//        $("#validate-text").html("Bạn chưa nhập tên đăng nhập");
+//        $("#validate-text").html("You haven't entered a username.");
 //        return false;
 //    }
 //    if ($("#param_password").val() == "") {
-//        $("#validate-text").html("Bạn chưa nhập mật khẩu");
+//        $("#validate-text").html("You haven't entered a password.");
+
 //        return false;
 //    }
 //    $("#spinner").show();
