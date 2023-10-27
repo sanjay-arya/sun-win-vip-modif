@@ -112,7 +112,7 @@
     $("#edit_gift_code").click(function (e) {
         e.preventDefault()
         if(!$("#title").val() || !$("#amount").val() || !$("#expiredTime").val()) {
-            $('#errorgift').html('Nhập đầy đủ các trường bắt buộc');
+            $('#errorgift').html('Enter all required fields');
             return;
         }
         $("#spinner").show();
@@ -130,14 +130,14 @@
                 $("#spinner").hide();
                 if (response.success) {
                     reset()
-                    $('#success-gift').html('Sửa sự kiện thành công');
+                    $('#success-gift').html('Edit sự kiện thành công');
                     window.location.href = '<?= admin_url('eventGiftCode') ?>'
                 } else {
                     $("#errorgift").html(response.message)
                 }
             }, error: function () {
                 $("#spinner").hide();
-                $("#errorgift").html("Hệ thống quá tải. Vui lòng thử lại!");
+                $("#errorgift").html("System overloaded. Please try again!");
             }, timeout: 60000
         })
     });

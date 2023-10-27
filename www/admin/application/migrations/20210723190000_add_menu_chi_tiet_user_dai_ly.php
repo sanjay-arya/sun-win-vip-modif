@@ -11,7 +11,7 @@ class Migration_Add_menu_chi_tiet_user_dai_ly extends CI_Migration
             return;
         }
         $data = array(
-            'Name' => 'List user thuộc đại lý',
+            'Name' => 'List of users belonging to the agent',
             'Param' => '3',
             'Link' => 'userAgency/player',
             'Status' => 'A',

@@ -1,7 +1,7 @@
 <div class="titleArea">
     <div class="wrapper">
         <div class="pageTitle">
-            <h5>Đại Lý</h5>
+            <h5>Agency</h5>
         </div>
         <div class="horControlB menu_action">
             <ul>
@@ -25,7 +25,7 @@
     <div class="widget backaccount">
         <section class="content-header">
             <h1>
-                Sửa đại lý
+                Edit agent
             </h1>
         </section>
         <section class="content">
@@ -109,7 +109,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-sm-9">
-                                        <input type="submit" value="Sửa" name="submit"
+                                        <input type="submit" value="Edit" name="submit"
                                                class="btn btn-primary" id="edit">
                                     </div>
                                 </div>
@@ -156,14 +156,14 @@
                 $("#spinner").hide();
                 if (response.success) {
                     reset()
-                    $('#success-gift').html('Update thành công');
+                    $('#success-gift').html('Update successful');
                     window.location.href = '<?= admin_url('userAgency/edit') . '/' . $agent['id'] ?>'
                 } else {
                     $("#errorgift").html(response.message)
                 }
             }, error: function () {
                 $("#spinner").hide();
-                $("#errorgift").html("Hệ thống quá tải. Vui lòng thử lại!");
+                $("#errorgift").html("System overloaded. Please try again!");
             }, timeout: 60000
         })
     });

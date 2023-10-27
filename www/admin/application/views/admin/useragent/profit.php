@@ -12,7 +12,8 @@
 
     <div class="widget backaccount">
         <div class="title">
-            <h6>List lợi nhuận đại lý</h6>
+            <h6>Agent Profit List</h6>
+
         </div>
 
         <form class="list_filter form" action="<?= admin_url('userAgency/profit')?>" method="post">
@@ -36,7 +37,7 @@
                 </div>
 
                 <div class="col-sm-1">
-                    <label for="giftCode">Năm:</label>
+                    <label for="giftCode">Year:</label>
                 </div>
                 <div class="col-sm-2">
                     <select class="form-control" id="year" name="year" value="<?= $this->input->post('year') ?>">
@@ -71,18 +72,19 @@
                         <thead>
                         <tr style="height: 20px;">
                             <th>No</th>
-                            <th>Name of agent</th>
+                            <th>Name of Agent</th>
                             <th>Code</th>
-                            <th>Total nạp</th>
-                            <th>Total rút</th>
-                            <th>Total hoàn trả</th>
-                            <th>Total khuyến mại</th>
+                            <th>Total Deposits</th>
+                            <th>Total Withdrawals</th>
+                            <th>Total Refunds</th>
+                            <th>Total Promotions</th>
                             <th>Fee</th>
-                            <th>Lợi nhuận</th>
-                            <th>Hoa hồng</th>
-                            <th>Số thành viên hoạt động</th>
-                            <th>Day đăng ký</th>
+                            <th>Profit</th>
+                            <th>Commission</th>
+                            <th>Number of Active Members</th>
+                            <th>Registration Date</th>
                         </tr>
+
                         </thead>
                         <tbody id="logaction">
                         </tbody>
@@ -95,16 +97,17 @@
                 <table class="table table-bordered" style="table-layout: fixed">
                     <thead>
                     <tr style="height: 20px;">
-                        <th>Total thuộc đại lý:</th>
-                        <th>Total nạp</th>
-                        <th>Total rút</th>
-                        <th>Total hoàn trả</th>
-                        <th>Total khuyến mại</th>
+                        <th>Total for Agent:</th>
+                        <th>Total Deposits</th>
+                        <th>Total Withdrawals</th>
+                        <th>Total Refunds</th>
+                        <th>Total Promotions</th>
                         <th>Fee</th>
-                        <th>Lợi nhuận</th>
-                        <th>Hoa hồng</th>
-                        <th>Số thành viên hoạt động</th>
+                        <th>Profit</th>
+                        <th>Commission</th>
+                        <th>Number of Active Members</th>
                     </tr>
+
                     </thead>
                     <tr style="height: 20px;">
                         <th></th>
@@ -119,16 +122,17 @@
                     </tr>
                     <tbody>
                     <tr style="height: 20px;">
-                        <th>Total không thuộc đại lý:</th>
-                        <th>Total nạp</th>
-                        <th>Total rút</th>
-                        <th>Total hoàn trả</th>
-                        <th>Total khuyến mại</th>
+                        <th>Total not belonging to Agent:</th>
+                        <th>Total Deposits</th>
+                        <th>Total Withdrawals</th>
+                        <th>Total Refunds</th>
+                        <th>Total Promotions</th>
                         <th>Fee</th>
-                        <th>Lợi nhuận</th>
-                        <th>Hoa hồng</th>
-                        <th>Số thành viên hoạt động</th>
+                        <th>Profit</th>
+                        <th>Commission</th>
+                        <th>Number of Active Members</th>
                     </tr>
+
                     <tr style="height: 20px;">
                         <th></th>
                         <th id="free-totalDeposit"></th>

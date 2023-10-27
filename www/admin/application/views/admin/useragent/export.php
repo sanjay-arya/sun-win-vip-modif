@@ -1,7 +1,7 @@
 <div class="titleArea">
     <div class="wrapper">
         <div class="pageTitle">
-            <h5>Export data user đại Lý</h5>
+            <h5>Export agent user data</h5>
         </div>
         <div class="clear"></div>
     </div>
@@ -14,7 +14,7 @@
         <form class="list_filter form" action="<?php echo admin_url('userAgency/export') ?>" method="post">
             <div class="formRow row">
                 <div class="col-sm-1">
-                    <label for="giftCode">Mã đại lý (*) </label>
+                    <label for="giftCode">Dealer code (*) </label>
                 </div>
                 <div class="col-sm-2">
                     <input type="text" id="ref" value="<?= $this->input->post('ref') ?>" required name="ref">

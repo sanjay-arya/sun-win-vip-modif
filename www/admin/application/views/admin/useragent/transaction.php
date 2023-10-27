@@ -280,9 +280,9 @@
 <script>
     function maskActive(val) {
         if (val == 1) {
-            return 'Kích hoạt';
+            return 'Activated';
         }
-        return 'Vô hiệu';
+        return 'Void';
     }
 </script>
 <style>

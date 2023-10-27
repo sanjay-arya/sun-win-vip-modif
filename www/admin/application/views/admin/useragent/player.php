@@ -12,7 +12,7 @@
 
     <div class="widget backaccount">
         <div class="title">
-            <h6>List user thuộc đại lý</h6>
+            <h6>List of users belonging to the agent</h6>
         </div>
 
         <form class="list_filter form" action="<?= admin_url('userAgency/player')?>" method="post">
@@ -66,13 +66,14 @@
             </div>
         </form>
         <div class="row">
-            <div class="col-sm-12">
-                <h4 class="float-right">Total records:<span style="color:#0000ff" id="total"></span></h4>
-                <h4 class="float-right"> Total khuyến mại : <span style="color:#0000ff" id="khuyenmai"></span> | </h4>
-                <h4 class="float-right">Total nạp : <span style="color:#0000ff" id="tongnap"></span> | </h4>
-                <h4 class="float-right">Total rút : <span style="color:#0000ff" id="tongrut"></span> | </h4>
-                <h4 class="float-right">Total Revenue : <span style="color:#0000ff" id="doanhthu"></span> | </h4>
-            </div>
+        <div class="col-sm-12">
+            <h4 class="float-right">Total records:<span style="color:#0000ff" id="total"></span></h4>
+            <h4 class="float-right"> Total promotions : <span style="color:#0000ff" id="khuyenmai"></span> | </h4>
+            <h4 class="float-right">Total deposits : <span style="color:#0000ff" id="tongnap"></span> | </h4>
+            <h4 class="float-right">Total withdrawals : <span style="color:#0000ff" id="tongrut"></span> | </h4>
+            <h4 class="float-right">Total Revenue : <span style="color:#0000ff" id="doanhthu"></span> | </h4>
+        </div>
+
             <div class="col-sm-12">
                 <div id="resultsearch" class="float-left text-danger"></div>
             </div>
@@ -82,14 +83,15 @@
                 <div class="col-xs-12">
                     <table id="checkAll" class="table table-bordered" style="table-layout: fixed">
                         <thead>
-                            <tr style="height: 20px;">
-                                <th>No</th>
-                                <th>Nick name </th>
-                                <th>Surplus</th>
-                                <th>Amount of money rút</th>
-                                <th>Amount of money nạp</th>
-                                <th>Day đăng ký</th>
-                            </tr>
+                        <tr style="height: 20px;">
+                            <th>No</th>
+                            <th>Nickname</th>
+                            <th>Surplus</th>
+                            <th>Withdrawal Amount</th>
+                            <th>Deposit Amount</th>
+                            <th>Registration Date</th>
+                        </tr>
+
                         </thead>
                         <tbody id="logaction">
                         </tbody>
@@ -139,7 +141,8 @@
     }
     function initData() {
         if ($("#from-date").val() > $("#end-date").val()) {
-            alert('Day bắt đầu lớn hơn Day kết thúc.')
+            alert('Start day is greater than End day.')
+
             return;
         }
         var oldPage = 0;

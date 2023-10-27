@@ -429,75 +429,75 @@ class MY_Controller extends CI_Controller
     {
         switch ($count) {
             case 1:
-                $strresult = "Add new tài khoản đại lý";
+                $strresult = "Add new agency account";
                 break;
             case 2:
-                $strresult = "Edit information tài khoản đại lý";
+                $strresult = "Edit agency account information";
                 break;
             case 3:
-                $strresult = "Erase tài khoản đại lý";
+                $strresult = "Erase agency account";
                 break;
             case 4:
-                $strresult = "Change Password tài khoản đại lý";
+                $strresult = "Change agency account password";
                 break;
             case 5:
-                $strresult = "Change Password admin đại lý";
+                $strresult = "Change admin agency account password";
                 break;
             case 6:
-                $strresult = "Tạo kho gift code";
+                $strresult = "Create gift code warehouse";
                 break;
             case 7:
-                $strresult = "Chuyển giftcode cho đại lý";
+                $strresult = "Transfer gift codes to agencies";
                 break;
             case 8:
-                $strresult = "Thêm cầu Over/under";
+                $strresult = "Add Over/Under odds";
                 break;
             case 9:
-                $strresult = "Sửa cầu Over/under";
+                $strresult = "Edit Over/Under odds";
                 break;
             case 10:
-                $strresult = "Erase cầu Over/under";
+                $strresult = "Erase Over/Under odds";
                 break;
             case 11:
-                $strresult = "Add money marketing";
+                $strresult = "Add marketing funds";
                 break;
             case 12:
-                $strresult = "Add deduct money admin";
+                $strresult = "Deduct admin funds";
                 break;
             case 13:
-                $strresult = "Tạo kho gift code marketing";
+                $strresult = "Create marketing gift code warehouse";
                 break;
             case 14:
-                $strresult = "Chuyển gift code marketing";
+                $strresult = "Transfer marketing gift codes";
                 break;
             case 15:
-                $strresult = "Tạo kho giftcode minigame";
+                $strresult = "Create minigame gift code warehouse";
                 break;
             case 16:
-                $strresult = "Chuyển giftcode minigame";
+                $strresult = "Transfer minigame gift codes";
                 break;
             case 17:
-                $strresult = "Tạo kho Giftcode operates";
+                $strresult = "Create operates gift code warehouse";
                 break;
             case 18:
-                $strresult = "Chuyển giftcode cho vận hành";
+                $strresult = "Transfer gift codes to operations";
                 break;
             case 19:
-                $strresult = "Pay vippoint event rewards";
+                $strresult = "Pay VIP point event rewards";
                 break;
-
             case 20:
-                $strresult = "Add money  cho nhiều tài khoản";
+                $strresult = "Add funds to multiple accounts";
                 break;
             case 23:
-                $strresult = "Bán Win cho bot";
+                $strresult = "Sell Win to bots";
                 break;
             case 24:
-                $strresult = "Mua Win cho bot";
+                $strresult = "Buy Win for bots";
                 break;
         }
         return $strresult;
     }
+    
 
     function getEventConfig()
     {

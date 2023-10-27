@@ -23,7 +23,7 @@
     <div class="card">
         <div class="card-body login-card-body">
             <p class="login-box-msg">Login agent</p>
-            {{-- Display thông tin trạng thái tạo bài viết --}}
+            {{-- Display article creation status information --}}
             @if (session('error'))
                 <div class="alert alert-info bg-danger">{{session('error')}}</div>
             @endif

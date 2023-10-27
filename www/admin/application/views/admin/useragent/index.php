@@ -1,7 +1,7 @@
 <div class="titleArea">
     <div class="wrapper">
         <div class="pageTitle">
-            <h5>Đại Lý</h5>
+            <h5>Agency</h5>
         </div>
         <div class="horControlB menu_action">
             <ul>
@@ -119,7 +119,7 @@
         rs += "<td>" + value.last_login_time + "</td>";
         rs += "<td>" + maskActive(value.active) + "</td>";
         rs += "<td class='option'>" +
-            `<a href="<?= admin_url('userAgency/edit')?>/${value.id}" class="text-decoration"> Sửa</a>` +
+            `<a href="<?= admin_url('userAgency/edit')?>/${value.id}" class="text-decoration"> Edit</a>` +
             `<a target="_blank" href="<?= admin_url('userAgency/player?cd=')?>${value.code}" class="text-decoration"> Detail</a>` +
             "</td>";
         return rs;
@@ -212,9 +212,9 @@
 <script>
     function maskActive(val) {
         if (val == 1) {
-            return 'Kích hoạt';
+            return 'Activated';
         }
-        return 'Vô hiệu';
+        return 'Void';
     }
 </script>
 <style>

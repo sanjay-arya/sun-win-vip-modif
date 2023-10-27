@@ -1,7 +1,7 @@
 <div class="titleArea">
     <div class="wrapper">
         <div class="pageTitle">
-            <h5>Đại Lý</h5>
+            <h5>Agency</h5>
         </div>
         <div class="clear"></div>
     </div>
@@ -15,7 +15,7 @@
     <div class="widget backaccount">
         <section class="content-header">
             <h1>
-                Thêm đại lý
+                Add agent
             </h1>
         </section>
         <section class="content">
@@ -137,7 +137,7 @@
     $("#edit").click(function (e) {
         e.preventDefault()
         if (!$("#un").val() || !$("#nn").val() || !$("#na").val() || !$("#ph").val() || !$("#ps").val()) {
-            $('#error-validate').html('Nhập đầy đủ các trường bắt buộc');
+            $('#error-validate').html('Enter all required fields');
             return;
         }
         $("#spinner").show();
@@ -160,14 +160,14 @@
                 $("#spinner").hide();
                 if (response.success) {
                     reset()
-                    $('#success-gift').html('Update thành công');
+                    $('#success-gift').html('Update successful');
                     window.location.href = '<?= admin_url('userAgency')?>'
                 } else {
                     $("#errorgift").html(response.message)
                 }
             }, error: function () {
                 $("#spinner").hide();
-                $("#errorgift").html("Hệ thống quá tải. Vui lòng thử lại!");
+                $("#errorgift").html("System overloaded. Please try again!");
             }, timeout: 60000
         })
     });

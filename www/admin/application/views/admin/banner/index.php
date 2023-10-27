@@ -106,7 +106,7 @@
         rs += "<td>" + value.action + "</td>";
         rs += "<td>" + value.url + "</td>";
         rs += "<td class='option'>" +
-            `<a href="<?= admin_url('banner/edit')?>?id=${value.id}" class="text-decoration"> Sửa</a>` +
+            `<a href="<?= admin_url('banner/edit')?>?id=${value.id}" class="text-decoration"> Edit</a>` +
             `<a href="#" class="text-decoration" onclick="myfuntion('`+value.title+`','`+value.id+`')"> Erase</a>` +
             "</td>";
         return rs;
