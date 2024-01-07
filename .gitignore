@@ -104,3 +104,10 @@ patches/*.patch
 [Bb]in/
 
 *.received.txt
+
+
+*.csv.*
+*.txt
+*.log
+*.log.*
+*.deb
