@@ -102,11 +102,11 @@ extends SlotModule {
             Debug.trace("Init POKE GO error ", e);
         }
         this.rooms.put(this.gameName + "_vin_100", new AuditionRoom(this, (byte)0, this.gameName + "_vin_100", (short)1,
-                this.pots[0], funds[0], 100, initPotValues[0],
+                this.pots[0], funds[0], 10, initPotValues[0],
                 fundsJackPot[0],slot7IconWildJackpotFund+ "_vin_100",
                 fundMiniGame[0],slot7IconWildMinigameFund + "_vin_100"));
         this.rooms.put(this.gameName + "_vin_1000", new AuditionRoom(this, (byte)1, this.gameName + "_vin_1000", (short)1,
-                this.pots[1], funds[1], 1000, initPotValues[1],
+                this.pots[1], funds[1], 100, initPotValues[1],
                 fundsJackPot[1],slot7IconWildJackpotFund+ "_vin_1000",
                 fundMiniGame[1],slot7IconWildMinigameFund + "_vin_1000"));
 //        this.rooms.put(this.gameName + "_vin_5000", new AuditionRoom(this, (byte)2, this.gameName + "_vin_5000", (short) 1,
@@ -114,7 +114,7 @@ extends SlotModule {
 //                fundsJackPot[2],slot7IconWildJackpotFund+ "_vin_5000",
 //                fundMiniGame[2],slot7IconWildMinigameFund + "_vin_5000"));
         this.rooms.put(this.gameName + "_vin_10000", new AuditionRoom(this, (byte)3, this.gameName + "_vin_10000", (short)1,
-                this.pots[3], funds[3], 10000, initPotValues[3],
+                this.pots[3], funds[3], 1000, initPotValues[3],
                 fundsJackPot[3],slot7IconWildJackpotFund+ "_vin_10000",
                 fundMiniGame[3],slot7IconWildMinigameFund + "_vin_10000"));
 
@@ -158,25 +158,25 @@ extends SlotModule {
 
         switch (roomId) {
             case 0: {
-                return 100L;
+                return 10L;
             }
             case 1: {
-                return 1000L;
+                return 100L;
             }
             case 2: {
-                return 10000L;
-            }
-            case 3: {
-                return 10000L;
-            }
-            case 4: {
                 return 1000L;
             }
+            case 3: {
+                return 1000L;
+            }
+            case 4: {
+                return 100L;
+            }
             case 5: {
-                return 10000L;
+                return 1000L;
             }
             case 6: {
-                return 100000L;
+                return 10000L;
             }
         }
         return 0L;

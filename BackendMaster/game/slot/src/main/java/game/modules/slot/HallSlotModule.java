@@ -133,22 +133,22 @@ extends BaseClientRequestHandler {
 				jsonGame.put("1", roomTai);
 				jsonGame.put("0", roomXiu);
         	}else if ("cao_thap".equals(gameName)) {
-        		JSONObject room101 = this.buildRoomSlotInfo(gameName, 1000);
-                jsonGame.put("1000", room101);
-                JSONObject room102 = this.buildRoomSlotInfo(gameName, 10000);
-                jsonGame.put("10000", room102);
-                JSONObject room103 = this.buildRoomSlotInfo(gameName, 50000);
-                jsonGame.put("50000", room103);
-                JSONObject room104 = this.buildRoomSlotInfo(gameName, 100000);
-                jsonGame.put("100000", room104);
-                JSONObject room105 = this.buildRoomSlotInfo(gameName, 500000);
-                jsonGame.put("500000", room105);
+        		JSONObject room101 = this.buildRoomSlotInfo(gameName, 100);
+                jsonGame.put("100", room101);
+                JSONObject room102 = this.buildRoomSlotInfo(gameName, 500);
+                jsonGame.put("500", room102);
+                JSONObject room103 = this.buildRoomSlotInfo(gameName, 1000);
+                jsonGame.put("1000", room103);
+                JSONObject room104 = this.buildRoomSlotInfo(gameName, 5000);
+                jsonGame.put("5000", room104);
+                JSONObject room105 = this.buildRoomSlotInfo(gameName, 10000);
+                jsonGame.put("10000", room105);
 			}else {
-				JSONObject room100 = this.buildRoomSlotInfo(gameName, 100);
+				JSONObject room100 = this.buildRoomSlotInfo(gameName, 10);
                 jsonGame.put("100", room100);
-                JSONObject room101 = this.buildRoomSlotInfo(gameName, 1000);
+                JSONObject room101 = this.buildRoomSlotInfo(gameName, 100);
                 jsonGame.put("1000", room101);
-                JSONObject room102 = this.buildRoomSlotInfo(gameName, 10000);
+                JSONObject room102 = this.buildRoomSlotInfo(gameName, 1000);
                 jsonGame.put("10000", room102);
 			}
         	

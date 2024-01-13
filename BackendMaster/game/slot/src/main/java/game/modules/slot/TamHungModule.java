@@ -157,25 +157,25 @@ extends SlotModule {
     public long getBaseBetting(byte roomId) {
         switch (roomId) {
             case 0: {
-                return 100L;
+                return 10L;
             }
             case 1: {
-                return 1000L;
+                return 100L;
             }
             case 2: {
-                return 10000L;
-            }
-            case 3: {
-                return 10000L;
-            }
-            case 4: {
                 return 1000L;
             }
+            case 3: {
+                return 1000L;
+            }
+            case 4: {
+                return 100L;
+            }
             case 5: {
-                return 10000L;
+                return 1000L;
             }
             case 6: {
-                return 100000L;
+                return 10000L;
             }
         }
         return 0L;
