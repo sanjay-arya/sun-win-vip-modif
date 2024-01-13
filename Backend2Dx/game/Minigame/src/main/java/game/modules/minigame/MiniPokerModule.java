@@ -97,7 +97,7 @@ extends BaseClientRequestHandler {
         rooms.put(Games.MINI_POKER.getName() + "_vin_100", new MGRoomMiniPoker(gameName + "_vin_100", (byte)1, pots[0], funds[0], 10L, 50000L));
         rooms.put(Games.MINI_POKER.getName() + "_vin_1000", new MGRoomMiniPoker(gameName + "_vin_1000", (byte)1, pots[1], funds[1], 100L, 500000L));
         rooms.put(Games.MINI_POKER.getName() + "_vin_10000", new MGRoomMiniPoker(gameName + "_vin_10000", (byte)1, pots[2], funds[2], 1000L, 5000000L));
-        rooms.put(Games.MINI_POKER.getName() + "_xu_1000", new MGRoomMiniPoker(gameName + "_xu_1000", (byte)0, pots[3], funds[3], 100L, 5000000L));
+        rooms.put(Games.MINI_POKER.getName() + "_xu_1000", new MGRoomMiniPoker(gameName + "_xu_1000", (byte)0, pots[3], funds[3], 100L, 500000L));
         rooms.put(Games.MINI_POKER.getName() + "_xu_10000", new MGRoomMiniPoker(gameName + "_xu_10000", (byte)0, pots[4], funds[4], 1000L, 5000000L));
         rooms.put(Games.MINI_POKER.getName() + "_xu_100000", new MGRoomMiniPoker(gameName + "_xu_100000", (byte)0, pots[5], funds[5], 10000L, 50000000L));
         Debug.trace((Object)"INIT MINI POKER DONE");

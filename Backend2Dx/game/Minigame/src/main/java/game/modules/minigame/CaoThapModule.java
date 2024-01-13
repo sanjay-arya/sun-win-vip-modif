@@ -93,16 +93,16 @@ extends BaseClientRequestHandler {
         catch (SQLException e) {
             Debug.trace((Object[])new Object[]{"Get cao thap pot error ", e.getMessage()});
         }
-        this.rooms.put("cao_thap_vin_1000", new MGRoomCaoThap("cao_thap_vin_1000", (byte)1, pots[0], funds[0], 1000));
-        this.rooms.put("cao_thap_vin_10000", new MGRoomCaoThap("cao_thap_vin_10000", (byte)1, pots[1], funds[1], 10000));
-        this.rooms.put("cao_thap_vin_50000", new MGRoomCaoThap("cao_thap_vin_50000", (byte)1, pots[2], funds[2], 50000));
-        this.rooms.put("cao_thap_vin_100000", new MGRoomCaoThap("cao_thap_vin_100000", (byte)1, pots[3], funds[3], 100000));
-        this.rooms.put("cao_thap_vin_500000", new MGRoomCaoThap("cao_thap_vin_500000", (byte)1, pots[4], funds[4], 500000));
-        this.rooms.put("cao_thap_xu_10000", new MGRoomCaoThap("cao_thap_xu_10000", (byte)0, pots[5], funds[5], 10000));
-        this.rooms.put("cao_thap_xu_100000", new MGRoomCaoThap("cao_thap_xu_100000", (byte)0, pots[6], funds[6], 100000));
-        this.rooms.put("cao_thap_xu_500000", new MGRoomCaoThap("cao_thap_xu_500000", (byte)0, pots[7], funds[7], 500000));
-        this.rooms.put("cao_thap_xu_1000000", new MGRoomCaoThap("cao_thap_xu_1000000", (byte)0, pots[8], funds[8], 1000000));
-        this.rooms.put("cao_thap_xu_5000000", new MGRoomCaoThap("cao_thap_xu_5000000", (byte)0, pots[9], funds[9], 5000000));
+        this.rooms.put("cao_thap_vin_1000", new MGRoomCaoThap("cao_thap_vin_1000", (byte)1, pots[0], funds[0], 100));
+        this.rooms.put("cao_thap_vin_10000", new MGRoomCaoThap("cao_thap_vin_10000", (byte)1, pots[1], funds[1], 500));
+        this.rooms.put("cao_thap_vin_50000", new MGRoomCaoThap("cao_thap_vin_50000", (byte)1, pots[2], funds[2], 1000));
+        this.rooms.put("cao_thap_vin_100000", new MGRoomCaoThap("cao_thap_vin_100000", (byte)1, pots[3], funds[3], 5000));
+        this.rooms.put("cao_thap_vin_500000", new MGRoomCaoThap("cao_thap_vin_500000", (byte)1, pots[4], funds[4], 10000));
+        this.rooms.put("cao_thap_xu_10000", new MGRoomCaoThap("cao_thap_xu_10000", (byte)0, pots[5], funds[5], 500));
+        this.rooms.put("cao_thap_xu_100000", new MGRoomCaoThap("cao_thap_xu_100000", (byte)0, pots[6], funds[6], 5000));
+        this.rooms.put("cao_thap_xu_500000", new MGRoomCaoThap("cao_thap_xu_500000", (byte)0, pots[7], funds[7], 10000));
+        this.rooms.put("cao_thap_xu_1000000", new MGRoomCaoThap("cao_thap_xu_1000000", (byte)0, pots[8], funds[8], 50000));
+        this.rooms.put("cao_thap_xu_5000000", new MGRoomCaoThap("cao_thap_xu_5000000", (byte)0, pots[9], funds[9], 1000000));
         try {
             int remainTimeTraThuong = MiniGameUtils.calculateTimeRewardOnNextDay("");
             BitZeroServer.getInstance().getTaskScheduler().schedule(this.rewardDailyTask, remainTimeTraThuong, TimeUnit.SECONDS);
@@ -376,34 +376,34 @@ extends BaseClientRequestHandler {
     private long getBaseBetting(byte roomId) {
         switch (roomId) {
             case 0: {
-                return 1000L;
+                return 100L;
             }
             case 1: {
-                return 10000L;
+                return 500L;
             }
             case 2: {
-                return 50000L;
+                return 1000L;
             }
             case 3: {
-                return 100000L;
+                return 5000L;
             }
             case 4: {
-                return 500000L;
-            }
-            case 5: {
                 return 10000L;
             }
+            case 5: {
+                return 500L;
+            }
             case 6: {
-                return 100000L;
+                return 5000L;
             }
             case 7: {
-                return 500000L;
+                return 10000L;
             }
             case 8: {
-                return 1000000L;
+                return 50000L;
             }
             case 9: {
-                return 5000000L;
+                return 1000000L;
             }
         }
         return 0L;

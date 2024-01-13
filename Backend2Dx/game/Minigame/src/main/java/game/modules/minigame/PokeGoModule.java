@@ -109,12 +109,12 @@ extends BaseClientRequestHandler {
         catch (Exception e) {
             Debug.trace((Object[])new Object[]{"Init POKE GO error ", e.getMessage()});
         }
-        rooms.put(Games.POKE_GO.getName() + "_vin_100", new MGRoomPokeGo(Games.POKE_GO.getName() + "_vin_100", (short)1, pots[0], funds[0], 100, initPotValues[0]));
-        rooms.put(Games.POKE_GO.getName() + "_vin_1000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_vin_1000", (short)1, pots[1], funds[1], 1000, initPotValues[1]));
-        rooms.put(Games.POKE_GO.getName() + "_vin_10000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_vin_10000", (short)1, pots[2], funds[2], 10000, initPotValues[2]));
-        rooms.put(Games.POKE_GO.getName() + "_xu_1000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_xu_1000", (short)0, pots[3], funds[3], 1000, initPotValues[3]));
-        rooms.put(Games.POKE_GO.getName() + "_xu_10000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_xu_10000", (short)0, pots[4], funds[4], 10000, initPotValues[4]));
-        rooms.put(Games.POKE_GO.getName() + "_xu_100000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_xu_100000", (short)0, pots[5], funds[5], 100000, initPotValues[5]));
+        rooms.put(Games.POKE_GO.getName() + "_vin_100", new MGRoomPokeGo(Games.POKE_GO.getName() + "_vin_100", (short)1, pots[0], funds[0], 10, initPotValues[0]));
+        rooms.put(Games.POKE_GO.getName() + "_vin_1000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_vin_1000", (short)1, pots[1], funds[1], 100, initPotValues[1]));
+        rooms.put(Games.POKE_GO.getName() + "_vin_10000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_vin_10000", (short)1, pots[2], funds[2], 1000, initPotValues[2]));
+        rooms.put(Games.POKE_GO.getName() + "_xu_1000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_xu_1000", (short)0, pots[3], funds[3], 100, initPotValues[3]));
+        rooms.put(Games.POKE_GO.getName() + "_xu_10000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_xu_10000", (short)0, pots[4], funds[4], 1000, initPotValues[4]));
+        rooms.put(Games.POKE_GO.getName() + "_xu_100000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_xu_100000", (short)0, pots[5], funds[5], 10000, initPotValues[5]));
         Debug.trace((Object)"INIT POKEGO DONE");
         this.getParentExtension().addEventListener((IBZEventType)BZEventType.USER_DISCONNECT, (IBZEventListener)this);
         referenceId = this.pgService.getLastReferenceId();
@@ -299,22 +299,22 @@ extends BaseClientRequestHandler {
     private long getBaseBetting(byte roomId) {
         switch (roomId) {
             case 0: {
-                return 100L;
+                return 10L;
             }
             case 1: {
-                return 1000L;
+                return 100L;
             }
             case 2: {
-                return 10000L;
-            }
-            case 3: {
                 return 1000L;
             }
+            case 3: {
+                return 100L;
+            }
             case 4: {
-                return 10000L;
+                return 1000L;
             }
             case 5: {
-                return 100000L;
+                return 10000L;
             }
         }
         return 0L;

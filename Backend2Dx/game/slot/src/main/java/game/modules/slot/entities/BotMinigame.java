@@ -80,7 +80,7 @@ public class BotMinigame {
      private static void pushMoneyToBot(String nickname, String moneyType) {
           long currentMoney = userService.getCurrentMoneyUserCache(nickname, moneyType);
           if (currentMoney < 1000000L) {
-               botService.addMoney(nickname, 10000000L, moneyType, "Cá»™ng tiá»�n cho bot minigame");
+               botService.addMoney(nickname, 10000000L, moneyType, "minigame bots အတွက် ကုန်ကျစရိတ်");
           } else {
                banVin(nickname, moneyType, currentMoney);
           }
