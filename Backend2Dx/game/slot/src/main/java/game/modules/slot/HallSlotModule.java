@@ -92,12 +92,12 @@ public class HallSlotModule extends BaseClientRequestHandler {
           JSONObject jsonGame = new JSONObject();
 
           try {
-               JSONObject room100 = this.buildRoomSlotInfo(gameName, 100);
-               jsonGame.put("100", room100);
-               JSONObject room101 = this.buildRoomSlotInfo(gameName, 1000);
-               jsonGame.put("1000", room101);
-               JSONObject room102 = this.buildRoomSlotInfo(gameName, 10000);
-               jsonGame.put("10000", room102);
+               JSONObject room100 = this.buildRoomSlotInfo(gameName, 10);
+               jsonGame.put("10", room100);
+               JSONObject room101 = this.buildRoomSlotInfo(gameName, 100);
+               jsonGame.put("100", room101);
+               JSONObject room102 = this.buildRoomSlotInfo(gameName, 1000);
+               jsonGame.put("1000", room102);
           } catch (Exception var6) {
                Debug.trace("Hall Slot get jackpots " + gameName + " error: " + var6.getMessage());
           }

@@ -60,9 +60,9 @@ public class KhoBauModule extends SlotModule {
                Debug.trace(new Object[]{"Init POKE GO error ", var7});
           }
 
-          this.rooms.put(this.gameName + "_vin_100", new KhoBauRoom(this, (byte)0, this.gameName + "_vin_100", (short)1, this.pots[0], funds[0], 100, (long)initPotValues[0]));
-          this.rooms.put(this.gameName + "_vin_1000", new KhoBauRoom(this, (byte)1, this.gameName + "_vin_1000", (short)1, this.pots[1], funds[1], 1000, (long)initPotValues[1]));
-          this.rooms.put(this.gameName + "_vin_10000", new KhoBauRoom(this, (byte)2, this.gameName + "_vin_10000", (short)1, this.pots[2], funds[2], 10000, (long)initPotValues[2]));
+          this.rooms.put(this.gameName + "_vin_100", new KhoBauRoom(this, (byte)0, this.gameName + "_vin_100", (short)1, this.pots[0], funds[0], 10, (long)initPotValues[0]));
+          this.rooms.put(this.gameName + "_vin_1000", new KhoBauRoom(this, (byte)1, this.gameName + "_vin_1000", (short)1, this.pots[1], funds[1], 100, (long)initPotValues[1]));
+          this.rooms.put(this.gameName + "_vin_10000", new KhoBauRoom(this, (byte)2, this.gameName + "_vin_10000", (short)1, this.pots[2], funds[2], 1000, (long)initPotValues[2]));
           Debug.trace("INIT KHO BAU DONE");
           this.getParentExtension().addEventListener(BZEventType.USER_DISCONNECT, this);
           referenceId = this.slotService.getLastReferenceId(this.gameName);
