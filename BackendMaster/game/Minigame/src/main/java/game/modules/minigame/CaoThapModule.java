@@ -100,16 +100,16 @@ extends BaseClientRequestHandler {
         catch (SQLException e) {
             Debug.trace((Object[])new Object[]{"Get cao thap pot error ", e.getMessage()});
         }
-        this.rooms.put("cao_thap_vin_1000", new MGRoomCaoThap("cao_thap_vin_1000", (byte)1, pots[0], funds[0], 1000));
-        this.rooms.put("cao_thap_vin_10000", new MGRoomCaoThap("cao_thap_vin_10000", (byte)1, pots[1], funds[1], 10000));
-        this.rooms.put("cao_thap_vin_50000", new MGRoomCaoThap("cao_thap_vin_50000", (byte)1, pots[2], funds[2], 50000));
-        this.rooms.put("cao_thap_vin_100000", new MGRoomCaoThap("cao_thap_vin_100000", (byte)1, pots[3], funds[3], 100000));
-        this.rooms.put("cao_thap_vin_500000", new MGRoomCaoThap("cao_thap_vin_500000", (byte)1, pots[4], funds[4], 500000));
-        this.rooms.put("cao_thap_xu_10000", new MGRoomCaoThap("cao_thap_xu_10000", (byte)0, pots[5], funds[5], 10000));
-        this.rooms.put("cao_thap_xu_100000", new MGRoomCaoThap("cao_thap_xu_100000", (byte)0, pots[6], funds[6], 100000));
-        this.rooms.put("cao_thap_xu_500000", new MGRoomCaoThap("cao_thap_xu_500000", (byte)0, pots[7], funds[7], 500000));
-        this.rooms.put("cao_thap_xu_1000000", new MGRoomCaoThap("cao_thap_xu_1000000", (byte)0, pots[8], funds[8], 1000000));
-        this.rooms.put("cao_thap_xu_5000000", new MGRoomCaoThap("cao_thap_xu_5000000", (byte)0, pots[9], funds[9], 5000000));
+        this.rooms.put("cao_thap_vin_100", new MGRoomCaoThap("cao_thap_vin_100", (byte)1, pots[0], funds[0], 100));
+        this.rooms.put("cao_thap_vin_1000", new MGRoomCaoThap("cao_thap_vin_1000", (byte)1, pots[1], funds[1], 1000));
+        this.rooms.put("cao_thap_vin_5000", new MGRoomCaoThap("cao_thap_vin_5000", (byte)1, pots[2], funds[2], 5000));
+        this.rooms.put("cao_thap_vin_10000", new MGRoomCaoThap("cao_thap_vin_10000", (byte)1, pots[3], funds[3], 10000));
+        this.rooms.put("cao_thap_vin_50000", new MGRoomCaoThap("cao_thap_vin_50000", (byte)1, pots[4], funds[4], 50000));
+        this.rooms.put("cao_thap_xu_10000", new MGRoomCaoThap("cao_thap_xu_10000", (byte)0, pots[5], funds[5], 1000));
+        this.rooms.put("cao_thap_xu_100000", new MGRoomCaoThap("cao_thap_xu_100000", (byte)0, pots[6], funds[6], 10000));
+        this.rooms.put("cao_thap_xu_500000", new MGRoomCaoThap("cao_thap_xu_500000", (byte)0, pots[7], funds[7], 50000));
+        this.rooms.put("cao_thap_xu_1000000", new MGRoomCaoThap("cao_thap_xu_1000000", (byte)0, pots[8], funds[8], 100000));
+        this.rooms.put("cao_thap_xu_5000000", new MGRoomCaoThap("cao_thap_xu_5000000", (byte)0, pots[9], funds[9], 500000));
         try {
             int remainTimeTraThuong = MiniGameUtils.calculateTimeRewardOnNextDay("");
             BitZeroServer.getInstance().getTaskScheduler().schedule(this.rewardDailyTask, remainTimeTraThuong, TimeUnit.SECONDS);
@@ -386,34 +386,34 @@ extends BaseClientRequestHandler {
     private long getBaseBetting(byte roomId) {
         switch (roomId) {
             case 0: {
-                return 1000L;
+                return 100L;
             }
             case 1: {
-                return 10000L;
+                return 1000L;
             }
             case 2: {
-                return 50000L;
+                return 5000L;
             }
             case 3: {
-                return 100000L;
-            }
-            case 4: {
-                return 500000L;
-            }
-            case 5: {
                 return 10000L;
             }
+            case 4: {
+                return 50000L;
+            }
+            case 5: {
+                return 1000L;
+            }
             case 6: {
-                return 100000L;
+                return 10000L;
             }
             case 7: {
-                return 500000L;
+                return 50000L;
             }
             case 8: {
-                return 1000000L;
+                return 100000L;
             }
             case 9: {
-                return 5000000L;
+                return 500000L;
             }
         }
         return 0L;
@@ -435,15 +435,15 @@ extends BaseClientRequestHandler {
         if (botName != null) {
             Random rd = new Random();
             int n = rd.nextInt(5);
-            long betValue = 1000L;
-            long prize = 50000L;
+            long betValue = 100L;
+            long prize = 5000L;
             if (n == 0) {
-                betValue = 10000L;
-                n = rd.nextInt(950000);
-                prize = n + 50000;
+                betValue = 1000L;
+                n = rd.nextInt(95000);
+                prize = n + 5000;
             } else {
-                n = rd.nextInt(180000);
-                prize = n + 20000;
+                n = rd.nextInt(18000);
+                prize = n + 2000;
             }
             int type = 0;
             if (thungPhaSanhA) {

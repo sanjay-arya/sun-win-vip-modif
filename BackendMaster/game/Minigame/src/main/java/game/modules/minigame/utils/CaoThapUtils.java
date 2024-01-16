@@ -29,7 +29,7 @@ public class CaoThapUtils {
     public static final byte DOWN = 0;
     public static final double RATIO = 98.0;
     public static final double MIN_RATIO = 1.01;
-    private static long[] prizes = new long[]{500000L, 200000L, 100000L};
+    private static long[] prizes = new long[]{50000L, 20000L, 10000L};
     private static Logger logger = Logger.getLogger((String)"csvCaoThapPrize");
     private static final String FORMAT_SAN_BAI_DEP = "%s,\t%d,\t%s,\t%d,\t%s,\t%d,\t%d,\t%s";
     public static final double RATIO_NO_HU = 30.0;

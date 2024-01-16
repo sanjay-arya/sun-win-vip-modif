@@ -108,11 +108,11 @@ public class AdminCPUtils {
     }
 
     public static MGRoomCaoThap[] getCaoThapRoom(){
-        MGRoomCaoThap room1000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_1000");
-        MGRoomCaoThap room10000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_10000");
-        MGRoomCaoThap room50000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_50000");
-        MGRoomCaoThap room100000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_100000");
-        MGRoomCaoThap room500000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_500000");
+        MGRoomCaoThap room1000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_100");
+        MGRoomCaoThap room10000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_1000");
+        MGRoomCaoThap room50000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_5000");
+        MGRoomCaoThap room100000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_10000");
+        MGRoomCaoThap room500000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_50000");
         return new MGRoomCaoThap[]{room1000, room10000, room50000,room100000,room500000};
     }
 
