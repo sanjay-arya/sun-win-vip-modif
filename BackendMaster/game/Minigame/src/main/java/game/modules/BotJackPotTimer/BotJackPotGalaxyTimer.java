@@ -37,13 +37,13 @@ public class BotJackPotGalaxyTimer implements Runnable {
 
             }
             int moneyToJackPot_100 = GameConfig.getInstance().galaxyBotConfig.randomJackPotPer5s(0);
-            MGRoomGalaxy room100 = (MGRoomGalaxy) GalaxyModule.rooms.get(Games.GALAXY.getName() + "_vin_100");
+            MGRoomGalaxy room100 = (MGRoomGalaxy) GalaxyModule.rooms.get(Games.GALAXY.getName() + "_vin_10");
             room100.addMoneyToPot(moneyToJackPot_100);
             int moneyToJackPot_1000 = GameConfig.getInstance().galaxyBotConfig.randomJackPotPer5s(1);
-            MGRoomGalaxy room1000 = (MGRoomGalaxy) GalaxyModule.rooms.get(Games.GALAXY.getName()+ "_vin_1000");
+            MGRoomGalaxy room1000 = (MGRoomGalaxy) GalaxyModule.rooms.get(Games.GALAXY.getName()+ "_vin_100");
             room1000.addMoneyToPot(moneyToJackPot_1000);
             int moneyToJackPot_10000 = GameConfig.getInstance().galaxyBotConfig.randomJackPotPer5s(2);
-            MGRoomGalaxy room10000 = (MGRoomGalaxy) GalaxyModule.rooms.get(Games.GALAXY.getName() + "_vin_10000");
+            MGRoomGalaxy room10000 = (MGRoomGalaxy) GalaxyModule.rooms.get(Games.GALAXY.getName() + "_vin_1000");
             room10000.addMoneyToPot(moneyToJackPot_10000);
 
             long currentTime = GameUtil.getTimeStampInSeconds();
@@ -52,19 +52,19 @@ public class BotJackPotGalaxyTimer implements Runnable {
                 time = GameConfig.getInstance().galaxyBotConfig.randomTimeBotEat(0);
                 timeJackPot_100 = currentTime + time;
                 room100.botEatJackpot(GalaxyModule.keyBotJackpotSlot3x3 +
-                        "_vin_100",timeJackPot_100, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                        "_vin_10",timeJackPot_100, this.bots.get(GameUtil.randomMax(this.bots.size())));
             }
             if(currentTime > timeJackPot_1000){
                 time = GameConfig.getInstance().galaxyBotConfig.randomTimeBotEat(1);
                 timeJackPot_1000 = currentTime + time;
                 room1000.botEatJackpot(GalaxyModule.keyBotJackpotSlot3x3 +
-                        "_vin_1000",timeJackPot_1000, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                        "_vin_100",timeJackPot_1000, this.bots.get(GameUtil.randomMax(this.bots.size())));
             }
             if(currentTime > timeJackPot_10000){
                 time = GameConfig.getInstance().galaxyBotConfig.randomTimeBotEat(2);
                 timeJackPot_10000 = currentTime + time;
                 room10000.botEatJackpot(GalaxyModule.keyBotJackpotSlot3x3 +
-                        "_vin_10000",timeJackPot_10000, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                        "_vin_1000",timeJackPot_10000, this.bots.get(GameUtil.randomMax(this.bots.size())));
             }
             // Debug.trace("run finish");
         }catch (Exception e){

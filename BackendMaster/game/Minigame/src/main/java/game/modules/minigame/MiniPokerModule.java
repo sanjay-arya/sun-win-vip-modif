@@ -100,9 +100,9 @@ extends BaseClientRequestHandler {
         catch (SQLException e) {
             Debug.trace("Get mini poker pot error ", e.getMessage());
         }
-        rooms.put(Games.MINI_POKER.getName() + "_vin_100", new MGRoomMiniPoker(gameName + "_vin_100", (byte)1, pots[0], funds[0], 100L, 100000L,miniPokerJackpotFund + "_vin_100",fundsJackPot[0]));
-        rooms.put(Games.MINI_POKER.getName() + "_vin_1000", new MGRoomMiniPoker(gameName + "_vin_1000", (byte)1, pots[1], funds[1], 1000L, 1000000L,miniPokerJackpotFund + "_vin_1000",fundsJackPot[1]));
-        rooms.put(Games.MINI_POKER.getName() + "_vin_10000", new MGRoomMiniPoker(gameName + "_vin_10000", (byte)1, pots[2], funds[2], 10000L, 10000000L,miniPokerJackpotFund + "_vin_10000",fundsJackPot[2]));
+        rooms.put(Games.MINI_POKER.getName() + "_vin_10", new MGRoomMiniPoker(gameName + "_vin_10", (byte)1, pots[0], funds[0], 100L, 100000L,miniPokerJackpotFund + "_vin_10",fundsJackPot[0]));
+        rooms.put(Games.MINI_POKER.getName() + "_vin_100", new MGRoomMiniPoker(gameName + "_vin_100", (byte)1, pots[1], funds[1], 1000L, 1000000L,miniPokerJackpotFund + "_vin_100",fundsJackPot[1]));
+        rooms.put(Games.MINI_POKER.getName() + "_vin_1000", new MGRoomMiniPoker(gameName + "_vin_1000", (byte)1, pots[2], funds[2], 10000L, 10000000L,miniPokerJackpotFund + "_vin_1000",fundsJackPot[2]));
         rooms.put(Games.MINI_POKER.getName() + "_xu_1000", new MGRoomMiniPoker(gameName + "_xu_1000", (byte)0, pots[3], funds[3], 1000L, 1000000L,miniPokerJackpotFund + "_xu_100",fundsJackPot[3]));
         rooms.put(Games.MINI_POKER.getName() + "_xu_10000", new MGRoomMiniPoker(gameName + "_xu_10000", (byte)0, pots[4], funds[4], 10000L, 10000000L,miniPokerJackpotFund + "_xu_1000",fundsJackPot[4]));
         rooms.put(Games.MINI_POKER.getName() + "_xu_100000", new MGRoomMiniPoker(gameName + "_xu_100000", (byte)0, pots[5], funds[5], 100000L, 100000000L,miniPokerJackpotFund + "_xu_10000",fundsJackPot[5]));
@@ -131,7 +131,7 @@ extends BaseClientRequestHandler {
 //        List<String> bots;
 //        MGRoomMiniPoker room;
 //        bots = BotMinigame.getBots(ConfigGame.getIntValue("mini_poker_num_bot_100"), "vin");
-//        MGRoomMiniPoker room = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_100");
+//        MGRoomMiniPoker room = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_10");
 //        for(int i = 0;i<100000;i++){
 //            room.play("casitudo", 100L);
 //        }
@@ -354,7 +354,7 @@ extends BaseClientRequestHandler {
 //        List<String> bots;
 //        MGRoomMiniPoker room;
 //        bots = BotMinigame.getBots(ConfigGame.getIntValue("mini_poker_num_bot_100"), "vin");
-//        room = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_100");
+//        room = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_10");
 //        for(int i = 0;i<100000;i++){
 //            room.play(bots.get(0), 100L);
 //        }
@@ -364,7 +364,7 @@ extends BaseClientRequestHandler {
 //            bots = BotMinigame.getBots(ConfigGame.getIntValue("mini_poker_num_bot_100"), "vin");
 //            for (String bot : bots) {
 //                if (bot == null) continue;
-//                room = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_100");
+//                room = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_10");
 //                room.play(bot, 100L);
 //            }
 //        }
@@ -384,7 +384,7 @@ extends BaseClientRequestHandler {
 //            bots = BotMinigame.getBots(ConfigGame.getIntValue("mini_poker_num_bot_10000"), "vin");
 //            for (String bot : bots) {
 //                if (bot == null) continue;
-//                room = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_10000");
+//                room = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_1000");
 //                room.play(bot, 10000L);
 //            }
 //        }
@@ -403,9 +403,9 @@ extends BaseClientRequestHandler {
         @Override
         public void run() {
             MiniPokerModule.startX2();
-            MGRoomMiniPoker room100 = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_100");
+            MGRoomMiniPoker room100 = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_10");
             room100.startHuX2();
-            MGRoomMiniPoker room1000 = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_1000");
+            MGRoomMiniPoker room1000 = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_100");
             room1000.startHuX2();
             Debug.trace((Object)"Mini START X2");
         }

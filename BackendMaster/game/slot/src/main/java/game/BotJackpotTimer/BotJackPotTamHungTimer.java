@@ -40,13 +40,13 @@ public class BotJackPotTamHungTimer implements Runnable {
 
            }
            int moneyToJackPot_100 = GameConfig.getInstance().slotTamHungBotConfig.randomJackPotPer5s(0);
-           TamHungRoom room100 = (TamHungRoom)this.tamHungModule.rooms.get(this.tamHungModule.gameName + "_vin_100");
+           TamHungRoom room100 = (TamHungRoom)this.tamHungModule.rooms.get(this.tamHungModule.gameName + "_vin_10");
            room100.addMoneyToPot(moneyToJackPot_100);
            int moneyToJackPot_1000 = GameConfig.getInstance().slotTamHungBotConfig.randomJackPotPer5s(1);
-           TamHungRoom room1000 = (TamHungRoom)this.tamHungModule.rooms.get(this.tamHungModule.gameName + "_vin_1000");
+           TamHungRoom room1000 = (TamHungRoom)this.tamHungModule.rooms.get(this.tamHungModule.gameName + "_vin_100");
            room1000.addMoneyToPot(moneyToJackPot_1000);
            int moneyToJackPot_10000 = GameConfig.getInstance().slotTamHungBotConfig.randomJackPotPer5s(2);
-           TamHungRoom room10000 = (TamHungRoom)this.tamHungModule.rooms.get(this.tamHungModule.gameName + "_vin_10000");
+           TamHungRoom room10000 = (TamHungRoom)this.tamHungModule.rooms.get(this.tamHungModule.gameName + "_vin_1000");
            room10000.addMoneyToPot(moneyToJackPot_10000);
 //
            long currentTime = GameUtil.getTimeStampInSeconds();
@@ -55,19 +55,19 @@ public class BotJackPotTamHungTimer implements Runnable {
                time = GameConfig.getInstance().slotTamHungBotConfig.randomTimeBotEat(0);
                timeJackPot_100 = currentTime + time;
                room100.botEatJackpot(this.tamHungModule.keyBotJackpot3Hung +
-                       "_vin_100",timeJackPot_100, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                       "_vin_10",timeJackPot_100, this.bots.get(GameUtil.randomMax(this.bots.size())));
            }
            if(currentTime > timeJackPot_1000){
                time = GameConfig.getInstance().slotTamHungBotConfig.randomTimeBotEat(1);
                timeJackPot_1000 = currentTime + time;
                room1000.botEatJackpot(this.tamHungModule.keyBotJackpot3Hung +
-                       "_vin_1000",timeJackPot_1000, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                       "_vin_100",timeJackPot_1000, this.bots.get(GameUtil.randomMax(this.bots.size())));
            }
            if(currentTime > timeJackPot_10000){
                time = GameConfig.getInstance().slotTamHungBotConfig.randomTimeBotEat(2);
                timeJackPot_10000 = currentTime + time;
                room10000.botEatJackpot(this.tamHungModule.keyBotJackpot3Hung +
-                       "_vin_10000",timeJackPot_10000, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                       "_vin_1000",timeJackPot_10000, this.bots.get(GameUtil.randomMax(this.bots.size())));
            }
 //           Debug.trace("run finish");
        }catch (Exception e){

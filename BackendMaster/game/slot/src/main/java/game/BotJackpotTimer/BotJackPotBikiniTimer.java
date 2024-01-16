@@ -37,13 +37,13 @@ public class BotJackPotBikiniTimer  implements Runnable {
 
             }
             int moneyToJackPot_100 = GameConfig.getInstance().slotBikiniBotConfig.randomJackPotPer5s(0);
-            BikiniRoom room100 = (BikiniRoom)this.bikiniModule.rooms.get(this.bikiniModule.gameName + "_vin_100");
+            BikiniRoom room100 = (BikiniRoom)this.bikiniModule.rooms.get(this.bikiniModule.gameName + "_vin_10");
             room100.addMoneyToPot(moneyToJackPot_100);
             int moneyToJackPot_1000 = GameConfig.getInstance().slotBikiniBotConfig.randomJackPotPer5s(1);
-            BikiniRoom room1000 = (BikiniRoom)this.bikiniModule.rooms.get(this.bikiniModule.gameName + "_vin_1000");
+            BikiniRoom room1000 = (BikiniRoom)this.bikiniModule.rooms.get(this.bikiniModule.gameName + "_vin_100");
             room1000.addMoneyToPot(moneyToJackPot_1000);
             int moneyToJackPot_10000 = GameConfig.getInstance().slotBikiniBotConfig.randomJackPotPer5s(2);
-            BikiniRoom room10000 = (BikiniRoom)this.bikiniModule.rooms.get(this.bikiniModule.gameName + "_vin_10000");
+            BikiniRoom room10000 = (BikiniRoom)this.bikiniModule.rooms.get(this.bikiniModule.gameName + "_vin_1000");
             room10000.addMoneyToPot(moneyToJackPot_10000);
 //
             long currentTime = GameUtil.getTimeStampInSeconds();
@@ -53,21 +53,21 @@ public class BotJackPotBikiniTimer  implements Runnable {
                 time = GameConfig.getInstance().slotBikiniBotConfig.randomTimeBotEat(0);
                 timeJackPot_100 = currentTime + time;
                 room100.botEatJackpot(this.bikiniModule.keyBotJackpotSlot11IconWild +
-                        "_vin_100",timeJackPot_100, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                        "_vin_10",timeJackPot_100, this.bots.get(GameUtil.randomMax(this.bots.size())));
             }
 
             if(currentTime > timeJackPot_1000){
                 time = GameConfig.getInstance().slotBikiniBotConfig.randomTimeBotEat(1);
                 timeJackPot_1000 = currentTime + time;
                 room1000.botEatJackpot(this.bikiniModule.keyBotJackpotSlot11IconWild +
-                        "_vin_1000",timeJackPot_1000, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                        "_vin_100",timeJackPot_1000, this.bots.get(GameUtil.randomMax(this.bots.size())));
             }
 
             if(currentTime > timeJackPot_10000){
                 time = GameConfig.getInstance().slotBikiniBotConfig.randomTimeBotEat(2);
                 timeJackPot_10000 = currentTime + time;
                 room10000.botEatJackpot(this.bikiniModule.keyBotJackpotSlot11IconWild +
-                        "_vin_10000",timeJackPot_10000, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                        "_vin_1000",timeJackPot_10000, this.bots.get(GameUtil.randomMax(this.bots.size())));
             }
         }catch (Exception e){
             Debug.trace(e);

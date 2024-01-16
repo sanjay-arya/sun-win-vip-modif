@@ -120,9 +120,9 @@ extends BaseClientRequestHandler {
         catch (Exception e) {
             Debug.trace("Init "+this.gameName+" error ", e.getMessage());
         }
-        rooms.put(Games.CANDY.getName() + "_vin_100", new MGRoomCandy(this, Games.CANDY.getName() + "_vin_100", (short)1, pots[0], funds[0], 100, initPotValues[0], slot3x3JackpotFund + "_vin_100", fundsJackPot[0]));
-        rooms.put(Games.CANDY.getName() + "_vin_1000", new MGRoomCandy(this, Games.CANDY.getName() + "_vin_1000", (short)1, pots[1], funds[1], 1000, initPotValues[1],slot3x3JackpotFund + "_vin_1000", fundsJackPot[1]));
-        rooms.put(Games.CANDY.getName() + "_vin_10000", new MGRoomCandy(this, Games.CANDY.getName() + "_vin_10000", (short)1, pots[2], funds[2], 10000, initPotValues[2], slot3x3JackpotFund + "_vin_1000", fundsJackPot[2]));
+        rooms.put(Games.CANDY.getName() + "_vin_10", new MGRoomCandy(this, Games.CANDY.getName() + "_vin_10", (short)1, pots[0], funds[0], 100, initPotValues[0], slot3x3JackpotFund + "_vin_10", fundsJackPot[0]));
+        rooms.put(Games.CANDY.getName() + "_vin_100", new MGRoomCandy(this, Games.CANDY.getName() + "_vin_100", (short)1, pots[1], funds[1], 1000, initPotValues[1],slot3x3JackpotFund + "_vin_100", fundsJackPot[1]));
+        rooms.put(Games.CANDY.getName() + "_vin_1000", new MGRoomCandy(this, Games.CANDY.getName() + "_vin_1000", (short)1, pots[2], funds[2], 10000, initPotValues[2], slot3x3JackpotFund + "_vin_100", fundsJackPot[2]));
         rooms.put(Games.CANDY.getName() + "_xu_1000", new MGRoomCandy(this, Games.CANDY.getName() + "_xu_1000", (short)0, pots[3], funds[3], 1000, initPotValues[3],slot3x3JackpotFund + "_xu_100", fundsJackPot[3]));
         rooms.put(Games.CANDY.getName() + "_xu_10000", new MGRoomCandy(this, Games.CANDY.getName() + "_xu_10000", (short)0, pots[4], funds[4], 10000, initPotValues[4],slot3x3JackpotFund + "_xu_1000", fundsJackPot[4]));
         rooms.put(Games.CANDY.getName() + "_xu_100000", new MGRoomCandy(this, Games.CANDY.getName() + "_xu_100000", (short)0, pots[5], funds[5], 100000, initPotValues[5], slot3x3JackpotFund + "_xu_10000", fundsJackPot[5]));
@@ -143,7 +143,7 @@ extends BaseClientRequestHandler {
 
 //        List<String>  bots = BotMinigame.getBots(10, "vin");
 //        for(int i = 0;i<10000;i++){
-//            MGRoomCandy room = (MGRoomCandy)rooms.get(Games.CANDY.getName() + "_vin_100");
+//            MGRoomCandy room = (MGRoomCandy)rooms.get(Games.CANDY.getName() + "_vin_10");
 //            room.play("vuonquang112", this.fullLines);
 //        }
         _instance = this;
@@ -358,7 +358,7 @@ extends BaseClientRequestHandler {
             bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_100"), "vin");
             for (String bot : bots) {
                 if (bot == null) continue;
-                room = (MGRoomCandy)rooms.get(Games.CANDY.getName() + "_vin_100");
+                room = (MGRoomCandy)rooms.get(Games.CANDY.getName() + "_vin_10");
                 room.play(bot, this.fullLines);
             }
         }
@@ -368,7 +368,7 @@ extends BaseClientRequestHandler {
             bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_1000"), "vin");
             for (String bot : bots) {
                 if (bot == null) continue;
-                room = (MGRoomCandy)rooms.get(Games.CANDY.getName() + "_vin_1000");
+                room = (MGRoomCandy)rooms.get(Games.CANDY.getName() + "_vin_100");
                 room.play(bot, this.fullLines);
             }
         }
@@ -378,7 +378,7 @@ extends BaseClientRequestHandler {
             bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_10000"), "vin");
             for (String bot : bots) {
                 if (bot == null) continue;
-                room = (MGRoomCandy)rooms.get(Games.CANDY.getName() + "_vin_10000");
+                room = (MGRoomCandy)rooms.get(Games.CANDY.getName() + "_vin_1000");
                 room.play(bot, this.fullLines);
             }
         }

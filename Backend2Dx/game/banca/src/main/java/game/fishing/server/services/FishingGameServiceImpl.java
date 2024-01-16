@@ -64,12 +64,12 @@ public class FishingGameServiceImpl {
     public FishingGameServiceImpl() {
         CacheServiceImpl cacheService = new CacheServiceImpl();
         try {
-            normalJackpot = cacheService.getValueInt(Games.HAM_CA_MAP.getName() + "_vin_100");
-            vipJackpot = cacheService.getValueInt(Games.HAM_CA_MAP.getName() + "_vin_1000");
-            normalJackpotHP = mgService.getFund(Games.HAM_CA_MAP.getName() + "_vin_100");
-            vipJackpotHP = mgService.getFund(Games.HAM_CA_MAP.getName() + "_vin_1000");
-            mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_100", normalJackpotHP);
-            mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_1000", vipJackpotHP);
+            normalJackpot = cacheService.getValueInt(Games.HAM_CA_MAP.getName() + "_vin_10");
+            vipJackpot = cacheService.getValueInt(Games.HAM_CA_MAP.getName() + "_vin_100");
+            normalJackpotHP = mgService.getFund(Games.HAM_CA_MAP.getName() + "_vin_10");
+            vipJackpotHP = mgService.getFund(Games.HAM_CA_MAP.getName() + "_vin_100");
+            mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_10", normalJackpotHP);
+            mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_100", vipJackpotHP);
         } catch (Exception e) {
             Debug.trace((Object) ("Fish jackpot exception: " + e.getMessage()));
         }
@@ -346,7 +346,7 @@ public class FishingGameServiceImpl {
     public void updateNormalFishJackpot(int value) {
         try {
             this.normalJackpot += value;
-            this.mgService.savePot(Games.HAM_CA_MAP.getName() + "_vin_100", this.normalJackpot, false);
+            this.mgService.savePot(Games.HAM_CA_MAP.getName() + "_vin_10", this.normalJackpot, false);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -355,7 +355,7 @@ public class FishingGameServiceImpl {
     public void updateVipFishJackpot(int value) {
         try {
             this.vipJackpot += value;
-            this.mgService.savePot(Games.HAM_CA_MAP.getName() + "_vin_1000", this.vipJackpot, false);
+            this.mgService.savePot(Games.HAM_CA_MAP.getName() + "_vin_100", this.vipJackpot, false);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -372,7 +372,7 @@ public class FishingGameServiceImpl {
     public void updateNormalHPJackpot(int hp) {
         try {
             this.normalJackpotHP += hp;
-            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_100", this.normalJackpotHP);
+            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_10", this.normalJackpotHP);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -381,7 +381,7 @@ public class FishingGameServiceImpl {
     public void updateVipHPJackpot(int hp) {
         try {
             this.vipJackpotHP += hp;
-            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_1000", this.vipJackpotHP);
+            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_100", this.vipJackpotHP);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -390,7 +390,7 @@ public class FishingGameServiceImpl {
     public void setNormalHPJackpot(int hp) {
         try {
             this.normalJackpotHP = hp;
-            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_100", this.normalJackpotHP);
+            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_10", this.normalJackpotHP);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -399,7 +399,7 @@ public class FishingGameServiceImpl {
     public void setVipJackpotHP(int hp) {
         try {
             this.vipJackpotHP = hp;
-            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_1000", this.vipJackpotHP);
+            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_100", this.vipJackpotHP);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -408,7 +408,7 @@ public class FishingGameServiceImpl {
     public void resetNormalJackpot() {
         try {
             this.normalJackpot = GAME_FISHING_DEFAULT_NORMAL_JACKPOT;
-            this.mgService.savePot(Games.HAM_CA_MAP.getName() + "_vin_100", this.normalJackpot, false);
+            this.mgService.savePot(Games.HAM_CA_MAP.getName() + "_vin_10", this.normalJackpot, false);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -417,7 +417,7 @@ public class FishingGameServiceImpl {
     public void resetVipJackpot() {
         try {
             this.vipJackpot = GAME_FISHING_DEFAULT_VIP_JACKPOT;
-            this.mgService.savePot(Games.HAM_CA_MAP.getName() + "_vin_1000", this.vipJackpot, false);
+            this.mgService.savePot(Games.HAM_CA_MAP.getName() + "_vin_100", this.vipJackpot, false);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -426,7 +426,7 @@ public class FishingGameServiceImpl {
     public void resetNormalJackpotHP() {
         try {
             this.normalJackpotHP = GAME_FISHING_DEFAULT_NORMAL_JACKPOT;
-            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_100", this.normalJackpotHP);
+            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_10", this.normalJackpotHP);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -435,7 +435,7 @@ public class FishingGameServiceImpl {
     public void resetVipJackpotHP() {
         try {
             this.vipJackpotHP = GAME_FISHING_DEFAULT_VIP_JACKPOT;
-            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_1000", this.vipJackpotHP);
+            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_100", this.vipJackpotHP);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -451,10 +451,10 @@ public class FishingGameServiceImpl {
 
     public void saveFishingJackpot() {
         try {
-            this.mgService.savePot(Games.HAM_CA_MAP.getName() + "_vin_100", this.normalJackpot, false);
-            this.mgService.savePot(Games.HAM_CA_MAP.getName() + "_vin_1000", this.vipJackpot, false);
-            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_100", this.normalJackpotHP);
-            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_1000", this.vipJackpotHP);
+            this.mgService.savePot(Games.HAM_CA_MAP.getName() + "_vin_10", this.normalJackpot, false);
+            this.mgService.savePot(Games.HAM_CA_MAP.getName() + "_vin_100", this.vipJackpot, false);
+            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_10", this.normalJackpotHP);
+            this.mgService.saveFund(Games.HAM_CA_MAP.getName() + "_vin_100", this.vipJackpotHP);
         } catch (Exception e) {
             e.printStackTrace();
         }

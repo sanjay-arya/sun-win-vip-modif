@@ -102,22 +102,22 @@ public class RangeRoverModule
         catch (Exception e) {
             Debug.trace("Init range rover error ", e);
         }
-        this.rooms.put(this.gameName + "_vin_100", new RangeRoverRoom(this, (byte)0, this.gameName + "_vin_100", (short)1,
+        this.rooms.put(this.gameName + "_vin_10", new RangeRoverRoom(this, (byte)0, this.gameName + "_vin_10", (short)1,
                 this.pots[0], funds[0], 10, initPotValues[0],
-                fundsJackPot[0],slot7IconWildJackpotFund+ "_vin_100",
-                fundMiniGame[0],slot7IconWildMinigameFund + "_vin_100"));
-        this.rooms.put(this.gameName + "_vin_1000", new RangeRoverRoom(this, (byte)1, this.gameName + "_vin_1000", (short)1,
+                fundsJackPot[0],slot7IconWildJackpotFund+ "_vin_10",
+                fundMiniGame[0],slot7IconWildMinigameFund + "_vin_10"));
+        this.rooms.put(this.gameName + "_vin_100", new RangeRoverRoom(this, (byte)1, this.gameName + "_vin_100", (short)1,
                 this.pots[1], funds[1], 100, initPotValues[1],
-                fundsJackPot[1],slot7IconWildJackpotFund+ "_vin_1000",
-                fundMiniGame[1],slot7IconWildMinigameFund + "_vin_1000"));
+                fundsJackPot[1],slot7IconWildJackpotFund+ "_vin_100",
+                fundMiniGame[1],slot7IconWildMinigameFund + "_vin_100"));
 //        this.rooms.put(this.gameName + "_vin_5000", new RangeRoverRoom(this, (byte)2, this.gameName + "_vin_5000", (short) 1,
 //                this.pots[2], funds[2], 5000, initPotValues[2],
 //                fundsJackPot[2],slot7IconWildJackpotFund+ "_vin_5000",
 //                fundMiniGame[2],slot7IconWildMinigameFund + "_vin_5000"));
-        this.rooms.put(this.gameName + "_vin_10000", new RangeRoverRoom(this, (byte)3, this.gameName + "_vin_10000", (short)1,
+        this.rooms.put(this.gameName + "_vin_1000", new RangeRoverRoom(this, (byte)3, this.gameName + "_vin_1000", (short)1,
                 this.pots[3], funds[3], 1000, initPotValues[3],
-                fundsJackPot[3],slot7IconWildJackpotFund+ "_vin_10000",
-                fundMiniGame[3],slot7IconWildMinigameFund + "_vin_10000"));
+                fundsJackPot[3],slot7IconWildJackpotFund+ "_vin_1000",
+                fundMiniGame[3],slot7IconWildMinigameFund + "_vin_1000"));
 
         Debug.trace("INIT "+this.gameName+" DONE");
         this.getParentExtension().addEventListener(BZEventType.USER_DISCONNECT, this);
@@ -142,7 +142,7 @@ public class RangeRoverModule
 //        BitZeroServer.getInstance().getTaskScheduler().scheduleAtFixedRate((Runnable)this.gameLoopTask, 10, 1, TimeUnit.SECONDS);
         BitZeroServer.getInstance().getTaskScheduler().scheduleAtFixedRate(new BotJackPotRangeRoverTimer(timeJackPot,this), 10, 5, TimeUnit.SECONDS);
 
-//        RangeRoverRoom room = (RangeRoverRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_100");
+//        RangeRoverRoom room = (RangeRoverRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_10");
 //        List<String> bots = BotMinigame.getBots(10, "vin");
 //        for(int i = 0;i<10000;i++){
 //            room.play(bots.get(0), this.fullLines);
@@ -355,7 +355,7 @@ public class RangeRoverModule
 //                bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_100"), "vin");
 //                for (String bot : bots) {
 //                    if (bot == null) continue;
-//                    room = (RangeRoverRoom)this.rooms.get(String.valueOf(Games.RANGE_ROVER.getName()) + "_vin_100");
+//                    room = (RangeRoverRoom)this.rooms.get(String.valueOf(Games.RANGE_ROVER.getName()) + "_vin_10");
 //                    room.play(bot, this.fullLines);
 //                }
 //            }
@@ -367,7 +367,7 @@ public class RangeRoverModule
 //                bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_1000"), "vin");
 //                for (String bot : bots) {
 //                    if (bot == null) continue;
-//                    room = (RangeRoverRoom)this.rooms.get(String.valueOf(Games.RANGE_ROVER.getName()) + "_vin_1000");
+//                    room = (RangeRoverRoom)this.rooms.get(String.valueOf(Games.RANGE_ROVER.getName()) + "_vin_100");
 //                    room.play(bot, this.fullLines);
 //                }
 //            }
@@ -393,7 +393,7 @@ public class RangeRoverModule
 //                bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_10000"), "vin");
 //                for (String bot : bots) {
 //                    if (bot == null) continue;
-//                    room = (RangeRoverRoom)this.rooms.get(String.valueOf(Games.RANGE_ROVER.getName()) + "_vin_10000");
+//                    room = (RangeRoverRoom)this.rooms.get(String.valueOf(Games.RANGE_ROVER.getName()) + "_vin_1000");
 //                    room.play(bot, this.fullLines);
 //                }
 //            }

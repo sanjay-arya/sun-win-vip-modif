@@ -109,9 +109,9 @@ extends BaseClientRequestHandler {
         catch (Exception e) {
             Debug.trace((Object[])new Object[]{"Init POKE GO error ", e.getMessage()});
         }
-        rooms.put(Games.POKE_GO.getName() + "_vin_100", new MGRoomPokeGo(Games.POKE_GO.getName() + "_vin_100", (short)1, pots[0], funds[0], 10, initPotValues[0]));
-        rooms.put(Games.POKE_GO.getName() + "_vin_1000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_vin_1000", (short)1, pots[1], funds[1], 100, initPotValues[1]));
-        rooms.put(Games.POKE_GO.getName() + "_vin_10000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_vin_10000", (short)1, pots[2], funds[2], 1000, initPotValues[2]));
+        rooms.put(Games.POKE_GO.getName() + "_vin_10", new MGRoomPokeGo(Games.POKE_GO.getName() + "_vin_10", (short)1, pots[0], funds[0], 10, initPotValues[0]));
+        rooms.put(Games.POKE_GO.getName() + "_vin_100", new MGRoomPokeGo(Games.POKE_GO.getName() + "_vin_100", (short)1, pots[1], funds[1], 100, initPotValues[1]));
+        rooms.put(Games.POKE_GO.getName() + "_vin_1000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_vin_1000", (short)1, pots[2], funds[2], 1000, initPotValues[2]));
         rooms.put(Games.POKE_GO.getName() + "_xu_1000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_xu_1000", (short)0, pots[3], funds[3], 100, initPotValues[3]));
         rooms.put(Games.POKE_GO.getName() + "_xu_10000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_xu_10000", (short)0, pots[4], funds[4], 1000, initPotValues[4]));
         rooms.put(Games.POKE_GO.getName() + "_xu_100000", new MGRoomPokeGo(Games.POKE_GO.getName() + "_xu_100000", (short)0, pots[5], funds[5], 10000, initPotValues[5]));
@@ -362,7 +362,7 @@ extends BaseClientRequestHandler {
             bots = BotMinigame.getBots(ConfigGame.getIntValue("poke_go_num_bot_100"), "vin");
             for (String bot : bots) {
                 if (bot == null) continue;
-                room = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_100");
+                room = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_10");
                 room.play(bot, this.fullLines);
             }
         }
@@ -372,7 +372,7 @@ extends BaseClientRequestHandler {
             bots = BotMinigame.getBots(ConfigGame.getIntValue("poke_go_num_bot_1000"), "vin");
             for (String bot : bots) {
                 if (bot == null) continue;
-                room = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_1000");
+                room = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_100");
                 room.play(bot, this.fullLines);
             }
         }
@@ -382,7 +382,7 @@ extends BaseClientRequestHandler {
             bots = BotMinigame.getBots(ConfigGame.getIntValue("poke_go_num_bot_10000"), "vin");
             for (String bot : bots) {
                 if (bot == null) continue;
-                room = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_10000");
+                room = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_1000");
                 room.play(bot, this.fullLines);
             }
         }
@@ -396,9 +396,9 @@ extends BaseClientRequestHandler {
         @Override
         public void run() {
             PokeGoModule.startX2();
-            MGRoomPokeGo room100 = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_100");
+            MGRoomPokeGo room100 = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_10");
             room100.startHuX2();
-            MGRoomPokeGo room1000 = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_1000");
+            MGRoomPokeGo room1000 = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_100");
             room1000.startHuX2();
             Debug.trace((Object)"POKEGO START X2");
         }

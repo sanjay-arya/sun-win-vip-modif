@@ -41,16 +41,16 @@ public class BotJackPotAuditionTimer implements Runnable {
 
            }
            int moneyToJackPot_100 = GameConfig.getInstance().slotAuditionBotConfig.randomJackPotPer5s(0);
-           AuditionRoom room100 = (AuditionRoom)this.auditionModule.rooms.get(this.auditionModule.gameName + "_vin_100");
+           AuditionRoom room100 = (AuditionRoom)this.auditionModule.rooms.get(this.auditionModule.gameName + "_vin_10");
            room100.addMoneyToPot(moneyToJackPot_100);
            int moneyToJackPot_1000 = GameConfig.getInstance().slotAuditionBotConfig.randomJackPotPer5s(1);
-           AuditionRoom room1000 = (AuditionRoom)this.auditionModule.rooms.get(this.auditionModule.gameName + "_vin_1000");
+           AuditionRoom room1000 = (AuditionRoom)this.auditionModule.rooms.get(this.auditionModule.gameName + "_vin_100");
            room1000.addMoneyToPot(moneyToJackPot_1000);
 //           int moneyToJackPot_5000 = GameConfig.getInstance().slotAuditionBotConfig.randomJackPotPer5s(2);
 //           AuditionRoom room5000 = (AuditionRoom)this.auditionModule.rooms.get(this.auditionModule.gameName + "_vin_5000");
 //           room5000.addMoneyToPot(moneyToJackPot_5000);
            int moneyToJackPot_10000 = GameConfig.getInstance().slotAuditionBotConfig.randomJackPotPer5s(3);
-           AuditionRoom room10000 = (AuditionRoom)this.auditionModule.rooms.get(this.auditionModule.gameName + "_vin_10000");
+           AuditionRoom room10000 = (AuditionRoom)this.auditionModule.rooms.get(this.auditionModule.gameName + "_vin_1000");
            room10000.addMoneyToPot(moneyToJackPot_10000);
 //
            long currentTime = GameUtil.getTimeStampInSeconds();
@@ -59,13 +59,13 @@ public class BotJackPotAuditionTimer implements Runnable {
                time = GameConfig.getInstance().slotAuditionBotConfig.randomTimeBotEat(0);
                timeJackPot_100 = currentTime + time;
                room100.botEatJackpot(this.auditionModule.keyBotJackpotSlot7IconWild +
-                       "_vin_100",timeJackPot_100, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                       "_vin_10",timeJackPot_100, this.bots.get(GameUtil.randomMax(this.bots.size())));
            }
            if(currentTime > timeJackPot_1000){
                time = GameConfig.getInstance().slotAuditionBotConfig.randomTimeBotEat(1);
                timeJackPot_1000 = currentTime + time;
                room1000.botEatJackpot(this.auditionModule.keyBotJackpotSlot7IconWild +
-                       "_vin_1000",timeJackPot_1000, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                       "_vin_100",timeJackPot_1000, this.bots.get(GameUtil.randomMax(this.bots.size())));
            }
 //           if(currentTime > timeJackPot_5000){
 //               time = GameConfig.getInstance().slotAuditionBotConfig.randomTimeBotEat(2);
@@ -77,7 +77,7 @@ public class BotJackPotAuditionTimer implements Runnable {
                time = GameConfig.getInstance().slotAuditionBotConfig.randomTimeBotEat(3);
                timeJackPot_10000 = currentTime + time;
                room10000.botEatJackpot(this.auditionModule.keyBotJackpotSlot7IconWild +
-                       "_vin_10000",timeJackPot_10000, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                       "_vin_1000",timeJackPot_10000, this.bots.get(GameUtil.randomMax(this.bots.size())));
            }
 //           Debug.trace("run finish");
        }catch (Exception e){

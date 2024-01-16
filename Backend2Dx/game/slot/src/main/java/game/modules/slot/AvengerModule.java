@@ -61,9 +61,9 @@ public class AvengerModule extends SlotModule {
                Debug.trace(new Object[]{"Init " + this.gameName + " error ", var7});
           }
 
-          this.rooms.put(this.gameName + "_vin_100", new AvengerRoom(this, (byte)0, this.gameName + "_vin_100", (short)1, this.pots[0], funds[0], 10, (long)initPotValues[0]));
-          this.rooms.put(this.gameName + "_vin_1000", new AvengerRoom(this, (byte)1, this.gameName + "_vin_1000", (short)1, this.pots[1], funds[1], 100, (long)initPotValues[1]));
-          this.rooms.put(this.gameName + "_vin_10000", new AvengerRoom(this, (byte)2, this.gameName + "_vin_10000", (short)1, this.pots[2], funds[2], 1000, (long)initPotValues[2]));
+          this.rooms.put(this.gameName + "_vin_10", new AvengerRoom(this, (byte)0, this.gameName + "_vin_10", (short)1, this.pots[0], funds[0], 10, (long)initPotValues[0]));
+          this.rooms.put(this.gameName + "_vin_100", new AvengerRoom(this, (byte)1, this.gameName + "_vin_100", (short)1, this.pots[1], funds[1], 100, (long)initPotValues[1]));
+          this.rooms.put(this.gameName + "_vin_1000", new AvengerRoom(this, (byte)2, this.gameName + "_vin_1000", (short)1, this.pots[2], funds[2], 1000, (long)initPotValues[2]));
           Debug.trace("INIT " + this.gameName + " DONE");
           this.getParentExtension().addEventListener(BZEventType.USER_DISCONNECT, this);
           this.referenceId = this.slotService.getLastReferenceId(this.gameName);
@@ -272,7 +272,7 @@ public class AvengerModule extends SlotModule {
                     while(var2.hasNext()) {
                          bot = (String)var2.next();
                          if (bot != null) {
-                              room = (AvengerRoom)this.rooms.get(this.gameName + "_vin_100");
+                              room = (AvengerRoom)this.rooms.get(this.gameName + "_vin_10");
                               room.play(bot, this.fullLines, true);
                          }
                     }
@@ -290,7 +290,7 @@ public class AvengerModule extends SlotModule {
                     while(var2.hasNext()) {
                          bot = (String)var2.next();
                          if (bot != null) {
-                              room = (AvengerRoom)this.rooms.get(this.gameName + "_vin_1000");
+                              room = (AvengerRoom)this.rooms.get(this.gameName + "_vin_100");
                               room.play(bot, this.fullLines, true);
                          }
                     }
@@ -308,7 +308,7 @@ public class AvengerModule extends SlotModule {
                     while(var2.hasNext()) {
                          bot = (String)var2.next();
                          if (bot != null) {
-                              room = (AvengerRoom)this.rooms.get(this.gameName + "_vin_10000");
+                              room = (AvengerRoom)this.rooms.get(this.gameName + "_vin_1000");
                               room.play(bot, this.fullLines, true);
                          }
                     }

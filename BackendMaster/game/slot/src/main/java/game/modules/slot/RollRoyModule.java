@@ -103,18 +103,18 @@ extends SlotModule {
         catch (Exception e) {
             Debug.trace("Init " + this.gameName + " error ", e);
         }
-        this.rooms.put(this.gameName + "_vin_100", new RollRoyRoom(this, (byte)0, this.gameName + "_vin_100", (short) 1,
+        this.rooms.put(this.gameName + "_vin_10", new RollRoyRoom(this, (byte)0, this.gameName + "_vin_10", (short) 1,
                 this.pots[0], funds[0], 10, initPotValues[0],
-                fundsJackPot[0],slot7IconJackpotFund+ "_vin_100",
-                fundMiniGame[0],slot7IconMinigameFund + "_vin_100"));
-        this.rooms.put(this.gameName + "_vin_1000", new RollRoyRoom(this, (byte)1, this.gameName + "_vin_1000", (short) 1,
+                fundsJackPot[0],slot7IconJackpotFund+ "_vin_10",
+                fundMiniGame[0],slot7IconMinigameFund + "_vin_10"));
+        this.rooms.put(this.gameName + "_vin_100", new RollRoyRoom(this, (byte)1, this.gameName + "_vin_100", (short) 1,
                 this.pots[1], funds[1], 100, initPotValues[1],
-                fundsJackPot[1],slot7IconJackpotFund+ "_vin_1000",
-                fundMiniGame[1],slot7IconMinigameFund + "_vin_1000"));
-        this.rooms.put(this.gameName + "_vin_10000", new RollRoyRoom(this, (byte)2, this.gameName + "_vin_10000", (short) 1,
+                fundsJackPot[1],slot7IconJackpotFund+ "_vin_100",
+                fundMiniGame[1],slot7IconMinigameFund + "_vin_100"));
+        this.rooms.put(this.gameName + "_vin_1000", new RollRoyRoom(this, (byte)2, this.gameName + "_vin_1000", (short) 1,
                 this.pots[2], funds[2], 1000, initPotValues[2],
-                fundsJackPot[2],slot7IconJackpotFund+ "_vin_10000",
-                fundMiniGame[2],slot7IconMinigameFund + "_vin_10000"));
+                fundsJackPot[2],slot7IconJackpotFund+ "_vin_1000",
+                fundMiniGame[2],slot7IconMinigameFund + "_vin_1000"));
         Debug.trace("INIT " + this.gameName + " DONE");
 
         referenceId = this.slotService.getLastReferenceId(this.gameName);
@@ -139,7 +139,7 @@ extends SlotModule {
 //        BitZeroServer.getInstance().getTaskScheduler().scheduleAtFixedRate(this.gameLoopTask, 10, 1, TimeUnit.SECONDS);
         BitZeroServer.getInstance().getTaskScheduler().scheduleAtFixedRate(new BotJackPotRollRoyceTimer(timeJackPot, this), 10, 5, TimeUnit.SECONDS);
 //        List<String>  bots = BotMinigame.getBots(10, "vin");
-//        RollRoyRoom room = (RollRoyRoom)this.rooms.get(this.gameName + "_vin_100");
+//        RollRoyRoom room = (RollRoyRoom)this.rooms.get(this.gameName + "_vin_10");
 //        for(int i = 0;i<10000;i++){
 //            room.play(bots.get(0), this.fullLines);
 //        }
@@ -392,7 +392,7 @@ extends SlotModule {
 //                bots = BotMinigame.getBots(ConfigGame.getIntValue(String.valueOf(this.gameName) + "_num_bot_100"), "vin");
 //                for (String bot : bots) {
 //                    if (bot == null) continue;
-//                    room = (RollRoyRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_100");
+//                    room = (RollRoyRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_10");
 //                    room.play(bot, this.fullLines);
 //                }
 //            }
@@ -404,7 +404,7 @@ extends SlotModule {
 //                bots = BotMinigame.getBots(ConfigGame.getIntValue(String.valueOf(this.gameName) + "_num_bot_1000"), "vin");
 //                for (String bot : bots) {
 //                    if (bot == null) continue;
-//                    room = (RollRoyRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_1000");
+//                    room = (RollRoyRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_100");
 //                    room.play(bot, this.fullLines);
 //                }
 //            }
@@ -416,7 +416,7 @@ extends SlotModule {
 //                bots = BotMinigame.getBots(ConfigGame.getIntValue(String.valueOf(this.gameName) + "_num_bot_10000"), "vin");
 //                for (String bot : bots) {
 //                    if (bot == null) continue;
-//                    room = (RollRoyRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_10000");
+//                    room = (RollRoyRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_1000");
 //                    room.play(bot, this.fullLines);
 //                }
 //            }

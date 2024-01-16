@@ -9,9 +9,9 @@ public class AdminCPUtils {
 
     // ************ BITCOIN ************************
     public static BenleyRoom[] getListBenleyRoom() {
-        BenleyRoom room100 = (BenleyRoom) BenleyModule.getInstance().rooms.get(BenleyModule.getInstance().gameName + "_vin_100");
-        BenleyRoom room1000 = (BenleyRoom) BenleyModule.getInstance().rooms.get(BenleyModule.getInstance().gameName + "_vin_1000");
-        BenleyRoom room10000 = (BenleyRoom) BenleyModule.getInstance().rooms.get(BenleyModule.getInstance().gameName + "_vin_10000");
+        BenleyRoom room100 = (BenleyRoom) BenleyModule.getInstance().rooms.get(BenleyModule.getInstance().gameName + "_vin_10");
+        BenleyRoom room1000 = (BenleyRoom) BenleyModule.getInstance().rooms.get(BenleyModule.getInstance().gameName + "_vin_100");
+        BenleyRoom room10000 = (BenleyRoom) BenleyModule.getInstance().rooms.get(BenleyModule.getInstance().gameName + "_vin_1000");
         return new BenleyRoom[]{room100, room1000, room10000};
     }
 
@@ -59,9 +59,9 @@ public class AdminCPUtils {
     
     //************ CHIEN TINH ************************
     public static ChiemTinhRoom[] getListChiemTinhRoom() {
-        ChiemTinhRoom room100 = (ChiemTinhRoom) ChiemTinhModule.getInstance().rooms.get(ChiemTinhModule.getInstance().gameName + "_vin_100");
-        ChiemTinhRoom room1000 = (ChiemTinhRoom) ChiemTinhModule.getInstance().rooms.get(ChiemTinhModule.getInstance().gameName + "_vin_1000");
-        ChiemTinhRoom room10000 = (ChiemTinhRoom) ChiemTinhModule.getInstance().rooms.get(ChiemTinhModule.getInstance().gameName + "_vin_10000");
+        ChiemTinhRoom room100 = (ChiemTinhRoom) ChiemTinhModule.getInstance().rooms.get(ChiemTinhModule.getInstance().gameName + "_vin_10");
+        ChiemTinhRoom room1000 = (ChiemTinhRoom) ChiemTinhModule.getInstance().rooms.get(ChiemTinhModule.getInstance().gameName + "_vin_100");
+        ChiemTinhRoom room10000 = (ChiemTinhRoom) ChiemTinhModule.getInstance().rooms.get(ChiemTinhModule.getInstance().gameName + "_vin_1000");
         return new ChiemTinhRoom[]{room100, room1000, room10000};
     }
 
@@ -109,9 +109,9 @@ public class AdminCPUtils {
 
     //************ DUA XE ************************
     public static AuditionRoom[] getListAuditionTamHungRoom() {
-        AuditionRoom room100 = (AuditionRoom) AuditionModule.getInstance().rooms.get(AuditionModule.getInstance().gameName + "_vin_100");
-        AuditionRoom room1000 = (AuditionRoom) AuditionModule.getInstance().rooms.get(AuditionModule.getInstance().gameName + "_vin_1000");
-        AuditionRoom room10000 = (AuditionRoom) AuditionModule.getInstance().rooms.get(AuditionModule.getInstance().gameName + "_vin_10000");
+        AuditionRoom room100 = (AuditionRoom) AuditionModule.getInstance().rooms.get(AuditionModule.getInstance().gameName + "_vin_10");
+        AuditionRoom room1000 = (AuditionRoom) AuditionModule.getInstance().rooms.get(AuditionModule.getInstance().gameName + "_vin_100");
+        AuditionRoom room10000 = (AuditionRoom) AuditionModule.getInstance().rooms.get(AuditionModule.getInstance().gameName + "_vin_1000");
         return new AuditionRoom[]{room100, room1000, room10000};
     }
 
@@ -159,9 +159,9 @@ public class AdminCPUtils {
 
     //************ CHIM DIEN ************************
     public static TamHungRoom[] getListTamHungRoom() {
-        TamHungRoom room100 = (TamHungRoom) TamHungModule.getInstance().rooms.get(TamHungModule.getInstance().gameName + "_vin_100");
-        TamHungRoom room1000 = (TamHungRoom) TamHungModule.getInstance().rooms.get(TamHungModule.getInstance().gameName + "_vin_1000");
-        TamHungRoom room10000 = (TamHungRoom) TamHungModule.getInstance().rooms.get(TamHungModule.getInstance().gameName + "_vin_10000");
+        TamHungRoom room100 = (TamHungRoom) TamHungModule.getInstance().rooms.get(TamHungModule.getInstance().gameName + "_vin_10");
+        TamHungRoom room1000 = (TamHungRoom) TamHungModule.getInstance().rooms.get(TamHungModule.getInstance().gameName + "_vin_100");
+        TamHungRoom room10000 = (TamHungRoom) TamHungModule.getInstance().rooms.get(TamHungModule.getInstance().gameName + "_vin_1000");
         return new TamHungRoom[]{room100, room1000, room10000};
     }
 
@@ -209,9 +209,9 @@ public class AdminCPUtils {
 
     //************ THAN TAI ************************
     public static SpartanRoom[] getListSpartanRoom() {
-        SpartanRoom room100 = (SpartanRoom) SpartanModule.getInstance().rooms.get(SpartanModule.getInstance().gameName + "_vin_100");
-        SpartanRoom room1000 = (SpartanRoom) SpartanModule.getInstance().rooms.get(SpartanModule.getInstance().gameName + "_vin_1000");
-        SpartanRoom room10000 = (SpartanRoom) SpartanModule.getInstance().rooms.get(SpartanModule.getInstance().gameName + "_vin_10000");
+        SpartanRoom room100 = (SpartanRoom) SpartanModule.getInstance().rooms.get(SpartanModule.getInstance().gameName + "_vin_10");
+        SpartanRoom room1000 = (SpartanRoom) SpartanModule.getInstance().rooms.get(SpartanModule.getInstance().gameName + "_vin_100");
+        SpartanRoom room10000 = (SpartanRoom) SpartanModule.getInstance().rooms.get(SpartanModule.getInstance().gameName + "_vin_1000");
         return new SpartanRoom[]{room100, room1000, room10000};
     }
 
@@ -259,9 +259,9 @@ public class AdminCPUtils {
 
     //************ THE THAO ************************
     public static MayBachRoom[] getListMayBachRoom() {
-        MayBachRoom room100 = (MayBachRoom) MayBachModule.getInstance().rooms.get(MayBachModule.getInstance().gameName + "_vin_100");
-        MayBachRoom room1000 = (MayBachRoom)MayBachModule.getInstance().rooms.get(MayBachModule.getInstance().gameName + "_vin_1000");
-        MayBachRoom room10000 = (MayBachRoom)MayBachModule.getInstance().rooms.get(MayBachModule.getInstance().gameName + "_vin_10000");
+        MayBachRoom room100 = (MayBachRoom) MayBachModule.getInstance().rooms.get(MayBachModule.getInstance().gameName + "_vin_10");
+        MayBachRoom room1000 = (MayBachRoom)MayBachModule.getInstance().rooms.get(MayBachModule.getInstance().gameName + "_vin_100");
+        MayBachRoom room10000 = (MayBachRoom)MayBachModule.getInstance().rooms.get(MayBachModule.getInstance().gameName + "_vin_1000");
         return new MayBachRoom[]{room100, room1000, room10000};
     }
 
@@ -309,9 +309,9 @@ public class AdminCPUtils {
 
     //************ THE THAO ************************
     public static RollRoyRoom[] getListRollRoyRoom() {
-        RollRoyRoom room100 = (RollRoyRoom) RollRoyModule.getInstance().rooms.get(RollRoyModule.getInstance().gameName + "_vin_100");
-        RollRoyRoom room1000 = (RollRoyRoom)RollRoyModule.getInstance().rooms.get(RollRoyModule.getInstance().gameName + "_vin_1000");
-        RollRoyRoom room10000 = (RollRoyRoom)RollRoyModule.getInstance().rooms.get(RollRoyModule.getInstance().gameName + "_vin_10000");
+        RollRoyRoom room100 = (RollRoyRoom) RollRoyModule.getInstance().rooms.get(RollRoyModule.getInstance().gameName + "_vin_10");
+        RollRoyRoom room1000 = (RollRoyRoom)RollRoyModule.getInstance().rooms.get(RollRoyModule.getInstance().gameName + "_vin_100");
+        RollRoyRoom room10000 = (RollRoyRoom)RollRoyModule.getInstance().rooms.get(RollRoyModule.getInstance().gameName + "_vin_1000");
         return new RollRoyRoom[]{room100, room1000, room10000};
     }
 
@@ -364,9 +364,9 @@ public class AdminCPUtils {
 
     // ************ BIKINI ************************
     public static BikiniRoom[] getListBikiniRoom() {
-        BikiniRoom room100 = (BikiniRoom) BikiniModule.getInstance().rooms.get(BikiniModule.getInstance().gameName + "_vin_100");
-        BikiniRoom room1000 = (BikiniRoom) BikiniModule.getInstance().rooms.get(BikiniModule.getInstance().gameName + "_vin_1000");
-        BikiniRoom room10000 = (BikiniRoom) BikiniModule.getInstance().rooms.get(BikiniModule.getInstance().gameName + "_vin_10000");
+        BikiniRoom room100 = (BikiniRoom) BikiniModule.getInstance().rooms.get(BikiniModule.getInstance().gameName + "_vin_10");
+        BikiniRoom room1000 = (BikiniRoom) BikiniModule.getInstance().rooms.get(BikiniModule.getInstance().gameName + "_vin_100");
+        BikiniRoom room10000 = (BikiniRoom) BikiniModule.getInstance().rooms.get(BikiniModule.getInstance().gameName + "_vin_1000");
 
         return new BikiniRoom[]{room100, room1000, room10000};
     }

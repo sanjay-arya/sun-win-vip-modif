@@ -42,16 +42,16 @@ public class BotJackPotSpartanTimer implements Runnable {
 
            }
            int moneyToJackPot_100 = GameConfig.getInstance().slotSpartanBotConfig.randomJackPotPer5s(0);
-           SpartanRoom room100 = (SpartanRoom)this.spartanModule.rooms.get(this.spartanModule.gameName + "_vin_100");
+           SpartanRoom room100 = (SpartanRoom)this.spartanModule.rooms.get(this.spartanModule.gameName + "_vin_10");
            room100.addMoneyToPot(moneyToJackPot_100);
            int moneyToJackPot_1000 = GameConfig.getInstance().slotSpartanBotConfig.randomJackPotPer5s(1);
-           SpartanRoom room1000 = (SpartanRoom)this.spartanModule.rooms.get(this.spartanModule.gameName + "_vin_1000");
+           SpartanRoom room1000 = (SpartanRoom)this.spartanModule.rooms.get(this.spartanModule.gameName + "_vin_100");
            room1000.addMoneyToPot(moneyToJackPot_1000);
 //           int moneyToJackPot_5000 = GameConfig.getInstance().slotSpartanBotConfig.randomJackPotPer5s(2);
 //           SpartanRoom room5000 = (SpartanRoom)this.spartanModule.rooms.get(this.spartanModule.gameName + "_vin_5000");
 //           room5000.addMoneyToPot(moneyToJackPot_5000);
            int moneyToJackPot_10000 = GameConfig.getInstance().slotSpartanBotConfig.randomJackPotPer5s(3);
-           SpartanRoom room10000 = (SpartanRoom)this.spartanModule.rooms.get(this.spartanModule.gameName + "_vin_10000");
+           SpartanRoom room10000 = (SpartanRoom)this.spartanModule.rooms.get(this.spartanModule.gameName + "_vin_1000");
            room10000.addMoneyToPot(moneyToJackPot_10000);
 //
            long currentTime = GameUtil.getTimeStampInSeconds();
@@ -60,13 +60,13 @@ public class BotJackPotSpartanTimer implements Runnable {
                time = GameConfig.getInstance().slotSpartanBotConfig.randomTimeBotEat(0);
                timeJackPot_100 = currentTime + time;
                room100.botEatJackpot(this.spartanModule.keyBotJackpotSlot11IconWild +
-                       "_vin_100",timeJackPot_100, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                       "_vin_10",timeJackPot_100, this.bots.get(GameUtil.randomMax(this.bots.size())));
            }
            if(currentTime > timeJackPot_1000){
                time = GameConfig.getInstance().slotSpartanBotConfig.randomTimeBotEat(1);
                timeJackPot_1000 = currentTime + time;
                room1000.botEatJackpot(this.spartanModule.keyBotJackpotSlot11IconWild +
-                       "_vin_1000",timeJackPot_1000, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                       "_vin_100",timeJackPot_1000, this.bots.get(GameUtil.randomMax(this.bots.size())));
            }
 //           if(currentTime > timeJackPot_5000){
 //               time = GameConfig.getInstance().slotSpartanBotConfig.randomTimeBotEat(2);
@@ -78,7 +78,7 @@ public class BotJackPotSpartanTimer implements Runnable {
                time = GameConfig.getInstance().slotSpartanBotConfig.randomTimeBotEat(3);
                timeJackPot_10000 = currentTime + time;
                room10000.botEatJackpot(this.spartanModule.keyBotJackpotSlot11IconWild +
-                       "_vin_10000",timeJackPot_10000, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                       "_vin_1000",timeJackPot_10000, this.bots.get(GameUtil.randomMax(this.bots.size())));
            }
 //           Debug.trace("run finish");
        }catch (Exception e){

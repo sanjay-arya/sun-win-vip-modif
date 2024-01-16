@@ -39,13 +39,13 @@ public class BotJackPotRollRoyceTimer implements Runnable {
 
            }
            int moneyToJackPot_100 = GameConfig.getInstance().slotRollRoyceBotConfig.randomJackPotPer5s(0);
-           RollRoyRoom room100 = (RollRoyRoom)this.rollRoyModule.rooms.get(this.rollRoyModule.gameName + "_vin_100");
+           RollRoyRoom room100 = (RollRoyRoom)this.rollRoyModule.rooms.get(this.rollRoyModule.gameName + "_vin_10");
            room100.addMoneyToPot(moneyToJackPot_100);
            int moneyToJackPot_1000 = GameConfig.getInstance().slotRollRoyceBotConfig.randomJackPotPer5s(1);
-           RollRoyRoom room1000 = (RollRoyRoom)this.rollRoyModule.rooms.get(this.rollRoyModule.gameName + "_vin_1000");
+           RollRoyRoom room1000 = (RollRoyRoom)this.rollRoyModule.rooms.get(this.rollRoyModule.gameName + "_vin_100");
            room1000.addMoneyToPot(moneyToJackPot_1000);
            int moneyToJackPot_10000 = GameConfig.getInstance().slotRollRoyceBotConfig.randomJackPotPer5s(2);
-           RollRoyRoom room10000 = (RollRoyRoom)this.rollRoyModule.rooms.get(this.rollRoyModule.gameName + "_vin_10000");
+           RollRoyRoom room10000 = (RollRoyRoom)this.rollRoyModule.rooms.get(this.rollRoyModule.gameName + "_vin_1000");
            room10000.addMoneyToPot(moneyToJackPot_10000);
 //
            long currentTime = GameUtil.getTimeStampInSeconds();
@@ -54,19 +54,19 @@ public class BotJackPotRollRoyceTimer implements Runnable {
                time = GameConfig.getInstance().slotRollRoyceBotConfig.randomTimeBotEat(0);
                timeJackPot_100 = currentTime + time;
                room100.botEatJackpot(this.rollRoyModule.keyBotJackpotRRoyce +
-                       "_vin_100",timeJackPot_100, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                       "_vin_10",timeJackPot_100, this.bots.get(GameUtil.randomMax(this.bots.size())));
            }
            if(currentTime > timeJackPot_1000){
                time = GameConfig.getInstance().slotRollRoyceBotConfig.randomTimeBotEat(1);
                timeJackPot_1000 = currentTime + time;
                room1000.botEatJackpot(this.rollRoyModule.keyBotJackpotRRoyce +
-                       "_vin_1000",timeJackPot_1000, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                       "_vin_100",timeJackPot_1000, this.bots.get(GameUtil.randomMax(this.bots.size())));
            }
            if(currentTime > timeJackPot_10000){
                time = GameConfig.getInstance().slotRollRoyceBotConfig.randomTimeBotEat(2);
                timeJackPot_10000 = currentTime + time;
                room10000.botEatJackpot(this.rollRoyModule.keyBotJackpotRRoyce +
-                       "_vin_10000",timeJackPot_10000, this.bots.get(GameUtil.randomMax(this.bots.size())));
+                       "_vin_1000",timeJackPot_10000, this.bots.get(GameUtil.randomMax(this.bots.size())));
            }
 //           Debug.trace("run finish");
        }catch (Exception e){
