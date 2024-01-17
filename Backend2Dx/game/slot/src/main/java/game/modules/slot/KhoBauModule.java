@@ -274,11 +274,29 @@ public class KhoBauModule extends SlotModule {
      }
 
      protected void gameLoop() {
-          ++this.countBot100;
+          ++this.countBot10;
           List bots;
           Iterator var2;
           String bot;
           KhoBauRoom room;
+          if (this.countBot10 >= this.getCountTimeBot("KhoBau_bot_10")) {
+               if (this.countBot10 == this.getCountTimeBot("KhoBau_bot_10")) {
+                    bots = BotMinigame.getBots(ConfigGame.getIntValue("KhoBau_num_bot_10"), "vin");
+                    var2 = bots.iterator();
+
+                    while(var2.hasNext()) {
+                         bot = (String)var2.next();
+                         if (bot != null) {
+                              room = (KhoBauRoom)this.rooms.get(Games.KHO_BAU.getName() + "_vin_10");
+                              room.play(bot, this.fullLines);
+                         }
+                    }
+               }
+
+               this.countBot10 = 0;
+          }
+
+          ++this.countBot100;
           if (this.countBot100 >= this.getCountTimeBot("KhoBau_bot_100")) {
                if (this.countBot100 == this.getCountTimeBot("KhoBau_bot_100")) {
                     bots = BotMinigame.getBots(ConfigGame.getIntValue("KhoBau_num_bot_100"), "vin");
@@ -287,7 +305,7 @@ public class KhoBauModule extends SlotModule {
                     while(var2.hasNext()) {
                          bot = (String)var2.next();
                          if (bot != null) {
-                              room = (KhoBauRoom)this.rooms.get(Games.KHO_BAU.getName() + "_vin_10");
+                              room = (KhoBauRoom)this.rooms.get(Games.KHO_BAU.getName() + "_vin_100");
                               room.play(bot, this.fullLines);
                          }
                     }
@@ -305,31 +323,13 @@ public class KhoBauModule extends SlotModule {
                     while(var2.hasNext()) {
                          bot = (String)var2.next();
                          if (bot != null) {
-                              room = (KhoBauRoom)this.rooms.get(Games.KHO_BAU.getName() + "_vin_100");
-                              room.play(bot, this.fullLines);
-                         }
-                    }
-               }
-
-               this.countBot1000 = 0;
-          }
-
-          ++this.countBot10000;
-          if (this.countBot10000 >= this.getCountTimeBot("KhoBau_bot_10000")) {
-               if (this.countBot10000 == this.getCountTimeBot("KhoBau_bot_10000")) {
-                    bots = BotMinigame.getBots(ConfigGame.getIntValue("KhoBau_num_bot_10000"), "vin");
-                    var2 = bots.iterator();
-
-                    while(var2.hasNext()) {
-                         bot = (String)var2.next();
-                         if (bot != null) {
                               room = (KhoBauRoom)this.rooms.get(Games.KHO_BAU.getName() + "_vin_1000");
                               room.play(bot, this.fullLines);
                          }
                     }
                }
 
-               this.countBot10000 = 0;
+               this.countBot1000 = 0;
           }
 
      }

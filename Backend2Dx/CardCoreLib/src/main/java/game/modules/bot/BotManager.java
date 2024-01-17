@@ -70,8 +70,8 @@ public class BotManager {
     public static final int DOWN_BALANCE = 2;
     public int countDown = 0;
     public int balanceMode = 0;
-    public long maxWin = 1000000;
-    public long maxLost = 1000000;
+    public long maxWin = 500000;
+    public long maxLost = 100000;
     public Random rd = new Random();
     BotService botService = new BotServiceImpl();
     public UserService userService = new UserServiceImpl();

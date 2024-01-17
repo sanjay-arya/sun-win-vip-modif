@@ -244,7 +244,7 @@ public class AdminCPHandler extends AbstractHandler {
                     return;
                 }
                 case AdminAction.GET_FUND_BAUCUA: {
-                    MGRoomBauCua mgRoomBauCua = (MGRoomBauCua)BauCuaModule.getInstance().rooms.get("BauCua_vin_1000");
+                    MGRoomBauCua mgRoomBauCua = (MGRoomBauCua)BauCuaModule.getInstance().rooms.get("BauCua_vin_100");
                     JettyUtils.send(baseRequest, response, new JettyResponse(JettyErrorCode.SUCCESS,
                             gson.toJson(new FundData(mgRoomBauCua.fund))));
                     return;
@@ -257,7 +257,7 @@ public class AdminCPHandler extends AbstractHandler {
                         return;
                     }
                     FundData fundData = gson.fromJson(data, FundData.class);
-                    MGRoomBauCua mgRoomBauCua = (MGRoomBauCua)BauCuaModule.getInstance().rooms.get("BauCua_vin_1000");
+                    MGRoomBauCua mgRoomBauCua = (MGRoomBauCua)BauCuaModule.getInstance().rooms.get("BauCua_vin_100");
                     mgRoomBauCua.fund = fundData.listFund[0];
                     JettyUtils.send(baseRequest, response, new JettyResponse(JettyErrorCode.SUCCESS, "ok"));
                     return;

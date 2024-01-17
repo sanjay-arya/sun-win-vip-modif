@@ -69,9 +69,9 @@ public class Slot3x3ExtendModule extends BaseClientRequestHandler {
         } catch (Exception e) {
             Debug.trace((Object[]) new Object[]{"Init SLOT EXTEND error ", e.getMessage()});
         }
-        rooms.put("SlotExtend_vin_100", new MGRoomSlotExtend("SlotExtend_vin_100", (short) 1, pots[0], funds[0], 100, initPotValues[0]));
-        rooms.put("SlotExtend_vin_1000", new MGRoomSlotExtend("SlotExtend_vin_1000", (short) 1, pots[1], funds[1], 1000, initPotValues[1]));
-        rooms.put("SlotExtend_vin_10000", new MGRoomSlotExtend("SlotExtend_vin_10000", (short) 1, pots[2], funds[2], 10000, initPotValues[2]));
+        rooms.put("SlotExtend_vin_10", new MGRoomSlotExtend("SlotExtend_vin_10", (short) 1, pots[0], funds[0], 10, initPotValues[0]));
+        rooms.put("SlotExtend_vin_100", new MGRoomSlotExtend("SlotExtend_vin_100", (short) 1, pots[1], funds[1], 100, initPotValues[1]));
+        rooms.put("SlotExtend_vin_1000", new MGRoomSlotExtend("SlotExtend_vin_1000", (short) 1, pots[2], funds[2], 1000, initPotValues[2]));
         Debug.trace("INIT SLOT_EXTEND DONE");
         getParentExtension().addEventListener(BZEventType.USER_DISCONNECT, this);
         referenceId = this.slotExtendService.getLastReferenceId();
@@ -220,20 +220,20 @@ public class Slot3x3ExtendModule extends BaseClientRequestHandler {
     private long getBaseBetting(byte roomId) {
         switch (roomId) {
             case 0:
-                return 100L;
+                return 10L;
 
             case 1:
 
             case 3:
-                return 1000L;
+                return 100L;
 
             case 2:
 
             case 4:
-                return 10000L;
+                return 1000L;
 
             case 5:
-                return 100000L;
+                return 10000L;
         }
 
         return 0L;
@@ -243,9 +243,9 @@ public class Slot3x3ExtendModule extends BaseClientRequestHandler {
         UpdatePotSlotExtend msg;
         try {
             com.vinplay.usercore.service.impl.CacheServiceImpl cacheService = new com.vinplay.usercore.service.impl.CacheServiceImpl();
-            int miniPoker100 = cacheService.getValueInt("SlotExtend_vin_100");
-            int miniPoker1000 = cacheService.getValueInt("SlotExtend_vin_1000");
-            int miniPoker10000 = cacheService.getValueInt("SlotExtend_vin_10000");
+            int miniPoker100 = cacheService.getValueInt("SlotExtend_vin_10");
+            int miniPoker1000 = cacheService.getValueInt("SlotExtend_vin_100");
+            int miniPoker10000 = cacheService.getValueInt("SlotExtend_vin_1000");
 
             msg = new UpdatePotSlotExtend();
             msg.value1 = miniPoker100;

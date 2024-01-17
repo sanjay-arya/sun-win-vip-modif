@@ -143,8 +143,8 @@ extends BaseClientRequestHandler {
     private List<BotTaiXiu> botsVin = new ArrayList<BotTaiXiu>();
     private List<BotTaiXiu> botsXu = new ArrayList<BotTaiXiu>();
     private short forceBetSide = (short)-1;
-    private long MinCtrl = 500000L;
-    private long MaxCtrl = 1000000L;
+    private long MinCtrl = 50000L;
+    private long MaxCtrl = 100000L;
     private List<String> listChat = new ArrayList<String>();
     private List<String> listChatUsers = new ArrayList<String>();
     public static String CacheCurrentReference = "Tai_xiu_current_reference";
@@ -234,7 +234,7 @@ extends BaseClientRequestHandler {
         }
         try {
             this.fundRutLoc = this.txService.getPotTanLoc();
-            if (this.fundRutLoc < 100000L) {
+            if (this.fundRutLoc < 10000L) {
                 this.countRutLoc = -1;
             }
         }
@@ -580,7 +580,7 @@ extends BaseClientRequestHandler {
                     catch (IOException | InterruptedException | TimeoutException exception) {
                         // empty catch block
                     }
-                    if (this.countRutLoc == -1 && this.fundRutLoc >= 100000L) {
+                    if (this.countRutLoc == -1 && this.fundRutLoc >= 10000L) {
                         this.countRutLoc = 0;
                         StartNewRoundRutLocMsg newRoundMsg = new StartNewRoundRutLocMsg();
                         newRoundMsg.remainTime = this.getRemainTimeRutLoc();

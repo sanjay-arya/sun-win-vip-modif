@@ -40,7 +40,7 @@ public class TaiXiuUtils {
     private static Logger loggerTaiXiu = Logger.getLogger((String)"csvBetTaiXiu");
     private static final String FORMAT_LOG_BET_TAI_XIU = "%d,\t%s,\t%d,\t%d,\t%d,\t%s,\t%s";
     private static Logger loggerThanhDu = Logger.getLogger((String)"csvThanhDuPrize");
-    private static long[] prizes = new long[]{500000L, 200000L, 100000L};
+    private static long[] prizes = new long[]{50000L, 20000L, 10000L};
     private static final String FORMAT_THANH_DU = "%s,\t%d,\t%d,\t%d,\t%d,\t%d,\t%d,\t%s";
 
     public static String buildLichSuPhien(List<ResultTaiXiu> input, int number) {

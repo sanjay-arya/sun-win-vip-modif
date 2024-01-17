@@ -73,9 +73,9 @@ public class MiniPokerModule
 extends BaseClientRequestHandler {
     private static Map<String, MGRoom> rooms = new HashMap<String, MGRoom>();
     private MiniGameService mgService = new MiniGameServiceImpl();
+    private int countBot10 = 0;
     private int countBot100 = 0;
     private int countBot1000 = 0;
-    private int countBot10000 = 0;
     private GameLoopTask gameLoopTask = new GameLoopTask();
     private static String ngayX2;
     private static Runnable miniPokerX2Task;
@@ -301,8 +301,8 @@ extends BaseClientRequestHandler {
         BitZeroServer.getInstance().getTaskScheduler().schedule(miniPokerX2Task, nextX2Time, TimeUnit.SECONDS);
     }
 
-    private int getCountTimeBot100() {
-        int n = ConfigGame.getIntValue("mini_poker_bot_100", 0);
+    private int getCountTimeBot10() {
+        int n = ConfigGame.getIntValue("mini_poker_bot_10", 0);
         if (n == 0) {
             return 0;
         }
@@ -312,8 +312,8 @@ extends BaseClientRequestHandler {
         return n;
     }
 
-    private int getCountTimeBot1000() {
-        int n = ConfigGame.getIntValue("mini_poker_bot_1000", 0);
+    private int getCountTimeBot100() {
+        int n = ConfigGame.getIntValue("mini_poker_bot_100", 0);
         if (n == 0) {
             return 0;
         }
@@ -323,8 +323,8 @@ extends BaseClientRequestHandler {
         return n;
     }
 
-    private int getCountTimeBot10000() {
-        int n = ConfigGame.getIntValue("poke_go_bot_10000", 0);
+    private int getCountTimeBot1000() {
+        int n = ConfigGame.getIntValue("poke_go_bot_1000", 0);
         if (n == 0) {
             return 0;
         }
@@ -337,30 +337,30 @@ extends BaseClientRequestHandler {
     private void gameLoop() {
         List<String> bots;
         MGRoomMiniPoker room;
-        ++this.countBot100;
-        if (this.countBot100 >= this.getCountTimeBot100()) {
-            this.countBot100 = 0;
-            bots = BotMinigame.getBots(ConfigGame.getIntValue("mini_poker_num_bot_100"), "vin");
+        ++this.countBot10;
+        if (this.countBot10 >= this.getCountTimeBot10()) {
+            this.countBot10 = 0;
+            bots = BotMinigame.getBots(ConfigGame.getIntValue("mini_poker_num_bot_10"), "vin");
             for (String bot : bots) {
                 if (bot == null) continue;
                 room = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_10");
                 room.play(bot, 100L);
             }
         }
-        ++this.countBot1000;
-        if (this.countBot1000 >= this.getCountTimeBot1000()) {
-            this.countBot1000 = 0;
-            bots = BotMinigame.getBots(ConfigGame.getIntValue("mini_poker_num_bot_1000"), "vin");
+        ++this.countBot100;
+        if (this.countBot100 >= this.getCountTimeBot100()) {
+            this.countBot100 = 0;
+            bots = BotMinigame.getBots(ConfigGame.getIntValue("mini_poker_num_bot_100"), "vin");
             for (String bot : bots) {
                 if (bot == null) continue;
                 room = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "r_vin_1000");
                 room.play(bot, 1000L);
             }
         }
-        ++this.countBot10000;
-        if (this.countBot10000 >= this.getCountTimeBot10000()) {
-            this.countBot10000 = 0;
-            bots = BotMinigame.getBots(ConfigGame.getIntValue("mini_poker_num_bot_10000"), "vin");
+        ++this.countBot1000;
+        if (this.countBot1000 >= this.getCountTimeBot1000()) {
+            this.countBot1000 = 0;
+            bots = BotMinigame.getBots(ConfigGame.getIntValue("mini_poker_num_bot_1000"), "vin");
             for (String bot : bots) {
                 if (bot == null) continue;
                 room = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_1000");

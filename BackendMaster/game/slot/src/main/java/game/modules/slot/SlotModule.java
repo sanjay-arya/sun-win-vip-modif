@@ -29,10 +29,10 @@ extends BaseClientRequestHandler {
     protected String ngayX2;
     protected long[] pots = new long[3];
     protected long lastTimeUpdatePotToRoom = 0L;
+    protected int countBot10;
     protected int countBot100;
-    protected int countBot1000;
     protected int countBot5000;
-    protected int countBot10000;
+    protected int countBot1000;
     protected GameLoopTask gameLoopTask = new GameLoopTask();
     public String gameName;
     protected X2Task x2Task = new X2Task();

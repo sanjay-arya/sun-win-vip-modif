@@ -317,13 +317,26 @@ public class BikiniModule extends SlotModule {
     protected void gameLoop() {
 //        List<String> bots;
 //        BikiniRoom room;
+//        ++this.countBot10;
+//        if (this.countBot10 >= this.getCountTimeBot(String.valueOf(this.gameName) + "_bot_10")) {
+//            if (this.countBot10 == this.getCountTimeBot(String.valueOf(this.gameName) + "_bot_10")) {
+//                bots = BotMinigame.getBots(ConfigGame.getIntValue(String.valueOf(this.gameName) + "_num_bot_10"), "vin");
+//                for (String bot : bots) {
+//                    if (bot == null) continue;
+//                    room = (BikiniRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_10");
+//                    long referenceId = getNewReferenceId();
+//                    room.playNormal(bot, this.fullLines, referenceId);
+//                }
+//            }
+//            this.countBot10 = 0;
+//        }
 //        ++this.countBot100;
 //        if (this.countBot100 >= this.getCountTimeBot(String.valueOf(this.gameName) + "_bot_100")) {
 //            if (this.countBot100 == this.getCountTimeBot(String.valueOf(this.gameName) + "_bot_100")) {
 //                bots = BotMinigame.getBots(ConfigGame.getIntValue(String.valueOf(this.gameName) + "_num_bot_100"), "vin");
 //                for (String bot : bots) {
 //                    if (bot == null) continue;
-//                    room = (BikiniRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_10");
+//                    room = (BikiniRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_100");
 //                    long referenceId = getNewReferenceId();
 //                    room.playNormal(bot, this.fullLines, referenceId);
 //                }
@@ -336,25 +349,12 @@ public class BikiniModule extends SlotModule {
 //                bots = BotMinigame.getBots(ConfigGame.getIntValue(String.valueOf(this.gameName) + "_num_bot_1000"), "vin");
 //                for (String bot : bots) {
 //                    if (bot == null) continue;
-//                    room = (BikiniRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_100");
-//                    long referenceId = getNewReferenceId();
-//                    room.playNormal(bot, this.fullLines, referenceId);
-//                }
-//            }
-//            this.countBot1000 = 0;
-//        }
-//        ++this.countBot10000;
-//        if (this.countBot10000 >= this.getCountTimeBot(String.valueOf(this.gameName) + "_bot_10000")) {
-//            if (this.countBot10000 == this.getCountTimeBot(String.valueOf(this.gameName) + "_bot_10000")) {
-//                bots = BotMinigame.getBots(ConfigGame.getIntValue(String.valueOf(this.gameName) + "_num_bot_10000"), "vin");
-//                for (String bot : bots) {
-//                    if (bot == null) continue;
 //                    room = (BikiniRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_1000");
 //                    long referenceId = getNewReferenceId();
 //                    room.playNormal(bot, this.fullLines, referenceId);
 //                }
 //            }
-//            this.countBot10000 = 0;
+//            this.countBot1000 = 0;
 //        }
     }
 }

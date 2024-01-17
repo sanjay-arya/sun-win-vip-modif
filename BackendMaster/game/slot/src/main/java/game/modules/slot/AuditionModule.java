@@ -352,29 +352,29 @@ extends SlotModule {
     protected void gameLoop() {
 //        List<String> bots;
 //        AuditionRoom room;
-//        ++this.countBot100;
-//        if (this.countBot100 >= this.getCountTimeBot(this.gameName+"_bot_100")) {
-//            if (this.countBot100 == this.getCountTimeBot(this.gameName+"_bot_100")) {
-//                bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_100"), "vin");
+//        ++this.countBot10;
+//        if (this.countBot10 >= this.getCountTimeBot(this.gameName+"_bot_10")) {
+//            if (this.countBot10 == this.getCountTimeBot(this.gameName+"_bot_10")) {
+//                bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_10"), "vin");
 //                for (String bot : bots) {
 //                    if (bot == null) continue;
 //                    room = (AuditionRoom)this.rooms.get(String.valueOf(Games.AUDITION.getName()) + "_vin_10");
 //                    room.play(bot, this.fullLines);
 //                }
 //            }
-//            this.countBot100 = 0;
+//            this.countBot10 = 0;
 //        }
-//        ++this.countBot1000;
-//        if (this.countBot1000 >= this.getCountTimeBot(this.gameName+"_bot_1000")) {
-//            if (this.countBot1000 == this.getCountTimeBot(this.gameName+"_bot_1000")) {
-//                bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_1000"), "vin");
+//        ++this.countBot100;
+//        if (this.countBot100 >= this.getCountTimeBot(this.gameName+"_bot_100")) {
+//            if (this.countBot100 == this.getCountTimeBot(this.gameName+"_bot_100")) {
+//                bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_100"), "vin");
 //                for (String bot : bots) {
 //                    if (bot == null) continue;
 //                    room = (AuditionRoom)this.rooms.get(String.valueOf(Games.AUDITION.getName()) + "_vin_100");
 //                    room.play(bot, this.fullLines);
 //                }
 //            }
-//            this.countBot1000 = 0;
+//            this.countBot100 = 0;
 //        }
 //
 //        ++this.countBot5000;
@@ -390,17 +390,17 @@ extends SlotModule {
 //            this.countBot5000 = 0;
 //        }
 //
-//        ++this.countBot10000;
-//        if (this.countBot10000 >= this.getCountTimeBot(this.gameName+"_bot_10000")) {
-//            if (this.countBot10000 == this.getCountTimeBot(this.gameName+"_bot_10000")) {
-//                bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_10000"), "vin");
+//        ++this.countBot1000;
+//        if (this.countBot1000 >= this.getCountTimeBot(this.gameName+"_bot_1000")) {
+//            if (this.countBot1000 == this.getCountTimeBot(this.gameName+"_bot_1000")) {
+//                bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_1000"), "vin");
 //                for (String bot : bots) {
 //                    if (bot == null) continue;
 //                    room = (AuditionRoom)this.rooms.get(String.valueOf(Games.AUDITION.getName()) + "_vin_1000");
 //                    room.play(bot, this.fullLines);
 //                }
 //            }
-//            this.countBot10000 = 0;
+//            this.countBot1000 = 0;
 //        }
     }
 }

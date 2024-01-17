@@ -37,11 +37,11 @@ public class TestMiniPoker {
     private long tongTienAn = 0L;
     private GenerationMiniPoker gen = new GenerationMiniPoker();
     private int randomLoi = 0;
-    private long pot = 500000L;
-    private static final int initPotValue = 500000;
-    private long fund = 3000000L;
+    private long pot = 50000L;
+    private static final int initPotValue = 50000;
+    private long fund = 300000L;
     private short moneyType = 1;
-    private long currentMoney = 1000000000L;
+    private long currentMoney = 100000000L;
     private long betValue = 100L;
     private int khongDuTien = 0;
 
@@ -138,7 +138,7 @@ public class TestMiniPoker {
                     long fundExchange = prize > 0L ? prize : 0L;
                     long l = fundExchange;
                     if (result == 1) {
-                        if (this.fund - 500000L < 0L) {
+                        if (this.fund - 50000L < 0L) {
                             ++this.soLanNoHuKhongDuTraThuong;
                             ++this.soLanKhongDuTraThuong;
                             continue;
@@ -151,8 +151,8 @@ public class TestMiniPoker {
                     enoughToPair = true;
                     if (prize > 0L) {
                         if (result == 1) {
-                            this.pot = 500000L;
-                            this.fund -= 500000L;
+                            this.pot = 50000L;
+                            this.fund -= 50000L;
                         } else {
                             this.fund -= fundExchange;
                         }
@@ -197,7 +197,7 @@ public class TestMiniPoker {
     public static void main(String[] args) throws IOException {
         FileWriter fw = new FileWriter("D:/fund.log");
         TestMiniPoker test = new TestMiniPoker();
-        long soLanChay = 10000000L;
+        long soLanChay = 1000000L;
         long maxTime = 0L;
         int i = 0;
         while ((long)i < soLanChay) {

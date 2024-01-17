@@ -313,13 +313,25 @@ extends SlotModule {
     protected void gameLoop() {
 //        List<String> bots;
 //        MayBachRoom room;
+//        ++this.countBot10;
+//        if (this.countBot10 >= this.getCountTimeBot(this.gameName+"_bot_10")) {
+//            if (this.countBot10 == this.getCountTimeBot(this.gameName+"_bot_10")) {
+//                bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_10"), "vin");
+//                for (String bot : bots) {
+//                    if (bot == null) continue;
+//                    room = (MayBachRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_10");
+//                    room.play(bot, this.fullLines);
+//                }
+//            }
+//            this.countBot10 = 0;
+//        }
 //        ++this.countBot100;
 //        if (this.countBot100 >= this.getCountTimeBot(this.gameName+"_bot_100")) {
 //            if (this.countBot100 == this.getCountTimeBot(this.gameName+"_bot_100")) {
 //                bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_100"), "vin");
 //                for (String bot : bots) {
 //                    if (bot == null) continue;
-//                    room = (MayBachRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_10");
+//                    room = (MayBachRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_100");
 //                    room.play(bot, this.fullLines);
 //                }
 //            }
@@ -331,23 +343,11 @@ extends SlotModule {
 //                bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_1000"), "vin");
 //                for (String bot : bots) {
 //                    if (bot == null) continue;
-//                    room = (MayBachRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_100");
-//                    room.play(bot, this.fullLines);
-//                }
-//            }
-//            this.countBot1000 = 0;
-//        }
-//        ++this.countBot10000;
-//        if (this.countBot10000 >= this.getCountTimeBot(this.gameName+"_bot_10000")) {
-//            if (this.countBot10000 == this.getCountTimeBot(this.gameName+"_bot_10000")) {
-//                bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName+"_num_bot_10000"), "vin");
-//                for (String bot : bots) {
-//                    if (bot == null) continue;
 //                    room = (MayBachRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_1000");
 //                    room.play(bot, this.fullLines);
 //                }
 //            }
-//            this.countBot10000 = 0;
+//            this.countBot1000 = 0;
 //        }
     }
 }

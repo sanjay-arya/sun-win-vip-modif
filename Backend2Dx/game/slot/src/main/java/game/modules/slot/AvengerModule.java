@@ -259,11 +259,29 @@ public class AvengerModule extends SlotModule {
      }
 
      protected void gameLoop() {
-          ++this.countBot100;
+          ++this.countBot10;
           List bots;
           Iterator var2;
           String bot;
           AvengerRoom room;
+          if (this.countBot10 >= this.getCountTimeBot(this.gameName + "_bot_10")) {
+               if (this.countBot10 == this.getCountTimeBot(this.gameName + "_bot_10")) {
+                    bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName + "_num_bot_10"), "vin");
+                    var2 = bots.iterator();
+
+                    while(var2.hasNext()) {
+                         bot = (String)var2.next();
+                         if (bot != null) {
+                              room = (AvengerRoom)this.rooms.get(this.gameName + "_vin_10");
+                              room.play(bot, this.fullLines, true);
+                         }
+                    }
+               }
+
+               this.countBot10 = 0;
+          }
+
+          ++this.countBot100;
           if (this.countBot100 >= this.getCountTimeBot(this.gameName + "_bot_100")) {
                if (this.countBot100 == this.getCountTimeBot(this.gameName + "_bot_100")) {
                     bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName + "_num_bot_100"), "vin");
@@ -272,7 +290,7 @@ public class AvengerModule extends SlotModule {
                     while(var2.hasNext()) {
                          bot = (String)var2.next();
                          if (bot != null) {
-                              room = (AvengerRoom)this.rooms.get(this.gameName + "_vin_10");
+                              room = (AvengerRoom)this.rooms.get(this.gameName + "_vin_100");
                               room.play(bot, this.fullLines, true);
                          }
                     }
@@ -290,31 +308,13 @@ public class AvengerModule extends SlotModule {
                     while(var2.hasNext()) {
                          bot = (String)var2.next();
                          if (bot != null) {
-                              room = (AvengerRoom)this.rooms.get(this.gameName + "_vin_100");
-                              room.play(bot, this.fullLines, true);
-                         }
-                    }
-               }
-
-               this.countBot1000 = 0;
-          }
-
-          ++this.countBot10000;
-          if (this.countBot10000 >= this.getCountTimeBot(this.gameName + "_bot_10000")) {
-               if (this.countBot10000 == this.getCountTimeBot(this.gameName + "_bot_10000")) {
-                    bots = BotMinigame.getBots(ConfigGame.getIntValue(this.gameName + "_num_bot_10000"), "vin");
-                    var2 = bots.iterator();
-
-                    while(var2.hasNext()) {
-                         bot = (String)var2.next();
-                         if (bot != null) {
                               room = (AvengerRoom)this.rooms.get(this.gameName + "_vin_1000");
                               room.play(bot, this.fullLines, true);
                          }
                     }
                }
 
-               this.countBot10000 = 0;
+               this.countBot1000 = 0;
           }
 
      }

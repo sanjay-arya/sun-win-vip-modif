@@ -33,7 +33,7 @@ import org.apache.log4j.Logger;
 public class RewardThanhDuProcessor
 implements BaseProcessor<HttpServletRequest, String> {
     private Logger logger = Logger.getLogger((String)"csvThanhDuPrize");
-    private long[] prizes = new long[]{2000000L, 1000000L, 500000L};
+    private long[] prizes = new long[]{200000L, 100000L, 50000L};
     private static final String FORMAT_THANH_DU = "%s,\t%d,\t%d,\t%d,\t%d,\t%d,\t%d,\t%s";
 
     public String execute(Param<HttpServletRequest> param) {

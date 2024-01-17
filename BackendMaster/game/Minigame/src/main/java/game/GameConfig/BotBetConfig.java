@@ -9,10 +9,10 @@ import java.util.Collections;
 
 public class BotBetConfig {
     public static int[] xocDiaNumberBot = {135,90,45,45,45,45,45,90,135,135,180,180,180,180,135,135,135,135,135,180,180,180,180,135};
-    public static int[] xocDiaFundBet = {4000000,2500000,2500000,2500000,2500000,2500000,2500000,2500000,4000000,4000000,5000000,5000000,
-            5000000,5000000,4000000,4000000,4000000,4000000,4000000,5000000,5000000,5000000,5000000,4000000};
+    public static int[] xocDiaFundBet = {400000,250000,250000,250000,250000,250000,250000,250000,400000,400000,500000,500000,
+            500000,500000,400000,400000,400000,400000,400000,500000,500000,500000,500000,400000};
     public static int[] xocDiaFundBetDelta = {4000000,2000000,1000000,1000000,1000000,1000000,1000000,2000000,4000000,4000000,4000000,
-            4000000,4000000,4000000,4000000,4000000,4000000,4000000,4000000,4000000,4000000,4000000,4000000,4000000};
+            400000,400000,400000,400000,400000,400000,400000,400000,400000,400000,400000,400000,400000};
 
     public static byte getHourOfDay() {
         return (byte) Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
@@ -55,17 +55,17 @@ public class BotBetConfig {
             goldForBetLevel[1] = (long) (money * 24.0 / 100);
             goldForBetLevel[0] = money - goldForBetLevel[3] - goldForBetLevel[2] - goldForBetLevel[1];
 
-            long currentGoldBetLevel3 = (goldForBetLevel[3] / 1000000) * 1000000;
+            long currentGoldBetLevel3 = (goldForBetLevel[3] / 100000) * 100000;
             goldForBetLevel[2] += goldForBetLevel[3] - currentGoldBetLevel3;
-            goldForBetLevel[3] = currentGoldBetLevel3 / 1000000;
+            goldForBetLevel[3] = currentGoldBetLevel3 / 100000;
 
-            long currentGoldBetLevel2 = (goldForBetLevel[2] / 100000) * 100000;
+            long currentGoldBetLevel2 = (goldForBetLevel[2] / 10000) * 10000;
             goldForBetLevel[1] += goldForBetLevel[2] - currentGoldBetLevel2;
-            goldForBetLevel[2] = currentGoldBetLevel2 / 100000;
+            goldForBetLevel[2] = currentGoldBetLevel2 / 10000;
 
-            long currentGoldBetLevel1 = (goldForBetLevel[1] / 10000) * 10000;
+            long currentGoldBetLevel1 = (goldForBetLevel[1] / 1000) * 1000;
             goldForBetLevel[0] += goldForBetLevel[1] - currentGoldBetLevel1;
-            goldForBetLevel[1] = currentGoldBetLevel1 / 10000;
+            goldForBetLevel[1] = currentGoldBetLevel1 / 1000;
 
             goldForBetLevel[0] /= 1000;
 
@@ -76,54 +76,54 @@ public class BotBetConfig {
             botForBetLevel[1] = number * 40 / 100;
             botForBetLevel[0] = number - botForBetLevel[3] - botForBetLevel[2] - botForBetLevel[1];
 
-            int[] listBet1K = getList1KByValue(botForBetLevel[0], (int) goldForBetLevel[0]);
+            int[] listBet100 = getList1KByValue(botForBetLevel[0], (int) goldForBetLevel[0]);
+            for (int i = 0; i < listBet100.length; i++) {
+                listBet.add((long) listBet100[i] * 100 * 10);
+            }
+            int[] listBet1K = getList10KByValue(botForBetLevel[1], (int) goldForBetLevel[1]);
             for (int i = 0; i < listBet1K.length; i++) {
                 listBet.add((long) listBet1K[i] * 1000 * 10);
             }
-            int[] listBet10K = getList10KByValue(botForBetLevel[1], (int) goldForBetLevel[1]);
+
+            int[] listBet10K = getList100KByValue(botForBetLevel[2], (int) goldForBetLevel[2]);
             for (int i = 0; i < listBet10K.length; i++) {
                 listBet.add((long) listBet10K[i] * 10000 * 10);
             }
 
-            int[] listBet100K = getList100KByValue(botForBetLevel[2], (int) goldForBetLevel[2]);
+            int[] listBet100K = getList1000KByValue(botForBetLevel[3], (int) goldForBetLevel[3]);
             for (int i = 0; i < listBet100K.length; i++) {
                 listBet.add((long) listBet100K[i] * 100000 * 10);
-            }
-
-            int[] listBet1000K = getList1000KByValue(botForBetLevel[3], (int) goldForBetLevel[3]);
-            for (int i = 0; i < listBet1000K.length; i++) {
-                listBet.add((long) listBet1000K[i] * 1000000 * 10);
             }
         } else {
             long[] goldForBetLevel = new long[3];
             goldForBetLevel[2] = (long) (money * 60 / 100);
             goldForBetLevel[1] = (long) (money * 38.5 / 100);
             goldForBetLevel[0] = money - goldForBetLevel[2] - goldForBetLevel[1];
-            long currentGoldBetLevel2 = (goldForBetLevel[2] / 100000) * 100000;
+            long currentGoldBetLevel2 = (goldForBetLevel[2] / 10000) * 10000;
             goldForBetLevel[1] += goldForBetLevel[2] - currentGoldBetLevel2;
-            goldForBetLevel[2] = currentGoldBetLevel2 / 100000;
-            long currentGoldBetLevel1 = (goldForBetLevel[1] / 10000) * 10000;
+            goldForBetLevel[2] = currentGoldBetLevel2 / 10000;
+            long currentGoldBetLevel1 = (goldForBetLevel[1] / 1000) * 1000;
             goldForBetLevel[0] += goldForBetLevel[1] - currentGoldBetLevel1;
-            goldForBetLevel[1] = currentGoldBetLevel1 / 10000;
-            goldForBetLevel[0] /= 1000;
+            goldForBetLevel[1] = currentGoldBetLevel1 / 1000;
+            goldForBetLevel[0] /= 100;
 
             int[] botForBetLevel = new int[3];
             botForBetLevel[2] = number * 30 / 100 + 1;
             botForBetLevel[1] = number * 40 / 100;
             botForBetLevel[0] = number - botForBetLevel[2] - botForBetLevel[1];
 
-            int[] listBet1K = getList1KByValue(botForBetLevel[0], (int) goldForBetLevel[0]);
-            for (int i = 0; i < listBet1K.length; i++) {
-                listBet.add((long) listBet1K[i] * 1000 * 10);
+            int[] listBet100 = getList1KByValue(botForBetLevel[0], (int) goldForBetLevel[0]);
+            for (int i = 0; i < listBet100.length; i++) {
+                listBet.add((long) listBet100[i] * 1000 * 10);
             }
-            int[] listBet10K = getList10KByValue(botForBetLevel[1], (int) goldForBetLevel[1]);
-            for (int i = 0; i < listBet10K.length; i++) {
-                listBet.add((long) listBet10K[i] * 10000 * 10);
+            int[] listBet1K = getList10KByValue(botForBetLevel[1], (int) goldForBetLevel[1]);
+            for (int i = 0; i < listBet1K.length; i++) {
+                listBet.add((long) listBet1K[i] * 10000 * 10);
             }
 
-            int[] listBet100K = getList100KByValue(botForBetLevel[2], (int) goldForBetLevel[2]);
-            for (int i = 0; i < listBet100K.length; i++) {
-                listBet.add((long) listBet100K[i] * 100000 * 10);
+            int[] listBet10K = getList100KByValue(botForBetLevel[2], (int) goldForBetLevel[2]);
+            for (int i = 0; i < listBet10K.length; i++) {
+                listBet.add((long) listBet10K[i] * 10000 * 10);
             }
         }
 //        for(int i =0;i< listBet.size();i++){

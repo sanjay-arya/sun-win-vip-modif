@@ -94,10 +94,10 @@ extends BaseClientRequestHandler {
             Debug.trace((Object[])new Object[]{"Get cao thap pot error ", e.getMessage()});
         }
         this.rooms.put("cao_thap_vin_100", new MGRoomCaoThap("cao_thap_vin_100", (byte)1, pots[0], funds[0], 100));
-        this.rooms.put("cao_thap_vin_1000", new MGRoomCaoThap("cao_thap_vin_1000", (byte)1, pots[1], funds[1], 500));
-        this.rooms.put("cao_thap_vin_5000", new MGRoomCaoThap("cao_thap_vin_5000", (byte)1, pots[2], funds[2], 1000));
-        this.rooms.put("cao_thap_vin_10000", new MGRoomCaoThap("cao_thap_vin_10000", (byte)1, pots[3], funds[3], 5000));
-        this.rooms.put("cao_thap_vin_50000", new MGRoomCaoThap("cao_thap_vin_50000", (byte)1, pots[4], funds[4], 10000));
+        this.rooms.put("cao_thap_vin_500", new MGRoomCaoThap("cao_thap_vin_500", (byte)1, pots[1], funds[1], 500));
+        this.rooms.put("cao_thap_vin_1000", new MGRoomCaoThap("cao_thap_vin_1000", (byte)1, pots[2], funds[2], 1000));
+        this.rooms.put("cao_thap_vin_5000", new MGRoomCaoThap("cao_thap_vin_5000", (byte)1, pots[3], funds[3], 5000));
+        this.rooms.put("cao_thap_vin_10000", new MGRoomCaoThap("cao_thap_vin_10000", (byte)1, pots[4], funds[4], 10000));
         this.rooms.put("cao_thap_xu_10000", new MGRoomCaoThap("cao_thap_xu_10000", (byte)0, pots[5], funds[5], 500));
         this.rooms.put("cao_thap_xu_100000", new MGRoomCaoThap("cao_thap_xu_100000", (byte)0, pots[6], funds[6], 5000));
         this.rooms.put("cao_thap_xu_500000", new MGRoomCaoThap("cao_thap_xu_500000", (byte)0, pots[7], funds[7], 10000));

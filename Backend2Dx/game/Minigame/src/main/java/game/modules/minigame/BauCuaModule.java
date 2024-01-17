@@ -93,12 +93,12 @@ extends BaseClientRequestHandler {
     public void init() {
         super.init();
         this.loadData();
-        this.rooms.put("BauCua_vin_1000", new MGRoomBauCua("BauCua_vin_1000", 100, (byte)1, (byte)0, this.funds[0]));
-        this.rooms.put("BauCua_vin_10000", new MGRoomBauCua("BauCua_vin_10000", 1000, (byte)1, (byte)1, this.funds[1]));
-        this.rooms.put("BauCua_vin_100000", new MGRoomBauCua("BauCua_vin_100000", 10000, (byte)1, (byte)2, this.funds[2]));
-        this.rooms.put("BauCua_xu_10000", new MGRoomBauCua("BauCua_xu_10000", 1000, (byte)0, (byte)3, this.funds[3]));
-        this.rooms.put("BauCua_xu_100000", new MGRoomBauCua("BauCua_xu_100000", 10000, (byte)0, (byte)4, this.funds[4]));
-        this.rooms.put("BauCua_xu_1000000", new MGRoomBauCua("BauCua_xu_1000000", 100000, (byte)0, (byte)5, this.funds[5]));
+        this.rooms.put("BauCua_vin_100", new MGRoomBauCua("BauCua_vin_100", 100, (byte)1, (byte)0, this.funds[0]));
+        this.rooms.put("BauCua_vin_1000", new MGRoomBauCua("BauCua_vin_1000", 1000, (byte)1, (byte)1, this.funds[1]));
+        this.rooms.put("BauCua_vin_10000", new MGRoomBauCua("BauCua_vin_10000", 10000, (byte)1, (byte)2, this.funds[2]));
+        this.rooms.put("BauCua_xu_1000", new MGRoomBauCua("BauCua_xu_1000", 1000, (byte)0, (byte)3, this.funds[3]));
+        this.rooms.put("BauCua_xu_10000", new MGRoomBauCua("BauCua_xu_10000", 10000, (byte)0, (byte)4, this.funds[4]));
+        this.rooms.put("BauCua_xu_100000", new MGRoomBauCua("BauCua_xu_100000", 100000, (byte)0, (byte)5, this.funds[5]));
         BitZeroServer.getInstance().getTaskScheduler().scheduleAtFixedRate(this.gameLoopTask, 10, 1, TimeUnit.SECONDS);
         BitZeroServer.getInstance().getTaskScheduler().schedule(this.serverReadyTask, 10, TimeUnit.SECONDS);
         this.getParentExtension().addEventListener((IBZEventType)BZEventType.USER_DISCONNECT, (IBZEventListener)this);

@@ -84,9 +84,9 @@ extends BaseClientRequestHandler {
     private static long referenceId = 1L;
     private static String ngayX2;
     private GameLoopTask gameLoopTask = new GameLoopTask();
+    private int countBot10 = 0;
     private int countBot100 = 0;
     private int countBot1000 = 0;
-    private int countBot10000 = 0;
     private String fullLines = "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20";
     protected CacheService sv = new CacheServiceImpl();
 
@@ -320,8 +320,8 @@ extends BaseClientRequestHandler {
         return 0L;
     }
 
-    private int getCountTimeBot100() {
-        int n = ConfigGame.getIntValue("poke_go_bot_100", 0);
+    private int getCountTimeBot10() {
+        int n = ConfigGame.getIntValue("poke_go_bot_10", 0);
         if (n == 0) {
             return 0;
         }
@@ -331,8 +331,8 @@ extends BaseClientRequestHandler {
         return n;
     }
 
-    private int getCountTimeBot1000() {
-        int n = ConfigGame.getIntValue("poke_go_bot_1000", 0);
+    private int getCountTimeBot100() {
+        int n = ConfigGame.getIntValue("poke_go_bot_100", 0);
         if (n == 0) {
             return 0;
         }
@@ -342,8 +342,8 @@ extends BaseClientRequestHandler {
         return n;
     }
 
-    private int getCountTimeBot10000() {
-        int n = ConfigGame.getIntValue("poke_go_bot_10000", 0);
+    private int getCountTimeBot1000() {
+        int n = ConfigGame.getIntValue("poke_go_bot_1000", 0);
         if (n == 0) {
             return 0;
         }
@@ -356,13 +356,23 @@ extends BaseClientRequestHandler {
     private void gameLoop() {
         List<String> bots;
         MGRoomPokeGo room;
+        ++this.countBot10;
+        if (this.countBot10 >= this.getCountTimeBot10()) {
+            this.countBot10 = 0;
+            bots = BotMinigame.getBots(ConfigGame.getIntValue("poke_go_num_bot_10"), "vin");
+            for (String bot : bots) {
+                if (bot == null) continue;
+                room = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_10");
+                room.play(bot, this.fullLines);
+            }
+        }
         ++this.countBot100;
         if (this.countBot100 >= this.getCountTimeBot100()) {
             this.countBot100 = 0;
             bots = BotMinigame.getBots(ConfigGame.getIntValue("poke_go_num_bot_100"), "vin");
             for (String bot : bots) {
                 if (bot == null) continue;
-                room = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_10");
+                room = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_100");
                 room.play(bot, this.fullLines);
             }
         }
@@ -370,16 +380,6 @@ extends BaseClientRequestHandler {
         if (this.countBot1000 >= this.getCountTimeBot1000()) {
             this.countBot1000 = 0;
             bots = BotMinigame.getBots(ConfigGame.getIntValue("poke_go_num_bot_1000"), "vin");
-            for (String bot : bots) {
-                if (bot == null) continue;
-                room = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_100");
-                room.play(bot, this.fullLines);
-            }
-        }
-        ++this.countBot10000;
-        if (this.countBot10000 >= this.getCountTimeBot10000()) {
-            this.countBot10000 = 0;
-            bots = BotMinigame.getBots(ConfigGame.getIntValue("poke_go_num_bot_10000"), "vin");
             for (String bot : bots) {
                 if (bot == null) continue;
                 room = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_1000");
