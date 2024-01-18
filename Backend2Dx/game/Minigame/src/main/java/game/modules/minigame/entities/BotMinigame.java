@@ -46,7 +46,7 @@ public class BotMinigame {
     private static UserService userService = new UserServiceImpl();
     private static BotService botService = new BotServiceImpl();
     private static List<Integer> betValueDefault = Arrays.asList(5555, 6666, 7777, 8888, 9999, 6789, 11111, 22222, 33333, 44444, 55555);
-    private static long[] soVinBan = new long[]{3000000L, 35000000L, 4000000L, 50000000L};
+    private static long[] soVinBan = new long[]{300000L, 3500000L, 400000L, 5000000L};
     private static long updateTime = System.currentTimeMillis();
     private static String basePath = VBeePath.basePath;
 

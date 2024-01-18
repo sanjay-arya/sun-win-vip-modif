@@ -23,7 +23,7 @@ public class BotMinigame {
      private static List botsVip = new ArrayList();
      private static UserService userService = new UserServiceImpl();
      private static BotService botService = new BotServiceImpl();
-     private static long[] soDuConLai = new long[]{3000000L, 35000000L, 4000000L};
+     private static long[] soDuConLai = new long[]{300000L, 3500000L, 4000000L};
      private static String basePath = VBeePath.basePath;
 
      public static void loadData() {
