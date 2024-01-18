@@ -23,7 +23,7 @@ date_default_timezone_set('Asia/Yangon');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://adp1.kohtut.dev/';
+$config['base_url'] = 'https://adp1.ovo-god.com/';
 $config['api_url'] = "http://127.0.0.1:8081/api";
 $config['api_three_rd'] = "http://127.0.0.1:9112";
 $config['api_backend'] = "http://127.0.0.1:19082/api_backend";
