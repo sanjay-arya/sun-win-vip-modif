@@ -142,9 +142,9 @@ extends SlotModule {
 //        BitZeroServer.getInstance().getTaskScheduler().scheduleAtFixedRate(this.gameLoopTask, 10, 1, TimeUnit.SECONDS);
         BitZeroServer.getInstance().getTaskScheduler().scheduleAtFixedRate(new BotJackPotAuditionTimer(timeJackPot,this), 10, 5, TimeUnit.SECONDS);
 
-//        AuditionRoom room1000 = (AuditionRoom)this.rooms.get(this.gameName + "_vin_100");
+//        AuditionRoom room100 = (AuditionRoom)this.rooms.get(this.gameName + "_vin_100");
 //        long time = GameConfig.getInstance().slotAuditionBotConfig.randomTimeBotEat(1);
-//        room1000.botEatJackpot(this.keyBotJackpotSlot7IconWild +
+//        room100.botEatJackpot(this.keyBotJackpotSlot7IconWild +
 //                "_vin_100",time, "test123");
 //        List<String> bots = BotMinigame.getBots(10, "vin");
 //        AuditionRoom room = (AuditionRoom)this.rooms.get(String.valueOf(this.gameName) + "_vin_10");
@@ -201,12 +201,12 @@ extends SlotModule {
 
     public UpdatePotAuditionMsg getPotsInfo() {
         UpdatePotAuditionMsg msg = new UpdatePotAuditionMsg();
-        msg.value100 = this.pots[0];
-        msg.value1000 = this.pots[1];
+        msg.value10 = this.pots[0];
+        msg.value100 = this.pots[1];
         msg.value5000 = this.pots[2];
-        msg.value10000 = this.pots[3];
-        msg.x2Room100 = this.x2Arr[0];
-        msg.x2Room1000 = this.x2Arr[1];
+        msg.value1000 = this.pots[3];
+        msg.x2room10 = this.x2Arr[0];
+        msg.x2room100 = this.x2Arr[1];
         return msg;
     }
 

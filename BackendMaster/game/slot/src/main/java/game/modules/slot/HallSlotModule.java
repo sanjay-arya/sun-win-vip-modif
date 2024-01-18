@@ -144,8 +144,8 @@ extends BaseClientRequestHandler {
                 JSONObject room105 = this.buildRoomSlotInfo(gameName, 10000);
                 jsonGame.put("10000", room105);
 			}else {
-				JSONObject room100 = this.buildRoomSlotInfo(gameName, 10);
-                jsonGame.put("10", room100);
+				JSONObject room10 = this.buildRoomSlotInfo(gameName, 10);
+                jsonGame.put("10", room10);
                 JSONObject room101 = this.buildRoomSlotInfo(gameName, 100);
                 jsonGame.put("100", room101);
                 JSONObject room102 = this.buildRoomSlotInfo(gameName, 1000);

@@ -64,7 +64,7 @@ public class GalaxyModule extends BaseClientRequestHandler {
         long[] pots = new long[6];
         long[] funds = new long[6];
 //        int[] initPotValues = new int[6];
-        int[] initPotValues = {500000,5000000,50000000,500000,5000000,50000000};
+        int[] initPotValues = {50000,500000,5000000,50000,500000,5000000};
         long[] fundsJackPot = new long[6];
         long[] timeJackPot = new long[3];
         try {

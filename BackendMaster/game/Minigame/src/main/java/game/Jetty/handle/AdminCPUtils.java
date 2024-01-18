@@ -16,10 +16,10 @@ import game.modules.minigame.room.MGRoomMiniPoker;
 public class AdminCPUtils {
 
     public static MGRoomMiniPoker[] getMinipokerRoom(){
-        MGRoomMiniPoker room100 = (MGRoomMiniPoker)MiniPokerModule.rooms.get(Games.MINI_POKER.getName() + "_vin_10");
-        MGRoomMiniPoker room1000 = (MGRoomMiniPoker)MiniPokerModule.rooms.get(Games.MINI_POKER.getName() + "_vin_100");
-        MGRoomMiniPoker room10000 = (MGRoomMiniPoker)MiniPokerModule.rooms.get(Games.MINI_POKER.getName() + "_vin_1000");
-        return new MGRoomMiniPoker[]{room100, room1000, room10000};
+        MGRoomMiniPoker room10 = (MGRoomMiniPoker)MiniPokerModule.rooms.get(Games.MINI_POKER.getName() + "_vin_10");
+        MGRoomMiniPoker room100 = (MGRoomMiniPoker)MiniPokerModule.rooms.get(Games.MINI_POKER.getName() + "_vin_100");
+        MGRoomMiniPoker room1000 = (MGRoomMiniPoker)MiniPokerModule.rooms.get(Games.MINI_POKER.getName() + "_vin_1000");
+        return new MGRoomMiniPoker[]{room10, room100, room1000};
     }
 
     public static JackpotData getJackpotDataSlotMinipoker() {
@@ -62,10 +62,10 @@ public class AdminCPUtils {
     }
 
     public static MGRoomCandy[] getCandyRoom(){
-        MGRoomCandy room100 = (MGRoomCandy) CandyModule.rooms.get(Games.CANDY.getName() + "_vin_10");
-        MGRoomCandy room1000 = (MGRoomCandy) CandyModule.rooms.get(Games.CANDY.getName()+ "_vin_100");
-        MGRoomCandy room10000 = (MGRoomCandy) CandyModule.rooms.get(Games.CANDY.getName() + "_vin_1000");
-        return new MGRoomCandy[]{room100, room1000, room10000};
+        MGRoomCandy room10 = (MGRoomCandy) CandyModule.rooms.get(Games.CANDY.getName() + "_vin_10");
+        MGRoomCandy room100 = (MGRoomCandy) CandyModule.rooms.get(Games.CANDY.getName()+ "_vin_100");
+        MGRoomCandy room1000 = (MGRoomCandy) CandyModule.rooms.get(Games.CANDY.getName() + "_vin_1000");
+        return new MGRoomCandy[]{room10, room100, room1000};
     }
 
     public static JackpotData getJackpotDataSlot3x3() {
@@ -108,12 +108,12 @@ public class AdminCPUtils {
     }
 
     public static MGRoomCaoThap[] getCaoThapRoom(){
-        MGRoomCaoThap room1000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_100");
-        MGRoomCaoThap room10000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_500");
+        MGRoomCaoThap room100 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_100");
+        MGRoomCaoThap room1000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_500");
         MGRoomCaoThap room50000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_1000");
-        MGRoomCaoThap room100000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_5000");
+        MGRoomCaoThap room10000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_5000");
         MGRoomCaoThap room500000 = (MGRoomCaoThap) CaoThapModule.getInstance().rooms.get("cao_thap_vin_10000");
-        return new MGRoomCaoThap[]{room1000, room10000, room50000,room100000,room500000};
+        return new MGRoomCaoThap[]{room100, room1000, room50000,room10000,room500000};
     }
 
     public static JackpotData getJackpotDataCaoThap() {
@@ -152,10 +152,10 @@ public class AdminCPUtils {
 
     // GALAXY
     public static MGRoomGalaxy[] getGalaxyRoom(){
-        MGRoomGalaxy room100 = (MGRoomGalaxy) GalaxyModule.rooms.get(Games.GALAXY.getName() + "_vin_10");
-        MGRoomGalaxy room1000 = (MGRoomGalaxy) GalaxyModule.rooms.get(Games.GALAXY.getName()+ "_vin_100");
-        MGRoomGalaxy room10000 = (MGRoomGalaxy) GalaxyModule.rooms.get(Games.GALAXY.getName() + "_vin_1000");
-        return new MGRoomGalaxy[]{room100, room1000, room10000};
+        MGRoomGalaxy room10 = (MGRoomGalaxy) GalaxyModule.rooms.get(Games.GALAXY.getName() + "_vin_10");
+        MGRoomGalaxy room100 = (MGRoomGalaxy) GalaxyModule.rooms.get(Games.GALAXY.getName()+ "_vin_100");
+        MGRoomGalaxy room1000 = (MGRoomGalaxy) GalaxyModule.rooms.get(Games.GALAXY.getName() + "_vin_1000");
+        return new MGRoomGalaxy[]{room10, room100, room1000};
     }
 
     public static JackpotData getJackpotDataGalaxy() {

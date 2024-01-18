@@ -396,10 +396,10 @@ extends BaseClientRequestHandler {
         @Override
         public void run() {
             PokeGoModule.startX2();
-            MGRoomPokeGo room100 = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_10");
+            MGRoomPokeGo room10 = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_10");
+            room10.startHuX2();
+            MGRoomPokeGo room100 = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_100");
             room100.startHuX2();
-            MGRoomPokeGo room1000 = (MGRoomPokeGo)rooms.get(Games.POKE_GO.getName() + "_vin_100");
-            room1000.startHuX2();
             Debug.trace((Object)"POKEGO START X2");
         }
     }

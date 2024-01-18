@@ -403,10 +403,10 @@ extends BaseClientRequestHandler {
         @Override
         public void run() {
             MiniPokerModule.startX2();
-            MGRoomMiniPoker room100 = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_10");
+            MGRoomMiniPoker room10 = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_10");
+            room10.startHuX2();
+            MGRoomMiniPoker room100 = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_100");
             room100.startHuX2();
-            MGRoomMiniPoker room1000 = (MGRoomMiniPoker)rooms.get(Games.MINI_POKER.getName() + "_vin_100");
-            room1000.startHuX2();
             Debug.trace((Object)"Mini START X2");
         }
     }

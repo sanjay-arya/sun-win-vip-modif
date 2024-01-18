@@ -143,8 +143,8 @@ extends BaseClientRequestHandler {
         @Override
         public void run() {
             SlotModule.this.startX2();
-            SlotRoom room100 = SlotModule.this.rooms.get(String.valueOf(SlotModule.this.gameName) + "_vin_10");
-            room100.startHuX2();
+            SlotRoom room10 = SlotModule.this.rooms.get(String.valueOf(SlotModule.this.gameName) + "_vin_10");
+            room10.startHuX2();
             SlotRoom room101 = SlotModule.this.rooms.get(String.valueOf(SlotModule.this.gameName) + "_vin_100");
             room101.startHuX2();
         }

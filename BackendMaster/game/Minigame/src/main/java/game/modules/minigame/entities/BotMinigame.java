@@ -32,8 +32,8 @@ public class BotMinigame {
     private static BotService botService = new BotServiceImpl();
 //    private static List<Integer> betValueDefault = Arrays.asList(5555, 6666, 7777, 8888, 9999, 6789, 11111, 22222, 33333, 44444, 55555);
     private static List<Integer> betValueDefault = Arrays.asList(
-            1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 15000);
-    private static long[] soVinBan = new long[]{30000000L, 85000000L, 40000000L, 100000000L};
+            100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1500);
+    private static long[] soVinBan = new long[]{300000L, 850000L, 400000L, 1000000L};
     private static long updateTime = System.currentTimeMillis();
 
     public static void loadData() {

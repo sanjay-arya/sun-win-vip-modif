@@ -120,12 +120,12 @@ extends BaseClientRequestHandler {
         catch (Exception e) {
             Debug.trace("Init "+this.gameName+" error ", e.getMessage());
         }
-        rooms.put(Games.CANDY.getName() + "_vin_10", new MGRoomCandy(this, Games.CANDY.getName() + "_vin_10", (short)1, pots[0], funds[0], 100, initPotValues[0], slot3x3JackpotFund + "_vin_10", fundsJackPot[0]));
-        rooms.put(Games.CANDY.getName() + "_vin_100", new MGRoomCandy(this, Games.CANDY.getName() + "_vin_100", (short)1, pots[1], funds[1], 1000, initPotValues[1],slot3x3JackpotFund + "_vin_100", fundsJackPot[1]));
-        rooms.put(Games.CANDY.getName() + "_vin_1000", new MGRoomCandy(this, Games.CANDY.getName() + "_vin_1000", (short)1, pots[2], funds[2], 10000, initPotValues[2], slot3x3JackpotFund + "_vin_100", fundsJackPot[2]));
-        rooms.put(Games.CANDY.getName() + "_xu_1000", new MGRoomCandy(this, Games.CANDY.getName() + "_xu_1000", (short)0, pots[3], funds[3], 1000, initPotValues[3],slot3x3JackpotFund + "_xu_100", fundsJackPot[3]));
-        rooms.put(Games.CANDY.getName() + "_xu_10000", new MGRoomCandy(this, Games.CANDY.getName() + "_xu_10000", (short)0, pots[4], funds[4], 10000, initPotValues[4],slot3x3JackpotFund + "_xu_1000", fundsJackPot[4]));
-        rooms.put(Games.CANDY.getName() + "_xu_100000", new MGRoomCandy(this, Games.CANDY.getName() + "_xu_100000", (short)0, pots[5], funds[5], 100000, initPotValues[5], slot3x3JackpotFund + "_xu_10000", fundsJackPot[5]));
+        rooms.put(Games.CANDY.getName() + "_vin_10", new MGRoomCandy(this, Games.CANDY.getName() + "_vin_10", (short)1, pots[0], funds[0], 10, initPotValues[0], slot3x3JackpotFund + "_vin_10", fundsJackPot[0]));
+        rooms.put(Games.CANDY.getName() + "_vin_100", new MGRoomCandy(this, Games.CANDY.getName() + "_vin_100", (short)1, pots[1], funds[1], 100, initPotValues[1],slot3x3JackpotFund + "_vin_100", fundsJackPot[1]));
+        rooms.put(Games.CANDY.getName() + "_vin_1000", new MGRoomCandy(this, Games.CANDY.getName() + "_vin_1000", (short)1, pots[2], funds[2], 1000, initPotValues[2], slot3x3JackpotFund + "_vin_100", fundsJackPot[2]));
+        rooms.put(Games.CANDY.getName() + "_xu_1000", new MGRoomCandy(this, Games.CANDY.getName() + "_xu_1000", (short)0, pots[3], funds[3], 100, initPotValues[3],slot3x3JackpotFund + "_xu_100", fundsJackPot[3]));
+        rooms.put(Games.CANDY.getName() + "_xu_10000", new MGRoomCandy(this, Games.CANDY.getName() + "_xu_10000", (short)0, pots[4], funds[4], 1000, initPotValues[4],slot3x3JackpotFund + "_xu_1000", fundsJackPot[4]));
+        rooms.put(Games.CANDY.getName() + "_xu_100000", new MGRoomCandy(this, Games.CANDY.getName() + "_xu_100000", (short)0, pots[5], funds[5], 10000, initPotValues[5], slot3x3JackpotFund + "_xu_10000", fundsJackPot[5]));
         Debug.trace("INIT "+this.gameName+" DONE");
         this.getParentExtension().addEventListener(BZEventType.USER_DISCONNECT, this);
         referenceId = this.pgService.getLastReferenceId();
@@ -295,22 +295,22 @@ extends BaseClientRequestHandler {
     private long getBaseBetting(byte roomId) {
         switch (roomId) {
             case 0: {
-                return 100L;
+                return 10L;
             }
             case 1: {
-                return 1000L;
+                return 100L;
             }
             case 2: {
-                return 10000L;
-            }
-            case 3: {
                 return 1000L;
             }
+            case 3: {
+                return 100L;
+            }
             case 4: {
-                return 10000L;
+                return 1000L;
             }
             case 5: {
-                return 100000L;
+                return 10000L;
             }
         }
         return 0L;

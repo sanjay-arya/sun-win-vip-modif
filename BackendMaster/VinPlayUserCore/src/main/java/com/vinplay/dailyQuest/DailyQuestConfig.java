@@ -6,13 +6,13 @@ import com.vinplay.dailyQuest.model.DailyQuestData;
 public class DailyQuestConfig {
     public static DailyQuestData[] allQuest = {
             new DailyQuestData(Games.NHIEM_VU.getId(), 500000, QuestType.MONEY, 10000, GiftType.MONEY,
-                    -1, -1, 0, "Nạp thẻ 500k tặng 10k"),
+                    -1, -1, 0, "Top up 500k card and get 10k free"),
             new DailyQuestData(Games.MINI_POKER.getId(), 200000, QuestType.MONEY, 1, GiftType.FREE_SPIN,
-                    Games.SPARTAN.getId(), 100, 1, "Tổng cược Minipoker 200k Tặng 1 lượt quay Thần tài 100"),
+                    Games.SPARTAN.getId(), 100, 1, "Minipoker total bet 200k Get 1 spin of Fortune 100"),
             new DailyQuestData(Games.CHIEM_TINH.getId(), 200000, QuestType.MONEY, 1, GiftType.FREE_SPIN,
-                    Games.BENLEY.getId(), 100, 2, "Tổng cược Chiêm tinh 200k Tặng 1 lượt quay Bitcoin 100"),
+                    Games.BENLEY.getId(), 100, 2, "Total bet Astrology 200k Get 1 Bitcoin spin 100"),
             new DailyQuestData(Games.MAYBACH.getId(), 200000, QuestType.MONEY, 1, GiftType.FREE_SPIN,
-                    Games.BENLEY.getId(), 100, 3, "Tổng cược Bóng Đá 200k Tặng 1 lượt quay Bitcoin 100"),
+                    Games.BENLEY.getId(), 100, 3, "Total Football bet 200k Get 1 Bitcoin 100 spin"),
             new DailyQuestData(Games.BENLEY.getId(), 200000, QuestType.MONEY, 1, GiftType.FREE_SPIN,
                     Games.AUDITION.getId(), 100, 4, "Tổng cược Bitcoin 200k Tặng 1 lượt quay Đua Xe 100"),
             new DailyQuestData(Games.AUDITION.getId(), 200000, QuestType.MONEY, 1, GiftType.FREE_SPIN,

@@ -106,17 +106,17 @@ extends SlotModule {
             Debug.trace("Init " + this.gameName + " error ", e);
         }
         this.rooms.put(this.gameName + "_vin_10", new TamHungRoom(this, (byte)0,this.gameName + "_vin_10", (short) 1,
-                this.pots[0], funds[0], 100, initPotValues[0],
+                this.pots[0], funds[0], 10, initPotValues[0],
                 fundsJackPot[0],slot7IconJackpotFund+ "_vin_10",
                 fundMiniGame[0],slot7IconMinigameFund + "_vin_10"));
 
         this.rooms.put(this.gameName + "_vin_100", new TamHungRoom(this, (byte)1,
-                this.gameName + "_vin_100", (short) 1, this.pots[1], funds[1], 1000, initPotValues[1],
+                this.gameName + "_vin_100", (short) 1, this.pots[1], funds[1], 100, initPotValues[1],
                 fundsJackPot[1],slot7IconJackpotFund+ "_vin_100",
                 fundMiniGame[1],slot7IconMinigameFund + "_vin_100"));
 
         this.rooms.put(this.gameName + "_vin_1000", new TamHungRoom(this, (byte)2,
-                this.gameName + "_vin_1000", (short) 1, this.pots[2], funds[2], 10000, initPotValues[2],
+                this.gameName + "_vin_1000", (short) 1, this.pots[2], funds[2], 1000, initPotValues[2],
                 fundsJackPot[2],slot7IconJackpotFund+ "_vin_1000",
                 fundMiniGame[2],slot7IconMinigameFund + "_vin_1000"));
 
@@ -149,8 +149,8 @@ extends SlotModule {
 //            room.play(bots.get(0), this.fullLines);
 //        }
 //        List<String>  bots = BotMinigame.getBotsJackPot(10, "vin");
-//        TamHungRoom room100 = (TamHungRoom)this.rooms.get(this.gameName + "_vin_10");
-//        room100.botEatJackpot(this.keyBotJackpot3Hung +
+//        TamHungRoom room10 = (TamHungRoom)this.rooms.get(this.gameName + "_vin_10");
+//        room10.botEatJackpot(this.keyBotJackpot3Hung +
 //                "_vin_10",1000000000, bots.get(GameUtil.randomMax(bots.size())));
     }
     @Override
@@ -199,11 +199,11 @@ extends SlotModule {
 
     public UpdatePotTamHungMsg getPotsInfo() {
         UpdatePotTamHungMsg msg = new UpdatePotTamHungMsg();
-        msg.value100 = this.pots[0];
-        msg.value1000 = this.pots[1];
-        msg.value10000 = this.pots[2];
-        msg.x2Room100 = this.x2Arr[0];
-        msg.x2Room1000 = this.x2Arr[1];
+        msg.value10 = this.pots[0];
+        msg.value100 = this.pots[1];
+        msg.value1000 = this.pots[2];
+        msg.x2room10 = this.x2Arr[0];
+        msg.x2room100 = this.x2Arr[1];
         return msg;
     }
 

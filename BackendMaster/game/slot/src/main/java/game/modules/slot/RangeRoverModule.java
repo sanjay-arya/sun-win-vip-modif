@@ -198,12 +198,12 @@ public class RangeRoverModule
 
     public UpdatePotRangeRoverMsg getPotsInfo() {
         UpdatePotRangeRoverMsg msg = new UpdatePotRangeRoverMsg();
-        msg.value100 = this.pots[0];
-        msg.value1000 = this.pots[1];
+        msg.value10 = this.pots[0];
+        msg.value100 = this.pots[1];
         msg.value5000 = this.pots[2];
-        msg.value10000 = this.pots[3];
-        msg.x2Room100 = this.x2Arr[0];
-        msg.x2Room1000 = this.x2Arr[1];
+        msg.value1000 = this.pots[3];
+        msg.x2room10 = this.x2Arr[0];
+        msg.x2room100 = this.x2Arr[1];
         return msg;
     }
 
