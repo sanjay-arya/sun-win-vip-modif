@@ -520,10 +520,10 @@ public class Ibc2DaoImpl implements Ibc2Dao {
 			return new BaseResponse<Double>(2,"Transaction thất bại ");
 		}
 		if (amount < MIN_TRANSFER) {
-			return new BaseResponse<Double>(2, "Transfer amount khoản tối thiểu là 100.000 VNĐ");
+			return new BaseResponse<Double>(2, "Transfer amount khoản tối thiểu là 100.000 MMK");
 		}
 		if (amount > MAX_TRANSFER) {
-			return new BaseResponse<Double>(2, "Transfer amount khoản tối đa là 100.000.000 VNĐ");
+			return new BaseResponse<Double>(2, "Transfer amount khoản tối đa là 100.000.000 MMK");
 		}
 		LOGGER.info("IbcSportSerice playerName : " + nickName + " : " + playerName + " start  FundTransfer ");
 		//get Wid
@@ -541,7 +541,7 @@ public class Ibc2DaoImpl implements Ibc2Dao {
 				if (direction == 1) {
 					//check format money
 					if (amount % 1000 != 0) {
-						return new BaseResponse<Double>(2, "Quý khách vui lòng nhập số tiền chẵn (là hệ số của 1000 vnđ) ");
+						return new BaseResponse<Double>(2, "Quý khách vui lòng nhập số tiền chẵn (là hệ số của 1000 MMK) ");
 					}
 					// deposit
 					return deposit(playerName, nickName, wid, amount, direction, ip);

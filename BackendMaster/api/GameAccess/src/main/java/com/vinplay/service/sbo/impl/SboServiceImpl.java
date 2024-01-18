@@ -183,7 +183,7 @@ public class SboServiceImpl extends SboConfig implements SboService {
 			if (direction == 1) { // deposit
 				//check format money
 				if (amount % 1000 != 0) {
-					return new ResultFormat(2, "Quý khách vui lòng nhập số tiền chẵn (là hệ số của 1000 vnđ) ");
+					return new ResultFormat(2, "Quý khách vui lòng nhập số tiền chẵn (là hệ số của 1000 MMK) ");
 				}
 				//update database
 				boolean res = updateBalance(loginname, amount.longValue(), direction);

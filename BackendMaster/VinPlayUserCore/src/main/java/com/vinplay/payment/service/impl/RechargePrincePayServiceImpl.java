@@ -73,11 +73,11 @@ implements RechargePrincePayService {
             PaymentConfig paymentConfig = paymentConfigService.getConfigByKey(PAYMENTNAME);
             if(paymentType.equals("923")) {
             	if (amount < 20000) {
-    				res.setData("Số tiền nạp nhỏ hơn 20.000 VNĐ");
+    				res.setData("Số tiền nạp nhỏ hơn 20.000 MMK");
     				return res;
     			}
             	if (amount > 20000000) {
-    				res.setData("Số tiền nạp lớn hơn 20.000.000 VNĐ");
+    				res.setData("Số tiền nạp lớn hơn 20.000.000 MMK");
     				return res;
     			}
             }else {

@@ -97,8 +97,8 @@ public class CreateDepositProcessor implements BaseProcessor<HttpServletRequest,
 					return BaseResponse.error(Constant.MIN_MONEY, "Money is greater than " + minAmount);
 				}
 
-				if (amount > 300000000) {
-					return BaseResponse.error(Constant.MAX_MONEY, "Money must be less than than 300M ");
+				if (amount > 1000000) {
+					return BaseResponse.error(Constant.MAX_MONEY, "Money must be less than than 1M ");
 				}
 
 				// get usermodel

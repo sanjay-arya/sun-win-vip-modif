@@ -152,16 +152,16 @@ public class DepositRequestUIProcessor implements BaseProcessor<HttpServletReque
 				}
 				if(PaymentConstant.PayType.MOMO_DEP.getKey() != payTypeInt) {
 					if (minAmount > amount) {
-						return BaseResponse.error(Constant.MIN_MONEY, "Số tiền nạp phải lớn hơn  " + minAmount +" VNĐ");
+						return BaseResponse.error(Constant.MIN_MONEY, "Số tiền nạp phải lớn hơn  " + minAmount +" MMK");
 					}
 				}else {
 					if (amount < 20000) {
-						return BaseResponse.error(Constant.MIN_MONEY, "Số tiền nạp phải lớn hơn  20.000 VNĐ");
+						return BaseResponse.error(Constant.MIN_MONEY, "Số tiền nạp phải lớn hơn  20.000 MMK");
 					}
 				}
 				
 				if(amount > 300000000) {
-					return BaseResponse.error(Constant.MAX_MONEY, "Số tiền nạp phải nhỏ hơn 300 triệu VNĐ");
+					return BaseResponse.error(Constant.MAX_MONEY, "Số tiền nạp phải nhỏ hơn 300 triệu MMK");
 				}
 				// get usermodel
 				UserModel user = userService.getUserByNickName(nickName);

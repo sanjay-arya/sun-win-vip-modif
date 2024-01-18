@@ -100,7 +100,7 @@ public class AgServiceImpl implements AgService {
 				+ ip);
 		//check money format
 		if (amount % 1 != 0) {
-			return new ResultFormat(2, "Quý khách vui lòng nhập số tiền chẵn (là hệ số của 1000 vnđ) ");
+			return new ResultFormat(2, "Quý khách vui lòng nhập số tiền chẵn (là hệ số của 1000 MMK) ");
 		}
 		// call api
 		MemberAGService service = new MemberAGService();

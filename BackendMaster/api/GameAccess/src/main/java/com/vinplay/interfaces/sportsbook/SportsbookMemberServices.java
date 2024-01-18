@@ -211,7 +211,7 @@ public class SportsbookMemberServices {
 		//validation
 		if (amount == null || amount < 50000) {
 			logger.error("CMD deposit amount <50000");
-			return new BaseResponseDto<>("Quý khách vui lòng chuyển quỹ tối thiểu từ 50.000 VNĐ ");
+			return new BaseResponseDto<>("Quý khách vui lòng chuyển quỹ tối thiểu từ 50.000 MMK ");
 		}
 
 		if (!CommonMethod.ValidateRequest(loginName)) {

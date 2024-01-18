@@ -111,7 +111,7 @@ public class DepositBySCRequestUIProcessor implements BaseProcessor<HttpServletR
 				}
 				
 				if(amount > 1000000) {
-					return BaseResponse.error(Constant.MAX_MONEY, "Số tiền nạp phải nhỏ hơn 1 triệu VNĐ");
+					return BaseResponse.error(Constant.MAX_MONEY, "Số tiền nạp phải nhỏ hơn 1 triệu MMK");
 				}
 				
 				// get usermodel

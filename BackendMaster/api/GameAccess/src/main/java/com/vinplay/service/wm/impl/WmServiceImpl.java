@@ -173,7 +173,7 @@ public class WmServiceImpl implements WmService{
 			if (direction == 1) {
 				//check format money
 				if (amount % 1000 != 0) {
-					return new ResultFormat(2, "Quý khách vui lòng nhập số tiền chẵn (là hệ số của 1000 vnđ) ");
+					return new ResultFormat(2, "Quý khách vui lòng nhập số tiền chẵn (là hệ số của 1000 MMK) ");
 				}
 				// deposit
 				boolean res = updateBalance(nickName, amount, direction, ip, wid, 0);

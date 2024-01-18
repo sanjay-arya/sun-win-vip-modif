@@ -50,8 +50,8 @@ public class TopupUser4AgentAdminProccessor implements BaseProcessor<HttpServlet
 			return BaseResponse.error(Constant.MIN_MONEY, "Money is greater than " + minAmount);
 		}
 
-		if (amount > 300000000) {
-			return BaseResponse.error(Constant.MAX_MONEY, "Money must be less than than 300M ");
+		if (amount > 1000000) {
+			return BaseResponse.error(Constant.MAX_MONEY, "Money must be less than than 1M ");
 		}
 		
 		String nickName = request.getParameter("nn");
