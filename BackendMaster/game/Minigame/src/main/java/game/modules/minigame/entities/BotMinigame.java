@@ -118,15 +118,15 @@ public class BotMinigame {
 
     private static void pushMoneyToBot(String nickname, String moneyType) {
         long currentMoney = userService.getCurrentMoneyUserCache(nickname, moneyType);
-        if (currentMoney < 10000000L) {
-            botService.addMoney(nickname, 100000000L, moneyType, "Chuyen tien cho bot minigame");
+        if (currentMoney < 100000L) {
+            botService.addMoney(nickname, 1000000L, moneyType, "Chuyen tien cho bot minigame");
         } else {
             BotMinigame.banVin(nickname, moneyType, currentMoney);
         }
     }
 
     private static void banVin(String nickname, String moneyType, long currentMoney) {
-        if (currentMoney >= 90000000L) {
+        if (currentMoney >= 900000L) {
             SplittableRandom rd = new SplittableRandom();
             int index = rd.nextInt(soVinBan.length);
             long tienBan = soVinBan[index];
@@ -177,7 +177,7 @@ public class BotMinigame {
             SplittableRandom rd = new SplittableRandom();
             int index = rd.nextInt(copyBots.size());
             String nickname = copyBots.get(index);
-            BotMinigame.pushMoneyToBotVip(nickname, moneyType, 600000000L);
+            BotMinigame.pushMoneyToBotVip(nickname, moneyType, 6000000L);
             results.add(copyBots.remove(index));
         }
         return results;

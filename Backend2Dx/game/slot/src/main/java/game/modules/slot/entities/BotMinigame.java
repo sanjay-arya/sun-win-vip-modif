@@ -79,8 +79,8 @@ public class BotMinigame {
 
      private static void pushMoneyToBot(String nickname, String moneyType) {
           long currentMoney = userService.getCurrentMoneyUserCache(nickname, moneyType);
-          if (currentMoney < 1000000L) {
-               botService.addMoney(nickname, 10000000L, moneyType, "minigame bots အတွက် ကုန်ကျစရိတ်");
+          if (currentMoney < 100000L) {
+               botService.addMoney(nickname, 1000000L, moneyType, "minigame bots အတွက် ကုန်ကျစရိတ်");
           } else {
                banVin(nickname, moneyType, currentMoney);
           }
@@ -88,7 +88,7 @@ public class BotMinigame {
      }
 
      private static void banVin(String nickname, String moneyType, long currentMoney) {
-          if (currentMoney >= 60000000L) {
+          if (currentMoney >= 6000000L) {
                Random rd = new Random();
                int index = rd.nextInt(soDuConLai.length);
                long soDu = soDuConLai[index];

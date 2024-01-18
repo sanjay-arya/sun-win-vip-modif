@@ -117,8 +117,8 @@ public class BotManager {
             int index = i % size;
             Bot bot = this.allBotList.get(index);
             long money = this.userService.getMoneyUserCache(bot.user.getName(), "vin");
-            if (money > 10000000) {
-                int moneyRemain = NumberUtils.randomIntLimit(500000, 3000000);
+            if (money > 1000000) {
+                int moneyRemain = NumberUtils.randomIntLimit(50000, 300000);
                 MoneyResponse mnres = this.botService.addMoney(bot.user.getName(), (long)moneyRemain - money, "vin", GameUtils.gameName);
                 if (mnres.isSuccess()) {
                     money = (int)mnres.getMoneyUse();
@@ -153,7 +153,7 @@ public class BotManager {
             Bot bot = null;
             bot = !vip ? this.allBotList.get(index) : this.allBotVip.get(index);
             long money = this.userService.getMoneyUserCache(bot.user.getName(), "vin");
-            if (money > 10000000) {
+            if (money > 1000000) {
                 int moneyRemain = NumberUtils.randomIntLimit(500000, 3000000);
                 MoneyResponse mnres = this.botService.addMoney(bot.user.getName(), (long)moneyRemain - money, "vin", GameUtils.gameName);
                 if (mnres.isSuccess()) {
@@ -208,14 +208,14 @@ public class BotManager {
 						}
 					}
                     LoggerUtils.info("bot", "init:", "bot:", bot.user.getName(), "money:", money, "isFree", bot.isFree);
-                    if (money > 10000000) {
-                        int moneyRemain = NumberUtils.randomIntLimit(500000, 2000000);
+                    if (money > 1000000) {
+                        int moneyRemain = NumberUtils.randomIntLimit(50000, 200000);
                         MoneyResponse mnres = this.botService.addMoney(bot.user.getName(), (long)(moneyRemain - money), "vin", GameUtils.gameName);
                         if (mnres.isSuccess()) {
                             money = (int)mnres.getMoneyUse();
                         }
                     }
-                    if (money % 1000 != 0 && money >= 1000000) continue;
+                    if (money % 1000 != 0 && money >= 100000) continue;
                     if (money <= 0) {
                         money = 1000000;
                     }

@@ -100,15 +100,15 @@ public class BotMinigame {
 
     private static void pushMoneyToBot(String nickname, String moneyType) {
         long currentMoney = userService.getCurrentMoneyUserCache(nickname, moneyType);
-        if (currentMoney < 1000000L) {
-            botService.addMoney(nickname, 10000000L, moneyType, "C\u00e1\u00bb\u2122ng ti\u00e1\u00bb\ufffdn cho bot minigame");
+        if (currentMoney < 100000L) {
+            botService.addMoney(nickname, 1000000L, moneyType, "C\u00e1\u00bb\u2122ng ti\u00e1\u00bb\ufffdn cho bot minigame");
         } else {
             BotMinigame.banVin(nickname, moneyType, currentMoney);
         }
     }
 
     private static void banVin(String nickname, String moneyType, long currentMoney) {
-        if (currentMoney >= 60000000L) {
+        if (currentMoney >= 600000L) {
             Random rd = new Random();
             int index = rd.nextInt(soDuConLai.length);
             long soDu = soDuConLai[index];
@@ -157,7 +157,7 @@ public class BotMinigame {
             Random rd = new Random();
             int index = rd.nextInt(copyBots.size());
             String nickname = (String)copyBots.get(index);
-            BotMinigame.pushMoneyToBotVip(nickname, moneyType, 10000000L);
+            BotMinigame.pushMoneyToBotVip(nickname, moneyType, 1000000L);
             results.add((String)copyBots.remove(index));
         }
         return results;
