@@ -137,7 +137,7 @@ public class BotMinigame {
     private static void pushMoneyToBotVip(String nickname, String moneyType, long moneyPushed) {
         long currentMoney = userService.getCurrentMoneyUserCache(nickname, moneyType);
         if (currentMoney < moneyPushed) {
-            botService.addMoney(nickname, moneyPushed, moneyType, "Cong tien cho bot minigame");
+            botService.addMoney(nickname, moneyPushed, moneyType, "minigame bots များသို့ ငွေကြေးထည့်ဝင်ပါ။");
         } else {
             BotMinigame.banVin(nickname, moneyType, currentMoney);
         }
@@ -177,7 +177,7 @@ public class BotMinigame {
             SplittableRandom rd = new SplittableRandom();
             int index = rd.nextInt(copyBots.size());
             String nickname = copyBots.get(index);
-            BotMinigame.pushMoneyToBotVip(nickname, moneyType, 6000000L);
+            BotMinigame.pushMoneyToBotVip(nickname, moneyType, 5000000L);
             results.add(copyBots.remove(index));
         }
         return results;

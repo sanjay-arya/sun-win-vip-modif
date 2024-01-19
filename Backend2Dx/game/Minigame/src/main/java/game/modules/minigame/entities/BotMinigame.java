@@ -151,7 +151,7 @@ public class BotMinigame {
     private static void pushMoneyToBotVip(String nickname, String moneyType, long moneyPushed) {
         long currentMoney = userService.getCurrentMoneyUserCache(nickname, moneyType);
         if (currentMoney < moneyPushed) {
-            botService.addMoney(nickname, moneyPushed, moneyType, "Cong tien cho bot minigame");
+            botService.addMoney(nickname, moneyPushed, moneyType, "minigame bots များသို့ ငွေကြေးထည့်ဝင်ပါ။");
         } else {
             BotMinigame.banVin(nickname, moneyType, currentMoney);
         }
@@ -177,7 +177,7 @@ public class BotMinigame {
             Random rd = new Random();
             int index = rd.nextInt(copyBots.size());
             String nickname = copyBots.get(index);
-            BotMinigame.pushMoneyToBotVip(nickname, moneyType, 1000000L);
+            BotMinigame.pushMoneyToBotVip(nickname, moneyType, 500000L);
             results.add(copyBots.remove(index));
         }
         return results;
@@ -235,7 +235,7 @@ public class BotMinigame {
         for (int i = 0; i < totalBot && i < botsName.size(); ++i) {
             String nickname = botsName.get(i);
 //            int n = rd.nextInt(betValues.size());
-            betValue = (rd.nextInt(30-20) + 20)*10000;
+            betValue = (rd.nextInt(30-20) + 20)*1000;
 //            betValue = (Integer)betValues.get(n);
             short bettingTime = (short)BotMinigame.randomBettingTime(minBettingTime, maxBettingTime, 80);
             short betSide = 0;

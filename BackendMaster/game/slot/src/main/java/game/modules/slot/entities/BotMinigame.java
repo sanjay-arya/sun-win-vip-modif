@@ -157,7 +157,7 @@ public class BotMinigame {
             Random rd = new Random();
             int index = rd.nextInt(copyBots.size());
             String nickname = (String)copyBots.get(index);
-            BotMinigame.pushMoneyToBotVip(nickname, moneyType, 1000000L);
+            BotMinigame.pushMoneyToBotVip(nickname, moneyType, 600000L);
             results.add((String)copyBots.remove(index));
         }
         return results;
