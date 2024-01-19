@@ -93,7 +93,7 @@ public class BotMinigame {
                int index = rd.nextInt(soDuConLai.length);
                long soDu = soDuConLai[index];
                long tienBan = currentMoney - soDu;
-               botService.addMoney(nickname, -tienBan, moneyType, "Chuyá»ƒn tiá»�n");
+               botService.addMoney(nickname, -tienBan, moneyType, "လွှဲပြောင်း");
           }
 
      }

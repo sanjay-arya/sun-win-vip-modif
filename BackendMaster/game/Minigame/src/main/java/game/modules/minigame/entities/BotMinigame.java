@@ -223,8 +223,8 @@ public class BotMinigame {
         int minBot = totalBot * 5 / 10;
         int maxBot = totalBot - minBot + 5;
         numBetTai = rd.nextInt(maxBot - minBot) + minBot;
-        minBetValue = 25000000;
-        maxBetValue = 70000000;
+        minBetValue = 5000000;
+        maxBetValue = 20000000;
         int stepBetting = ConfigGame.getIntValue("tx_vip_step_betting_vin");
         for (betValue = minBetValue; betValue < maxBetValue; betValue += stepBetting) {
             betValues.add(betValue);

@@ -44,7 +44,7 @@ public class DoisoatVmg {
             this.totalMtMoneyPay += model.getMtMoneyPay();
             this.totalMoneySMS += model.getTotalMoney();
         }
-        this.ratio = this.totalMoney < 200000000L ? 0.87 : (this.totalMoney < 500000000L ? 0.89 : (this.totalMoney <= 100000000L ? 0.91 : 0.93));
+        this.ratio = this.totalMoney < 20000000L ? 0.87 : (this.totalMoney < 50000000L ? 0.89 : (this.totalMoney <= 10000000L ? 0.91 : 0.93));
         this.moneyVinplayReceive = Math.round((double)this.totalMoneySMS * this.ratio);
         this.moneyVMGReceive = this.totalMoneySMS - this.moneyVinplayReceive;
         this.minVMGReceive = 2000000L;

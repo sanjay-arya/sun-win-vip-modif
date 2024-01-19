@@ -235,7 +235,7 @@ public class BotMinigame {
         for (int i = 0; i < totalBot && i < botsName.size(); ++i) {
             String nickname = botsName.get(i);
 //            int n = rd.nextInt(betValues.size());
-            betValue = (rd.nextInt(30-20) + 20)*100000;
+            betValue = (rd.nextInt(30-20) + 20)*10000;
 //            betValue = (Integer)betValues.get(n);
             short bettingTime = (short)BotMinigame.randomBettingTime(minBettingTime, maxBettingTime, 80);
             short betSide = 0;
