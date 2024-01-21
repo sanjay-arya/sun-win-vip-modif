@@ -113,7 +113,7 @@ public class GameMoneyInfo {
     public boolean freezeMoneyBegining() {
         if (!GameUtils.enable_payment) {
             Random rd = new Random();
-            this.sessionId = GameUtils.gameName + Math.abs(rd.nextInt(1000000000));
+            this.sessionId = GameUtils.gameName + Math.abs(rd.nextInt(100000000));
             this.freezeMoney = this.requireMoney;
             this.currentMoney = this.requireMoney * 10;
             return true;
@@ -134,7 +134,7 @@ public class GameMoneyInfo {
     public boolean freezeMoneyBegining(long money) {
         if (!GameUtils.enable_payment) {
             Random rd = new Random();
-            this.sessionId = GameUtils.gameName + Math.abs(rd.nextInt(1000000000));
+            this.sessionId = GameUtils.gameName + Math.abs(rd.nextInt(100000000));
             this.requireMoney = money;
             this.freezeMoney = money;
             this.currentMoney = money * 10;

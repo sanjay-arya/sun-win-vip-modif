@@ -19,6 +19,6 @@ public class MaxiumWinConfig {
 //		if (index == 0) {
 //			return listMulti[0];
 //		}
-		return 100000000000l;
+		return 1000000000l;
 	}
 }
