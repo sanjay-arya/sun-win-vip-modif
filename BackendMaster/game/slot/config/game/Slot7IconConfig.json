@@ -1,1 +1,17 @@
-{"rateIcon":[3,4,2,8,6,5,5],"totalRate":33,"RATE_TO_JACKPOT":1,"RATE_TO_FUND_JACKPOT":1,"RATE_TO_FUND_MINIGAME":5,"FEE":4,"MULTI_JACKPOT":3}
+{
+    "rateIcon": [
+        3,
+        4,
+        2,
+        8,
+        6,
+        5,
+        5
+    ],
+    "totalRate": 33,
+    "RATE_TO_JACKPOT": 1,
+    "RATE_TO_FUND_JACKPOT": 1,
+    "RATE_TO_FUND_MINIGAME": 5,
+    "FEE": 4,
+    "MULTI_JACKPOT": 3
+}
