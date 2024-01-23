@@ -7,7 +7,7 @@ logging:
 partner:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://database-test.cemdckecmdzi.ap-southeast-1.rds.amazonaws.com:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8&createDatabaseIfNotExist=true
+    url: jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8&createDatabaseIfNotExist=true
     username: admin
     password: asdfasdf
     hikari:
@@ -37,7 +37,7 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://database-test.cemdckecmdzi.ap-southeast-1.rds.amazonaws.com:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8&createDatabaseIfNotExist=true
+    url: jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8&createDatabaseIfNotExist=true
     username: admin
     password: asdfasdf
     hikari:

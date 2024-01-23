@@ -1,21 +1,21 @@
 version: '3.3'
 services:
-  # mysql:
-  #   image: mysql:5.7
-  #   restart: always
-  #   container_name: game-db
-  #   environment:
-  #     MYSQL_USER: 'demo'
-  #     MYSQL_PASSWORD: 'kohtut.dev'
-  #     MYSQL_ROOT_PASSWORD: 'kohtut.dev'
-  #   ports:
-  #     - '3306:3306'
-  #   volumes:
-  #     - game-db:/var/lib/mysql
-  #     - ./config/mysql/conf.d:/etc/mysql/conf.d
-  #     - ./config/mysql/db:/docker-entrypoint-initdb.d/
-  #     - /etc/timezone:/etc/timezone
-  #     - /etc/localtime:/etc/localtime
+  mysql:
+    image: mysql:5.7
+    restart: always
+    container_name: game-db
+    environment:
+      MYSQL_USER: 'demo'
+      MYSQL_PASSWORD: 'kohtut.dev'
+      MYSQL_ROOT_PASSWORD: 'kohtut.dev'
+    ports:
+      - '3306:3306'
+    volumes:
+      - game-db:/var/lib/mysql
+      - ./config/mysql/conf.d:/etc/mysql/conf.d
+      - ./config/mysql/db:/docker-entrypoint-initdb.d/
+      - /etc/timezone:/etc/timezone
+      - /etc/localtime:/etc/localtime
 
   mongo:
     image: mongo:5.0.11
@@ -82,9 +82,9 @@ services:
 
 # Names our volume
 volumes:
-  # game-db:
-  #   external:
-  #     name: game-db
+  game-db:
+    external:
+      name: game-db
   game-mongo:
     external:
       name: mongo-db
