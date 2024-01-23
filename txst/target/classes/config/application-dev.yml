@@ -7,9 +7,9 @@ logging:
 partner:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://127.0.0.1:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8&createDatabaseIfNotExist=true
-    username: root
-    password: kohtut.dev
+    url: jdbc:mysql://database-test.cemdckecmdzi.ap-southeast-1.rds.amazonaws.com:3306/vinplay_minigame?useUnicode=yes&useSSL=false&characterEncoding=UTF-8&createDatabaseIfNotExist=true
+    username: admin
+    password: asdfasdf
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -37,9 +37,9 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://127.0.0.1:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8&createDatabaseIfNotExist=true
-    username: root
-    password: kohtut.dev
+    url: jdbc:mysql://database-test.cemdckecmdzi.ap-southeast-1.rds.amazonaws.com:3306/vinplay?useUnicode=yes&useSSL=false&characterEncoding=UTF-8&createDatabaseIfNotExist=true
+    username: admin
+    password: asdfasdf
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -74,10 +74,10 @@ jhipster:
       max-entries: 100 # Number of objects in each cache entry
   # CORS is only enabled by default with the "dev" profile, so BrowserSync can access the API
   cors:
-    allowed-origins: '*'
-    allowed-methods: '*'
-    allowed-headers: '*'
-    exposed-headers: 'Authorization,Link,X-Total-Count'
+    allowed-origins: "*"
+    allowed-methods: "*"
+    allowed-headers: "*"
+    exposed-headers: "Authorization,Link,X-Total-Count"
     allow-credentials: true
     max-age: 1800
   security:
