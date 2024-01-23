@@ -82,9 +82,9 @@ services:
 
 # Names our volume
 volumes:
-  game-db:
-    external:
-      name: game-db
+  # game-db:
+  #   external:
+  #     name: game-db
   game-mongo:
     external:
       name: mongo-db
