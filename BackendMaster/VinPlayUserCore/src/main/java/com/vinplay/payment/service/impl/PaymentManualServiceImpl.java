@@ -185,7 +185,7 @@ public class PaymentManualServiceImpl implements PaymentManualService {
 			modelOld.Status=status;
 			modelOld.UserApprove = approvedName;
 			// modelOld.Description =rs;
-			modelOld.ReferenceId = orderId;
+			// modelOld.ReferenceId = orderId;
 			boolean isuc = dao.UpdateStatus(orderId, orderId, status, approvedName, rs);
 			// add money
 			if (isuc) {
