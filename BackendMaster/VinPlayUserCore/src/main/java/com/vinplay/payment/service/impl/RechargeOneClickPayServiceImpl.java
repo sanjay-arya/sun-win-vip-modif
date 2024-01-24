@@ -113,7 +113,7 @@ public class RechargeOneClickPayServiceImpl implements RechargeOneClickPayServic
 			model.CreatedAt = "";
 			model.Description = "";
 			model.IsDeleted = false;
-			model.transactionId="";
+			// model.transactionId="";
 			model.PaymentType = paymentType;
 			model.MerchantCode = paymentConfig.getConfig().getMerchantCode();
 			model.ProviderName = PAYMENTNAME;

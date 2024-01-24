@@ -125,7 +125,7 @@ public class PaymentManualServiceImpl implements PaymentManualService {
 	            model.BankAccountNumber = bankNum;
 	            model.BankCode = bankName;
 	            model.CartId = "";
-				model.ReferenceId =trId;
+				model.ReferenceId = trId;
 	            model.CreatedAt = "";
 	            model.IsDeleted = false;
 	            model.PaymentType = payType;
