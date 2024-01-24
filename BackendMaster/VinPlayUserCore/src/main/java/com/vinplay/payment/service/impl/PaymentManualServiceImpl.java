@@ -97,8 +97,8 @@ public class PaymentManualServiceImpl implements PaymentManualService {
 	        try{
 	            RechargePaywellResponse res = new RechargePaywellResponse(1, 0L, 0, 0L,"");
 	            
-	            if (amount < 20000) {
-    				res.setData("Số tiền nạp nhỏ hơn 20.000 MMK");
+	            if (amount < 1000) {
+    				res.setData("The deposit amount is less than 1000 MMK");
     				return res;
     			}
 	            
@@ -140,7 +140,7 @@ public class PaymentManualServiceImpl implements PaymentManualService {
 	            RechargePaygateDao rechargeDao = new RechargePaygateDaoImpl();
 	            long id = rechargeDao.Add(model);
 	            if(id == 0){
-	            	logger.error("Lỗi tạo bản ghi database mongo");
+	            	logger.error("Error creating mongo database record");
 	                return res;
 	            }
 	            res.setCode(0);
@@ -173,18 +173,18 @@ public class PaymentManualServiceImpl implements PaymentManualService {
 			if (modelOld != null) {
 				int statusOld = modelOld.Status;
 				if (statusOld != PayCommon.PAYSTATUS.PENDING.getId()) {
-					return new RechargePaywellResponse(1, 0L, 0, 0L, "Chỉ có thể phê duyệt đc từ trạng thái pending");
+					return new RechargePaywellResponse(1, 0L, 0, 0L, "Can only be approved from pending status");
 				}
 				String providerName = modelOld.ProviderName;
 				if(!PAYMENTNAME.equals(providerName)) {
-					return new RechargePaywellResponse(1, 0L, 0, 0L, "Chỉ có thể phê duyệt đc từ hình thức nạp thủ công");
+					return new RechargePaywellResponse(1, 0L, 0, 0L, "Approval can only be obtained through manual deposit");
 				}
 			}else {
-				return new RechargePaywellResponse(1, 0L, 0, 0L, "Chỉ có thể phê duyệt đc từ hình thức nạp thủ công");
+				return new RechargePaywellResponse(1, 0L, 0, 0L, "Approval can only be obtained through manual deposit");
 			}
 			modelOld.Status=status;
 			modelOld.UserApprove = approvedName;
-			modelOld.Description =rs;
+			// modelOld.Description =rs;
 			modelOld.ReferenceId = orderId;
 			boolean isuc = dao.UpdateStatus(orderId, orderId, status, approvedName, rs);
 			// add money
@@ -205,7 +205,7 @@ public class PaymentManualServiceImpl implements PaymentManualService {
 			// GameCommon.getValueDouble("RATIO_RECHARGE_BANK"));
 			HazelcastInstance client = HazelcastClientFactory.getInstance();
 			if (client == null) {
-				MoneyLogger.log(depositPayWellModel.Nickname, PAYMENTNAME, depositPayWellModel.Amount, 0L, "vin", "Nap vin qua ngan hang", "1031",
+				MoneyLogger.log(depositPayWellModel.Nickname, PAYMENTNAME, depositPayWellModel.Amount, 0L, "vin", "Go through the bank", "1031",
 						"Cannot connect hazelcast");
 				return res;
 			}
@@ -222,7 +222,7 @@ public class PaymentManualServiceImpl implements PaymentManualService {
 				user.setVin(moneyUser += depositPayWellModel.Amount);
 				user.setVinTotal(currentMoney += depositPayWellModel.Amount);
 				user.setRechargeMoney(rechargeMoney += depositPayWellModel.Amount);
-				String desc = "Nạp tiền Roy88";
+				String desc = "Deposit Poker29";
 				MoneyMessageInMinigame messageMoney = new MoneyMessageInMinigame(VinPlayUtils.genMessageId(), user.getId(),
 						depositPayWellModel.Nickname, Consts.RECHARGE_MANUAL, moneyUser, currentMoney, depositPayWellModel.Amount, "vin", 0L, 0, 0);
 				LogMoneyUserMessage messageLog = new LogMoneyUserMessage(user.getId(), depositPayWellModel.Nickname, Consts.RECHARGE_MANUAL,

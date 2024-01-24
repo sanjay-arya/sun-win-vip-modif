@@ -49,7 +49,7 @@ import com.vinplay.vbee.common.utils.VinPlayUtils;
 
 public class WithDrawPrincePayServiceImpl
 implements WithDrawPrincePayService {
-	private static final String NOTIFY_WITHDRAW_URL = "https://iwspay.roy88.vip/payprince/withdraw/notify";
+	private static final String NOTIFY_WITHDRAW_URL = "https://iwspay.poker29.vip/payprince/withdraw/notify";
     private static final Logger logger = Logger.getLogger("backend");
     private static final String PAYMENTNAME = "princepay";
     
@@ -124,8 +124,8 @@ implements WithDrawPrincePayService {
 			res.setData("Sai chữ ký");
 			return res;
 		}
-		// call api		//amount=200000","uid=roy88","orderid=roy88","channel=908","notify_url=https://roy88.vip",
-		//"return_url=https://roy88.vip","userip=127.0.0.1","timestamp=1608823688","custom=nguyen"
+		// call api		//amount=200000","uid=poker29","orderid=poker29","channel=908","notify_url=https://poker29.vip",
+		//"return_url=https://poker29.vip","userip=127.0.0.1","timestamp=1608823688","custom=nguyen"
 		List<NameValuePair> urlParameters = new ArrayList<NameValuePair>();
 		urlParameters.add(new BasicNameValuePair("uid", config.getMerchantCode()));
 		urlParameters.add(new BasicNameValuePair("orderid", model.CartId));

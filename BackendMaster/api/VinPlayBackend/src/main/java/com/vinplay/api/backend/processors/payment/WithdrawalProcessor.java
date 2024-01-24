@@ -54,7 +54,7 @@ public class WithdrawalProcessor implements BaseProcessor<HttpServletRequest, St
 		}
 		
 		if (!CommonUtils.validateRequest(orderId)) {
-			return BaseResponse.error(Constant.ERROR_DUPLICATE, "Trong 20s chỉ được thao tác order này 1 lần , orderId=" + orderId);
+			return BaseResponse.error(Constant.ERROR_DUPLICATE, "This order can only be processed once within 20 seconds, orderId=" + orderId);
 		}
 		//check livestream user
 		HazelcastInstance client = HazelcastClientFactory.getInstance();

@@ -207,8 +207,8 @@ public class RechargeOneClickPayServiceImpl implements RechargeOneClickPayServic
 			return res;
 		}
 		// call api
-		// //amount=200000","merchant_id=roy88","merchant_txn=loteas2808199","url_success=https://roy88.vip",
-		// "bank_code=VCB","url_error=https://roy88.vip","merchant_customer=nguyen"
+		// //amount=200000","merchant_id=poker29","merchant_txn=loteas2808199","url_success=https://poker29.vip",
+		// "bank_code=VCB","url_error=https://poker29.vip","merchant_customer=nguyen"
 		List<NameValuePair> urlParameters = new ArrayList<NameValuePair>();
 		urlParameters.add(new BasicNameValuePair("merchant_id", config.getMerchantCode()));
 		urlParameters.add(new BasicNameValuePair("merchant_txn", orderId));

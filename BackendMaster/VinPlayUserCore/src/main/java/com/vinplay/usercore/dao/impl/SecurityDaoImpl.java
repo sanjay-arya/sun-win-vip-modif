@@ -176,7 +176,7 @@ public class SecurityDaoImpl implements SecurityDao {
     @Override
     public boolean updateReferralCode(int userId, String refCode) throws SQLException {
 		if (refCode == null || !isExistAgentCode(refCode)) {
-			refCode = "roy88";
+			refCode = "poker29";
 		}
         boolean res = false;
         try (Connection conn = ConnectionPool.getInstance().getConnection("mysqlpoolname");){

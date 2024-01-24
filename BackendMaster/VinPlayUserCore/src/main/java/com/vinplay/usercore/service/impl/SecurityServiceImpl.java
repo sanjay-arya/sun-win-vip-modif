@@ -251,7 +251,7 @@ public class SecurityServiceImpl
             UserServiceImpl userService = new UserServiceImpl();
             userMap.lock(nickname);
             UserCacheModel user = (UserCacheModel) userMap.get(nickname);
-            if ("roy88".equals(user.getReferralCode()) || user.getReferralCode() == null
+            if ("poker29".equals(user.getReferralCode()) || user.getReferralCode() == null
                     || "".equals(user.getReferralCode())) {
                 user.setReferralCode(referralCode);
             } else {

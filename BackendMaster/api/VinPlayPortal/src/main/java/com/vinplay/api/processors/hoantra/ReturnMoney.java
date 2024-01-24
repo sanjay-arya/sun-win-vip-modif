@@ -666,7 +666,7 @@ public class ReturnMoney {
 				mailService.sendMailBoxFromByNickNameAdmin(k, "Hoàn Trả hàng ngày "+ VinPlayUtils.getYesterday(),
 						"Chúc mừng quý khách đã nhận về " + v
 								+ " tiền hoàn cược vào tài khoản chính theo chương trình hoàn trả mỗi ngày. \r\n"
-								+ "Chúc quý khách chơi to thắng lớn cùng Roy88");
+								+ "Chúc quý khách chơi to thắng lớn cùng Poker29");
 
 			});
 		}

@@ -73,7 +73,7 @@ public class UpdateWithdrawalStatusProcessor implements BaseProcessor<HttpServle
 		}
 		if (!validateRequest(orderId)) {
 			return BaseResponse.error(Constant.ERROR_DUPLICATE,
-					"Trong 20s chỉ được thao tác order này 1 lần , orderId=" + orderId);
+					"This order can only be processed once within 20 seconds, orderId=" + orderId);
 		}
 		
 		if(!LST_STATUS.contains(status)) {

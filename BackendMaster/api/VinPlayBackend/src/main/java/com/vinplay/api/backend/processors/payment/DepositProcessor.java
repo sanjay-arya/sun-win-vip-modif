@@ -55,7 +55,7 @@ public class DepositProcessor implements BaseProcessor<HttpServletRequest, Strin
 		logger.info("Request WithdrawalProcessor nickName= " + nickName + ", orderId: " + orderId
 				+ ", approvedName: " + approvedName  + " , ip: " + ip);
 		if (!validateRequest(orderId)) {
-			return BaseResponse.error(Constant.ERROR_DUPLICATE, "Trong 20s chỉ được thao tác orderId này 1 lần , orderId=" + orderId);
+			return BaseResponse.error(Constant.ERROR_DUPLICATE, "This orderId can only be manipulated once in 20 seconds, orderId=" + orderId);
 		}
 		if (StringUtils.isBlank(nickName)) {
 			return BaseResponse.error(Constant.ERROR_PARAM, "nickName is null or empty");
@@ -77,16 +77,16 @@ public class DepositProcessor implements BaseProcessor<HttpServletRequest, Strin
 			return BaseResponse.error(Constant.ERROR_PARAM, e.getMessage());
 		}
 		if (!CommonUtils.validateRequest(orderId)) {
-			return BaseResponse.error(Constant.ERROR_DUPLICATE, "Trong 20s chỉ được thao tác order này 1 lần , orderId=" + orderId);
+			return BaseResponse.error(Constant.ERROR_DUPLICATE, "This order can only be processed once within 20 seconds, orderId=" + orderId);
 		}
 		//check status
 		if(PayCommon.PAYSTATUS.FAILED.getId()==statusInt) {
 			if (StringUtils.isBlank(reason)) {
-				return BaseResponse.error(Constant.ERROR_PARAM, "bạn cần nhập lý do");
+				return BaseResponse.error(Constant.ERROR_PARAM, "you need to enter the reason");
 			}
 		}else {
 			if(PayCommon.PAYSTATUS.COMPLETED.getId()!=statusInt) {
-				return BaseResponse.error(Constant.ERROR_PARAM, "chỉ có thể chuyển về trạng thái complete/ fail ");
+				return BaseResponse.error(Constant.ERROR_PARAM, "Can only return to complete/fail state");
 			}
 		}
 		

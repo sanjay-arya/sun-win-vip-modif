@@ -199,8 +199,8 @@ implements RechargePrincePayService {
 			res.setData("sign is empty");
 			return res;
 		}
-		// call api		//amount=200000","uid=roy88","orderid=roy88","channel=908","notify_url=https://roy88.vip",
-		//"return_url=https://roy88.vip","userip=127.0.0.1","timestamp=1608823688","custom=nguyen"
+		// call api		//amount=200000","uid=poker29","orderid=poker29","channel=908","notify_url=https://poker29.vip",
+		//"return_url=https://poker29.vip","userip=127.0.0.1","timestamp=1608823688","custom=nguyen"
 		List<NameValuePair> urlParameters = new ArrayList<NameValuePair>();
 		urlParameters.add(new BasicNameValuePair("uid", config.getMerchantCode()));
 		urlParameters.add(new BasicNameValuePair("orderid", orderId));
@@ -544,8 +544,8 @@ implements RechargePrincePayService {
         }
     }
     public static void main(String[] args) {
-    	String [] xxx= {"amount=200000","uid=roy88","orderid=12280869","channel=908","notify_url=https://roy88.vip",
-    			"return_url=https://roy88.vip","userip=127.0.0.1","timestamp=1608823688","custom=nguyenz"};//,"key=IOXI4or5xIywV0hL"
+    	String [] xxx= {"amount=200000","uid=poker29","orderid=12280869","channel=908","notify_url=https://poker29.vip",
+    			"return_url=https://poker29.vip","userip=127.0.0.1","timestamp=1608823688","custom=nguyenz"};//,"key=IOXI4or5xIywV0hL"
     	Arrays.sort(xxx);
     	String t="";
     	for (String string : xxx) {

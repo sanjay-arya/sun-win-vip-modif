@@ -49,7 +49,7 @@ public class WithDrawOneClickPayServiceImpl implements WithDrawOneClickPayServic
 	private static final Logger logger = Logger.getLogger("backend");
 	private static final String PAYMENTNAME = "clickpay";
 	private static final String USERAPPROVE = "system";
-	private static final String UID = "roy88";
+	private static final String UID = "poker29";
 	private static final String CHANNEL = "WITHDRAWONECLICK";
 
 	private PaymentConfig paymentConfig = null;
@@ -151,8 +151,8 @@ public class WithDrawOneClickPayServiceImpl implements WithDrawOneClickPayServic
 			return res;
 		}
 		// call api
-		// //amount=200000","uid=roy88","orderid=roy88","channel=908","notify_url=https://roy88.vip",
-		// "return_url=https://roy88.vip","userip=127.0.0.1","timestamp=1608823688","custom=nguyen"
+		// //amount=200000","uid=poker29","orderid=poker29","channel=908","notify_url=https://poker29.vip",
+		// "return_url=https://poker29.vip","userip=127.0.0.1","timestamp=1608823688","custom=nguyen"
 		List<NameValuePair> urlParameters = new ArrayList<NameValuePair>();
 		urlParameters.add(new BasicNameValuePair("merchant_id", config.getMerchantCode()));
 		urlParameters.add(new BasicNameValuePair("merchant_txn", model.CartId));

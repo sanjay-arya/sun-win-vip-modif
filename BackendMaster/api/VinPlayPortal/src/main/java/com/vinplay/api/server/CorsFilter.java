@@ -31,12 +31,12 @@ public class CorsFilter implements Filter {
 				"Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers");
 		filterChain.doFilter(servletRequest, servletResponse);
 //		String[] allowDomain = { 
-//				"https://roy88.vip", 
-//				"https://play.roy88.vip",
-//				"https://roy88.vip", 
-//				"https://roy88.vip", 
-//				"https://roy88.vip", 
-//				"https://roy88.vip"
+//				"https://poker29.vip", 
+//				"https://play.poker29.vip",
+//				"https://poker29.vip", 
+//				"https://poker29.vip", 
+//				"https://poker29.vip", 
+//				"https://poker29.vip"
 //		};
 //		Set<String> allowedOrigins = new HashSet<String>(Arrays.asList(allowDomain));
 //		String originHeader = ((HttpServletRequest) servletRequest).getHeader("Origin");
