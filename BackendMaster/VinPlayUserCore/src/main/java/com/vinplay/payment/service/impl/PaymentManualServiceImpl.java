@@ -156,9 +156,9 @@ public class PaymentManualServiceImpl implements PaymentManualService {
 	 
 		@Override
 		public RechargePaywellResponse deposit(String nickName, String customerName, Long amount, String bankName,
-				String bankNum, String payType, String desc,String trId) {
+				String bankNum, String payType, String desc, String trId ) {
 			try {
-				return createOrder(nickName, customerName, amount, bankName, bankNum, payType, desc,trId);
+				return createOrder(nickName, customerName, amount, bankName, bankNum, payType, desc, trId );
 			} catch (Exception e) {
 				logger.error(e);
 				return new RechargePaywellResponse(1, 0L, 0, 0L, e.getMessage());
