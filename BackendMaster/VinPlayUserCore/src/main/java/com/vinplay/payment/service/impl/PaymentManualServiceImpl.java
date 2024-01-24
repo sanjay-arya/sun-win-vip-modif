@@ -133,7 +133,6 @@ public class PaymentManualServiceImpl implements PaymentManualService {
 	            model.ProviderName = PAYMENTNAME;
 	            model.ModifiedAt = "";
 	            model.Nickname = nickName;
-	            model.ReferenceId = "";
 	            model.RequestTime = VinPlayUtils.getCurrentDateTime();
 	            model.Status = PayCommon.PAYSTATUS.PENDING.getId();
 				model.Description = desc;
