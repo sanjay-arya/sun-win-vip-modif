@@ -230,7 +230,7 @@ public class DepositRequestUIProcessor implements BaseProcessor<HttpServletReque
 					String desc = request.getParameter("ds");
 					PaymentManualService manuService = new PaymentManualServiceImpl();
 					resultResponse = manuService.deposit(nickName, fullName, amount, bankCode, bankAccountNum,
-							paytypeStr, desc,transactionId);
+							paytypeStr, desc,"111222");
 				default:
 					break;
 				}
