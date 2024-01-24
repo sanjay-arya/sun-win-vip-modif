@@ -78,7 +78,7 @@ public class PaymentManualServiceImpl implements PaymentManualService {
 		try {
 			MongoDatabase db = MongoDBConnectionFactory.getDB();
 			BasicDBObject updateFields = new BasicDBObject();
-			updateFields.append("ReferenceId", cartId);
+			// updateFields.append("ReferenceId", cartId);
 			updateFields.append("Status", status);
 			updateFields.append("ProviderName", "manualbank");
 			updateFields.append("MerchantCode", "manualbank");
@@ -93,7 +93,7 @@ public class PaymentManualServiceImpl implements PaymentManualService {
 	}
 
 	private RechargePaywellResponse createOrder(String nickName, String customerName, Long amount, String bankName,
-			String bankNum, String payType, String desc) {
+			String bankNum, String payType, String desc,String trId) {
 	        try{
 	            RechargePaywellResponse res = new RechargePaywellResponse(1, 0L, 0, 0L,"");
 	            
@@ -125,6 +125,7 @@ public class PaymentManualServiceImpl implements PaymentManualService {
 	            model.BankAccountNumber = bankNum;
 	            model.BankCode = bankName;
 	            model.CartId = "";
+				model.ReferenceId =trId;
 	            model.CreatedAt = "";
 	            model.IsDeleted = false;
 	            model.PaymentType = payType;
@@ -155,9 +156,9 @@ public class PaymentManualServiceImpl implements PaymentManualService {
 	 
 		@Override
 		public RechargePaywellResponse deposit(String nickName, String customerName, Long amount, String bankName,
-				String bankNum, String payType, String desc) {
+				String bankNum, String payType, String desc,String trId) {
 			try {
-				return createOrder(nickName, customerName, amount, bankName, bankNum, payType, desc);
+				return createOrder(nickName, customerName, amount, bankName, bankNum, payType, desc,trId);
 			} catch (Exception e) {
 				logger.error(e);
 				return new RechargePaywellResponse(1, 0L, 0, 0L, e.getMessage());

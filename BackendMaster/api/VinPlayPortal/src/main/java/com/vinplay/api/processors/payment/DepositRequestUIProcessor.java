@@ -86,6 +86,7 @@ public class DepositRequestUIProcessor implements BaseProcessor<HttpServletReque
 		String payType = request.getParameter("pt");
 		String nickName = request.getParameter("nn");
 		String accessToken = request.getParameter("at");
+		String transactionId = request.getParameter("ti");
 		String providerName = request.getParameter("pn");// paywell or royalpay
 		String ip = getIpAddress(request);
 		logger.info("ipaddress1 :" + ip);
@@ -145,7 +146,7 @@ public class DepositRequestUIProcessor implements BaseProcessor<HttpServletReque
 					return BaseResponse.error(Constant.ERROR_PROVIDERNAME, "This payment gateway is not supported at this time");
 
 				long minAmount = config.getConfig().getMinMoney();
-				if (amount < 5000) {
+				if (amount < 1000) {
 					return BaseResponse.error(Constant.MIN_MONEY, "The deposit amount is too small");
 				}
 				if(PaymentConstant.PayType.MOMO_DEP.getKey() != payTypeInt) {
@@ -153,7 +154,7 @@ public class DepositRequestUIProcessor implements BaseProcessor<HttpServletReque
 						return BaseResponse.error(Constant.MIN_MONEY, "The deposit amount must be larger  " + minAmount +" MMK");
 					}
 				}else {
-					if (amount < 5000) {
+					if (amount < 1000) {
 						return BaseResponse.error(Constant.MIN_MONEY, "The deposit amount must be greater than  5,000 MMK");
 					}
 				}
@@ -229,7 +230,7 @@ public class DepositRequestUIProcessor implements BaseProcessor<HttpServletReque
 					String desc = request.getParameter("ds");
 					PaymentManualService manuService = new PaymentManualServiceImpl();
 					resultResponse = manuService.deposit(nickName, fullName, amount, bankCode, bankAccountNum,
-							paytypeStr, desc);
+							paytypeStr, desc,transactionId);
 				default:
 					break;
 				}
