@@ -106,10 +106,10 @@ public class GiftCodeUtil {
 		double amount = money;
 		UserBonusModel model = new UserBonusModel(nickName, eventId, amount, null, clientIp, "Khuyến mãi GIFTCODE EVENT"+eventId +" "+giftCode);
 //		if (userBonusService.isReceivedBonus(nickName, eventId) && giftcodeType == 0) {
-//			return new BaseResponse<String>(Constant.ERROR_SYSTEM, "Quý khách đã được nhận giftcode đợt này rồi");
+//			return new BaseResponse<String>(Constant.ERROR_SYSTEM, "You have already received the giftcode this time");
 //		}
 //		if(userBonusService.isSameIP(clientIp,eventId)) {
-//			return new BaseResponse<String>(Constant.ERROR_SAMEIP, "Quý khách vui lòng nhận giftcode đợt sau !");
+//			return new BaseResponse<String>(Constant.ERROR_SAMEIP, "Please receive the giftcode next time!");
 //		}
 		//UserBankService userBankService = new UserBankServiceImpl();
 		
@@ -126,7 +126,7 @@ public class GiftCodeUtil {
 		
 //		try {
 //			if (!userService.isXacThucSDT(nickName)) {
-//				return new BaseResponse<String>(Constant.ERROR_VERIFYPHONE, "Quý khách vui lòng xác thực SĐT để nhận giftcode");
+//				return new BaseResponse<String>(Constant.ERROR_VERIFYPHONE, "Please verify your phone number to receive the giftcode");
 //			}
 //		} catch (Exception e2) {
 //			return new BaseResponse<String>(Constant.ERROR_PARAM, e2.getMessage());

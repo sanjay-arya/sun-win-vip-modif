@@ -38,19 +38,19 @@ public class GiftCodeProcessor
             //switch case
             if (String.valueOf(errorCode).equals(Constant.ERROR_SYSTEM)) {
             	response.setErrorCode(errorCode+"");
-            	response.setMessage("Quý khách đã được nhận giftcode đợt này rồi");
+            	response.setMessage("You have already received the giftcode this time");
             	return response.toJson();
     		}else if (String.valueOf(errorCode).equals(Constant.ERROR_SAMEIP)) {
     			response.setErrorCode(errorCode+"");
-            	response.setMessage( "Quý khách vui lòng nhận giftcode đợt sau !");
+            	response.setMessage( "Please receive the giftcode next time!");
             	return response.toJson();
 			}else if (String.valueOf(errorCode).equals(Constant.ERROR_BANK_ADD)) {
 				response.setErrorCode(errorCode+"");
-            	response.setMessage("Quý khách vui lòng thêm tài khoản ngân hàng để nhận giftcode ");
+            	response.setMessage("Please add a bank account to receive giftcode");
             	return response.toJson();
 			}else if(String.valueOf(errorCode).equals(Constant.ERROR_VERIFYPHONE)){
 				response.setErrorCode(errorCode+"");
-            	response.setMessage("Quý khách vui lòng xác thực SĐT để nhận giftcode");
+            	response.setMessage("Please verify your phone number to receive the giftcode");
             	return response.toJson();
 			}else {
 				response.setErrorCode(errorCode + "");
