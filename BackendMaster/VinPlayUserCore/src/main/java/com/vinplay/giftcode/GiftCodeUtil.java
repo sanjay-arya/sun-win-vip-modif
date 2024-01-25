@@ -59,9 +59,9 @@ public class GiftCodeUtil {
         			break;
                 }
                 case GiftCodeType.ONE_FOR_MANY_USER: {
-                    if (!userService.isXacThucSDT(userName)) {
-                        return GiftCodeErrorCode.NOT_VERIFY_PHONE;
-                    }
+                    // if (!userService.isXacThucSDT(userName)) {
+                    //     return GiftCodeErrorCode.NOT_VERIFY_PHONE;
+                    // }
                     if(isUserUsedGiftCode(giftCodeModel.id,userName)){
                         return GiftCodeErrorCode.USER_USED;
                     }
@@ -115,13 +115,13 @@ public class GiftCodeUtil {
 		if (!userBankService.isAddBank(nickName)) {
 			return new BaseResponse<String>(Constant.ERROR_BANK_ADD, "Please add a bank account to receive giftcode");
 		}
-		try {
-			if (!userService.isXacThucSDT(nickName)) {
-				return new BaseResponse<String>(Constant.ERROR_VERIFYPHONE, "Please verify your phone number to receive the giftcode");
-			}
-		} catch (Exception e2) {
-			return new BaseResponse<String>(Constant.ERROR_PARAM, e2.getMessage());
-		}
+		// try {
+		// 	if (!userService.isXacThucSDT(nickName)) {
+		// 		return new BaseResponse<String>(Constant.ERROR_VERIFYPHONE, "Please verify your phone number to receive the giftcode");
+		// 	}
+		// } catch (Exception e2) {
+		// 	return new BaseResponse<String>(Constant.ERROR_PARAM, e2.getMessage());
+		// }
 		try {
 			userBonusService.insertBonus(model);
 			return new BaseResponse<String>("0","Chúc mừng quý khách đã nhận được giftcode ",null);
