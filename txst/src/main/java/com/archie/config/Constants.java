@@ -48,7 +48,7 @@ public final class Constants {
 	public static final int EXIST = -1;
 	
 	public static final int STATUS_FINISH = 1;
-	public static final int MIN_BALANCE_CHAT = 20000;
+	public static final int MIN_BALANCE_CHAT = 1000;
 	
 	public static final String POINT = ":";
 	

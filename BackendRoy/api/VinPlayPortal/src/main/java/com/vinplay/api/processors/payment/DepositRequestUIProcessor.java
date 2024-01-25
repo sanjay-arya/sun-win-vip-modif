@@ -105,7 +105,7 @@ public class DepositRequestUIProcessor implements BaseProcessor<HttpServletReque
 		}
 		
 		if (!validateRequest(nickName)) {
-			return BaseResponse.error(Constant.ERROR_DUPLICATE, "Trong 10s chỉ được yêu cầu nạp tiền 1 lần , tên nhân vật =" + nickName);
+			return BaseResponse.error(Constant.ERROR_DUPLICATE, "Only one deposit is required within 10 seconds,  name =" + nickName);
 		}
 		
 		logger.info("Deposit request nickName: " + nickName + ", accessToken: " + accessToken + ", providerName: "
@@ -118,13 +118,13 @@ public class DepositRequestUIProcessor implements BaseProcessor<HttpServletReque
 			}
 
 			if (StringUtils.isBlank(payType)) {
-				return BaseResponse.error(Constant.ERROR_PARAM, "Phương thức nạp tiền không đúng");
+				return BaseResponse.error(Constant.ERROR_PARAM, "Incorrect deposit method");
 			}
 			if (StringUtils.isBlank(providerName)) {
-				return BaseResponse.error(Constant.ERROR_PARAM, "Nhà cung cấp không đúng");
+				return BaseResponse.error(Constant.ERROR_PARAM, "Incorrect supplier");
 			}
 			if (StringUtils.isBlank(fullName)) {
-				return BaseResponse.error(Constant.ERROR_PARAM, "Họ tên chủ tài khoản không đúng");
+				return BaseResponse.error(Constant.ERROR_PARAM, "The account holder's name is incorrect");
 			}
 			int payTypeInt = 0;
 			try {
@@ -135,7 +135,7 @@ public class DepositRequestUIProcessor implements BaseProcessor<HttpServletReque
 			// validation paytype
 			if (PaymentConstant.PayType.ONLINE.getKey() != payTypeInt
 					&& PaymentConstant.PayType.OFFLINE.getKey() != payTypeInt&& PaymentConstant.PayType.MOMO_DEP.getKey() != payTypeInt) {
-				return BaseResponse.error(Constant.ERROR_PAYTYPE, "Phương thức thanh toán không đúng");
+				return BaseResponse.error(Constant.ERROR_PAYTYPE, "Payment method is incorrect");
 			}
 			boolean isToken = userService.isActiveToken(nickName, accessToken);
 			if (isToken) {
@@ -144,42 +144,42 @@ public class DepositRequestUIProcessor implements BaseProcessor<HttpServletReque
 				// check min amount
 				PaymentConfig config = payConfig.getConfigByKey(providerName);
 				if (config == null)
-					return BaseResponse.error(Constant.ERROR_PROVIDERNAME, "Không hỗ trợ cổng thanh toán này trong thời điểm hiện tại");
+					return BaseResponse.error(Constant.ERROR_PROVIDERNAME, "This payment gateway is not supported at this time");
 
 				long minAmount = config.getConfig().getMinMoney();
-				if (amount < 10000) {
-					return BaseResponse.error(Constant.MIN_MONEY, "Số tiền nạp quá nhỏ");
+				if (amount < 1000) {
+					return BaseResponse.error(Constant.MIN_MONEY, "The deposit amount is too small");
 				}
 				if(PaymentConstant.PayType.MOMO_DEP.getKey() != payTypeInt) {
 					if (minAmount > amount) {
-						return BaseResponse.error(Constant.MIN_MONEY, "Số tiền nạp phải lớn hơn  " + minAmount +" MMK");
+						return BaseResponse.error(Constant.MIN_MONEY, "The deposit amount must be larger  " + minAmount +" MMK");
 					}
 				}else {
-					if (amount < 20000) {
-						return BaseResponse.error(Constant.MIN_MONEY, "Số tiền nạp phải lớn hơn  20.000 MMK");
+					if (amount < 1000) {
+						return BaseResponse.error(Constant.MIN_MONEY, "The deposit amount must be greater than  1000 MMK");
 					}
 				}
 				
-				if(amount > 300000000) {
-					return BaseResponse.error(Constant.MAX_MONEY, "Số tiền nạp phải nhỏ hơn 300 triệu MMK");
+				if(amount > 1000000) {
+					return BaseResponse.error(Constant.MAX_MONEY, "The deposit amount must be less than 1000000 MMK");
 				}
 				// get usermodel
 				UserModel user = userService.getUserByNickName(nickName);
 				String userId = user.getId() + "";
 				String username = user.getUsername();
 				if(user.isBanLogin() ||user.isBanTransferMoney()||user.isBot()) {
-					return BaseResponse.error(Constant.ERROR_USERTYPE, "Quý khách đã bị cấm thực hiện chức năng này");
+					return BaseResponse.error(Constant.ERROR_USERTYPE, "You have been prohibited from performing this function");
 				}
 				// switch provider
 				RechargePaywellResponse resultResponse = null;
 				String paytypeStr = PayUtils.getPayType(payTypeInt, providerName);
 				if ("".equals(paytypeStr)) {
-					return BaseResponse.error(Constant.ERROR_PAYTYPE, "Hình thức thanh toán không đúng");
+					return BaseResponse.error(Constant.ERROR_PAYTYPE, "Payment form is incorrect");
 				}
 				switch (providerName) {
 				case PaymentConstant.PROVIDER.PAYWELL:
 					if (StringUtils.isBlank(bankCode)) {
-						return BaseResponse.error(Constant.ERROR_PARAM, "Mã ngân hàng không chính xác");
+						return BaseResponse.error(Constant.ERROR_PARAM, "Bank code is incorrect");
 					}
 					// check bankCode
 					List<BankConfig> lstBankConfig = config.getConfig().getBanks();
@@ -191,7 +191,7 @@ public class DepositRequestUIProcessor implements BaseProcessor<HttpServletReque
 						}
 					}
 					if (!isExist) {
-						return BaseResponse.error(Constant.ERROR_BANKCODE, "Chưa hỗ trợ ngân hàng này");
+						return BaseResponse.error(Constant.ERROR_BANKCODE, "This bank is not supported yet");
 					}
 					RechargePayWellService servicePaywell = new RechargePayWellServiceImpl();
 					resultResponse = servicePaywell.createTransaction(userId, username, nickName, fullName, amount,
@@ -217,7 +217,7 @@ public class DepositRequestUIProcessor implements BaseProcessor<HttpServletReque
 						return BaseResponse.error(Constant.ERROR_PARAM, "Thiếu số tài khoản ngân hàng");
 					}
 					return BaseResponse.error("1",
-							"Cổng thanh toán đang bảo trì , quý khách vui lòng thực hiện lại trong ít phút");
+							"The payment portal is under maintenance, please try again in a few minutes");
 //					RechargeService serviceManual = new RechargeServiceImpl();
 //					RechargeResponse res = serviceManual.rechargeByBankManual(nickName, amount, bankAccountNum);
 //					if (DvtConst.RECHARGE_STATUS_SUCCESS == res.getCode()) {
@@ -239,10 +239,10 @@ public class DepositRequestUIProcessor implements BaseProcessor<HttpServletReque
 					return new BaseResponse<>().success(resultResponse.getData());
 				} else if (PaymentConstant.MAINTAINCE == resultResponse.getCode()) {
 					return BaseResponse.error(resultResponse.getCode() + "",
-							"Cổng thanh toán đang bảo trì , quý khách vui lòng thực hiện lại trong ít phút");
+							"The payment portal is under maintenance, please try again in a few minutes");
 				}else if (PaymentConstant.TOO_MANY_REQUEST == resultResponse.getCode()) {
 					return BaseResponse.error(resultResponse.getCode() + "",
-							"Quá nhiều yêu cầu gửi tiền , quý khách vui lòng thực hiện lại trong ít phút");
+							"Too many deposit requests, please try again in a few minutes");
 				}
 				else {
 					return BaseResponse.error(resultResponse.getCode() + "", resultResponse.getData());
@@ -250,7 +250,7 @@ public class DepositRequestUIProcessor implements BaseProcessor<HttpServletReque
 				
 
 			} else {
-				return BaseResponse.error(Constant.ERROR_SESSION, "Phiên giao dịch của quý khách đã hết , vui lòng tải lại trang và đăng nhập");
+				return BaseResponse.error(Constant.ERROR_SESSION, "Your trading session has ended, please reload the page and log in");
 			}
 		} catch (Exception e) {
 			logger.error(e);
