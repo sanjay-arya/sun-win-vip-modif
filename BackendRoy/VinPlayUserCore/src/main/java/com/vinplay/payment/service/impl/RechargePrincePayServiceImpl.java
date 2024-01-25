@@ -72,17 +72,17 @@ implements RechargePrincePayService {
             PaymentConfigService paymentConfigService = new PaymentConfigServiceImpl();
             PaymentConfig paymentConfig = paymentConfigService.getConfigByKey(PAYMENTNAME);
             if(paymentType.equals("923")) {
-            	if (amount < 20000) {
-    				res.setData("Số tiền nạp nhỏ hơn 20.000 MMK");
+            	if (amount < 1000) {
+    				res.setData("The deposit amount is less than 1000 MMK");
     				return res;
     			}
-            	if (amount > 20000000) {
-    				res.setData("Số tiền nạp lớn hơn 20.000.000 MMK");
+            	if (amount > 1000000) {
+    				res.setData("Deposit amount greater than 1,000,000 MMK");
     				return res;
     			}
             }else {
             	if (amount < paymentConfig.getConfig().getMinMoney()) {
-    				res.setData("So tien nap nho hon so tien quy dinh");
+    				res.setData("The amount of money is smaller than the prescribed amount");
     				return res;
     			}
 			}
@@ -91,7 +91,7 @@ implements RechargePrincePayService {
             RechargePaygateDao rechargeDao = new RechargePaygateDaoImpl();
             if(rechargeDao.CheckPending(nickname, PAYMENTNAME)){
             	res.setCode(Consts.IN_COMPLETE);
-            	res.setData("Vui lòng hoàn thành đơn nạp tiền trước đó");
+            	res.setData("Please complete the deposit application in advance");
                 return res;
             }
 
@@ -118,7 +118,7 @@ implements RechargePrincePayService {
             model.UserApprove = USERAPPROVE;
             long id = rechargeDao.Add(model);
             if(id == 0){
-            	logger.error("Lỗi tạo bản ghi database mongo");
+            	logger.error("Error creating mongo database record");
                 return res;
             }
             res.setCode(0);

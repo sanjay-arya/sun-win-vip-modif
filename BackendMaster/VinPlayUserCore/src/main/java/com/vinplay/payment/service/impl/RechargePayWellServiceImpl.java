@@ -82,7 +82,7 @@ public class RechargePayWellServiceImpl implements RechargePayWellService {
             PaymentConfigService paymentConfigService = new PaymentConfigServiceImpl();
             PaymentConfig paymentConfig = paymentConfigService.getConfigByKey(PAYMENTNAME);
             if (amount < paymentConfig.getConfig().getMinMoney()) {
-				res.setData("So tien nap nho hon so tien quy dinh");
+				res.setData("The amount of money is smaller than the prescribed amount");
 				return res;
 			}
             //get pending transaction

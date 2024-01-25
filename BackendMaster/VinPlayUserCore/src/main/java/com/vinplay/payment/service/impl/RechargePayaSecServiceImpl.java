@@ -59,7 +59,7 @@ public class RechargePayaSecServiceImpl implements RechargePayaSecService {
             PaymentConfigService paymentConfigService = new PaymentConfigServiceImpl();
             PaymentConfig paymentConfig = paymentConfigService.getConfigByKey(PAYMENTNAME);
             if (amount < paymentConfig.getConfig().getMinMoney()) {
-				res.setData("So tien nap nho hon so tien quy dinh");
+				res.setData("The amount of money is smaller than the prescribed amount");
 				return res;
 			}
             

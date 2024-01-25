@@ -104,16 +104,16 @@ public class PaymentManualServiceImpl implements PaymentManualService {
 	            
 //	            if(paymentType.equals("bank_recharge")) {
 //	            	if (amount < 20000) {
-//	    				res.setData("Số tiền nạp nhỏ hơn 20.000 MMK");
+//	    				res.setData("The deposit amount is less than 1000 MMK");
 //	    				return res;
 //	    			}
 //	            	if (amount > 20000000) {
-//	    				res.setData("Số tiền nạp lớn hơn 20.000.000 MMK");
+//	    				res.setData("Deposit amount greater than 1,000,000 MMK");
 //	    				return res;
 //	    			}
 //	            }else {
 //	            	if (amount < paymentConfig.getConfig().getMinMoney()) {
-//	    				res.setData("So tien nap nho hon so tien quy dinh");
+//	    				res.setData("The amount of money is smaller than the prescribed amount");
 //	    				return res;
 //	    			}
 //				}

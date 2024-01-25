@@ -99,7 +99,7 @@ public class RechargeOneClickPayServiceImpl implements RechargeOneClickPayServic
 				return res;
 			}
 			if (amount < paymentConfig.getConfig().getMinMoney()) {
-				res.setData("So tien nap nho hon so tien quy dinh");
+				res.setData("The amount of money is smaller than the prescribed amount");
 				return res;
 			}
 
