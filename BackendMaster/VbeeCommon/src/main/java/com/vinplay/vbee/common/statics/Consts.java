@@ -396,27 +396,26 @@ public interface Consts {
 		int TEST_XD = 3;
 	}
 	interface MAIL{
-		String REGEX ="<on click='OpenURL' param = '%s'><i><b><u><color=#57FF08>TẠI ĐÂY</color></u></b></i></on>";
+		String REGEX ="<on click='OpenURL' param = '%s'><i><b><u><color=#57FF08>HERE</color></u></b></i></on>";
 		
-		String TITLE_WELCOME="Chào Mừng Tân Thủ Sun88";
-		String CONTENT_WELCOME = "Chúc mừng quý khách đã tạo thành công tài khoản tại Sun88! Chúng tôi hân hạnh gửi đến Quý Khách chương trình Khuyến Mãi chào mừng Tân Thủ. "
-				+ "Để nhận giftcode 79k free Quý Khách xin vui lòng xem chi tiết ";
-		String LINK_WELCOME = "https://news.sun88.link/Sun88-dang-ky-tai-khoan-nhan-ngay-79k/";
+		String TITLE_WELCOME="ငွေသွင်း ငွေထုတ် ဆိုင်ရာ";
+		String CONTENT_WELCOME = "- Kpay ဖြင့်ငွေသွင်းလျင် note တွင် တစ်ခုခုရေးပေးရန် \n မိမိ အကောင့်ဖြင့် ချိတ်ဆက်ထားသေား kpay or wave ဖြင့်သာ ငွေသွင်းငွေထုတ်ခွင့်ရှိသည် \n တစ်စုံတစ်ရာ အဆင်မပြေပါက telegram or viber တွင် ဆက်သွယ်မေးမြန်းနိင်ပါသည်";
+		String LINK_WELCOME = "https://news.poker29.space/1/";
 		
-		String TITLE_NAPDAU="Cơn Mưa Money Bonus NẠP ĐẦU Trên Sun88";
-		String CONTENT_NAPDAU = "Bất cứ giao dịch gửi tiền lần đầu nào khi tham gia chơi tại các sản phẩm: mini game, slot game và game bài trên Sun88 đều sẽ nhận được tiền thưởng tương ứng với giá trị tiền gửi nhất định. Để tham gia khuyến mãi xem chi tiết  ";
-		String LINK_NAPDAU = "https://news.sun88.link/con-mua-tien-thuong-khi-thuc-hien-giao-dich-gui-tien-tren-Sun88/";
+		String TITLE_NAPDAU="ကဒ်ဂိမ်းနှင့်ဆိုင်သော အကြောင်းအရာ";
+		String CONTENT_NAPDAU = "- ဖဲဂိမ်းများအားလုံးသည် ဗီယနမ် ၊ ထိုင်း ၊ မြန်မာ မှ player နှင့် ဆော့ရသော ကစားပွဲဖြစ်သည် ။ \n - မိမိတို့ ကံ ၊ ညဏ် ဖြင့်ဆော့ရသော ဂိမ်းဖြစ်သောကြောင့် လောဘမကြီးဖဲ သတိဖြင့် နိင်အောင် ဆော့ကစားရန်လိုအပ်ပါသည် ။ \n  - ဖဲကစားနည်းများကို နားမလည်လျင် telegram / viber မှ ကစားနည်းအသေးစိတ်ကို မေးမြန်းနိင်ပါသည် ။ \n - ပုံမှန်မဟုတ်သော ကစားသမားများနှင့် ပြသနာတစ်စုံတစ်ရာ ပေါ်ပေါက်လာပါက poker29 ဆုံးဖြတ်ချက်ကို ခံယူရပါမည် ။ ";
+		String LINK_NAPDAU = "https://news.poker29.link/2/";
 		
-		String TITLE_BONUS_DAU="Sun88 Thưởng 170% Gửi Money Lần Đầu";
-		String CONTENT_BONUS_DAU = "Chương trình chào mừng cổng game Sun88 cập bến Việt Nam, tặng ngay 100% tổng giá trị nạp tiền cho lần nạp tiền đâu tiên, 50% tổng giá trị nạp cho lần nạp tiền thứ 2 và 20% tổng giá trị nạp cho lần nạp tiền thứ 3, khi tham gia chơi tại các sản phẩm thể thao IBC, Cmd và Live Casino AG, Wm. Để tham gia khuyến mãi xem chi tiết ";
-		String LINK_BONUS_DAU = "https://news.sun88.link/Sun88-thuong-hon-12-trieu-dong-khuyen-mai-nap-tien/";
+		String TITLE_BONUS_DAU="စလော့ ငါးပစ်ဂိမ်းနှင့် ဆိုင်သော အကြောင်းအရာ";
+		String CONTENT_BONUS_DAU = "- နတ်ဘုရား တိုက်ပွဲနှင့် ကံကြမ္မာဖတ်ခြင်း ဂိမ်းတွင် ဘယ်ဖက်တွင်ရှိသော အစမ်းဆော့ခြင်း ခလုပ်အားနိပ်၍ မိမိ ငွေဖြင့်မဟုတ်ပဲ အစမ်းဆော့ကစားနိင်သည် ။ \n - ငါးပစ်ဂိမ်းနှင့်စလော့ဂိမ်းများ အားလုံးသည် live ဂိမ်းများဖြစ်ပြီး RTP အမြင့်ဆုံးပေးထားသောဂိမ်းများဖြစ်သောကြောင့် Big Win ပေါက်နိင်ချေများသောဂိမ်းများဖြစ်သည်။";
+		String LINK_BONUS_DAU = "https://news.poker29.space/3/";
 		
-		String TITLE_GIOVANG="Giờ Vàng Gửi Money, Nhận Ngàn Bonus Lớn";
-		String CONTENT_GIOVANG = "Đồng hành cùng các giải đấu bóng đá lớn như Euro 2020, Copa 2021, Sun88 tặng thưởng gửi tiền trong khung giờ vàng 20h tối đến 2h sáng lên đến 100% lên đến 2 triệu đồng, tham gia chơi bóng đá ủng hộ đội bóng ưa thích của mình ngay nhé. Để tham gia khuyến mãi xem chi tiết ";
-		String LINK_GIOVANG = "https://news.sun88.link/the-thao-gio-vang/";
+		String TITLE_GIOVANG="မီနီဂိမ်း နှင့် အခြားသောဂိမ်းများ";
+		String CONTENT_GIOVANG = "- အခြားသေားဂိမ်းများဆော့ရာတွင် အခြား player များ ကြန့်ကြာသည့်အခါ mini game ဟူသော အနီရောင်အဝိုင်းကို နိပ်၍ ဂိမ်းနှစ်ခု တစ်ပြိုင်နက်ထဲဆော့နိင်သည် ။ ";
+		String LINK_GIOVANG = "https://news.poker29.space/4/";
 		
-		String TITLE_TAIXIU="Giải đấu Over/under Sun88- Rộn ràng hơn 200 Triệu Money Bonus";
-		String CONTENT_TAIXIU = "Cơ hội nhận hơn 200 triệu tiền thưởng khi tham gia tại trò chơi Over/under tại Sun88. Để tham gia khuyến mãi xem chi tiết ";
-		String LINK_TAIXIU = "https://news.sun88.link/giai-dau-tai-xiu-Sun88/";
+		// String TITLE_TAIXIU="Giải đấu Over/under poker29- Rộn ràng hơn 200 Triệu Money Bonus";
+		// String CONTENT_TAIXIU = "Cơ hội nhận hơn 200 triệu tiền thưởng khi tham gia tại trò chơi Over/under tại poker29. Để tham gia khuyến mãi xem chi tiết ";
+		// String LINK_TAIXIU = "https://news.poker29.space/59/";
 	}
 }
