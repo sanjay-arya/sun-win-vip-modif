@@ -28,14 +28,14 @@ public interface EnumConstants {
 	enum ErrorBank {
 		SUCCESS(0, "Success"),
 		ERR_TRANSACTION(-99, "Error transaction"),
-		ERR_OVER_BANK_NUMBER(-1, "Quý khách đã thêm đủ 5 tài khoản ngân hàng , vui lòng liên hệ CSKH !"),
-		ERR_CUSTOMER_NAME(-2, "Chủ khoản phải trùng với tên chủ khoản đã thêm đầu tiên."),
-		ERR_EXISTED_BANK_NUMBER(-3, "Đã tồn tại số tài khoản này , vui lòng nhập lại"),
+		ERR_OVER_BANK_NUMBER(-1, "You have added 5 bank accounts, please contact customer service!"),
+		ERR_CUSTOMER_NAME(-2, "The account holder must match the first added account holder name."),
+		ERR_EXISTED_BANK_NUMBER(-3, "This account number already exists, please re-enter"),
 		ERR_NOT_EXIST_ID(-4, "not exist id"),
 		ERR_USER_NOT_EXIST(-5, "User not exist"),
 		ERR_RECORD_NOT_EXIST(-6, "Record not exist"),
-		ERR_CHANGE_BANKNUMBER(-7, "Quý khách không thể thay đổi STK ngân hàng . Vui lòng liên hệ CSKH !"),
-		ERR_CHANGE_CUSTOMERNAME(-8, "Quý khách không thể thay đổi tên chủ khoản . Vui lòng liên hệ CSKH !"),
+		ERR_CHANGE_BANKNUMBER(-7, "You cannot change bank STK. Please contact Customer Service!"),
+		ERR_CHANGE_CUSTOMERNAME(-8, "You cannot change the account holder name. Please contact Customer Service!"),
 		
 		ERR_SYSTEM(-100, "System error"),
 		;

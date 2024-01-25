@@ -285,11 +285,11 @@ public class ShotFishUtils {
 			}
 			// deposit
 			moneyResponse = moneyService.updateMoneyGame3rdUser(nickName, amount.longValue() * (-1), "vin", "fish",
-					"FISH_DEPOSIT", "NẠP TIỀN FISH", 0, false);
+					"FISH_DEPOSIT", "FISH RECHARGE", 0, false);
 		} else {
 			// withdraw
 			moneyResponse = moneyService.updateMoneyGame3rdUser(nickName, amount.longValue(), "vin", "fish",
-					"FISH_WITHDRAW", "RÚT TIỀN FISH", 0, false);
+					"FISH_WITHDRAW", "WITHDRAW FISH", 0, false);
 		}
 		if (moneyResponse != null && "0".equals(moneyResponse.getErrorCode())) {
 			return true;
@@ -310,7 +310,7 @@ public class ShotFishUtils {
 			UserService userService = new UserServiceImpl();
 			boolean isToken = userService.isActiveToken(nickname, accessToken);
 			if (!isToken) {
-				res.setData("Phiên làm việc của bạn đã hết hạn , vui lòng tải lại trang !");
+				res.setData("Your session has expired, please reload the page!");
 				res.setErrorCode(Constant.ERROR_SESSION);
 				return res;
 			}
@@ -322,7 +322,7 @@ public class ShotFishUtils {
 			}
 
 			if (userModel == null) {
-				res.setData("Tài khoản không đúng.");
+				res.setData("Incorrect account.");
 				res.setErrorCode(String.valueOf(Constant.ERROR_NOT_EXIST));
 				return res;
 			}
@@ -330,14 +330,14 @@ public class ShotFishUtils {
 			if (ischeckBalance) {
 				if (money > 0) {
 					if (userModel.isBanLogin() || userModel.isBot()) {
-						res.setData("Tài khoản bị khoá.");
+						res.setData("Account locked.");
 						res.setErrorCode(Constant.ERROR_USER_BAN);
 						return res;
 					}
 
 					long balance = userModel.getVin();
 					if (balance < money) {
-						res.setData("Số dư không đủ.");
+						res.setData("Insufficient balance.");
 						res.setErrorCode(Constant.MIN_MONEY);
 						return res;
 					}
@@ -447,7 +447,7 @@ public class ShotFishUtils {
 					logFishTransactionDao.Save(fishTransaction);
 					WithDraw(nickname, accessToken, money);
 					res.setMessage(
-							"Lỗi chuyển quỹ (deposit when login). Quý khách vui lòng thử lại lần nữa hoặc liên hệ với bộ phận CSKH để được hỗ trợ.");
+							"Fund transfer error (deposit when logging in). Please try again or contact customer service for support.");
 					return res;
 				}
 			}

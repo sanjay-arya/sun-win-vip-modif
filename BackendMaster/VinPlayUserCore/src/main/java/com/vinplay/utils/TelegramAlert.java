@@ -18,11 +18,11 @@ public class TelegramAlert {
     }
     public static boolean SendMessageCashout(UserWithdraw userWithdraw){
         try{
-            String message = "<b>Yêu cầu rút tiền từ User " + userWithdraw.Username + "</b>";
-            message += "\n Số tiền <b>"+ userWithdraw.Amount+ "</b>";
-            message += "\n Ngân hàng: <b>"+ userWithdraw.BankName+ "</b>";
-            message += "\nTên tài khoản <b>"+ userWithdraw.BankAccountName+ "</b>";
-            message += "\n Số tài khoản : <b>"+ userWithdraw.BankAccountNumber+ "</b>";
+            String message = "<b>Request withdrawal from User " + userWithdraw.Username + "</b>";
+            message += "\n Amount of money <b>"+ userWithdraw.Amount+ "</b>";
+            message += "\n Bank: <b>"+ userWithdraw.BankName+ "</b>";
+            message += "\n account name <b>"+ userWithdraw.BankAccountName+ "</b>";
+            message += "\n Account number : <b>"+ userWithdraw.BankAccountNumber+ "</b>";
             return SendMessage(message);
         }catch (Exception e){
             return false;
@@ -30,11 +30,11 @@ public class TelegramAlert {
     }
     public static boolean SendMessageDepositBank(DepositPaygateModel model){
         try{
-            String message = "<b>Yêu cầu nạp tiền qua Ngân Hàng User " + model.Nickname+ "</b>";
-            message += "\n Số tiền <b>"+ model.Amount+ "</b>";
-            message += "\n Ngân hàng: <b>"+ model.BankCode+ "</b>";
-            message += "\n Name tài khoản <b>"+ model.BankAccountName+ "</b>";
-            message += "\n Số tài khoản: <b>"+ model.BankAccountNumber+ "</b>";
+            String message = "<b>Request deposit via User Bank" + model.Nickname+ "</b>";
+            message += "\n Amount of money <b>"+ model.Amount+ "</b>";
+            message += "\n Bank: : <b>"+ model.BankCode+ "</b>";
+            message += "\n Account name : <b>"+ model.BankAccountName+ "</b>";
+            message += "\n Account number: <b>"+ model.BankAccountNumber+ "</b>";
             return SendMessage(message);
         }catch (Exception e){
             return false;
