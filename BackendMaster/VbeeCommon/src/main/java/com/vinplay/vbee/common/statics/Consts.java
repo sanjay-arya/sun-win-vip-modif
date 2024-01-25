@@ -414,8 +414,8 @@ public interface Consts {
 		String CONTENT_GIOVANG = "- အခြားသေားဂိမ်းများဆော့ရာတွင် အခြား player များ ကြန့်ကြာသည့်အခါ mini game ဟူသော အနီရောင်အဝိုင်းကို နိပ်၍ ဂိမ်းနှစ်ခု တစ်ပြိုင်နက်ထဲဆော့နိင်သည် ။ ";
 		String LINK_GIOVANG = "https://news.poker29.space/4/";
 		
-		// String TITLE_TAIXIU="Giải đấu Over/under poker29- Rộn ràng hơn 200 Triệu Money Bonus";
-		// String CONTENT_TAIXIU = "Cơ hội nhận hơn 200 triệu tiền thưởng khi tham gia tại trò chơi Over/under tại poker29. Để tham gia khuyến mãi xem chi tiết ";
-		// String LINK_TAIXIU = "https://news.poker29.space/59/";
+		String TITLE_TAIXIU="ပေါ်လစီ";
+		String CONTENT_TAIXIU =  "- တစ်ယူနစ်ကို မြန်မာငွေ တစ်ကျပ်နှုန်းဖြင့် မြန်မာငွေတစ်ထောင်ကျပ်မှ စ၍  အကန့်အသတ်မရှိ ငွေသွင်းငွေထုတ်ပြုလုပ်နိင်ပါသည် ။  \n - ပိတ်ရက်မရှိ ၂၄ နာရီဝန်ဆောင်မှု ပေးနေပါသည် ။";
+		String LINK_TAIXIU = "https://news.poker29.space/4/";
 	}
 }
