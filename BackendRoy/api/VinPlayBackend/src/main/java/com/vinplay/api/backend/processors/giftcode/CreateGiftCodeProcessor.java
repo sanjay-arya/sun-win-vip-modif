@@ -113,17 +113,17 @@ public class CreateGiftCodeProcessor implements BaseProcessor<HttpServletRequest
                 }
                 case GiftCodeType.ONE_FOR_ONE_USER: {
                     if(numberUsed == null || numberUsed.isEmpty()) {
-                        return BaseResponse.error("-1", "nu: Số lần sử dụng không được trống");
+                        return BaseResponse.error("-1", "nu: Number of uses cannot be empty");
                     } else {
                         try {
                             giftCodeModel.max_use = Integer.parseInt(numberUsed);
                             if(giftCodeModel.max_use < 1) {
-                                return BaseResponse.error("-1", "nu: Số lần sử dụng tối thiểu là 1");
-                            } else if(giftCodeModel.max_use > 1000) {
-                                return BaseResponse.error("-1", "nu: Số lần sử dụng không thể vượt quá 1000");
+                                return BaseResponse.error("-1", "nu: Minimum number of uses is 1");
+                            } else if(giftCodeModel.max_use > 5000) {
+                                return BaseResponse.error("-1", "nu:Number of uses cannot exceed  5000");
                             }
                         } catch (NumberFormatException e) {
-                            return BaseResponse.error("-1", "nu: Số lần sử dụng phải là số");
+                            return BaseResponse.error("-1", "nu: The number of uses must be numeric");
                         }
                     }
                     break;
