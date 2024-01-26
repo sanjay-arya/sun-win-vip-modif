@@ -69,7 +69,7 @@ public class WmGamesApi extends HttpServlet {
 			boolean isToken = userService.isActiveToken(nickName, accessToken);
 			if (!isToken) {
 				String baseResponse = BaseResponse.error(Constant.ERROR_SESSION,
-						"Phiên làm việc của bạn đã hết hạn , vui lòng tải lại trang !");
+						"Your session has expired, please reload the page!");
 				response.getWriter().println(baseResponse);
 				return;
 			}

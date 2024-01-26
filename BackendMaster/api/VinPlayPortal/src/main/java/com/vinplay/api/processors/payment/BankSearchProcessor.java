@@ -60,7 +60,7 @@ public class BankSearchProcessor implements BaseProcessor<HttpServletRequest, St
 		try {
 			boolean isToken = userService.isActiveToken(nickName, accessToken);
 			if (!isToken) {
-				return BaseResponse.error(Constant.ERROR_SESSION, "Phiên làm việc của bạn đã hết hạn , vui lòng tải lại trang !");
+				return BaseResponse.error(Constant.ERROR_SESSION, "Your session has expired, please reload the page!");
 			}
 			res = bankService.search(nickName, bankName, bankNumber, 0, pageNumber, limit);
 			if (res.getCode() == 0) {

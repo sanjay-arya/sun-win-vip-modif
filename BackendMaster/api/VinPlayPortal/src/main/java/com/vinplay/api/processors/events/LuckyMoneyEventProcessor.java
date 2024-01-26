@@ -69,7 +69,7 @@ public class LuckyMoneyEventProcessor implements BaseProcessor<HttpServletReques
 			boolean isToken = userService.isActiveToken(nickName, accessToken);
 			if (!isToken) {
 				return BaseResponse.error(Constant.ERROR_SESSION,
-						"Phiên làm việc của bạn đã hết hạn , vui lòng tải lại trang !");
+						"Your session has expired, please reload the page!");
 			}
 
 			BaseResponse<Object> res = new BaseResponse<Object>();

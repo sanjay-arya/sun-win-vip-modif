@@ -56,7 +56,7 @@ public class GetPaymentConfigProcessor implements BaseProcessor<HttpServletReque
 				}
 				
 			} else {
-				return BaseResponse.error("11", "Phiên làm việc của bạn đã hết hạn , vui lòng tải lại trang !");
+				return BaseResponse.error("11", "Your session has expired, please reload the page!");
 			}
 		} catch (Exception e) {
 			logger.error(e);

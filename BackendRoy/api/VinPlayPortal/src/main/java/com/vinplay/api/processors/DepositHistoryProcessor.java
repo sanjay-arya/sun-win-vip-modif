@@ -68,7 +68,7 @@ public class DepositHistoryProcessor implements BaseProcessor<HttpServletRequest
 			DepositPaygateReponse response= service.search(nickname, status, page, maxItem, fromTime, endTime, accessToken);
 			return new BaseResponse<>().success(response);
 		}else {
-			return BaseResponse.error(Constant.ERROR_SESSION, "Phiên làm việc của bạn đã hết hạn , vui lòng tải lại trang !");
+			return BaseResponse.error(Constant.ERROR_SESSION, "Your session has expired, please reload the page!");
 		}
 	}
 

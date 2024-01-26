@@ -39,7 +39,7 @@ public class CalculateDataHoanTraProcessor implements BaseProcessor<HttpServletR
 		UserService userService = new UserServiceImpl();
 		boolean isToken = userService.isActiveToken(nickname, accessToken);
 		if (!isToken) {
-			res.setData("Phiên làm việc của bạn đã hết hạn , vui lòng tải lại trang !");
+			res.setData("Your session has expired, please reload the page!");
 			res.setErrorCode(Constant.ERROR_SESSION);
 			return res.toJson();
 		}

@@ -68,7 +68,7 @@ public class WithdrawRequestUIProcessor implements BaseProcessor<HttpServletRequ
 		logger.info("Withdraw request nickName: " + nickName + ", accessToken: " + accessToken + ",ipaddress=" + ip);
 		
 		if (!validateRequest(nickName)) {
-			return BaseResponse.error(Constant.ERROR_DUPLICATE, "Trong 20s chỉ được yêu cầu rút tiền 1 lần , tên nhân vật =" + nickName);
+			return BaseResponse.error(Constant.ERROR_DUPLICATE, "You can only withdraw money once within 20 seconds, character name =" + nickName);
 		}
 		
 		if (StringUtils.isBlank(nickName) || StringUtils.isBlank(accessToken)) {
@@ -76,7 +76,7 @@ public class WithdrawRequestUIProcessor implements BaseProcessor<HttpServletRequ
 		}
 
 		if (StringUtils.isBlank(bankNumber)) {
-			return BaseResponse.error(Constant.ERROR_PARAM, "Name ngân hàng không được để trống");
+			return BaseResponse.error(Constant.ERROR_PARAM, "Bank name cannot be left blank");
 		}
 		
 		UserService userService = new UserServiceImpl();
@@ -86,23 +86,23 @@ public class WithdrawRequestUIProcessor implements BaseProcessor<HttpServletRequ
 			boolean isToken = userService.isActiveToken(nickName, accessToken);
 			if (isToken) {
 				// check min amount
-				if (amount < 100000) {
-					return BaseResponse.error(Constant.MIN_MONEY, "Số tiền rút quá nhỏ");
+				if (amount < 5000) {
+					return BaseResponse.error(Constant.MIN_MONEY, "ထုတ်ယူသောပမာဏသည်အလွန်နည်းသည်");
 				}
 				UserCacheModel user = userService.getUser(nickName);
 				RechargePaywellResponse response = withdrawService.requestWithdrawUser(user.getId() + "",
 						user.getUsername(), nickName, amount, bankNumber);
 				
 				if (response.getCode() == 88) {
-					return BaseResponse.error(Constant.NOT_DEPOSIT, "Quý khách vui lòng thực hiện lệnh nạp tiền trước !");
+					return BaseResponse.error(Constant.NOT_DEPOSIT, "Please make a deposit order in advance!");
 				} else if (response.getCode() == 89) {
-					return BaseResponse.error(Constant.OVER_WITHDRAW, "Quý khách được thực hiện tối đa 5 lần rút tiền thành công trong ngày !");
+					return BaseResponse.error(Constant.OVER_WITHDRAW, "You can make up to 5 successful withdrawals per day!");
 				} else {
 					return new BaseResponse<>().success(response);
 				}
 				
 			} else {
-				return BaseResponse.error(Constant.ERROR_SESSION, "Phiên làm việc của bạn đã hết hạn , vui lòng tải lại trang !");
+				return BaseResponse.error(Constant.ERROR_SESSION, "Your session has expired, please reload the page!");
 			}
 		} catch (Exception e) {
 			logger.error(e);

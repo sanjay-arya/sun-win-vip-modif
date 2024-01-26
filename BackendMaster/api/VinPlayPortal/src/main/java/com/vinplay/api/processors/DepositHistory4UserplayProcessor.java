@@ -107,7 +107,7 @@ public class DepositHistory4UserplayProcessor implements BaseProcessor<HttpServl
 				return new BaseResponse(true, "1001", null, null, 0).toJson();
 			}
 		}else {
-			return BaseResponse.error(Constant.ERROR_SESSION, "Phiên làm việc của bạn đã hết hạn , vui lòng tải lại trang !");
+			return BaseResponse.error(Constant.ERROR_SESSION, "Your session has expired, please reload the page!");
 		}
 	}
 
